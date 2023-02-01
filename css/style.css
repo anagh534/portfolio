@@ -1,0 +1,140 @@
+/* colours */
+
+:root {
+    --primary: #8e43e7;
+    --secondary: #273c66;
+    --main: #273c66;
+    --font: #696969;
+    --heading: #fff;
+    --bg: #fff;
+}
+
+/* common styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--font) !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--bg) !important;
+}
+
+section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* navbar section  */
+
+.navbar-brand span {
+    font-size: 30px !important;
+    font-weight: 600;
+    color: var(--primary) !important;
+}
+
+header {
+    box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
+    background-color: var(--heading);
+}
+
+section {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 90px;
+}
+
+.navbar-nav li a {
+    color: var(--font) !important;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 3px solid var(--primary);
+    color: var(--primary) !important;
+    font-size: 15px;
+}
+
+.navbar-nav li a:active {
+    color: var(--primary) !important;
+}
+
+.navbar-nav li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar-collapse i {
+    font-size: 18px;
+    color: var(--font);
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* hero section  */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left-section {
+    margin-top: calc(100vh - 610px);
+}
+
+.hero-left-section h4 {
+    color: var(--main) !important;
+}
+
+.hero-left-section h1 {
+    font-weight: 300;
+    color: var(--main) !important;
+}
+
+.hero-left-section h1 span {
+    font-weight: 500;
+    color: var(--main) !important;
+}
+
+.hero-left-section p {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 500;
+    color: var(--main) !important;
+}
+
+.hero-left-section .button-group {
+    margin-top: 32px;
+}
+
+.hero-left-section .button-group button:nth-child(1) {
+    padding: 15px 30px;
+    background-color: var(--primary) !important;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: white !important;
+    font-weight: 500;
+}
+
+.hero-left-section .button-group button:nth-child(2) {
+    padding: 15px 30px;
+    background-color: var(--bg) !important;
+    border: 1px solid var(--primary);
+    border-radius: 12px;
+    color: var(--primary) !important;
+    font-weight: 500;
+}
+
+.hero-right-section img {
+    width: 600px;
+    height: 600px;
+}
