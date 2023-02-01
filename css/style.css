@@ -46,12 +46,6 @@ header {
     background-color: var(--heading);
 }
 
-section {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 90px;
-}
-
 .navbar-nav li a {
     color: var(--font) !important;
     font-size: 18px;
@@ -83,8 +77,8 @@ section {
 /* hero section  */
 
 .hero-section {
-    display: flex;
-    justify-content: space-between;
+    height: 80vh;
+    margin-top: 80px;
 }
 
 .hero-left-section {
@@ -92,7 +86,7 @@ section {
 }
 
 .hero-left-section h4 {
-    color: var(--main) !important;
+    color: #273c66 !important;
 }
 
 .hero-left-section h1 {
@@ -110,6 +104,7 @@ section {
     line-height: 32px;
     font-weight: 500;
     color: var(--main) !important;
+    opacity: 0.7;
 }
 
 .hero-left-section .button-group {
@@ -135,9 +130,11 @@ section {
     font-weight: 500;
 }
 
+
 .hero-img {
     display: flex;
     border-radius: 50%;
+    width: 100%;
 }
 
 .hero-img img {
@@ -145,7 +142,7 @@ section {
     width: 390px;
     height: 390px;
     border: 10px solid #8e43e7;
-    margin-top: calc(100vh - 680px);
+    margin-top: calc(100vh - 640px);
 }
 
 /* intro section  */
@@ -167,7 +164,20 @@ section {
 }
 
 .intro-right-section {
-    margin-left: 40px;
+    margin-left: 75px;
+}
+
+.intro-right-section h1 {
+    font-weight: 500;
+    color: var(--main) !important;
+}
+
+.intro-right-section h4 {
+    color: #273c66 !important;
+}
+
+.intro-right-section p {
+    opacity: 0.7;
 }
 
 .intro-right-section button {
@@ -178,4 +188,21 @@ section {
     border-radius: 12px;
     color: white !important;
     font-weight: 500;
+}
+
+/* services section  */
+
+.service {
+    height: 80vh;
+}
+
+.service h4 {
+    color: #273c66 !important;
+    text-align: center;
+}
+
+.service h1 {
+    font-weight: 500;
+    color: var(--main) !important;
+    text-align: center;
 }
