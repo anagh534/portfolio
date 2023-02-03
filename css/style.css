@@ -161,19 +161,25 @@ header {
 .intro-left-section img {
     position: relative;
     border-radius: 12px;
+    width: 400px;
+    height: 400px;
 }
 
 .intro-right-section {
-    margin-left: 75px;
+    margin-left: 40px;
+    margin-top: 50px;
 }
 
 .intro-right-section h1 {
     font-weight: 500;
     color: var(--main) !important;
+    margin-bottom: 20px;
 }
 
-.intro-right-section h4 {
+.intro h4 {
     color: #273c66 !important;
+    text-align: center;
+    margin: 20px;
 }
 
 .intro-right-section p {
@@ -188,6 +194,8 @@ header {
     border-radius: 12px;
     color: white !important;
     font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* services section  */
@@ -210,6 +218,10 @@ header {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    section{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     .hero-left-section{
         margin-top: 10vh;
     }
@@ -227,6 +239,10 @@ header {
         justify-content: center;
     }
     .intro{
-        height: 123vh;
+        height: 110vh;
+    }
+    .intro-right-section{
+        margin-left: 0;
+        padding: 10px;
     }
 }
