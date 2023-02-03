@@ -9,7 +9,7 @@ function changeTheme() {
 
     if (theme) {
         icon.classList.replace("fa-moon", "fa-sun");
-        r.style.setProperty('--bg', '#131617');
+        r.style.setProperty('--bg', '#222');
         r.style.setProperty('--font', '#fff');
         r.style.setProperty('--heading', '#000');
         r.style.setProperty('--main', '#fff');
@@ -17,7 +17,7 @@ function changeTheme() {
     } else {
         icon.classList.replace("fa-sun", "fa-moon");
         r.style.setProperty('--font', '#000');
-        r.style.setProperty('--bg', '#fff');
+        r.style.setProperty('--bg', '#bbb');
         r.style.setProperty('--heading', '#fff');
         r.style.setProperty('--main', '#273c66');
         r.style.setProperty('--border-light', '#ddd');

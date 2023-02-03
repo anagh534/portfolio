@@ -6,7 +6,7 @@
     --main: #273c66;
     --font: #696969;
     --heading: #fff;
-    --bg: #fff;
+    --bg: #bbb;
     --border-light: #ddd;
 }
 
@@ -43,7 +43,7 @@ section {
 
 header {
     box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
-    background-color: var(--heading);
+    background-color: var(--border-light);
 }
 
 .navbar-nav li a {
