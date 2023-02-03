@@ -82,7 +82,7 @@ header {
 }
 
 .hero-left-section {
-    margin-top: calc(100vh - 610px);
+    margin-top: 17vh;
 }
 
 .hero-left-section h4 {
@@ -134,15 +134,16 @@ header {
 .hero-img {
     display: flex;
     border-radius: 50%;
-    width: 100%;
+    position: relative;
 }
 
 .hero-img img {
     border-radius: 50%;
-    width: 390px;
-    height: 390px;
     border: 10px solid #8e43e7;
-    margin-top: calc(100vh - 640px);
+    position: absolute;
+    top: 17vh;
+    width: 350px;
+    height: 350px;
 }
 
 /* intro section  */
@@ -154,12 +155,11 @@ header {
 .intro {
     display: flex;
     align-items: center;
-    height: 90vh;
+    height: 80vh;
 }
 
 .intro-left-section img {
-    width: 400px;
-    height: 400px;
+    position: relative;
     border-radius: 12px;
 }
 
@@ -205,4 +205,28 @@ header {
     font-weight: 500;
     color: var(--main) !important;
     text-align: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hero-left-section{
+        margin-top: 10vh;
+    }
+    .hero-img img{
+        display: none !important;
+    }
+    .intro-left-section{
+        display: flex;
+        justify-content: center;
+    }
+    .intro-left-section img{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 4px;
+        justify-content: center;
+    }
+    .intro{
+        height: 123vh;
+    }
 }
