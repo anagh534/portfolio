@@ -216,6 +216,48 @@ header {
     text-align: center;
 }
 
+.service .card {
+    height: 18rem;
+    background-color: #273c66;
+    opacity: 0.9;
+    transition: 0.5s ease-in-out;
+}
+
+.service .card:hover{
+    transform: scale(1.04);
+}
+
+.service-card h5 {
+    padding: 10px;
+    font-weight: 700;
+    color: var(--primary) !important;
+}
+
+.service-card p {
+    padding: 10px;
+    color: #eee !important;
+}
+
+.service-card a {
+    color: #eee !important;
+    padding: 10px 15px;
+    margin: 10px;
+    text-decoration: none;
+    bottom: 0;
+    position: absolute;
+    transition: 0.1s linear;
+}
+
+.service-card a:hover {
+    border-bottom: 2px solid var(--primary);
+    color: var(--primary) !important;
+}
+
+.service-card i{
+    color: white !important;
+    padding: 10px;
+    font-size: 2rem;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -256,5 +298,9 @@ header {
 
     .intro-right-section h1 {
         font-size: 23px;
+    }
+
+    .service .card {
+        height: 22rem;
     }
 }
