@@ -220,7 +220,7 @@ header {
 
 .service .card {
     height: 18rem;
-    background-color: #273c66;
+    background-color: #444;
     opacity: 0.9;
     transition: 0.5s ease-in-out;
     position: relative;
@@ -266,7 +266,7 @@ header {
 
 footer {
     padding: 28px;
-    background-color: var(--main);
+    background-color: #273c66;
     opacity: 0.87;
 }
 
