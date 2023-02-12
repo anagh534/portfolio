@@ -43,9 +43,10 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
 
     <!-- navbar -->
-    <header class="fixed-top">
+    <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
@@ -245,6 +246,13 @@
         </div>
     </footer>
 
+    <script>
+        window.onload = function () {
+            document.querySelector("header").classList.add("fixed-top")
+            let loader = document.getElementById("preloader")
+            loader.style.display = "none";
+        }
+    </script>
 
     <!-- font awesome 6.2.1 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
