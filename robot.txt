@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: 
-Sitemap: https://anagh.live/sitemap.xml
+Sitemap: 
+https://anagh534.github.io/portfolio/sitemap.xml
