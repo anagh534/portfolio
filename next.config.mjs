@@ -13,6 +13,7 @@ const nextConfig = {
         ],
         // Add the external domain here
     },
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/anagh534.github.io/' : '',
 };
 
 export default nextConfig;
