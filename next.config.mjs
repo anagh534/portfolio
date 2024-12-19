@@ -13,7 +13,6 @@ const nextConfig = {
         ],
         // Add the external domain here
     },
-    assetPrefix:'/anagh534.github.io/',
 };
 
 export default nextConfig;
