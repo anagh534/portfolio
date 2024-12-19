@@ -13,6 +13,7 @@ const nextConfig = {
         ],
         // Add the external domain here
     },
+    target: 'serverless',
 };
 
 export default nextConfig;
