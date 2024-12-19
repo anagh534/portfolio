@@ -1,6 +1,16 @@
 import ServiceComponent from "./ServiceComponent";
 import './services.css'
-
+export const metadata = {
+    title: "Anagh K R - Expert Services in Web & App Development | Kasaragod, Kerala",
+    description: "Discover Anagh K R’s professional services in web and app development from Kasaragod, Kerala. Specializing in Flutter app development, MERN stack web development, e-commerce solutions, and more. Offering custom solutions for your digital needs, from secure file handling to scalable applications. Connect with a dedicated professional who delivers exceptional results with a user-first approach.",
+    keywords: "Web development services, App development Kasaragod, Flutter developer Kerala, MERN stack development, E-commerce solutions Kasaragod, Secure file handling, Custom web applications, Full-Stack Developer Kasaragod, Kasaragod-based Flutter app development, Digital solutions expert Kerala, Innovative web and app development, Professional developer services in Kerala, Kasaragod web design and development",
+    author: "ANAGH K R",
+    robots: "index, follow",
+    ogTitle: "Anagh K R - Expert Services in Web & App Development | Kasaragod, Kerala",
+    ogDescription: "Discover Anagh K R’s professional services in web and app development from Kasaragod, Kerala. Specializing in Flutter app development, MERN stack web development, e-commerce solutions, and more. Offering custom solutions for your digital needs, from secure file handling to scalable applications. Connect with a dedicated professional who delivers exceptional results with a user-first approach.",
+    ogUrl: "https://anagh534.github.io/about",
+    // ogImage: "https://yourwebsite.com/path/to/image.jpg"
+};
 export default function Services() {
     return (
         <div className="dark">
