@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://anagh534.github.io
+
+# Sitemaps
+Sitemap: https://anagh534.github.io/sitemap.xml
