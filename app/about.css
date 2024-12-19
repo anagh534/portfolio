@@ -1,0 +1,31 @@
+#about{
+    background: url('/assets/about-bg.webp');
+}
+.about-top{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+.about-top img{
+    height: 75px;
+}
+.about-bottom{
+    display: flex;
+    align-items: center;
+}
+.about-right{
+    display: flex;
+    justify-content: center;
+}
+.about-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-bg{
+    background-color: #12F7D6 !important;
+    color: black;
+}
+.btn-bg:hover{
+    color: black !important;
+}

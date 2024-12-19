@@ -1,0 +1,27 @@
+:root {
+    --brand1: #12F7D6; 
+  }
+.skills {
+    padding-bottom: 5rem;
+    background-color: #292f36;
+    color: #fff;
+}
+.scroll{
+    display: flex;
+    justify-content: center;
+}
+.scroll img{
+    height: 75px;
+    width: auto;
+    margin: 20px 0 20px 0;
+}
+h2{
+    color: var(--brand1) !important;
+}
+.card{
+    background-color: var(--brand1) !important;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}

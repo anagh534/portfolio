@@ -1,0 +1,9 @@
+.works {
+    background: url('/assets/works.webp') no-repeat center;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.project-image {
+    width: 30rem;
+}
