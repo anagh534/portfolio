@@ -19,10 +19,10 @@ const Footer = () => {
                         <a href="https://wa.me/+918075541805" className="me-4 text-reset">
                             <i className="fab fa-whatsapp"></i>
                         </a>
-                        <a href="https://instagram.com/mr._uni__que___" className="me-4 text-reset">
+                        <a href="https://instagram.com/mr._uni_que___" className="me-4 text-reset">
                             <i className="fab fa-instagram"></i>
                         </a>
-                        <a href="https://linkedin.com/anagh-k-r" className="me-4 text-reset">
+                        <a href="https://www.linkedin.com/in/anagh-k-r/" className="me-4 text-reset">
                             <i className="fab fa-linkedin"></i>
                         </a>
                         <a href="https://github.com/anagh534" className="me-4 text-reset">
