@@ -8,7 +8,7 @@ export default function Contact() {
                 </div>
                 <div className="row text-center pb-5">
                     <h2>Contact</h2>
-                    <p>I’m currently available for freelance work</p>
+                    <p>I’m currently available for freelance projects in Kasaragod, Kerala, and beyond.<br/> Whether you need e-commerce development, website redesign, or mobile app development, I’d love to collaborate with you.</p>
                 </div>
                 <div className="container">
                     <form method='post'>
