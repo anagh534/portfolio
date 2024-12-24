@@ -11,7 +11,7 @@ export default function Hero() {
 
         {/* Left Section - Profile Card */}
         <div className="col-md-4 mb-4">
-          <div className="card text-center bg-dark text-light p-3" style={{ borderRadius: '16px', border: '3px solid #28c3b3' }}>
+          <div className="card text-center bg-dark text-light p-4" style={{ borderRadius: '16px', border: '3px solid #28c3b3' }}>
             <Image
               src='/assets/profile.webp'
               alt="profile"
@@ -21,7 +21,7 @@ export default function Hero() {
             />
             <div className="card-body">
               <h3 className="mb-3">ANAGH K R</h3>
-              <p>Full-stack Developer</p>
+              <p> Affordable Web Design | Flutter Developer in Kasaragod | App Development Services in Kerala </p>
               <p><i className="fas fa-envelope"></i> anaghkrkkl@gmail.com</p>
               <p><i className="fas fa-map-marker-alt"></i> Kasaragod, Kerala</p>
               {/* <p><i className="fas fa-briefcase"></i> Full-time / Freelancer</p> */}
@@ -40,12 +40,12 @@ export default function Hero() {
 
         {/* Right Section */}
         <div className="col-md-8">
-          <div className="text-center text-md-start mb-5">
+          <div className="text-center text-md-start mb-5 mt-5">
             <h1>
               Hey, <br /> I'm <span className="text">ANAGH</span>,<br />
             </h1>
             <p>
-              I help businesses grow by crafting amazing web experiences. <br /> If you’re looking for a developer that likes to get stuff done, let's talk!
+            Looking for expert web and app development services in Kerala?<br/> I’m Anagh, a professional Flutter developer and freelance web designer based in Kasaragod. I specialize in creating custom websites, mobile apps, and responsive designs tailored for businesses of all sizes. From startups to established companies,<br/> I provide affordable and high-quality solutions that drive results.
             </p>
             <a href="mailto:anaghkrkkl@gmail.com" className="btn btn-bg">
               Let's Talk <i className="fas fa-envelope"></i>
