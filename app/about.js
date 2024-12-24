@@ -15,10 +15,8 @@ export default function About(){
                         </div>
                         <div className="card text-center bg-dark text-light p-3 mb-5" style={{ borderRadius: '15px' }}>
                             <p style={{ textAlign: 'left' }}>
-                                <span style={{ fontSize: '22px', color: '#12F7D6' }}>Hello!</span> <br />
-                                My name is ANAGH and I specialize in web developement, app developement that utilizes <span style={{ color: '#12F7D6' }}>HTML, CSS, JS, REACT, NODEJS, EXPRESS <br /> and FLUTTER</span> etc. <br />
-                                I am a highly motivated individual and eternal optimist dedicated to writing clear, concise, robust code that works. Striving to never stop learning and improving. <br />
-                                I like to have my perspective and belief systems challenged so that I see the world through new eyes. <br />
+                                <span style={{ fontSize: '22px', color: '#12F7D6',fontWeight:'bold' }}>Hello!</span> <br /><br/>
+                                I’m Anagh, a freelance web developer and designer based in Kasaragod, Kerala.<br/> I’ve worked with over 25+ clients to create impactful portfolio websites, e-commerce platforms, and business websites.I specialize in building scalable solutions using the latest technologies, including Flutter, React, and Node.js.<br/> My mission is to help businesses grow by delivering affordable, high-quality web and app development services in Kerala and beyond.
                             </p>
                             <Link href="/about" className='btn btn-bg'>Know More</Link>
                         </div>
