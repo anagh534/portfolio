@@ -6,7 +6,7 @@ import CountUp from 'react-countup'
 
 export default function Hero() {
   return (
-    <div className="container-fluid bg-dark text-light mt-5 p-5" >
+    <div id='hero' className="container-fluid bg-dark text-light mt-5 p-5" >
       <div className="row">
 
         {/* Left Section - Profile Card */}

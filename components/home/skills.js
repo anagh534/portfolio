@@ -1,7 +1,7 @@
 import './skills.css'
 export default function Skills() {
     return (
-        <div className="skills">
+        <div className="skills" id='skills'>
             <div className="container pt-3 pb-5">
                 <div className="row scroll">
                     <img src='/assets/scroll.webp' className='img-fluid' alt="" />

@@ -3,7 +3,7 @@ import './works.css'
 
 export default function Works() {
     return (
-        <div className='works'>
+        <div className='works' id="works">
             <div className="container">
                 <div className="row scroll">
                     <img src='assets/scroll.webp' className='img-fluid' alt="" />
