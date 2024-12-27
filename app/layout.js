@@ -35,6 +35,8 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
           integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
           crossOrigin="anonymous" referrerPolicy="no-referrer" />
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml"></link>
+        <link rel="sitemap" type="application/xml" title="Sitemap-0" href="/sitemap-0.xml"></link>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Navbar />
