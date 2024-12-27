@@ -1,8 +1,8 @@
-export default function ServiceComponent({image,description,title}) {
+export default function ServiceComponent({image,description,title,alt=""}) {
     return (
         <article className="postcard dark blue">
             <a className="postcard__img_link" href="#">
-                <img className="postcard__img"   src={image} alt={description} />
+                <img className="postcard__img"   src={image} alt={alt} />
             </a>
             <div className="postcard__text">
                 <h1 className="postcard__title blue">{title}</h1>
