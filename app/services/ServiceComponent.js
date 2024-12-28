@@ -5,7 +5,7 @@ export default function ServiceComponent({image,description,title,alt=""}) {
                 <img className="postcard__img"   src={image} alt={alt} />
             </a>
             <div className="postcard__text">
-                <h1 className="postcard__title blue">{title}</h1>
+                <h2 className="postcard__title blue">{title}</h2>
                 <div className="postcard__subtitle small">
                     {/* <time datetime="2020-05-25 12:00:00">
                         <i className="fas fa-calendar-alt mr-2"></i> Mon, May 25th 2020
