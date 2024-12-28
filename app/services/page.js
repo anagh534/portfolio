@@ -9,6 +9,7 @@ export const metadata = {
     ogTitle: "Anagh K R - Expert Services in Web & App Development | Kasaragod, Kerala",
     ogDescription: "Discover Anagh K R’s professional services in web and app development from Kasaragod, Kerala. Specializing in Flutter app development, MERN stack web development, e-commerce solutions, and more. Offering custom solutions for your digital needs, from secure file handling to scalable applications. Connect with a dedicated professional who delivers exceptional results with a user-first approach.",
     ogUrl: "https://anagh534.github.io/services",
+    canonical: "https://anagh534.github.io/services",
     // ogImage: "https://yourwebsite.com/path/to/image.jpg"
 };
 export default function Services() {
