@@ -13,6 +13,7 @@ module.exports = {
     return [
       { loc: '/about', changefreq: 'weekly', priority: 0.8 },
       { loc: '/services', changefreq: 'weekly', priority: 0.9 },
+      { loc: '/resume', changefreq: 'weekly', priority: 0.5 },
     ];
   },
 };

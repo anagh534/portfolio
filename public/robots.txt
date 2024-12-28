@@ -7,3 +7,4 @@ Host: https://anagh534.github.io
 
 # Sitemaps
 Sitemap: https://anagh534.github.io/sitemap.xml
+Sitemap: https://anagh534.github.io/sitemap-0.xml
