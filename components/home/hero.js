@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import './hero.css'
 import CountUp from 'react-countup'
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -31,9 +32,9 @@ export default function Hero() {
                 <span className="badge mx-1"><i className="fa-brands fa-node"></i> MERN STACK</span>
                 <span className="badge mx-1"><i className="fa-brands fa-flutter"></i> FLUTTER</span>
               </div>
-              <button className="btn btn-bg" >
+              <Link href='/resume' className="btn btn-bg" >
                 Download CV <i className="fas fa-download"></i>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
