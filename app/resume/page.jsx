@@ -1,32 +1,21 @@
-'use client'
-import { useEffect } from 'react';
+import ResumeComponent from './ResumeComponent';
+
+export const metadata = {
+  title: "Anagh K R - Expert Services in Web & App Development | Kasaragod, Kerala",
+  description: "Discover Anagh K R’s professional services in web and app development from Kasaragod, Kerala. Specializing in Flutter app development, MERN stack web development, e-commerce solutions, and more. Offering custom solutions for your digital needs, from secure file handling to scalable applications. Connect with a dedicated professional who delivers exceptional results with a user-first approach.",
+  keywords: "anagh resume,flutter developer kanhagad, flutter developer kannur, website developer kanhagad, website developer kannur, affordable website,free website kerala, web developer in kerala, website design in kasaragod, anagh k r website, legacycoder",
+  author: "ANAGH K R",
+  robots: "index, follow",
+  ogTitle: "Anagh K R - Expert Services in Web & App Development | Kasaragod, Kerala",
+  ogDescription: "Discover Anagh K R’s professional services in web and app development from Kasaragod, Kerala. Specializing in Flutter app development, MERN stack web development, e-commerce solutions, and more. Offering custom solutions for your digital needs, from secure file handling to scalable applications. Connect with a dedicated professional who delivers exceptional results with a user-first approach.",
+  ogUrl: "https://anagh534.github.io/resume",
+  canonical: "https://anagh534.github.io/resume",
+  // ogImage: "https://yourwebsite.com/path/to/image.jpg"
+};
 
 const ResumePage = () => {
-
-  useEffect(() => {
-    // Automatically trigger the download when the user visits the page
-    const link = document.createElement('a');
-    link.href = '/ANAGH-K-R-MERN-STACK-DEVELOPER.pdf';  // Path to your resume file in the public folder
-    link.download = 'ANAGH-K-R-MERN-STACK-DEVELOPER.pdf';  // Name of the file when downloaded
-    link.click();
-
-    // Optionally, redirect the user after the download starts
-    // router.push('/');  // Redirects to home after download
-  }, []);
-
   return (
-    <div>
-      <div className="container text-center">
-        <h1>Downloading your resume...</h1>
-        <p>If your resume doesn't download automatically, click the link below:</p>
-        <a href="/ANAGH-K-R-MERN-STACK-DEVELOPER.pdf" download="ANAGH-K-R-MERN-STACK-DEVELOPER.pdf">
-          Download my CV
-        </a>
-        <div className="row">
-          <img src="/resume.jpg" alt="ANAGH K R RESUME" />
-        </div>
-      </div>
-    </div>
+    <ResumeComponent />
   );
 };
 
