@@ -15,9 +15,10 @@ export default function About() {
             <div className="container mt-5">
                 <div className="row">
                     <div className="col-lg-12 mt-5">
-                        <h2>About Me</h2>
+                        <h2>ABOUT ME - ANAGH K R</h2>
+                        <h5><b>MERN Stack Developer | Flutter App Developer | UI/UX Designer | Dotnet</b></h5>
                         <p>
-                            Hello, I’m <strong>Anagh K R</strong>, a passionate <strong>MERN Stack Developer</strong> and
+                            👋 Hello, I’m <strong>Anagh K R</strong>, a passionate <strong>MERN Stack Developer</strong> and
                             <strong> Flutter App Developer</strong> based in <strong>Kasaragod, Kerala</strong>. I specialize in
                             crafting intuitive and efficient digital solutions for both web and mobile platforms. With a relentless dedication to
                             learning and a knack for solving complex problems, I strive to deliver clean, robust, and scalable code that powers
@@ -28,11 +29,21 @@ export default function About() {
                     <div className="col-lg-12 mt-5">
                         <h2>Who I Am</h2>
                         <p>
-                            From developing dynamic web applications to creating interactive mobile apps, my expertise spans multiple
-                            technologies, including <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>,
-                            <strong>React</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, and <strong>Flutter</strong>. I am
-                            driven by a commitment to continuous improvement, staying updated with the latest trends and technologies to ensure my
-                            work is innovative and future-ready.
+                            With a background in MERN stack (MongoDB, Express.js, React.js, Node.js) and Flutter cross-platform mobile development, I bring ideas to life with clean, maintainable, and efficient code. My skill set also includes:
+
+                            Frontend: HTML, CSS, JavaScript, React.js, Next js
+
+                            Backend: Node.js, Express.js, Go, Laravel, Php
+
+                            Mobile Apps: Flutter (iOS and Android)
+
+                            Design: Figma, Adobe Photoshop
+
+                            SEO & Performance Optimization
+
+                            Desktop Apps: Dotnet Avalonia
+
+                            I stay updated with the latest technologies and trends to ensure the solutions I deliver are modern, secure, and future-proof.
                         </p>
                     </div>
 
