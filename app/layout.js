@@ -34,6 +34,30 @@ export default function RootLayout({ children }) {
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
           crossOrigin="anonymous"></script>
       </body>
+            <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "ANAGH K R",
+  "description": "I'm ANAGH K R, a freelance software developer based in Kerala specializing in MERN stack and Flutter apps. I specialize in creating custom websites, mobile apps, and responsive designs tailored for businesses of all sizes."
+  "url": "https://www.anaghkr.in/",
+            "email": "mailto:anaghkrkkl@gmail.com"
+  "sameAs": [
+    "https://in.linkedin.com/in/anagh-k-r",
+    "https://github.com/anagh534",
+            "https://instagram.com/mr._uni_que___",
+            "https://www.fiverr.com/anaghkr/mern-stack-website-development?context_referrer=tag_page&source=TagPage&ref_ctx_id=50e59ff8fdc44c52880d8b4dc7bdfca1&pckg_id=1&pos=28&imp_id=78d40e49-85b9-4fb6-9cad-80b0ad2fdc82",
+            "https://www.fiverr.com/anaghkr/mern-stack-website-development?context_referrer=tag_page&source=TagPage&ref_ctx_id=50e59ff8fdc44c52880d8b4dc7bdfca1&pckg_id=1&pos=28&imp_id=78d40e49-85b9-4fb6-9cad-80b0ad2fdc82",
+            
+  ],
+  "jobTitle": "Freelance Software Developer",
+    "knowsAbout": ["JavaScript", "Flutter", "MongoDB", "React", "Laravel","Php" , "Node Js", "Express js", "MySql", "C#", "Git", "CI/CD", "DevOps","Docker", "Aws", "Firebase"],
+    "alumniOf": {
+  "@type": "CollegeOrUniversity",
+  "name": "Kannur University"
+},
+}
+</script>
     </html>
   );
 }
