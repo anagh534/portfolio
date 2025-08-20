@@ -11,9 +11,9 @@ export default function Skills() {
                     <p>As a passionate developer, I am dedicated to honing my skills and staying updated with the latest technologies.<br /> My expertise spans across web development, mobile app development, and SEO optimization, ensuring that I deliver cutting-edge solutions tailored to your needs.</p>
                 </div>
                 <div className="cards">
-                    <div className="row">
+                    <div className="row g-4">
                         <div className="col-lg-6">
-                            <div className="card mb-3" style={{ minHeight: '137px' }}>
+                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
                                 <div className="card-body text-center">
                                     <i className="fa-solid fa-desktop"></i>
                                     <h4 className="card-title">WEBSITE DEVELOPMENT</h4>
@@ -25,7 +25,7 @@ export default function Skills() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card mb-3" style={{ minHeight: '137px' }}>
+                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
                                 <div className="card-body text-center">
                                     <i className="fa-solid fa-mobile-screen-button"></i>
                                     <h4 className="card-title">APP DEVELOPMENT</h4>
@@ -35,25 +35,26 @@ export default function Skills() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card mb-3" style={{ minHeight: '137px' }}>
+                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
                                 <div className="card-body text-center">
-                                    <i className="fa-solid fa-desktop"></i>
+                                    <i className="fa-brands fa-searchengin"></i>
                                     <h4 className="card-title">SEO Optimization</h4>
-                                    <p className="card-text"><small className="text-body-secondary"><i className="fa-brands fa-searchengin"></i> On-page and technical SEO to boost search rankings</small></p>
+                                    <p className="card-text"><small className="text-body-secondary"><i className="fa-solid fa-chart-line"></i> On-page and technical SEO to boost search rankings <br />
+                                    <i className="fa-solid fa-magnifying-glass"></i> Search ranking improvements</small></p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card mb-3" style={{ minHeight: '137px' }}>
+                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
                                 <div className="card-body text-center">
-                                    <i className="fa-solid fa-desktop"></i>
+                                    <i className="fa-solid fa-palette"></i>
                                     <h4 className="card-title">WEB DESIGN</h4>
-                                    <p className="card-text"><small className="text-body-secondary"><i className="fa-brands fa-figma"></i> Figma to Website Conversion <br /><i className="fa-solid fa-square-parking "></i> PHOTOSHOP (.PSD) to Responsive Website</small></p>
+                                    <p className="card-text"><small className="text-body-secondary"><i className="fa-brands fa-figma"></i> Figma to Website Conversion <br /><i className="fa-solid fa-image"></i> PHOTOSHOP (.PSD) to Responsive Website</small></p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card mb-3" style={{ minHeight: '137px' }}>
+                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
                                 <div className="card-body text-center">
                                     <i className="fa-brands fa-wordpress"></i>
                                     <h4 className="card-title">WORDPRESS DEVELOPMENT</h4>
@@ -68,7 +69,7 @@ export default function Skills() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card mb-3" style={{ minHeight: '137px' }}>
+                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
                                 <div className="card-body text-center">
                                     <i className="fa-solid fa-store"></i>
                                     <h4 className="card-title">E-COMMERCE DEVELOPMENT</h4>
@@ -83,7 +84,7 @@ export default function Skills() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card mb-3" style={{ minHeight: '137px' }}>
+                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
                                 <div className="card-body text-center">
                                     <i className="fa-brands fa-react"></i>
                                     <h4 className="card-title">NEXT.JS DEVELOPMENT</h4>
@@ -98,7 +99,7 @@ export default function Skills() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card mb-3" style={{ minHeight: '137px' }}>
+                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
                                 <div className="card-body text-center">
                                     <i className="fa-brands fa-node"></i>
                                     <h4 className="card-title">MERN STACK DEVELOPMENT</h4>
@@ -112,7 +113,6 @@ export default function Skills() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
