@@ -64,7 +64,7 @@ export default function Hero() {
                 Hey, <br /> I'm <span className="highlight-text">ANAGH</span>,
               </h1>
               <p className="intro-description">
-                Looking for expert web and app development services in Kerala?<br/> 
+                Looking for expert web and app development services in Kerala ?<br/> 
                 I'm Anagh, a professional Flutter developer and freelance web designer based in Kasaragod. I specialize in creating custom websites, mobile apps, and responsive designs tailored for businesses of all sizes. From startups to established companies,<br/> I provide affordable and high-quality solutions that drive results.
               </p>
               <a href="mailto:anaghkrkkl@gmail.com" className="contact-btn">
