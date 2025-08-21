@@ -1,103 +1,166 @@
 export const metadata = {
     title: "About Anagh K R: MERN Stack & Flutter Developer from Kasaragod, Kerala - Expert in Web & App Development",
-    description: "Hello, I’m Anagh K R, a dedicated MERN Stack Developer and Flutter App Developer based in Kasaragod, Kerala. Specializing in creating intuitive, efficient, and scalable digital solutions for both web and mobile platforms. With a passion for problem-solving and a commitment to continuous learning, I deliver exceptional results through innovative, clean, and robust code. Whether it's web development, app development, or SEO optimization, I bring your ideas to life with a user-first approach. Let's collaborate to build something extraordinary!",
+    description: "Hello, I'm Anagh K R, a dedicated MERN Stack Developer and Flutter App Developer based in Kasaragod, Kerala. Specializing in creating intuitive, efficient, and scalable digital solutions for both web and mobile platforms. With a passion for problem-solving and a commitment to continuous learning, I deliver exceptional results through innovative, clean, and robust code. Whether it's web development, app development, or SEO optimization, I bring your ideas to life with a user-first approach. Let's collaborate to build something extraordinary!",
     keywords: "MERN Stack Developer Kasaragod, Flutter App Developer Kerala, Full-Stack Web Development, E-commerce Development Kasaragod, Secure File Sharing Solutions, Dynamic Web Applications, Mobile App Development with Flutter, Cross-Platform App Development, Engaging User Experiences, SEO Optimization Expert, Web Design with Figma, Adobe Photoshop for Web Design, Continuous Learning in Technology, Innovative Digital Solutions, Kasaragod Web Developer, Global and Local Client Service, Scalable Code Development, User-First Approach in Web and App Development, Professional Developer in Kerala, Digital Solutions Expert Kasaragod, Custom Web Applications, Full-Stack Developer from Kasaragod, Kasaragod-based MERN Developer",
     author: "ANAGH K R",
     robots: "index, follow",
     ogTitle: "About Anagh K R: MERN Stack & Flutter Developer from Kasaragod, Kerala - Expert in Web & App Development",
-    ogDescription: "Hello, I’m Anagh K R, a dedicated MERN Stack Developer and Flutter App Developer based in Kasaragod, Kerala. Specializing in creating intuitive, efficient, and scalable digital solutions for both web and mobile platforms. With a passion for problem-solving and a commitment to continuous learning, I deliver exceptional results through innovative, clean, and robust code. Whether it's web development, app development, or SEO optimization, I bring your ideas to life with a user-first approach. Let's collaborate to build something extraordinary!",
+    ogDescription: "Hello, I'm Anagh K R, a dedicated MERN Stack Developer and Flutter App Developer based in Kasaragod, Kerala. Specializing in creating intuitive, efficient, and scalable digital solutions for both web and mobile platforms. With a passion for problem-solving and a commitment to continuous learning, I deliver exceptional results through innovative, clean, and robust code. Whether it's web development, app development, or SEO optimization, I bring your ideas to life with a user-first approach. Let's collaborate to build something extraordinary!",
     ogUrl: "https://anagh534.github.io/about",
     // ogImage: "https://yourwebsite.com/path/to/image.jpg"
 };
+
+import './about.css';
+
 export default function About() {
     return (
-        <div style={{ background: '#292F36', color: '#fff' }}>
-            <div className="container mt-5">
-                <div className="row">
-                    <div className="col-lg-12 mt-5">
-                        <h2>ABOUT ME - ANAGH K R</h2>
-                        <h5><b>MERN Stack Developer | Flutter App Developer | Dotnet</b></h5>
-                        <p>
-                            👋 Hello, I’m <strong>Anagh K R</strong>, a passionate <strong>MERN Stack Developer</strong> and
-                            <strong> Flutter App Developer</strong> based in <strong>Kasaragod, Kerala</strong>. I specialize in
-                            crafting intuitive and efficient digital solutions for both web and mobile platforms. With a relentless dedication to
-                            learning and a knack for solving complex problems, I strive to deliver clean, robust, and scalable code that powers
-                            seamless user experiences.
+        <div className="about-container">
+            <div className="content-wrapper">
+                <div className="container">
+                    <div className="hero-section animate-in">
+                        <h1 className="hero-title">ANAGH K R</h1>
+                        <p className="hero-subtitle">
+                            👋 Passionate Full-Stack Developer crafting exceptional digital experiences
+                            from the beautiful landscapes of Kasaragod, Kerala
                         </p>
+                        <div className="tech-badges">
+                            <span className="tech-badge">MERN Stack</span>
+                            <span className="tech-badge">Flutter</span>
+                            <span className="tech-badge">Next.js</span>
+                            <span className="tech-badge">Node.js</span>
+                            <span className="tech-badge">.NET</span>
+                        </div>
                     </div>
 
-                    <div className="col-lg-12 mt-5">
-                        <h2>Who I Am</h2>
-                        <p>
-                            With a background in MERN stack (MongoDB, Express.js, React.js, Node.js) and Flutter cross-platform mobile development, I bring ideas to life with clean, maintainable, and efficient code. My skill set also includes:
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="section-card animate-in">
+                                <h2 className="section-title">Who I Am</h2>
+                                <p className="section-text">
+                                    I'm a dedicated <strong>MERN Stack Developer</strong> and <strong>Flutter App Developer</strong> 
+                                    with a passion for creating intuitive, efficient, and scalable digital solutions. Based in the 
+                                    scenic town of Kasaragod, Kerala, I combine technical expertise with creative problem-solving 
+                                    to deliver exceptional results.
+                                </p>
+                                
+                                <div className="skills-grid">
+                                    <div className="skill-category">
+                                        <h4>Frontend Development</h4>
+                                        <p>React.js, Next.js, HTML5, CSS3, JavaScript ES6+, Responsive Design</p>
+                                    </div>
+                                    <div className="skill-category">
+                                        <h4>Backend Development</h4>
+                                        <p>Node.js, Express.js, Go, Laravel, PHP, RESTful APIs</p>
+                                    </div>
+                                    <div className="skill-category">
+                                        <h4>Mobile Development</h4>
+                                        <p>Flutter, Cross-platform apps, iOS & Android development</p>
+                                    </div>
+                                    <div className="skill-category">
+                                        <h4>Database & Cloud</h4>
+                                        <p>MongoDB, MySQL, PostgreSQL, Firebase, AWS, Azure</p>
+                                    </div>
+                                    <div className="skill-category">
+                                        <h4>Design & Tools</h4>
+                                        <p>Figma, Adobe Photoshop, UI/UX Design, Git, Docker</p>
+                                    </div>
+                                    <div className="skill-category">
+                                        <h4>Desktop Development</h4>
+                                        <p>.NET Avalonia, Cross-platform desktop applications</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                            Frontend: HTML, CSS, JavaScript, React.js, Next js
+                        <div className="col-12">
+                            <div className="section-card animate-in">
+                                <h2 className="section-title">What I Do</h2>
+                                <ul className="feature-list">
+                                    <li>
+                                        <div>
+                                            <strong>Full-Stack Web Development:</strong> Building robust web applications using the MERN stack, 
+                                            from e-commerce platforms to complex data management systems with modern, responsive designs.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <strong>Mobile App Development:</strong> Creating high-performance cross-platform mobile applications 
+                                            with Flutter, delivering smooth user experiences across iOS and Android.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <strong>SEO & Performance Optimization:</strong> Implementing advanced SEO strategies and performance 
+                                            optimizations to ensure your digital presence reaches its full potential.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <strong>UI/UX Design:</strong> Crafting visually stunning and user-friendly interfaces using Figma 
+                                            and Adobe Photoshop, focusing on user experience and brand consistency.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-                            Backend: Node.js, Express.js, Go, Laravel, Php
+                        <div className="col-12">
+                            <div className="section-card animate-in">
+                                <h2 className="section-title">Why Choose Me</h2>
+                                <p className="section-text">
+                                    I believe in writing code that not only works but also adheres to industry best practices 
+                                    for maintainability, scalability, and performance. My approach is built on:
+                                </p>
+                                <ul className="feature-list">
+                                    <li>
+                                        <div>
+                                            <strong>Quality First:</strong> Delivering exceptional value through clean, efficient, 
+                                            and well-documented code that stands the test of time.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <strong>Continuous Innovation:</strong> Staying ahead of technology trends and embracing 
+                                            new challenges to expand capabilities and deliver cutting-edge solutions.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <strong>Client-Centric Approach:</strong> Building lasting partnerships by prioritizing 
+                                            client goals, clear communication, and transparent project management.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-                            Mobile Apps: Flutter (iOS and Android)
+                        <div className="col-12">
+                            <div className="section-card animate-in">
+                                <h2 className="section-title">From Kerala to the World</h2>
+                                <p className="section-text">
+                                    Based in the culturally rich and naturally beautiful town of <strong>Kasaragod</strong>, 
+                                    I draw inspiration from Kerala's heritage of craftsmanship and innovation. Known as 
+                                    <em>"God's Own Country,"</em> Kerala's serene environment fuels my creativity and 
+                                    dedication to excellence. I proudly serve clients both locally and globally, bringing 
+                                    world-class digital solutions with a personal touch.
+                                </p>
+                            </div>
+                        </div>
 
-                            Design: Figma, Adobe Photoshop
-
-                            SEO & Performance Optimization
-
-                            Desktop Apps: Dotnet Avalonia
-
-                            I stay updated with the latest technologies and trends to ensure the solutions I deliver are modern, secure, and future-proof.
-                        </p>
+                        <div className="col-12">
+                            <div className="cta-section animate-in">
+                                <h2 className="section-title cta-title-center">Let's Build Something Amazing</h2>
+                                <p className="section-text cta-text-center">
+                                    Ready to turn your ideas into reality? Whether it's a new project, enhancing an existing 
+                                    platform, or exploring innovative possibilities, I'm here to collaborate and create 
+                                    something extraordinary together.
+                                </p>
+                                <a href="/contact" className="cta-button">
+                                    Start Your Project Today
+                                </a>
+                            </div>
+                        </div>
                     </div>
-
-                    <div className="col-lg-12 mt-5">
-                        <h2>What I Do</h2>
-                        <ul>
-                            <li>
-                                <strong>Web Development:</strong> Proficient in building full-stack web applications using the <strong>MERN stack</strong>.
-                                Whether it's an e-commerce platform, a secure file-sharing system, or a movie browsing website, I bring ideas to life with a user-first approach.
-                            </li>
-                            <li>
-                                <strong>App Development:</strong> Skilled in developing high-performance mobile applications with <strong>Flutter</strong>,
-                                offering smooth cross-platform functionality and an engaging user experience.
-                            </li>
-                            <li>
-                                <strong>SEO Optimization:</strong> Well-versed in optimizing websites to improve visibility and ranking, ensuring your
-                                platform reaches the right audience effectively.
-                            </li>
-                            <li>
-                                <strong>Web Design:</strong> Leveraging tools like <strong>Figma</strong> and <strong>Adobe Photoshop</strong>, I create
-                                visually appealing designs that align with brand identity and user needs.
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div className="col-lg-12 mt-5">
-                        <h2>Why Choose Me</h2>
-                        <p>
-                            I believe in writing code that not only works but also adheres to best practices for maintainability and scalability. My philosophy is simple:
-                        </p>
-                        <ul>
-                            <li>Deliver exceptional value through top-notch solutions.</li>
-                            <li>Embrace challenges to expand my perspective and improve continuously.</li>
-                            <li>Build trust with clients by prioritizing their goals and needs.</li>
-                        </ul>
-                    </div>
-
-                    <div className="col-lg-12 mt-5">
-                        <h2>Based in Kasaragod, Kerala</h2>
-                        <p>
-                            Living in the picturesque town of <strong>Kasaragod</strong>, I draw inspiration from the cultural richness and natural beauty of
-                            <strong>Kerala</strong>, known as <em>"God’s Own Country."</em> I am proud to serve clients locally and globally, delivering world-class
-                            solutions rooted in hard work and creativity.
-                        </p>
-                    </div>
-
-                    <div className="col-lg-12 mt-5">
-                        <h2>Let’s Collaborate</h2>
-                        <p>
-                            If you’re looking for a dedicated developer to turn your ideas into reality, I’d love to work with you. Whether it’s a new project,
-                            enhancing an existing platform, or exploring innovative possibilities, let’s create something extraordinary together!
-                        </p>
-                    </div>
-
                 </div>
             </div>
         </div>
