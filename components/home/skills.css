@@ -9,7 +9,7 @@
 }
 
 .skills {
-  padding: 2 rem 0;
+  padding: 2rem 0;
   background-color: var(--dark-bg);
   background-image: 
     radial-gradient(circle at 10% 20%, rgba(18, 247, 214, 0.05) 0%, transparent 20%),
