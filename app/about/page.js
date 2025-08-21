@@ -16,7 +16,7 @@ export default function About() {
                 <div className="row">
                     <div className="col-lg-12 mt-5">
                         <h2>ABOUT ME - ANAGH K R</h2>
-                        <h5><b>MERN Stack Developer | Flutter App Developer | UI/UX Designer | Dotnet</b></h5>
+                        <h5><b>MERN Stack Developer | Flutter App Developer | Dotnet</b></h5>
                         <p>
                             👋 Hello, I’m <strong>Anagh K R</strong>, a passionate <strong>MERN Stack Developer</strong> and
                             <strong> Flutter App Developer</strong> based in <strong>Kasaragod, Kerala</strong>. I specialize in
