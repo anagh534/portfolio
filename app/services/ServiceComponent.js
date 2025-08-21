@@ -1,21 +1,27 @@
-export default function ServiceComponent({image,description,title,alt=""}) {
+export default function ServiceComponent({image, description, title, alt="", icon="", category=""}) {
     return (
-        <article className="postcard dark blue">
-            <a className="postcard__img_link" href="#">
-                <img className="postcard__img"   src={image} alt={alt} />
-            </a>
-            <div className="postcard__text">
-                <h2 className="postcard__title blue">{title}</h2>
-                <div className="postcard__subtitle small">
-                    {/* <time datetime="2020-05-25 12:00:00">
-                        <i className="fas fa-calendar-alt mr-2"></i> Mon, May 25th 2020
-                    </time> */}
+        <article className="service-card">
+            <div className="service-card-header">
+                <div className="service-image-container">
+                    <img className="service-image" src={image} alt={alt} />
+                    <div className="service-overlay">
+                        <span className="service-icon">{icon}</span>
+                    </div>
                 </div>
-                <div className="postcard__bar"></div>
-                <div className="postcard__preview-txt">
+                <div className="service-category">{category}</div>
+            </div>
+            <div className="service-content">
+                <h3 className="service-title">{title}</h3>
+                <div className="service-divider"></div>
+                <p className="service-description">
                     {description}
+                </p>
+                <div className="service-footer">
+                    <a href="/contact" className="service-button">
+                        Get Quote
+                        <span className="button-arrow">→</span>
+                    </a>
                 </div>
-
             </div>
         </article>
     )
