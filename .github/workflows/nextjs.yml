@@ -33,14 +33,10 @@ jobs:
       - name: Build Next.js
         run: npm run build
 
-      # 👇 This step is required for GitHub Pages
-      - name: Export static files
-        run: npm run export
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out   # export target
+          path: ./out   # 👈 Next.js will now generate /out automatically in export mode
 
   deploy:
     environment:
