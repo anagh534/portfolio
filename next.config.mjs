@@ -1,10 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    images: {
-        unoptimized: true,       // needed for GitHub Pages
-    },
-    // basePath: "/portfolio", // Remove this for username.github.io repos
     async redirects() {
         return [
             {
