@@ -4,7 +4,7 @@ const nextConfig = {
     images: {
         unoptimized: true,       // needed for GitHub Pages
     },
-    basePath: "/portfolio",
+    // basePath: "/portfolio", // Remove this for username.github.io repos
     async redirects() {
         return [
             {
