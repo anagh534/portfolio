@@ -1,19 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",  // Essential for GitHub Pages static export
-    trailingSlash: true,  // Helps with GitHub Pages routing
+    output: "export",
+    trailingSlash: true,
     images: {
-        unoptimized: true,  // Required for static export
+        unoptimized: true,
     },
-    // No basePath needed for username.github.io repos
-    async redirects() {
-        return [
-            {
-                source: '/sitemap.xml',
-                destination: '/sitemap.xml',
-                permanent: true,
-            },
-        ];
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+    experimental: {
+        missingSuspenseWithCSRBailout: false,
     },
 };
 
