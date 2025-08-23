@@ -14,155 +14,388 @@ import './about.css';
 
 export default function About() {
     return (
-        <div className="about-container">
-            <div className="content-wrapper">
-                <div className="container">
-                    <div className="hero-section animate-in">
-                        <h1 className="hero-title">ANAGH K R</h1>
-                        <p className="hero-subtitle">
-                            👋 Passionate Full-Stack Developer crafting exceptional digital experiences
-                            from the beautiful landscapes of Kasaragod, Kerala
-                        </p>
-                        <div className="tech-badges">
-                            <span className="tech-badge">MERN Stack</span>
-                            <span className="tech-badge">Flutter</span>
-                            <span className="tech-badge">Next.js</span>
-                            <span className="tech-badge">Node.js</span>
-                            <span className="tech-badge">.NET</span>
-                        </div>
-                    </div>
-
-                    <div className="row">
+        <>
+            {/* Hero Section */}
+            <section className="modern-hero-section">
+                <div className="container-fluid px-0">
+                    <div className="row min-vh-100 align-items-center justify-content-center g-0">
                         <div className="col-12">
-                            <div className="section-card animate-in">
-                                <h2 className="section-title">Who I Am</h2>
-                                <p className="section-text">
-                                    I'm a dedicated <strong>MERN Stack Developer</strong> and <strong>Flutter App Developer</strong> 
-                                    with a passion for creating intuitive, efficient, and scalable digital solutions. Based in the 
-                                    scenic town of Kasaragod, Kerala, I combine technical expertise with creative problem-solving 
-                                    to deliver exceptional results.
-                                </p>
-                                
-                                <div className="skills-grid">
-                                    <div className="skill-category">
-                                        <h4>Frontend Development</h4>
-                                        <p>React.js, Next.js, HTML5, CSS3, JavaScript ES6+, Responsive Design</p>
-                                    </div>
-                                    <div className="skill-category">
-                                        <h4>Backend Development</h4>
-                                        <p>Node.js, Express.js, Go, Laravel, PHP, RESTful APIs</p>
-                                    </div>
-                                    <div className="skill-category">
-                                        <h4>Mobile Development</h4>
-                                        <p>Flutter, Cross-platform apps, iOS & Android development</p>
-                                    </div>
-                                    <div className="skill-category">
-                                        <h4>Database & Cloud</h4>
-                                        <p>MongoDB, MySQL, PostgreSQL, Firebase, AWS, Azure</p>
-                                    </div>
-                                    <div className="skill-category">
-                                        <h4>Design & Tools</h4>
-                                        <p>Figma, Adobe Photoshop, UI/UX Design, Git, Docker</p>
-                                    </div>
-                                    <div className="skill-category">
-                                        <h4>Desktop Development</h4>
-                                        <p>.NET Avalonia, Cross-platform desktop applications</p>
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="col-xl-8 col-lg-10 col-md-11 text-center">
+                                        {/* Hero Badge */}
+                                        <div className="hero-badge mb-4" data-aos="fade-up">
+                                            <i className="fas fa-code me-2"></i>
+                                            <span className="d-none d-sm-inline">Full-Stack Developer</span>
+                                            <span className="d-sm-none">Developer</span>
+                                        </div>
+                                        
+                                        {/* Hero Title */}
+                                        <h1 className="hero-title mb-4" data-aos="fade-up" data-aos-delay="200">
+                                            <span className="d-block d-sm-inline text-light">Hi, I'm </span>
+                                            <span className="text-brand">ANAGH K R</span>
+                                        </h1>
+                                        
+                                        {/* Hero Description */}
+                                        <div className="row justify-content-center mb-5">
+                                            <div className="col-lg-10 col-xl-8">
+                                                <p className="hero-description" data-aos="fade-up" data-aos-delay="400">
+                                                    Passionate Full-Stack Developer crafting exceptional digital experiences 
+                                                    from the beautiful landscapes of Kasaragod, Kerala. Specializing in 
+                                                    modern web technologies and mobile applications.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        
+                                        {/* Hero Stats */}
+                                        <div className="hero-stats-container mb-5" data-aos="fade-up" data-aos-delay="600">
+                                            <div className="row g-3 g-md-4 justify-content-center">
+                                                <div className="col-6 col-sm-4 col-lg-3">
+                                                    <div className="stat-card">
+                                                        <h3 className="stat-number">5+</h3>
+                                                        <p className="stat-label">Years<br className="d-none d-sm-block" /><span className="d-sm-none"> </span>Experience</p>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-sm-4 col-lg-3">
+                                                    <div className="stat-card">
+                                                        <h3 className="stat-number">50+</h3>
+                                                        <p className="stat-label">Projects<br className="d-none d-sm-block" /><span className="d-sm-none"> </span>Done</p>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-sm-4 col-lg-3">
+                                                    <div className="stat-card">
+                                                        <h3 className="stat-number">10+</h3>
+                                                        <p className="stat-label">Technologies<br className="d-none d-sm-block" /><span className="d-sm-none"> </span>Mastered</p>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-sm-12 col-lg-3">
+                                                    <div className="stat-card">
+                                                        <h3 className="stat-number">100%</h3>
+                                                        <p className="stat-label">Client<br className="d-none d-sm-block" /><span className="d-sm-none"> </span>Satisfaction</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        {/* Hero CTA */}
+                                        <div className="hero-cta" data-aos="fade-up" data-aos-delay="800">
+                                            <div className="row g-3 justify-content-center">
+                                                <div className="col-12 col-sm-auto">
+                                                    <a href="/contact" className="btn btn-brand btn-lg w-100 w-sm-auto">
+                                                        <i className="fas fa-paper-plane me-2"></i>
+                                                        <span className="d-none d-sm-inline">Let's Work Together</span>
+                                                        <span className="d-sm-none">Start Project</span>
+                                                    </a>
+                                                </div>
+                                                <div className="col-12 col-sm-auto">
+                                                    <a href="/resume" className="btn btn-outline-light btn-lg w-100 w-sm-auto">
+                                                        <i className="fas fa-download me-2"></i>
+                                                        Download CV
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        {/* Scroll Indicator */}
+                                        <div className="scroll-indicator mt-5 d-none d-lg-block" data-aos="fade-up" data-aos-delay="1000">
+                                            <div className="scroll-mouse">
+                                                <div className="scroll-wheel"></div>
+                                            </div>
+                                            <p className="scroll-text">Scroll to explore</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
 
-                        <div className="col-12">
-                            <div className="section-card animate-in">
-                                <h2 className="section-title">What I Do</h2>
-                                <ul className="feature-list">
-                                    <li>
-                                        <div>
-                                            <strong>Full-Stack Web Development:</strong> Building robust web applications using the MERN stack, 
-                                            from e-commerce platforms to complex data management systems with modern, responsive designs.
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <strong>Mobile App Development:</strong> Creating high-performance cross-platform mobile applications 
-                                            with Flutter, delivering smooth user experiences across iOS and Android.
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <strong>SEO & Performance Optimization:</strong> Implementing advanced SEO strategies and performance 
-                                            optimizations to ensure your digital presence reaches its full potential.
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <strong>UI/UX Design:</strong> Crafting visually stunning and user-friendly interfaces using Figma 
-                                            and Adobe Photoshop, focusing on user experience and brand consistency.
-                                        </div>
-                                    </li>
-                                </ul>
+            {/* About Section */}
+            <section className="modern-about-section py-5">
+                <div className="container">
+                    <div className="row align-items-center mb-5">
+                        <div className="col-lg-6 mb-4 mb-lg-0">
+                            <div className="about-image-container">
+                                <div className="about-image-placeholder">
+                                    <i className="fas fa-user-circle"></i>
+                                </div>
+                                <div className="floating-tech-icons">
+                                    <div className="tech-icon" style={{top: '10%', left: '10%'}}>
+                                        <i className="fab fa-react"></i>
+                                    </div>
+                                    <div className="tech-icon" style={{top: '20%', right: '15%'}}>
+                                        <i className="fab fa-node-js"></i>
+                                    </div>
+                                    <div className="tech-icon" style={{bottom: '30%', left: '5%'}}>
+                                        <i className="fab fa-js-square"></i>
+                                    </div>
+                                    <div className="tech-icon" style={{bottom: '10%', right: '10%'}}>
+                                        <i className="fas fa-mobile-alt"></i>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div className="col-12">
-                            <div className="section-card animate-in">
-                                <h2 className="section-title">Why Choose Me</h2>
-                                <p className="section-text">
-                                    I believe in writing code that not only works but also adheres to industry best practices 
-                                    for maintainability, scalability, and performance. My approach is built on:
-                                </p>
-                                <ul className="feature-list">
-                                    <li>
-                                        <div>
-                                            <strong>Quality First:</strong> Delivering exceptional value through clean, efficient, 
-                                            and well-documented code that stands the test of time.
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <strong>Continuous Innovation:</strong> Staying ahead of technology trends and embracing 
-                                            new challenges to expand capabilities and deliver cutting-edge solutions.
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <strong>Client-Centric Approach:</strong> Building lasting partnerships by prioritizing 
-                                            client goals, clear communication, and transparent project management.
-                                        </div>
-                                    </li>
-                                </ul>
+                        <div className="col-lg-6">
+                            <div className="section-badge mb-3">
+                                <i className="fas fa-user me-2"></i>
+                                About Me
                             </div>
-                        </div>
-
-                        <div className="col-12">
-                            <div className="section-card animate-in">
-                                <h2 className="section-title">From Kerala to the World</h2>
-                                <p className="section-text">
-                                    Based in the culturally rich and naturally beautiful town of <strong>Kasaragod</strong>, 
-                                    I draw inspiration from Kerala's heritage of craftsmanship and innovation. Known as 
-                                    <em>"God's Own Country,"</em> Kerala's serene environment fuels my creativity and 
-                                    dedication to excellence. I proudly serve clients both locally and globally, bringing 
-                                    world-class digital solutions with a personal touch.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="col-12">
-                            <div className="cta-section animate-in">
-                                <h2 className="section-title cta-title-center">Let's Build Something Amazing</h2>
-                                <p className="section-text cta-text-center">
-                                    Ready to turn your ideas into reality? Whether it's a new project, enhancing an existing 
-                                    platform, or exploring innovative possibilities, I'm here to collaborate and create 
-                                    something extraordinary together.
-                                </p>
-                                <a href="/contact" className="cta-button">
-                                    Start Your Project Today
-                                </a>
+                            <h2 className="section-title mb-4">
+                                Creating Digital Solutions with 
+                                <span className="text-brand"> Passion & Precision</span>
+                            </h2>
+                            <p className="section-description mb-4">
+                                I'm a dedicated MERN Stack Developer and Flutter App Developer based in 
+                                the scenic town of Kasaragod, Kerala. I combine technical expertise with 
+                                creative problem-solving to deliver exceptional results.
+                            </p>
+                            <div className="about-highlights">
+                                <div className="highlight-item d-flex align-items-center mb-3">
+                                    <div className="highlight-icon me-3">
+                                        <i className="fas fa-check"></i>
+                                    </div>
+                                    <span>5+ years of professional development experience</span>
+                                </div>
+                                <div className="highlight-item d-flex align-items-center mb-3">
+                                    <div className="highlight-icon me-3">
+                                        <i className="fas fa-check"></i>
+                                    </div>
+                                    <span>Expertise in MERN Stack & Flutter development</span>
+                                </div>
+                                <div className="highlight-item d-flex align-items-center mb-3">
+                                    <div className="highlight-icon me-3">
+                                        <i className="fas fa-check"></i>
+                                    </div>
+                                    <span>50+ successful projects delivered globally</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
+
+            {/* Skills Section */}
+            <section className="modern-skills-section py-5">
+                <div className="container">
+                    <div className="text-center mb-5">
+                        <div className="section-badge mb-3">
+                            <i className="fas fa-cogs me-2"></i>
+                            Technical Skills
+                        </div>
+                        <h2 className="section-title mb-4">
+                            Technologies I <span className="text-brand">Master</span>
+                        </h2>
+                        <p className="section-description">
+                            A comprehensive toolkit for building modern, scalable applications
+                        </p>
+                    </div>
+                    <div className="row g-4">
+                        <div className="col-lg-4 col-md-6">
+                            <div className="skill-card h-100">
+                                <div className="skill-icon mb-3">
+                                    <i className="fas fa-laptop-code"></i>
+                                </div>
+                                <h4 className="skill-title mb-3">Frontend Development</h4>
+                                <p className="skill-description mb-4">
+                                    Creating responsive and interactive user interfaces
+                                </p>
+                                <div className="skill-tags">
+                                    <span className="skill-tag">React.js</span>
+                                    <span className="skill-tag">Next.js</span>
+                                    <span className="skill-tag">HTML5</span>
+                                    <span className="skill-tag">CSS3</span>
+                                    <span className="skill-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="skill-card h-100">
+                                <div className="skill-icon mb-3">
+                                    <i className="fas fa-server"></i>
+                                </div>
+                                <h4 className="skill-title mb-3">Backend Development</h4>
+                                <p className="skill-description mb-4">
+                                    Building robust and scalable server-side applications
+                                </p>
+                                <div className="skill-tags">
+                                    <span className="skill-tag">Node.js</span>
+                                    <span className="skill-tag">Express.js</span>
+                                    <span className="skill-tag">MongoDB</span>
+                                    <span className="skill-tag">PostgreSQL</span>
+                                    <span className="skill-tag">RESTful APIs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="skill-card h-100">
+                                <div className="skill-icon mb-3">
+                                    <i className="fas fa-mobile-alt"></i>
+                                </div>
+                                <h4 className="skill-title mb-3">Mobile Development</h4>
+                                <p className="skill-description mb-4">
+                                    Cross-platform mobile apps with native performance
+                                </p>
+                                <div className="skill-tags">
+                                    <span className="skill-tag">Flutter</span>
+                                    <span className="skill-tag">Dart</span>
+                                    <span className="skill-tag">iOS</span>
+                                    <span className="skill-tag">Android</span>
+                                    <span className="skill-tag">Firebase</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="skill-card h-100">
+                                <div className="skill-icon mb-3">
+                                    <i className="fas fa-cloud"></i>
+                                </div>
+                                <h4 className="skill-title mb-3">Cloud & DevOps</h4>
+                                <p className="skill-description mb-4">
+                                    Deploying and managing applications in the cloud
+                                </p>
+                                <div className="skill-tags">
+                                    <span className="skill-tag">AWS</span>
+                                    <span className="skill-tag">Azure</span>
+                                    <span className="skill-tag">Docker</span>
+                                    <span className="skill-tag">Git</span>
+                                    <span className="skill-tag">CI/CD</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="skill-card h-100">
+                                <div className="skill-icon mb-3">
+                                    <i className="fas fa-palette"></i>
+                                </div>
+                                <h4 className="skill-title mb-3">Design & UX</h4>
+                                <p className="skill-description mb-4">
+                                    Creating beautiful and user-friendly interfaces
+                                </p>
+                                <div className="skill-tags">
+                                    <span className="skill-tag">Figma</span>
+                                    <span className="skill-tag">Adobe XD</span>
+                                    <span className="skill-tag">UI/UX</span>
+                                    <span className="skill-tag">Responsive</span>
+                                    <span className="skill-tag">Prototyping</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="skill-card h-100">
+                                <div className="skill-icon mb-3">
+                                    <i className="fas fa-desktop"></i>
+                                </div>
+                                <h4 className="skill-title mb-3">Desktop Development</h4>
+                                <p className="skill-description mb-4">
+                                    Cross-platform desktop applications
+                                </p>
+                                <div className="skill-tags">
+                                    <span className="skill-tag">.NET</span>
+                                    <span className="skill-tag">Avalonia</span>
+                                    <span className="skill-tag">C#</span>
+                                    <span className="skill-tag">Electron</span>
+                                    <span className="skill-tag">WPF</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Services Section */}
+            <section className="modern-services-section py-5">
+                <div className="container">
+                    <div className="text-center mb-5">
+                        <div className="section-badge mb-3">
+                            <i className="fas fa-briefcase me-2"></i>
+                            What I Do
+                        </div>
+                        <h2 className="section-title mb-4">
+                            Services I <span className="text-brand">Provide</span>
+                        </h2>
+                    </div>
+                    <div className="row g-4">
+                        <div className="col-lg-6">
+                            <div className="service-card h-100">
+                                <div className="service-icon">
+                                    <i className="fas fa-code"></i>
+                                </div>
+                                <h4 className="service-title">Web Development</h4>
+                                <p className="service-description">
+                                    Full-stack web applications using modern technologies like React, Node.js, 
+                                    and cloud platforms for scalable solutions.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="service-card h-100">
+                                <div className="service-icon">
+                                    <i className="fas fa-mobile-alt"></i>
+                                </div>
+                                <h4 className="service-title">Mobile App Development</h4>
+                                <p className="service-description">
+                                    Cross-platform mobile applications with Flutter, delivering 
+                                    native performance across iOS and Android platforms.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="service-card h-100">
+                                <div className="service-icon">
+                                    <i className="fas fa-search"></i>
+                                </div>
+                                <h4 className="service-title">SEO & Optimization</h4>
+                                <p className="service-description">
+                                    Performance optimization and SEO strategies to ensure your 
+                                    digital presence reaches its full potential.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="service-card h-100">
+                                <div className="service-icon">
+                                    <i className="fas fa-lightbulb"></i>
+                                </div>
+                                <h4 className="service-title">Technical Consultation</h4>
+                                <p className="service-description">
+                                    Strategic guidance on technology choices, architecture decisions, 
+                                    and best practices for your development projects.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* CTA Section */}
+            <section className="modern-cta-section py-5">
+                <div className="container">
+                    <div className="cta-card text-center">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-8">
+                                <h2 className="cta-title mb-4">
+                                    Ready to Start Your <span className="text-brand">Next Project?</span>
+                                </h2>
+                                <p className="cta-description mb-5">
+                                    Let's collaborate to bring your ideas to life with modern technology 
+                                    and exceptional user experiences.
+                                </p>
+                                <div className="cta-buttons">
+                                    <a href="/contact" className="btn btn-brand btn-lg me-3">
+                                        <i className="fas fa-paper-plane me-2"></i>
+                                        Start Project
+                                    </a>
+                                    <a href="/services" className="btn btn-outline-brand btn-lg">
+                                        <i className="fas fa-eye me-2"></i>
+                                        View Services
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
     );
 }
