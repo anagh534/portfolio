@@ -1,16 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    trailingSlash: true,
-    images: {
-        unoptimized: true,
+    async redirects() {
+        return [
+            {
+                source: '/sitemap.xml',
+                destination: '/public/sitemap.xml', // Ensure this matches the location where next-sitemap places your sitemap file
+                permanent: true,
+            },
+        ];
     },
-    eslint: {
-        ignoreDuringBuilds: true,
-    },
-    experimental: {
-        missingSuspenseWithCSRBailout: false,
-    },
+    crossOrigin: 'anonymous',
 };
 
 export default nextConfig;
