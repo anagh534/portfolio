@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
       <head>
         {/* SEO and external stylesheets */}
         <meta name="google-site-verification" content="AWxjk_Fpn8FzilJKbuxl3i1J8VFgrfVwEkoaqwKp9mo" />
-        <meta charset="utf-8"/>
+        <meta charSet="utf-8"/>
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
