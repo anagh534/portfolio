@@ -2,7 +2,6 @@
 const nextConfig = {
     output: "export",   // 👈 required
     images: { unoptimized: true },
-    assetPrefix: "https://cdn.jsdelivr.net",
     async redirects() {
         return [
             {
