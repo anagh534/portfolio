@@ -1,17 +1,6 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export default function RootLayout({ children }) {
   return (
@@ -34,8 +23,21 @@ export default function RootLayout({ children }) {
         />
         <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
         <link rel="sitemap" type="application/xml" title="Sitemap-0" href="/sitemap-0.xml" />
+      </head>
 
-        {/* ✅ Structured Data for Google */}
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+
+        {/* Bootstrap JS Bundle */}
+        <script
+          rel="preload"
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossOrigin="anonymous"
+        ></script>
+         {/* ✅ Structured Data for Google */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -66,20 +68,6 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
-      </head>
-
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <Navbar />
-        {children}
-        <Footer />
-
-        {/* Bootstrap JS Bundle */}
-        <script
-          rel="preload"
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-          crossOrigin="anonymous"
-        ></script>
       </body>
     </html>
   );
