@@ -9,7 +9,6 @@ const nextConfig = {
             },
         ];
     },
-    crossOrigin: 'anonymous',
 };
 
 export default nextConfig;
