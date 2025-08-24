@@ -1,13 +1,17 @@
 export const metadata = {
-    title: "About Anagh K R: MERN Stack & Flutter Developer from Kasaragod, Kerala - Expert in Web & App Development",
-    description: "Hello, I'm Anagh K R, a dedicated MERN Stack Developer and Flutter App Developer based in Kasaragod, Kerala. Specializing in creating intuitive, efficient, and scalable digital solutions for both web and mobile platforms. With a passion for problem-solving and a commitment to continuous learning, I deliver exceptional results through innovative, clean, and robust code. Whether it's web development, app development, or SEO optimization, I bring your ideas to life with a user-first approach. Let's collaborate to build something extraordinary!",
-    keywords: "MERN Stack Developer Kasaragod, Flutter App Developer Kerala, Full-Stack Web Development, E-commerce Development Kasaragod, Secure File Sharing Solutions, Dynamic Web Applications, Mobile App Development with Flutter, Cross-Platform App Development, Engaging User Experiences, SEO Optimization Expert, Web Design with Figma, Adobe Photoshop for Web Design, Continuous Learning in Technology, Innovative Digital Solutions, Kasaragod Web Developer, Global and Local Client Service, Scalable Code Development, User-First Approach in Web and App Development, Professional Developer in Kerala, Digital Solutions Expert Kasaragod, Custom Web Applications, Full-Stack Developer from Kasaragod, Kasaragod-based MERN Developer",
+    title: "About Anagh K R - Flutter Developer Kerala | MERN Stack Developer Kerala | Expert Web & App Development",
+    description: "Meet Anagh K R, a professional Flutter developer and MERN stack developer from Kasaragod, Kerala. Specializing in mobile app development, web development services, e-commerce development, and custom website solutions across Kerala including Kochi, Thiruvananthapuram, Kozhikode, Thrissur, Ernakulam, and Calicut.",
+    keywords: "Flutter developer Kerala, MERN stack developer Kerala, Web development services Kerala, Mobile app development Kerala, Freelance web developer Kerala, Custom website development Kerala, React developer Kerala, Node.js developer Kerala, Flutter developer Kasaragod, App development Kasaragod, Website design Kerala, Responsive web design, E-commerce website development, WordPress developer Kasaragod, SEO services Kerala, Next.js development, PSD to website conversion, Figma to website development, Academic project development, Startup web development, Full-Stack Web Development, Cross-Platform App Development, Digital Solutions Expert Kasaragod, Professional Developer in Kerala, Scalable Code Development, User-First Approach in Web and App Development",
     author: "ANAGH K R",
     robots: "index, follow",
-    ogTitle: "About Anagh K R: MERN Stack & Flutter Developer from Kasaragod, Kerala - Expert in Web & App Development",
-    ogDescription: "Hello, I'm Anagh K R, a dedicated MERN Stack Developer and Flutter App Developer based in Kasaragod, Kerala. Specializing in creating intuitive, efficient, and scalable digital solutions for both web and mobile platforms. With a passion for problem-solving and a commitment to continuous learning, I deliver exceptional results through innovative, clean, and robust code. Whether it's web development, app development, or SEO optimization, I bring your ideas to life with a user-first approach. Let's collaborate to build something extraordinary!",
+    canonical: "https://anagh534.github.io/about",
+    ogTitle: "About Anagh K R - Flutter Developer Kerala | MERN Stack Developer Kerala",
+    ogDescription: "Meet Anagh K R, a professional Flutter developer and MERN stack developer from Kasaragod, Kerala. Specializing in mobile app development, web development services, and custom solutions across Kerala.",
     ogUrl: "https://anagh534.github.io/about",
-    // ogImage: "https://yourwebsite.com/path/to/image.jpg"
+    ogType: "profile",
+    twitterCard: "summary_large_image",
+    twitterTitle: "About Anagh K R - Flutter Developer Kerala | MERN Stack Developer Kerala",
+    twitterDescription: "Professional Flutter developer and MERN stack developer from Kerala offering expert web and mobile app development services."
 };
 
 import './about.css';

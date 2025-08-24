@@ -2,16 +2,19 @@ import ServiceComponent from "./ServiceComponent";
 import './services.css'
 
 export const metadata = {
-    title: "Anagh K R - Expert Services in Web & App Development | Kasaragod, Kerala",
-    description: "Discover Anagh K R's professional services in web and app development from Kasaragod, Kerala. Specializing in Flutter app development, MERN stack web development, e-commerce solutions, and more. Offering custom solutions for your digital needs, from secure file handling to scalable applications. Connect with a dedicated professional who delivers exceptional results with a user-first approach.",
-    keywords: "Web development Kasaragod, app development Kasaragod, website design Kerala, Flutter developers Kerala, WordPress services Kasaragod, e-commerce websites Kerala, responsive web design, MERN stack developer Kerala, Next.js websites Kasaragod, PSD to HTML Kasaragod, Figma to website conversion Kerala",
+    title: "Web Development Services Kerala | Flutter App Development | MERN Stack Development - Anagh K R",
+    description: "Professional web development services in Kerala by Anagh K R. Offering Flutter app development, MERN stack development, custom website development, responsive web design, e-commerce development, WordPress development, and digital solutions across Kerala including Kochi, Thiruvananthapuram, Kozhikode, Thrissur, and Ernakulam.",
+    keywords: "Web development services Kerala, Flutter app development, MERN stack development, Custom website development Kerala, Responsive web design Kerala, E-commerce website development Kerala, WordPress development Kerala, Mobile app development Kerala, Next.js development Kerala, PSD to website conversion Kerala, Figma to website development Kerala, Website redesign services Kerala, Academic project development Kerala, Startup web development Kerala, SEO optimization services, React development, Node.js development, MongoDB development, Express.js development, HTML CSS JavaScript, Firebase integration, REST API development, Database integration, Cloud deployment, Web development Kasaragod, app development Kasaragod, website design Kerala, Flutter developers Kerala, WordPress services Kasaragod, responsive web design, Cross-platform app development Flutter, SEO-friendly website development, Professional website design services Kerala, Business website development, Portfolio website design, Corporate web solutions, Small business web design, Enterprise app development, Digital transformation services, Online presence solutions, Web application development, Software development services",
     author: "ANAGH K R",
     robots: "index, follow",
-    ogTitle: "Anagh K R - Expert Services in Web & App Development | Kasaragod, Kerala",
-    ogDescription: "Discover Anagh K R's professional services in web and app development from Kasaragod, Kerala. Specializing in Flutter app development, MERN stack web development, e-commerce solutions, and more. Offering custom solutions for your digital needs, from secure file handling to scalable applications. Connect with a dedicated professional who delivers exceptional results with a user-first approach.",
-    ogUrl: "https://anagh534.github.io/services",
     canonical: "https://anagh534.github.io/services",
-    // ogImage: "https://yourwebsite.com/path/to/image.jpg"
+    ogTitle: "Web Development Services Kerala | Flutter App Development | MERN Stack Development",
+    ogDescription: "Professional web development services in Kerala by Anagh K R. Offering Flutter app development, MERN stack development, custom website development, and digital solutions across Kerala.",
+    ogUrl: "https://anagh534.github.io/services",
+    ogType: "website",
+    twitterCard: "summary_large_image",
+    twitterTitle: "Web Development Services Kerala | Flutter App Development",
+    twitterDescription: "Professional web development and mobile app development services across Kerala by expert developer Anagh K R."
 };
 
 export default function Services() {
