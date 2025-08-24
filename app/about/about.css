@@ -34,70 +34,6 @@ body {
     background: var(--gradient-dark);
     position: relative;
     overflow: hidden;
-}
-
-.modern-hero-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at 20% 80%, rgba(18, 247, 214, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(18, 247, 214, 0.08) 0%, transparent 50%);
-    pointer-events: none;
-}
-
-.hero-badge {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.75rem 1.5rem;
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
-    border-radius: 50px;
-    backdrop-filter: blur(10px);
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: var(--brand-color);
-    animation: fadeInUp 0.8s ease-out;
-}
-
-/* Modern About Page Styles with Bootstrap */
-
-/* Color Variables */
-:root {
-    --bg-dark: #292F36;
-    --bg-darker: #1A1E23;
-    --brand-color: #12F7D6;
-    --text-light: #FFFFFF;
-    --text-gray: #8892B0;
-    --text-muted: #64748B;
-    --card-bg: rgba(255, 255, 255, 0.05);
-    --glass-bg: rgba(255, 255, 255, 0.1);
-    --glass-border: rgba(255, 255, 255, 0.2);
-    --shadow-dark: rgba(0, 0, 0, 0.3);
-    --gradient-brand: linear-gradient(135deg, var(--brand-color), #0FD3B8);
-    --gradient-dark: linear-gradient(135deg, var(--bg-dark), var(--bg-darker));
-}
-
-/* Global Styles */
-body {
-    background: var(--gradient-dark);
-    color: var(--text-light);
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    overflow-x: hidden;
-}
-
-/* Text Colors */
-.text-brand {
-    color: var(--brand-color) !important;
-}
-
-/* Hero Section */
-.modern-hero-section {
-    background: var(--gradient-dark);
-    position: relative;
-    overflow: hidden;
     padding: 0;
 }
 
@@ -458,6 +394,7 @@ body {
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    animation: fadeInUp 0.8s ease-out both;
 }
 
 .skill-card::before {
