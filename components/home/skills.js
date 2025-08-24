@@ -6,115 +6,134 @@ export default function Skills() {
                 <div className="row scroll">
                     <img src='/assets/scroll.webp' className='img-fluid' alt="" />
                 </div>
-                <div className="row text-center pb-5">
-                    <h2>Skills</h2>
-                    <p>As a passionate developer, I am dedicated to honing my skills and staying updated with the latest technologies.<br /> My expertise spans across web development, mobile app development, and SEO optimization, ensuring that I deliver cutting-edge solutions tailored to your needs.</p>
-                </div>
-                <div className="cards">
-                    <div className="row g-4">
-                        <div className="col-lg-6">
-                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
-                                <div className="card-body text-center">
-                                    <i className="fa-solid fa-desktop"></i>
-                                    <h4 className="card-title">WEBSITE DEVELOPMENT</h4>
-                                    <p className="card-text"><small className="text-body-secondary">
-                                        <i className="fa-solid fa-code"></i> Custom Website Solutions <br />
-                                        <i className="fa-solid fa-mobile-alt"></i> Responsive Web Design <br />
-                                        <i className="fa-solid fa-cogs"></i> Website Optimization & Maintenance</small></p>
-                                </div>
+                
+                {/* Skills Section - Copied from About Page */}
+                <section className="modern-skills-section py-5">
+                    <div className="container">
+                        <div className="text-center mb-5">
+                            <div className="section-badge mb-3">
+                                <i className="fas fa-cogs me-2"></i>
+                                Technical Skills
                             </div>
+                            <h2 className="section-title mb-4">
+                                Technologies I <span className="text-brand">Master</span>
+                            </h2>
+                            <p className="section-description">
+                                A comprehensive toolkit for building modern, scalable applications
+                            </p>
                         </div>
-                        <div className="col-lg-6">
-                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
-                                <div className="card-body text-center">
-                                    <i className="fa-solid fa-mobile-screen-button"></i>
-                                    <h4 className="card-title">APP DEVELOPMENT</h4>
-                                    <p className="card-text"><small className="text-body-secondary"><i className="fa-brands fa-flutter "></i> Flutter (Cross-platform apps for Android and iOS)<br/><i className="fa-solid fa-cloud"></i> Real-Time Database Integration <br/>
-                                    <i className="fa-solid fa-bell"></i> Push Notifications & Authentication</small></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
-                                <div className="card-body text-center">
-                                    <i className="fa-brands fa-searchengin"></i>
-                                    <h4 className="card-title">SEO Optimization</h4>
-                                    <p className="card-text"><small className="text-body-secondary"><i className="fa-solid fa-chart-line"></i> On-page and technical SEO to boost search rankings <br />
-                                    <i className="fa-solid fa-magnifying-glass"></i> Search ranking improvements</small></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
-                                <div className="card-body text-center">
-                                    <i className="fa-solid fa-palette"></i>
-                                    <h4 className="card-title">WEB DESIGN</h4>
-                                    <p className="card-text"><small className="text-body-secondary"><i className="fa-brands fa-figma"></i> Figma to Website Conversion <br /><i className="fa-solid fa-image"></i> PHOTOSHOP (.PSD) to Responsive Website</small></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
-                                <div className="card-body text-center">
-                                    <i className="fa-brands fa-wordpress"></i>
-                                    <h4 className="card-title">WORDPRESS DEVELOPMENT</h4>
-                                    <p className="card-text">
-                                        <small className="text-body-secondary">
-                                            <i className="fa-solid fa-lock"></i> WordPress Security Check-Up <br />
-                                            <i className="fa-solid fa-wrench"></i> Custom WordPress Development <br />
-                                            <i className="fa-solid fa-paintbrush"></i> WordPress Website Redesign
-                                        </small>
+                        <div className="row g-4">
+                            <div className="col-lg-4 col-md-6">
+                                <div className="skill-card h-100">
+                                    <div className="skill-icon mb-3">
+                                        <i className="fas fa-laptop-code"></i>
+                                    </div>
+                                    <h4 className="skill-title mb-3">Frontend Development</h4>
+                                    <p className="skill-description mb-4">
+                                        Creating responsive and interactive user interfaces
                                     </p>
+                                    <div className="skill-tags">
+                                        <span className="skill-tag">React.js</span>
+                                        <span className="skill-tag">Next.js</span>
+                                        <span className="skill-tag">HTML5</span>
+                                        <span className="skill-tag">CSS3</span>
+                                        <span className="skill-tag">JavaScript</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
-                                <div className="card-body text-center">
-                                    <i className="fa-solid fa-store"></i>
-                                    <h4 className="card-title">E-COMMERCE DEVELOPMENT</h4>
-                                    <p className="card-text">
-                                        <small className="text-body-secondary">
-                                            <i className="fa-solid fa-cart-arrow-down"></i> Custom E-commerce Solutions <br />
-                                            <i className="fa-solid fa-credit-card"></i> Secure Payment Integration <br />
-                                            <i className="fa-solid fa-gift"></i> User-friendly Product Listings
-                                        </small>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="skill-card h-100">
+                                    <div className="skill-icon mb-3">
+                                        <i className="fas fa-server"></i>
+                                    </div>
+                                    <h4 className="skill-title mb-3">Backend Development</h4>
+                                    <p className="skill-description mb-4">
+                                        Building robust and scalable server-side applications
                                     </p>
+                                    <div className="skill-tags">
+                                        <span className="skill-tag">Node.js</span>
+                                        <span className="skill-tag">Express.js</span>
+                                        <span className="skill-tag">MongoDB</span>
+                                        <span className="skill-tag">PostgreSQL</span>
+                                        <span className="skill-tag">RESTful APIs</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
-                                <div className="card-body text-center">
-                                    <i className="fa-brands fa-react"></i>
-                                    <h4 className="card-title">NEXT.JS DEVELOPMENT</h4>
-                                    <p className="card-text">
-                                        <small className="text-body-secondary">
-                                            <i className="fa-solid fa-cogs"></i> Server-Side Rendering (SSR) <br />
-                                            <i className="fa-solid fa-laptop-code"></i> Static Site Generation (SSG) <br />
-                                            <i className="fa-solid fa-rocket"></i> Performance Optimization
-                                        </small>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="skill-card h-100">
+                                    <div className="skill-icon mb-3">
+                                        <i className="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <h4 className="skill-title mb-3">Mobile Development</h4>
+                                    <p className="skill-description mb-4">
+                                        Cross-platform mobile apps with native performance
                                     </p>
+                                    <div className="skill-tags">
+                                        <span className="skill-tag">Flutter</span>
+                                        <span className="skill-tag">Dart</span>
+                                        <span className="skill-tag">iOS</span>
+                                        <span className="skill-tag">Android</span>
+                                        <span className="skill-tag">Firebase</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="card skill-card mb-3" style={{ minHeight: '137px' }}>
-                                <div className="card-body text-center">
-                                    <i className="fa-brands fa-node"></i>
-                                    <h4 className="card-title">MERN STACK DEVELOPMENT</h4>
-                                    <p className="card-text">
-                                        <small className="text-body-secondary">
-                                            <i className="fa-brands fa-react"></i> React.js for Dynamic UIs <br />
-                                            <i className="fa-brands fa-node"></i> Node.js & Express.js Backend <br />
-                                            <i className="fa-solid fa-database"></i> MongoDB for Scalable Data Solutions
-                                        </small>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="skill-card h-100">
+                                    <div className="skill-icon mb-3">
+                                        <i className="fas fa-cloud"></i>
+                                    </div>
+                                    <h4 className="skill-title mb-3">Cloud & DevOps</h4>
+                                    <p className="skill-description mb-4">
+                                        Deploying and managing applications in the cloud
                                     </p>
+                                    <div className="skill-tags">
+                                        <span className="skill-tag">AWS</span>
+                                        <span className="skill-tag">Azure</span>
+                                        <span className="skill-tag">Docker</span>
+                                        <span className="skill-tag">Git</span>
+                                        <span className="skill-tag">CI/CD</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="skill-card h-100">
+                                    <div className="skill-icon mb-3">
+                                        <i className="fas fa-palette"></i>
+                                    </div>
+                                    <h4 className="skill-title mb-3">Design & UX</h4>
+                                    <p className="skill-description mb-4">
+                                        Creating beautiful and user-friendly interfaces
+                                    </p>
+                                    <div className="skill-tags">
+                                        <span className="skill-tag">Figma</span>
+                                        <span className="skill-tag">Adobe XD</span>
+                                        <span className="skill-tag">UI/UX</span>
+                                        <span className="skill-tag">Responsive</span>
+                                        <span className="skill-tag">Prototyping</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="skill-card h-100">
+                                    <div className="skill-icon mb-3">
+                                        <i className="fas fa-desktop"></i>
+                                    </div>
+                                    <h4 className="skill-title mb-3">Desktop Development</h4>
+                                    <p className="skill-description mb-4">
+                                        Cross-platform desktop applications
+                                    </p>
+                                    <div className="skill-tags">
+                                        <span className="skill-tag">.NET</span>
+                                        <span className="skill-tag">Avalonia</span>
+                                        <span className="skill-tag">C#</span>
+                                        <span className="skill-tag">Electron</span>
+                                        <span className="skill-tag">WPF</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     );
