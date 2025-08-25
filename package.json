@@ -9,7 +9,9 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next build",
-    "postbuild": "next-sitemap --config next-sitemap.config.js"
+    "postbuild": "next-sitemap --config next-sitemap.config.js",
+    "sitemap": "next-sitemap --config next-sitemap.config.js",
+    "sitemap:verify": "echo 'Checking sitemap...' && curl -s https://anagh534.github.io/sitemap.xml | head -10"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.0",
