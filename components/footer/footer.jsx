@@ -141,7 +141,7 @@ const Footer = () => {
                         <div className="col-md-6 text-center text-md-start">
                             <p className="footer-copyright-text mb-0">
                                 © {new Date().getFullYear()} <Link href="/" className="footer-copyright-link">ANAGH K R</Link>
-                                {/* Made with <i className="fas fa-heart text-danger mx-1"></i> in Kerala. */}
+                                Made with <i className="fas fa-heart text-danger mx-1"></i> in Kerala.
                             </p>
                         </div>
                         <div className="col-md-6 text-center text-md-end">
