@@ -7,3 +7,68 @@
 .project-image {
     width: 30rem;
 }
+
+/* Carousel Controls Fixes */
+.carousel {
+    position: relative;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    background-color: rgba(18, 247, 214, 0.8);
+    border: none;
+    border-radius: 50%;
+    z-index: 10;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(18, 247, 214, 1);
+    opacity: 1;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-control-prev {
+    left: -60px;
+}
+
+.carousel-control-next {
+    right: -60px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+}
+
+/* Ensure carousel container has proper overflow */
+.carousel-inner {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Mobile responsive controls */
+@media (max-width: 768px) {
+    .carousel-control-prev {
+        left: 10px;
+    }
+    
+    .carousel-control-next {
+        right: 10px;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 40px;
+        height: 40px;
+    }
+}

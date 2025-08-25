@@ -1,10 +1,14 @@
+"use client"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
-
+import { useEffect } from "react";
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    import("bootstrap/dist/js/bootstrap.min.js");
+  }, []);
   return (
     <html lang="en">
       <head>
