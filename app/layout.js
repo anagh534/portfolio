@@ -4,10 +4,20 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
-import { useEffect } from "react";
+import PageLoader from "@/components/pageLoader/PageLoader";
+import { useEffect, useState } from "react";
 export default function RootLayout({ children }) {
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.min.js");
+    
+    // Simulate loading time and then hide loader
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // 2 seconds loading time
+
+    return () => clearTimeout(timer);
   }, []);
   return (
     <html lang="en">
@@ -21,6 +31,14 @@ export default function RootLayout({ children }) {
       </head>
 
       <body>
+        {/* Page Loader */}
+        <PageLoader 
+          isLoading={isLoading}
+          loadingText="Loading..."
+          animationType="spinner"
+          size="large"
+        />
+        
         <Navbar />
         {children}
         <Footer />
