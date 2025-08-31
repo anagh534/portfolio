@@ -1,4 +1,6 @@
 "use client"
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./globals.css";
@@ -18,6 +20,10 @@ export default function RootLayout({ children }) {
     }, 2000); // 2 seconds loading time
 
     return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    AOS.init();
   }, []);
   return (
     <html lang="en">
@@ -74,7 +80,6 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
-        <script>AOS.init();</script>
       </body>
     </html>
   );
