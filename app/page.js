@@ -1,6 +1,7 @@
 import About from "@/components/home/about";
 import Hero from "@/components/home/hero";
 import Skills from "@/components/home/skills";
+import WhatWeOffer from "@/components/home/whatweoffer";
 import Works from "@/components/home/works";
 
 export const metadata = {
@@ -27,6 +28,7 @@ export default function Home() {
       <About/>
       <Skills/>
       <Works/>
+      <WhatWeOffer/>
     </>
   );
 }

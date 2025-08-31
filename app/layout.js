@@ -74,6 +74,7 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
+        <script>AOS.init();</script>
       </body>
     </html>
   );
