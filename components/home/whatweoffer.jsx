@@ -12,20 +12,20 @@ const WhatWeOffer = () => {
     const services = [
         {
             id: 1,
-            title: "Full-Stack Web Development",
+            title: "Full-Stack Web Development in Kerala",
             category: "Development",
             icon: "🌐",
-            shortDesc: "Dynamic, responsive websites with modern technologies",
+            shortDesc: "Custom website development with MERN stack technology",
             fullDesc: "As an experienced web developer based in Kerala, I specialize in creating dynamic, responsive, and interactive websites that provide seamless experiences across all devices. I offer full-stack web development services utilizing the latest technologies including React, Next.js, Node.js, and Express.js to build robust, scalable, and high-performing websites with clean code, responsive design, and SEO optimization.",
             technologies: ["React", "Next.js", "Node.js", "Express.js", "MongoDB", "MySQL"],
             features: ["Responsive Design", "SEO Optimized", "Fast Loading", "Cross-browser Compatible", "Mobile-first Approach"]
         },
         {
             id: 2,
-            title: "E-commerce Development",
+            title: "E-commerce Development Services",
             category: "Online Store",
             icon: "🛒",
-            shortDesc: "Feature-rich online stores with secure payment integration",
+            shortDesc: "Complete e-commerce solutions for Kerala businesses",
             fullDesc: "I specialize in designing and developing high-performance e-commerce websites that help businesses grow online. I create user-friendly and feature-rich e-commerce solutions using modern technologies, with secure payment integration, inventory management, shopping cart functionality, and SEO optimization to boost your online sales and revenue.",
             technologies: ["WooCommerce", "Shopify", "React", "Node.js", "Payment Gateways"],
             features: ["Secure Payments", "Inventory Management", "Order Tracking", "Customer Dashboard", "Admin Panel"]
@@ -35,17 +35,17 @@ const WhatWeOffer = () => {
             title: "Flutter Mobile App Development",
             category: "Mobile Apps",
             icon: "📱",
-            shortDesc: "Cross-platform mobile apps for iOS and Android",
+            shortDesc: "Professional Flutter app development for Kerala businesses",
             fullDesc: "I specialize in building high-performance, cross-platform mobile applications for iOS and Android using Flutter. I create beautiful, fast, and responsive apps that provide a native-like experience with smooth animations, intuitive UI/UX, and seamless performance across different devices. From concept to deployment, I provide end-to-end mobile app development services.",
             technologies: ["Flutter", "Dart", "Firebase", "REST APIs", "SQLite"],
             features: ["Cross-platform", "Native Performance", "Beautiful UI", "Offline Support", "Push Notifications"]
         },
         {
             id: 4,
-            title: "UI/UX Web Design",
+            title: "Responsive Web Design Services",
             category: "Design",
             icon: "🎨",
-            shortDesc: "Visually stunning and user-friendly website designs",
+            shortDesc: "SEO-optimized website design for all Kerala businesses",
             fullDesc: "I'm a professional website designer from Kerala, dedicated to crafting visually stunning and functional websites. My designs focus on delivering powerful online experiences with modern aesthetics, intuitive navigation, and user-centered design principles. I create well-structured, SEO-optimized designs that help increase your visibility on search engines while providing exceptional user experiences.",
             technologies: ["Figma", "Adobe XD", "Photoshop", "HTML5", "CSS3", "JavaScript"],
             features: ["User-Centered Design", "Modern Aesthetics", "Intuitive Navigation", "Accessibility", "Brand Consistency"]

@@ -6,33 +6,33 @@ const WhyChooseMe = () => {
     const services = [
         {
             icon: "🚀",
-            title: "Fast & Modern Development",
-            description: "Lightning-fast websites built with latest technologies"
+            title: "Fast & Responsive Web Design",
+            description: "SEO-optimized websites that look great on all devices"
         },
         {
             icon: "💎",
-            title: "Premium Quality Design",
-            description: "Pixel-perfect designs that captivate your audience"
+            title: "Premium Quality Development",
+            description: "Professional websites that represent your brand perfectly"
         },
         {
             icon: "📱",
-            title: "Mobile-First Approach",
-            description: "Responsive designs that work flawlessly on all devices"
+            title: "Flutter App Development",
+            description: "Cross-platform mobile apps for iOS and Android"
         },
         {
             icon: "🎯",
-            title: "SEO Optimized",
-            description: "Built-in SEO features to boost your online visibility"
+            title: "MERN Stack Development",
+            description: "Full-stack web applications with modern technologies"
         }
     ];
 
     const keyPoints = [
-        "5+ Years of Professional Experience",
-        "50+ Successful Projects Delivered",
-        "100% Client Satisfaction Rate",
-        "24/7 Technical Support",
-        "Affordable Pricing for All Budgets",
-        "Quick Turnaround Time"
+        "5+ Years of Professional Web Development Experience",
+        "50+ Successful Projects Delivered Across Kerala",
+        "Expert in React, Node.js, and Flutter Development",
+        "Affordable Web and App Development Services",
+        "SEO-Optimized Website Development",
+        "Custom E-commerce Solutions"
     ];
 
     return (
@@ -50,15 +50,13 @@ const WhyChooseMe = () => {
 
                             {/* Main Heading */}
                             <h2 className="main-heading">
-                                Expert <span className="highlight-text">MERN Stack Developer</span> 
+                                Expert <span className="highlight-text">Flutter & MERN Stack Developer</span> 
                                 <br />In Kerala, India
                             </h2>
 
                             {/* Main Description */}
                             <p className="main-description">
-                                As an experienced full-stack developer based in Kerala, I have the expertise to create 
-                                exceptional websites and mobile applications that deliver outstanding results. With a deep 
-                                understanding of modern web technologies, I bring your digital vision to life with precision and creativity.
+                                As an experienced <strong>full-stack developer based in Kerala</strong>, I offer professional <strong>web development services</strong> and <strong>mobile app development</strong> solutions. I create <strong>custom websites</strong>, <strong>e-commerce platforms</strong>, and <strong>cross-platform mobile applications</strong> using <strong>Flutter</strong> and the <strong>MERN stack</strong>. Serving clients across <strong>Kochi</strong>, <strong>Thiruvananthapuram</strong>, <strong>Kozhikode</strong>, and all of Kerala with affordable and high-quality digital solutions.
                             </p>
 
                             {/* Services Grid */}

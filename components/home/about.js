@@ -18,10 +18,10 @@ export default function About(){
                             <div className="about-description">
                                 <span className="hello-text">Hello!</span>
                                 <p>
-                                    I'm Anagh, a freelance web developer and designer based in Kasaragod, Kerala. I've worked with over 25+ clients to create impactful portfolio websites, e-commerce platforms, and business websites.
+                                    I'm Anagh, a <strong>freelance web developer</strong> and <strong>Flutter developer</strong> based in Kasaragod, Kerala. I've worked with over 25+ clients across Kerala including Kochi, Thiruvananthapuram, and Kozhikode to create impactful <strong>portfolio websites</strong>, <strong>e-commerce platforms</strong>, and <strong>business websites</strong>.
                                 </p>
                                 <p>
-                                    I specialize in building scalable solutions using the latest technologies, including Flutter, React, and Node.js. My mission is to help businesses grow by delivering affordable, high-quality web and app development services in Kerala and beyond.
+                                    I specialize in building scalable solutions using the latest technologies, including <strong>Flutter</strong>, <strong>React</strong>, <strong>Node.js</strong>, and the full <strong>MERN stack</strong>. My mission is to help businesses grow by delivering <strong>affordable web development services</strong> and <strong>mobile app development</strong> solutions throughout Kerala and beyond.
                                 </p>
                             </div>
                             <Link href="/about" className='know-more-btn'>
@@ -30,7 +30,7 @@ export default function About(){
                         </div>
                     </div>
                     <div className="about-image-container">
-                        <img className='about-image' src='/assets/about.webp' alt="Anagh K R - Web Developer" />
+                        <img className='about-image' src='/assets/about.webp' alt="Anagh K R - MERN Stack and Flutter Developer in Kerala" />
                     </div>
                 </div>
             </div>

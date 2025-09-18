@@ -24,7 +24,7 @@ export default function Hero() {
               </div>
               <div className="profile-info">
                 <h3 className="profile-name">ANAGH K R</h3>
-                <p className="profile-title">Affordable Web Design | Flutter Developer in Kasaragod | App Development Services in Kerala</p>
+                <p className="profile-title">Affordable Web Design | Flutter Developer in Kerala | MERN Stack Development Services</p>
                 
                 <div className="profile-details">
                   <div className="detail-item">
@@ -37,7 +37,7 @@ export default function Hero() {
                   </div>
                   <div className="detail-item">
                     <i className="fas fa-briefcase"></i>
-                    <span>Freelancer</span>
+                    <span>Freelance Web Developer</span>
                   </div>
                   <div className="detail-item">
                     <i className="fa-brands fa-whatsapp"></i>
@@ -64,8 +64,8 @@ export default function Hero() {
                 Hey, <br /> I'm <span className="highlight-text">ANAGH</span>,
               </h1>
               <p className="intro-description">
-                Looking for expert web and app development services in Kerala ?<br/> 
-                I'm Anagh, a professional Flutter developer and freelance web designer based in Kasaragod. I specialize in creating custom websites, mobile apps, and responsive designs tailored for businesses of all sizes. From startups to established companies,<br/> I provide affordable and high-quality solutions that drive results.
+                Looking for expert <strong>web and mobile app development services in Kerala</strong>?<br/> 
+                I'm Anagh, a professional <strong>Flutter developer</strong> and <strong>MERN stack developer</strong> based in Kerala. I specialize in creating <strong>custom websites</strong>, <strong>responsive web design</strong>, <strong>e-commerce solutions</strong>, and <strong>cross-platform mobile applications</strong> tailored for businesses of all sizes. From startups to established companies,<br/> I provide affordable and high-quality <strong>web development services</strong> that drive results.
               </p>
               <a href="mailto:anaghkrkkl@gmail.com" className="contact-btn">
                 Let's Talk <i className="fas fa-envelope"></i>
