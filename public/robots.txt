@@ -1,23 +1,13 @@
 # Robots.txt for anaghkr.in - ANAGH K R Portfolio Website
 # Professional MERN Stack Developer & Mobile App Developer in Kerala
 
-# *
-User-agent: *
-Allow: /
-
-# *
 User-agent: *
 Disallow: /admin/
 Disallow: /_next/
 Disallow: /api/
 Disallow: /.git/
 
-# Host
-Host: https://www.anaghkr.in
-
-# Sitemaps
-Sitemap: https://www.anaghkr.in/sitemap.xml
-
+Allow: /
 
 # Allow important SEO pages
 Allow: /about
@@ -39,5 +29,5 @@ Allow: /locations/kasaragod
 Allow: /locations/palakkad
 Allow: /locations/kanhangad
 
-# Be polite to crawlers
-Crawl-delay: 1
+# Sitemap
+Sitemap: https://www.anaghkr.in/sitemap.xml
