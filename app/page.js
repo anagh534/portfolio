@@ -132,6 +132,9 @@ export default function Home() {
         })
       }} />
 
+      <Hero/>
+      <About/>
+      <Skills/>
       <Works/>
       <WhatWeOffer/>
       <WhyChooseMe/>
