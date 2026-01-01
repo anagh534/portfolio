@@ -4,10 +4,10 @@ export const metadata = {
     keywords: "web developer Kanhangad, Flutter developer Kanhangad, app development Kanhangad, website design Kanhangad, Kanhangad web services, local digital solutions, responsive websites, mobile applications, startup solutions, business websites, custom development, regional services, local business focus, MERN stack developer Kanhangad, React developer Kanhangad, Node.js developer Kanhangad, professional web developer Kanhangad",
     author: "ANAGH K R",
     robots: "index, follow",
-    canonical: "https://anagh534.github.io/locations/kanhangad",
+    canonical: "https://www.anaghkr.in/locations/kanhangad",
     ogTitle: "Web Developer Kanhangad | Flutter App Development Kanhangad",
     ogDescription: "Local web development and mobile app development services in Kanhangad. Custom digital solutions for local businesses and startups.",
-    ogUrl: "https://anagh534.github.io/locations/kanhangad",
+    ogUrl: "https://www.anaghkr.in/locations/kanhangad",
     ogType: "website"
 };
 

@@ -4,10 +4,10 @@ export const metadata = {
     keywords: "web developer Kozhikode, Flutter developer Calicut, app development Kozhikode, website design Calicut, Kozhikode web services, mobile app development Calicut, modern website development, digital transformation, e-commerce platforms, business automation, MERN stack developer Kozhikode, React developer Calicut, Node.js developer Kozhikode, professional web developer Calicut, best web developer Kozhikode, custom website development Calicut, Malabar web development services",
     author: "ANAGH K R",
     robots: "index, follow",
-    canonical: "https://anagh534.github.io/locations/kozhikode",
+    canonical: "https://www.anaghkr.in/locations/kozhikode",
     ogTitle: "Web Developer Kozhikode | Flutter App Development Calicut",
     ogDescription: "Professional web development and Flutter app development services in Kozhikode (Calicut). Modern solutions for businesses in Malabar region.",
-    ogUrl: "https://anagh534.github.io/locations/kozhikode",
+    ogUrl: "https://www.anaghkr.in/locations/kozhikode",
     ogType: "website"
 };
 

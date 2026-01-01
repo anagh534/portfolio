@@ -4,10 +4,10 @@ export const metadata = {
     keywords: "web developer Ernakulam, Flutter developer Ernakulam, app development Ernakulam, website design Ernakulam, Ernakulam web services, responsive web design, mobile app development, e-commerce solutions, digital marketing, business automation, MERN stack developer Ernakulam, React developer Ernakulam, Node.js developer Ernakulam, professional web developer Ernakulam, custom website development Ernakulam",
     author: "ANAGH K R",
     robots: "index, follow",
-    canonical: "https://anagh534.github.io/locations/ernakulam",
+    canonical: "https://www.anaghkr.in/locations/ernakulam",
     ogTitle: "Web Developer Ernakulam | Flutter App Development Ernakulam",
     ogDescription: "Expert web development and Flutter app development services in Ernakulam district. Comprehensive digital solutions for urban businesses.",
-    ogUrl: "https://anagh534.github.io/locations/ernakulam",
+    ogUrl: "https://www.anaghkr.in/locations/ernakulam",
     ogType: "website"
 };
 

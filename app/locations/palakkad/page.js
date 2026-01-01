@@ -4,10 +4,10 @@ export const metadata = {
     keywords: "web developer Palakkad, Flutter developer Palakkad, app development Palakkad, website design Palakkad, Palakkad web services, agricultural platforms, educational websites, business solutions, mobile development, rural tech solutions, gateway of Kerala web development, agricultural hub solutions, educational center websites, MERN stack developer Palakkad, React developer Palakkad, Node.js developer Palakkad",
     author: "ANAGH K R",
     robots: "index, follow",
-    canonical: "https://anagh534.github.io/locations/palakkad",
+    canonical: "https://www.anaghkr.in/locations/palakkad",
     ogTitle: "Web Developer Palakkad | Flutter App Development Palakkad",
     ogDescription: "Expert web development and Flutter app development services in Palakkad. Specialized in agricultural and educational platform solutions.",
-    ogUrl: "https://anagh534.github.io/locations/palakkad",
+    ogUrl: "https://www.anaghkr.in/locations/palakkad",
     ogType: "website"
 };
 

@@ -4,10 +4,10 @@ export const metadata = {
     keywords: "web developer Thrissur, Flutter developer Thrissur, app development Thrissur, website design Thrissur, Thrissur web services, cultural web developer, responsive web design, mobile app development, e-commerce solutions, digital marketing, business automation, MERN stack developer Thrissur, React developer Thrissur, Node.js developer Thrissur, professional web developer Thrissur, custom website development Thrissur",
     author: "ANAGH K R",
     robots: "index, follow",
-    canonical: "https://anagh534.github.io/locations/thrissur",
+    canonical: "https://www.anaghkr.in/locations/thrissur",
     ogTitle: "Web Developer Thrissur | Flutter App Development Thrissur",
     ogDescription: "Expert web development and Flutter app development services in Thrissur. Comprehensive digital solutions for cultural and festival city businesses.",
-    ogUrl: "https://anagh534.github.io/locations/thrissur",
+    ogUrl: "https://www.anaghkr.in/locations/thrissur",
     ogType: "website"
 };
 

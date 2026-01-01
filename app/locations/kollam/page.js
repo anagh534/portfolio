@@ -4,10 +4,10 @@ export const metadata = {
     keywords: "web developer Kollam, Flutter developer Kollam, app development Kollam, website design Kollam, Kollam web services, industrial web developer, responsive web design, mobile app development, e-commerce solutions, digital marketing, business automation, MERN stack developer Kollam, React developer Kollam, Node.js developer Kollam, professional web developer Kollam, custom website development Kollam",
     author: "ANAGH K R",
     robots: "index, follow",
-    canonical: "https://anagh534.github.io/locations/kollam",
+    canonical: "https://www.anaghkr.in/locations/kollam",
     ogTitle: "Web Developer Kollam | Flutter App Development Kollam",
     ogDescription: "Expert web development and Flutter app development services in Kollam. Comprehensive digital solutions for industrial and port city businesses.",
-    ogUrl: "https://anagh534.github.io/locations/kollam",
+    ogUrl: "https://www.anaghkr.in/locations/kollam",
     ogType: "website"
 };
 

@@ -2,9 +2,16 @@ import ContactForm from './ContactForm';
 import './contact.css';
 
 export const metadata = {
-  title: 'Contact - Anagh K R',
-  description: 'Get in touch with Anagh K R - MERN Stack Developer. Let\'s discuss your next project!',
-  keywords: 'contact, hire developer, MERN stack, web development, freelance',
+  title: 'Contact ANAGH K R - Flutter Developer Kerala | Get Free Quote for Web Development',
+  description: 'Contact ANAGH K R for professional web development and Flutter app development services in Kerala. Get a free quote for custom website development, mobile app development, MERN stack development, and e-commerce solutions. Available across Kerala including Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.',
+  keywords: 'contact web developer Kerala, hire Flutter developer Kerala, freelance web developer contact, get quote web development Kerala, MERN stack developer hire, mobile app developer contact, website development quote Kerala, Flutter app development inquiry, web development services Kerala contact',
+  author: 'ANAGH K R',
+  robots: 'index, follow',
+  canonical: 'https://www.anaghkr.in/contact',
+  ogTitle: 'Contact ANAGH K R - Flutter Developer Kerala | Get Free Quote',
+  ogDescription: 'Get in touch for professional web development and Flutter app development services in Kerala. Free consultation and quote available.',
+  ogUrl: 'https://www.anaghkr.in/contact',
+  ogType: 'website'
 };
 
 export default function ContactPage() {

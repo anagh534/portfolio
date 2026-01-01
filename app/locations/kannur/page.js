@@ -4,14 +4,15 @@ export const metadata = {
     keywords: "web developer Kannur, Flutter developer Kannur, app development Kannur, website design Kannur, Kannur web services, coastal web developer, responsive web design, mobile app development, e-commerce solutions, digital marketing, business automation, MERN stack developer Kannur, React developer Kannur, Node.js developer Kannur, professional web developer Kannur, custom website development Kannur",
     author: "ANAGH K R",
     robots: "index, follow",
-    canonical: "https://anagh534.github.io/locations/kannur",
-    ogTitle: "Web Developer Kannur | Flutter App Development Kannur",
-    ogDescription: "Expert web development and Flutter app development services in Kannur. Comprehensive digital solutions for coastal and handloom businesses.",
-    ogUrl: "https://anagh534.github.io/locations/kannur",
+  canonical: "https://www.anaghkr.in/locations/kannur",
+  ogTitle: "Web Developer Kannur | Flutter App Development Kannur",
+  ogDescription: "Expert web development and Flutter app development services in Kannur. Comprehensive digital solutions for coastal and handloom businesses.",
+  ogUrl: "https://www.anaghkr.in/locations/kannur",
     ogType: "website"
 };
 
 import '../city.css';
+import Script from 'next/script';
 
 export default function KannurServices() {
     const cityHighlights = [
@@ -122,6 +123,38 @@ export default function KannurServices() {
 
     return (
         <div className="city-page-container">
+            <Script id="schema-local-business-kannur" type="application/ld+json" dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "ProfessionalService",
+                    "name": "ANAGH K R - Web Developer Kannur",
+                    "description": "Expert web development and Flutter app development services in Kannur, Kerala. Specializing in responsive websites, mobile apps, and e-commerce platforms.",
+                    "url": "https://www.anaghkr.in/locations/kannur",
+                    "priceRange": "₹₹",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Kannur",
+                        "addressRegion": "Kerala",
+                        "addressCountry": "IN"
+                    },
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "11.8745",
+                        "longitude": "75.3704"
+                    },
+                    "areaServed": {
+                        "@type": "City",
+                        "name": "Kannur"
+                    },
+                    "serviceType": ["Web Development", "Flutter App Development", "Mobile App Development", "Website Design", "E-commerce Development"],
+                    "provider": {
+                        "@type": "Person",
+                        "name": "ANAGH K R",
+                        "jobTitle": "Freelance Web Developer & Flutter Developer"
+                    }
+                })
+            }} />
+            
             {/* Hero Section */}
             <section className="city-hero-section">
                 <div className="container">

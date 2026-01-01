@@ -7,15 +7,15 @@ import Works from "@/components/home/works";
 import Script from 'next/script';
 
 export const metadata = {
-  title: "Flutter Developer Kerala | MERN Stack Developer Kerala | Web Development Services Kerala - ANAGH K R",
-  description: "Professional Flutter developer and MERN stack developer in Kerala. Affordable Flutter app development, custom website development, responsive web design, e-commerce development, and WordPress development services across Kerala including Kochi, Thiruvananthapuram, Kozhikode, and Kasaragod.",
-  keywords: "Flutter developer Kerala, MERN stack developer Kerala, Web development services Kerala, Mobile app development Kerala, Freelance web developer Kerala, Custom website development Kerala, React developer Kerala, Node.js developer Kerala, Affordable Flutter app development in Kochi, Best web developer in Thiruvananthapuram Kerala, Professional mobile app development Kozhikode, Custom MERN stack development services Thrissur, Responsive web design company Ernakulam, Cross-platform app development expert Calicut, SEO-optimized website development Kannur, E-commerce development specialist Kollam, Website redesign services Kerala, WordPress development Kerala, Next.js development Kerala, PSD to website conversion Kerala, Figma to website development Kerala, Academic project development Kerala, Startup web development Kerala, Flutter app development, Web developer, MERN stack developer, Mobile app development, Web design services, Website development, App development services, Freelance web developer, SEO optimization, WordPress development",
+  title: "Flutter Developer Kerala | Freelance Web Developer Kerala | MERN Stack Developer - ANAGH K R",
+  description: "Top-rated freelance Flutter developer and web developer in Kerala. Specialized in MERN stack development, Flutter app development, website design, and LMS development. Serving Calicut, Trivandrum, Kannur, Kasaragod, Kochi, and all Kerala. Affordable custom website development and mobile app development services.",
+  keywords: "flutter developer kerala, freelance web developer kerala, web development calicut, website designer in kasaragod, lms development companies in trivandrum, app developers in trivandrum, web developer in kerala, freelance website developer kerala, flutter developers near me, flutter development in kannur, ecommerce development kannur, flutter training calicut, web development company in kannur, MERN stack developer Kerala, Mobile app development Kerala, Custom website development Kerala, React developer Kerala, Node.js developer Kerala, Affordable Flutter app development, Best web developer Kerala, Professional mobile app development, Responsive web design Kerala, E-commerce development Kerala, WordPress development Kerala, Next.js development Kerala",
   author: "ANAGH K R",
-  robots: "index, follow",
-  canonical: "https://anagh534.github.io",
-  ogTitle: "Flutter Developer Kerala | MERN Stack Developer Kerala | Web Development Services Kerala",
-  ogDescription: "Professional Flutter developer and MERN stack developer in Kerala. Affordable Flutter app development, custom website development, responsive web design, e-commerce development, and WordPress development services across Kerala.",
-  ogUrl: "https://anagh534.github.io",
+  robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+  canonical: "https://www.anaghkr.in",
+  ogTitle: "Flutter Developer Kerala | Freelance Web Developer Kerala | MERN Stack Developer",
+  ogDescription: "Top-rated freelance Flutter developer and web developer in Kerala. Specialized in MERN stack development, Flutter app development, website design, and LMS development. Serving all Kerala.",
+  ogUrl: "https://www.anaghkr.in",
   ogImage: "/assets/profile.webp",
   ogType: "website",
   twitterCard: "summary_large_image",
@@ -31,8 +31,8 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "Anagh K R",
-          "url": "https://anagh534.github.io",
-          "image": "https://anagh534.github.io/assets/profile.webp",
+          "url": "https://www.anaghkr.in",
+          "image": "https://www.anaghkr.in/assets/profile.webp",
           "sameAs": [
             "https://github.com/anagh534",
             "https://www.linkedin.com/in/anagh-k-r"
@@ -75,9 +75,63 @@ export default function Home() {
         })
       }} />
 
-      <Hero/>
-      <About/>
-      <Skills/>
+      <Script id="schema-faq" type="application/ld+json" dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Who is the best freelance web developer in Kerala?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "ANAGH K R is a highly-rated freelance web developer in Kerala specializing in MERN stack development, Flutter app development, and custom website design. Serving clients across Kerala including Kochi, Calicut, Trivandrum, Kannur, and Kasaragod with affordable and professional web development services."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What web development services are available in Calicut (Kozhikode)?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Calicut, ANAGH K R offers comprehensive web development services including custom website development, Flutter app development, e-commerce platforms, LMS development, responsive web design, WordPress development, and MERN stack solutions for businesses of all sizes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are there professional Flutter developers in Kannur?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, ANAGH K R provides expert Flutter development services in Kannur and across Kerala. Specializing in cross-platform mobile app development, Flutter training, and custom mobile applications for both Android and iOS platforms."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much does website development cost in Kerala?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Website development costs in Kerala vary based on project requirements. ANAGH K R offers affordable and transparent pricing for custom website development, starting from basic portfolio websites to complex e-commerce and LMS platforms. Contact for a free quote tailored to your needs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which cities in Kerala offer Flutter app development services?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "ANAGH K R provides Flutter app development services across all major cities in Kerala including Kochi, Thiruvananthapuram (Trivandrum), Kozhikode (Calicut), Thrissur, Kannur, Kollam, Kasaragod, Palakkad, Ernakulam, and Kanhangad with remote support available statewide."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is MERN stack development?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MERN stack development uses MongoDB, Express.js, React, and Node.js to build modern, scalable web applications. ANAGH K R specializes in full-stack MERN development, creating fast, responsive, and SEO-friendly websites and web applications for businesses in Kerala."
+              }
+            }
+          ]
+        })
+      }} />
+
       <Works/>
       <WhatWeOffer/>
       <WhyChooseMe/>

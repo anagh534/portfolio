@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     // Simulate loading time and then hide loader
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // 2 seconds loading time
+    }, 1000); // 1 second loading time - optimized for better UX and SEO
 
     return () => clearTimeout(timer);
   }, []);
@@ -32,8 +32,25 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="AWxjk_Fpn8FzilJKbuxl3i1J8VFgrfVwEkoaqwKp9mo" />
         <meta charSet="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="theme-color" content="#667eea"/>
+        <meta name="author" content="ANAGH K R"/>
+        <meta name="geo.region" content="IN-KL"/>
+        <meta name="geo.placename" content="Kerala"/>
+        <meta name="geo.position" content="10.8505;76.2711"/>
+        <meta name="ICBM" content="10.8505, 76.2711"/>
+        
+        {/* Sitemap Links */}
         <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
         <link rel="sitemap" type="application/xml" title="Sitemap-0" href="/sitemap-0.xml" />
+        
+        {/* Preconnect for Performance */}
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
+        
+        {/* Additional SEO */}
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
       </head>
 
       <body>
@@ -57,8 +74,9 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "ANAGH K R",
+              "alternateName": "Anagh K R",
               "description":
-                "I'm ANAGH K R, a freelance software developer based in Kerala specializing in MERN stack and Flutter apps. I specialize in creating custom websites, mobile apps, and responsive designs tailored for businesses of all sizes.",
+                "Freelance software developer and Flutter developer based in Kerala specializing in MERN stack development, Flutter apps, and custom website development. Expert in creating responsive websites, mobile apps, and e-commerce platforms for businesses across Kerala.",
               "url": "https://www.anaghkr.in/",
               "email": "mailto:anaghkrkkl@gmail.com",
               "sameAs": [
@@ -67,15 +85,38 @@ export default function RootLayout({ children }) {
                 "https://instagram.com/mr._uni_que___",
                 "https://www.fiverr.com/anaghkr/"
               ],
-              "jobTitle": "Freelance Software Developer",
+              "jobTitle": "Freelance Web Developer & Flutter Developer",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Self-Employed"
+              },
               "knowsAbout": [
-                "JavaScript", "Flutter", "MongoDB", "React", "Laravel", "Php",
-                "Node Js", "Express js", "MySql", "C#", "Git", "CI/CD", "DevOps",
-                "Docker", "Aws", "Firebase"
+                "Flutter Development", "MERN Stack Development", "JavaScript", "React", 
+                "Node.js", "MongoDB", "Express.js", "Laravel", "PHP", "MySQL", 
+                "Mobile App Development", "Web Development", "E-commerce Development", 
+                "LMS Development", "Firebase", "Git", "CI/CD", "DevOps", "Docker", "AWS"
               ],
               "alumniOf": {
                 "@type": "CollegeOrUniversity",
                 "name": "Kannur University"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kasaragod",
+                "addressRegion": "Kerala",
+                "addressCountry": "India"
+              },
+              "offers": {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Web Development Services",
+                  "description": "Professional web development, Flutter app development, and MERN stack development services across Kerala"
+                },
+                "areaServed": [
+                  "Kochi", "Thiruvananthapuram", "Kozhikode", "Thrissur", "Kannur", 
+                  "Kollam", "Kasaragod", "Palakkad", "Ernakulam", "Calicut", "Kerala"
+                ]
               }
             }),
           }}

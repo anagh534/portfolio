@@ -4,10 +4,10 @@ export const metadata = {
     keywords: "web developer Thiruvananthapuram, Flutter developer Trivandrum, app development Thiruvananthapuram, website design Trivandrum, Thiruvananthapuram web development services, mobile app development Trivandrum, government web solutions, educational platforms, enterprise development, MERN stack developer Thiruvananthapuram, React developer Trivandrum, Node.js developer Thiruvananthapuram, professional web developer Trivandrum, best web developer Thiruvananthapuram, custom website development Trivandrum, IT hub web development",
     author: "ANAGH K R",
     robots: "index, follow",
-    canonical: "https://anagh534.github.io/locations/thiruvananthapuram",
+    canonical: "https://www.anaghkr.in/locations/thiruvananthapuram",
     ogTitle: "Web Developer Thiruvananthapuram | Flutter App Development Trivandrum",
     ogDescription: "Professional web development and Flutter app development services in Thiruvananthapuram. Specialized in government projects and enterprise solutions.",
-    ogUrl: "https://anagh534.github.io/locations/thiruvananthapuram",
+    ogUrl: "https://www.anaghkr.in/locations/thiruvananthapuram",
     ogType: "website"
 };
 

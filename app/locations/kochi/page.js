@@ -4,10 +4,10 @@ export const metadata = {
     keywords: "web developer Kochi, Flutter developer Kochi, app development Kochi, website design Kochi, Kochi web development services, mobile app development Kochi, e-commerce development Kochi, MERN stack developer Kochi, React developer Kochi, Node.js developer Kochi, responsive web design Kochi, WordPress development Kochi, Ernakulam web developer, Kochi website design company, custom website development Kochi, professional web developer Kochi, best web developer Kochi, affordable web development Kochi",
     author: "ANAGH K R",
     robots: "index, follow",
-    canonical: "https://anagh534.github.io/locations/kochi",
+    canonical: "https://www.anaghkr.in/locations/kochi",
     ogTitle: "Web Developer Kochi | Flutter App Development Kochi | MERN Stack Developer",
     ogDescription: "Professional web development and Flutter app development services in Kochi, Ernakulam. Custom solutions for businesses in Kerala's commercial capital.",
-    ogUrl: "https://anagh534.github.io/locations/kochi",
+    ogUrl: "https://www.anaghkr.in/locations/kochi",
     ogType: "website"
 };
 

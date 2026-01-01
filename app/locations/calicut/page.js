@@ -4,10 +4,10 @@ export const metadata = {
     keywords: "web developer Calicut, Flutter developer Calicut, app development Calicut, website design Calicut, Calicut web services, Malabar web developer, responsive web design, mobile app development, e-commerce solutions, digital marketing, business automation, MERN stack developer Calicut, React developer Calicut, Node.js developer Calicut, professional web developer Calicut, custom website development Calicut",
     author: "ANAGH K R",
     robots: "index, follow",
-    canonical: "https://anagh534.github.io/locations/calicut",
+    canonical: "https://www.anaghkr.in/locations/calicut",
     ogTitle: "Web Developer Calicut | Flutter App Development Calicut",
     ogDescription: "Expert web development and Flutter app development services in Calicut (Kozhikode). Comprehensive digital solutions for Malabar region businesses.",
-    ogUrl: "https://anagh534.github.io/locations/calicut",
+    ogUrl: "https://www.anaghkr.in/locations/calicut",
     ogType: "website"
 };
 
