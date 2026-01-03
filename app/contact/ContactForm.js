@@ -68,22 +68,27 @@ export default function ContactForm() {
     setSubmitStatus(null);
 
     try {
-      // Create mailto link with form data
-      const subject = encodeURIComponent(`${formData.subject || 'Contact from Portfolio'} - ${getSelectedProject()?.label || formData.projectType}`);
-      const body = encodeURIComponent(
-        `Name: ${formData.name}\n` +
-        `Email: ${formData.email}\n` +
-        `Project Type: ${getSelectedProject()?.label || formData.projectType}\n\n` +
-        `Message:\n${formData.message}\n\n` +
-        `---\nSent from anaghkr.in contact form`
-      );
+      // Replace this URL with your Google Apps Script Web App URL
+      const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyNQzyrKvCAUItpfZQZT6Fnc42bY9qEgUgfIs1fPmFUzvdMP2fxIoC1cDNmeIyKrly3/exec';
       
-      const mailtoLink = `mailto:anaghkrkkl@gmail.com?subject=${subject}&body=${body}`;
+      const response = await fetch(GOOGLE_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          projectType: getSelectedProject()?.label || formData.projectType,
+          timestamp: new Date().toISOString(),
+          source: 'anaghkr.in'
+        })
+      });
       
-      // Open email client
-      window.location.href = mailtoLink;
-      
-      // Show success message
+      // Show success message (note: with no-cors mode, we can't check response status)
       setSubmitStatus('success');
       
       // Reset form
@@ -236,7 +241,7 @@ export default function ContactForm() {
         {submitStatus === 'success' && (
           <div className="status-message success">
             <i className="fas fa-check-circle"></i>
-            <span>Email client opened! Please send the email to complete your message.</span>
+            <span>Thank you! Your message has been sent successfully. I'll get back to you soon.</span>
           </div>
         )}
 
