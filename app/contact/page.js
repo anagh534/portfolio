@@ -1,4 +1,5 @@
 import ContactForm from './ContactForm';
+import WhatsAppCard from './WhatsAppCard';
 import './contact.css';
 
 export const metadata = {
@@ -25,15 +26,15 @@ export default function ContactPage() {
               Get In Touch
             </span>
             <h1 className="contact-title">
-              Let's Build Something 
+              Let's Build Something
               <span className="highlight-text"> Amazing Together</span>
             </h1>
             <p className="contact-subtitle">
-              Ready to bring your ideas to life? I'm here to help you create 
+              Ready to bring your ideas to life? I'm here to help you create
               exceptional digital experiences with cutting-edge technology.
             </p>
           </div>
-          
+
           <div className="contact-content">
             <div className="contact-info">
               <div className="info-card">
@@ -46,7 +47,9 @@ export default function ContactPage() {
                   <span>I'll respond within 24 hours</span>
                 </div>
               </div>
-              
+
+              <WhatsAppCard />
+
               <div className="info-card">
                 <div className="info-icon">
                   <i className="fas fa-map-marker-alt"></i>
@@ -57,7 +60,7 @@ export default function ContactPage() {
                   <span>Available for remote work</span>
                 </div>
               </div>
-              
+
               <div className="info-card">
                 <div className="info-icon">
                   <i className="fas fa-clock"></i>
@@ -68,7 +71,7 @@ export default function ContactPage() {
                   <span>Monday - Saturday</span>
                 </div>
               </div>
-              
+
               <div className="info-card">
                 <div className="info-icon">
                   <i className="fas fa-code"></i>
@@ -80,7 +83,7 @@ export default function ContactPage() {
                 </div>
               </div>
             </div>
-            
+
             <ContactForm />
           </div>
         </div>
