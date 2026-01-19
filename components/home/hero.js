@@ -34,7 +34,7 @@ export default function Hero() {
         >
           {/* Left: Profile Card */}
           <motion.div className="lg:col-span-5 flex justify-center lg:justify-start" variants={itemVariants}>
-            <div className="w-full max-w-md p-8 rounded-[40px] bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl relative group hover:border-blue-500/30 transition-all duration-500">
+            <div className="w-full max-w-md p-8 rounded-[40px] bg-white/5 backdrop-blur-xl  shadow-2xl relative group hover:border-blue-500/30 transition-all duration-500">
               <div className="relative mb-8 flex justify-center">
                 <div className="relative">
                   <Image
@@ -42,7 +42,7 @@ export default function Hero() {
                     alt="Anagh K R"
                     width={160}
                     height={160}
-                    className="rounded-3xl border-2 border-white/10 group-hover:border-blue-500/50 transition-all duration-500"
+                    className="rounded-3xl group-hover:border-blue-500/50 transition-all duration-500"
                   />
                   <div className="absolute -bottom-3 -right-3 bg-green-500 text-black text-[10px] font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg">
                     <span className="w-2 h-2 bg-black rounded-full animate-pulse"></span>

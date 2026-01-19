@@ -34,7 +34,7 @@ function ParticleField(props) {
                 <PointMaterial
                     transparent
                     color="#3b82f6"
-                    size={0.002}
+                    size={0.004}
                     sizeAttenuation={true}
                     depthWrite={false}
                     blending={THREE.AdditiveBlending}
@@ -64,9 +64,9 @@ function FloatingShape({ color, speed, distort, radius, position }) {
                     distort={distort}
                     radius={1}
                     emissive={color}
-                    emissiveIntensity={0.5}
+                    emissiveIntensity={0.8}
                     transparent
-                    opacity={0.15}
+                    opacity={0.3}
                     metalness={0.9}
                     roughness={0.1}
                 />
@@ -78,17 +78,17 @@ function FloatingShape({ color, speed, distort, radius, position }) {
 function BackgroundEffects() {
     return (
         <>
-            <ambientLight intensity={0.5} />
-            <pointLight position={[10, 10, 10]} intensity={1} color="#3b82f6" />
-            <pointLight position={[-10, -10, -10]} intensity={1} color="#8b5cf6" />
+            <ambientLight intensity={0.8} />
+            <pointLight position={[10, 10, 10]} intensity={2} color="#3b82f6" />
+            <pointLight position={[-10, -10, -10]} intensity={2} color="#8b5cf6" />
             <spotLight
                 position={[0, 5, 10]}
                 angle={0.15}
                 penumbra={1}
-                intensity={1}
+                intensity={2}
                 castShadow
             />
-            <fog attach="fog" args={['#050505', 5, 15]} />
+            <fog attach="fog" args={['#050505', 8, 20]} />
         </>
     );
 }
@@ -106,6 +106,8 @@ export default function ThreeScene() {
 
     return (
         <div className="fixed inset-0 -z-10 bg-[#050505]">
+            {/* Ambient Background Glow */}
+            <div className="absolute inset-0 bg-radial-gradient from-blue-900/10 via-transparent to-transparent opacity-50" />
             <Canvas dpr={[1, 2]}>
                 <PerspectiveCamera makeDefault position={[0, 0, 5]} fov={75} />
                 <React.Suspense fallback={null}>
