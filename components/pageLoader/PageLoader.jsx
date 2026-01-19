@@ -1,53 +1,125 @@
-import './PageLoader.css';
+'use client';
 
-export default function PageLoader({ isLoading = true, loadingText = "Loading..." }) {
-    if (!isLoading) return null;
+import React, { useRef, useState, useEffect } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
+import { MeshDistortMaterial, PerspectiveCamera, Float } from '@react-three/drei';
+import { motion, AnimatePresence } from 'framer-motion';
+
+function LoadingShape() {
+    const mesh = useRef();
+
+    useFrame((state) => {
+        const time = state.clock.getElapsedTime();
+        mesh.current.rotation.x = time * 0.5;
+        mesh.current.rotation.y = time * 0.3;
+    });
 
     return (
-        <div className="page-loader-overlay">
-            <div className="page-loader-container">
-                {/* Main Loading Animation */}
-                <div className="loader-animation">
-                    <div className="loader-ring"></div>
-                    <div className="loader-ring"></div>
-                    <div className="loader-ring"></div>
-                    <div className="loader-center">
-                        <div className="loader-pulse"></div>
+        <Float speed={2} rotationIntensity={2} floatIntensity={2}>
+            <mesh ref={mesh}>
+                <sphereGeometry args={[1.5, 64, 64]} />
+                <MeshDistortMaterial
+                    color="#3b82f6"
+                    speed={3}
+                    distort={0.4}
+                    radius={1}
+                    emissive="#3b82f6"
+                    emissiveIntensity={0.5}
+                    transparent
+                    opacity={0.2}
+                    metalness={0.9}
+                    roughness={0.1}
+                />
+            </mesh>
+        </Float>
+    );
+}
+
+export default function PageLoader({ isLoading = true, loadingText = "Initializing Systems" }) {
+    const [progress, setProgress] = useState(0);
+
+    useEffect(() => {
+        if (!isLoading) {
+            setProgress(100);
+            return;
+        }
+
+        const interval = setInterval(() => {
+            setProgress((prev) => {
+                if (prev >= 90) return prev;
+                return prev + Math.random() * 10;
+            });
+        }, 200);
+
+        return () => clearInterval(interval);
+    }, [isLoading]);
+
+    return (
+        <AnimatePresence>
+            {isLoading && (
+                <motion.div
+                    initial={{ opacity: 1 }}
+                    exit={{ opacity: 0, transition: { duration: 0.8, ease: "easeInOut" } }}
+                    className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#050505] overflow-hidden"
+                >
+                    {/* 3D Animation Background */}
+                    <div className="absolute inset-0 z-0 opacity-40">
+                        <Canvas>
+                            <PerspectiveCamera makeDefault position={[0, 0, 5]} />
+                            <ambientLight intensity={0.5} />
+                            <pointLight position={[10, 10, 10]} intensity={1} color="#3b82f6" />
+                            <LoadingShape />
+                        </Canvas>
                     </div>
-                </div>
 
-                {/* Loading Text */}
-                <div className="loader-text">
-                    <span className="loading-message">{loadingText}</span>
-                    <div className="loading-dots">
-                        <span className="dot dot-1"></span>
-                        <span className="dot dot-2"></span>
-                        <span className="dot dot-3"></span>
+                    {/* Content Overlay */}
+                    <div className="relative z-10 flex flex-col items-center text-center px-6">
+                        <motion.div
+                            initial={{ scale: 0.8, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            transition={{ duration: 0.5 }}
+                            className="mb-8"
+                        >
+                            <span className="text-4xl md:text-5xl font-black tracking-tighter text-white">
+                                ANAGH<span className="text-blue-500">.KR</span>
+                            </span>
+                        </motion.div>
+
+                        <div className="space-y-4 w-64 md:w-80">
+                            <div className="flex justify-between items-end mb-1">
+                                <span className="text-[10px] font-black tracking-[0.2em] text-blue-400 uppercase">
+                                    {loadingText}
+                                </span>
+                                <span className="text-[10px] font-black text-gray-500">
+                                    {Math.round(progress)}%
+                                </span>
+                            </div>
+
+                            <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden border border-white/5">
+                                <motion.div
+                                    className="h-full bg-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.5)]"
+                                    initial={{ width: 0 }}
+                                    animate={{ width: `${progress}%` }}
+                                    transition={{ type: "spring", damping: 20 }}
+                                />
+                            </div>
+
+                            <motion.p
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ delay: 0.5 }}
+                                className="text-[10px] font-bold text-gray-500 uppercase tracking-widest"
+                            >
+                                Digital Experience Designer
+                            </motion.p>
+                        </div>
                     </div>
-                </div>
 
-                {/* Progress Bar */}
-                <div className="loader-progress">
-                    <div className="progress-bar">
-                        <div className="progress-fill"></div>
-                    </div>
-                </div>
-
-                {/* Brand Logo/Text */}
-                <div className="loader-brand">
-                    <span className="brand-text">ANAGH K R</span>
-                    <span className="brand-subtitle">Full Stack Developer</span>
-                </div>
-            </div>
-
-            {/* Background Animation */}
-            <div className="loader-background">
-                <div className="bg-particle particle-1"></div>
-                <div className="bg-particle particle-2"></div>
-                <div className="bg-particle particle-3"></div>
-                <div className="bg-particle particle-4"></div>
-                <div className="bg-particle particle-5"></div>
-            </div>
-        </div>
+                    {/* Corner Decoration */}
+                    <div className="absolute top-10 left-10 w-20 h-20 border-t border-l border-white/10" />
+                    <div className="absolute bottom-10 right-10 w-20 h-20 border-b border-r border-white/10" />
+                </motion.div>
+            )}
+        </AnimatePresence>
     );
 }
