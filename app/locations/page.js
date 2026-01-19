@@ -127,7 +127,7 @@ export default function Locations() {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-5xl mx-auto animate-in fade-in slide-in-from-bottom-10 duration-700 delay-600">
                         {[
                             { num: '11+', label: 'Cities Served' },
-                            { num: '50+', label: 'Projects Done' },
+                            { num: '24+', label: 'Projects Done' },
                             { num: '100%', label: 'Satisfaction' },
                             { num: '24/7', label: 'Tech Support' }
                         ].map((stat, i) => (

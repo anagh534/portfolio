@@ -45,8 +45,8 @@ export default function About() {
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 w-full max-w-5xl animate-in fade-in slide-in-from-bottom-10 duration-700 delay-600">
                             {[
                                 { num: '5+', label: 'Years Experience' },
-                                { num: '50+', label: 'Projects Done' },
-                                { num: '10+', label: 'Tech Mastered' },
+                                { num: '24+', label: 'Projects Done' },
+                                { num: '12+', label: 'Technologies' },
                                 { num: '100%', label: 'Client Success' }
                             ].map((stat, i) => (
                                 <div key={i} className="p-6 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl flex flex-col items-center justify-center space-y-2 group hover:border-blue-500/30 transition-all">

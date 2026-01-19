@@ -37,7 +37,7 @@ const features = [
 ];
 
 const stats = [
-    { label: "Experience", value: "3+", icon: <Award size={20} /> },
+    { label: "Experience", value: "5+", icon: <Award size={20} /> },
     { label: "Projects", value: "24", icon: <Code2 size={20} /> },
     { label: "Clients", value: "18+", icon: <Users size={20} /> }
 ];
