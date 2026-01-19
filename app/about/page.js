@@ -4,175 +4,129 @@ export const metadata = {
     keywords: "Flutter developer Kerala, MERN stack developer Kerala, Web development services Kerala, Mobile app development Kerala, Freelance web developer Kerala, Custom website development Kerala, React developer Kerala, Node.js developer Kerala, Flutter developer Kasaragod, App development Kasaragod, Website design Kerala, Responsive web design, E-commerce website development, WordPress developer Kasaragod, SEO services Kerala, Next.js development, PSD to website conversion, Figma to website development, Academic project development, Startup web development, Full-Stack Web Development, Cross-Platform App Development, Digital Solutions Expert Kasaragod, Professional Developer in Kerala, Scalable Code Development, User-First Approach in Web and App Development",
     author: "ANAGH K R",
     robots: "index, follow",
-  canonical: "https://www.anaghkr.in/about",
-  ogTitle: "About Anagh K R - Flutter Developer Kerala | MERN Stack Developer Kerala",
-  ogDescription: "Meet Anagh K R, a professional Flutter developer and MERN stack developer from Kasaragod, Kerala. Specializing in mobile app development, web development services, and custom solutions across Kerala.",
-  ogUrl: "https://www.anaghkr.in/about",
+    canonical: "https://www.anaghkr.in/about",
+    ogTitle: "About Anagh K R - Flutter Developer Kerala | MERN Stack Developer Kerala",
+    ogDescription: "Meet Anagh K R, a professional Flutter developer and MERN stack developer from Kasaragod, Kerala. Specializing in mobile app development, web development services, and custom solutions across Kerala.",
+    ogUrl: "https://www.anaghkr.in/about",
     ogType: "profile",
     twitterCard: "summary_large_image",
     twitterTitle: "About Anagh K R - Flutter Developer Kerala | MERN Stack Developer Kerala",
     twitterDescription: "Professional Flutter developer and MERN stack developer from Kerala offering expert web and mobile app development services."
 };
 
-import './about.css';
+import { Code, Download, User as UserIcon, Check, Laptop, Server, Smartphone, Cloud, Palette, Monitor, Rocket, Send, ArrowRight } from 'lucide-react';
 
 export default function About() {
     return (
-        <>
+        <div className="min-h-screen bg-black overflow-hidden relative">
             {/* Hero Section */}
-            <section className="modern-hero-section">
-                <div className="container-fluid px-0">
-                    <div className="row min-vh-100 align-items-center justify-content-center g-0">
-                        <div className="col-12">
-                            <div className="container">
-                                <div className="row justify-content-center">
-                                    <div className="col-xl-8 col-lg-10 col-md-11 text-center">
-                                        {/* Hero Badge */}
-                                        <div className="hero-badge mb-4" data-aos="fade-up">
-                                            <i className="fas fa-code me-2"></i>
-                                            <span className="d-none d-sm-inline">Full-Stack Developer</span>
-                                            <span className="d-sm-none">Developer</span>
-                                        </div>
-                                        
-                                        {/* Hero Title */}
-                                        <h1 className="hero-title mb-4" data-aos="fade-up" data-aos-delay="200">
-                                            <span className="d-block d-sm-inline text-light">Hi, I'm </span>
-                                            <span className="text-brand">ANAGH K R</span>
-                                        </h1>
-                                        
-                                        {/* Hero Description */}
-                                        <div className="row justify-content-center mb-5">
-                                            <div className="col-lg-10 col-xl-8">
-                                                <p className="hero-description" data-aos="fade-up" data-aos-delay="400">
-                                                    Passionate Full-Stack Developer crafting exceptional digital experiences 
-                                                    from the beautiful landscapes of Kasaragod, Kerala. Specializing in 
-                                                    modern web technologies and mobile applications.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        
-                                        {/* Hero Stats */}
-                                        <div className="hero-stats-container mb-5" data-aos="fade-up" data-aos-delay="600">
-                                            <div className="row g-3 g-md-4 justify-content-center">
-                                                <div className="col-6 col-sm-4 col-lg-3">
-                                                    <div className="stat-card">
-                                                        <h3 className="stat-number">5+</h3>
-                                                        <p className="stat-label">Years<br className="d-none d-sm-block" /><span className="d-sm-none"> </span>Experience</p>
-                                                    </div>
-                                                </div>
-                                                <div className="col-6 col-sm-4 col-lg-3">
-                                                    <div className="stat-card">
-                                                        <h3 className="stat-number">50+</h3>
-                                                        <p className="stat-label">Projects<br className="d-none d-sm-block" /><span className="d-sm-none"> </span>Done</p>
-                                                    </div>
-                                                </div>
-                                                <div className="col-6 col-sm-4 col-lg-3">
-                                                    <div className="stat-card">
-                                                        <h3 className="stat-number">10+</h3>
-                                                        <p className="stat-label">Technologies<br className="d-none d-sm-block" /><span className="d-sm-none"> </span>Mastered</p>
-                                                    </div>
-                                                </div>
-                                                <div className="col-6 col-sm-12 col-lg-3">
-                                                    <div className="stat-card">
-                                                        <h3 className="stat-number">100%</h3>
-                                                        <p className="stat-label">Client<br className="d-none d-sm-block" /><span className="d-sm-none"> </span>Satisfaction</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        {/* Hero CTA */}
-                                        <div className="hero-cta" data-aos="fade-up" data-aos-delay="800">
-                                            <div className="row g-3 justify-content-center">
-                                                <div className="col-12 col-sm-auto">
-                                                    <a href="/contact" className="btn btn-brand btn-lg w-100 w-sm-auto">
-                                                        <i className="fas fa-paper-plane me-2"></i>
-                                                        <span className="d-none d-sm-inline">Let's Work Together</span>
-                                                        <span className="d-sm-none">Start Project</span>
-                                                    </a>
-                                                </div>
-                                                <div className="col-12 col-sm-auto">
-                                                    <a href="/resume" className="btn btn-outline-light btn-lg w-100 w-sm-auto">
-                                                        <i className="fas fa-download me-2"></i>
-                                                        Download CV
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        {/* Scroll Indicator */}
-                                        <div className="scroll-indicator mt-5 d-none d-lg-block" data-aos="fade-up" data-aos-delay="1000">
-                                            <div className="scroll-mouse">
-                                                <div className="scroll-wheel"></div>
-                                            </div>
-                                            <p className="scroll-text">Scroll to explore</p>
-                                        </div>
-                                    </div>
+            <section className="relative min-h-screen flex items-center pt-32 pb-24 px-6 overflow-hidden">
+                <div className="max-w-7xl mx-auto w-full relative z-10">
+                    <div className="flex flex-col items-center text-center max-w-4xl mx-auto space-y-10">
+                        {/* Hero Badge */}
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest animate-in fade-in slide-in-from-bottom-4 duration-700">
+                            <Code size={16} />
+                            <span>Full-Stack Developer</span>
+                        </div>
+
+                        {/* Hero Title */}
+                        <h1 className="text-5xl md:text-8xl font-black text-white leading-tight animate-in fade-in slide-in-from-bottom-6 duration-700 delay-200">
+                            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">ANAGH K R</span>
+                        </h1>
+
+                        {/* Hero Description */}
+                        <p className="text-gray-400 text-lg md:text-xl leading-relaxed max-w-2xl animate-in fade-in slide-in-from-bottom-8 duration-700 delay-400">
+                            Passionate Full-Stack Developer crafting exceptional digital experiences
+                            from the beautiful landscapes of Kasaragod, Kerala. Specializing in
+                            modern web technologies and mobile applications.
+                        </p>
+
+                        {/* Hero Stats */}
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 w-full max-w-5xl animate-in fade-in slide-in-from-bottom-10 duration-700 delay-600">
+                            {[
+                                { num: '5+', label: 'Years Experience' },
+                                { num: '50+', label: 'Projects Done' },
+                                { num: '10+', label: 'Tech Mastered' },
+                                { num: '100%', label: 'Client Success' }
+                            ].map((stat, i) => (
+                                <div key={i} className="p-6 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl flex flex-col items-center justify-center space-y-2 group hover:border-blue-500/30 transition-all">
+                                    <div className="text-3xl font-black text-white group-hover:text-blue-400 transition-colors uppercaseTracking-tight">{stat.num}</div>
+                                    <div className="text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center">{stat.label}</div>
                                 </div>
-                            </div>
+                            ))}
+                        </div>
+
+                        {/* Hero CTA */}
+                        <div className="flex flex-col sm:flex-row items-center gap-6 pt-6 animate-in fade-in slide-in-from-bottom-12 duration-700 delay-800">
+                            <a href="/contact" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
+                                <Send size={18} />
+                                <span className="uppercase tracking-widest text-sm">Let's Work Together</span>
+                            </a>
+                            <a href="/resume" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
+                                <Download size={18} />
+                                <span className="uppercase tracking-widest text-sm">Download CV</span>
+                            </a>
                         </div>
                     </div>
                 </div>
+
+                {/* Background Decor */}
+                <div className="absolute top-1/4 -left-20 w-96 h-96 bg-blue-600/10 blur-[120px] rounded-full -z-10 animate-pulse"></div>
+                <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-indigo-600/10 blur-[120px] rounded-full -z-10 animate-pulse"></div>
             </section>
 
             {/* About Section */}
-            <section className="modern-about-section py-5">
-                <div className="container">
-                    <div className="row align-items-center mb-5">
-                        <div className="col-lg-6 mb-4 mb-lg-0">
-                            <div className="about-image-container">
-                                <div className="about-image-placeholder">
-                                    <i className="fas fa-user-circle"></i>
+            <section className="py-24 relative z-10">
+                <div className="max-w-7xl mx-auto px-6">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                        <div className="relative group">
+                            <div className="aspect-square rounded-[60px] bg-gradient-to-br from-blue-600/20 to-indigo-600/10 border border-white/10 flex items-center justify-center overflow-hidden relative">
+                                <UserIcon size={200} className="text-blue-500/20 group-hover:scale-110 transition-transform duration-700" />
+
+                                <div className="absolute inset-0 flex items-center justify-center p-12">
+                                    <div className="w-full h-full border-2 border-dashed border-white/5 rounded-full animate-spin-slow"></div>
                                 </div>
-                                <div className="floating-tech-icons">
-                                    <div className="tech-icon" style={{top: '10%', left: '10%'}}>
-                                        <i className="fab fa-react"></i>
-                                    </div>
-                                    <div className="tech-icon" style={{top: '20%', right: '15%'}}>
-                                        <i className="fab fa-node-js"></i>
-                                    </div>
-                                    <div className="tech-icon" style={{bottom: '30%', left: '5%'}}>
-                                        <i className="fab fa-js-square"></i>
-                                    </div>
-                                    <div className="tech-icon" style={{bottom: '10%', right: '10%'}}>
-                                        <i className="fas fa-mobile-alt"></i>
-                                    </div>
+
+                                {/* Floating Icons */}
+                                <div className="absolute top-10 left-10 p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-blue-400 group-hover:-translate-y-2 transition-transform duration-500">
+                                    <Code size={24} />
+                                </div>
+                                <div className="absolute bottom-20 left-5 p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-indigo-400 group-hover:translate-x-2 transition-transform duration-500 delay-100">
+                                    <Smartphone size={24} />
+                                </div>
+                                <div className="absolute top-20 right-10 p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-emerald-400 group-hover:translate-y-2 transition-transform duration-500 delay-200">
+                                    <Server size={24} />
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className="section-badge mb-3">
-                                <i className="fas fa-user me-2"></i>
-                                About Me
+
+                        <div className="space-y-8">
+                            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest uppercaseTracking-tight">
+                                <UserIcon size={16} />
+                                <span>About Me</span>
                             </div>
-                            <h2 className="section-title mb-4">
-                                Creating Digital Solutions with 
-                                <span className="text-brand"> Passion & Precision</span>
+                            <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
+                                Creating Digital Solutions with
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500"> Passion & Precision</span>
                             </h2>
-                            <p className="section-description mb-4">
-                                I'm a dedicated MERN Stack Developer and Flutter App Developer based in 
-                                the scenic town of Kasaragod, Kerala. I combine technical expertise with 
+                            <p className="text-gray-400 text-lg leading-relaxed">
+                                I'm a dedicated MERN Stack Developer and Flutter App Developer based in
+                                the scenic town of Kasaragod, Kerala. I combine technical expertise with
                                 creative problem-solving to deliver exceptional results.
                             </p>
-                            <div className="about-highlights">
-                                <div className="highlight-item d-flex align-items-center mb-3">
-                                    <div className="highlight-icon me-3">
-                                        <i className="fas fa-check"></i>
+                            <div className="space-y-4">
+                                {[
+                                    '5+ years of professional development experience',
+                                    'Expertise in MERN Stack & Flutter development',
+                                    '50+ successful projects delivered globally'
+                                ].map((item, i) => (
+                                    <div key={i} className="flex items-center gap-4 text-white group">
+                                        <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 border border-blue-500/20 group-hover:bg-blue-500 group-hover:text-white transition-all">
+                                            <Check size={16} />
+                                        </div>
+                                        <span className="text-sm font-medium">{item}</span>
                                     </div>
-                                    <span>5+ years of professional development experience</span>
-                                </div>
-                                <div className="highlight-item d-flex align-items-center mb-3">
-                                    <div className="highlight-icon me-3">
-                                        <i className="fas fa-check"></i>
-                                    </div>
-                                    <span>Expertise in MERN Stack & Flutter development</span>
-                                </div>
-                                <div className="highlight-item d-flex align-items-center mb-3">
-                                    <div className="highlight-icon me-3">
-                                        <i className="fas fa-check"></i>
-                                    </div>
-                                    <span>50+ successful projects delivered globally</span>
-                                </div>
+                                ))}
                             </div>
                         </div>
                     </div>
@@ -180,226 +134,101 @@ export default function About() {
             </section>
 
             {/* Skills Section */}
-            <section className="modern-skills-section py-5">
-                <div className="container">
-                    <div className="text-center mb-5">
-                        <div className="section-badge mb-3">
-                            <i className="fas fa-cogs me-2"></i>
-                            Technical Skills
+            <section className="py-24 relative z-10 bg-white/[0.02]">
+                <div className="max-w-7xl mx-auto px-6">
+                    <div className="text-center max-w-3xl mx-auto space-y-6 mb-20">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest">
+                            <Laptop size={16} />
+                            <span>Technical Skills</span>
                         </div>
-                        <h2 className="section-title mb-4">
-                            Technologies I <span className="text-brand">Master</span>
+                        <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
+                            Technologies I <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Master</span>
                         </h2>
-                        <p className="section-description">
+                        <p className="text-gray-400 text-lg">
                             A comprehensive toolkit for building modern, scalable applications
                         </p>
                     </div>
-                    <div className="row g-4">
-                        <div className="col-lg-4 col-md-6">
-                            <div className="skill-card h-100">
-                                <div className="skill-icon mb-3">
-                                    <i className="fas fa-laptop-code"></i>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        {[
+                            { title: 'Frontend', icon: <Monitor size={24} />, tags: ['React.js', 'Next.js', 'Tailwind', 'JS'] },
+                            { title: 'Backend', icon: <Server size={24} />, tags: ['Node.js', 'Express', 'MongoDB', 'Postgres'] },
+                            { title: 'Mobile', icon: <Smartphone size={24} />, tags: ['Flutter', 'Dart', 'iOS/Android', 'Firebase'] },
+                            { title: 'Cloud/DevOps', icon: <Cloud size={24} />, tags: ['AWS', 'Docker', 'CI/CD', 'Git'] },
+                            { title: 'Design/UX', icon: <Palette size={24} />, tags: ['Figma', 'UI/UX', 'Prototyping'] },
+                            { title: 'Desktop', icon: <Laptop size={24} />, tags: ['.NET', 'Avalonia', 'C#', 'Electron'] }
+                        ].map((skill, i) => (
+                            <div key={i} className="p-8 rounded-[40px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                                <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                                    {skill.icon}
                                 </div>
-                                <h4 className="skill-title mb-3">Frontend Development</h4>
-                                <p className="skill-description mb-4">
-                                    Creating responsive and interactive user interfaces
-                                </p>
-                                <div className="skill-tags">
-                                    <span className="skill-tag">React.js</span>
-                                    <span className="skill-tag">Next.js</span>
-                                    <span className="skill-tag">HTML5</span>
-                                    <span className="skill-tag">CSS3</span>
-                                    <span className="skill-tag">JavaScript</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="skill-card h-100">
-                                <div className="skill-icon mb-3">
-                                    <i className="fas fa-server"></i>
-                                </div>
-                                <h4 className="skill-title mb-3">Backend Development</h4>
-                                <p className="skill-description mb-4">
-                                    Building robust and scalable server-side applications
-                                </p>
-                                <div className="skill-tags">
-                                    <span className="skill-tag">Node.js</span>
-                                    <span className="skill-tag">Express.js</span>
-                                    <span className="skill-tag">MongoDB</span>
-                                    <span className="skill-tag">PostgreSQL</span>
-                                    <span className="skill-tag">RESTful APIs</span>
+                                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">{skill.title}</h4>
+                                <div className="flex flex-wrap gap-2">
+                                    {skill.tags.map((tag, j) => (
+                                        <span key={j} className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] font-bold text-gray-500 uppercase tracking-widest group-hover:text-blue-400 group-hover:border-blue-500/20 transition-all">
+                                            {tag}
+                                        </span>
+                                    ))}
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="skill-card h-100">
-                                <div className="skill-icon mb-3">
-                                    <i className="fas fa-mobile-alt"></i>
-                                </div>
-                                <h4 className="skill-title mb-3">Mobile Development</h4>
-                                <p className="skill-description mb-4">
-                                    Cross-platform mobile apps with native performance
-                                </p>
-                                <div className="skill-tags">
-                                    <span className="skill-tag">Flutter</span>
-                                    <span className="skill-tag">Dart</span>
-                                    <span className="skill-tag">iOS</span>
-                                    <span className="skill-tag">Android</span>
-                                    <span className="skill-tag">Firebase</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="skill-card h-100">
-                                <div className="skill-icon mb-3">
-                                    <i className="fas fa-cloud"></i>
-                                </div>
-                                <h4 className="skill-title mb-3">Cloud & DevOps</h4>
-                                <p className="skill-description mb-4">
-                                    Deploying and managing applications in the cloud
-                                </p>
-                                <div className="skill-tags">
-                                    <span className="skill-tag">AWS</span>
-                                    <span className="skill-tag">Azure</span>
-                                    <span className="skill-tag">Docker</span>
-                                    <span className="skill-tag">Git</span>
-                                    <span className="skill-tag">CI/CD</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="skill-card h-100">
-                                <div className="skill-icon mb-3">
-                                    <i className="fas fa-palette"></i>
-                                </div>
-                                <h4 className="skill-title mb-3">Design & UX</h4>
-                                <p className="skill-description mb-4">
-                                    Creating beautiful and user-friendly interfaces
-                                </p>
-                                <div className="skill-tags">
-                                    <span className="skill-tag">Figma</span>
-                                    <span className="skill-tag">Adobe XD</span>
-                                    <span className="skill-tag">UI/UX</span>
-                                    <span className="skill-tag">Responsive</span>
-                                    <span className="skill-tag">Prototyping</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="skill-card h-100">
-                                <div className="skill-icon mb-3">
-                                    <i className="fas fa-desktop"></i>
-                                </div>
-                                <h4 className="skill-title mb-3">Desktop Development</h4>
-                                <p className="skill-description mb-4">
-                                    Cross-platform desktop applications
-                                </p>
-                                <div className="skill-tags">
-                                    <span className="skill-tag">.NET</span>
-                                    <span className="skill-tag">Avalonia</span>
-                                    <span className="skill-tag">C#</span>
-                                    <span className="skill-tag">Electron</span>
-                                    <span className="skill-tag">WPF</span>
-                                </div>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </section>
 
             {/* Services Section */}
-            <section className="modern-services-section py-5">
-                <div className="container">
-                    <div className="text-center mb-5">
-                        <div className="section-badge mb-3">
-                            <i className="fas fa-briefcase me-2"></i>
-                            What I Do
+            <section className="py-24 relative z-10">
+                <div className="max-w-7xl mx-auto px-6">
+                    <div className="text-center max-w-3xl mx-auto space-y-6 mb-20">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest">
+                            <Send size={16} />
+                            <span>What I Do</span>
                         </div>
-                        <h2 className="section-title mb-4">
-                            Services I <span className="text-brand">Provide</span>
+                        <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
+                            Services I <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Provide</span>
                         </h2>
                     </div>
-                    <div className="row g-4">
-                        <div className="col-lg-6">
-                            <div className="service-card h-100">
-                                <div className="service-icon">
-                                    <i className="fas fa-code"></i>
-                                </div>
-                                <h4 className="service-title">Web Development</h4>
-                                <p className="service-description">
-                                    Full-stack web applications using modern technologies like React, Node.js, 
-                                    and cloud platforms for scalable solutions.
-                                </p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        {[
+                            { title: 'Web Development', desc: 'Full-stack web applications using modern technologies like React, Node.js, and cloud platforms.' },
+                            { title: 'Mobile App Development', desc: 'Cross-platform mobile applications with Flutter, delivering native performance for iOS and Android.' },
+                            { title: 'SEO & Optimization', desc: 'Performance optimization and SEO strategies to ensure your digital presence reaches its full potential.' },
+                            { title: 'Technical Consultation', desc: 'Strategic guidance on technology choices, architecture decisions, and best practices for your projects.' }
+                        ].map((service, i) => (
+                            <div key={i} className="p-10 rounded-[40px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-500 group space-y-4">
+                                <h4 className="text-2xl font-black text-white group-hover:text-blue-400 transition-colors uppercase tracking-tight">{service.title}</h4>
+                                <p className="text-gray-400 leading-relaxed">{service.desc}</p>
                             </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="service-card h-100">
-                                <div className="service-icon">
-                                    <i className="fas fa-mobile-alt"></i>
-                                </div>
-                                <h4 className="service-title">Mobile App Development</h4>
-                                <p className="service-description">
-                                    Cross-platform mobile applications with Flutter, delivering 
-                                    native performance across iOS and Android platforms.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="service-card h-100">
-                                <div className="service-icon">
-                                    <i className="fas fa-search"></i>
-                                </div>
-                                <h4 className="service-title">SEO & Optimization</h4>
-                                <p className="service-description">
-                                    Performance optimization and SEO strategies to ensure your 
-                                    digital presence reaches its full potential.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="service-card h-100">
-                                <div className="service-icon">
-                                    <i className="fas fa-lightbulb"></i>
-                                </div>
-                                <h4 className="service-title">Technical Consultation</h4>
-                                <p className="service-description">
-                                    Strategic guidance on technology choices, architecture decisions, 
-                                    and best practices for your development projects.
-                                </p>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </section>
 
             {/* CTA Section */}
-            <section className="modern-cta-section py-5">
-                <div className="container">
-                    <div className="cta-card text-center">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-8">
-                                <h2 className="cta-title mb-4">
-                                    Ready to Start Your <span className="text-brand">Next Project?</span>
-                                </h2>
-                                <p className="cta-description mb-5">
-                                    Let's collaborate to bring your ideas to life with modern technology 
-                                    and exceptional user experiences.
-                                </p>
-                                <div className="cta-buttons">
-                                    <a href="/contact" className="btn btn-brand btn-lg me-3">
-                                        <i className="fas fa-paper-plane me-2"></i>
-                                        Start Project
-                                    </a>
-                                    <a href="/services" className="btn btn-outline-brand btn-lg">
-                                        <i className="fas fa-eye me-2"></i>
-                                        View Services
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+            <section className="py-24 relative z-10 px-6">
+                <div className="max-w-5xl mx-auto p-12 md:p-20 rounded-[60px] bg-gradient-to-br from-blue-600/20 to-indigo-600/10 border border-white/10 backdrop-blur-3xl text-center space-y-10 relative overflow-hidden group">
+                    <div className="absolute -top-20 -right-20 w-80 h-80 bg-blue-600/20 blur-[120px] rounded-full -z-10"></div>
+
+                    <h2 className="text-4xl md:text-6xl font-black text-white leading-tight uppercase tracking-tight">
+                        Ready to Start Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Next Project?</span>
+                    </h2>
+                    <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+                        Let's collaborate to bring your ideas to life with modern technology
+                        and exceptional user experiences.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-6">
+                        <a href="/contact" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
+                            <Send size={18} />
+                            <span className="uppercase tracking-widest text-sm">Start Project</span>
+                        </a>
+                        <a href="/services" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
+                            <Rocket size={18} />
+                            <span className="uppercase tracking-widest text-sm">View Services</span>
+                        </a>
                     </div>
                 </div>
             </section>
-        </>
+        </div>
     );
 }

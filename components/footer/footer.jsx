@@ -1,162 +1,126 @@
 'use client';
 
-import Link from 'next/link';
 import React from 'react';
-import './footer.css';
+import Link from 'next/link';
+import {
+    Github,
+    Linkedin,
+    Instagram,
+    Mail,
+    Phone,
+    MapPin,
+    ArrowUp,
+    Heart,
+    ExternalLink
+} from 'lucide-react';
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
-        <footer id="modern-footer-wrapper" className="modern-footer-container">
-            {/* Main Footer Content */}
-            <section id="footer-main-section" className="footer-main-content">
-                <div className="container py-4">
-                    <div className="row g-4">
-                        {/* Brand & Contact Section */}
-                        <div className="col-lg-4 col-md-6">
-                            <div className="footer-brand-section">
-                                <div className="footer-brand-header mb-3">
-                                    <div className="footer-brand-logo">
-                                        <div className="footer-brand-icon">
-                                            <i className="fas fa-code"></i>
-                                        </div>
-                                        <div className="brand-info">
-                                            <h4 className="footer-brand-name">ANAGH K R</h4>
-                                            <div className="footer-brand-tagline">
-                                                Full Stack Developer
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p className="footer-brand-description">
-                                    Creating innovative digital solutions with modern technologies.
-                                </p>
-                                
-                                {/* Contact Info */}
-                                <div className="footer-contact-compact">
-                                    <div className="contact-item-compact">
-                                        <i className="fas fa-map-marker-alt"></i>
-                                        <span>Kasaragod, Kerala</span>
-                                    </div>
-                                    <div className="contact-item-compact">
-                                        <i className="fas fa-envelope"></i>
-                                        <a href="mailto:anaghkrkkl@gmail.com">anaghkrkkl@gmail.com</a>
-                                    </div>
-                                    <div className="contact-item-compact">
-                                        <i className="fas fa-phone-alt"></i>
-                                        <a href="tel:+918075541805">+91 8075541805</a>
-                                    </div>
-                                </div>
-                            </div>
+        <footer className="relative pt-24 pb-12 overflow-hidden border-t border-white/5">
+            <div className="max-w-7xl mx-auto px-6 relative z-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                    {/* Logo & Brand */}
+                    <div className="space-y-6">
+                        <Link href="/" className="inline-block">
+                            <span className="text-2xl font-black tracking-tighter text-white">
+                                ANAGH<span className="text-blue-500">.KR</span>
+                            </span>
+                        </Link>
+                        <p className="text-sm text-gray-400 leading-relaxed max-w-xs">
+                            Crafting high-performance digital experiences with a focus on innovation,
+                            quality, and user-centric design.
+                        </p>
+                        <div className="flex gap-4">
+                            <a href="https://github.com/anagh534" className="p-3 rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-blue-400 hover:bg-white/10 transition-all">
+                                <Github size={18} />
+                            </a>
+                            <a href="https://www.linkedin.com/in/anagh-k-r/" className="p-3 rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-blue-400 hover:bg-white/10 transition-all">
+                                <Linkedin size={18} />
+                            </a>
+                            <a href="https://instagram.com/mr._uni_que___" className="p-3 rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-blue-400 hover:bg-white/10 transition-all">
+                                <Instagram size={18} />
+                            </a>
                         </div>
+                    </div>
 
-                        {/* Quick Links */}
-                        <div className="col-lg-2 col-md-3 col-6">
-                            <div className="footer-links-section">
-                                <h6 className="footer-section-title">Links</h6>
-                                <ul className="footer-nav-links-compact">
-                                    <li><Link href="/" className="footer-nav-link-compact">Home</Link></li>
-                                    <li><Link href="/about" className="footer-nav-link-compact">About</Link></li>
-                                    <li><Link href="/#skills" className="footer-nav-link-compact">Skills</Link></li>
-                                    <li><Link href="/#works" className="footer-nav-link-compact">Portfolio</Link></li>
-                                    <li><Link href="/contact" className="footer-nav-link-compact">Contact</Link></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        {/* Services */}
-                        <div className="col-lg-2 col-md-3 col-6">
-                            <div className="footer-links-section">
-                                <h6 className="footer-section-title">Services</h6>
-                                <ul className="footer-nav-links-compact">
-                                    <li><Link href="/services" className="footer-nav-link-compact">Web Development</Link></li>
-                                    <li><Link href="/services" className="footer-nav-link-compact">Mobile Apps</Link></li>
-                                    <li><Link href="/services" className="footer-nav-link-compact">E-commerce</Link></li>
-                                    <li><Link href="/services" className="footer-nav-link-compact">UI/UX Design</Link></li>
-                                    <li><Link href="/resume" className="footer-nav-link-compact">Resume</Link></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        {/* CTA & Social */}
-                        <div className="col-lg-4 col-md-6">
-                            <div className="footer-cta-section">
-                                <h6 className="footer-section-title">Let's Connect</h6>
-                                <p className="footer-cta-text">Ready to start your project?</p>
-                                
-                                <div className="footer-cta-buttons mb-3">
-                                    <Link href="/contact" className="footer-primary-cta-compact">
-                                        <i className="fas fa-rocket me-2"></i>
-                                        Get Started
+                    {/* Quick Links */}
+                    <div>
+                        <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Quick Links</h4>
+                        <ul className="space-y-4">
+                            {['Home', 'About', 'Services', 'Works', 'Contact'].map((link) => (
+                                <li key={link}>
+                                    <Link href={link === 'Home' ? '/' : `/#${link.toLowerCase()}`} className="text-sm text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-2 group">
+                                        <span className="w-1.5 h-1.5 rounded-full bg-blue-500/50 group-hover:bg-blue-500 transition-all"></span>
+                                        {link}
                                     </Link>
-                                </div>
-                                
-                                {/* Social Links */}
-                                <div className="footer-social-links-compact">
-                                    <a href="https://github.com/anagh534" 
-                                       className="footer-social-link-compact github" 
-                                       aria-label="GitHub"
-                                       target="_blank"
-                                       rel="noopener noreferrer">
-                                        <i className="fab fa-github"></i>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/anagh-k-r/" 
-                                       className="footer-social-link-compact linkedin" 
-                                       aria-label="LinkedIn"
-                                       target="_blank"
-                                       rel="noopener noreferrer">
-                                        <i className="fab fa-linkedin"></i>
-                                    </a>
-                                    <a href="https://wa.me/+918075541805" 
-                                       className="footer-social-link-compact whatsapp" 
-                                       aria-label="WhatsApp"
-                                       target="_blank"
-                                       rel="noopener noreferrer">
-                                        <i className="fab fa-whatsapp"></i>
-                                    </a>
-                                    <a href="https://instagram.com/mr._uni_que___" 
-                                       className="footer-social-link-compact instagram" 
-                                       aria-label="Instagram"
-                                       target="_blank"
-                                       rel="noopener noreferrer">
-                                        <i className="fab fa-instagram"></i>
-                                    </a>
-                                    <a href="mailto:anaghkrkkl@gmail.com" 
-                                       className="footer-social-link-compact email" 
-                                       aria-label="Email"
-                                       target="_blank"
-                                       rel="noopener noreferrer">
-                                        <i className="fas fa-envelope"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
-                </div>
-            </section>
 
-            {/* Footer Bottom */}
-            <section id="footer-bottom-section" className="footer-copyright-section">
-                <div className="container">
-                    <div className="row align-items-center py-3">
-                        <div className="col-md-6 text-center text-md-start">
-                            <p className="footer-copyright-text mb-0">
-                                © {new Date().getFullYear()} <Link href="/" className="footer-copyright-link">ANAGH K R</Link>
-                                Made with <i className="fas fa-heart text-danger mx-1"></i> in Kerala.
-                            </p>
-                        </div>
-                        <div className="col-md-6 text-center text-md-end">
-                            <button 
-                                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                                className="back-to-top-btn-compact"
-                                aria-label="Back to top"
-                            >
-                                <i className="fas fa-chevron-up"></i>
-                                Top
-                            </button>
-                        </div>
+                    {/* Contact Info */}
+                    <div>
+                        <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Contact</h4>
+                        <ul className="space-y-4">
+                            <li>
+                                <a href="mailto:anaghkrkkl@gmail.com" className="text-sm text-gray-400 hover:text-blue-400 transition-colors flex items-start gap-3">
+                                    <Mail size={18} className="text-blue-500 shrink-0" />
+                                    <span>anaghkrkkl@gmail.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:+917034151740" className="text-sm text-gray-400 hover:text-blue-400 transition-colors flex items-start gap-3">
+                                    <Phone size={18} className="text-blue-500 shrink-0" />
+                                    <span>+91 70341 51740</span>
+                                </a>
+                            </li>
+                            <li className="text-sm text-gray-400 flex items-start gap-3">
+                                <MapPin size={18} className="text-blue-500 shrink-0" />
+                                <span>Kerala, India</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {/* Business Hours */}
+                    <div>
+                        <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Newsletter</h4>
+                        <p className="text-xs text-gray-500 mb-6 uppercase tracking-wider leading-relaxed">
+                            Available for new projects and collaborations worldwide.
+                        </p>
+                        <Link href="/contact" className="w-full py-4 rounded-2xl bg-white text-black font-black text-sm flex items-center justify-center gap-2 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
+                            <span>GET IN TOUCH</span>
+                            <ExternalLink size={16} />
+                        </Link>
                     </div>
                 </div>
-            </section>
+
+                <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
+                    <p className="text-xs text-gray-500 font-medium">
+                        © {new Date().getFullYear()} ANAGH K R. ALL RIGHTS RESERVED.
+                    </p>
+                    <p className="text-xs text-gray-500 flex items-center gap-2">
+                        MADE WITH <Heart size={12} className="text-red-500 fill-current" /> BY ANAGH
+                    </p>
+                </div>
+            </div>
+
+            {/* Back to Top */}
+            <button
+                className="fixed bottom-8 right-8 p-4 rounded-2xl bg-blue-600 text-white shadow-2xl shadow-blue-500/20 hover:bg-blue-500 hover:-translate-y-1 transition-all z-40 active:scale-95"
+                onClick={scrollToTop}
+                aria-label="Back to top"
+            >
+                <ArrowUp size={20} />
+            </button>
+
+            {/* Background Decor */}
+            <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-600/5 blur-[120px] rounded-full -z-10"></div>
         </footer>
     );
 };

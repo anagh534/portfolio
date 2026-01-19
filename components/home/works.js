@@ -1,241 +1,129 @@
-"use client";
-import { useState, useEffect } from 'react';
+'use client';
+
+import React from 'react';
+import { motion } from 'framer-motion';
+import { ExternalLink, Github, Monitor, Briefcase } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
 import projects from "./loadImage";
-import LazyImage from "./LazyImage";
-import './works.css';
 
 export default function Works() {
-    const [activeProject, setActiveProject] = useState(0);
-    const [isAutoPlay, setIsAutoPlay] = useState(true);
-
-    // Auto-play functionality
-    useEffect(() => {
-        if (!isAutoPlay) return;
-        
-        const interval = setInterval(() => {
-            setActiveProject((prev) => (prev + 1) % projects.length);
-        }, 5000);
-
-        return () => clearInterval(interval);
-    }, [isAutoPlay]);
-
-    const nextProject = () => {
-        setActiveProject((prev) => (prev + 1) % projects.length);
-        setIsAutoPlay(false);
+    const containerVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+            opacity: 1,
+            transition: {
+                staggerChildren: 0.2
+            }
+        }
     };
 
-    const prevProject = () => {
-        setActiveProject((prev) => (prev - 1 + projects.length) % projects.length);
-        setIsAutoPlay(false);
-    };
-
-    const goToProject = (index) => {
-        setActiveProject(index);
-        setIsAutoPlay(false);
+    const itemVariants = {
+        hidden: { opacity: 0, y: 30 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
     };
 
     return (
-        <section className="modern-works-section" id="works">
-            <div className="works-background-overlay"></div>
-            
-            <div className="container">
-                {/* Section Header */}
-                <div className="row justify-content-center mb-5">
-                    <div className="col-lg-8 text-center">
-                        <div className="section-header-works">
-                            <div className="works-badge">
-                                <i className="fas fa-briefcase me-2"></i>
-                                Featured Projects
-                            </div>
-                            <h2 className="works-title">
-                                My Recent Works
-                            </h2>
-                            <p className="works-subtitle">
-                                Discover some of the amazing projects I've crafted with passion, creativity, and cutting-edge technology. 
-                                Each project represents a unique solution tailored to client needs.
-                            </p>
-                        </div>
+        <section className="relative py-24 overflow-hidden" id="works">
+            <div className="max-w-7xl mx-auto px-6 relative z-10">
+                <motion.div
+                    className="text-center mb-16"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                >
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-4 uppercase tracking-widest">
+                        <Briefcase size={14} />
+                        <span>Portfolio</span>
                     </div>
-                </div>
+                    <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
+                        Selected <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Works</span>
+                    </h2>
+                    <p className="max-w-2xl mx-auto text-gray-400">
+                        A showcase of my recent projects, spanning web development, mobile apps, and custom digital solutions.
+                    </p>
+                </motion.div>
 
-                {/* Main Project Showcase */}
-                <div className="row g-4 align-items-center">
-                    {/* Project Image */}
-                    <div className="col-lg-7">
-                        <div className="project-showcase">
-                            <div className="project-image-container">
-                                <LazyImage
-                                    src={projects[activeProject].img}
-                                    alt={projects[activeProject].title}
-                                    className="project-main-image"
+                <motion.div
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+                    variants={containerVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                >
+                    {projects.map((project, index) => (
+                        <motion.div
+                            key={project.id}
+                            className="group relative rounded-[32px] bg-white/5 border border-white/10 overflow-hidden hover:border-blue-500/30 transition-all duration-500"
+                            variants={itemVariants}
+                        >
+                            <div className="relative aspect-[4/3] overflow-hidden">
+                                <Image
+                                    src={project.img}
+                                    alt={project.title}
+                                    width={600}
+                                    height={400}
+                                    className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"
                                 />
-                                <div className="project-overlay">
-                                    <div className="project-actions">
-                                        <a 
-                                            href={projects[activeProject].url} 
-                                            target="_blank" 
-                                            rel="noopener noreferrer"
-                                            className="btn-view-project"
-                                        >
-                                            <i className="fas fa-external-link-alt me-2"></i>
-                                            View Live
-                                        </a>
-                                        <button className="btn-project-info">
-                                            <i className="fas fa-info-circle"></i>
-                                        </button>
-                                    </div>
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+                                    <a
+                                        href={project.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="p-4 rounded-2xl bg-white text-black hover:bg-blue-600 hover:text-white transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 shadow-xl"
+                                    >
+                                        <ExternalLink size={24} />
+                                    </a>
                                 </div>
                             </div>
-                            
-                            {/* Navigation Controls */}
-                            <div className="project-navigation">
-                                <button 
-                                    className="nav-btn nav-prev" 
-                                    onClick={prevProject}
-                                    aria-label="Previous project"
-                                >
-                                    <i className="fas fa-chevron-left"></i>
-                                </button>
-                                <button 
-                                    className="nav-btn nav-next" 
-                                    onClick={nextProject}
-                                    aria-label="Next project"
-                                >
-                                    <i className="fas fa-chevron-right"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
 
-                    {/* Project Details */}
-                    <div className="col-lg-5">
-                        <div className="project-details">
-                            <div className="project-meta">
-                                <span className="project-category">
-                                    {projects[activeProject].category}
-                                </span>
-                                <span className="project-year">
-                                    {projects[activeProject].year}
-                                </span>
-                            </div>
-                            
-                            <h3 className="project-title">
-                                {projects[activeProject].title}
-                            </h3>
-                            
-                            <p className="project-description">
-                                {projects[activeProject].description}
-                            </p>
-                            
-                            <div className="project-technologies">
-                                <h4 className="tech-title">Technologies Used</h4>
-                                <div className="tech-stack">
-                                    {projects[activeProject].technologies.map((tech, index) => (
-                                        <span key={index} className="tech-badge">
-                                            {tech}
+                            <div className="p-8">
+                                <div className="flex items-center justify-between mb-4">
+                                    <span className="px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-[10px] font-bold text-blue-400 uppercase tracking-widest">
+                                        {project.category}
+                                    </span>
+                                    <span className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">
+                                        {project.year}
+                                    </span>
+                                </div>
+
+                                <h3 className="text-xl font-bold text-white mb-3 tracking-tight group-hover:text-blue-400 transition-colors uppercase">
+                                    {project.title}
+                                </h3>
+                                <p className="text-sm text-gray-400 leading-relaxed mb-6 line-clamp-2">
+                                    {project.description}
+                                </p>
+
+                                <div className="flex flex-wrap gap-2 pt-6 border-t border-white/5">
+                                    {project.technologies.slice(0, 3).map((tech, tIndex) => (
+                                        <span
+                                            key={tIndex}
+                                            className="text-[10px] font-bold text-gray-500 group-hover:text-gray-300 transition-colors"
+                                        >
+                                            #{tech.toUpperCase()}
                                         </span>
                                     ))}
                                 </div>
                             </div>
-                            
-                            <div className="project-cta">
-                                <a 
-                                    href={projects[activeProject].url} 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                    className="btn-primary-works"
-                                >
-                                    <i className="fas fa-rocket me-2"></i>
-                                    Launch Project
-                                    <i className="fas fa-arrow-right ms-2"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        </motion.div>
+                    ))}
+                </motion.div>
 
-                {/* Project Thumbnails */}
-                <div className="row mt-5">
-                    <div className="col-12">
-                        <div className="project-thumbnails">
-                            <div className="thumbnails-header">
-                                <h4>All Projects</h4>
-                                <div className="auto-play-toggle">
-                                    <label className="toggle-switch">
-                                        <input 
-                                            type="checkbox" 
-                                            checked={isAutoPlay}
-                                            onChange={(e) => setIsAutoPlay(e.target.checked)}
-                                        />
-                                        <span className="slider"></span>
-                                    </label>
-                                    <span>Auto Play</span>
-                                </div>
-                            </div>
-                            
-                            <div className="thumbnails-grid">
-                                {projects.map((project, index) => (
-                                    <div 
-                                        key={project.id}
-                                        className={`thumbnail-item ${index === activeProject ? 'active' : ''}`}
-                                        onClick={() => goToProject(index)}
-                                    >
-                                        <LazyImage
-                                            src={project.img}
-                                            alt={project.title}
-                                            className="thumbnail-image"
-                                        />
-                                        <div className="thumbnail-overlay">
-                                            <h5 className="thumbnail-title">{project.title}</h5>
-                                            <span className="thumbnail-category">{project.category}</span>
-                                        </div>
-                                        {index === activeProject && (
-                                            <div className="active-indicator">
-                                                <i className="fas fa-play"></i>
-                                            </div>
-                                        )}
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Progress Indicators */}
-                <div className="row mt-4">
-                    <div className="col-12 text-center">
-                        <div className="progress-indicators">
-                            {projects.map((_, index) => (
-                                <button
-                                    key={index}
-                                    className={`progress-dot ${index === activeProject ? 'active' : ''}`}
-                                    onClick={() => goToProject(index)}
-                                    aria-label={`Go to project ${index + 1}`}
-                                ></button>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-
-                {/* Call to Action */}
-                <div className="row justify-content-center mt-5">
-                    <div className="col-lg-8 text-center">
-                        <div className="works-cta">
-                            <h3>Have a Project in Mind?</h3>
-                            <p>Let's collaborate and bring your ideas to life with innovative solutions and modern technology.</p>
-                            <div className="cta-buttons">
-                                <a href="/contact" className="btn-cta-primary">
-                                    <i className="fas fa-paper-plane me-2"></i>
-                                    Start a Project
-                                </a>
-                                <a href="/services" className="btn-cta-secondary">
-                                    <i className="fas fa-cogs me-2"></i>
-                                    View Services
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <motion.div
+                    className="text-center mt-16"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
+                >
+                    <p className="text-gray-400 mb-6 font-medium">Want to see more?</p>
+                    <Link
+                        href="/contact"
+                        className="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-white text-black font-black hover:bg-blue-600 hover:text-white transition-all duration-300 active:scale-95 shadow-xl shadow-white/5"
+                    >
+                        <span>DISCUSS YOUR PROJECT</span>
+                        <Monitor size={20} />
+                    </Link>
+                </motion.div>
             </div>
         </section>
     );

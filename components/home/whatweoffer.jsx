@@ -1,236 +1,161 @@
-"use client";
-import React, { useState } from 'react';
-import './whatweoffer.css';
+'use client';
 
-const WhatWeOffer = () => {
-    const [activeIndex, setActiveIndex] = useState(null);
+import React from 'react';
+import { motion } from 'framer-motion';
+import {
+    Globe,
+    ShoppingCart,
+    Smartphone,
+    Palette,
+    RefreshCw,
+    CodeXml,
+    GraduationCap,
+    Rocket,
+    CheckCircle2,
+    ArrowRight
+} from 'lucide-react';
+const services = [
+    {
+        id: 1,
+        title: "Full-Stack Web Development",
+        icon: <Globe size={24} />,
+        shortDesc: "Custom MERN stack solutions for scalable, high-performance web applications.",
+        technologies: ["React", "Next.js", "Node.js", "MongoDB"],
+    },
+    {
+        id: 2,
+        title: "E-commerce Solutions",
+        icon: <ShoppingCart size={24} />,
+        shortDesc: "Comprehensive online stores with secure payments and inventory management.",
+        technologies: ["Shopify", "WooCommerce", "Stripe", "Next.js"],
+    },
+    {
+        id: 3,
+        title: "Flutter App Development",
+        icon: <Smartphone size={24} />,
+        shortDesc: "Native performance cross-platform mobile apps for iOS and Android.",
+        technologies: ["Flutter", "Dart", "Firebase", "App Store"],
+    },
+    {
+        id: 4,
+        title: "Responsive Web Design",
+        icon: <Palette size={24} />,
+        shortDesc: "Beautiful, user-centric designs that work flawlessly on every screen.",
+        technologies: ["Figma", "Tailwind", "Framer Motion", "UI/UX"],
+    },
+    {
+        id: 5,
+        title: "Website Modernization",
+        icon: <RefreshCw size={24} />,
+        shortDesc: "Breathing new life into outdated platforms with modern tech and UI.",
+        technologies: ["Refactoring", "Optimization", "Redesign"],
+    },
+    {
+        id: 6,
+        title: "Design to Code Conversion",
+        icon: <CodeXml size={24} />,
+        shortDesc: "Pixel-perfect conversion from Figma/PSD to clean, functional code.",
+        technologies: ["HTML5", "CSS3", "JavaScript", "React"],
+    },
+    {
+        id: 7,
+        title: "Academic & Startup MVP",
+        icon: <GraduationCap size={24} />,
+        shortDesc: "Tailored solutions for students and early-stage startup prototypes.",
+        technologies: ["Fast MVP", "Documentation", "Mentoring"],
+    },
+    {
+        id: 8,
+        title: "SEO & Growth Strategy",
+        icon: <Rocket size={24} />,
+        shortDesc: "Boosting visibility and conversion with data-driven optimization.",
+        technologies: ["SEO", "Performance", "Analytics"],
+    }
+];
 
-    const toggleAccordion = (index) => {
-        setActiveIndex(activeIndex === index ? null : index);
+export default function WhatWeOffer() {
+    const containerVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+            opacity: 1,
+            transition: {
+                staggerChildren: 0.1
+            }
+        }
     };
 
-    const services = [
-        {
-            id: 1,
-            title: "Full-Stack Web Development in Kerala",
-            category: "Development",
-            icon: "🌐",
-            shortDesc: "Custom website development with MERN stack technology",
-            fullDesc: "As an experienced web developer based in Kerala, I specialize in creating dynamic, responsive, and interactive websites that provide seamless experiences across all devices. I offer full-stack web development services utilizing the latest technologies including React, Next.js, Node.js, and Express.js to build robust, scalable, and high-performing websites with clean code, responsive design, and SEO optimization.",
-            technologies: ["React", "Next.js", "Node.js", "Express.js", "MongoDB", "MySQL"],
-            features: ["Responsive Design", "SEO Optimized", "Fast Loading", "Cross-browser Compatible", "Mobile-first Approach"]
-        },
-        {
-            id: 2,
-            title: "E-commerce Development Services",
-            category: "Online Store",
-            icon: "🛒",
-            shortDesc: "Complete e-commerce solutions for Kerala businesses",
-            fullDesc: "I specialize in designing and developing high-performance e-commerce websites that help businesses grow online. I create user-friendly and feature-rich e-commerce solutions using modern technologies, with secure payment integration, inventory management, shopping cart functionality, and SEO optimization to boost your online sales and revenue.",
-            technologies: ["WooCommerce", "Shopify", "React", "Node.js", "Payment Gateways"],
-            features: ["Secure Payments", "Inventory Management", "Order Tracking", "Customer Dashboard", "Admin Panel"]
-        },
-        {
-            id: 3,
-            title: "Flutter Mobile App Development",
-            category: "Mobile Apps",
-            icon: "📱",
-            shortDesc: "Professional Flutter app development for Kerala businesses",
-            fullDesc: "I specialize in building high-performance, cross-platform mobile applications for iOS and Android using Flutter. I create beautiful, fast, and responsive apps that provide a native-like experience with smooth animations, intuitive UI/UX, and seamless performance across different devices. From concept to deployment, I provide end-to-end mobile app development services.",
-            technologies: ["Flutter", "Dart", "Firebase", "REST APIs", "SQLite"],
-            features: ["Cross-platform", "Native Performance", "Beautiful UI", "Offline Support", "Push Notifications"]
-        },
-        {
-            id: 4,
-            title: "Responsive Web Design Services",
-            category: "Design",
-            icon: "🎨",
-            shortDesc: "SEO-optimized website design for all Kerala businesses",
-            fullDesc: "I'm a professional website designer from Kerala, dedicated to crafting visually stunning and functional websites. My designs focus on delivering powerful online experiences with modern aesthetics, intuitive navigation, and user-centered design principles. I create well-structured, SEO-optimized designs that help increase your visibility on search engines while providing exceptional user experiences.",
-            technologies: ["Figma", "Adobe XD", "Photoshop", "HTML5", "CSS3", "JavaScript"],
-            features: ["User-Centered Design", "Modern Aesthetics", "Intuitive Navigation", "Accessibility", "Brand Consistency"]
-        },
-        {
-            id: 5,
-            title: "Website Redesign & Modernization",
-            category: "Upgrade",
-            icon: "🔄",
-            shortDesc: "Transform outdated websites into modern platforms",
-            fullDesc: "I specialize in revamping outdated websites and transforming them into modern, visually appealing platforms. My redesign services focus on improving user experience, enhancing site performance, ensuring mobile responsiveness, and implementing the latest design trends and SEO best practices to give your website a fresh, contemporary look.",
-            technologies: ["Modern CSS", "Bootstrap", "JavaScript", "Performance Optimization"],
-            features: ["Performance Boost", "Mobile Responsive", "Modern Design", "SEO Enhancement", "User Experience"]
-        },
-        {
-            id: 6,
-            title: "Design to Code Conversion",
-            category: "Conversion",
-            icon: "📐",
-            shortDesc: "Convert PSD/Figma designs to functional websites",
-            fullDesc: "I offer professional design to website conversion services, turning your Photoshop (PSD) and Figma designs into fully functional, responsive websites. I convert designs into clean, pixel-perfect HTML, CSS, and JavaScript code, ensuring cross-browser compatibility, responsive design, and optimized performance across all devices.",
-            technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "SASS"],
-            features: ["Pixel Perfect", "Responsive Code", "Cross-browser", "Clean Code", "W3C Validated"]
-        },
-        {
-            id: 7,
-            title: "Academic & Startup Projects",
-            category: "Custom Solutions",
-            icon: "🎓",
-            shortDesc: "Custom solutions for students and startups",
-            fullDesc: "I provide comprehensive support for academic projects and startup ventures, helping students complete their final year projects and assisting startups in building their digital presence. From simple websites to complex web applications, I offer affordable solutions tailored to your specific requirements and budget constraints.",
-            technologies: ["Full-Stack Development", "Database Design", "API Integration"],
-            features: ["Budget Friendly", "Academic Support", "Documentation", "Mentoring", "Quick Delivery"]
-        },
-        {
-            id: 8,
-            title: "SEO & Performance Optimization",
-            category: "Optimization",
-            icon: "🚀",
-            shortDesc: "Boost your website's visibility and speed",
-            fullDesc: "I offer comprehensive SEO and performance optimization services to improve your website's search engine rankings and loading speed. My optimization includes on-page SEO, technical SEO, speed optimization, mobile optimization, and local SEO strategies specifically designed for Kerala businesses to increase online visibility and drive organic traffic.",
-            technologies: ["Google Analytics", "Search Console", "PageSpeed Insights", "SEO Tools"],
-            features: ["Keyword Research", "Local SEO", "Speed Optimization", "Mobile SEO", "Analytics Setup"]
-        }
-    ];
+    const itemVariants = {
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }
+    };
 
     return (
-        <section id="what-we-offer" className="what-we-offer-section">
-            <div className="container">
-                {/* Section Header */}
-                <div className="row justify-content-center mb-5">
-                    <div className="col-lg-10 col-xl-8">
-                        <div className="section-header text-center">
-                            <div className="section-badge">
-                                <i className="fas fa-star me-2"></i>
-                                What We Offer
+        <section className="relative py-24 overflow-hidden" id="services">
+            <div className="max-w-7xl mx-auto px-6 relative z-10">
+                <motion.div
+                    className="text-center mb-16"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                >
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-4 uppercase tracking-widest">
+                        <CheckCircle2 size={14} />
+                        <span>Services</span>
+                    </div>
+                    <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
+                        Digital <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Solutions</span>
+                    </h2>
+                    <p className="max-w-2xl mx-auto text-gray-400">
+                        Providing end-to-end expertise to transform your ideas into successful digital products with cutting-edge tech.
+                    </p>
+                </motion.div>
+
+                <motion.div
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                    variants={containerVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                >
+                    {services.map((service) => (
+                        <motion.div
+                            key={service.id}
+                            className="p-8 rounded-[32px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-500 group relative flex flex-col h-full"
+                            variants={itemVariants}
+                        >
+                            <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500 shadow-lg shadow-blue-500/10">
+                                {service.icon}
                             </div>
-                            <h2 className="section-title">
-                                Comprehensive Digital Solutions
-                            </h2>
-                            <p className="section-subtitle">
-                                From concept to deployment, I provide end-to-end digital services that help businesses 
-                                establish a strong online presence and achieve their goals with cutting-edge technology and creative excellence.
+
+                            <h3 className="text-xl font-bold text-white mb-3 tracking-tight group-hover:text-blue-400 transition-colors uppercase">
+                                {service.title}
+                            </h3>
+                            <p className="text-sm text-gray-400 leading-relaxed mb-8 flex-grow">
+                                {service.shortDesc}
                             </p>
-                        </div>
-                    </div>
-                </div>
 
-                {/* Services FAQ Accordion */}
-                <div className="row justify-content-center">
-                    <div className="col-lg-10">
-                        <div className="services-accordion">
-                            {services.map((service, index) => (
-                                <div 
-                                    key={service.id} 
-                                    className={`accordion-item ${activeIndex === index ? 'active' : ''}`}
-                                >
-                                    <div 
-                                        className="accordion-header"
-                                        onClick={() => toggleAccordion(index)}
-                                        role="button"
-                                        tabIndex={0}
-                                        onKeyPress={(e) => {
-                                            if (e.key === 'Enter' || e.key === ' ') {
-                                                toggleAccordion(index);
-                                            }
-                                        }}
-                                        aria-expanded={activeIndex === index}
-                                        aria-controls={`accordion-content-${index}`}
+                            <div className="flex flex-wrap gap-2 mb-8">
+                                {service.technologies.map((tech, tIndex) => (
+                                    <span
+                                        key={tIndex}
+                                        className="px-2.5 py-1 rounded-lg bg-white/5 border border-white/5 text-[9px] font-bold text-gray-500 uppercase tracking-widest"
                                     >
-                                        <div className="accordion-title-section">
-                                            <div className="service-icon-wrapper">
-                                                <span className="service-icon">{service.icon}</span>
-                                            </div>
-                                            <div className="service-title-content">
-                                                <h3 className="service-title">{service.title}</h3>
-                                                <span className="service-category">{service.category}</span>
-                                                <p className="service-short-desc">{service.shortDesc}</p>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-toggle">
-                                            <i className={`fas fa-chevron-down ${activeIndex === index ? 'rotated' : ''}`}></i>
-                                        </div>
-                                    </div>
-                                    
-                                    <div 
-                                        id={`accordion-content-${index}`}
-                                        className="accordion-content"
-                                        style={{
-                                            maxHeight: activeIndex === index ? '1000px' : '0',
-                                            opacity: activeIndex === index ? '1' : '0'
-                                        }}
-                                    >
-                                        <div className="accordion-body">
-                                            <div className="row g-4">
-                                                <div className="col-lg-8">
-                                                    <div className="service-description">
-                                                        <h4>Service Overview</h4>
-                                                        <p>{service.fullDesc}</p>
-                                                    </div>
-                                                    
-                                                    <div className="service-features mt-4">
-                                                        <h4>Key Features</h4>
-                                                        <div className="features-grid">
-                                                            {service.features.map((feature, idx) => (
-                                                                <div key={idx} className="feature-item">
-                                                                    <i className="fas fa-check-circle me-2"></i>
-                                                                    {feature}
-                                                                </div>
-                                                            ))}
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                                <div className="col-lg-4">
-                                                    <div className="service-tech-stack">
-                                                        <h4>Technologies Used</h4>
-                                                        <div className="tech-badges">
-                                                            {service.technologies.map((tech, idx) => (
-                                                                <span key={idx} className="tech-badge">
-                                                                    {tech}
-                                                                </span>
-                                                            ))}
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div className="service-cta mt-4">
-                                                        <a href="/contact" className="cta-button">
-                                                            <i className="fas fa-paper-plane me-2"></i>
-                                                            Get Quote
-                                                            <i className="fas fa-arrow-right ms-2"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-
-                {/* Call to Action */}
-                <div className="row justify-content-center mt-5">
-                    <div className="col-lg-8 text-center">
-                        <div className="cta-section">
-                            <h3>Ready to Start Your Project?</h3>
-                            <p>Let's discuss your requirements and bring your ideas to life with professional digital solutions.</p>
-                            <div className="cta-buttons">
-                                <a href="/contact" className="btn btn-primary me-3">
-                                    <i className="fas fa-comments me-2"></i>
-                                    Get In Touch
-                                </a>
-                                <a href="/services" className="btn btn-outline-light">
-                                    <i className="fas fa-eye me-2"></i>
-                                    View All Services
-                                </a>
+                                        {tech}
+                                    </span>
+                                ))}
                             </div>
-                        </div>
-                    </div>
-                </div>
+
+                            <a
+                                href="/contact"
+                                className="inline-flex items-center gap-2 text-xs font-black text-white uppercase tracking-widest group/link hover:text-blue-400 transition-colors"
+                            >
+                                <span>Discuss Project</span>
+                                <ArrowRight size={14} className="group-hover/link:translate-x-1 transition-transform" />
+                            </a>
+                        </motion.div>
+                    ))}
+                </motion.div>
             </div>
         </section>
     );
-};
-
-export default WhatWeOffer;
+}

@@ -11,6 +11,7 @@ export const metadata = {
     ogType: "website"
 };
 
+import LocationTemplate from '../../../components/locations/LocationTemplate';
 import '../city.css';
 
 export default function KozhikodeServices() {
@@ -121,165 +122,13 @@ export default function KozhikodeServices() {
     ];
 
     return (
-        <div className="city-page-container">
-            {/* Hero Section */}
-            <section className="city-hero-section">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-10">
-                            <div className="city-hero-content text-center">
-                                <div className="city-badge">
-                                    <i className="fas fa-map-marker-alt me-2"></i>
-                                    Kozhikode (Calicut), Kerala
-                                </div>
-                                <h1 className="city-main-title">
-                                    Web Development Services in
-                                    <span className="text-brand d-block">Kozhikode</span>
-                                </h1>
-                                <p className="city-subtitle">
-                                    Professional web development and Flutter app development services in Kozhikode (Calicut). 
-                                    Modern digital solutions for businesses in Malabar region with focus on export industry, 
-                                    cultural businesses, and digital transformation.
-                                </p>
-                                
-                                <div className="city-highlights-grid">
-                                    {cityHighlights.map((highlight, index) => (
-                                        <div key={index} className="city-highlight-card">
-                                            <div className="highlight-icon">
-                                                <i className={highlight.icon}></i>
-                                            </div>
-                                            <h3 className="highlight-title">{highlight.title}</h3>
-                                            <p className="highlight-description">{highlight.description}</p>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Services Section */}
-            <section className="city-services-section">
-                <div className="container">
-                    <div className="row justify-content-center mb-5">
-                        <div className="col-lg-10 text-center">
-                            <h2 className="section-title">
-                                Our Services in <span className="text-brand">Kozhikode</span>
-                            </h2>
-                            <p className="section-subtitle">
-                                Modern digital solutions for businesses in Kerala's cultural and commercial center
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div className="services-grid">
-                        {services.map((service, index) => (
-                            <div key={index} className="service-card">
-                                <div className="service-icon">
-                                    <i className={service.icon}></i>
-                                </div>
-                                <h3 className="service-title">{service.title}</h3>
-                                <p className="service-description">{service.description}</p>
-                                <ul className="service-features">
-                                    {service.features.map((feature, idx) => (
-                                        <li key={idx}>{feature}</li>
-                                    ))}
-                                </ul>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* Why Choose Section */}
-            <section className="why-choose-section">
-                <div className="container">
-                    <div className="row justify-content-center mb-5">
-                        <div className="col-lg-10 text-center">
-                            <h2 className="section-title">
-                                Why Choose Us for <span className="text-brand">Calicut Projects</span>?
-                            </h2>
-                            <p className="section-subtitle">
-                                Local expertise with global standards for Malabar region businesses
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div className="why-choose-grid">
-                        {benefits.map((benefit, index) => (
-                            <div key={index} className="benefit-card">
-                                <div className="benefit-icon">
-                                    <i className={benefit.icon}></i>
-                                </div>
-                                <h3 className="benefit-title">{benefit.title}</h3>
-                                <p className="benefit-description">{benefit.description}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* Portfolio Preview Section */}
-            <section className="portfolio-preview-section">
-                <div className="container">
-                    <div className="row justify-content-center mb-5">
-                        <div className="col-lg-10 text-center">
-                            <h2 className="section-title">
-                                Recent Projects in <span className="text-brand">Kozhikode</span>
-                            </h2>
-                            <p className="section-subtitle">
-                                Successful digital solutions for businesses in Calicut and Malabar region
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div className="portfolio-grid">
-                        {portfolio.map((project, index) => (
-                            <div key={index} className="portfolio-card">
-                                <div className="portfolio-image">
-                                    <i className={project.icon}></i>
-                                </div>
-                                <div className="portfolio-content">
-                                    <h3 className="portfolio-title">{project.title}</h3>
-                                    <p className="portfolio-description">{project.description}</p>
-                                    <div className="portfolio-tech">
-                                        {project.tech.map((tech, idx) => (
-                                            <span key={idx} className="tech-badge">{tech}</span>
-                                        ))}
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* CTA Section */}
-            <section className="city-cta-section">
-                <div className="container">
-                    <div className="cta-card">
-                        <h2 className="cta-title">
-                            Ready to Start Your Kozhikode Project?
-                        </h2>
-                        <p className="cta-description">
-                            Get professional web development and mobile app development services 
-                            in Kozhikode. Modern digital solutions for traditional businesses 
-                            and export industry in the heart of Malabar region.
-                        </p>
-                        <div className="cta-buttons">
-                            <a href="/contact" className="btn-primary">
-                                Get Free Quote
-                                <i className="fas fa-arrow-right ms-2"></i>
-                            </a>
-                            <a href="/services" className="btn-secondary">
-                                View All Services
-                                <i className="fas fa-external-link-alt ms-2"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+        <LocationTemplate
+            cityName="Kozhikode"
+            cityHighlights={cityHighlights}
+            services={services}
+            benefits={benefits}
+            portfolio={portfolio}
+            description="Professional web development and Flutter app development services in Kozhikode (Calicut). Modern digital solutions for businesses in Malabar region with focus on export industry, cultural businesses, and digital transformation."
+        />
     );
 }
