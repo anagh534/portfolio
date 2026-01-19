@@ -267,7 +267,7 @@ export default function Locations() {
                                     {[
                                         { label: 'Happy Clients', num: '50+', icon: <Users size={16} /> },
                                         { label: 'Live Projects', num: '100+', icon: <Rocket size={16} /> },
-                                        { label: 'Years Exp', num: '3+', icon: <Clock size={16} /> },
+                                        { label: 'Years Exp', num: '5+', icon: <Clock size={16} /> },
                                         { label: 'Success Rate', num: '100%', icon: <Award size={16} /> }
                                     ].map((stat, i) => (
                                         <div key={i} className="p-6 rounded-3xl bg-white/5 border border-white/10 flex flex-col items-center justify-center space-y-2 group hover:border-blue-500/30 transition-all">

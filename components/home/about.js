@@ -49,7 +49,7 @@ export default function About() {
 
                             <div className="absolute -bottom-6 -right-6 md:-right-8 p-6 md:p-8 rounded-3xl bg-blue-600/90 backdrop-blur-md border border-white/20 shadow-2xl">
                                 <div className="text-white text-center">
-                                    <span className="block text-3xl md:text-4xl font-black mb-1">3+</span>
+                                    <span className="block text-3xl md:text-4xl font-black mb-1">5+</span>
                                     <span className="block text-[10px] md:text-xs font-bold uppercase tracking-widest leading-none">Years of <br /> Experience</span>
                                 </div>
                             </div>
