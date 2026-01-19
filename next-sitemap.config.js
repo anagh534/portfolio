@@ -8,16 +8,16 @@ module.exports = {
   changefreq: 'weekly',
   priority: 0.7,
   sitemapSize: 5000,
-  
+
   robotsTxtOptions: {
     policies: [
-      { 
-        userAgent: '*', 
+      {
+        userAgent: '*',
         allow: '/',
         comment: 'Allow all bots to crawl all pages'
       },
-      { 
-        userAgent: '*', 
+      {
+        userAgent: '*',
         disallow: ['/admin/', '/_next/', '/api/', '/.git/'],
         comment: 'Block admin and system directories'
       },
@@ -34,7 +34,7 @@ ${robotsTxt}
 # Allow important SEO pages
 Allow: /about
 Allow: /services  
-Allow: /resume
+# Allow: /resume
 Allow: /locations
 Allow: /contact
 
@@ -55,121 +55,121 @@ Allow: /locations/kanhangad
 Crawl-delay: 1`;
     },
   },
-  
+
   additionalPaths: async (config) => {
     const currentDate = new Date().toISOString();
-    
+
     return [
       // Main pages with high priority
-      { 
-        loc: '/', 
-        changefreq: 'daily', 
+      {
+        loc: '/',
+        changefreq: 'daily',
         priority: 1.0,
         lastmod: currentDate
       },
-      { 
-        loc: '/about', 
-        changefreq: 'weekly', 
+      {
+        loc: '/about',
+        changefreq: 'weekly',
         priority: 0.9,
         lastmod: currentDate
       },
-      { 
-        loc: '/services', 
-        changefreq: 'weekly', 
+      {
+        loc: '/services',
+        changefreq: 'weekly',
         priority: 0.9,
         lastmod: currentDate
       },
-      { 
-        loc: '/resume', 
-        changefreq: 'monthly', 
+      {
+        loc: '/resume',
+        changefreq: 'monthly',
         priority: 0.8,
         lastmod: currentDate
       },
-      { 
-        loc: '/contact', 
-        changefreq: 'monthly', 
+      {
+        loc: '/contact',
+        changefreq: 'monthly',
         priority: 0.7,
         lastmod: currentDate
       },
-      
+
       // Locations main page
-      { 
-        loc: '/locations', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations',
+        changefreq: 'weekly',
         priority: 0.8,
         lastmod: currentDate
       },
-      
+
       // Kerala city pages - High SEO value
-      { 
-        loc: '/locations/kochi', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations/kochi',
+        changefreq: 'weekly',
         priority: 0.7,
         lastmod: currentDate
       },
-      { 
-        loc: '/locations/thiruvananthapuram', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations/thiruvananthapuram',
+        changefreq: 'weekly',
         priority: 0.7,
         lastmod: currentDate
       },
-      { 
-        loc: '/locations/kozhikode', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations/kozhikode',
+        changefreq: 'weekly',
         priority: 0.7,
         lastmod: currentDate
       },
-      { 
-        loc: '/locations/thrissur', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations/thrissur',
+        changefreq: 'weekly',
         priority: 0.6,
         lastmod: currentDate
       },
-      { 
-        loc: '/locations/kannur', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations/kannur',
+        changefreq: 'weekly',
         priority: 0.6,
         lastmod: currentDate
       },
-      { 
-        loc: '/locations/kollam', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations/kollam',
+        changefreq: 'weekly',
         priority: 0.6,
         lastmod: currentDate
       },
-      { 
-        loc: '/locations/ernakulam', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations/ernakulam',
+        changefreq: 'weekly',
         priority: 0.6,
         lastmod: currentDate
       },
-      { 
-        loc: '/locations/calicut', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations/calicut',
+        changefreq: 'weekly',
         priority: 0.6,
         lastmod: currentDate
       },
-      { 
-        loc: '/locations/kasaragod', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations/kasaragod',
+        changefreq: 'weekly',
         priority: 0.5,
         lastmod: currentDate
       },
-      { 
-        loc: '/locations/palakkad', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations/palakkad',
+        changefreq: 'weekly',
         priority: 0.5,
         lastmod: currentDate
       },
-      { 
-        loc: '/locations/kanhangad', 
-        changefreq: 'weekly', 
+      {
+        loc: '/locations/kanhangad',
+        changefreq: 'weekly',
         priority: 0.5,
         lastmod: currentDate
       },
     ];
   },
-  
+
   transform: async (config, path) => {
     // Custom transform for specific paths
     const customPaths = {
@@ -178,7 +178,7 @@ Crawl-delay: 1`;
       '/services': { priority: 0.9, changefreq: 'weekly' },
       '/locations': { priority: 0.8, changefreq: 'weekly' },
     };
-    
+
     if (customPaths[path]) {
       return {
         loc: path,
@@ -187,7 +187,7 @@ Crawl-delay: 1`;
         lastmod: new Date().toISOString(),
       };
     }
-    
+
     // Default return
     return {
       loc: path,

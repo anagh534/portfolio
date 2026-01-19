@@ -72,10 +72,15 @@ export default function Hero() {
                   <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] font-bold text-gray-300">#NEXTJS</span>
                 </div>
 
-                <Link href="/resume" className="flex items-center justify-center gap-3 w-full py-4 rounded-2xl bg-white text-black font-black hover:bg-blue-500 hover:text-white transition-all duration-300 active:scale-95 group/btn">
+                <a
+                  href="https://drive.google.com/file/d/1EaHneU1Zsyadr8Xoppa2We7laj-nrnQJ/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-3 w-full py-4 rounded-2xl bg-white text-black font-black hover:bg-blue-500 hover:text-white transition-all duration-300 active:scale-95 group/btn"
+                >
                   <span>DOWNLOAD CV</span>
                   <Download size={18} className="group-hover:translate-y-0.5 transition-transform" />
-                </Link>
+                </a>
               </div>
             </div>
           </motion.div>

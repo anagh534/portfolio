@@ -62,7 +62,12 @@ export default function About() {
                                 <Send size={18} />
                                 <span className="uppercase tracking-widest text-sm">Let's Work Together</span>
                             </a>
-                            <a href="/resume" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
+                            <a
+                                href="https://drive.google.com/file/d/1EaHneU1Zsyadr8Xoppa2We7laj-nrnQJ/view?usp=sharing"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95"
+                            >
                                 <Download size={18} />
                                 <span className="uppercase tracking-widest text-sm">Download CV</span>
                             </a>

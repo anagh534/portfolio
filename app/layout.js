@@ -32,6 +32,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#667eea" />
         <meta name="author" content="ANAGH K R" />
+        <link rel="icon" href="/assets/profile.webp" type="image/webp" />
         <meta name="geo.region" content="IN-KL" />
         <meta name="geo.placename" content="Kerala" />
         <meta name="geo.position" content="10.8505;76.2711" />

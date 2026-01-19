@@ -22,7 +22,7 @@ Sitemap: https://www.anaghkr.in/sitemap.xml
 # Allow important SEO pages
 Allow: /about
 Allow: /services  
-Allow: /resume
+# Allow: /resume
 Allow: /locations
 Allow: /contact
 

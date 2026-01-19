@@ -102,7 +102,7 @@ export default function WhyChooseMe() {
                             <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/10 blur-[100px] rounded-full -z-10"></div>
 
                             <div className="text-center mb-10">
-                                <span className="text-6xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">3+</span>
+                                <span className="text-6xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">5+</span>
                                 <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mt-2">Years of Excellence</p>
                             </div>
 
