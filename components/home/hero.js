@@ -100,7 +100,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4 mb-16">
-              <a href="mailto:anaghkrkkl@gmail.com" className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-blue-600 text-white font-black hover:bg-blue-500 transition-all hover:-translate-y-1 shadow-xl shadow-blue-500/25 active:scale-95 group">
+              <a href="https://wa.me/918075541805" className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-blue-600 text-white font-black hover:bg-blue-500 transition-all hover:-translate-y-1 shadow-xl shadow-blue-500/25 active:scale-95 group">
                 <span>LET'S TALK</span>
                 <MessageSquare size={20} className="group-hover:translate-x-1 transition-transform" />
               </a>
