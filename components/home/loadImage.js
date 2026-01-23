@@ -51,13 +51,13 @@ const projects = [
     },
     {
         id: 6,
-        title: "Netflix Clone - Streaming Interface",
-        description: "Netflix-inspired streaming interface with movie browsing, trailer playback, and responsive design.",
-        img: '/assets/projects/6.webp',
-        url: 'https://anagh534.github.io/netflix/',
-        technologies: ["React", "CSS3", "JavaScript", "Movie API"],
-        category: "Entertainment",
-        year: "2023"
+        title: "QuickTransfer - Offline File Sharing",
+        description: "Seamless Mac & Android file transfer solution. Provides DMG and Android apps for high-speed offline sharing, completely free and ad-free.",
+        img: '/assets/projects/quick-transfer.jpg',
+        url: '#',
+        technologies: ["Flutter", "Dart", "Socket.io"],
+        category: "Utility App",
+        year: "2026"
     }
 ];
 
