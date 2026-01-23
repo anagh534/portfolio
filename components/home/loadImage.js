@@ -21,13 +21,13 @@ const projects = [
     },
     {
         id: 3,
-        title: "Easy Cart - E-commerce Solution",
-        description: "Full-featured e-commerce platform with shopping cart, payment integration, and inventory management.",
-        img: '/assets/projects/2.webp',
-        url: 'https://easy-cart-in.glitch.me/',
-        technologies: ["JavaScript", "Node.js", "Express", "MongoDB"],
-        category: "E-commerce",
-        year: "2023"
+        title: "WoW Kerala - Technical Event Portal",
+        description: "Official landing page and registration platform for WoW Kerala, the largest technical event by GDSC Kerala community.",
+        img: '/assets/projects/wow-kerala.png',
+        url: 'https://wowkerala.netlify.app',
+        technologies: ["React", "JavaScript", "CSS3"],
+        category: "Event Platform",
+        year: "2022"
     },
     {
         id: 4,
