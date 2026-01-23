@@ -66,7 +66,7 @@ const services = [
     },
     {
         id: 8,
-        title: "SEO & Growth Strategy",
+        title: "Basic SEO",
         icon: <Rocket size={24} />,
         shortDesc: "Boosting visibility and conversion with data-driven optimization.",
         technologies: ["SEO", "Performance", "Analytics"],
