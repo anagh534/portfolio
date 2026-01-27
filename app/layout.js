@@ -104,7 +104,15 @@ export default function RootLayout({ children }) {
                 "Flutter Development", "MERN Stack Development", "JavaScript", "React",
                 "Node.js", "MongoDB", "Express.js", "Laravel", "PHP", "MySQL",
                 "Mobile App Development", "Web Development", "E-commerce Development",
-                "LMS Development", "Firebase", "Git", "CI/CD", "DevOps", "Docker", "AWS"
+                "LMS Development", "Firebase", "Git", "CI/CD", "DevOps", "Docker", "AWS",
+                "best node js vemobile app developer kerala", "hire web developer", "hire freelance web developer",
+                "freelancer website designer", "freelancer web developer", "freelancer for website development",
+                "freelancer android app developer", "freelance website developer", "freelance web developer",
+                "freelance web designer near me", "freelance mobile app developer", "freelance app developers near me",
+                "freelance app developers cost", "freelance app developers", "flutter developer",
+                "fiverr web development", "fiverr web developer", "fiverr react developer",
+                "fiverr app development", "fiverr app developer", "app development freelance",
+                "app developers in kerala", "app developer freelancer"
               ],
               "alumniOf": {
                 "@type": "CollegeOrUniversity",
