@@ -2,6 +2,9 @@ import { getBlogPostBySlug, getBlogPosts } from "@/lib/blog";
 import Image from "next/image";
 import Link from "next/link";
 import { Calendar, ArrowLeft } from "lucide-react";
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import remarkBreaks from 'remark-breaks';
 
 export const dynamic = 'force-static';
 
@@ -81,12 +84,17 @@ export default async function BlogPostPage({ params }) {
                     </div>
                 </div>
 
-                <div className="prose prose-invert prose-lg max-w-none">
-                    {/* Basic markdown-like rendering for now, or raw HTML if the content is safe/simple */}
-                    {/* For a full markdown implementation, we'd use 'react-markdown' */}
-                    <div className="whitespace-pre-wrap text-gray-300 leading-relaxed space-y-4">
+                <div className="prose prose-invert prose-xl max-w-none text-gray-300
+                    prose-headings:text-white prose-headings:font-bold prose-headings:mb-6 prose-headings:mt-10
+                    prose-p:leading-loose prose-p:mb-8 prose-p:text-gray-300
+                    prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline
+                    prose-strong:text-white prose-strong:font-bold
+                    prose-li:marker:text-blue-500 prose-li:mb-2
+                    prose-img:rounded-2xl prose-img:shadow-2xl prose-img:my-10 prose-img:w-full prose-img:object-cover
+                    prose-hr:border-gray-800 prose-hr:my-12">
+                    <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
                         {post.content}
-                    </div>
+                    </ReactMarkdown>
                 </div>
             </div>
         </article>
