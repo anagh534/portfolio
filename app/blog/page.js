@@ -1,6 +1,8 @@
 import BlogList from "@/components/blog/BlogList";
 import { getBlogPosts } from "@/lib/blog";
 
+export const dynamic = 'force-static';
+
 // META METADATA for SEO
 export const metadata = {
     title: "Blog | Insights & Updates - Anagh K R",

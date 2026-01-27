@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Calendar, ArrowLeft } from "lucide-react";
 
+export const dynamic = 'force-static';
+
 export async function generateMetadata({ params }) {
     const { slug } = await params;
     const post = await getBlogPostBySlug(slug);
