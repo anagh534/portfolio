@@ -8,7 +8,8 @@ import {
     Github,
     Linkedin,
     Instagram,
-    Send
+    Send,
+    BookOpen
 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
@@ -32,6 +33,7 @@ export default function Navbar() {
         { href: '/', label: 'Home', icon: <Home size={18} /> },
         { href: '/about', label: 'About', icon: <User size={18} /> },
         { href: '/services', label: 'Services', icon: <Briefcase size={18} /> },
+        { href: '/blog', label: 'Blog', icon: <BookOpen size={18} /> },
         { href: '/contact', label: 'Contact', icon: <Mail size={18} /> }
     ];
 

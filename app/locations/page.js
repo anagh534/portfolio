@@ -102,7 +102,6 @@ export default function Locations() {
         { icon: <Smartphone size={24} />, title: "Flutter App Development", desc: "Cross-platform mobile applications for iOS and Android platforms" },
         { icon: <ShoppingCart size={24} />, title: "E-commerce Solutions", desc: "Complete online store development with payment integration" },
         { icon: <Code size={24} />, title: "MERN Stack Development", desc: "Full-stack web applications using MongoDB, Express, React, and Node.js" },
-        { icon: <Layout size={24} />, title: "UI/UX Design", desc: "User-centric design focusing on performance and engagement" },
         { icon: <Search size={24} />, title: "SEO Optimization", desc: "Search engine optimization to improve your online visibility" }
     ];
 

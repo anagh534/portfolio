@@ -43,7 +43,6 @@ export default function ContactForm() {
     { value: 'mobile-app', label: 'Mobile App Development', icon: <Smartphone size={18} />, description: 'iOS & Android applications' },
     { value: 'e-commerce', label: 'E-commerce Solutions', icon: <ShoppingCart size={18} />, description: 'Online stores & marketplaces' },
     { value: 'api-development', label: 'API Development', icon: <Server size={18} />, description: 'REST APIs & microservices' },
-    { value: 'ui-ux-design', label: 'UI/UX Design', icon: <Palette size={18} />, description: 'User interface & experience design' },
     { value: 'performance-optimization', label: 'Performance Optimization', icon: <Zap size={18} />, description: 'Speed & efficiency improvements' },
     { value: 'cloud-deployment', label: 'Cloud & Deployment', icon: <Cloud size={18} />, description: 'AWS, Azure, GCP solutions' },
     { value: 'consultation', label: 'Technical Consultation', icon: <Lightbulb size={18} />, description: 'Architecture & strategy advice' },

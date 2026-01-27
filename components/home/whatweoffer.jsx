@@ -41,7 +41,7 @@ const services = [
         title: "Responsive Web Design",
         icon: <Palette size={24} />,
         shortDesc: "Beautiful, user-centric designs that work flawlessly on every screen.",
-        technologies: ["Figma", "Tailwind", "Framer Motion", "UI/UX"],
+        technologies: ["Figma", "Tailwind", "Framer Motion"],
     },
     {
         id: 5,

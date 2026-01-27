@@ -37,12 +37,6 @@ const skillCategories = [
         skills: ['AWS', 'Docker', 'Vercel', 'Netlify', 'CI/CD']
     },
     {
-        title: 'UI/UX Design',
-        icon: <Palette size={24} />,
-        description: 'Designing user-centric, beautiful experiences.',
-        skills: ['Figma', 'Adobe XD', 'Prototyping', 'User Research']
-    },
-    {
         title: 'Custom Solutions',
         icon: <Monitor size={24} />,
         description: 'Tailored software for unique business needs.',

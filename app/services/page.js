@@ -3,8 +3,8 @@ import { Rocket, Target, Users, Zap, Briefcase, User as UserIcon, Send } from 'l
 
 export const metadata = {
     title: "Professional Web & App Development Services | ANAGH K R",
-    description: "Comprehensive digital solutions including MERN stack development, Flutter app development, and UI/UX design.",
-    keywords: "best node js vemobile app developer kerala, hire web developer, hire freelance web developer, freelancer website designer, freelancer web developer, freelancer for website development, freelancer android app developer, freelance website developer, freelance web developer, freelance web designer near me, freelance mobile app developer, freelance app developers near me, freelance app developers cost, freelance app developers, flutter developer, fiverr web development, fiverr web developer, fiverr react developer, fiverr app development, fiverr app developer, app development freelance, app developers in kerala, app developer freelancer, Web Development Services, Mobile App Development, UI/UX Design, E-commerce Solutions, API Development, Website Redesign",
+    description: "Comprehensive digital solutions including MERN stack development, Flutter app development.",
+    keywords: "best node js vemobile app developer kerala, hire web developer, hire freelance web developer, freelancer website designer, freelancer web developer, freelancer for website development, freelancer android app developer, freelance website developer, freelance web developer, freelance web designer near me, freelance mobile app developer, freelance app developers near me, freelance app developers cost, freelance app developers, flutter developer, fiverr web development, fiverr web developer, fiverr react developer, fiverr app development, fiverr app developer, app development freelance, app developers in kerala, app developer freelancer, Web Development Services, Mobile App Development, E-commerce Solutions, API Development, Website Redesign",
 };
 
 export default function Services() {
@@ -62,13 +62,6 @@ export default function Services() {
                             category="Online Store"
                             icon={<Rocket size={24} />}
                             description="High-performance e-commerce websites with secure payment integration, inventory management, and smooth user flow to boost your sales."
-                        />
-
-                        <ServiceComponent
-                            title="UI/UX Design"
-                            category="Design"
-                            icon={<Rocket size={24} />}
-                            description="User-centric designs that prioritize both aesthetics and functionality, ensuring your digital product is both beautiful and intuitive."
                         />
 
                         <ServiceComponent

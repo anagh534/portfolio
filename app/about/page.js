@@ -160,7 +160,6 @@ export default function About() {
                             { title: 'Backend', icon: <Server size={24} />, tags: ['Node.js', 'Express', 'MongoDB', 'Postgres'] },
                             { title: 'Mobile', icon: <Smartphone size={24} />, tags: ['Flutter', 'Dart', 'iOS/Android', 'Firebase'] },
                             { title: 'Cloud/DevOps', icon: <Cloud size={24} />, tags: ['AWS', 'Docker', 'CI/CD', 'Git'] },
-                            { title: 'Design/UX', icon: <Palette size={24} />, tags: ['Figma', 'UI/UX', 'Prototyping'] },
                             { title: 'Desktop', icon: <Laptop size={24} />, tags: ['.NET', 'Avalonia', 'C#', 'Electron'] }
                         ].map((skill, i) => (
                             <div key={i} className="p-8 rounded-[40px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
