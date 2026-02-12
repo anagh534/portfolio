@@ -37,13 +37,13 @@ const Footer = () => {
                             quality, and user-centric design.
                         </p>
                         <div className="flex gap-4">
-                            <a href="https://github.com/anagh534" className="p-3 rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-blue-400 hover:bg-white/10 transition-all">
+                            <a href="https://github.com/anagh534" className="p-3 rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-blue-400 hover:bg-white/10 transition-all" aria-label="GitHub">
                                 <Github size={18} />
                             </a>
-                            <a href="https://www.linkedin.com/in/anagh-k-r/" className="p-3 rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-blue-400 hover:bg-white/10 transition-all">
+                            <a href="https://www.linkedin.com/in/anagh-k-r/" className="p-3 rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-blue-400 hover:bg-white/10 transition-all" aria-label="LinkedIn">
                                 <Linkedin size={18} />
                             </a>
-                            <a href="https://instagram.com/mr._uni_que___" className="p-3 rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-blue-400 hover:bg-white/10 transition-all">
+                            <a href="https://instagram.com/mr._uni_que___" className="p-3 rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-blue-400 hover:bg-white/10 transition-all" aria-label="Instagram">
                                 <Instagram size={18} />
                             </a>
                         </div>

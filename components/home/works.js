@@ -71,6 +71,7 @@ export default function Works() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="p-4 rounded-2xl bg-white text-black hover:bg-blue-600 hover:text-white transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 shadow-xl"
+                                        aria-label={`View ${project.title}`}
                                     >
                                         <ExternalLink size={24} />
                                     </a>

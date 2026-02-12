@@ -83,7 +83,7 @@ export default function WhyChooseMe() {
                                     <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all">
                                         {feature.icon}
                                     </div>
-                                    <h4 className="text-white font-bold mb-2 uppercase tracking-tight">{feature.title}</h4>
+                                    <h3 className="text-white font-bold mb-2 uppercase tracking-tight">{feature.title}</h3>
                                     <p className="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">{feature.desc}</p>
                                 </motion.div>
                             ))}
