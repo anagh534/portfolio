@@ -90,7 +90,7 @@ const Footer = () => {
                     {/* Business Hours */}
                     <div>
                         <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Newsletter</h4>
-                        <p className="text-xs text-gray-500 mb-6 uppercase tracking-wider leading-relaxed">
+                        <p className="text-xs text-gray-400 mb-6 uppercase tracking-wider leading-relaxed">
                             Available for new projects and collaborations worldwide.
                         </p>
                         <Link href="/contact" className="w-full py-4 rounded-2xl bg-white text-black font-black text-sm flex items-center justify-center gap-2 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
@@ -101,10 +101,10 @@ const Footer = () => {
                 </div>
 
                 <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
-                    <p className="text-xs text-gray-500 font-medium">
+                    <p className="text-xs text-gray-400 font-medium">
                         © {new Date().getFullYear()} ANAGH K R. ALL RIGHTS RESERVED.
                     </p>
-                    <p className="text-xs text-gray-500 flex items-center gap-2">
+                    <p className="text-xs text-gray-400 flex items-center gap-2">
                         MADE WITH <Heart size={12} className="text-red-500 fill-current" /> BY ANAGH
                     </p>
                 </div>

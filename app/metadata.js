@@ -1,3 +1,11 @@
+export const viewport = {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+    themeColor: "#667eea",
+    colorScheme: "dark",
+};
+
 export const metadata = {
     metadataBase: new URL('https://www.anaghkr.in'),
     title: {
@@ -10,13 +18,6 @@ export const metadata = {
     generator: "Next.js",
     keywords: ["Flutter developer Kerala", "Freelance web developer Kerala", "MERN Stack Developer", "Web Development", "Mobile App Development"],
     referrer: "origin-when-cross-origin",
-    themeColor: "#667eea",
-    colorScheme: "dark",
-    viewport: {
-        width: "device-width",
-        initialScale: 1,
-        maximumScale: 1,
-    },
     creator: "ANAGH K R",
     publisher: "ANAGH K R",
     robots: {

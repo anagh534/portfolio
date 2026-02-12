@@ -121,17 +121,17 @@ export default function Hero() {
                 <div className="text-3xl font-black text-white flex items-center">
                   <CountUp end={24} duration={3} /><span>+</span>
                 </div>
-                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">Projects Done</p>
+                <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Projects Done</p>
               </div>
               <div className="space-y-1">
                 <div className="text-3xl font-black text-white flex items-center">
                   <CountUp end={12} duration={3} /><span>+</span>
                 </div>
-                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">Technologies</p>
+                <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Technologies</p>
               </div>
               <div className="space-y-1">
                 <div className="text-3xl font-black text-white">100%</div>
-                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">Satisfaction</p>
+                <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Satisfaction</p>
               </div>
             </div>
           </motion.div>
