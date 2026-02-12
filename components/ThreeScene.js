@@ -78,7 +78,7 @@ function AdvancedHologram() {
 
 function FlowField() {
     const pointsRef = useRef();
-    const count = 4000;
+    const count = 2000;
 
     const positions = useMemo(() => {
         const pos = new Float32Array(count * 3);
@@ -167,7 +167,7 @@ export default function ThreeScene() {
         <div className="fixed inset-0 -z-1 bg-[#050505]">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-900/10 via-transparent to-transparent opacity-50 pointer-events-none" />
             <Canvas
-                dpr={[1, 2]}
+                dpr={[1, 1.5]}
                 camera={{ position: [0, 0, 8], fov: 45 }}
                 gl={{ antialias: true, alpha: true }}
                 style={{ width: '100%', height: '100%' }}

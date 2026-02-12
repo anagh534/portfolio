@@ -51,8 +51,7 @@ Allow: /locations/kasaragod
 Allow: /locations/palakkad
 Allow: /locations/kanhangad
 
-# Be polite to crawlers
-Crawl-delay: 1`;
+# Be polite to crawlers`;
     },
   },
 

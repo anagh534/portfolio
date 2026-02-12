@@ -4,9 +4,13 @@ import AOS from 'aos';
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import PageLoader from "@/components/pageLoader/PageLoader";
-import ThreeScene from "@/components/ThreeScene";
+import dynamic from 'next/dynamic';
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+
+const ThreeScene = dynamic(() => import("@/components/ThreeScene"), {
+    ssr: false,
+});
 
 export default function ClientLayout({ children }) {
     const [isLoading, setIsLoading] = useState(true);
