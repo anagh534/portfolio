@@ -42,6 +42,7 @@ export default function Hero() {
                     alt="Anagh K R"
                     width={160}
                     height={160}
+                    priority
                     className="rounded-3xl group-hover:border-blue-500/50 transition-all duration-500"
                   />
                   <div className="absolute -bottom-3 -right-3 bg-green-500 text-black text-[10px] font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg">
