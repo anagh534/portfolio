@@ -38,7 +38,7 @@ export default function Hero() {
               <div className="relative mb-8 flex justify-center">
                 <div className="relative">
                   <Image
-                    src="/assets/profile.webp"
+                    src="/assets/profile.png"
                     alt="Anagh K R"
                     width={160}
                     height={160}

@@ -26,10 +26,10 @@ export default function BlogCard({ post, index }) {
                 <div className="flex items-center gap-2 mb-3 text-sm text-gray-400">
                     <Calendar className="w-4 h-4 text-blue-500" />
                     <span>{post.date}</span>
-                    {post.tags && (
+                    {post.tags && post.tags.length > 0 && (
                         <>
                             <span className="w-1 h-1 rounded-full bg-gray-600" />
-                            <span className="text-blue-400">{post.tags.split(',')[0]}</span>
+                            <span className="text-blue-400">{post.tags[0]}</span>
                         </>
                     )}
                 </div>

@@ -16,8 +16,24 @@ export async function generateMetadata({ params }) {
     return {
         title: `${post.title} - Anagh K R`,
         description: post.description,
+        keywords: post.tags || [],
         openGraph: {
-            images: [post.image]
+            title: post.title,
+            description: post.description,
+            type: 'article',
+            publishedTime: post.date,
+            authors: ['Anagh K R'],
+            images: [
+                {
+                    url: post.image,
+                    width: 1200,
+                    height: 630,
+                    alt: post.title,
+                }
+            ]
+        },
+        alternates: {
+            canonical: `https://www.anaghkr.in/blog/${post.slug}`,
         }
     };
 }
@@ -49,8 +65,40 @@ export default async function BlogPostPage({ params }) {
         );
     }
 
+    const structuredData = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post.title,
+        "description": post.description,
+        "datePublished": post.date,
+        "image": post.image ? [post.image] : [],
+        "author": {
+            "@type": "Person",
+            "name": "Anagh K R",
+            "url": "https://www.anaghkr.in"
+        },
+        "publisher": {
+            "@type": "Person",
+            "name": "Anagh K R",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.anaghkr.in/favicon.png"
+            }
+        },
+        "url": `https://www.anaghkr.in/blog/${post.slug}`,
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": `https://www.anaghkr.in/blog/${post.slug}`
+        },
+        "keywords": post.tags ? post.tags.join(", ") : ""
+    };
+
     return (
         <article className="min-h-screen pt-24 pb-16 px-4">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+            />
             <div className="max-w-4xl mx-auto">
                 <Link href="/blog" className="inline-flex items-center text-gray-400 hover:text-white mb-8 transition-colors">
                     <ArrowLeft className="w-4 h-4 mr-2" /> Back to Blog
@@ -69,11 +117,11 @@ export default async function BlogPostPage({ params }) {
                         <div className="flex items-center gap-3 text-sm text-gray-300 mb-4">
                             <Calendar className="w-4 h-4 text-blue-500" />
                             <span>{post.date}</span>
-                            {post.tags && (
+                            {post.tags && post.tags.length > 0 && (
                                 <>
                                     <span className="w-1 h-1 rounded-full bg-gray-500" />
                                     <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded-full text-xs border border-blue-500/30">
-                                        {post.tags.split(',')[0]}
+                                        {post.tags[0]}
                                     </span>
                                 </>
                             )}

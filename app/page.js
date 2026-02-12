@@ -16,7 +16,7 @@ export const metadata = {
   ogTitle: "Flutter Developer Kerala | Freelance Web Developer Kerala | MERN Stack Developer",
   ogDescription: "Top-rated freelance Flutter developer and web developer in Kerala. Specialized in MERN stack development, Flutter app development, website design, and LMS development. Serving all Kerala.",
   ogUrl: "https://www.anaghkr.in",
-  ogImage: "/assets/profile.webp",
+  ogImage: "/assets/profile.png",
   ogType: "website",
   twitterCard: "summary_large_image",
   twitterTitle: "Flutter Developer Kerala | MERN Stack Developer Kerala",
