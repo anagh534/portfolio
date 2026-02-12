@@ -1,6 +1,6 @@
 import "./globals.css";
 import ClientLayout from "./ClientLayout";
-import { metadata, viewport } from "./metadata";
+import { metadata as meta, viewport as view } from "./metadata";
 import { Outfit, Plus_Jakarta_Sans } from "next/font/google";
 
 const outfit = Outfit({
@@ -17,7 +17,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
 });
 
-export { metadata, viewport };
+export const metadata = meta;
+export const viewport = view;
 
 export default function RootLayout({ children }) {
   return (
