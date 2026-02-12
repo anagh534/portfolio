@@ -1,0 +1,37 @@
+# Portfolio of Anagh K R
+
+## Summary
+Anagh K R is a freelance Full-Stack Developer and Flutter Developer based in Kerala, India. He specializes in building high-performance web and mobile applications using the MERN stack (MongoDB, Express.js, React, Node.js) and Flutter.
+
+## Services
+- **Web Development**: Custom websites, e-commerce platforms, and web applications using React, Next.js, and Node.js.
+- **Mobile App Development**: Cross-platform mobile apps for iOS and Android using Flutter.
+- **UI/UX Design**: Modern and responsive designs focused on user experience.
+- **SEO & Optimization**: Performance tuning and search engine optimization for better visibility.
+- **Consultation**: Technical advice on architecture and technology stack selection.
+
+## Locations Served
+Anagh serves clients across Kerala, including:
+- Kochi
+- Thiruvananthapuram
+- Kozhikode (Calicut)
+- Thrissur
+- Kannur
+- Kollam
+- Kasaragod
+- Palakkad
+- Ernakulam
+- Kanhangad
+
+## Contact Information
+- **Email**: anaghkrkkl@gmail.com
+- **Website**: https://www.anaghkr.in
+- **LinkedIn**: https://in.linkedin.com/in/anagh-k-r
+- **GitHub**: https://github.com/anagh534
+
+## Navigation
+- [About Me](/about)
+- [Services](/services)
+- [Locations](/locations)
+- [Contact](/contact)
+- [Resume](/resume)

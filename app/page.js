@@ -26,30 +26,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <Script id="schema-person" type="application/ld+json" dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Anagh K R",
-          "url": "https://www.anaghkr.in",
-          "image": "https://www.anaghkr.in/assets/profile.webp",
-          "sameAs": [
-            "https://github.com/anagh534",
-            "https://www.linkedin.com/in/anagh-k-r"
-          ],
-          "jobTitle": "Freelance Web Developer and Flutter Developer",
-          "worksFor": {
-            "@type": "Organization",
-            "name": "Self-Employed"
-          },
-          "description": "Professional Flutter developer and MERN stack developer in Kerala offering web and mobile app development services.",
-          "address": {
-            "@type": "PostalAddress",
-            "addressRegion": "Kerala",
-            "addressCountry": "India"
-          }
-        })
-      }} />
+
 
       <Script id="schema-service" type="application/ld+json" dangerouslySetInnerHTML={{
         __html: JSON.stringify({
