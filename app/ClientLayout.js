@@ -8,7 +8,7 @@ import dynamic from 'next/dynamic';
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const ThreeScene = dynamic(() => import("@/components/ThreeScene"), {
+const ParticleBackground = dynamic(() => import("@/components/ParticleBackground"), {
     ssr: false,
 });
 
@@ -39,7 +39,7 @@ export default function ClientLayout({ children }) {
             />
 
             <Navbar />
-            <ThreeScene />
+            <ParticleBackground />
             <AnimatePresence mode="wait">
                 <motion.main
                     initial={{ opacity: 0, y: 20 }}
