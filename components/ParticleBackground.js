@@ -176,7 +176,7 @@ const ParticleBackground = () => {
     return (
         <canvas
             ref={canvasRef}
-            className="fixed inset-0 -z-1 bg-[#050505]"
+            className="fixed inset-0 z-0 pointer-events-none bg-[#050505]"
             style={{ display: 'block' }}
         />
     );

@@ -1,39 +1,7 @@
 'use client';
 
-import React, { useRef, useState, useEffect } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
-import { MeshDistortMaterial, PerspectiveCamera, Float } from '@react-three/drei';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-
-function LoadingShape() {
-    const mesh = useRef();
-
-    useFrame((state) => {
-        const time = state.clock.getElapsedTime();
-        mesh.current.rotation.x = time * 0.5;
-        mesh.current.rotation.y = time * 0.3;
-    });
-
-    return (
-        <Float speed={2} rotationIntensity={2} floatIntensity={2}>
-            <mesh ref={mesh}>
-                <sphereGeometry args={[1.5, 64, 64]} />
-                <MeshDistortMaterial
-                    color="#3b82f6"
-                    speed={3}
-                    distort={0.4}
-                    radius={1}
-                    emissive="#3b82f6"
-                    emissiveIntensity={0.5}
-                    transparent
-                    opacity={0.2}
-                    metalness={0.9}
-                    roughness={0.1}
-                />
-            </mesh>
-        </Float>
-    );
-}
 
 export default function PageLoader({ isLoading = true, loadingText = "Initializing Systems" }) {
     const [progress, setProgress] = useState(0);
@@ -62,15 +30,8 @@ export default function PageLoader({ isLoading = true, loadingText = "Initializi
                     exit={{ opacity: 0, transition: { duration: 0.8, ease: "easeInOut" } }}
                     className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#050505] overflow-hidden"
                 >
-                    {/* 3D Animation Background */}
-                    <div className="absolute inset-0 z-0 opacity-40">
-                        <Canvas>
-                            <PerspectiveCamera makeDefault position={[0, 0, 5]} />
-                            <ambientLight intensity={0.5} />
-                            <pointLight position={[10, 10, 10]} intensity={1} color="#3b82f6" />
-                            <LoadingShape />
-                        </Canvas>
-                    </div>
+                    {/* Background Gradient Animation */}
+                    <div className="absolute inset-0 z-0 opacity-20 bg-gradient-to-br from-blue-900/40 via-transparent to-purple-900/40 animate-pulse" />
 
                     {/* Content Overlay */}
                     <div className="relative z-10 flex flex-col items-center text-center px-6">
