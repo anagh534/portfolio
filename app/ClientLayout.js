@@ -3,43 +3,22 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
-import PageLoader from "@/components/pageLoader/PageLoader";
-import dynamic from 'next/dynamic';
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const ParticleBackground = dynamic(() => import("@/components/ParticleBackground"), {
-    ssr: false,
-});
-
 export default function ClientLayout({ children }) {
-    const [isLoading, setIsLoading] = useState(true);
-
-    useEffect(() => {
-        // Simulate loading time and then hide loader
-        const timer = setTimeout(() => {
-            setIsLoading(false);
-        }, 1000); // 1 second loading time - optimized for better UX and SEO
-
-        return () => clearTimeout(timer);
-    }, []);
-
     useEffect(() => {
         AOS.init();
     }, []);
 
     return (
         <>
-            {/* Page Loader */}
-            <PageLoader
-                isLoading={isLoading}
-                loadingText="Loading..."
-                animationType="spinner"
-                size="large"
-            />
+            <div className="fixed inset-0 -z-1 bg-[#050505]">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-900/10 via-transparent to-transparent opacity-50 pointer-events-none" />
+            </div>
 
             <Navbar />
-            <ParticleBackground />
+
             <AnimatePresence mode="wait">
                 <motion.main
                     initial={{ opacity: 0, y: 20 }}
