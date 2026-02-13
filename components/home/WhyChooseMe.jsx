@@ -132,7 +132,7 @@ export default function WhyChooseMe() {
                             >
                                 <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center font-black text-black">JS</div>
                                 <div>
-                                    <h5 className="text-white font-bold text-sm">React Expert</h5>
+                                    <div className="text-white font-bold text-sm">React Expert</div>
                                     <div className="w-24 h-1.5 bg-white/5 rounded-full mt-2 overflow-hidden">
                                         <div className="h-full bg-blue-500" style={{ width: '95%' }}></div>
                                     </div>
@@ -146,7 +146,7 @@ export default function WhyChooseMe() {
                             >
                                 <div className="w-12 h-12 rounded-full bg-cyan-500 flex items-center justify-center font-black text-black">FL</div>
                                 <div>
-                                    <h5 className="text-white font-bold text-sm">Flutter Pro</h5>
+                                    <div className="text-white font-bold text-sm">Flutter Pro</div>
                                     <div className="w-24 h-1.5 bg-white/5 rounded-full mt-2 overflow-hidden">
                                         <div className="h-full bg-cyan-500" style={{ width: '90%' }}></div>
                                     </div>

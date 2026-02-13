@@ -43,6 +43,7 @@ export default function About() {
                                     alt="Anagh K R"
                                     width={500}
                                     height={500}
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                                 />
                             </div>
