@@ -44,6 +44,7 @@ export default function About() {
                                     width={500}
                                     height={500}
                                     sizes="(max-width: 1024px) 100vw, 50vw"
+                                    loading="lazy"
                                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                                 />
                             </div>
