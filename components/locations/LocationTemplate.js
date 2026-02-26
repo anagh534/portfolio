@@ -45,6 +45,7 @@ const iconMap = {
     'fas fa-graduation-cap': <GraduationCap />,
     'fas fa-utensils': <Utensils />,
     'fas fa-map-marker-alt': <MapPin />,
+    'fab fa-wordpress': <Globe />,
 };
 
 export default function LocationTemplate({
@@ -55,6 +56,22 @@ export default function LocationTemplate({
     portfolio,
     description
 }) {
+    const hasWordPressService = services.some((service) =>
+        service.title?.toLowerCase().includes('wordpress')
+    );
+
+    const displayServices = hasWordPressService
+        ? services
+        : [
+            ...services,
+            {
+                icon: 'fab fa-wordpress',
+                title: 'WordPress Development',
+                description: `Custom WordPress websites and landing pages for businesses in ${cityName}`,
+                features: ['Custom Themes', 'Plugin Integration', 'Easy Content Updates', 'SEO Friendly Setup']
+            }
+        ];
+
     const containerVariants = {
         hidden: { opacity: 0 },
         visible: {
@@ -100,6 +117,15 @@ export default function LocationTemplate({
                         {description}
                     </motion.p>
 
+                    <motion.p
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.35 }}
+                        className="text-blue-400 text-sm md:text-base max-w-3xl mx-auto mb-16"
+                    >
+                        WordPress development services are also available in {cityName}.
+                    </motion.p>
+
                     <motion.div
                         variants={containerVariants}
                         initial="hidden"
@@ -140,7 +166,7 @@ export default function LocationTemplate({
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {services.map((service, index) => (
+                        {displayServices.map((service, index) => (
                             <motion.div
                                 key={index}
                                 initial={{ opacity: 0, y: 20 }}

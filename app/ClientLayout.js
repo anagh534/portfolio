@@ -42,7 +42,7 @@ export default function ClientLayout({ children }) {
                         "name": "ANAGH K R",
                         "alternateName": "Anagh K R",
                         "description":
-                            "Freelance software developer and Flutter developer based in Kerala specializing in MERN stack development, Flutter apps, and custom website development. Expert in creating responsive websites, mobile apps, and e-commerce platforms for businesses across Kerala.",
+                            "Freelance software developer and Flutter developer based in Kerala specializing in MERN stack development, Flutter apps, WordPress development, and custom website development. Expert in creating responsive websites, mobile apps, and e-commerce platforms for businesses across Kerala.",
                         "url": "https://www.anaghkr.in/",
                         "email": "mailto:anaghkrkkl@gmail.com",
                         "sameAs": [
@@ -59,6 +59,7 @@ export default function ClientLayout({ children }) {
                         "knowsAbout": [
                             "Flutter Development", "MERN Stack Development", "JavaScript", "React",
                             "Node.js", "MongoDB", "Express.js", "Laravel", "PHP", "MySQL",
+                            "WordPress Development",
                             "Mobile App Development", "Web Development", "E-commerce Development",
                             "LMS Development", "Firebase", "Git", "CI/CD", "DevOps", "Docker", "AWS",
                             "best node js vemobile app developer kerala", "hire web developer", "hire freelance web developer",
@@ -85,7 +86,7 @@ export default function ClientLayout({ children }) {
                             "itemOffered": {
                                 "@type": "Service",
                                 "name": "Web Development Services",
-                                "description": "Professional web development, Flutter app development, and MERN stack development services across Kerala"
+                                "description": "Professional web development, WordPress development, Flutter app development, and MERN stack development services across Kerala"
                             },
                             "areaServed": [
                                 "Kochi", "Thiruvananthapuram", "Kozhikode", "Thrissur", "Kannur",

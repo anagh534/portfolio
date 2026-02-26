@@ -1,17 +1,17 @@
 export const metadata = {
     title: "About Anagh K R - Flutter Developer Kerala | MERN Stack Developer Kerala | Expert Web & App Development",
-    description: "Meet Anagh K R, a professional Flutter developer and MERN stack developer from Kasaragod, Kerala. Specializing in mobile app development, web development services, e-commerce development, and custom website solutions across Kerala including Kochi, Thiruvananthapuram, Kozhikode, Thrissur, Ernakulam, and Calicut.",
+    description: "Meet Anagh K R, a professional Flutter developer and MERN stack developer from Kasaragod, Kerala. Specializing in mobile app development, web development services, WordPress development, e-commerce development, and custom website solutions across Kerala including Kochi, Thiruvananthapuram, Kozhikode, Thrissur, Ernakulam, and Calicut.",
     keywords: "Flutter developer Kerala, MERN stack developer Kerala, Web development services Kerala, Mobile app development Kerala, Freelance web developer Kerala, Custom website development Kerala, React developer Kerala, Node.js developer Kerala, Flutter developer Kasaragod, App development Kasaragod, Website design Kerala, Responsive web design, E-commerce website development, WordPress developer Kasaragod, SEO services Kerala, Next.js development, PSD to website conversion, Figma to website development, Academic project development, Startup web development, Full-Stack Web Development, Cross-Platform App Development, Digital Solutions Expert Kasaragod, Professional Developer in Kerala, Scalable Code Development, User-First Approach in Web and App Development, best node js vemobile app developer kerala, hire web developer, hire freelance web developer, freelancer website designer, freelancer web developer, freelancer for website development, freelancer android app developer, freelance website developer, freelance web developer, freelance web designer near me, freelance mobile app developer, freelance app developers near me, freelance app developers cost, freelance app developers, flutter developer, fiverr web development, fiverr web developer, fiverr react developer, fiverr app development, fiverr app developer, app development freelance, app developers in kerala, app developer freelancer",
     author: "ANAGH K R",
     robots: "index, follow",
     canonical: "https://www.anaghkr.in/about",
     ogTitle: "About Anagh K R - Flutter Developer Kerala | MERN Stack Developer Kerala",
-    ogDescription: "Meet Anagh K R, a professional Flutter developer and MERN stack developer from Kasaragod, Kerala. Specializing in mobile app development, web development services, and custom solutions across Kerala.",
+    ogDescription: "Meet Anagh K R, a professional Flutter developer and MERN stack developer from Kasaragod, Kerala. Specializing in mobile app development, web development services, WordPress development, and custom solutions across Kerala.",
     ogUrl: "https://www.anaghkr.in/about",
     ogType: "profile",
     twitterCard: "summary_large_image",
     twitterTitle: "About Anagh K R - Flutter Developer Kerala | MERN Stack Developer Kerala",
-    twitterDescription: "Professional Flutter developer and MERN stack developer from Kerala offering expert web and mobile app development services."
+    twitterDescription: "Professional Flutter developer and MERN stack developer from Kerala offering expert web, WordPress, and mobile app development services."
 };
 
 import { Code, Download, User as UserIcon, Check, Laptop, Server, Smartphone, Cloud, Palette, Monitor, Rocket, Send, ArrowRight } from 'lucide-react';
@@ -196,6 +196,7 @@ export default function About() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {[
                             { title: 'Web Development', desc: 'Full-stack web applications using modern technologies like React, Node.js, and cloud platforms.' },
+                            { title: 'WordPress Development', desc: 'Custom WordPress websites with theme customization, plugin integration, and easy content management.' },
                             { title: 'Mobile App Development', desc: 'Cross-platform mobile applications with Flutter, delivering native performance for iOS and Android.' },
                             { title: 'SEO & Optimization', desc: 'Performance optimization and SEO strategies to ensure your digital presence reaches its full potential.' },
                             { title: 'Technical Consultation', desc: 'Strategic guidance on technology choices, architecture decisions, and best practices for your projects.' }

@@ -8,7 +8,7 @@ import Script from 'next/script';
 
 export const metadata = {
   title: "Flutter Developer Kerala | Freelance Web Developer Kerala | MERN Stack Developer - ANAGH K R",
-  description: "Top-rated freelance Flutter developer and web developer in Kerala. Specialized in MERN stack development, Flutter app development, website design, and LMS development. Serving Calicut, Trivandrum, Kannur, Kasaragod, Kochi, and all Kerala. Affordable custom website development and mobile app development services.",
+  description: "Top-rated freelance Flutter developer and web developer in Kerala. Specialized in MERN stack development, Flutter app development, WordPress development, website design, and LMS development. Serving Calicut, Trivandrum, Kannur, Kasaragod, Kochi, and all Kerala. Affordable custom website development and mobile app development services.",
   keywords: "flutter developer kerala, freelance web developer kerala, web development calicut, website designer in kasaragod, lms development companies in trivandrum, app developers in trivandrum, web developer in kerala, freelance website developer kerala, flutter developers near me, flutter development in kannur, ecommerce development kannur, flutter training calicut, web development company in kannur, MERN stack developer Kerala, Mobile app development Kerala, Custom website development Kerala, React developer Kerala, Node.js developer Kerala, Affordable Flutter app development, Best web developer Kerala, Professional mobile app development, Responsive web design Kerala, E-commerce development Kerala, WordPress development Kerala, Next.js development Kerala, best node js vemobile app developer kerala, hire web developer, hire freelance web developer, freelancer website designer, freelancer web developer, freelancer for website development, freelancer android app developer, freelance website developer, freelance web developer, freelance web designer near me, freelance mobile app developer, freelance app developers near me, freelance app developers cost, freelance app developers, flutter developer, fiverr web development, fiverr web developer, fiverr react developer, fiverr app development, fiverr app developer, app development freelance, app developers in kerala, app developer freelancer",
   author: "ANAGH K R",
   robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -32,7 +32,7 @@ export default function Home() {
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Service",
-          "serviceType": "Web Development and Mobile App Development",
+          "serviceType": "Web Development, WordPress Development and Mobile App Development",
           "provider": {
             "@type": "Person",
             "name": "Anagh K R"
@@ -41,7 +41,7 @@ export default function Home() {
             "@type": "State",
             "name": "Kerala"
           },
-          "description": "Professional web development and mobile app development services in Kerala including Flutter app development, MERN stack development, responsive web design, and e-commerce solutions.",
+          "description": "Professional web development, WordPress development, and mobile app development services in Kerala including Flutter app development, MERN stack development, responsive web design, and e-commerce solutions.",
           "offers": {
             "@type": "Offer",
             "priceSpecification": {

@@ -1,17 +1,17 @@
 export const metadata = {
     title: "Web Development Services Across Kerala | Flutter Developer in Major Cities - Anagh K R",
-    description: "Professional web development and Flutter app development services across Kerala. Serving Kochi, Thiruvananthapuram, Kozhikode, Thrissur, Ernakulam, Calicut, Kannur, Kasaragod, Kollam, Palakkad, and Kanhangad with custom website development, mobile app development, and digital solutions.",
+    description: "Professional web development, WordPress development, and Flutter app development services across Kerala. Serving Kochi, Thiruvananthapuram, Kozhikode, Thrissur, Ernakulam, Calicut, Kannur, Kasaragod, Kollam, Palakkad, and Kanhangad with custom website development, mobile app development, and digital solutions.",
     keywords: "Web development services Kerala, Flutter developer Kerala, Mobile app development Kerala, Custom website development Kerala, Kochi web developer, Thiruvananthapuram app development, Kozhikode website design, Thrissur web development, Ernakulam mobile app developer, Calicut Flutter developer, Kannur web services, Kasaragod app development, Kollam website development, Palakkad web design, Kanhangad digital solutions, Kerala web development company, Professional web developer Kerala, Best Flutter developer Kerala, MERN stack developer Kerala, Responsive web design Kerala, E-commerce development Kerala, WordPress development Kerala, React developer Kerala, Node.js developer Kerala",
     author: "ANAGH K R",
     robots: "index, follow",
     canonical: "https://www.anaghkr.in/locations",
     ogTitle: "Web Development Services Across Kerala | Flutter Developer in Major Cities",
-    ogDescription: "Professional web development and Flutter app development services across Kerala. Serving all major cities with custom website development, mobile app development, and digital solutions.",
+    ogDescription: "Professional web development, WordPress development, and Flutter app development services across Kerala. Serving all major cities with custom website development, mobile app development, and digital solutions.",
     ogUrl: "https://www.anaghkr.in/locations",
     ogType: "website",
     twitterCard: "summary_large_image",
     twitterTitle: "Web Development Services Across Kerala | Flutter Developer",
-    twitterDescription: "Professional web development and mobile app development services across all major cities in Kerala."
+    twitterDescription: "Professional web development, WordPress development, and mobile app development services across all major cities in Kerala."
 };
 
 import { MapPin, CheckCircle, Rocket, ArrowRight, Laptop, Smartphone, ShoppingCart, Code, Globe, Search, Users, Layout, Clock, Award, Send } from 'lucide-react';
@@ -99,6 +99,7 @@ export default function Locations() {
 
     const services = [
         { icon: <Laptop size={24} />, title: "Custom Website Development", desc: "Responsive, modern websites tailored to your business needs across Kerala" },
+        { icon: <Layout size={24} />, title: "WordPress Development", desc: "Custom WordPress websites, landing pages, and business sites for every city in Kerala" },
         { icon: <Smartphone size={24} />, title: "Flutter App Development", desc: "Cross-platform mobile applications for iOS and Android platforms" },
         { icon: <ShoppingCart size={24} />, title: "E-commerce Solutions", desc: "Complete online store development with payment integration" },
         { icon: <Code size={24} />, title: "MERN Stack Development", desc: "Full-stack web applications using MongoDB, Express, React, and Node.js" },
@@ -119,7 +120,7 @@ export default function Locations() {
                     </h1>
                     <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-12 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-400">
                         Professional web development and Flutter app development services
-                        available across all major cities. Local expertise with global standards.
+                        available across all major cities. WordPress development is also available in every location.
                     </p>
 
                     {/* Quick Stats */}
@@ -212,6 +213,10 @@ export default function Locations() {
                                                 {s}
                                             </li>
                                         ))}
+                                        <li className="flex items-center gap-3 text-xs text-gray-400 group/item">
+                                            <CheckCircle size={14} className="text-blue-500/40 group-hover/item:text-blue-500 transition-colors" />
+                                            WordPress Development
+                                        </li>
                                     </ul>
                                 </div>
 

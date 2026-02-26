@@ -40,6 +40,7 @@ export default function ContactForm() {
 
   const projectTypes = [
     { value: 'web-development', label: 'Web Development', icon: <Code size={18} />, description: 'Full-stack web applications' },
+    { value: 'wordpress-development', label: 'WordPress Development', icon: <Palette size={18} />, description: 'Business websites & CMS solutions' },
     { value: 'mobile-app', label: 'Mobile App Development', icon: <Smartphone size={18} />, description: 'iOS & Android applications' },
     { value: 'e-commerce', label: 'E-commerce Solutions', icon: <ShoppingCart size={18} />, description: 'Online stores & marketplaces' },
     { value: 'api-development', label: 'API Development', icon: <Server size={18} />, description: 'REST APIs & microservices' },

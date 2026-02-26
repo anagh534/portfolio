@@ -45,10 +45,10 @@ const services = [
     },
     {
         id: 5,
-        title: "Website Modernization",
+        title: "WordPress Development",
         icon: <RefreshCw size={24} />,
-        shortDesc: "Breathing new life into outdated platforms with modern tech and UI.",
-        technologies: ["Refactoring", "Optimization", "Redesign"],
+        shortDesc: "Custom WordPress websites with theme customization, plugin setup, and easy content management.",
+        technologies: ["WordPress", "WooCommerce", "Custom Themes"],
     },
     {
         id: 6,

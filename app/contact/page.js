@@ -4,7 +4,7 @@ import { Mail, MapPin, Clock, Code, Send } from 'lucide-react';
 
 export const metadata = {
   title: 'Contact ANAGH K R - Full Stack Developer',
-  description: 'Get in touch for professional web development and Flutter app development services.',
+  description: 'Get in touch for professional web development, WordPress development, and Flutter app development services.',
 };
 
 export default function ContactPage() {
@@ -71,7 +71,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-white font-bold text-sm uppercase tracking-tight">Specialization</h3>
                   <p className="text-gray-400 text-xs mt-1">Full-Stack Solutions</p>
-                  <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest block mt-1 underline decoration-blue-500/50">MERN & FLUTTER</span>
+                  <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest block mt-1 underline decoration-blue-500/50">MERN · FLUTTER · WORDPRESS</span>
                 </div>
               </div>
             </div>

@@ -6,6 +6,7 @@ He builds high-performance web and mobile applications using the MERN stack and 
 
 ## Primary Services
 - Web Development: Custom websites, web applications, and e-commerce platforms with React, Next.js, and Node.js.
+- WordPress Development: Business websites, landing pages, blogs, and custom WordPress solutions.
 - Mobile App Development: Cross-platform iOS and Android apps using Flutter.
 - UI/UX Design: Modern, responsive interface design focused on usability.
 - SEO & Optimization: Site performance improvements and search engine optimization.
@@ -16,10 +17,12 @@ He builds high-performance web and mobile applications using the MERN stack and 
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Mobile: Flutter
+- CMS: WordPress
 - Full Stack: MERN (MongoDB, Express.js, React, Node.js)
 
 ## Service Area
 Clients served across Kerala, including:
+- WordPress development services are available in every location listed below.
 - Kochi
 - Thiruvananthapuram
 - Kozhikode (Calicut)
