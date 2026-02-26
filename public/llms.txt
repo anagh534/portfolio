@@ -1,17 +1,25 @@
-# Portfolio of Anagh K R
+# Anagh K R — Portfolio
 
-## Summary
-Anagh K R is a freelance Full-Stack Developer and Flutter Developer based in Kerala, India. He specializes in building high-performance web and mobile applications using the MERN stack (MongoDB, Express.js, React, Node.js) and Flutter.
+## Overview
+Anagh K R is a freelance Full-Stack Developer and Flutter Developer based in Kerala, India.
+He builds high-performance web and mobile applications using the MERN stack and Flutter.
 
-## Services
-- **Web Development**: Custom websites, e-commerce platforms, and web applications using React, Next.js, and Node.js.
-- **Mobile App Development**: Cross-platform mobile apps for iOS and Android using Flutter.
-- **UI/UX Design**: Modern and responsive designs focused on user experience.
-- **SEO & Optimization**: Performance tuning and search engine optimization for better visibility.
-- **Consultation**: Technical advice on architecture and technology stack selection.
+## Primary Services
+- Web Development: Custom websites, web applications, and e-commerce platforms with React, Next.js, and Node.js.
+- Mobile App Development: Cross-platform iOS and Android apps using Flutter.
+- UI/UX Design: Modern, responsive interface design focused on usability.
+- SEO & Optimization: Site performance improvements and search engine optimization.
+- Technical Consultation: Guidance on architecture and technology stack decisions.
 
-## Locations Served
-Anagh serves clients across Kerala, including:
+## Core Technologies
+- Frontend: React, Next.js
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Mobile: Flutter
+- Full Stack: MERN (MongoDB, Express.js, React, Node.js)
+
+## Service Area
+Clients served across Kerala, including:
 - Kochi
 - Thiruvananthapuram
 - Kozhikode (Calicut)
@@ -23,15 +31,15 @@ Anagh serves clients across Kerala, including:
 - Ernakulam
 - Kanhangad
 
-## Contact Information
-- **Email**: anaghkrkkl@gmail.com
-- **Website**: https://www.anaghkr.in
-- **LinkedIn**: https://in.linkedin.com/in/anagh-k-r
-- **GitHub**: https://github.com/anagh534
+## Contact
+- Website: https://www.anaghkr.in
+- Email: anaghkrkkl@gmail.com
+- LinkedIn: https://in.linkedin.com/in/anagh-k-r
+- GitHub: https://github.com/anagh534
 
-## Navigation
-- [About Me](/about)
-- [Services](/services)
-- [Locations](/locations)
-- [Contact](/contact)
-- [Resume](/resume)
+## Key Pages
+- About: /about
+- Services: /services
+- Locations: /locations
+- Contact: /contact
+- Resume: /resume
