@@ -39,4 +39,15 @@ Allow: /locations/kasaragod
 Allow: /locations/palakkad
 Allow: /locations/kanhangad
 
+# Service pages
+Allow: /web-development
+Allow: /mern-stack-development
+Allow: /nodejs-development
+Allow: /react-development
+Allow: /flutter-app-development
+Allow: /wordpress-development
+Allow: /ecommerce-development
+Allow: /mobile-app-development
+Allow: /nextjs-development
+
 # Be polite to crawlers

@@ -46,3 +46,14 @@ Clients served across Kerala, including:
 - Locations: /locations
 - Contact: /contact
 - Resume: /resume
+
+## Service Detail Pages
+- Web Development: /web-development
+- MERN Stack Development: /mern-stack-development
+- Node.js Development: /nodejs-development
+- React Development: /react-development
+- Next.js Development: /nextjs-development
+- Flutter App Development: /flutter-app-development
+- Mobile App Development: /mobile-app-development
+- WordPress Development: /wordpress-development
+- E-commerce Development: /ecommerce-development

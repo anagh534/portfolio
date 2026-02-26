@@ -24,7 +24,7 @@ const Footer = () => {
     return (
         <footer className="relative pt-24 pb-12 overflow-hidden border-t border-white/5">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
                     {/* Logo & Brand */}
                     <div className="space-y-6">
                         <Link href="/" className="inline-block">
@@ -58,6 +58,31 @@ const Footer = () => {
                                     <Link href={link === 'Home' ? '/' : `/#${link.toLowerCase()}`} className="text-sm text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-2 group">
                                         <span className="w-1.5 h-1.5 rounded-full bg-blue-500/50 group-hover:bg-blue-500 transition-all"></span>
                                         {link}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    {/* Service Pages */}
+                    <div>
+                        <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Services</h4>
+                        <ul className="space-y-4">
+                            {[
+                                { label: 'Web Development', href: '/web-development' },
+                                { label: 'MERN Stack', href: '/mern-stack-development' },
+                                { label: 'Flutter Apps', href: '/flutter-app-development' },
+                                { label: 'WordPress', href: '/wordpress-development' },
+                                { label: 'E-commerce', href: '/ecommerce-development' },
+                                { label: 'Next.js Dev', href: '/nextjs-development' },
+                                { label: 'React Dev', href: '/react-development' },
+                                { label: 'Node.js Dev', href: '/nodejs-development' },
+                                { label: 'Mobile Apps', href: '/mobile-app-development' },
+                            ].map((item) => (
+                                <li key={item.href}>
+                                    <Link href={item.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-2 group">
+                                        <span className="w-1.5 h-1.5 rounded-full bg-blue-500/50 group-hover:bg-blue-500 transition-all"></span>
+                                        {item.label}
                                     </Link>
                                 </li>
                             ))}

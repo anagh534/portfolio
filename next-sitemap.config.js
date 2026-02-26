@@ -51,6 +51,17 @@ Allow: /locations/kasaragod
 Allow: /locations/palakkad
 Allow: /locations/kanhangad
 
+# Service pages
+Allow: /web-development
+Allow: /mern-stack-development
+Allow: /nodejs-development
+Allow: /react-development
+Allow: /flutter-app-development
+Allow: /wordpress-development
+Allow: /ecommerce-development
+Allow: /mobile-app-development
+Allow: /nextjs-development
+
 # Be polite to crawlers`;
     },
   },
@@ -164,6 +175,62 @@ Allow: /locations/kanhangad
         loc: '/locations/kanhangad',
         changefreq: 'weekly',
         priority: 0.5,
+        lastmod: currentDate
+      },
+
+      // Service detail pages - High SEO value
+      {
+        loc: '/web-development',
+        changefreq: 'weekly',
+        priority: 0.9,
+        lastmod: currentDate
+      },
+      {
+        loc: '/mern-stack-development',
+        changefreq: 'weekly',
+        priority: 0.9,
+        lastmod: currentDate
+      },
+      {
+        loc: '/nodejs-development',
+        changefreq: 'weekly',
+        priority: 0.8,
+        lastmod: currentDate
+      },
+      {
+        loc: '/react-development',
+        changefreq: 'weekly',
+        priority: 0.8,
+        lastmod: currentDate
+      },
+      {
+        loc: '/flutter-app-development',
+        changefreq: 'weekly',
+        priority: 0.9,
+        lastmod: currentDate
+      },
+      {
+        loc: '/wordpress-development',
+        changefreq: 'weekly',
+        priority: 0.8,
+        lastmod: currentDate
+      },
+      {
+        loc: '/ecommerce-development',
+        changefreq: 'weekly',
+        priority: 0.8,
+        lastmod: currentDate
+      },
+      {
+        loc: '/mobile-app-development',
+        changefreq: 'weekly',
+        priority: 0.9,
+        lastmod: currentDate
+      },
+      {
+        loc: '/nextjs-development',
+        changefreq: 'weekly',
+        priority: 0.8,
         lastmod: currentDate
       },
     ];

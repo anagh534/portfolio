@@ -1,5 +1,17 @@
 import ServiceComponent from "./ServiceComponent";
-import { Rocket, Target, Users, Zap, Briefcase, User as UserIcon, Send } from 'lucide-react';
+import { Rocket, Target, Users, Zap, ArrowRight, User as UserIcon, Send } from 'lucide-react';
+
+const detailPages = [
+    { title: "Web Development", href: "/web-development", desc: "Custom websites & web apps" },
+    { title: "MERN Stack", href: "/mern-stack-development", desc: "MongoDB · Express · React · Node.js" },
+    { title: "Next.js Development", href: "/nextjs-development", desc: "SSR & SSG React apps" },
+    { title: "React Development", href: "/react-development", desc: "SPAs & interactive UIs" },
+    { title: "Node.js Development", href: "/nodejs-development", desc: "Scalable backends & APIs" },
+    { title: "Flutter Apps", href: "/flutter-app-development", desc: "iOS & Android cross-platform" },
+    { title: "Mobile Apps", href: "/mobile-app-development", desc: "Full mobile app development" },
+    { title: "WordPress Development", href: "/wordpress-development", desc: "CMS websites & WooCommerce" },
+    { title: "E-commerce Development", href: "/ecommerce-development", desc: "Online stores & payment integration" },
+];
 
 export const metadata = {
     title: "Professional Web & App Development Services | ANAGH K R",
@@ -91,6 +103,34 @@ export default function Services() {
                             icon={<Rocket size={24} />}
                             description="Building robust, secure, and scalable RESTful APIs to power your web and mobile applications with high performance."
                         />
+                    </div>
+                </div>
+            </section>
+
+            <section className="relative z-10 pt-10 pb-20">
+                <div className="max-w-7xl mx-auto px-6">
+                    <div className="text-center mb-10 space-y-3">
+                        <h2 className="text-3xl md:text-4xl font-black text-white uppercase tracking-tight">
+                            Explore Services <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">In Detail</span>
+                        </h2>
+                        <p className="text-gray-500 text-xs uppercase tracking-widest font-bold">
+                            Dedicated pages with full info, FAQs, and pricing for each service
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        {detailPages.map((page) => (
+                            <a
+                                key={page.href}
+                                href={page.href}
+                                className="p-6 rounded-[24px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-300 group flex items-center justify-between gap-4"
+                            >
+                                <div>
+                                    <div className="text-white font-bold uppercase tracking-tight text-sm group-hover:text-blue-400 transition-colors">{page.title}</div>
+                                    <div className="text-gray-500 text-xs mt-1">{page.desc}</div>
+                                </div>
+                                <ArrowRight size={16} className="text-gray-600 group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0" />
+                            </a>
+                        ))}
                     </div>
                 </div>
             </section>
