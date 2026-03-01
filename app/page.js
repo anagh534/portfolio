@@ -1,10 +1,12 @@
-import About from "@/components/home/about";
 import Hero from "@/components/home/hero";
-import Skills from "@/components/home/skills";
-import WhatWeOffer from "@/components/home/whatweoffer";
-import WhyChooseMe from "@/components/home/WhyChooseMe";
-import Works from "@/components/home/works";
 import Script from 'next/script';
+import dynamic from 'next/dynamic';
+
+const About = dynamic(() => import('@/components/home/about'), { ssr: true });
+const Skills = dynamic(() => import('@/components/home/skills'), { ssr: true });
+const Works = dynamic(() => import('@/components/home/works'), { ssr: true });
+const WhatWeOffer = dynamic(() => import('@/components/home/whatweoffer'), { ssr: true });
+const WhyChooseMe = dynamic(() => import('@/components/home/WhyChooseMe'), { ssr: true });
 
 export const metadata = {
   title: "Flutter Developer Kerala | Freelance Web Developer Kerala | MERN Stack Developer - ANAGH K R",

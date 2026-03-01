@@ -1,15 +1,11 @@
 "use client"
-import 'aos/dist/aos.css';
-import AOS from 'aos';
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
-import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function ClientLayout({ children }) {
-    useEffect(() => {
-        AOS.init();
-    }, []);
+    const pathname = usePathname();
 
     return (
         <>
@@ -21,7 +17,8 @@ export default function ClientLayout({ children }) {
 
             <AnimatePresence mode="wait">
                 <motion.main
-                    initial={{ opacity: 0, y: 20 }}
+                    key={pathname}
+                    initial={false}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
