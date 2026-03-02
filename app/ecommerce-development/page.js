@@ -7,6 +7,24 @@ export const metadata = {
     keywords: "e-commerce developer Kerala, online store development Kerala, WooCommerce developer Kerala, e-commerce website Kerala, payment gateway integration Kerala, online shopping website Kerala, e-commerce development Kochi, e-commerce developer Kozhikode, e-commerce developer Kasaragod, e-commerce website Kannur, Shopify developer Kerala, custom e-commerce Kerala, e-commerce development Thrissur, online shop Kerala, buy online website Kerala, e-commerce development company Kerala",
     alternates: { canonical: "https://www.anaghkr.in/ecommerce-development" },
     openGraph: {
+        title: "E-commerce Development Kerala | Online Store Development | ANAGH K R",
+        description: "Professional e-commerce development services in Kerala — online stores, payment integration, inventory management, and custom shopping solutions.",
+        url: "https://www.anaghkr.in/ecommerce-development",
+        type: "website",
+        images: [{
+            url: "https://www.anaghkr.in/assets/services/ecom.webp",
+            width: 1200,
+            height: 630,
+            alt: "E-commerce Development Services in Kerala"
+        }]
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "E-commerce Development Kerala | ANAGH K R",
+        description: "Expert e-commerce development services — build your online store in Kerala.",
+        images: ["https://www.anaghkr.in/assets/services/ecom.webp"]
+    },
+    openGraph: {
         title: "E-commerce Developer Kerala | Online Store Development | ANAGH K R",
         description: "Professional e-commerce development — WooCommerce stores, custom shopping carts, and online selling platforms for Kerala businesses.",
         url: "https://www.anaghkr.in/ecommerce-development",

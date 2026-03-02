@@ -13,6 +13,74 @@ export const metadata = {
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ANAGH K R - Web Developer & App Developer Thrissur",
+    "description": "Expert web development and Flutter app development services in Thrissur. Comprehensive digital solutions including responsive websites, mobile apps, and e-commerce platforms for cultural and festival city businesses.",
+    "url": "https://www.anaghkr.in/locations/thrissur",
+    "telephone": "+91-8075541805",
+    "email": "anaghkrkkl@gmail.com",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Thrissur",
+        "addressRegion": "Kerala",
+        "postalCode": "680001",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "10.5276",
+        "longitude": "76.2144"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Thrissur"
+        }
+    ],
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development & App Development Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Responsive Web Design",
+                    "description": "Mobile-first responsive websites optimized for all devices"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Mobile App Development",
+                    "description": "Native and cross-platform mobile applications using Flutter"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "E-commerce Solutions",
+                    "description": "Complete online stores with payment integration"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "MERN Stack Development",
+                    "description": "Full-stack web applications using modern JavaScript"
+                }
+            }
+        ]
+    }
+};
+
 export default function ThrissurServices() {
     const cityHighlights = [
         {
@@ -121,13 +189,19 @@ export default function ThrissurServices() {
     ];
 
     return (
-        <LocationTemplate
-            cityName="Thrissur"
-            cityHighlights={cityHighlights}
-            services={services}
-            benefits={benefits}
-            portfolio={portfolio}
-            description="Expert web development and Flutter app development services in Thrissur. Comprehensive digital solutions for cultural organizations, educational institutions, and festival management with focus on preserving cultural heritage through technology."
-        />
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <LocationTemplate
+                cityName="Thrissur"
+                cityHighlights={cityHighlights}
+                services={services}
+                benefits={benefits}
+                portfolio={portfolio}
+                description="Expert web development and mobile app development services in Thrissur, Kerala's cultural capital. Comprehensive digital solutions tailored for cultural organizations, businesses, and festivals."
+            />
+        </>
     );
 }

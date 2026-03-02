@@ -13,6 +13,74 @@ export const metadata = {
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ANAGH K R - Web Developer & App Developer Ernakulam",
+    "description": "Expert web development and Flutter app development services in Ernakulam district. Comprehensive digital solutions including responsive websites, mobile apps, and e-commerce platforms for urban businesses.",
+    "url": "https://www.anaghkr.in/locations/ernakulam",
+    "telephone": "+91-8075541805",
+    "email": "anaghkrkkl@gmail.com",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ernakulam",
+        "addressRegion": "Kerala",
+        "postalCode": "682001",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "9.9816",
+        "longitude": "76.2999"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Ernakulam"
+        }
+    ],
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development & App Development Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Enterprise Solutions",
+                    "description": "Scalable web applications for corporate clients"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Mobile App Development",
+                    "description": "Flutter apps for business growth"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "E-commerce Solutions",
+                    "description": "Complete online stores with payment integration"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Business Automation",
+                    "description": "Workflow automation for enterprises"
+                }
+            }
+        ]
+    }
+};
+
 export default function ErnkulamServices() {
     const cityHighlights = [
         {
@@ -121,13 +189,19 @@ export default function ErnkulamServices() {
     ];
 
     return (
-        <LocationTemplate
-            cityName="Ernakulam"
-            cityHighlights={cityHighlights}
-            services={services}
-            benefits={benefits}
-            portfolio={portfolio}
-            description="Expert web development and Flutter app development services in Ernakulam district. Comprehensive digital solutions for urban businesses, corporate offices, and tech companies with focus on scalability and modern infrastructure."
-        />
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <LocationTemplate
+                cityName="Ernakulam"
+                cityHighlights={cityHighlights}
+                services={services}
+                benefits={benefits}
+                portfolio={portfolio}
+                description="Expert web development and mobile app development services in Ernakulam district. Comprehensive digital solutions for urban businesses, corporate clients, and enterprise applications."
+            />
+        </>
     );
 }

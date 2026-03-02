@@ -14,6 +14,50 @@ export const metadata = {
 import LocationTemplate from '../../../components/locations/LocationTemplate';
 import '../city.css';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.anaghkr.in/locations/kozhikode",
+    "name": "ANAGH K R - Web Developer & App Developer Kozhikode",
+    "description": "Professional web development, Flutter app development, and MERN stack development services in Kozhikode (Calicut). Expert digital solutions for businesses in Malabar region.",
+    "url": "https://www.anaghkr.in/locations/kozhikode",
+    "telephone": "+91-8075541805",
+    "email": "anaghkrkkl@gmail.com",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kozhikode",
+        "addressRegion": "Kerala",
+        "postalCode": "673001",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "11.2588",
+        "longitude": "75.7804"
+    },
+    "areaServed": [
+        {"@type": "City", "name": "Kozhikode"},
+        {"@type": "City", "name": "Calicut"},
+        {"@type": "State", "name": "Kerala"}
+    ],
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "sameAs": [
+        "https://www.linkedin.com/in/anaghkr",
+        "https://github.com/anaghkr"
+    ],
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services in Kozhikode",
+        "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Web Development", "description": "Custom website development in Kozhikode"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Flutter App Development", "description": "Mobile app development in Kozhikode"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "MERN Stack Development", "description": "Full-stack development in Kozhikode"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "E-commerce Development", "description": "Online store development in Kozhikode"}}
+        ]
+    }
+};
+
 export default function KozhikodeServices() {
     const cityHighlights = [
         {
@@ -122,13 +166,19 @@ export default function KozhikodeServices() {
     ];
 
     return (
-        <LocationTemplate
-            cityName="Kozhikode"
-            cityHighlights={cityHighlights}
-            services={services}
-            benefits={benefits}
-            portfolio={portfolio}
-            description="Professional web development and Flutter app development services in Kozhikode (Calicut). Modern digital solutions for businesses in Malabar region with focus on export industry, cultural businesses, and digital transformation."
-        />
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <LocationTemplate
+                cityName="Kozhikode"
+                cityHighlights={cityHighlights}
+                services={services}
+                benefits={benefits}
+                portfolio={portfolio}
+                description="Professional web development and Flutter app development services in Kozhikode (Calicut). Modern digital solutions for businesses in Malabar region with focus on export industry, cultural businesses, and digital transformation."
+            />
+        </>
     );
 }

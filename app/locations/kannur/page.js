@@ -13,6 +13,74 @@ export const metadata = {
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ANAGH K R - Web Developer & App Developer Kannur",
+    "description": "Expert web development and Flutter app development services in Kannur. Comprehensive digital solutions including responsive websites, mobile apps, and e-commerce platforms for coastal and handloom businesses.",
+    "url": "https://www.anaghkr.in/locations/kannur",
+    "telephone": "+91-8075541805",
+    "email": "anaghkrkkl@gmail.com",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kannur",
+        "addressRegion": "Kerala",
+        "postalCode": "670001",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "11.8745",
+        "longitude": "75.3704"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Kannur"
+        }
+    ],
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development & App Development Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Responsive Web Design",
+                    "description": "Mobile-first responsive websites for coastal businesses"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "E-commerce Solutions",
+                    "description": "Online stores for handloom and export businesses"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Mobile App Development",
+                    "description": "Flutter apps for traditional businesses"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Business Automation",
+                    "description": "Automated workflows for business efficiency"
+                }
+            }
+        ]
+    }
+};
+
 export default function KannurServices() {
     const cityHighlights = [
         {
@@ -121,13 +189,19 @@ export default function KannurServices() {
     ];
 
     return (
-        <LocationTemplate
-            cityName="Kannur"
-            cityHighlights={cityHighlights}
-            services={services}
-            benefits={benefits}
-            portfolio={portfolio}
-            description="Expert web development and Flutter app development services in Kannur. Comprehensive digital solutions for coastal businesses, handloom industry, and traditional traders with modern technology integration and cultural heritage preservation."
-        />
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <LocationTemplate
+                cityName="Kannur"
+                cityHighlights={cityHighlights}
+                services={services}
+                benefits={benefits}
+                portfolio={portfolio}
+                description="Expert web development and mobile app development services in Kannur. Comprehensive digital solutions for coastal businesses, handloom industry, and export-oriented enterprises."
+            />
+        </>
     );
 }

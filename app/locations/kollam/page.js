@@ -13,6 +13,74 @@ export const metadata = {
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ANAGH K R - Web Developer & App Developer Kollam",
+    "description": "Expert web development and Flutter app development services in Kollam. Comprehensive digital solutions including responsive websites, mobile apps, and e-commerce platforms for industrial and port city businesses.",
+    "url": "https://www.anaghkr.in/locations/kollam",
+    "telephone": "+91-8281992989",
+    "email": "anaghkrkkl@gmail.com",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kollam",
+        "addressRegion": "Kerala",
+        "postalCode": "691001",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "8.8932",
+        "longitude": "76.6141"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Kollam"
+        }
+    ],
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development & App Development Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Industrial Solutions",
+                    "description": "Web solutions for manufacturing and industrial businesses"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "E-commerce Solutions",
+                    "description": "Online stores for cashew and export businesses"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Tourism Solutions",
+                    "description": "Digital platforms for hospitality and tourism"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Mobile App Development",
+                    "description": "Flutter apps for port city businesses"
+                }
+            }
+        ]
+    }
+};
+
 export default function KollamServices() {
     const cityHighlights = [
         {
@@ -121,13 +189,19 @@ export default function KollamServices() {
     ];
 
     return (
-        <LocationTemplate
-            cityName="Kollam"
-            cityHighlights={cityHighlights}
-            services={services}
-            benefits={benefits}
-            portfolio={portfolio}
-            description="Expert web development and Flutter app development services in Kollam. Comprehensive digital solutions for industrial businesses, port operations, and tourism industry with focus on export and manufacturing sector needs."
-        />
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <LocationTemplate
+                cityName="Kollam"
+                cityHighlights={cityHighlights}
+                services={services}
+                benefits={benefits}
+                portfolio={portfolio}
+                description="Expert web development and mobile app development services in Kollam. Comprehensive digital solutions for industrial businesses, cashew industry, tourism sector, and export-oriented enterprises."
+            />
+        </>
     );
 }

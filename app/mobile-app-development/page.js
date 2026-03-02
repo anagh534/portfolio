@@ -11,11 +11,20 @@ export const metadata = {
         description: "Professional mobile app development — cross-platform iOS and Android apps using Flutter for businesses across Kerala.",
         url: "https://www.anaghkr.in/mobile-app-development",
         type: "website",
+        images: [
+            {
+                url: "https://www.anaghkr.in/assets/services/app.webp",
+                width: 1200,
+                height: 630,
+                alt: "Mobile App Developer Kerala - iOS and Android App Development",
+            },
+        ],
     },
     twitter: {
         card: "summary_large_image",
         title: "Mobile App Developer Kerala | ANAGH K R",
         description: "iOS and Android mobile app development services in Kerala by ANAGH K R.",
+        images: ["https://www.anaghkr.in/assets/services/app.webp"],
     },
 };
 

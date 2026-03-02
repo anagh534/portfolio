@@ -11,11 +11,20 @@ export const metadata = {
         description: "Professional React.js development — SPAs, admin dashboards, interactive UIs, and component libraries built for performance.",
         url: "https://www.anaghkr.in/react-development",
         type: "website",
+        images: [
+            {
+                url: "https://www.anaghkr.in/assets/services/webdev.webp",
+                width: 1200,
+                height: 630,
+                alt: "React Developer Kerala - Professional React.js Development Services",
+            },
+        ],
     },
     twitter: {
         card: "summary_large_image",
         title: "React Developer Kerala | ANAGH K R",
         description: "React.js development services in Kerala — SPAs, dashboards, and modern frontends.",
+        images: ["https://www.anaghkr.in/assets/services/webdev.webp"],
     },
 };
 

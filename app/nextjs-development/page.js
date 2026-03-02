@@ -11,11 +11,20 @@ export const metadata = {
         description: "Expert Next.js development — server-side rendering, App Router, ISR, and full-stack React applications built for performance and SEO.",
         url: "https://www.anaghkr.in/nextjs-development",
         type: "website",
+        images: [
+            {
+                url: "https://www.anaghkr.in/assets/services/webdev.webp",
+                width: 1200,
+                height: 630,
+                alt: "Next.js Developer Kerala - Server-Side Rendering React Development",
+            },
+        ],
     },
     twitter: {
         card: "summary_large_image",
         title: "Next.js Developer Kerala | ANAGH K R",
         description: "Next.js development services in Kerala — SSR, ISR, App Router, and full-stack applications.",
+        images: ["https://www.anaghkr.in/assets/services/webdev.webp"],
     },
 };
 

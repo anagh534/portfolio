@@ -13,6 +13,74 @@ export const metadata = {
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ANAGH K R - Web Developer & App Developer Kanhangad",
+    "description": "Local web development and mobile app development services in Kanhangad. Offering custom digital solutions, responsive websites, and mobile applications for local businesses and startups.",
+    "url": "https://www.anaghkr.in/locations/kanhangad",
+    "telephone": "+91-8075541805",
+    "email": "anaghkrkkl@gmail.com",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kanhangad",
+        "addressRegion": "Kerala",
+        "postalCode": "671315",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "12.3084",
+        "longitude": "75.1099"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Kanhangad"
+        }
+    ],
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development & App Development Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Responsive Web Design",
+                    "description": "Mobile-first websites for local businesses"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Flutter App Development",
+                    "description": "Custom mobile applications for startups"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Startup Solutions",
+                    "description": "Digital platforms for new businesses"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Business Websites",
+                    "description": "Professional websites with modern design"
+                }
+            }
+        ]
+    }
+};
+
 export default function KanhangadServices() {
     const cityHighlights = [
         {
@@ -121,13 +189,19 @@ export default function KanhangadServices() {
     ];
 
     return (
-        <LocationTemplate
-            cityName="Kanhangad"
-            cityHighlights={cityHighlights}
-            services={services}
-            benefits={benefits}
-            portfolio={portfolio}
-            description="Local web development and mobile app development services in Kanhangad. Offering custom digital solutions, responsive websites, and mobile applications for local businesses and startups."
-        />
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <LocationTemplate
+                cityName="Kanhangad"
+                cityHighlights={cityHighlights}
+                services={services}
+                benefits={benefits}
+                portfolio={portfolio}
+                description="Local web development and mobile app development services in Kanhangad. Personalized digital solutions with fast deployment and direct collaboration for local businesses and startups."
+            />
+        </>
     );
 }

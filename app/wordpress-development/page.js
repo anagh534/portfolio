@@ -11,11 +11,20 @@ export const metadata = {
         description: "Professional WordPress development — custom themes, WooCommerce stores, and business websites for clients across Kerala.",
         url: "https://www.anaghkr.in/wordpress-development",
         type: "website",
+        images: [
+            {
+                url: "https://www.anaghkr.in/assets/services/webdesign.webp",
+                width: 1200,
+                height: 630,
+                alt: "WordPress Developer Kerala - Custom WordPress Website Development",
+            },
+        ],
     },
     twitter: {
         card: "summary_large_image",
         title: "WordPress Developer Kerala | ANAGH K R",
         description: "Custom WordPress development services in Kerala — themes, plugins, and WooCommerce stores.",
+        images: ["https://www.anaghkr.in/assets/services/webdesign.webp"],
     },
 };
 

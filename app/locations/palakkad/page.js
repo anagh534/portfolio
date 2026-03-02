@@ -13,6 +13,74 @@ export const metadata = {
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ANAGH K R - Web Developer & App Developer Palakkad",
+    "description": "Expert web development and Flutter app development services in Palakkad. Specializing in agricultural websites, educational platforms, and business solutions for the gateway of Kerala.",
+    "url": "https://www.anaghkr.in/locations/palakkad",
+    "telephone": "+91-8075541805",
+    "email": "anaghkrkkl@gmail.com",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Palakkad",
+        "addressRegion": "Kerala",
+        "postalCode": "678001",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "10.7867",
+        "longitude": "76.6548"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Palakkad"
+        }
+    ],
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development & App Development Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Agricultural Platforms",
+                    "description": "Digital solutions for farms and agri-businesses"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Educational Websites",
+                    "description": "Learning management systems for institutions"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Rural Tech Solutions",
+                    "description": "Technology solutions for rural businesses"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Mobile Development",
+                    "description": "Flutter apps for agricultural and educational sectors"
+                }
+            }
+        ]
+    }
+};
+
 export default function PalakkadServices() {
     const cityHighlights = [
         {
@@ -121,13 +189,19 @@ export default function PalakkadServices() {
     ];
 
     return (
-        <LocationTemplate
-            cityName="Palakkad"
-            cityHighlights={cityHighlights}
-            services={services}
-            benefits={benefits}
-            portfolio={portfolio}
-            description="Expert web development and Flutter app development services in Palakkad. Specializing in agricultural websites, educational platforms, and business solutions for the gateway of Kerala."
-        />
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <LocationTemplate
+                cityName="Palakkad"
+                cityHighlights={cityHighlights}
+                services={services}
+                benefits={benefits}
+                portfolio={portfolio}
+                description="Expert web development and mobile app development services in Palakkad. Specialized in agricultural platforms, educational solutions, and rural technology for Kerala's gateway city."
+            />
+        </>
     );
 }

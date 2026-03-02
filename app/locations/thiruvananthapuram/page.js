@@ -13,6 +13,74 @@ export const metadata = {
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ANAGH K R - Web Developer & App Developer Thiruvananthapuram",
+    "description": "Professional web development and Flutter app development services in Thiruvananthapuram (Trivandrum). Specialized in government projects, educational platforms, and enterprise solutions with focus on security and compliance.",
+    "url": "https://www.anaghkr.in/locations/thiruvananthapuram",
+    "telephone": "+91-8075541805",
+    "email": "anaghkrkkl@gmail.com",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Thiruvananthapuram",
+        "addressRegion": "Kerala",
+        "postalCode": "695001",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "8.5241",
+        "longitude": "76.9366"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Thiruvananthapuram"
+        }
+    ],
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development & App Development Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Government Web Solutions",
+                    "description": "Specialized web portals and applications for government departments"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Educational Platforms",
+                    "description": "E-learning systems and educational portals"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Enterprise Development",
+                    "description": "Large-scale web applications and enterprise solutions"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Mobile App Development",
+                    "description": "Cross-platform mobile applications using Flutter"
+                }
+            }
+        ]
+    }
+};
+
 export default function ThiruvananthapuramServices() {
     const cityHighlights = [
         {
@@ -121,13 +189,19 @@ export default function ThiruvananthapuramServices() {
     ];
 
     return (
-        <LocationTemplate
-            cityName="Thiruvananthapuram"
-            cityHighlights={cityHighlights}
-            services={services}
-            benefits={benefits}
-            portfolio={portfolio}
-            description="Expert web development and mobile app development services in Thiruvananthapuram, Kerala's capital city. Specialized in government projects, educational platforms, and enterprise solutions with focus on security and compliance."
-        />
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <LocationTemplate
+                cityName="Thiruvananthapuram"
+                cityHighlights={cityHighlights}
+                services={services}
+                benefits={benefits}
+                portfolio={portfolio}
+                description="Expert web development and mobile app development services in Thiruvananthapuram, Kerala's capital city. Specialized in government projects, educational platforms, and enterprise solutions with focus on security and compliance."
+            />
+        </>
     );
 }

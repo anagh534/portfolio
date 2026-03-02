@@ -13,6 +13,50 @@ export const metadata = {
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.anaghkr.in/locations/kochi",
+    "name": "ANAGH K R - Web Developer & App Developer Kochi",
+    "description": "Professional web development, Flutter app development, and MERN stack development services in Kochi, Ernakulam. Serving businesses across Kerala's commercial capital.",
+    "url": "https://www.anaghkr.in/locations/kochi",
+    "telephone": "+91-8075541805",
+    "email": "anaghkrkkl@gmail.com",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kochi",
+        "addressRegion": "Kerala",
+        "postalCode": "682001",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "9.9312",
+        "longitude": "76.2673"
+    },
+    "areaServed": [
+        {"@type": "City", "name": "Kochi"},
+        {"@type": "City", "name": "Ernakulam"},
+        {"@type": "State", "name": "Kerala"}
+    ],
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "sameAs": [
+        "https://www.linkedin.com/in/anaghkr",
+        "https://github.com/anaghkr"
+    ],
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services in Kochi",
+        "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Web Development", "description": "Custom website development in Kochi"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Flutter App Development", "description": "Mobile app development in Kochi"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "MERN Stack Development", "description": "Full-stack development in Kochi"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "E-commerce Development", "description": "Online store development in Kochi"}}
+        ]
+    }
+};
+
 export default function KochiServices() {
     const cityHighlights = [
         {
@@ -121,13 +165,19 @@ export default function KochiServices() {
     ];
 
     return (
-        <LocationTemplate
-            cityName="Kochi"
-            cityHighlights={cityHighlights}
-            services={services}
-            benefits={benefits}
-            portfolio={portfolio}
-            description="Professional web development and Flutter app development services in Kochi, Kerala's commercial capital. Specialized solutions for businesses in Ernakulam district with focus on e-commerce, startups, and enterprise applications."
-        />
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <LocationTemplate
+                cityName="Kochi"
+                cityHighlights={cityHighlights}
+                services={services}
+                benefits={benefits}
+                portfolio={portfolio}
+                description="Professional web development and Flutter app development services in Kochi, Kerala's commercial capital. Specialized solutions for businesses in Ernakulam district with focus on e-commerce, startups, and enterprise applications."
+            />
+        </>
     );
 }

@@ -11,11 +11,20 @@ export const metadata = {
         description: "Expert Node.js backend development services — RESTful APIs, microservices, real-time features, and scalable server architecture.",
         url: "https://www.anaghkr.in/nodejs-development",
         type: "website",
+        images: [
+            {
+                url: "https://www.anaghkr.in/assets/services/webdev.webp",
+                width: 1200,
+                height: 630,
+                alt: "Node.js Developer Kerala - Backend API Development Services",
+            },
+        ],
     },
     twitter: {
         card: "summary_large_image",
         title: "Node.js Developer Kerala | ANAGH K R",
         description: "Backend API and server-side development with Node.js in Kerala.",
+        images: ["https://www.anaghkr.in/assets/services/webdev.webp"],
     },
 };
 

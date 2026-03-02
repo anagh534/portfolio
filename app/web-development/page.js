@@ -2,33 +2,82 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Palette, Smartphone, Zap, Search, ShieldCheck, LayoutDashboard } from 'lucide-react';
 
 export const metadata = {
-    title: "Web Developer Kerala | Custom Website Development Services | ANAGH K R",
-    description: "Professional web development services in Kerala. Custom websites, business web applications, responsive design, and full-stack development by ANAGH K R. Serving Kochi, Kozhikode, Kasaragod, Thrissur, Kannur, and all Kerala.",
-    keywords: "web developer Kerala, custom website development Kerala, website design Kerala, professional web developer Kerala, hire web developer Kerala, web development services Kerala, responsive web design Kerala, full stack developer Kerala, web developer Kochi, web developer Kozhikode, web developer Kasaragod, web developer Kannur, web development Thrissur, web developer Thiruvananthapuram, affordable web development Kerala, business website Kerala, landing page development Kerala, website redesign Kerala, web app development Kerala, HTML CSS developer Kerala",
+    title: "Best Web Developer Kerala | Professional Website Development Services | ANAGH K R",
+    description: "Top-rated web developer in Kerala offering professional custom website development, responsive web design, business websites, landing pages, and full-stack web applications. Expert in React, Next.js, Node.js, and modern web technologies. 5+ years experience with 24+ successful projects serving businesses across Kochi, Kozhikode, Thrissur, Kannur, Thiruvananthapuram, Kasaragod, and all Kerala. Affordable pricing, fast delivery, and SEO-optimized websites.",
+    keywords: "web developer Kerala, best web developer Kerala, professional web developer Kerala, custom website development Kerala, hire web developer Kerala, website design Kerala, website design and development Kerala, web development services Kerala, responsive web design Kerala, business website development Kerala, full stack web developer Kerala, web developer Kochi, top web developer Kochi, web developer Kozhikode, web developer Kasaragod, web developer Kannur, web development Thrissur, web developer Thiruvananthapuram, web developer Kollam, web developer Palakkad, affordable web development Kerala, cheap website development Kerala, best website developer in Kerala, expert web developer Kerala, freelance web developer Kerala, React developer Kerala, Next.js developer Kerala, landing page development Kerala, website redesign Kerala, web app development Kerala, HTML CSS JavaScript developer Kerala, modern web development Kerala, SEO friendly website development, mobile responsive website Kerala",
     alternates: { canonical: "https://www.anaghkr.in/web-development" },
     openGraph: {
-        title: "Web Developer Kerala | Custom Website Development | ANAGH K R",
-        description: "Professional web development services in Kerala — custom websites, business web apps, and responsive design for businesses of all sizes.",
+        title: "Best Web Developer Kerala | Professional Website Development | ANAGH K R",
+        description: "Top-rated professional web development services in Kerala — custom websites, business web applications, responsive design, and full-stack solutions for businesses of all sizes across Kerala.",
         url: "https://www.anaghkr.in/web-development",
         type: "website",
+        siteName: "ANAGH K R - Web Developer Kerala",
+        locale: "en_IN",
+        images: [{
+            url: "https://www.anaghkr.in/assets/services/webdesign.webp",
+            width: 1200,
+            height: 630,
+            alt: "Professional Web Development Services in Kerala"
+        }]
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Developer Kerala | ANAGH K R",
-        description: "Custom website development services in Kerala by ANAGH K R — responsive, fast, and SEO-ready.",
+        title: "Best Web Developer Kerala | ANAGH K R",
+        description: "Expert custom website development services in Kerala — responsive, fast, SEO-optimized, and mobile-friendly websites for your business.",
+        images: ["https://www.anaghkr.in/assets/services/webdesign.webp"]
     },
 };
 
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Web Development Services",
-    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
-    "serviceType": "Web Development",
-    "areaServed": "Kerala, India",
-    "description": "Custom website development, responsive design, and full-stack web application development services across Kerala.",
-    "offers": { "@type": "Offer", "priceCurrency": "INR" },
-    "mainEntityOfPage": "https://www.anaghkr.in/web-development"
+    "name": "Professional Web Development Services",
+    "provider": { 
+        "@type": "Person", 
+        "name": "Anagh K R", 
+        "url": "https://www.anaghkr.in",
+        "jobTitle": "Web Developer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Kerala",
+            "addressCountry": "IN"
+        }
+    },
+    "serviceType": "Website Development and Design",
+    "areaServed": [
+        {"@type": "City", "name": "Kochi"},
+        {"@type": "City", "name": "Kozhikode"},
+        {"@type": "City", "name": "Thiruvananthapuram"},
+        {"@type": "City", "name": "Thrissur"},
+        {"@type": "City", "name": "Kannur"},
+        {"@type": "City", "name": "Kollam"},
+        {"@type": "City", "name": "Palakkad"},
+        {"@type": "City", "name": "Kasaragod"},
+        {"@type": "State", "name": "Kerala, India"}
+    ],
+    "description": "Professional custom website development, responsive web design, business websites, landing pages, and full-stack web application development services. Specialized in React, Next.js, Node.js, and modern web technologies for businesses across Kerala.",
+    "offers": { 
+        "@type": "Offer", 
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "priceSpecification": {
+            "@type": "PriceSpecification",
+            "minPrice": "8000",
+            "priceCurrency": "INR"
+        }
+    },
+    "mainEntityOfPage": "https://www.anaghkr.in/web-development",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development Services",
+        "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Business Website Development"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Landing Page Development"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Website Redesign"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Responsive Web Design"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Full-Stack Web Application"}}
+        ]
+    }
 };
 
 export default function WebDevelopmentPage() {

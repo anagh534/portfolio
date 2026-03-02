@@ -13,6 +13,74 @@ export const metadata = {
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ANAGH K R - Web Developer & App Developer Calicut",
+    "description": "Expert web development and Flutter app development services in Calicut (Kozhikode). Comprehensive digital solutions including responsive websites, mobile apps, and e-commerce platforms for Malabar region businesses.",
+    "url": "https://www.anaghkr.in/locations/calicut",
+    "telephone": "+91-8075541805",
+    "email": "anaghkrkkl@gmail.com",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Calicut",
+        "addressRegion": "Kerala",
+        "postalCode": "673001",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "11.2588",
+        "longitude": "75.7804"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Calicut"
+        }
+    ],
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development & App Development Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Responsive Web Design",
+                    "description": "Mobile-first websites for Malabar businesses"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Trade Solutions",
+                    "description": "Digital platforms for trading and commercial businesses"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Educational Tech",
+                    "description": "Solutions for educational institutions"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Mobile App Development",
+                    "description": "Flutter apps with multilingual support"
+                }
+            }
+        ]
+    }
+};
+
 export default function CalicutServices() {
     const cityHighlights = [
         {
@@ -121,13 +189,19 @@ export default function CalicutServices() {
     ];
 
     return (
-        <LocationTemplate
-            cityName="Calicut"
-            cityHighlights={cityHighlights}
-            services={services}
-            benefits={benefits}
-            portfolio={portfolio}
-            description="Expert web development and Flutter app development services in Calicut (Kozhikode). Comprehensive digital solutions for Malabar region businesses, trading companies, and educational institutions with cultural sensitivity and regional expertise."
-        />
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <LocationTemplate
+                cityName="Calicut"
+                cityHighlights={cityHighlights}
+                services={services}
+                benefits={benefits}
+                portfolio={portfolio}
+                description="Expert web development and mobile app development services in Calicut (Kozhikode). Comprehensive digital solutions for Malabar region businesses with multilingual support in Malayalam, Arabic, and English."
+            />
+        </>
     );
 }

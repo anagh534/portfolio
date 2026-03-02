@@ -2,20 +2,29 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Code2, Server, Network, Database, Wifi, Cloud } from 'lucide-react';
 
 export const metadata = {
-    title: "MERN Stack Developer Kerala | MongoDB Express React Node.js | ANAGH K R",
-    description: "Expert MERN stack development services in Kerala — MongoDB, Express.js, React, and Node.js full-stack applications. Scalable, real-time web apps for businesses in Kochi, Kozhikode, Kasaragod, and all Kerala.",
-    keywords: "MERN stack developer Kerala, full stack developer Kerala, MongoDB developer Kerala, Express.js developer Kerala, React Node.js developer Kerala, MERN stack development Kochi, full stack web developer Kerala, JavaScript full stack Kerala, MERN developer Kozhikode, MERN developer Kasaragod, MERN developer Kannur, MERN developer Thiruvananthapuram, hire MERN stack developer Kerala, MERN stack web development, MongoDB Express React Node Kerala",
+    title: "Best MERN Stack Developer Kerala | MongoDB Express React Node.js Expert | ANAGH K R",
+    description: "Top-rated MERN stack developer in Kerala specializing in MongoDB, Express.js, React, and Node.js full-stack web applications. Build scalable, real-time SaaS platforms, dashboards, and custom web apps for startups and businesses across Kochi, Kozhikode, Thrissur, Kannur, Thiruvananthapuram, and all Kerala. 5+ years experience with 24+ successful projects.",
+    keywords: "MERN stack developer Kerala, best MERN developer Kerala, hire MERN stack developer, full stack developer Kerala, MongoDB developer Kerala, Express.js developer Kerala, React Node.js developer Kerala, MERN stack development Kochi, MERN stack development services Kerala, professional full stack web developer Kerala, JavaScript full stack developer Kerala, MERN developer Kozhikode, MERN developer Kasaragod, MERN developer Kannur, MERN developer Thiruvananthapuram, MERN developer Thrissur, MERN developer Kollam, expert MERN stack programmer Kerala, affordable MERN stack development, MERN stack web application development, MongoDB Express React Node Kerala, real-time web application development, SaaS development Kerala, API development Kerala, freelance MERN stack developer Kerala",
     alternates: { canonical: "https://www.anaghkr.in/mern-stack-development" },
     openGraph: {
-        title: "MERN Stack Developer Kerala | Full-Stack Web Development | ANAGH K R",
-        description: "Expert MERN stack development — MongoDB, Express.js, React, Node.js full-stack applications built for scale and performance.",
+        title: "Best MERN Stack Developer Kerala | Full-Stack Web Development Expert | ANAGH K R",
+        description: "Top-rated MERN stack development services in Kerala — MongoDB, Express.js, React, Node.js full-stack applications built for scale, performance, and real-time capabilities. Serving all Kerala.",
         url: "https://www.anaghkr.in/mern-stack-development",
         type: "website",
+        siteName: "ANAGH K R - MERN Stack Developer",
+        locale: "en_IN",
+        images: [{
+            url: "https://www.anaghkr.in/assets/services/webdev.webp",
+            width: 1200,
+            height: 630,
+            alt: "MERN Stack Development Services in Kerala"
+        }]
     },
     twitter: {
         card: "summary_large_image",
-        title: "MERN Stack Developer Kerala | ANAGH K R",
-        description: "Full-stack MERN development services in Kerala — scalable, real-time web applications.",
+        title: "Best MERN Stack Developer Kerala | ANAGH K R",
+        description: "Expert full-stack MERN development services in Kerala — scalable, real-time web applications with MongoDB, Express, React, Node.js.",
+        images: ["https://www.anaghkr.in/assets/services/webdev.webp"]
     },
 };
 
@@ -23,12 +32,46 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "MERN Stack Development Services",
-    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
-    "serviceType": "MERN Stack Development",
-    "areaServed": "Kerala, India",
-    "description": "Full-stack web application development using MongoDB, Express.js, React, and Node.js for businesses across Kerala.",
-    "offers": { "@type": "Offer", "priceCurrency": "INR" },
-    "mainEntityOfPage": "https://www.anaghkr.in/mern-stack-development"
+    "provider": { 
+        "@type": "Person", 
+        "name": "Anagh K R", 
+        "url": "https://www.anaghkr.in",
+        "jobTitle": "MERN Stack Developer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Kerala",
+            "addressCountry": "IN"
+        }
+    },
+    "serviceType": "MERN Stack Web Development",
+    "areaServed": [
+        {"@type": "City", "name": "Kochi"},
+        {"@type": "City", "name": "Kozhikode"},
+        {"@type": "City", "name": "Thiruvananthapuram"},
+        {"@type": "City", "name": "Thrissur"},
+        {"@type": "City", "name": "Kannur"},
+        {"@type": "City", "name": "Kollam"},
+        {"@type": "City", "name": "Palakkad"},
+        {"@type": "City", "name": "Kasaragod"},
+        {"@type": "State", "name": "Kerala, India"}
+    ],
+    "description": "Professional full-stack web application development using MongoDB, Express.js, React, and Node.js (MERN Stack). Specialized in building scalable SaaS platforms, real-time dashboards, custom web applications, and API development for businesses and startups across Kerala.",
+    "offers": { 
+        "@type": "Offer", 
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+    },
+    "mainEntityOfPage": "https://www.anaghkr.in/mern-stack-development",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "MERN Stack Development Services",
+        "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Custom Web Application Development"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Real-time Dashboard Development"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SaaS Platform Development"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "RESTful API Development"}}
+        ]
+    }
 };
 
 export default function MernStackDevelopmentPage() {

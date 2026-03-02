@@ -13,6 +13,74 @@ export const metadata = {
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ANAGH K R - Web Developer & App Developer Kasaragod",
+    "description": "Local web development and Flutter app development services in Kasaragod. Personalized digital solutions, custom websites, mobile applications, and e-commerce platforms for businesses in the northernmost district of Kerala.",
+    "url": "https://www.anaghkr.in/locations/kasaragod",
+    "telephone": "+91-8075541805",
+    "email": "anaghkrkkl@gmail.com",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kasaragod",
+        "addressRegion": "Kerala",
+        "postalCode": "671121",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "12.4996",
+        "longitude": "74.9869"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Kasaragod"
+        }
+    ],
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development & App Development Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Personalized Web Solutions",
+                    "description": "Custom websites for local businesses with personal attention"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Custom Mobile Apps",
+                    "description": "Tailored mobile applications using Flutter"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Multilingual Solutions",
+                    "description": "Support for Malayalam, Tulu, Kannada, and English"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Local Business Websites",
+                    "description": "Professional websites for local services and shops"
+                }
+            }
+        ]
+    }
+};
+
 export default function KasaragodServices() {
     const cityHighlights = [
         {
@@ -121,13 +189,19 @@ export default function KasaragodServices() {
     ];
 
     return (
-        <LocationTemplate
-            cityName="Kasaragod"
-            cityHighlights={cityHighlights}
-            services={services}
-            benefits={benefits}
-            portfolio={portfolio}
-            description="Local web development and Flutter app development services in Kasaragod. Offering personalized digital solutions with deep understanding of local business culture and community needs in Kerala's northernmost district."
-        />
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <LocationTemplate
+                cityName="Kasaragod"
+                cityHighlights={cityHighlights}
+                services={services}
+                benefits={benefits}
+                portfolio={portfolio}
+                description="Local web development and Flutter app development services in Kasaragod. Offering personalized digital solutions with deep understanding of local business culture and community needs in Kerala's northernmost district."
+            />
+        </>
     );
 }

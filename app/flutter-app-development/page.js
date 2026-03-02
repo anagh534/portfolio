@@ -11,11 +11,18 @@ export const metadata = {
         description: "Expert Flutter mobile app development for iOS and Android — business apps, startup MVPs, and enterprise mobile solutions across Kerala.",
         url: "https://www.anaghkr.in/flutter-app-development",
         type: "website",
+        images: [{
+            url: "https://www.anaghkr.in/assets/services/app.webp",
+            width: 1200,
+            height: 630,
+            alt: "Flutter App Development Services in Kerala"
+        }]
     },
     twitter: {
         card: "summary_large_image",
         title: "Flutter Developer Kerala | ANAGH K R",
         description: "Cross-platform Flutter mobile app development services in Kerala.",
+        images: ["https://www.anaghkr.in/assets/services/app.webp"]
     },
 };
 

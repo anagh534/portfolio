@@ -34,9 +34,9 @@ ${robotsTxt}
 # Allow important SEO pages
 Allow: /about
 Allow: /services  
-# Allow: /resume
 Allow: /locations
 Allow: /contact
+Allow: /blog
 
 # Allow location-specific pages for local SEO
 Allow: /locations/kochi
@@ -90,15 +90,15 @@ Allow: /nextjs-development
         lastmod: currentDate
       },
       {
-        loc: '/resume',
-        changefreq: 'monthly',
-        priority: 0.8,
-        lastmod: currentDate
-      },
-      {
         loc: '/contact',
         changefreq: 'monthly',
         priority: 0.7,
+        lastmod: currentDate
+      },
+      {
+        loc: '/blog',
+        changefreq: 'weekly',
+        priority: 0.8,
         lastmod: currentDate
       },
 
