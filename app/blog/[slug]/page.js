@@ -13,16 +13,29 @@ export async function generateMetadata({ params }) {
     const post = await getBlogPostBySlug(slug);
     if (!post) return { title: 'Post Not Found' };
 
+    // Combine post tags with general keywords for SEO
+    const seoKeywords = [
+        ...(post.tags || []),
+        'Anagh K R',
+        'Tech Blog',
+        'Web Development',
+        'Flutter Development',
+        'MERN Stack',
+        'Kerala Developer'
+    ].filter((v, i, a) => a.indexOf(v) === i); // Remove duplicates
+
     return {
-        title: `${post.title} - Anagh K R`,
+        title: `${post.title} | Anagh K R Blog`,
         description: post.description,
-        keywords: post.tags || [],
+        keywords: seoKeywords,
         openGraph: {
             title: post.title,
             description: post.description,
             type: 'article',
             publishedTime: post.date,
             authors: ['Anagh K R'],
+            url: `https://www.anaghkr.in/blog/${post.slug}`,
+            siteName: 'Anagh K R - Developer Blog',
             images: [
                 {
                     url: post.image,
@@ -31,6 +44,12 @@ export async function generateMetadata({ params }) {
                     alt: post.title,
                 }
             ]
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: post.title,
+            description: post.description,
+            images: [post.image],
         },
         alternates: {
             canonical: `https://www.anaghkr.in/blog/${post.slug}`,
