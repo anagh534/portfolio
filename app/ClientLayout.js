@@ -1,12 +1,8 @@
 "use client"
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
-import { usePathname } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
 
 export default function ClientLayout({ children }) {
-    const pathname = usePathname();
-
     return (
         <>
             <div className="fixed inset-0 -z-1 bg-[#050505]">
@@ -15,18 +11,10 @@ export default function ClientLayout({ children }) {
 
             <Navbar />
 
-            <AnimatePresence mode="wait">
-                <motion.main
-                    key={pathname}
-                    initial={false}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -20 }}
-                    transition={{ duration: 0.5, ease: "easeOut" }}
-                    className="relative z-10"
-                >
-                    {children}
-                </motion.main>
-            </AnimatePresence>
+            <main className="relative z-10">
+                {children}
+            </main>
+            
             <Footer />
 
             {/* ✅ Structured Data for Google */}

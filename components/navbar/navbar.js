@@ -14,7 +14,6 @@ import {
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -63,10 +62,7 @@ export default function Navbar() {
                             >
                                 {item.label}
                                 {pathname === item.href && (
-                                    <motion.div
-                                        layoutId="nav-underline"
-                                        className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500"
-                                    />
+                                    <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500"></span>
                                 )}
                             </Link>
                         ))}
@@ -106,60 +102,51 @@ export default function Navbar() {
             </div>
 
             {/* Mobile Menu */}
-            <AnimatePresence>
-                {isMobileMenuOpen && (
-                    <motion.div
-                        className="fixed inset-0 z-50 md:hidden bg-black/60 backdrop-blur-xl flex flex-col p-8 pt-24"
-                        initial={{ opacity: 0, x: '100%' }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: '100%' }}
-                        transition={{ type: 'spring', damping: 30, stiffness: 300 }}
+            {isMobileMenuOpen && (
+                <div className="fixed inset-0 z-50 md:hidden bg-black/60 backdrop-blur-xl flex flex-col p-8 pt-24 animate-slide-in">
+                    <button
+                        className="absolute top-6 right-6 p-2 text-white bg-white/5 rounded-lg"
+                        onClick={() => setIsMobileMenuOpen(false)}
                     >
-                        <button
-                            className="absolute top-6 right-6 p-2 text-white bg-white/5 rounded-lg"
-                            onClick={() => setIsMobileMenuOpen(false)}
-                        >
-                            <X size={24} />
-                        </button>
+                        <X size={24} />
+                    </button>
 
-                        <div className="flex flex-col gap-6 mb-12">
-                            {navItems.map((item, index) => (
-                                <motion.div
-                                    key={item.href}
-                                    initial={{ opacity: 0, x: 20 }}
-                                    animate={{ opacity: 1, x: 0 }}
-                                    transition={{ delay: index * 0.1 }}
+                    <div className="flex flex-col gap-6 mb-12">
+                        {navItems.map((item, index) => (
+                            <div
+                                key={item.href}
+                                className="animate-fade-in-up"
+                                style={{ animationDelay: `${index * 100}ms` }}
+                            >
+                                <Link
+                                    href={item.href}
+                                    className={`flex items-center gap-4 text-2xl font-bold p-4 rounded-2xl transition-all ${pathname === item.href ? 'bg-blue-600/10 text-blue-500' : 'text-gray-300 hover:bg-white/5'}`}
+                                    onClick={() => setIsMobileMenuOpen(false)}
                                 >
-                                    <Link
-                                        href={item.href}
-                                        className={`flex items-center gap-4 text-2xl font-bold p-4 rounded-2xl transition-all ${pathname === item.href ? 'bg-blue-600/10 text-blue-500' : 'text-gray-300 hover:bg-white/5'}`}
-                                        onClick={() => setIsMobileMenuOpen(false)}
-                                    >
-                                        <span className="p-3 rounded-xl bg-white/5">{item.icon}</span>
-                                        <span>{item.label}</span>
-                                    </Link>
-                                </motion.div>
-                            ))}
-                        </div>
+                                    <span className="p-3 rounded-xl bg-white/5">{item.icon}</span>
+                                    <span>{item.label}</span>
+                                </Link>
+                            </div>
+                        ))}
+                    </div>
 
-                        <div className="flex justify-center gap-6 mt-auto pb-8">
-                            {socialLinks.map((social, index) => (
-                                <a key={index} href={social.href} className="p-4 rounded-2xl bg-white/5 text-gray-400 hover:text-blue-400 border border-white/5 transition-colors">
-                                    {social.icon}
-                                </a>
-                            ))}
-                        </div>
+                    <div className="flex justify-center gap-6 mt-auto pb-8">
+                        {socialLinks.map((social, index) => (
+                            <a key={index} href={social.href} className="p-4 rounded-2xl bg-white/5 text-gray-400 hover:text-blue-400 border border-white/5 transition-colors">
+                                {social.icon}
+                            </a>
+                        ))}
+                    </div>
 
-                        <Link
-                            href="/contact"
-                            className="w-full text-center py-5 rounded-2xl bg-blue-600 text-white font-bold text-lg shadow-xl shadow-blue-500/20 active:scale-95 transition-all"
-                            onClick={() => setIsMobileMenuOpen(false)}
-                        >
-                            Start a Conversation
-                        </Link>
-                    </motion.div>
-                )}
-            </AnimatePresence>
+                    <Link
+                        href="/contact"
+                        className="w-full text-center py-5 rounded-2xl bg-blue-600 text-white font-bold text-lg shadow-xl shadow-blue-500/20 active:scale-95 transition-all"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                        Start a Conversation
+                    </Link>
+                </div>
+            )}
         </nav>
     );
 }
