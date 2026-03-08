@@ -162,7 +162,7 @@ export default function Locations() {
                                 <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
                                     {service.icon}
                                 </div>
-                                <h3 className="text-xl font-bold mb-4 uppercase tracking-tight">{service.title}</h3>
+                                <div className="text-xl font-bold mb-4 uppercase tracking-tight">{service.title}</div>
                                 <p className="text-gray-400 text-sm leading-relaxed">{service.desc}</p>
                             </div>
                         ))}
@@ -187,7 +187,7 @@ export default function Locations() {
                             <div key={index} className="flex flex-col p-8 rounded-[48px] bg-white/5 border border-white/10 hover:bg-white/[0.08] transition-all duration-500 group relative overflow-hidden">
                                 <div className="flex items-start justify-between mb-8 relative z-10">
                                     <div>
-                                        <h3 className="text-2xl font-black mb-1 group-hover:text-blue-400 transition-colors uppercase tracking-tight">{city.name}</h3>
+                                        <div className="text-2xl font-black mb-1 group-hover:text-blue-400 transition-colors uppercase tracking-tight">{city.name}</div>
                                         <p className="text-gray-500 text-[10px] font-bold uppercase tracking-widest">{city.district} District</p>
                                     </div>
                                     <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400">
@@ -221,7 +221,7 @@ export default function Locations() {
                                 </div>
 
                                 <a href={`/locations/${city.name.toLowerCase()}`} className="mt-auto px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-bold flex items-center justify-center gap-2 hover:bg-white hover:text-black transition-all active:scale-95 text-xs uppercase tracking-widest relative z-10">
-                                    Explore {city.name} <ArrowRight size={14} />
+                                    View {city.name} Services <ArrowRight size={14} />
                                 </a>
 
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-600/5 blur-3xl rounded-full group-hover:bg-blue-600/10 transition-colors"></div>
@@ -238,7 +238,7 @@ export default function Locations() {
                         <div className="space-y-10">
                             <div className="space-y-6">
                                 <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tight">
-                                    Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Local Expertise</span>?
+                                    Why Partner <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">With Us</span>?
                                 </h2>
                                 <p className="text-gray-400 text-lg leading-relaxed">
                                     Working with a Kerala-based developer means deep empathy for local
@@ -257,7 +257,7 @@ export default function Locations() {
                                         <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 border border-blue-500/20">
                                             {item.icon}
                                         </div>
-                                        <h4 className="font-bold text-white uppercase tracking-tight text-sm">{item.title}</h4>
+                                        <div className="font-bold text-white uppercase tracking-tight text-sm">{item.title}</div>
                                         <p className="text-gray-500 text-xs leading-relaxed">{item.desc}</p>
                                     </div>
                                 ))}

@@ -143,7 +143,7 @@ export default function LocationTemplate({
                                 <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-6 group-hover:scale-110 transition-transform">
                                     {iconMap[highlight.icon] || <Star size={20} />}
                                 </div>
-                                <h3 className="text-lg font-bold mb-2 uppercase tracking-tight">{highlight.title}</h3>
+                                <div className="text-lg font-bold mb-2 uppercase tracking-tight">{highlight.title}</div>
                                 <p className="text-gray-500 text-sm leading-relaxed">{highlight.description}</p>
                             </motion.div>
                         ))}
@@ -179,7 +179,7 @@ export default function LocationTemplate({
                                 <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-8 group-hover:bg-blue-600 group-hover:text-white transition-all shadow-lg shadow-blue-500/20">
                                     {iconMap[service.icon] || <Laptop size={24} />}
                                 </div>
-                                <h3 className="text-2xl font-bold mb-4 uppercase tracking-tight group-hover:text-blue-400 transition-colors">{service.title}</h3>
+                                <div className="text-2xl font-bold mb-4 uppercase tracking-tight group-hover:text-blue-400 transition-colors">{service.title}</div>
                                 <p className="text-gray-400 text-sm leading-relaxed mb-8">{service.description}</p>
                                 <ul className="space-y-3">
                                     {service.features.map((feature, idx) => (
@@ -213,7 +213,7 @@ export default function LocationTemplate({
                                     <div key={index} className="p-6 rounded-[32px] bg-white/5 border border-white/10 flex items-start gap-4 group hover:border-blue-500/20 transition-all">
                                         <div className="text-blue-400 group-hover:scale-110 transition-transform">{iconMap[benefit.icon] || <CheckCircle size={20} />}</div>
                                         <div>
-                                            <h4 className="font-bold text-white text-sm mb-1 uppercase tracking-tight">{benefit.title}</h4>
+                                            <div className="font-bold text-white text-sm mb-1 uppercase tracking-tight">{benefit.title}</div>
                                             <p className="text-gray-500 text-[10px] leading-relaxed uppercase tracking-widest">{benefit.description}</p>
                                         </div>
                                     </div>
@@ -264,7 +264,7 @@ export default function LocationTemplate({
                                     </div>
 
                                     <div className="space-y-3">
-                                        <h3 className="text-2xl font-black uppercase tracking-tight group-hover:text-blue-400 transition-colors">{project.title}</h3>
+                                        <div className="text-2xl font-black uppercase tracking-tight group-hover:text-blue-400 transition-colors">{project.title}</div>
                                         <p className="text-gray-500 text-sm leading-relaxed">{project.description}</p>
                                     </div>
 
@@ -298,7 +298,7 @@ export default function LocationTemplate({
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-6">
                         <a href="/contact" className="w-full sm:w-auto px-12 py-6 rounded-3xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-2xl shadow-white/5 group/btn">
-                            <span className="uppercase tracking-widest text-sm">Start Your Project</span>
+                            <span className="uppercase tracking-widest text-sm">Get Started in {cityName}</span>
                             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                         </a>
                         <a href="/services" className="w-full sm:w-auto px-12 py-6 rounded-3xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95 group/btn-sec">
