@@ -10,19 +10,19 @@ const WhyChooseMe = dynamic(() => import('@/components/home/WhyChooseMe'), { ssr
 
 export const metadata = {
   title: "Flutter Developer Kerala | Freelance Web Developer Kerala | MERN Stack Developer - ANAGH K R",
-  description: "Professional freelance web developer and Flutter app developer in Kerala with 3+ years experience. Specializing in MERN stack development, custom website design, e-commerce solutions, and mobile app development. Serving businesses across Kochi, Calicut, Trivandrum, Kannur, Kasaragod, and all Kerala with affordable, high-quality digital solutions.",
+  description: "Professional Flutter & MERN stack developer in Kerala. Custom websites, mobile apps & e-commerce solutions. Serving Kochi, Calicut, Trivandrum & all Kerala.",
   keywords: "Flutter developer Kerala, freelance web developer Kerala, MERN stack developer Kerala, web development Kerala, mobile app development Kerala, website design Kerala, custom website development, e-commerce development Kerala, React developer Kerala, Node.js developer Kerala, WordPress development Kerala, Next.js developer Kerala, app developer Kerala, freelance developer Kerala, web developer Kochi, web developer Calicut, web developer Trivandrum",
   author: "ANAGH K R",
   robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
   canonical: "https://www.anaghkr.in",
   ogTitle: "Professional Flutter & Web Developer Kerala | MERN Stack Expert - ANAGH K R",
-  ogDescription: "Experienced freelance Flutter developer and MERN stack web developer in Kerala. Building custom websites, mobile apps, and e-commerce solutions for businesses across Kerala with 3+ years of expertise.",
+  ogDescription: "Professional Flutter & MERN stack developer in Kerala. Custom websites, mobile apps & e-commerce solutions for businesses across Kerala.",
   ogUrl: "https://www.anaghkr.in",
   ogImage: "/assets/profile.png",
   ogType: "website",
   twitterCard: "summary_large_image",
   twitterTitle: "Flutter Developer Kerala | MERN Stack Developer Kerala - ANAGH K R",
-  twitterDescription: "Professional Flutter and MERN stack developer in Kerala offering custom web and mobile app development services for businesses."
+  twitterDescription: "Professional Flutter & MERN stack developer in Kerala. Custom websites, mobile apps & e-commerce solutions for businesses across Kerala."
 };
 
 export default function Home() {

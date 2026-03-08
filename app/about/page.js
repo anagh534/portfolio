@@ -1,17 +1,17 @@
 export const metadata = {
     title: "About Anagh K R - Professional Flutter & MERN Stack Developer Kerala | 3+ Years Experience",
-    description: "Anagh K R is an experienced freelance web developer and Flutter app developer based in Kerala with 3+ years of professional experience. Specializing in custom website development, MERN stack applications, Flutter mobile apps, WordPress solutions, and e-commerce platforms. Serving businesses across Kerala including Kochi, Calicut, Trivandrum, Kasaragod, and all major cities with quality digital solutions.",
+    description: "Anagh K R - Experienced Flutter & MERN stack developer in Kerala with 3+ years expertise. Building custom websites, mobile apps & e-commerce solutions.",
     keywords: "Flutter developer Kerala, MERN stack developer Kerala, freelance web developer Kerala, mobile app development Kerala, custom website development Kerala, React developer Kerala, Node.js developer Kerala, WordPress developer Kerala, e-commerce development Kerala, web development Kasaragod, app developer Kochi, freelance developer Calicut, Next.js development, responsive web design Kerala",
     author: "ANAGH K R",
     robots: "index, follow",
     canonical: "https://www.anaghkr.in/about",
     ogTitle: "About Anagh K R - Experienced Flutter & Web Developer Kerala",
-    ogDescription: "Professional freelance developer with 3+ years experience in Flutter app development, MERN stack, WordPress, and custom web solutions. Based in Kerala, serving clients across Kochi, Calicut, Trivandrum, and beyond.",
+    ogDescription: "Anagh K R - Experienced Flutter & MERN stack developer with 3+ years expertise. Custom websites, mobile apps & e-commerce solutions for Kerala businesses.",
     ogUrl: "https://www.anaghkr.in/about",
     ogType: "profile",
     twitterCard: "summary_large_image",
     twitterTitle: "About Anagh K R - Professional Flutter & Web Developer Kerala",
-    twitterDescription: "Experienced Flutter and MERN stack developer from Kerala delivering quality web and mobile app solutions for businesses."
+    twitterDescription: "Anagh K R - Experienced Flutter & MERN stack developer in Kerala. Custom websites, mobile apps & e-commerce solutions with 3+ years expertise."
 };
 
 import { Code, Download, User as UserIcon, Check, Laptop, Server, Smartphone, Cloud, Palette, Monitor, Rocket, Send, ArrowRight } from 'lucide-react';

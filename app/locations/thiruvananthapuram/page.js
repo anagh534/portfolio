@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Web Developer Thiruvananthapuram | Flutter App Development Trivandrum | MERN Stack Developer - Anagh K R",
-    description: "Professional web development and Flutter app development services in Thiruvananthapuram (Trivandrum). Government web solutions, educational platforms, enterprise development, and mobile app development services in Kerala's capital city.",
+    description: "Web & Flutter app development in Thiruvananthapuram/Trivandrum. Government solutions, enterprise development & mobile apps in Kerala's capital.",
     keywords: "web developer Thiruvananthapuram, Flutter developer Trivandrum, app development Thiruvananthapuram, government web solutions Kerala, MERN stack developer Trivandrum, React developer Thiruvananthapuram, educational platform development, enterprise web development, Technopark developer, mobile app development capital city",
     author: "ANAGH K R",
     robots: "index, follow",

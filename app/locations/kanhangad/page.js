@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Web Developer Kanhangad | Flutter App Development Kanhangad | Local Business Solutions - Anagh K R",
-    description: "Local web development and mobile app development services in Kanhangad. Offering custom digital solutions, responsive websites, and mobile applications for local businesses and startups.",
+    description: "Local web & mobile app development in Kanhangad. Custom digital solutions, responsive websites & mobile apps for local businesses.",
     keywords: "web developer Kanhangad, Flutter developer Kanhangad, app development Kanhangad, MERN stack developer Kanhangad, local digital solutions, responsive websites Kanhangad, mobile applications, startup solutions, business websites, custom development",
     author: "ANAGH K R",
     robots: "index, follow",

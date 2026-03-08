@@ -11,7 +11,7 @@ export const metadata = {
         default: "Flutter Developer Kerala | Freelance Web Developer Kerala | MERN Stack Developer - ANAGH K R",
         template: "%s | ANAGH K R"
     },
-    description: "Professional freelance web developer and Flutter app developer in Kerala with 3+ years experience. Specializing in MERN stack development, custom website design, e-commerce solutions, and mobile app development. Serving businesses across Kochi, Calicut, Trivandrum, Kannur, Kasaragod, and all Kerala.",
+    description: "Expert Flutter & MERN stack developer in Kerala. 3+ years building custom websites, mobile apps & e-commerce solutions for businesses across Kerala.",
     applicationName: "Anagh K R Portfolio",
     authors: [{ name: "ANAGH K R", url: "https://www.anaghkr.in" }],
     generator: "Next.js",

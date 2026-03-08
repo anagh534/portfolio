@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Web Developer Kollam | Flutter App Development Kollam | Industrial Digital Solutions - Anagh K R",
-    description: "Expert web development and Flutter app development services in Kollam. Comprehensive digital solutions including responsive websites, mobile apps, and e-commerce platforms for industrial and port city businesses.",
+    description: "Expert web & Flutter app development in Kollam. Responsive websites, mobile apps & e-commerce platforms for industrial and port city businesses.",
     keywords: "web developer Kollam, Flutter developer Kollam, app development Kollam, MERN stack developer Kollam, industrial web solutions, cashew export platforms, port city digital solutions, React developer Kollam, tourism websites Kollam, e-commerce solutions",
     author: "ANAGH K R",
     robots: "index, follow",

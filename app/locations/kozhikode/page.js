@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Web Developer Kozhikode | Flutter App Development Calicut | MERN Stack Developer - Anagh K R",
-    description: "Professional web development and Flutter app development services in Kozhikode (Calicut). Modern website solutions, mobile applications, digital transformation services, and e-commerce platforms for businesses in Malabar region.",
+    description: "Web & Flutter app development in Kozhikode/Calicut. Modern websites, mobile apps & e-commerce platforms for Malabar region businesses.",
     keywords: "web developer Kozhikode, Flutter developer Calicut, app development Kozhikode, MERN stack developer Calicut, e-commerce development Malabar, export business solutions, React developer Kozhikode, mobile app development Calicut, business automation, digital transformation",
     author: "ANAGH K R",
     robots: "index, follow",

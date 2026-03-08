@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Web Developer Calicut | Flutter App Development Kozhikode - Anagh K R",
-    description: "Professional web developer and Flutter app developer serving Calicut (Kozhikode) and Malabar region. Expert in custom websites, mobile apps, e-commerce, and MERN stack development for businesses in Calicut. Affordable pricing from ₹3,000 with 3+ years experience.",
+    description: "Expert web & Flutter app developer in Calicut/Kozhikode. Custom websites, mobile apps & MERN stack solutions from ₹3,000. 3+ years experience.",
     keywords: "web developer Calicut, Flutter developer Calicut, app development Kozhikode, website development Calicut, MERN stack developer Calicut, mobile app Calicut, e-commerce Calicut, web design Kozhikode, WordPress developer Calicut, React developer Calicut",
     author: "ANAGH K R",
     robots: "index, follow",

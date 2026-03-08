@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Web Developer Kochi | Flutter App Development Services in Ernakulam - Anagh K R",
-    description: "Professional web developer and Flutter app developer serving Kochi and Ernakulam. Specializing in custom website development, mobile apps, e-commerce solutions, and MERN stack applications for businesses in Kochi. 3+ years experience with affordable pricing from ₹3,000.",
+    description: "Professional web & Flutter app developer serving Kochi/Ernakulam. Custom websites, mobile apps & e-commerce solutions from ₹3,000. 3+ years experience.",
     keywords: "web developer Kochi, Flutter developer Kochi, app development Kochi, website development Ernakulam, MERN stack developer Kochi, mobile app development Kochi, e-commerce development Kochi, WordPress developer Kochi, React developer Kochi, web design Kochi",
     author: "ANAGH K R",
     robots: "index, follow",
