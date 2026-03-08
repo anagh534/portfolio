@@ -8,10 +8,10 @@ export const viewport = {
 export const metadata = {
     metadataBase: new URL('https://www.anaghkr.in'),
     title: {
-        default: "Flutter Developer Kerala | Freelance Web Developer Kerala | MERN Stack Developer - ANAGH K R",
+        default: "Flutter & MERN Stack Developer Kerala - ANAGH K R",
         template: "%s | ANAGH K R"
     },
-    description: "Expert Flutter & MERN stack developer in Kerala. 3+ years building custom websites, mobile apps & e-commerce solutions for businesses across Kerala.",
+    description: "Expert Flutter & MERN developer in Kerala — custom websites, mobile apps & e-commerce solutions. 3+ years experience serving businesses across Kerala.",
     applicationName: "Anagh K R Portfolio",
     authors: [{ name: "ANAGH K R", url: "https://www.anaghkr.in" }],
     generator: "Next.js",

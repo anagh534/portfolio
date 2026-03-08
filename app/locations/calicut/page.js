@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "Web Developer Calicut | Flutter App Development Kozhikode - Anagh K R",
+    title: "Web Developer Calicut | Flutter App Development - ANAGH K R",
     description: "Expert web & Flutter app developer in Calicut/Kozhikode. Custom websites, mobile apps & MERN stack solutions from ₹3,000. 3+ years experience.",
     keywords: "web developer Calicut, Flutter developer Calicut, app development Kozhikode, website development Calicut, MERN stack developer Calicut, mobile app Calicut, e-commerce Calicut, web design Kozhikode, WordPress developer Calicut, React developer Calicut",
     author: "ANAGH K R",

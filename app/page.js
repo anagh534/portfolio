@@ -9,8 +9,8 @@ const WhatWeOffer = dynamic(() => import('@/components/home/whatweoffer'), { ssr
 const WhyChooseMe = dynamic(() => import('@/components/home/WhyChooseMe'), { ssr: true });
 
 export const metadata = {
-  title: "Flutter Developer Kerala | Freelance Web Developer Kerala | MERN Stack Developer - ANAGH K R",
-  description: "Professional Flutter & MERN stack developer in Kerala. Custom websites, mobile apps & e-commerce solutions. Serving Kochi, Calicut, Trivandrum & all Kerala.",
+  title: "Flutter & MERN Stack Developer Kerala - ANAGH K R",
+  description: "Expert Flutter & MERN developer in Kerala — custom websites, mobile apps & e-commerce solutions for businesses in Kochi, Calicut & Kerala.",
   keywords: "Flutter developer Kerala, freelance web developer Kerala, MERN stack developer Kerala, web development Kerala, mobile app development Kerala, website design Kerala, custom website development, e-commerce development Kerala, React developer Kerala, Node.js developer Kerala, WordPress development Kerala, Next.js developer Kerala, app developer Kerala, freelance developer Kerala, web developer Kochi, web developer Calicut, web developer Trivandrum",
   author: "ANAGH K R",
   robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",

@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "Web Developer Kanhangad | Flutter App Development Kanhangad | Local Business Solutions - Anagh K R",
+    title: "Web Developer Kanhangad | Flutter App Development - ANAGH K R",
     description: "Local web & mobile app development in Kanhangad. Custom digital solutions, responsive websites & mobile apps for local businesses.",
     keywords: "web developer Kanhangad, Flutter developer Kanhangad, app development Kanhangad, MERN stack developer Kanhangad, local digital solutions, responsive websites Kanhangad, mobile applications, startup solutions, business websites, custom development",
     author: "ANAGH K R",

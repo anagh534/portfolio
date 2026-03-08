@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "Web Developer Thrissur | Flutter App Development Thrissur | Cultural Digital Solutions - Anagh K R",
+    title: "Web Developer Thrissur | Flutter App Development - ANAGH K R",
     description: "Expert web & Flutter app development in Thrissur. Responsive websites, mobile apps & e-commerce platforms for cultural and festival city businesses.",
     keywords: "web developer Thrissur, Flutter developer Thrissur, app development Thrissur, MERN stack developer Thrissur, cultural web solutions, e-commerce Thrissur, React developer Thrissur, festival management systems, educational platforms, mobile app development",
     author: "ANAGH K R",

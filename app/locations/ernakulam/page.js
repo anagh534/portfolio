@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "Web Developer Ernakulam | Flutter App Development Ernakulam | Digital Solutions - Anagh K R",
+    title: "Web Developer Ernakulam | Flutter App Development - ANAGH K R",
     description: "Expert web & Flutter app development in Ernakulam district. Responsive websites, mobile apps & e-commerce platforms for urban businesses.",
     keywords: "web developer Ernakulam, Flutter developer Ernakulam, app development Ernakulam, MERN stack developer Ernakulam, Kochi web services, responsive web design, mobile app development, e-commerce solutions, React developer Ernakulam, business automation",
     author: "ANAGH K R",

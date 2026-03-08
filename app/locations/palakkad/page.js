@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "Web Developer Palakkad | Flutter App Development Palakkad | Agricultural Tech Solutions - Anagh K R",
+    title: "Web Developer Palakkad | Flutter App Development - ANAGH K R",
     description: "Expert web & Flutter app development in Palakkad. Agricultural websites, educational platforms & business solutions for Kerala's gateway.",
     keywords: "web developer Palakkad, Flutter developer Palakkad, app development Palakkad, MERN stack developer Palakkad, agricultural platforms, educational websites Palakkad, rural tech solutions, gateway of Kerala web development, React developer Palakkad, business solutions",
     author: "ANAGH K R",

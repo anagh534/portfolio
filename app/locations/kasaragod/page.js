@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "Web Developer Kasaragod | Flutter App Development Kasaragod | Local Digital Solutions - Anagh K R",
+    title: "Web Developer Kasaragod | Flutter App Development - ANAGH K R",
     description: "Local web & Flutter app developer in Kasaragod. Custom websites, mobile apps & e-commerce platforms for businesses in Kerala's northernmost district.",
     keywords: "web developer Kasaragod, Flutter developer Kasaragod, app development Kasaragod, MERN stack developer Kasaragod, local digital solutions, custom mobile apps, multilingual platforms, e-commerce development Kasaragod, React developer Kasaragod, Bekal tourism websites",
     author: "ANAGH K R",

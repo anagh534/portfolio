@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "Web Developer Kannur | Flutter App Development Kannur | Coastal Digital Solutions - Anagh K R",
+    title: "Web Developer Kannur | Flutter App Development - ANAGH K R",
     description: "Expert web & Flutter app development in Kannur. Responsive websites, mobile apps & e-commerce platforms for coastal and handloom businesses.",
     keywords: "web developer Kannur, Flutter developer Kannur, app development Kannur, MERN stack developer Kannur, handloom e-commerce, export business solutions, coastal web developer, React developer Kannur, mobile app development, business automation",
     author: "ANAGH K R",
