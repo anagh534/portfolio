@@ -15,6 +15,7 @@ export const metadata = {
 };
 
 import { MapPin, CheckCircle, Rocket, ArrowRight, Laptop, Smartphone, ShoppingCart, Code, Globe, Search, Users, Layout, Clock, Award, Send } from 'lucide-react';
+import Breadcrumb from '../../components/Breadcrumb';
 
 export default function Locations() {
     const cities = [
@@ -107,35 +108,72 @@ export default function Locations() {
     ];
 
     return (
-        <div className="min-h-screen bg-black text-white font-sans selection:bg-blue-500/30">
+        <main className="min-h-screen bg-black text-white font-sans selection:bg-blue-500/30">
+            {/* Structured Data */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "CollectionPage",
+                        "name": "Web Development Services Across Kerala",
+                        "description": "Professional web development, Flutter app development, and WordPress services across all major cities in Kerala including Kochi, Trivandrum, Calicut, and more.",
+                        "url": "https://www.anaghkr.in/locations",
+                        "provider": {
+                            "@type": "Person",
+                            "name": "ANAGH K R",
+                            "jobTitle": "Flutter & MERN Stack Developer",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressRegion": "Kerala",
+                                "addressCountry": "IN"
+                            }
+                        },
+                        "offers": {
+                            "@type": "AggregateOffer",
+                            "priceCurrency": "INR",
+                            "lowPrice": "15000",
+                            "highPrice": "200000",
+                            "offerCount": cities.length
+                        }
+                    })
+                }}
+            />
             {/* Hero Section */}
-            <section className="relative pt-32 pb-20 px-6 overflow-hidden">
-                <div className="max-w-7xl mx-auto relative z-10 text-center">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
-                        <MapPin size={14} />
-                        <span>Kerala-Wide Services</span>
-                    </div>
-                    <h1 className="text-5xl md:text-8xl font-black mb-6 leading-tight animate-in fade-in slide-in-from-bottom-6 duration-700 delay-200 uppercase tracking-tight">
-                        Web Development Services <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Across Kerala</span>
-                    </h1>
-                    <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-12 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-400">
-                        Professional <strong className="text-white">Flutter Developer</strong> offering web development and mobile app development services
-                        across all major cities in Kerala. WordPress development is also available in every location.
-                    </p>
+            <section className="relative pt-32 pb-20 px-6 overflow-hidden" aria-labelledby="main-heading">
+                <div className="max-w-7xl mx-auto relative z-10">
+                    <Breadcrumb items={[
+                        { label: 'Home', url: '/' },
+                        { label: 'Locations' }
+                    ]} />
 
-                    {/* Quick Stats */}
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-5xl mx-auto animate-in fade-in slide-in-from-bottom-10 duration-700 delay-600">
-                        {[
-                            { num: '11+', label: 'Cities Served' },
-                            { num: '24+', label: 'Projects Done' },
-                            { num: '100%', label: 'Satisfaction' },
-                            { num: '24/7', label: 'Tech Support' }
-                        ].map((stat, i) => (
-                            <div key={i} className="p-6 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl group hover:border-blue-500/30 transition-all">
-                                <div className="text-3xl font-black mb-1 group-hover:text-blue-400 transition-colors uppercaseTracking-tight">{stat.num}</div>
-                                <div className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">{stat.label}</div>
-                            </div>
-                        ))}
+                    <div className="text-center">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
+                            <MapPin size={14} />
+                            <span>Kerala-Wide Services</span>
+                        </div>
+                        <h1 id="main-heading" className="text-5xl md:text-8xl font-black mb-6 leading-tight animate-in fade-in slide-in-from-bottom-6 duration-700 delay-200 uppercase tracking-tight">
+                            Web Development Services <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Across Kerala</span>
+                        </h1>
+                        <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-12 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-400">
+                            Professional <strong className="text-white">Flutter Developer</strong> offering web development and mobile app development services
+                            across all major cities in Kerala. WordPress development is also available in every location.
+                        </p>
+
+                        {/* Quick Stats */}
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-5xl mx-auto animate-in fade-in slide-in-from-bottom-10 duration-700 delay-600">
+                            {[
+                                { num: '11+', label: 'Cities Served' },
+                                { num: '24+', label: 'Projects Done' },
+                                { num: '100%', label: 'Satisfaction' },
+                                { num: '24/7', label: 'Tech Support' }
+                            ].map((stat, i) => (
+                                <div key={i} className="p-6 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl group hover:border-blue-500/30 transition-all">
+                                    <div className="text-3xl font-black mb-1 group-hover:text-blue-400 transition-colors uppercaseTracking-tight">{stat.num}</div>
+                                    <div className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">{stat.label}</div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
 
@@ -145,10 +183,10 @@ export default function Locations() {
             </section>
 
             {/* Services Overview */}
-            <section className="py-24 bg-white/[0.02] border-y border-white/5">
+            <section className="py-24 bg-white/[0.02] border-y border-white/5" aria-labelledby="services-heading">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center mb-16 space-y-4">
-                        <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tight">
+                        <h2 id="services-heading" className="text-4xl md:text-5xl font-black uppercase tracking-tight">
                             Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Services</span>
                         </h2>
                         <p className="text-gray-500 uppercase tracking-widest text-xs font-bold">
@@ -171,10 +209,10 @@ export default function Locations() {
             </section>
 
             {/* Cities Grid */}
-            <section className="py-24">
+            <section className="py-24" aria-labelledby="cities-heading">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center mb-16 space-y-4">
-                        <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tight">
+                        <h2 id="cities-heading" className="text-4xl md:text-5xl font-black uppercase tracking-tight">
                             Cities We <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Serve</span>
                         </h2>
                         <p className="text-gray-500 uppercase tracking-widest text-xs font-bold">
@@ -232,12 +270,12 @@ export default function Locations() {
             </section>
 
             {/* Why Local Section */}
-            <section className="py-24 bg-white/[0.02] border-t border-white/5">
+            <section className="py-24 bg-white/[0.02] border-t border-white/5" aria-labelledby="benefits-heading">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-                        <div className="space-y-10">
+                        <article className="space-y-10">
                             <div className="space-y-6">
-                                <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tight">
+                                <h2 id="benefits-heading" className="text-4xl md:text-5xl font-black uppercase tracking-tight">
                                     Why Partner <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">With Us</span>?
                                 </h2>
                                 <p className="text-gray-400 text-lg leading-relaxed">
@@ -262,9 +300,9 @@ export default function Locations() {
                                     </div>
                                 ))}
                             </div>
-                        </div>
+                        </article>
 
-                        <div className="relative group">
+                        <aside className="relative group">
                             <div className="p-10 md:p-16 rounded-[60px] bg-gradient-to-br from-blue-600/20 to-indigo-600/5 border border-white/10 backdrop-blur-3xl space-y-8 relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-40 h-40 bg-blue-600/10 blur-[80px] rounded-full -z-10"></div>
                                 <div className="grid grid-cols-2 gap-4">
@@ -282,13 +320,13 @@ export default function Locations() {
                                     ))}
                                 </div>
                             </div>
-                        </div>
+                        </aside>
                     </div>
                 </div>
             </section>
 
             {/* Contact CTA */}
-            <section className="py-24 px-6 overflow-hidden">
+            <section className="py-24 px-6 overflow-hidden" aria-label="Contact Call to Action">
                 <div className="max-w-5xl mx-auto p-12 md:p-20 rounded-[60px] bg-gradient-to-br from-blue-600/20 to-indigo-600/10 border border-white/10 backdrop-blur-3xl text-center space-y-10 relative group">
                     <div className="absolute -top-20 -right-20 w-80 h-80 bg-blue-600/20 blur-[120px] rounded-full -z-10 animate-pulse"></div>
 
@@ -311,6 +349,6 @@ export default function Locations() {
                     </div>
                 </div>
             </section>
-        </div>
+        </main>
     );
 }

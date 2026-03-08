@@ -36,6 +36,38 @@ export const metadata = {
     verification: {
         google: "AWxjk_Fpn8FzilJKbuxl3i1J8VFgrfVwEkoaqwKp9mo",
     },
+    openGraph: {
+        type: "website",
+        locale: "en_IN",
+        url: "https://www.anaghkr.in",
+        siteName: "ANAGH K R - Flutter & MERN Stack Developer",
+        title: "Flutter & MERN Stack Developer Kerala - ANAGH K R",
+        description: "Expert Flutter & MERN developer in Kerala — custom websites, mobile apps & e-commerce solutions. 3+ years experience serving businesses across Kerala.",
+        images: [
+            {
+                url: "/favicon.png",
+                width: 1200,
+                height: 630,
+                alt: "ANAGH K R - Flutter & MERN Stack Developer Kerala"
+            }
+        ]
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@anaghkr",
+        creator: "@anaghkr",
+        title: "Flutter & MERN Stack Developer Kerala - ANAGH K R",
+        description: "Expert Flutter & MERN developer in Kerala — custom websites, mobile apps & e-commerce solutions. 3+ years experience serving businesses across Kerala.",
+        images: ["/favicon.png"]
+    },
+    alternates: {
+        canonical: "https://www.anaghkr.in",
+        languages: {
+            'en-IN': 'https://www.anaghkr.in',
+            'en': 'https://www.anaghkr.in'
+        }
+    },
+    category: "Technology",
     other: {
         "geo.region": "IN-KL",
         "geo.placename": "Kerala",
