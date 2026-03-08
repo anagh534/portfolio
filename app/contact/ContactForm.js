@@ -36,6 +36,7 @@ export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [honeypot, setHoneypot] = useState('');
   const dropdownRef = useRef(null);
 
   const projectTypes = [
@@ -75,6 +76,19 @@ export default function ContactForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Honeypot: silently reject if bot filled the hidden field
+    if (honeypot) return;
+
+    // Rate limiting: block re-submission within 60 seconds
+    const RATE_LIMIT_KEY = 'contact_last_submit';
+    const RATE_LIMIT_MS = 60000;
+    const lastSubmit = localStorage.getItem(RATE_LIMIT_KEY);
+    if (lastSubmit && Date.now() - parseInt(lastSubmit, 10) < RATE_LIMIT_MS) {
+      setSubmitStatus('ratelimit');
+      return;
+    }
+
     setIsSubmitting(true);
     setSubmitStatus(null);
 
@@ -94,6 +108,7 @@ export default function ContactForm() {
       });
 
       setSubmitStatus('success');
+      localStorage.setItem('contact_last_submit', Date.now().toString());
       setFormData({ name: '', email: '', subject: '', message: '', projectType: '' });
     } catch (error) {
       setSubmitStatus('error');
@@ -107,6 +122,17 @@ export default function ContactForm() {
       <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/5 blur-[100px] rounded-full -z-10"></div>
 
       <form className="space-y-8 relative z-10" onSubmit={handleSubmit}>
+        {/* Honeypot field — hidden from real users, catches bots */}
+        <input
+          type="text"
+          name="_gotcha"
+          value={honeypot}
+          onChange={(e) => setHoneypot(e.target.value)}
+          style={{ display: 'none' }}
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+        />
         <div className="space-y-2">
           <h2 className="text-3xl font-black text-white uppercase tracking-tight">
             Send me a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">message</span>
@@ -213,6 +239,13 @@ export default function ContactForm() {
           <div className="p-4 rounded-2xl bg-green-500/10 border border-green-500/20 text-green-400 text-sm flex items-center gap-3 animate-in fade-in slide-in-from-bottom-2">
             <Check size={18} />
             <span>Thank you! I'll get back to you soon.</span>
+          </div>
+        )}
+
+        {submitStatus === 'ratelimit' && (
+          <div className="p-4 rounded-2xl bg-yellow-500/10 border border-yellow-500/20 text-yellow-400 text-sm flex items-center gap-3 animate-in fade-in slide-in-from-bottom-2">
+            <AlertCircle size={18} />
+            <span>Please wait a moment before submitting again.</span>
           </div>
         )}
 
