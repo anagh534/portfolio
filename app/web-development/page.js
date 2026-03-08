@@ -32,9 +32,9 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Professional Web Development Services",
-    "provider": { 
-        "@type": "Person", 
-        "name": "Anagh K R", 
+    "provider": {
+        "@type": "Person",
+        "name": "Anagh K R",
         "url": "https://www.anaghkr.in",
         "jobTitle": "Web Developer",
         "address": {
@@ -45,19 +45,19 @@ const schemaData = {
     },
     "serviceType": "Website Development and Design",
     "areaServed": [
-        {"@type": "City", "name": "Kochi"},
-        {"@type": "City", "name": "Kozhikode"},
-        {"@type": "City", "name": "Thiruvananthapuram"},
-        {"@type": "City", "name": "Thrissur"},
-        {"@type": "City", "name": "Kannur"},
-        {"@type": "City", "name": "Kollam"},
-        {"@type": "City", "name": "Palakkad"},
-        {"@type": "City", "name": "Kasaragod"},
-        {"@type": "State", "name": "Kerala, India"}
+        { "@type": "City", "name": "Kochi" },
+        { "@type": "City", "name": "Kozhikode" },
+        { "@type": "City", "name": "Thiruvananthapuram" },
+        { "@type": "City", "name": "Thrissur" },
+        { "@type": "City", "name": "Kannur" },
+        { "@type": "City", "name": "Kollam" },
+        { "@type": "City", "name": "Palakkad" },
+        { "@type": "City", "name": "Kasaragod" },
+        { "@type": "State", "name": "Kerala, India" }
     ],
     "description": "Professional custom website development, responsive web design, business websites, landing pages, and full-stack web application development services. Specialized in React, Next.js, Node.js, and modern web technologies for businesses across Kerala.",
-    "offers": { 
-        "@type": "Offer", 
+    "offers": {
+        "@type": "Offer",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
         "priceSpecification": {
@@ -71,11 +71,11 @@ const schemaData = {
         "@type": "OfferCatalog",
         "name": "Web Development Services",
         "itemListElement": [
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Business Website Development"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Landing Page Development"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Website Redesign"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Responsive Web Design"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Full-Stack Web Application"}}
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business Website Development" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing Page Development" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Redesign" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Responsive Web Design" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Full-Stack Web Application" } }
         ]
     }
 };

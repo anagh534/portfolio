@@ -32,9 +32,9 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "MERN Stack Development Services",
-    "provider": { 
-        "@type": "Person", 
-        "name": "Anagh K R", 
+    "provider": {
+        "@type": "Person",
+        "name": "Anagh K R",
         "url": "https://www.anaghkr.in",
         "jobTitle": "MERN Stack Developer",
         "address": {
@@ -45,19 +45,19 @@ const schemaData = {
     },
     "serviceType": "MERN Stack Web Development",
     "areaServed": [
-        {"@type": "City", "name": "Kochi"},
-        {"@type": "City", "name": "Kozhikode"},
-        {"@type": "City", "name": "Thiruvananthapuram"},
-        {"@type": "City", "name": "Thrissur"},
-        {"@type": "City", "name": "Kannur"},
-        {"@type": "City", "name": "Kollam"},
-        {"@type": "City", "name": "Palakkad"},
-        {"@type": "City", "name": "Kasaragod"},
-        {"@type": "State", "name": "Kerala, India"}
+        { "@type": "City", "name": "Kochi" },
+        { "@type": "City", "name": "Kozhikode" },
+        { "@type": "City", "name": "Thiruvananthapuram" },
+        { "@type": "City", "name": "Thrissur" },
+        { "@type": "City", "name": "Kannur" },
+        { "@type": "City", "name": "Kollam" },
+        { "@type": "City", "name": "Palakkad" },
+        { "@type": "City", "name": "Kasaragod" },
+        { "@type": "State", "name": "Kerala, India" }
     ],
     "description": "Professional full-stack web application development using MongoDB, Express.js, React, and Node.js (MERN Stack). Specialized in building scalable SaaS platforms, real-time dashboards, custom web applications, and API development for businesses and startups across Kerala.",
-    "offers": { 
-        "@type": "Offer", 
+    "offers": {
+        "@type": "Offer",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock"
     },
@@ -66,10 +66,10 @@ const schemaData = {
         "@type": "OfferCatalog",
         "name": "MERN Stack Development Services",
         "itemListElement": [
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Custom Web Application Development"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Real-time Dashboard Development"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SaaS Platform Development"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "RESTful API Development"}}
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Web Application Development" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Real-time Dashboard Development" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SaaS Platform Development" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "RESTful API Development" } }
         ]
     }
 };
