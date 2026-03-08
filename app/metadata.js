@@ -11,11 +11,11 @@ export const metadata = {
         default: "Flutter Developer Kerala | Freelance Web Developer Kerala | MERN Stack Developer - ANAGH K R",
         template: "%s | ANAGH K R"
     },
-    description: "Top-rated freelance Flutter developer and web developer in Kerala. Specialized in MERN stack development, Flutter app development, website design, and LMS development. Serving Calicut, Trivandrum, Kannur, Kasaragod, Kochi, and all Kerala.",
+    description: "Professional freelance web developer and Flutter app developer in Kerala with 5+ years experience. Specializing in MERN stack development, custom website design, e-commerce solutions, and mobile app development. Serving businesses across Kochi, Calicut, Trivandrum, Kannur, Kasaragod, and all Kerala.",
     applicationName: "Anagh K R Portfolio",
     authors: [{ name: "ANAGH K R", url: "https://www.anaghkr.in" }],
     generator: "Next.js",
-    keywords: ["Flutter developer Kerala", "Freelance web developer Kerala", "MERN Stack Developer", "Web Development", "Mobile App Development"],
+    keywords: ["Flutter developer Kerala", "Freelance web developer Kerala", "MERN Stack Developer Kerala", "Web Development Kerala", "Mobile App Development Kerala", "Custom Website Development", "React Developer Kerala", "Node.js Developer Kerala", "E-commerce Development Kerala", "WordPress Development Kerala", "Next.js Developer Kerala", "Web Developer Kochi", "Web Developer Calicut", "Web Developer Trivandrum", "App Developer Kerala"],
     referrer: "origin-when-cross-origin",
     creator: "ANAGH K R",
     publisher: "ANAGH K R",

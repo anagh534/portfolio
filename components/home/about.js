@@ -69,14 +69,19 @@ export default function About() {
                         transition={transition}
                     >
                         <h3 className="text-2xl md:text-3xl font-bold text-white leading-tight">
-                            Turning complex problems into <br />
-                            <span className="text-blue-400">elegant digital solutions</span>.
+                            Your trusted <span className="text-blue-400">full-stack development partner</span> in Kerala.
                         </h3>
 
                         <p className="text-lg text-gray-400 leading-relaxed">
-                            I'm Anagh, a passionate <strong className="text-white">Full Stack Developer</strong> and <strong className="text-white">Flutter expert</strong> from Kerala.
-                            My journey is fueled by a desire to build seamless digital experiences that blend
-                            cutting-edge technology with intuitive design.
+                            I'm Anagh K R, a dedicated <strong className="text-white">freelance web developer</strong> and <strong className="text-white">mobile app developer</strong> serving businesses throughout Kerala.
+                            With over 5 years of hands-on experience, I've successfully delivered 24+ projects ranging from
+                            responsive websites and e-commerce platforms to custom Flutter mobile applications and complex MERN stack solutions.
+                        </p>
+
+                        <p className="text-base text-gray-400 leading-relaxed">
+                            Whether you're a startup in Kochi needing an MVP, a business in Calicut requiring a modern website,
+                            or an entrepreneur in Trivandrum looking for a mobile app, I bring technical expertise,
+                            creative problem-solving, and a commitment to delivering digital solutions that drive real business results.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -84,16 +89,16 @@ export default function About() {
                                 <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all">
                                     <Terminal size={22} />
                                 </div>
-                                <h4 className="text-white font-bold mb-2">MERN Stack Expert</h4>
-                                <p className="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Building robust and scalable web architectures.</p>
+                                <h4 className="text-white font-bold mb-2">Full-Stack Web Development</h4>
+                                <p className="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Expert in React, Next.js, Node.js, and MongoDB for scalable web applications.</p>
                             </div>
 
                             <div className="p-6 rounded-3xl bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all group">
                                 <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-4 group-hover:bg-indigo-600 group-hover:text-white transition-all">
                                     <Globe size={22} />
                                 </div>
-                                <h4 className="text-white font-bold mb-2">Mobile Specialist</h4>
-                                <p className="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Crafting high-performance cross-platform apps.</p>
+                                <h4 className="text-white font-bold mb-2">Cross-Platform Mobile Apps</h4>
+                                <p className="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Building high-performance Flutter apps for iOS and Android platforms.</p>
                             </div>
                         </div>
 

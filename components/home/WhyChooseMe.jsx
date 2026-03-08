@@ -17,22 +17,22 @@ const features = [
     {
         icon: <Sparkles className="icon-accent" />,
         title: "Premium Quality",
-        desc: "Crafting pixel-perfect, high-end digital experiences that stand out."
+        desc: "Clean, maintainable code following industry best practices for long-term reliability."
     },
     {
         icon: <Zap className="icon-accent" />,
-        title: "Fast Performance",
-        desc: "Optimized code for blazing fast load times and smooth interactions."
+        title: "Fast Delivery",
+        desc: "Efficient development process with regular updates and on-time project delivery."
     },
     {
         icon: <ShieldCheck className="icon-accent" />,
         title: "Secure & Scalable",
-        desc: "Building robust architectures that grow with your business needs."
+        desc: "Building robust, secure solutions that scale with your growing business needs."
     },
     {
         icon: <Smartphone className="icon-accent" />,
         title: "Mobile First",
-        desc: "Flawless performance across all devices and screen sizes."
+        desc: "Responsive design ensuring perfect functionality across all devices and platforms."
     }
 ];
 
@@ -66,8 +66,10 @@ export default function WhyChooseMe() {
                         </div>
 
                         <p className="text-lg text-gray-400 leading-relaxed">
-                            Combining technical expertise with creative vision to deliver
-                            exceptional digital solutions tailored to your unique requirements.
+                            As an experienced freelance developer in Kerala, I combine technical expertise
+                            with business understanding to deliver solutions that not only look great but drive
+                            real results. Transparent communication, reliable timelines, and dedicated support
+                            throughout your project lifecycle.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

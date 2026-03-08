@@ -95,15 +95,16 @@ export default function Hero() {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-black tracking-tighter text-white leading-[0.9] mb-8">
-              CRAFTING <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">EXPERIENCES</span> <br />
-              THAT MATTER.
+              BUILDING <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">YOUR DIGITAL</span> <br />
+              SUCCESS STORY.
             </h1>
 
             <p className="text-xl text-gray-400 leading-relaxed mb-10 max-w-xl">
-              Professional <strong className="text-white">Flutter</strong> and <strong className="text-white">MERN Stack</strong> developer.
-              I build high-performance, visually stunning web and mobile applications
-              tailored to elevate your business.
+              Experienced <strong className="text-white">Flutter app developer</strong> and <strong className="text-white">MERN Stack web developer</strong> based in Kerala.
+              Specializing in custom website development, e-commerce solutions, and cross-platform mobile apps
+              for businesses across Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
+              Transforming ideas into scalable digital products with clean code and exceptional user experiences.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-16">

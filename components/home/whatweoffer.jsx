@@ -19,56 +19,56 @@ const services = [
         id: 1,
         title: "Full-Stack Web Development",
         icon: <Globe size={24} />,
-        shortDesc: "Custom MERN stack solutions for scalable, high-performance web applications.",
+        shortDesc: "Professional MERN stack development services for businesses across Kerala. Building scalable, secure web applications with React, Next.js, Node.js, and MongoDB.",
         technologies: ["React", "Next.js", "Node.js", "MongoDB"],
     },
     {
         id: 2,
         title: "E-commerce Solutions",
         icon: <ShoppingCart size={24} />,
-        shortDesc: "Comprehensive online stores with secure payments and inventory management.",
+        shortDesc: "Complete online store development with secure payment integration, inventory management, and SEO optimization. Shopify, WooCommerce, and custom solutions available.",
         technologies: ["Shopify", "WooCommerce", "Stripe", "Next.js"],
     },
     {
         id: 3,
         title: "Flutter App Development",
         icon: <Smartphone size={24} />,
-        shortDesc: "Native performance cross-platform mobile apps for iOS and Android.",
+        shortDesc: "Expert Flutter mobile app development for iOS and Android. Native performance with beautiful UI, from concept to App Store deployment.",
         technologies: ["Flutter", "Dart", "Firebase", "App Store"],
     },
     {
         id: 4,
         title: "Responsive Web Design",
         icon: <Palette size={24} />,
-        shortDesc: "Beautiful, user-centric designs that work flawlessly on every screen.",
+        shortDesc: "Modern, mobile-first website design that looks stunning on all devices. Converting Figma designs to pixel-perfect, fast-loading responsive websites.",
         technologies: ["Figma", "Tailwind", "Framer Motion"],
     },
     {
         id: 5,
         title: "WordPress Development",
         icon: <RefreshCw size={24} />,
-        shortDesc: "Custom WordPress websites with theme customization, plugin setup, and easy content management.",
+        shortDesc: "Custom WordPress website development and theme customization. Easy content management with plugin integration and WooCommerce e-commerce setup.",
         technologies: ["WordPress", "WooCommerce", "Custom Themes"],
     },
     {
         id: 6,
         title: "Design to Code Conversion",
         icon: <CodeXml size={24} />,
-        shortDesc: "Pixel-perfect conversion from Figma/PSD to clean, functional code.",
+        shortDesc: "Converting your Figma, PSD, or XD designs into clean, production-ready HTML, CSS, and React code with perfect attention to detail.",
         technologies: ["HTML5", "CSS3", "JavaScript", "React"],
     },
     {
         id: 7,
         title: "Academic & Startup MVP",
         icon: <GraduationCap size={24} />,
-        shortDesc: "Tailored solutions for students and early-stage startup prototypes.",
+        shortDesc: "Helping students with academic projects and startups with MVP development. Fast turnaround, mentoring included, and affordable pricing.",
         technologies: ["Fast MVP", "Documentation", "Mentoring"],
     },
     {
         id: 8,
-        title: "Basic SEO",
+        title: "SEO & Performance",
         icon: <Rocket size={24} />,
-        shortDesc: "Boosting visibility and conversion with data-driven optimization.",
+        shortDesc: "Website optimization for better search rankings and faster load times. Technical SEO, performance audits, and Google Analytics integration.",
         technologies: ["SEO", "Performance", "Analytics"],
     }
 ];
@@ -103,10 +103,11 @@ export default function WhatWeOffer() {
                         <span>Services</span>
                     </div>
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
-                        Digital <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Solutions</span>
+                        Professional Web & Mobile <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Development Services</span>
                     </h2>
                     <p className="max-w-2xl mx-auto text-gray-400">
-                        Providing end-to-end expertise to transform your ideas into successful digital products with cutting-edge tech.
+                        Comprehensive digital solutions for businesses across Kerala. From custom web development and Flutter mobile apps
+                        to e-commerce platforms and WordPress websites - delivered with quality, efficiency, and measurable results.
                     </p>
                 </motion.div>
 
