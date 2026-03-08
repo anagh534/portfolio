@@ -6,11 +6,6 @@ const nextConfig = {
     // Enable all production optimizations
     reactStrictMode: true,
 
-    // Optimize CSS
-    experimental: {
-        optimizeCss: true, // Enable CSS optimization
-    },
-
     // Compress output for better performance
     compress: true,
 
