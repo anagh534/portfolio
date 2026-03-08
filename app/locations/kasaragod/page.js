@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Web Developer Kasaragod | Flutter App Development Kasaragod | Local Digital Solutions - Anagh K R",
     description: "Local web development and Flutter app development services in Kasaragod. Personalized digital solutions, custom websites, mobile applications, and e-commerce platforms for businesses in the northernmost district of Kerala.",
-    keywords: "web developer Kasaragod, Flutter developer Kasaragod, app development Kasaragod, website design Kasaragod, Kasaragod web services, mobile app development Kasaragod, local digital solutions, custom mobile apps, e-commerce development, local business websites, digital marketing Kasaragod, multilingual solutions, personalized web development, MERN stack developer Kasaragod, React developer Kasaragod, Node.js developer Kasaragod",
+    keywords: "web developer Kasaragod, Flutter developer Kasaragod, app development Kasaragod, MERN stack developer Kasaragod, local digital solutions, custom mobile apps, multilingual platforms, e-commerce development Kasaragod, React developer Kasaragod, Bekal tourism websites",
     author: "ANAGH K R",
     robots: "index, follow",
     canonical: "https://www.anaghkr.in/locations/kasaragod",

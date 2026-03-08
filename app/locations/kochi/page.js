@@ -1,12 +1,12 @@
 export const metadata = {
-    title: "Web Developer Kochi | Flutter App Development Kochi | MERN Stack Developer Ernakulam - Anagh K R",
-    description: "Professional web development and Flutter app development services in Kochi, Ernakulam. Custom website development, e-commerce solutions, mobile app development, and digital marketing services for businesses in Kochi.",
-    keywords: "web developer Kochi, Flutter developer Kochi, app development Kochi, website design Kochi, Kochi web development services, mobile app development Kochi, e-commerce development Kochi, MERN stack developer Kochi, React developer Kochi, Node.js developer Kochi, responsive web design Kochi, WordPress development Kochi, Ernakulam web developer, Kochi website design company, custom website development Kochi, professional web developer Kochi, best web developer Kochi, affordable web development Kochi",
+    title: "Web Developer Kochi | Flutter App Development Services in Ernakulam - Anagh K R",
+    description: "Professional web developer and Flutter app developer serving Kochi and Ernakulam. Specializing in custom website development, mobile apps, e-commerce solutions, and MERN stack applications for businesses in Kochi. 3+ years experience with affordable pricing from ₹3,000.",
+    keywords: "web developer Kochi, Flutter developer Kochi, app development Kochi, website development Ernakulam, MERN stack developer Kochi, mobile app development Kochi, e-commerce development Kochi, WordPress developer Kochi, React developer Kochi, web design Kochi",
     author: "ANAGH K R",
     robots: "index, follow",
     canonical: "https://www.anaghkr.in/locations/kochi",
-    ogTitle: "Web Developer Kochi | Flutter App Development Kochi | MERN Stack Developer",
-    ogDescription: "Professional web development and Flutter app development services in Kochi, Ernakulam. Custom solutions for businesses in Kerala's commercial capital.",
+    ogTitle: "Professional Web Developer & App Developer in Kochi, Ernakulam",
+    ogDescription: "Expert web development and Flutter mobile app services for Kochi businesses. Custom websites, e-commerce, and mobile apps with 3+ years experience.",
     ogUrl: "https://www.anaghkr.in/locations/kochi",
     ogType: "website"
 };
@@ -35,9 +35,9 @@ const schemaData = {
         "longitude": "76.2673"
     },
     "areaServed": [
-        {"@type": "City", "name": "Kochi"},
-        {"@type": "City", "name": "Ernakulam"},
-        {"@type": "State", "name": "Kerala"}
+        { "@type": "City", "name": "Kochi" },
+        { "@type": "City", "name": "Ernakulam" },
+        { "@type": "State", "name": "Kerala" }
     ],
     "priceRange": "₹₹",
     "openingHours": "Mo-Sa 09:00-18:00",
@@ -49,10 +49,10 @@ const schemaData = {
         "@type": "OfferCatalog",
         "name": "Services in Kochi",
         "itemListElement": [
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Web Development", "description": "Custom website development in Kochi"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Flutter App Development", "description": "Mobile app development in Kochi"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "MERN Stack Development", "description": "Full-stack development in Kochi"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "E-commerce Development", "description": "Online store development in Kochi"}}
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web Development", "description": "Custom website development in Kochi" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Flutter App Development", "description": "Mobile app development in Kochi" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "MERN Stack Development", "description": "Full-stack development in Kochi" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "E-commerce Development", "description": "Online store development in Kochi" } }
         ]
     }
 };
@@ -61,23 +61,23 @@ export default function KochiServices() {
     const cityHighlights = [
         {
             icon: "fas fa-building",
-            title: "Commercial Hub",
-            description: "Kerala's business capital with thriving startups and enterprises"
+            title: "Tech Hub Infopark",
+            description: "Home to Kerala's largest IT park with 400+ companies needing modern digital solutions"
         },
         {
             icon: "fas fa-ship",
-            title: "Major Port",
-            description: "International trade gateway requiring modern digital solutions"
+            title: "Commercial Capital",
+            description: "Kerala's business center with thriving retail, import-export, and service industries"
         },
         {
             icon: "fas fa-graduation-cap",
-            title: "IT Education",
-            description: "Home to premier tech institutions and skilled professionals"
+            title: "Startup Ecosystem",
+            description: "Growing startup culture in Infopark and Kakkanad requiring innovative web and mobile solutions"
         },
         {
             icon: "fas fa-chart-line",
-            title: "Growing Economy",
-            description: "Rapid business growth demanding digital transformation"
+            title: "Digital Transformation",
+            description: "Businesses in Ernakulam rapidly adopting e-commerce and mobile-first strategies"
         }
     ];
 
@@ -85,82 +85,82 @@ export default function KochiServices() {
         {
             icon: "fas fa-laptop-code",
             title: "Custom Website Development",
-            description: "Professional websites tailored for Kochi businesses with modern design and functionality",
-            features: ["Responsive Design", "SEO Optimized", "Fast Loading", "Mobile-First Approach"]
+            description: "Modern, responsive websites for Kochi startups and businesses in Infopark, Kakkanad, and across Ernakulam. From corporate websites to landing pages with SEO optimization and fast loading speeds.",
+            features: ["Mobile Responsive", "SEO Friendly", "Fast Performance", "Custom Design"]
         },
         {
             icon: "fas fa-shopping-cart",
             title: "E-commerce Solutions",
-            description: "Complete online stores for Kochi retailers and businesses to expand their reach",
-            features: ["Payment Integration", "Inventory Management", "Order Tracking", "Customer Portal"]
+            description: "Complete online store development for Kochi retailers and traders. Secure payment integration with Razorpay/Stripe, inventory management, and integration with local delivery services in Kochi metro area.",
+            features: ["Payment Gateway", "Order Management", "Delivery Integration", "Customer Portal"]
         },
         {
             icon: "fab fa-flutter",
             title: "Flutter App Development",
-            description: "Cross-platform mobile applications for iOS and Android with native performance",
-            features: ["Cross-Platform", "Native Performance", "Real-time Updates", "Offline Support"]
+            description: "Professional mobile apps for iOS and Android serving Kochi businesses. Perfect for startups in Infopark, delivery services, booking apps, and business automation with real-time features.",
+            features: ["Cross-Platform", "Native Performance", "Backend Integration", "App Store Ready"]
         },
         {
             icon: "fas fa-database",
             title: "MERN Stack Development",
-            description: "Full-stack web applications using MongoDB, Express, React, and Node.js",
-            features: ["Scalable Architecture", "Real-time Features", "API Development", "Cloud Integration"]
+            description: "Scalable web applications for Kochi tech companies and startups using MongoDB, Express, React, and Node.js. Ideal for SaaS platforms, dashboards, and data-driven applications.",
+            features: ["Scalable Backend", "Modern Frontend", "API Development", "Real-time Features"]
         },
         {
             icon: "fab fa-wordpress",
             title: "WordPress Development",
-            description: "Custom WordPress websites and plugins for easy content management",
-            features: ["Custom Themes", "Plugin Development", "Content Management", "SEO Friendly"]
+            description: "Professional WordPress websites for Kochi small businesses and professionals. Easy content management, blog integration, WooCommerce setup for online selling with local SEO optimization.",
+            features: ["Custom Themes", "WooCommerce Setup", "Content Management", "Local SEO"]
         },
         {
             icon: "fas fa-search",
-            title: "Digital Marketing",
-            description: "Complete digital marketing solutions to grow your business online",
-            features: ["SEO Services", "Social Media Marketing", "Google Ads", "Analytics Setup"]
+            title: "SEO & Digital Presence",
+            description: "Local SEO services to help Kochi businesses rank better in Google searches. Technical SEO, Google My Business optimization, and analytics setup for better online visibility in Kochi market.",
+            features: ["Local SEO", "Google My Business", "Technical SEO", "Analytics Setup"]
         }
     ];
 
     const benefits = [
         {
             icon: "fas fa-map-marker-alt",
-            title: "Local Market Knowledge",
-            description: "Deep understanding of Kochi's business landscape and customer preferences"
+            title: "Kochi Market Expertise",
+            description: "Understanding of Kochi's business environment, from Infopark startups to Marine Drive enterprises and local retail markets"
         },
         {
             icon: "fas fa-handshake",
-            title: "Personal Service",
-            description: "Direct communication and personalized attention to your project requirements"
+            title: "Direct Communication",
+            description: "Personal service with online meetings, WhatsApp support, and flexible collaboration for Kochi businesses without overhead costs"
         },
         {
             icon: "fas fa-clock",
-            title: "Quick Response",
-            description: "Fast turnaround times and immediate support for urgent requirements"
+            title: "Fast Delivery",
+            description: "Quick turnaround - basic websites in 1-2 weeks, custom apps in 6-10 weeks, perfect for Kochi's fast-paced business needs"
         },
         {
             icon: "fas fa-rupee-sign",
-            title: "Competitive Pricing",
-            description: "Affordable rates without compromising on quality and professional standards"
+            title: "Transparent Pricing",
+            description: "Affordable rates starting ₹3,000 for websites, ₹4,000 for WordPress, ₹10,000 for apps - no hidden charges for Kochi clients"
         }
     ];
 
     const portfolio = [
         {
             icon: "fas fa-store",
-            title: "E-commerce Platform",
-            description: "Modern online store for Kochi-based retailer with payment integration",
-            tech: ["React", "Node.js", "MongoDB", "Payment Gateway"]
+            title: "E-commerce Platform - Kochi Retailer",
+            description: "Modern online store for Kochi-based fashion retailer with Razorpay integration, inventory management, and local delivery options for Ernakulam",
+            tech: ["React", "Node.js", "MongoDB", "Razorpay API"]
         },
         {
             icon: "fas fa-mobile-alt",
-            title: "Business App",
-            description: "Flutter mobile app for local service provider with booking system",
-            tech: ["Flutter", "Firebase", "Real-time Chat", "GPS Integration"]
+            title: "Service App - Kochi Startup",
+            description: "Flutter mobile app for Infopark-based service startup featuring real-time booking, location tracking, and customer reviews system",
+            tech: ["Flutter", "Firebase", "Google Maps", "Push Notifications"]
         },
         {
             icon: "fas fa-graduation-cap",
-            title: "Educational Portal",
-            description: "Learning management system for Kochi educational institution",
-            tech: ["React", "Node.js", "Video Streaming", "Progress Tracking"]
+            title: "Educational Platform - Ernakulam",
+            description: "Learning management system for Kochi educational institution with video lessons, student progress tracking, and online assessments",
+            tech: ["Next.js", "Node.js", "Video Integration", "Analytics"]
         }
     ];
 
@@ -176,7 +176,7 @@ export default function KochiServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and Flutter app development services in Kochi, Kerala's commercial capital. Specialized solutions for businesses in Ernakulam district with focus on e-commerce, startups, and enterprise applications."
+                description="Expert web developer and Flutter app developer serving Kochi and Ernakulam district. With 3+ years of experience, I help businesses in Kochi's commercial hubs including Infopark, Kakkanad, Marine Drive, and MG Road with custom website development, mobile applications, and e-commerce solutions. From startups to established businesses, delivering quality digital solutions with affordable pricing starting from ₹3,000 for basic websites. Specialized in serving Kochi's thriving IT sector, retail businesses, and service industries with modern web technologies like React, Next.js, Flutter, and WordPress."
             />
         </>
     );

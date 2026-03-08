@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Web Development Services Across Kerala | Flutter Developer in Major Cities - Anagh K R",
     description: "Professional web development, WordPress development, and Flutter app development services across Kerala. Serving Kochi, Thiruvananthapuram, Kozhikode, Thrissur, Ernakulam, Calicut, Kannur, Kasaragod, Kollam, Palakkad, and Kanhangad with custom website development, mobile app development, and digital solutions.",
-    keywords: "Web development services Kerala, Flutter developer Kerala, Mobile app development Kerala, Custom website development Kerala, Kochi web developer, Thiruvananthapuram app development, Kozhikode website design, Thrissur web development, Ernakulam mobile app developer, Calicut Flutter developer, Kannur web services, Kasaragod app development, Kollam website development, Palakkad web design, Kanhangad digital solutions, Kerala web development company, Professional web developer Kerala, Best Flutter developer Kerala, MERN stack developer Kerala, Responsive web design Kerala, E-commerce development Kerala, WordPress development Kerala, React developer Kerala, Node.js developer Kerala",
+    keywords: "web development services Kerala, Flutter developer Kerala, mobile app development Kerala, MERN stack developer Kerala, WordPress development Kerala, React developer Kerala, Kochi web developer, Thiruvananthapuram app development, Kozhikode web design, Thrissur web development, Calicut Flutter developer, e-commerce development Kerala",
     author: "ANAGH K R",
     robots: "index, follow",
     canonical: "https://www.anaghkr.in/locations",

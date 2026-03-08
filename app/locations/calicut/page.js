@@ -1,12 +1,12 @@
 export const metadata = {
-    title: "Web Developer Calicut | Flutter App Development Calicut | Malabar Digital Solutions - Anagh K R",
-    description: "Expert web development and Flutter app development services in Calicut (Kozhikode). Comprehensive digital solutions including responsive websites, mobile apps, and e-commerce platforms for Malabar region businesses.",
-    keywords: "web developer Calicut, Flutter developer Calicut, app development Calicut, website design Calicut, Calicut web services, Malabar web developer, responsive web design, mobile app development, e-commerce solutions, digital marketing, business automation, MERN stack developer Calicut, React developer Calicut, Node.js developer Calicut, professional web developer Calicut, custom website development Calicut",
+    title: "Web Developer Calicut | Flutter App Development Kozhikode - Anagh K R",
+    description: "Professional web developer and Flutter app developer serving Calicut (Kozhikode) and Malabar region. Expert in custom websites, mobile apps, e-commerce, and MERN stack development for businesses in Calicut. Affordable pricing from ₹3,000 with 3+ years experience.",
+    keywords: "web developer Calicut, Flutter developer Calicut, app development Kozhikode, website development Calicut, MERN stack developer Calicut, mobile app Calicut, e-commerce Calicut, web design Kozhikode, WordPress developer Calicut, React developer Calicut",
     author: "ANAGH K R",
     robots: "index, follow",
     canonical: "https://www.anaghkr.in/locations/calicut",
-    ogTitle: "Web Developer Calicut | Flutter App Development Calicut",
-    ogDescription: "Expert web development and Flutter app development services in Calicut (Kozhikode). Comprehensive digital solutions for Malabar region businesses.",
+    ogTitle: "Professional Web Developer & App Developer in Calicut, Kozhikode",
+    ogDescription: "Expert web development and Flutter mobile app services for Calicut businesses. Custom solutions with 3+ years experience in Malabar region.",
     ogUrl: "https://www.anaghkr.in/locations/calicut",
     ogType: "website"
 };
@@ -85,23 +85,23 @@ export default function CalicutServices() {
     const cityHighlights = [
         {
             icon: "fas fa-map",
-            title: "Malabar Hub",
-            description: "Central location in Malabar region with strategic business importance"
+            title: "Malabar Business Hub",
+            description: "Major commercial center of North Kerala with growing retail, trade, and service industries"
         },
         {
             icon: "fas fa-ship",
-            title: "Commercial Port",
-            description: "Major trading center with diverse business opportunities"
+            title: "Trade & Commerce",
+            description: "Important trading city with strong spice trade heritage and modern business opportunities"
         },
         {
             icon: "fas fa-graduation-cap",
-            title: "Educational Center",
-            description: "Home to prestigious institutions and educational organizations"
+            title: "Educational Excellence",
+            description: "Home to top institutions including IIM, NIT generating demand for educational tech solutions"
         },
         {
             icon: "fas fa-handshake",
-            title: "Cultural Commerce",
-            description: "Rich cultural heritage with modern business integration"
+            title: "Digital Adoption",
+            description: "Calicut businesses rapidly embracing e-commerce and digital solutions for growth"
         }
     ];
 
@@ -109,82 +109,82 @@ export default function CalicutServices() {
         {
             icon: "fas fa-mobile-alt",
             title: "Responsive Web Design",
-            description: "Mobile-first responsive websites optimized for all devices and screen sizes",
-            features: ["Mobile-First Design", "Cross-Browser Compatible", "Fast Loading", "SEO Optimized"]
+            description: "Mobile-first websites for Calicut businesses in retail, healthcare, education, and services. Optimized for all devices with fast loading and SEO-friendly structure for better Google rankings in Kozhikode.",
+            features: ["Mobile-First Design", "Local SEO Optimized", "Fast Loading", "Cross-Browser Compatible"]
         },
         {
             icon: "fab fa-flutter",
             title: "Mobile App Development",
-            description: "Native and cross-platform mobile applications for business growth",
-            features: ["iOS & Android", "Cross-Platform", "Native Performance", "App Store Deployment"]
+            description: "Professional Flutter apps for iOS and Android serving Calicut's growing startup scene. Perfect for delivery services, booking platforms, and business automation with real-time features and Malayalam language support.",
+            features: ["iOS & Android", "Cross-Platform", "Malayalam Support", "Offline Capability"]
         },
         {
             icon: "fas fa-shopping-cart",
             title: "E-commerce Solutions",
-            description: "Complete online stores with payment integration and inventory management",
-            features: ["Payment Gateway", "Inventory System", "Order Management", "Customer Portal"]
+            description: "Complete online stores for Calicut retailers and spice traders. Razorpay/Stripe integration, inventory management, and WhatsApp notifications popular with Malabar businesses for seamless online selling.",
+            features: ["Payment Integration", "Inventory System", "WhatsApp Alerts", "Order Tracking"]
         },
         {
             icon: "fas fa-chart-line",
-            title: "Digital Marketing",
-            description: "Comprehensive digital marketing strategies to grow your online presence",
-            features: ["SEO Services", "Social Media Marketing", "PPC Campaigns", "Analytics Setup"]
+            title: "Local SEO Services",
+            description: "Help Calicut businesses rank better in Google searches for local keywords. Google My Business optimization, local directory listings, and technical SEO for increased visibility in Kozhikode market.",
+            features: ["Google My Business", "Local Citations", "Technical SEO", "Analytics Setup"]
         },
         {
             icon: "fas fa-cogs",
             title: "Business Automation",
-            description: "Automated workflows and systems to improve business efficiency",
-            features: ["Process Automation", "CRM Integration", "Workflow Management", "API Development"]
+            description: "Custom solutions for Calicut businesses to automate workflows, manage customer data, and integrate multiple systems. Perfect for trading firms, educational institutions, and service providers.",
+            features: ["Workflow Automation", "CRM Integration", "Custom Dashboards", "API Development"]
         },
         {
             icon: "fas fa-database",
             title: "MERN Stack Development",
-            description: "Full-stack web applications using modern JavaScript technologies",
-            features: ["React Frontend", "Node.js Backend", "MongoDB Database", "Express Framework"]
+            description: "Scalable web applications for Calicut startups and tech companies using MongoDB, Express, React, and Node.js. Ideal for SaaS platforms, booking systems, and data-driven business applications.",
+            features: ["React Frontend", "Node.js Backend", "MongoDB Database", "RESTful APIs"]
         }
     ];
 
     const benefits = [
         {
             icon: "fas fa-globe",
-            title: "Regional Expertise",
-            description: "Deep understanding of Malabar region business culture and requirements"
+            title: "Malabar Market Knowledge",
+            description: "Understanding Calicut's business culture, from traditional spice traders to modern startups, healthcare providers, and educational institutions"
         },
         {
             icon: "fas fa-comments",
-            title: "Multilingual Support",
-            description: "Support in Malayalam, Arabic, and English for diverse client base"
+            title: "Multilingual Capability",
+            description: "Websites and apps with Malayalam, Arabic, and English support - perfect for Calicut's diverse business community and customer base"
         },
         {
             icon: "fas fa-truck",
-            title: "Trade Solutions",
-            description: "Specialized solutions for trading and commercial businesses"
+            title: "Trade-Focused Solutions",
+            description: "Specialized experience with trading platforms, inventory systems, and B2B solutions tailored for Calicut's commercial businesses"
         },
         {
             icon: "fas fa-graduation-cap",
-            title: "Educational Tech",
-            description: "Custom solutions for educational institutions and learning platforms"
+            title: "Educational Technology",
+            description: "Custom learning platforms, student management systems, and educational apps for Kozhikode's prestigious institutions and coaching centers"
         }
     ];
 
     const portfolio = [
         {
             icon: "fas fa-store",
-            title: "Trading Platform",
-            description: "B2B trading platform for Calicut spice and commodity traders",
-            tech: ["React", "Node.js", "Trading System", "Multi-language"]
+            title: "Spice Trading Platform - Calicut",
+            description: "B2B trading platform for Calicut-based spice traders with multi-currency support, inventory tracking, and buyer-seller messaging system",
+            tech: ["React", "Node.js", "Real-time Chat", "Multi-language"]
         },
         {
             icon: "fas fa-graduation-cap",
-            title: "Educational App",
-            description: "E-learning mobile app for educational institutions in Malabar region",
-            tech: ["Flutter", "Firebase", "Video Streaming", "Progress Tracking"]
+            title: "E-Learning App - Kozhikode",
+            description: "Mobile learning app for Calicut educational institution with video lessons, quizzes, Malayalam content support, and student progress analytics",
+            tech: ["Flutter", "Firebase", "Video Integration", "Offline Mode"]
         },
         {
             icon: "fas fa-utensils",
-            title: "Restaurant Chain",
-            description: "Multi-location restaurant management system with online ordering",
-            tech: ["React", "POS Integration", "Online Ordering", "Kitchen Display"]
+            title: "Restaurant Management - Malabar",
+            description: "Multi-location restaurant system for Calicut restaurant chain with POS integration, online ordering, kitchen management, and delivery tracking",
+            tech: ["React", "POS System", "Online Orders", "Analytics"]
         }
     ];
 
@@ -200,7 +200,7 @@ export default function CalicutServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Expert web development and mobile app development services in Calicut (Kozhikode). Comprehensive digital solutions for Malabar region businesses with multilingual support in Malayalam, Arabic, and English."
+                description="Professional web developer and Flutter app developer serving Calicut (Kozhikode) and Malabar region with 3+ years of experience. Specializing in custom website development, mobile applications, e-commerce platforms, and trading solutions for Calicut businesses. From traditional spice traders to modern startups, healthcare providers, and educational institutions across Kozhikode - delivering quality digital solutions with multilingual support in Malayalam, Arabic, and English. Affordable pricing starting from ₹3,000 for websites, ₹4,000 for WordPress, and ₹10,000 for mobile apps. Expert in React, Next.js, Flutter, WordPress, and MERN stack development tailored for Malabar region's unique business needs."
             />
         </>
     );
