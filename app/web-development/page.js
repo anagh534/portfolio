@@ -3,7 +3,7 @@ import { Palette, Smartphone, Zap, Search, ShieldCheck, LayoutDashboard } from '
 
 export const metadata = {
     title: "Best Web Developer Kerala | Professional Website Development Services | ANAGH K R",
-    description: "Top-rated web developer in Kerala offering professional custom website development, responsive web design, business websites, landing pages, and full-stack web applications. Expert in React, Next.js, Node.js, and modern web technologies. 5+ years experience with 24+ successful projects serving businesses across Kochi, Kozhikode, Thrissur, Kannur, Thiruvananthapuram, Kasaragod, and all Kerala. Affordable pricing, fast delivery, and SEO-optimized websites.",
+    description: "Top-rated web developer in Kerala offering professional custom website development, responsive web design, business websites, landing pages, and full-stack web applications. Expert in React, Next.js, Node.js, and modern web technologies. 3+ years experience with 24+ successful projects serving businesses across Kochi, Kozhikode, Thrissur, Kannur, Thiruvananthapuram, Kasaragod, and all Kerala. Affordable pricing, fast delivery, and SEO-optimized websites.",
     keywords: "web developer Kerala, best web developer Kerala, professional web developer Kerala, custom website development Kerala, hire web developer Kerala, website design Kerala, website design and development Kerala, web development services Kerala, responsive web design Kerala, business website development Kerala, full stack web developer Kerala, web developer Kochi, top web developer Kochi, web developer Kozhikode, web developer Kasaragod, web developer Kannur, web development Thrissur, web developer Thiruvananthapuram, web developer Kollam, web developer Palakkad, affordable web development Kerala, cheap website development Kerala, best website developer in Kerala, expert web developer Kerala, freelance web developer Kerala, React developer Kerala, Next.js developer Kerala, landing page development Kerala, website redesign Kerala, web app development Kerala, HTML CSS JavaScript developer Kerala, modern web development Kerala, SEO friendly website development, mobile responsive website Kerala",
     alternates: { canonical: "https://www.anaghkr.in/web-development" },
     openGraph: {
@@ -89,7 +89,7 @@ export default function WebDevelopmentPage() {
             description="High-performance, responsive websites and web applications built to grow your business. From landing pages to complex full-stack solutions — delivered with clean code, fast load times, and SEO-ready architecture."
             heroStats={[
                 { number: "24+", label: "Projects Delivered" },
-                { number: "5+", label: "Years Experience" },
+                { number: "3+", label: "Years Experience" },
                 { number: "100%", label: "Client Satisfaction" },
                 { number: "11+", label: "Cities in Kerala" },
             ]}

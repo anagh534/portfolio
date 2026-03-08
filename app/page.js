@@ -10,13 +10,13 @@ const WhyChooseMe = dynamic(() => import('@/components/home/WhyChooseMe'), { ssr
 
 export const metadata = {
   title: "Flutter Developer Kerala | Freelance Web Developer Kerala | MERN Stack Developer - ANAGH K R",
-  description: "Professional freelance web developer and Flutter app developer in Kerala with 5+ years experience. Specializing in MERN stack development, custom website design, e-commerce solutions, and mobile app development. Serving businesses across Kochi, Calicut, Trivandrum, Kannur, Kasaragod, and all Kerala with affordable, high-quality digital solutions.",
+  description: "Professional freelance web developer and Flutter app developer in Kerala with 3+ years experience. Specializing in MERN stack development, custom website design, e-commerce solutions, and mobile app development. Serving businesses across Kochi, Calicut, Trivandrum, Kannur, Kasaragod, and all Kerala with affordable, high-quality digital solutions.",
   keywords: "Flutter developer Kerala, freelance web developer Kerala, MERN stack developer Kerala, web development Kerala, mobile app development Kerala, website design Kerala, custom website development, e-commerce development Kerala, React developer Kerala, Node.js developer Kerala, WordPress development Kerala, Next.js developer Kerala, app developer Kerala, freelance developer Kerala, web developer Kochi, web developer Calicut, web developer Trivandrum",
   author: "ANAGH K R",
   robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
   canonical: "https://www.anaghkr.in",
   ogTitle: "Professional Flutter & Web Developer Kerala | MERN Stack Expert - ANAGH K R",
-  ogDescription: "Experienced freelance Flutter developer and MERN stack web developer in Kerala. Building custom websites, mobile apps, and e-commerce solutions for businesses across Kerala with 5+ years of expertise.",
+  ogDescription: "Experienced freelance Flutter developer and MERN stack web developer in Kerala. Building custom websites, mobile apps, and e-commerce solutions for businesses across Kerala with 3+ years of expertise.",
   ogUrl: "https://www.anaghkr.in",
   ogImage: "/assets/profile.png",
   ogType: "website",
@@ -64,7 +64,7 @@ export default function Home() {
               "name": "Who is the best freelance web developer in Kerala?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "ANAGH K R is an experienced freelance web developer in Kerala with 5+ years of professional experience and 24+ successful projects. Specializing in MERN stack development, Flutter app development, and custom website design, serving clients across Kerala including Kochi, Calicut, Trivandrum, Kannur, and Kasaragod with affordable and high-quality web development services."
+                "text": "ANAGH K R is an experienced freelance web developer in Kerala with 3+ years of professional experience and 24+ successful projects. Specializing in MERN stack development, Flutter app development, and custom website design, serving clients across Kerala including Kochi, Calicut, Trivandrum, Kannur, and Kasaragod with affordable and high-quality web development services."
               }
             },
             {

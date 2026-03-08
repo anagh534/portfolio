@@ -51,7 +51,7 @@ export default function NodejsDevelopmentPage() {
                 { number: "Fast", label: "Non-Blocking I/O" },
                 { number: "REST", label: "API Architecture" },
                 { number: "24/7", label: "Uptime Reliability" },
-                { number: "5+", label: "Years Experience" },
+                { number: "3+", label: "Years Experience" },
             ]}
             whatYouGet={[
                 { icon: <Plug size={22} />, title: "RESTful APIs", desc: "Well-documented, versioned REST APIs following industry standards, ready for web, mobile, and third-party integrations." },

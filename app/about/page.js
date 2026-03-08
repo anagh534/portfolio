@@ -44,7 +44,7 @@ export default function About() {
                         {/* Hero Stats */}
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 w-full max-w-5xl animate-in fade-in slide-in-from-bottom-10 duration-700 delay-600">
                             {[
-                                { num: '5+', label: 'Years Experience' },
+                                { num: '3+', label: 'Years Experience' },
                                 { num: '24+', label: 'Projects Done' },
                                 { num: '12+', label: 'Technologies' },
                                 { num: '100%', label: 'Client Success' }
@@ -121,7 +121,7 @@ export default function About() {
                             </p>
                             <div className="space-y-4">
                                 {[
-                                    '5+ years of professional development experience',
+                                    '3+ years of professional development experience',
                                     'Expertise in MERN Stack & Flutter development',
                                     '50+ successful projects delivered globally'
                                 ].map((item, i) => (

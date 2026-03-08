@@ -51,7 +51,7 @@ export default function About() {
 
                             <div className="absolute -bottom-6 -right-6 md:-right-8 p-6 md:p-8 rounded-3xl bg-blue-600/90 backdrop-blur-md border border-white/20 shadow-2xl">
                                 <div className="text-white text-center">
-                                    <span className="block text-3xl md:text-4xl font-black mb-1">5+</span>
+                                    <span className="block text-3xl md:text-4xl font-black mb-1">3+</span>
                                     <span className="block text-[10px] md:text-xs font-bold uppercase tracking-widest leading-none">Years of <br /> Experience</span>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@ export default function About() {
 
                         <p className="text-lg text-gray-400 leading-relaxed">
                             I'm Anagh K R, a dedicated <strong className="text-white">freelance web developer</strong> and <strong className="text-white">mobile app developer</strong> serving businesses throughout Kerala.
-                            With over 5 years of hands-on experience, I've successfully delivered 24+ projects ranging from
+                            With over 3 years of hands-on experience, I've successfully delivered 24+ projects ranging from
                             responsive websites and e-commerce platforms to custom Flutter mobile applications and complex MERN stack solutions.
                         </p>
 

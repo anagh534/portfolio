@@ -51,7 +51,7 @@ export default function ReactDevelopmentPage() {
                 { number: "React", label: "Expert Level" },
                 { number: "SPA", label: "Specialization" },
                 { number: "24+", label: "Apps Built" },
-                { number: "5+", label: "Years Experience" },
+                { number: "3+", label: "Years Experience" },
             ]}
             whatYouGet={[
                 { icon: <Monitor size={22} />, title: "Single-Page Applications", desc: "Blazing-fast SPAs with client-side routing, code splitting, and lazy loading for seamless navigation." },

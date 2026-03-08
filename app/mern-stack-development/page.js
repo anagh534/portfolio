@@ -3,7 +3,7 @@ import { Code2, Server, Network, Database, Wifi, Cloud } from 'lucide-react';
 
 export const metadata = {
     title: "Best MERN Stack Developer Kerala | MongoDB Express React Node.js Expert | ANAGH K R",
-    description: "Top-rated MERN stack developer in Kerala specializing in MongoDB, Express.js, React, and Node.js full-stack web applications. Build scalable, real-time SaaS platforms, dashboards, and custom web apps for startups and businesses across Kochi, Kozhikode, Thrissur, Kannur, Thiruvananthapuram, and all Kerala. 5+ years experience with 24+ successful projects.",
+    description: "Top-rated MERN stack developer in Kerala specializing in MongoDB, Express.js, React, and Node.js full-stack web applications. Build scalable, real-time SaaS platforms, dashboards, and custom web apps for startups and businesses across Kochi, Kozhikode, Thrissur, Kannur, Thiruvananthapuram, and all Kerala. 3+ years experience with 24+ successful projects.",
     keywords: "MERN stack developer Kerala, best MERN developer Kerala, hire MERN stack developer, full stack developer Kerala, MongoDB developer Kerala, Express.js developer Kerala, React Node.js developer Kerala, MERN stack development Kochi, MERN stack development services Kerala, professional full stack web developer Kerala, JavaScript full stack developer Kerala, MERN developer Kozhikode, MERN developer Kasaragod, MERN developer Kannur, MERN developer Thiruvananthapuram, MERN developer Thrissur, MERN developer Kollam, expert MERN stack programmer Kerala, affordable MERN stack development, MERN stack web application development, MongoDB Express React Node Kerala, real-time web application development, SaaS development Kerala, API development Kerala, freelance MERN stack developer Kerala",
     alternates: { canonical: "https://www.anaghkr.in/mern-stack-development" },
     openGraph: {
@@ -84,7 +84,7 @@ export default function MernStackDevelopmentPage() {
             heroStats={[
                 { number: "MERN", label: "Full Stack Expertise" },
                 { number: "24+", label: "Projects Delivered" },
-                { number: "5+", label: "Years Experience" },
+                { number: "3+", label: "Years Experience" },
                 { number: "100%", label: "Client Satisfaction" },
             ]}
             whatYouGet={[

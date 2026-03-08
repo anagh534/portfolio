@@ -49,7 +49,7 @@ export default function FlutterAppDevelopmentPage() {
                 { number: "2x", label: "Platforms, 1 Codebase" },
                 { number: "60fps", label: "Smooth Animations" },
                 { number: "24+", label: "Apps Delivered" },
-                { number: "5+", label: "Years Experience" },
+                { number: "3+", label: "Years Experience" },
             ]}
             whatYouGet={[
                 { icon: <Smartphone size={22} />, title: "iOS & Android", desc: "A single Flutter codebase that runs natively on both iOS and Android, with consistent UI and behavior across platforms." },
