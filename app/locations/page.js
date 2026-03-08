@@ -116,11 +116,11 @@ export default function Locations() {
                         <span>Kerala-Wide Services</span>
                     </div>
                     <h1 className="text-5xl md:text-8xl font-black mb-6 leading-tight animate-in fade-in slide-in-from-bottom-6 duration-700 delay-200 uppercase tracking-tight">
-                        Web Solutions <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Across Kerala</span>
+                        Web Development Services <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Across Kerala</span>
                     </h1>
                     <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-12 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-400">
-                        Professional web development and Flutter app development services
-                        available across all major cities. WordPress development is also available in every location.
+                        Professional <strong className="text-white">Flutter Developer</strong> offering web development and mobile app development services
+                        across all major cities in Kerala. WordPress development is also available in every location.
                     </p>
 
                     {/* Quick Stats */}

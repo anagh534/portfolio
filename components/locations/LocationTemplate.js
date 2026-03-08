@@ -105,7 +105,9 @@ export default function LocationTemplate({
                         transition={{ delay: 0.2 }}
                         className="text-5xl md:text-8xl font-black mb-6 leading-tight uppercase tracking-tight"
                     >
-                        Digital Excellence in <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">{cityName}</span>
+                        Web Developer <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">{cityName}</span>
+                        <br />
+                        <span className="text-4xl md:text-6xl">Flutter App Development Services</span>
                     </motion.h1>
 
                     <motion.p

@@ -17,12 +17,12 @@ export default function ContactPage() {
             <span>Get In Touch</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-black text-white mb-6">
-            Let's Build Something
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500"> Amazing Together</span>
+            Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">ANAGH K R</span>
+            <br />Full Stack Developer
           </h1>
           <p className="max-w-2xl mx-auto text-gray-400 text-lg leading-relaxed">
-            Ready to bring your ideas to life? I'm here to help you create
-            exceptional digital experiences with cutting-edge technology.
+            Ready to bring your ideas to life? Get in touch with a professional Full Stack Developer
+            to create exceptional digital experiences with cutting-edge technology.
           </p>
         </div>
 

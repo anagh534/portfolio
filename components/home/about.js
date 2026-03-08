@@ -69,12 +69,12 @@ export default function About() {
                         transition={transition}
                     >
                         <h3 className="text-2xl md:text-3xl font-bold text-white leading-tight">
-                            Your trusted <span className="text-blue-400">full-stack development partner</span> in Kerala.
+                            Your trusted <span className="text-blue-400">Flutter & MERN Stack Developer Kerala</span> partner.
                         </h3>
 
                         <p className="text-lg text-gray-400 leading-relaxed">
-                            I'm Anagh K R, a dedicated <strong className="text-white">freelance web developer</strong> and <strong className="text-white">mobile app developer</strong> serving businesses throughout Kerala.
-                            With over 3 years of hands-on experience, I've successfully delivered 24+ projects ranging from
+                            I'm Anagh K R, a professional <strong className="text-white">Flutter & MERN Stack Developer</strong> with <strong className="text-white">3+ years experience</strong> as a <strong className="text-white">freelance web developer</strong> and <strong className="text-white">mobile app developer</strong> serving businesses throughout Kerala.
+                            I've successfully delivered 24+ projects ranging from
                             responsive websites and e-commerce platforms to custom Flutter mobile applications and complex MERN stack solutions.
                         </p>
 

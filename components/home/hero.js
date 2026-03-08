@@ -101,8 +101,8 @@ export default function Hero() {
             </h1>
 
             <p className="text-xl text-gray-400 leading-relaxed mb-10 max-w-xl">
-              Experienced <strong className="text-white">Flutter app developer</strong> and <strong className="text-white">MERN Stack web developer</strong> based in Kerala.
-              Specializing in custom website development, e-commerce solutions, and cross-platform mobile apps
+              Experienced <strong className="text-white">Flutter Developer Kerala</strong> and <strong className="text-white">Freelance Web Developer</strong> specializing in <strong className="text-white">MERN Stack development</strong>.
+              Building custom websites, e-commerce solutions, and cross-platform mobile apps
               for businesses across Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
               Transforming ideas into scalable digital products with clean code and exceptional user experiences.
             </p>

@@ -143,10 +143,10 @@ export default function Services() {
                             <span>Professional Excellence</span>
                         </div>
                         <h1 className="text-5xl md:text-7xl font-black text-white leading-tight">
-                            Professional Web & Mobile <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Development Services</span>
+                            Professional Web & Mobile <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Development Services</span> Kerala
                         </h1>
                         <p className="text-gray-400 text-lg leading-relaxed">
-                            Expert web development and mobile app development services for businesses across Kerala.
+                            <strong className="text-white">Expert developer</strong> offering professional <strong className="text-white">web development & mobile app services in Kerala</strong>.
                             From custom websites and MERN stack applications to Flutter mobile apps and e-commerce platforms -
                             delivering quality digital solutions in Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
                         </p>
