@@ -9,20 +9,20 @@ const WhatWeOffer = dynamic(() => import('@/components/home/whatweoffer'), { ssr
 const WhyChooseMe = dynamic(() => import('@/components/home/WhyChooseMe'), { ssr: true });
 
 export const metadata = {
-  title: "Flutter & MERN Stack Developer Kerala - ANAGH K R",
-  description: "Expert Flutter & MERN developer in Kerala — custom websites, mobile apps & e-commerce solutions for businesses in Kochi, Calicut & Kerala.",
-  keywords: "Flutter developer Kerala, freelance web developer Kerala, MERN stack developer Kerala, web development Kerala, mobile app development Kerala, website design Kerala, custom website development, e-commerce development Kerala, React developer Kerala, Node.js developer Kerala, WordPress development Kerala, Next.js developer Kerala, app developer Kerala, freelance developer Kerala, web developer Kochi, web developer Calicut, web developer Trivandrum",
+  title: "Freelance Web Developer Kerala | Web Design, WordPress, Flutter & MERN",
+  description: "Hire a freelance web developer in Kerala for website design, WordPress development, e-commerce solutions, and Flutter app development. Serving Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
+  keywords: "freelance web developer Kerala, web designer Kerala, freelance web designer Kerala, website development Kerala, WordPress developer Kerala, e-commerce development Kerala, Shopify developer Kerala, Flutter developer Kerala, MERN stack developer Kerala, mobile app developer Kerala, React developer Kerala, Node.js developer Kerala, Next.js developer Kerala, web developer Kochi, web developer Calicut, web developer Trivandrum, web developer Kannur, web developer Kasaragod",
   author: "ANAGH K R",
   robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
   canonical: "https://www.anaghkr.in",
-  ogTitle: "Professional Flutter & Web Developer Kerala | MERN Stack Expert - ANAGH K R",
-  ogDescription: "Professional Flutter & MERN stack developer in Kerala. Custom websites, mobile apps & e-commerce solutions for businesses across Kerala.",
+  ogTitle: "Freelance Web Developer Kerala | Website Design, WordPress & Flutter",
+  ogDescription: "Freelance web developer and web designer in Kerala for custom websites, WordPress development, e-commerce, and Flutter apps.",
   ogUrl: "https://www.anaghkr.in",
   ogImage: "/assets/profile.png",
   ogType: "website",
   twitterCard: "summary_large_image",
-  twitterTitle: "Flutter Developer Kerala | MERN Stack Developer Kerala - ANAGH K R",
-  twitterDescription: "Professional Flutter & MERN stack developer in Kerala. Custom websites, mobile apps & e-commerce solutions for businesses across Kerala."
+  twitterTitle: "Freelance Web Developer Kerala | WordPress, MERN & Flutter",
+  twitterDescription: "Freelance web developer in Kerala offering website design, WordPress development, e-commerce solutions, and Flutter mobile apps."
 };
 
 export default function Home() {
@@ -61,10 +61,10 @@ export default function Home() {
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Who is the best freelance web developer in Kerala?",
+              "name": "How do I choose a freelance web developer in Kerala?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "ANAGH K R is an experienced freelance web developer in Kerala with 3+ years of professional experience and 24+ successful projects. Specializing in MERN stack development, Flutter app development, and custom website design, serving clients across Kerala including Kochi, Calicut, Trivandrum, Kannur, and Kasaragod with affordable and high-quality web development services."
+                "text": "Choose a developer with proven portfolio work, clear communication, modern technology expertise, and post-launch support. ANAGH K R provides website design, WordPress development, MERN stack web apps, and Flutter app development for businesses across Kerala with transparent timelines and pricing."
               }
             },
             {
@@ -77,10 +77,10 @@ export default function Home() {
             },
             {
               "@type": "Question",
-              "name": "How can I hire a Flutter developer in Kerala?",
+              "name": "Do you provide website design and WordPress development in Kerala?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "You can hire ANAGH K R, a professional Flutter developer in Kerala, for your mobile app development needs. With expertise in cross-platform app development for Android and iOS, contact through WhatsApp at +91-8075541805 or email at anaghkrkkl@gmail.com for Flutter app development services across Kannur, Kochi, Calicut, and all Kerala cities."
+                "text": "Yes. ANAGH K R provides website design and WordPress development services across Kerala, including custom business websites, WooCommerce stores, website redesign, performance optimization, and ongoing maintenance."
               }
             },
             {

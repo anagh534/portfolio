@@ -3,8 +3,8 @@ import WhatsAppCard from './WhatsAppCard';
 import { Mail, MapPin, Clock, Code, Send } from 'lucide-react';
 
 export const metadata = {
-  title: 'Contact ANAGH K R - Full Stack Developer',
-  description: 'Get in touch for professional web development, WordPress development, and Flutter app development services.',
+  title: 'Contact Freelance Web Developer Kerala | ANAGH K R',
+  description: 'Contact ANAGH K R for website design, web development, WordPress, e-commerce, and Flutter app development services across Kerala.',
 };
 
 export default function ContactPage() {

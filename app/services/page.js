@@ -15,9 +15,9 @@ const detailPages = [
 ];
 
 export const metadata = {
-    title: "Web & Mobile App Development Services Kerala | ANAGH K R",
-    description: "Web & mobile app development services in Kerala. MERN stack, Flutter apps, WordPress & e-commerce solutions. Affordable pricing with 3+ years experience.",
-    keywords: "web development services Kerala, mobile app development Kerala, MERN stack developer, Flutter app development, WordPress development Kerala, e-commerce development, custom website development, React developer Kerala, Node.js development, web developer Kochi, app developer Calicut, freelance developer Kerala",
+    title: "Web Development Services Kerala | WordPress, E-commerce, Flutter & MERN",
+    description: "Professional web development services in Kerala including website design, WordPress development, e-commerce stores, MERN stack web apps, and Flutter mobile apps.",
+    keywords: "web development services Kerala, website design services Kerala, freelance web developer Kerala, web designer Kerala, WordPress development Kerala, WooCommerce developer Kerala, e-commerce development Kerala, Shopify developer Kerala, MERN stack developer Kerala, Flutter app development Kerala, mobile app development Kerala, React developer Kerala, Node.js developer Kerala, web developer Kochi, web developer Calicut",
 };
 
 export default function Services() {

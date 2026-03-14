@@ -95,14 +95,14 @@ export default function Hero() {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-black tracking-tighter text-white leading-[0.9] mb-8">
-              FLUTTER & <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">MERN STACK</span><br />
-              DEVELOPER <br />
+              FREELANCE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">WEB DEVELOPER</span><br />
+              & APP DEVELOPER <br />
               IN KERALA
             </h1>
 
             <p className="text-xl text-gray-400 leading-relaxed mb-10 max-w-xl">
-              Experienced <strong className="text-white">Flutter Developer Kerala</strong> and <strong className="text-white">Freelance Web Developer</strong> specializing in <strong className="text-white">MERN Stack development</strong>.
-              Building custom websites, e-commerce solutions, and cross-platform mobile apps
+              Experienced <strong className="text-white">freelance web developer in Kerala</strong> and <strong className="text-white">web designer</strong> specializing in <strong className="text-white">Flutter, MERN stack, and WordPress development</strong>.
+              Building custom websites, e-commerce solutions, and high-performance mobile apps
               for businesses across Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
               Transforming ideas into scalable digital products with clean code and exceptional user experiences.
             </p>

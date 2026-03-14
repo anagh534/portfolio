@@ -8,14 +8,35 @@ export const viewport = {
 export const metadata = {
     metadataBase: new URL('https://www.anaghkr.in'),
     title: {
-        default: "Flutter & MERN Stack Developer Kerala - ANAGH K R",
+        default: "Freelance Web Developer Kerala | Flutter, MERN & WordPress - ANAGH K R",
         template: "%s | ANAGH K R"
     },
-    description: "Expert Flutter & MERN developer in Kerala — custom websites, mobile apps & e-commerce solutions. 3+ years experience serving businesses across Kerala.",
+    description: "Freelance web developer and web designer in Kerala. I build custom websites, WordPress sites, e-commerce stores, and Flutter mobile apps for businesses in Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
     applicationName: "Anagh K R Portfolio",
     authors: [{ name: "ANAGH K R", url: "https://www.anaghkr.in" }],
     generator: "Next.js",
-    keywords: ["Flutter developer Kerala", "Freelance web developer Kerala", "MERN Stack Developer Kerala", "Web Development Kerala", "Mobile App Development Kerala", "Custom Website Development", "React Developer Kerala", "Node.js Developer Kerala", "E-commerce Development Kerala", "WordPress Development Kerala", "Next.js Developer Kerala", "Web Developer Kochi", "Web Developer Calicut", "Web Developer Trivandrum", "App Developer Kerala"],
+    keywords: [
+        "Freelance web developer Kerala",
+        "Web designer Kerala",
+        "Freelance web designer Kerala",
+        "Web development services Kerala",
+        "WordPress developer Kerala",
+        "E-commerce developer Kerala",
+        "Shopify developer Kerala",
+        "Flutter developer Kerala",
+        "Mobile app developer Kerala",
+        "MERN stack developer Kerala",
+        "React developer Kerala",
+        "Node.js developer Kerala",
+        "Next.js developer Kerala",
+        "SEO friendly website developer Kerala",
+        "Website redesign Kerala",
+        "Web developer Kochi",
+        "Web developer Calicut",
+        "Web developer Trivandrum",
+        "Web developer Kannur",
+        "Web developer Kasaragod"
+    ],
     referrer: "origin-when-cross-origin",
     creator: "ANAGH K R",
     publisher: "ANAGH K R",
@@ -40,15 +61,15 @@ export const metadata = {
         type: "website",
         locale: "en_IN",
         url: "https://www.anaghkr.in",
-        siteName: "ANAGH K R - Flutter & MERN Stack Developer",
-        title: "Flutter & MERN Stack Developer Kerala - ANAGH K R",
-        description: "Expert Flutter & MERN developer in Kerala — custom websites, mobile apps & e-commerce solutions. 3+ years experience serving businesses across Kerala.",
+        siteName: "ANAGH K R - Freelance Web Developer Kerala",
+        title: "Freelance Web Developer Kerala | Web, WordPress, Flutter - ANAGH K R",
+        description: "Freelance web developer and web designer in Kerala for custom websites, WordPress, e-commerce, and Flutter apps. Serving Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
         images: [
             {
                 url: "/favicon.png",
                 width: 1200,
                 height: 630,
-                alt: "ANAGH K R - Flutter & MERN Stack Developer Kerala"
+                alt: "ANAGH K R - Freelance Web Developer Kerala"
             }
         ]
     },
@@ -56,8 +77,8 @@ export const metadata = {
         card: "summary_large_image",
         site: "@anaghkr",
         creator: "@anaghkr",
-        title: "Flutter & MERN Stack Developer Kerala - ANAGH K R",
-        description: "Expert Flutter & MERN developer in Kerala — custom websites, mobile apps & e-commerce solutions. 3+ years experience serving businesses across Kerala.",
+        title: "Freelance Web Developer Kerala | Web, WordPress, Flutter - ANAGH K R",
+        description: "Freelance web developer and web designer in Kerala for custom websites, WordPress, e-commerce, and Flutter apps.",
         images: ["/favicon.png"]
     },
     alternates: {
