@@ -73,33 +73,26 @@ const Footer = () => {
                     {/* Service Pages */}
                     <div>
                         <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Services</h4>
-                        <ul className="space-y-4">
+                        <ul className="grid grid-cols-1 gap-y-2">
                             {[
                                 { label: 'Web Development', href: '/web-development' },
-                                { label: 'MERN Stack', href: '/mern-stack-development' },
-                                { label: 'Flutter Apps', href: '/flutter-app-development' },
-                                { label: 'WordPress', href: '/wordpress-development' },
                                 { label: 'E-commerce', href: '/ecommerce-development' },
-                                { label: 'Instagram Store', href: '/instagram-store-development' },
-                                { label: 'Dropshipping', href: '/dropshipping-website-development' },
-                                { label: 'Shopify Store', href: '/shopify-store-development' },
-                                { label: 'Clothing Ecommerce', href: '/clothing-ecommerce-website-development' },
-                                { label: 'Shoe Store Website', href: '/shoe-store-website-development' },
-                                { label: 'Electronics Ecommerce', href: '/electronics-ecommerce-website-development' },
-                                { label: 'Dating App', href: '/dating-app-development' },
-                                { label: 'Chat App', href: '/chat-app-development' },
-                                { label: 'Next.js Dev', href: '/nextjs-development' },
-                                { label: 'React Dev', href: '/react-development' },
-                                { label: 'Node.js Dev', href: '/nodejs-development' },
                                 { label: 'Mobile Apps', href: '/mobile-app-development' },
+                                { label: 'WordPress', href: '/wordpress-development' },
+                                { label: 'Instagram Store', href: '/instagram-store-development' },
+                                { label: 'Shopify Store', href: '/shopify-store-development' },
                             ].map((item) => (
                                 <li key={item.href}>
-                                    <Link href={item.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-2 group">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-blue-500/50 group-hover:bg-blue-500 transition-all"></span>
+                                    <Link href={item.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
                                         {item.label}
                                     </Link>
                                 </li>
                             ))}
+                            <li className="pt-2">
+                                <Link href="/services" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
+                                    View All Services
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 
