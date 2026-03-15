@@ -1,21 +1,21 @@
 export const metadata = {
-    title: "Web Developer Kasaragod | Flutter App Development - ANAGH K R",
-    description: "Local web & Flutter app developer in Kasaragod. Custom websites, mobile apps & e-commerce platforms for businesses in Kerala's northernmost district.",
-    keywords: "web developer Kasaragod, Flutter developer Kasaragod, app development Kasaragod, MERN stack developer Kasaragod, local digital solutions, custom mobile apps, multilingual platforms, e-commerce development Kasaragod, React developer Kasaragod, Bekal tourism websites",
+    title: "Web Development Services in Kasaragod, Kerala | ANAGH K R",
+    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kasaragod, Kerala. SEO-focused and conversion-ready solutions.",
+    keywords: "web developer Kasaragod, website development Kasaragod, ecommerce development Kasaragod, mobile app development Kasaragod, WordPress Kasaragod",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/kasaragod",
     },
     openGraph: {
-        title: "Web Developer Kasaragod | Flutter App Development Kasaragod",
-        description: "Local web development and Flutter app development services in Kasaragod. Personalized digital solutions for businesses in Kerala's northernmost district.",
+        title: "Web Development Services in Kasaragod | ANAGH K R",
+        description: "Website development, ecommerce, and mobile app services in Kasaragod, Kerala with professional delivery and clear communication.",
         url: "https://www.anaghkr.in/locations/kasaragod",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Developer Kasaragod | Flutter App Development Kasaragod",
-        description: "Local web development and Flutter app development services in Kasaragod. Personalized digital solutions for businesses in Kerala's northernmost district.",
+        title: "Web Development Services in Kasaragod | ANAGH K R",
+        description: "Professional website and app development services in Kasaragod, Kerala.",
     },
 };
 
@@ -23,9 +23,9 @@ import LocationTemplate from '../../../components/locations/LocationTemplate';
 
 const schemaData = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "ANAGH K R - Web Developer & App Developer Kasaragod",
-    "description": "Local web development and Flutter app development services in Kasaragod. Personalized digital solutions, custom websites, mobile applications, and e-commerce platforms for businesses in the northernmost district of Kerala.",
+    "@type": "ProfessionalService",
+    "name": "ANAGH K R - Web & App Development in Kasaragod",
+    "description": "Professional website development, ecommerce development, and mobile app development services in Kasaragod, Kerala.",
     "url": "https://www.anaghkr.in/locations/kasaragod",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
@@ -33,166 +33,118 @@ const schemaData = {
         "@type": "PostalAddress",
         "addressLocality": "Kasaragod",
         "addressRegion": "Kerala",
-        "postalCode": "671121",
         "addressCountry": "IN"
     },
-    "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "12.4996",
-        "longitude": "74.9869"
-    },
     "areaServed": [
-        {
-            "@type": "City",
-            "name": "Kasaragod"
-        }
-    ],
-    "priceRange": "₹₹",
-    "openingHours": "Mo-Sa 09:00-18:00",
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Web Development & App Development Services",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Personalized Web Solutions",
-                    "description": "Custom websites for local businesses with personal attention"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Custom Mobile Apps",
-                    "description": "Tailored mobile applications using Flutter"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Multilingual Solutions",
-                    "description": "Support for Malayalam, Tulu, Kannada, and English"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Local Business Websites",
-                    "description": "Professional websites for local services and shops"
-                }
-            }
-        ]
-    }
+        { "@type": "City", "name": "Kasaragod" },
+        { "@type": "State", "name": "Kerala" }
+    ]
 };
 
 export default function KasaragodServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-home",
-            title: "Local Expertise",
-            description: "Deep understanding of local business culture and community needs"
+            icon: "fas fa-building",
+            title: "Local Market Fit",
+            description: "Growing digital adoption among local brands"
         },
         {
-            icon: "fas fa-language",
-            title: "Multilingual Solutions",
-            description: "Support for Malayalam, Tulu, Kannada, and English languages"
+            icon: "fas fa-chart-line",
+            title: "Digital Growth Opportunity",
+            description: "Need for affordable modern websites"
         },
         {
-            icon: "fas fa-user-friends",
-            title: "Personalized Service",
-            description: "Direct communication and customized solutions for each client"
+            icon: "fas fa-mobile-alt",
+            title: "Mobile-First Demand",
+            description: "Demand for Malayalam-friendly UX"
         },
         {
-            icon: "fas fa-map-pin",
-            title: "Border District",
-            description: "Strategic location connecting Kerala and Karnataka markets"
+            icon: "fas fa-globe",
+            title: "SEO Visibility",
+            description: "Opportunity for SEO-led lead growth"
         }
     ];
 
     const services = [
         {
             icon: "fas fa-laptop-code",
-            title: "Personalized Web Solutions",
-            description: "Custom websites designed specifically for local businesses with personal attention",
-            features: ["Custom Design", "Local SEO", "Personal Consultation", "Ongoing Support"]
-        },
-        {
-            icon: "fab fa-flutter",
-            title: "Custom Mobile Apps",
-            description: "Tailored mobile applications for local businesses and service providers",
-            features: ["Flutter Development", "Local Features", "Offline Support", "Push Notifications"]
+            title: "Custom Website Development",
+            description: "Modern, responsive websites for Kasaragod businesses with clear messaging, conversion-focused layouts, and technical SEO foundations.",
+            features: ["Responsive Design", "SEO Structure", "Fast Loading", "Clear CTAs"]
         },
         {
             icon: "fas fa-shopping-cart",
             title: "E-commerce Development",
-            description: "Online stores for local retailers to expand their customer reach",
-            features: ["Local Payment Options", "Inventory Management", "Customer Support", "Multi-language"]
+            description: "Online store setups with product catalog, secure checkout, payment integration, and order workflow suitable for local businesses.",
+            features: ["Product Catalog", "Secure Payments", "Order Flow", "Mobile Checkout"]
         },
         {
-            icon: "fas fa-store",
-            title: "Local Business Websites",
-            description: "Professional websites for local services, shops, and professionals",
-            features: ["Business Listings", "Contact Forms", "Gallery Showcase", "Google Integration"]
+            icon: "fab fa-flutter",
+            title: "Mobile App Development",
+            description: "Flutter-based mobile apps for Android and iOS with practical business features, dashboard integration, and scalable structure.",
+            features: ["Flutter Apps", "API Integration", "Push Notifications", "App Store Support"]
         },
         {
-            icon: "fas fa-bullhorn",
-            title: "Digital Marketing",
-            description: "Local digital marketing strategies to reach Kasaragod customers",
-            features: ["Local SEO", "Social Media", "Google My Business", "Community Engagement"]
+            icon: "fab fa-wordpress",
+            title: "WordPress Development",
+            description: "Professional WordPress websites with editable content sections, optimized page speed, and clean on-page SEO setup.",
+            features: ["Custom Theme Setup", "Easy Editing", "Performance", "SEO Basics"]
         },
         {
-            icon: "fas fa-globe",
-            title: "Multilingual Solutions",
-            description: "Websites and apps supporting multiple regional languages",
-            features: ["Malayalam Support", "Tulu Integration", "Kannada Content", "English Version"]
+            icon: "fas fa-database",
+            title: "MERN Stack Development",
+            description: "Custom web apps using MongoDB, Express, React, and Node.js for dashboards, workflows, and business automation.",
+            features: ["Custom Dashboard", "API Architecture", "Role Access", "Scalable Code"]
+        },
+        {
+            icon: "fas fa-search",
+            title: "SEO and Performance",
+            description: "Technical SEO improvements including metadata quality, internal linking, schema setup, and page speed optimization.",
+            features: ["Technical SEO", "Schema Setup", "Core Web Vitals", "Local SEO"]
         }
     ];
 
     const benefits = [
         {
-            icon: "fas fa-heart",
-            title: "Community Connection",
-            description: "Strong ties with local business community and understanding of regional needs"
-        },
-        {
             icon: "fas fa-handshake",
-            title: "Personal Relationships",
-            description: "Building long-term partnerships with local businesses and entrepreneurs"
+            title: "Professional Communication",
+            description: "Clear scope, milestone-based updates, and transparent collaboration from planning to launch"
         },
         {
             icon: "fas fa-clock",
-            title: "Quick Response",
-            description: "Immediate support and quick turnaround for urgent business requirements"
+            title: "Structured Delivery",
+            description: "Well-defined project stages with realistic timelines and quality checks before release"
+        },
+        {
+            icon: "fas fa-map-marker-alt",
+            title: "Local SEO Focus",
+            description: "Content and metadata optimized for Kasaragod and Kerala location-based search intent"
         },
         {
             icon: "fas fa-rupee-sign",
-            title: "Local Pricing",
-            description: "Affordable rates designed for local market with flexible payment options"
+            title: "Practical Pricing",
+            description: "Scope-based quotes aligned with business requirements, features, and launch priorities"
         }
     ];
 
     const portfolio = [
         {
-            icon: "fas fa-clinic-medical",
-            title: "Healthcare Center Website",
-            description: "Professional website for local healthcare center with appointment booking",
-            tech: ["React", "Appointment System", "Multilingual", "Mobile Responsive"]
+            icon: "fas fa-store",
+            title: "Business Website Concept",
+            description: "Demo concept for a service-focused business website with lead capture forms, WhatsApp CTA, and local SEO landing sections for Kasaragod.",
+            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
         },
         {
-            icon: "fas fa-graduation-cap",
-            title: "Educational App",
-            description: "Learning app for local educational institution with offline content",
-            tech: ["Flutter", "Offline Support", "Progress Tracking", "Local Language"]
+            icon: "fas fa-shopping-bag",
+            title: "E-commerce Concept",
+            description: "Demo concept for an online store with product collections, payment integration flow, and conversion-friendly mobile checkout.",
+            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
         },
         {
-            icon: "fas fa-utensils",
-            title: "Restaurant Platform",
-            description: "Online ordering system for popular local restaurant chain",
-            tech: ["React", "Order Management", "Payment Gateway", "Delivery Tracking"]
+            icon: "fas fa-mobile-alt",
+            title: "Mobile App Concept",
+            description: "Demo concept for a Flutter mobile app with user onboarding, profile flow, push notifications, and API-based dashboard integration.",
+            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
         }
     ];
 
@@ -208,7 +160,7 @@ export default function KasaragodServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Local web development and Flutter app development services in Kasaragod. Offering personalized digital solutions with deep understanding of local business culture and community needs in Kerala's northernmost district."
+                description="Professional web development and mobile app development services in Kasaragod, Kasaragod, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for local businesses, shops, service teams, institutions, and small brands."
             />
         </>
     );

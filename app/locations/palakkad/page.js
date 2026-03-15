@@ -1,21 +1,21 @@
 export const metadata = {
-    title: "Web Developer Palakkad | Flutter App Development - ANAGH K R",
-    description: "Expert web & Flutter app development in Palakkad. Agricultural websites, educational platforms & business solutions for Kerala's gateway.",
-    keywords: "web developer Palakkad, Flutter developer Palakkad, app development Palakkad, MERN stack developer Palakkad, agricultural platforms, educational websites Palakkad, rural tech solutions, gateway of Kerala web development, React developer Palakkad, business solutions",
+    title: "Web Development Services in Palakkad, Kerala | ANAGH K R",
+    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Palakkad, Kerala. SEO-focused and conversion-ready solutions.",
+    keywords: "web developer Palakkad, website development Palakkad, ecommerce website Palakkad, mobile app development Palakkad, WordPress developer Palakkad",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/palakkad",
     },
     openGraph: {
-        title: "Web Developer Palakkad | Flutter App Development Palakkad",
-        description: "Expert web development and Flutter app development services in Palakkad. Specialized in agricultural and educational platform solutions.",
+        title: "Web Development Services in Palakkad | ANAGH K R",
+        description: "Website development, ecommerce, and mobile app services in Palakkad, Kerala with professional delivery and clear communication.",
         url: "https://www.anaghkr.in/locations/palakkad",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Developer Palakkad | Flutter App Development Palakkad",
-        description: "Expert web development and Flutter app development services in Palakkad. Specialized in agricultural and educational platform solutions.",
+        title: "Web Development Services in Palakkad | ANAGH K R",
+        description: "Professional website and app development services in Palakkad, Kerala.",
     },
 };
 
@@ -23,9 +23,9 @@ import LocationTemplate from '../../../components/locations/LocationTemplate';
 
 const schemaData = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "ANAGH K R - Web Developer & App Developer Palakkad",
-    "description": "Expert web development and Flutter app development services in Palakkad. Specializing in agricultural websites, educational platforms, and business solutions for the gateway of Kerala.",
+    "@type": "ProfessionalService",
+    "name": "ANAGH K R - Web & App Development in Palakkad",
+    "description": "Professional website development, ecommerce development, and mobile app development services in Palakkad, Kerala.",
     "url": "https://www.anaghkr.in/locations/palakkad",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
@@ -33,166 +33,118 @@ const schemaData = {
         "@type": "PostalAddress",
         "addressLocality": "Palakkad",
         "addressRegion": "Kerala",
-        "postalCode": "678001",
         "addressCountry": "IN"
     },
-    "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "10.7867",
-        "longitude": "76.6548"
-    },
     "areaServed": [
-        {
-            "@type": "City",
-            "name": "Palakkad"
-        }
-    ],
-    "priceRange": "₹₹",
-    "openingHours": "Mo-Sa 09:00-18:00",
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Web Development & App Development Services",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Agricultural Platforms",
-                    "description": "Digital solutions for farms and agri-businesses"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Educational Websites",
-                    "description": "Learning management systems for institutions"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Rural Tech Solutions",
-                    "description": "Technology solutions for rural businesses"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Mobile Development",
-                    "description": "Flutter apps for agricultural and educational sectors"
-                }
-            }
-        ]
-    }
+        { "@type": "City", "name": "Palakkad" },
+        { "@type": "State", "name": "Kerala" }
+    ]
 };
 
 export default function PalakkadServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-tractor",
-            title: "Agricultural Hub",
-            description: "Kerala's agricultural center with specialized farming technology needs"
+            icon: "fas fa-building",
+            title: "Local Market Fit",
+            description: "Expanding SME and service ecosystem"
         },
         {
-            icon: "fas fa-graduation-cap",
-            title: "Educational Center",
-            description: "Home to numerous educational institutions requiring digital solutions"
+            icon: "fas fa-chart-line",
+            title: "Digital Growth Opportunity",
+            description: "Demand for lead-focused websites"
         },
         {
-            icon: "fas fa-mountain",
-            title: "Gateway to Kerala",
-            description: "Strategic location connecting Kerala with neighboring states"
+            icon: "fas fa-mobile-alt",
+            title: "Mobile-First Demand",
+            description: "Rising use of booking and CRM tools"
         },
         {
-            icon: "fas fa-industry",
-            title: "Industrial Growth",
-            description: "Emerging industrial sector with expanding digital requirements"
+            icon: "fas fa-globe",
+            title: "SEO Visibility",
+            description: "Opportunity for local SEO growth"
         }
     ];
 
     const services = [
         {
-            icon: "fas fa-leaf",
-            title: "Agricultural Platforms",
-            description: "Digital solutions for farms, agri-businesses, and food processing units",
-            features: ["Farm Management", "Supply Chain", "Quality Control", "Market Connection"]
+            icon: "fas fa-laptop-code",
+            title: "Custom Website Development",
+            description: "Modern, responsive websites for Palakkad businesses with clear messaging, conversion-focused layouts, and technical SEO foundations.",
+            features: ["Responsive Design", "SEO Structure", "Fast Loading", "Clear CTAs"]
         },
         {
-            icon: "fas fa-school",
-            title: "Educational Websites",
-            description: "Digital platforms for schools, colleges, and educational institutions",
-            features: ["Learning Management", "Student Portal", "Admission Systems", "Digital Library"]
-        },
-        {
-            icon: "fas fa-store",
-            title: "Business Solutions",
-            description: "Comprehensive digital solutions for local businesses and enterprises",
-            features: ["Business Automation", "Customer Portals", "Inventory Systems", "Reporting Tools"]
+            icon: "fas fa-shopping-cart",
+            title: "E-commerce Development",
+            description: "Online store setups with product catalog, secure checkout, payment integration, and order workflow suitable for local businesses.",
+            features: ["Product Catalog", "Secure Payments", "Order Flow", "Mobile Checkout"]
         },
         {
             icon: "fab fa-flutter",
-            title: "Mobile Development",
-            description: "Native and cross-platform mobile applications for various industries",
-            features: ["iOS & Android", "Cross-Platform", "Native Performance", "App Store Deployment"]
+            title: "Mobile App Development",
+            description: "Flutter-based mobile apps for Android and iOS with practical business features, dashboard integration, and scalable structure.",
+            features: ["Flutter Apps", "API Integration", "Push Notifications", "App Store Support"]
         },
         {
-            icon: "fas fa-seedling",
-            title: "Rural Tech Solutions",
-            description: "Specialized technology solutions for rural businesses and communities",
-            features: ["Low Bandwidth", "Offline Capability", "Local Language", "Simple Interface"]
+            icon: "fab fa-wordpress",
+            title: "WordPress Development",
+            description: "Professional WordPress websites with editable content sections, optimized page speed, and clean on-page SEO setup.",
+            features: ["Custom Theme Setup", "Easy Editing", "Performance", "SEO Basics"]
         },
         {
             icon: "fas fa-database",
             title: "MERN Stack Development",
-            description: "Full-stack web applications using modern JavaScript technologies",
-            features: ["React Frontend", "Node.js Backend", "MongoDB Database", "Express Framework"]
+            description: "Custom web apps using MongoDB, Express, React, and Node.js for dashboards, workflows, and business automation.",
+            features: ["Custom Dashboard", "API Architecture", "Role Access", "Scalable Code"]
+        },
+        {
+            icon: "fas fa-search",
+            title: "SEO and Performance",
+            description: "Technical SEO improvements including metadata quality, internal linking, schema setup, and page speed optimization.",
+            features: ["Technical SEO", "Schema Setup", "Core Web Vitals", "Local SEO"]
         }
     ];
 
     const benefits = [
         {
-            icon: "fas fa-truck-loading",
-            title: "Agricultural Expertise",
-            description: "Specialized knowledge in developing solutions for agricultural businesses"
+            icon: "fas fa-handshake",
+            title: "Professional Communication",
+            description: "Clear scope, milestone-based updates, and transparent collaboration from planning to launch"
         },
         {
-            icon: "fas fa-book",
-            title: "Educational Focus",
-            description: "Experience in creating platforms for various educational institutions"
+            icon: "fas fa-clock",
+            title: "Structured Delivery",
+            description: "Well-defined project stages with realistic timelines and quality checks before release"
         },
         {
-            icon: "fas fa-hand-holding-heart",
-            title: "Rural Understanding",
-            description: "Deep understanding of rural business needs and challenges"
+            icon: "fas fa-map-marker-alt",
+            title: "Local SEO Focus",
+            description: "Content and metadata optimized for Palakkad and Kerala location-based search intent"
         },
         {
-            icon: "fas fa-language",
-            title: "Local Adaptability",
-            description: "Solutions that adapt to local language and cultural requirements"
+            icon: "fas fa-rupee-sign",
+            title: "Practical Pricing",
+            description: "Scope-based quotes aligned with business requirements, features, and launch priorities"
         }
     ];
 
     const portfolio = [
         {
-            icon: "fas fa-wheat-awn",
-            title: "Farm Management System",
-            description: "Comprehensive platform for a large paddy farm in Palakkad",
-            tech: ["React", "Node.js", "Weather API", "Crop Management"]
+            icon: "fas fa-store",
+            title: "Business Website Concept",
+            description: "Demo concept for a service-focused business website with lead capture forms, WhatsApp CTA, and local SEO landing sections for Palakkad.",
+            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
         },
         {
-            icon: "fas fa-university",
-            title: "College Portal",
-            description: "Digital campus solution for a prominent educational institution",
-            tech: ["MERN Stack", "Student Portal", "Faculty Dashboard", "Online Learning"]
+            icon: "fas fa-shopping-bag",
+            title: "E-commerce Concept",
+            description: "Demo concept for an online store with product collections, payment integration flow, and conversion-friendly mobile checkout.",
+            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
         },
         {
-            icon: "fas fa-box",
-            title: "Agri-Product Marketplace",
-            description: "E-commerce platform connecting local farmers with buyers",
-            tech: ["Flutter", "Firebase", "Payment Gateway", "Logistics Integration"]
+            icon: "fas fa-mobile-alt",
+            title: "Mobile App Concept",
+            description: "Demo concept for a Flutter mobile app with user onboarding, profile flow, push notifications, and API-based dashboard integration.",
+            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
         }
     ];
 
@@ -208,7 +160,7 @@ export default function PalakkadServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Expert web development and mobile app development services in Palakkad. Specialized in agricultural platforms, educational solutions, and rural technology for Kerala's gateway city."
+                description="Professional web development and mobile app development services in Palakkad, Palakkad, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for SMEs, educational brands, service businesses, and local commerce operations."
             />
         </>
     );

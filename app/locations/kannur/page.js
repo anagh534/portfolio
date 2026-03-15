@@ -1,21 +1,21 @@
 export const metadata = {
-    title: "Web Developer Kannur | Flutter App Development - ANAGH K R",
-    description: "Expert web & Flutter app development in Kannur. Responsive websites, mobile apps & e-commerce platforms for coastal and handloom businesses.",
-    keywords: "web developer Kannur, Flutter developer Kannur, app development Kannur, MERN stack developer Kannur, handloom e-commerce, export business solutions, coastal web developer, React developer Kannur, mobile app development, business automation",
+    title: "Web Development Services in Kannur, Kerala | ANAGH K R",
+    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kannur, Kerala. SEO-focused and conversion-ready solutions.",
+    keywords: "web developer Kannur, website development Kannur, ecommerce website Kannur, mobile app developer Kannur, WordPress Kannur",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/kannur",
     },
     openGraph: {
-        title: "Web Developer Kannur | Flutter App Development Kannur",
-        description: "Expert web development and Flutter app development services in Kannur. Comprehensive digital solutions for coastal and handloom businesses.",
+        title: "Web Development Services in Kannur | ANAGH K R",
+        description: "Website development, ecommerce, and mobile app services in Kannur, Kerala with professional delivery and clear communication.",
         url: "https://www.anaghkr.in/locations/kannur",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Developer Kannur | Flutter App Development Kannur",
-        description: "Expert web development and Flutter app development services in Kannur. Comprehensive digital solutions for coastal and handloom businesses.",
+        title: "Web Development Services in Kannur | ANAGH K R",
+        description: "Professional website and app development services in Kannur, Kerala.",
     },
 };
 
@@ -23,9 +23,9 @@ import LocationTemplate from '../../../components/locations/LocationTemplate';
 
 const schemaData = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "ANAGH K R - Web Developer & App Developer Kannur",
-    "description": "Expert web development and Flutter app development services in Kannur. Comprehensive digital solutions including responsive websites, mobile apps, and e-commerce platforms for coastal and handloom businesses.",
+    "@type": "ProfessionalService",
+    "name": "ANAGH K R - Web & App Development in Kannur",
+    "description": "Professional website development, ecommerce development, and mobile app development services in Kannur, Kerala.",
     "url": "https://www.anaghkr.in/locations/kannur",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
@@ -33,166 +33,118 @@ const schemaData = {
         "@type": "PostalAddress",
         "addressLocality": "Kannur",
         "addressRegion": "Kerala",
-        "postalCode": "670001",
         "addressCountry": "IN"
     },
-    "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "11.8745",
-        "longitude": "75.3704"
-    },
     "areaServed": [
-        {
-            "@type": "City",
-            "name": "Kannur"
-        }
-    ],
-    "priceRange": "₹₹",
-    "openingHours": "Mo-Sa 09:00-18:00",
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Web Development & App Development Services",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Responsive Web Design",
-                    "description": "Mobile-first responsive websites for coastal businesses"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "E-commerce Solutions",
-                    "description": "Online stores for handloom and export businesses"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Mobile App Development",
-                    "description": "Flutter apps for traditional businesses"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Business Automation",
-                    "description": "Automated workflows for business efficiency"
-                }
-            }
-        ]
-    }
+        { "@type": "City", "name": "Kannur" },
+        { "@type": "State", "name": "Kerala" }
+    ]
 };
 
 export default function KannurServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-water",
-            title: "Coastal Heritage",
-            description: "Rich coastal culture with Payyambalam Beach tourism, St. Angelo Fort heritage sites, and thriving coastal trade businesses requiring modern digital presence"
+            icon: "fas fa-building",
+            title: "Local Market Fit",
+            description: "Local businesses moving online"
         },
         {
-            icon: "fas fa-industry",
-            title: "Handloom Industry",
-            description: "Traditional Kannur handloom and textile industry hub with renowned handloom cooperative societies exporting globally, requiring e-commerce platforms"
+            icon: "fas fa-chart-line",
+            title: "Digital Growth Opportunity",
+            description: "Demand for catalog and ecommerce sites"
         },
         {
-            icon: "fas fa-ship",
-            title: "Port Connectivity",
-            description: "Strategic Azhikkal and Dharmadam port locations providing excellent connectivity for spice traders, seafood exporters, and commercial businesses"
+            icon: "fas fa-mobile-alt",
+            title: "Mobile-First Demand",
+            description: "Service-led mobile app opportunities"
         },
         {
-            icon: "fas fa-leaf",
-            title: "Spice Trade",
-            description: "Historical spice and cashew trading center with modern export businesses in Taliparamba and Thalassery requiring international payment and shipping solutions"
+            icon: "fas fa-globe",
+            title: "SEO Visibility",
+            description: "Need for regional SEO visibility"
         }
     ];
 
     const services = [
         {
-            icon: "fas fa-mobile-alt",
-            title: "Responsive Web Design",
-            description: "Mobile-first responsive websites optimized for all devices and screen sizes",
-            features: ["Mobile-First Design", "Cross-Browser Compatible", "Fast Loading", "SEO Optimized"]
+            icon: "fas fa-laptop-code",
+            title: "Custom Website Development",
+            description: "Modern, responsive websites for Kannur businesses with clear messaging, conversion-focused layouts, and technical SEO foundations.",
+            features: ["Responsive Design", "SEO Structure", "Fast Loading", "Clear CTAs"]
+        },
+        {
+            icon: "fas fa-shopping-cart",
+            title: "E-commerce Development",
+            description: "Online store setups with product catalog, secure checkout, payment integration, and order workflow suitable for local businesses.",
+            features: ["Product Catalog", "Secure Payments", "Order Flow", "Mobile Checkout"]
         },
         {
             icon: "fab fa-flutter",
             title: "Mobile App Development",
-            description: "Native and cross-platform mobile applications for business growth",
-            features: ["iOS & Android", "Cross-Platform", "Native Performance", "App Store Deployment"]
+            description: "Flutter-based mobile apps for Android and iOS with practical business features, dashboard integration, and scalable structure.",
+            features: ["Flutter Apps", "API Integration", "Push Notifications", "App Store Support"]
         },
         {
-            icon: "fas fa-shopping-cart",
-            title: "E-commerce Solutions",
-            description: "Complete online stores with payment integration and inventory management",
-            features: ["Payment Gateway", "Inventory System", "Order Management", "Customer Portal"]
-        },
-        {
-            icon: "fas fa-chart-line",
-            title: "Digital Marketing",
-            description: "Comprehensive digital marketing strategies to grow your online presence",
-            features: ["SEO Services", "Social Media Marketing", "PPC Campaigns", "Analytics Setup"]
-        },
-        {
-            icon: "fas fa-cogs",
-            title: "Business Automation",
-            description: "Automated workflows and systems to improve business efficiency",
-            features: ["Process Automation", "CRM Integration", "Workflow Management", "API Development"]
+            icon: "fab fa-wordpress",
+            title: "WordPress Development",
+            description: "Professional WordPress websites with editable content sections, optimized page speed, and clean on-page SEO setup.",
+            features: ["Custom Theme Setup", "Easy Editing", "Performance", "SEO Basics"]
         },
         {
             icon: "fas fa-database",
             title: "MERN Stack Development",
-            description: "Full-stack web applications using modern JavaScript technologies",
-            features: ["React Frontend", "Node.js Backend", "MongoDB Database", "Express Framework"]
+            description: "Custom web apps using MongoDB, Express, React, and Node.js for dashboards, workflows, and business automation.",
+            features: ["Custom Dashboard", "API Architecture", "Role Access", "Scalable Code"]
+        },
+        {
+            icon: "fas fa-search",
+            title: "SEO and Performance",
+            description: "Technical SEO improvements including metadata quality, internal linking, schema setup, and page speed optimization.",
+            features: ["Technical SEO", "Schema Setup", "Core Web Vitals", "Local SEO"]
         }
     ];
 
     const benefits = [
         {
-            icon: "fas fa-anchor",
-            title: "Coastal Expertise",
-            description: "Deep understanding of coastal business culture and traditional trade practices"
+            icon: "fas fa-handshake",
+            title: "Professional Communication",
+            description: "Clear scope, milestone-based updates, and transparent collaboration from planning to launch"
         },
         {
-            icon: "fas fa-palette",
-            title: "Artisan Solutions",
-            description: "Specialized platforms for handloom and traditional craft businesses"
+            icon: "fas fa-clock",
+            title: "Structured Delivery",
+            description: "Well-defined project stages with realistic timelines and quality checks before release"
         },
         {
-            icon: "fas fa-globe-americas",
-            title: "Export Solutions",
-            description: "Digital solutions tailored for export businesses and international trade"
+            icon: "fas fa-map-marker-alt",
+            title: "Local SEO Focus",
+            description: "Content and metadata optimized for Kannur and Kerala location-based search intent"
         },
         {
-            icon: "fas fa-history",
-            title: "Heritage Integration",
-            description: "Blending traditional business values with modern digital technologies"
+            icon: "fas fa-rupee-sign",
+            title: "Practical Pricing",
+            description: "Scope-based quotes aligned with business requirements, features, and launch priorities"
         }
     ];
 
     const portfolio = [
         {
+            icon: "fas fa-store",
+            title: "Business Website Concept",
+            description: "Demo concept for a service-focused business website with lead capture forms, WhatsApp CTA, and local SEO landing sections for Kannur.",
+            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
+        },
+        {
             icon: "fas fa-shopping-bag",
-            title: "Handloom E-commerce",
-            description: "Online marketplace for traditional Kannur handloom and textile products",
-            tech: ["React", "Node.js", "Product Catalog", "International Shipping"]
+            title: "E-commerce Concept",
+            description: "Demo concept for an online store with product collections, payment integration flow, and conversion-friendly mobile checkout.",
+            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
         },
         {
-            icon: "fas fa-ship",
-            title: "Export Management",
-            description: "Export business management system for spice and commodity traders",
-            tech: ["Flutter", "Firebase", "Document Management", "Shipping Tracker"]
-        },
-        {
-            icon: "fas fa-utensils",
-            title: "Spice Portal",
-            description: "B2B platform for spice traders with quality certification and bulk ordering",
-            tech: ["React", "Quality Control", "Bulk Orders", "Certificate Management"]
+            icon: "fas fa-mobile-alt",
+            title: "Mobile App Concept",
+            description: "Demo concept for a Flutter mobile app with user onboarding, profile flow, push notifications, and API-based dashboard integration.",
+            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
         }
     ];
 
@@ -208,7 +160,7 @@ export default function KannurServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Expert web development and mobile app development services in Kannur, Kerala's coastal handloom capital. With 3+ years of professional experience, I specialize in digital solutions for handloom cooperatives, spice exporters, coastal tourism businesses, and traditional enterprises throughout Kannur district. Services include responsive website design for handloom showrooms showcasing traditional fabrics online, e-commerce platforms for textile and spice exporters with international shipping and multi-currency support, mobile applications using Flutter for tourism and business management, and MERN stack development for complex trading platforms. I understand Kannur's unique position - from traditional handloom weaving communities to modern port-based export businesses, from Payyambalam Beach tourism to Thalassery's culinary heritage. Whether you need an e-commerce store for handloom products reaching global markets, an export management system with documentation automation, a tourism booking platform, or a business website for coastal enterprises, I deliver solutions respecting local traditions while leveraging modern technology. Transparent pricing starts at ₹3,000 for basic websites, ₹4,000+ for WordPress platforms, and ₹10,000+ for mobile apps with custom quotes for export platforms. Serving Kannur town, Thalassery, Taliparamba, Payyannur, and surrounding coastal areas with dedicated support."
+                description="Professional web development and mobile app development services in Kannur, Kannur, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for retail shops, tourism services, clinics, institutions, and local entrepreneurs."
             />
         </>
     );

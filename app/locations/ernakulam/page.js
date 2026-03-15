@@ -1,21 +1,21 @@
 export const metadata = {
-    title: "Web Developer Ernakulam | Flutter App Development - ANAGH K R",
-    description: "Expert web & Flutter app development in Ernakulam district. Responsive websites, mobile apps & e-commerce platforms for urban businesses.",
-    keywords: "web developer Ernakulam, Flutter developer Ernakulam, app development Ernakulam, MERN stack developer Ernakulam, Kochi web services, responsive web design, mobile app development, e-commerce solutions, React developer Ernakulam, business automation",
+    title: "Web Development Services in Ernakulam, Kerala | ANAGH K R",
+    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Ernakulam, Kerala. SEO-focused and conversion-ready solutions.",
+    keywords: "web developer Ernakulam, website development Ernakulam, ecommerce website Ernakulam, app development Ernakulam, SEO developer Ernakulam",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/ernakulam",
     },
     openGraph: {
-        title: "Web Developer Ernakulam | Flutter App Development Ernakulam",
-        description: "Expert web development and Flutter app development services in Ernakulam district. Comprehensive digital solutions for urban businesses.",
+        title: "Web Development Services in Ernakulam | ANAGH K R",
+        description: "Website development, ecommerce, and mobile app services in Ernakulam, Kerala with professional delivery and clear communication.",
         url: "https://www.anaghkr.in/locations/ernakulam",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Developer Ernakulam | Flutter App Development Ernakulam",
-        description: "Expert web development and Flutter app development services in Ernakulam district. Comprehensive digital solutions for urban businesses.",
+        title: "Web Development Services in Ernakulam | ANAGH K R",
+        description: "Professional website and app development services in Ernakulam, Kerala.",
     },
 };
 
@@ -23,9 +23,9 @@ import LocationTemplate from '../../../components/locations/LocationTemplate';
 
 const schemaData = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "ANAGH K R - Web Developer & App Developer Ernakulam",
-    "description": "Expert web development and Flutter app development services in Ernakulam district. Comprehensive digital solutions including responsive websites, mobile apps, and e-commerce platforms for urban businesses.",
+    "@type": "ProfessionalService",
+    "name": "ANAGH K R - Web & App Development in Ernakulam",
+    "description": "Professional website development, ecommerce development, and mobile app development services in Ernakulam, Kerala.",
     "url": "https://www.anaghkr.in/locations/ernakulam",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
@@ -33,166 +33,118 @@ const schemaData = {
         "@type": "PostalAddress",
         "addressLocality": "Ernakulam",
         "addressRegion": "Kerala",
-        "postalCode": "682001",
         "addressCountry": "IN"
     },
-    "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "9.9816",
-        "longitude": "76.2999"
-    },
     "areaServed": [
-        {
-            "@type": "City",
-            "name": "Ernakulam"
-        }
-    ],
-    "priceRange": "₹₹",
-    "openingHours": "Mo-Sa 09:00-18:00",
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Web Development & App Development Services",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Enterprise Solutions",
-                    "description": "Scalable web applications for corporate clients"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Mobile App Development",
-                    "description": "Flutter apps for business growth"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "E-commerce Solutions",
-                    "description": "Complete online stores with payment integration"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Business Automation",
-                    "description": "Workflow automation for enterprises"
-                }
-            }
-        ]
-    }
+        { "@type": "City", "name": "Ernakulam" },
+        { "@type": "State", "name": "Kerala" }
+    ]
 };
 
-export default function ErnkulamServices() {
+export default function ErnakulamServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-city",
-            title: "Urban Center",
-            description: "Major urban district with diverse business opportunities"
-        },
-        {
             icon: "fas fa-building",
-            title: "Business District",
-            description: "Corporate offices and business parks requiring modern solutions"
+            title: "Local Market Fit",
+            description: "Urban and business-dense district"
         },
         {
-            icon: "fas fa-laptop-code",
-            title: "Tech Companies",
-            description: "Home to numerous IT companies and tech startups"
+            icon: "fas fa-chart-line",
+            title: "Digital Growth Opportunity",
+            description: "High demand for scalable websites"
         },
         {
-            icon: "fas fa-road",
-            title: "Modern Infrastructure",
-            description: "Well-developed infrastructure supporting digital businesses"
+            icon: "fas fa-mobile-alt",
+            title: "Mobile-First Demand",
+            description: "Strong app and dashboard use cases"
+        },
+        {
+            icon: "fas fa-globe",
+            title: "SEO Visibility",
+            description: "Competitive local search landscape"
         }
     ];
 
     const services = [
         {
-            icon: "fas fa-mobile-alt",
-            title: "Responsive Web Design",
-            description: "Mobile-first responsive websites optimized for all devices and screen sizes",
-            features: ["Mobile-First Design", "Cross-Browser Compatible", "Fast Loading", "SEO Optimized"]
+            icon: "fas fa-laptop-code",
+            title: "Custom Website Development",
+            description: "Modern, responsive websites for Ernakulam businesses with clear messaging, conversion-focused layouts, and technical SEO foundations.",
+            features: ["Responsive Design", "SEO Structure", "Fast Loading", "Clear CTAs"]
+        },
+        {
+            icon: "fas fa-shopping-cart",
+            title: "E-commerce Development",
+            description: "Online store setups with product catalog, secure checkout, payment integration, and order workflow suitable for local businesses.",
+            features: ["Product Catalog", "Secure Payments", "Order Flow", "Mobile Checkout"]
         },
         {
             icon: "fab fa-flutter",
             title: "Mobile App Development",
-            description: "Native and cross-platform mobile applications for business growth",
-            features: ["iOS & Android", "Cross-Platform", "Native Performance", "App Store Deployment"]
+            description: "Flutter-based mobile apps for Android and iOS with practical business features, dashboard integration, and scalable structure.",
+            features: ["Flutter Apps", "API Integration", "Push Notifications", "App Store Support"]
         },
         {
-            icon: "fas fa-shopping-cart",
-            title: "E-commerce Solutions",
-            description: "Complete online stores with payment integration and inventory management",
-            features: ["Payment Gateway", "Inventory System", "Order Management", "Customer Portal"]
-        },
-        {
-            icon: "fas fa-chart-line",
-            title: "Digital Marketing",
-            description: "Comprehensive digital marketing strategies to grow your online presence",
-            features: ["SEO Services", "Social Media Marketing", "PPC Campaigns", "Analytics Setup"]
-        },
-        {
-            icon: "fas fa-cogs",
-            title: "Business Automation",
-            description: "Automated workflows and systems to improve business efficiency",
-            features: ["Process Automation", "CRM Integration", "Workflow Management", "API Development"]
+            icon: "fab fa-wordpress",
+            title: "WordPress Development",
+            description: "Professional WordPress websites with editable content sections, optimized page speed, and clean on-page SEO setup.",
+            features: ["Custom Theme Setup", "Easy Editing", "Performance", "SEO Basics"]
         },
         {
             icon: "fas fa-database",
             title: "MERN Stack Development",
-            description: "Full-stack web applications using modern JavaScript technologies",
-            features: ["React Frontend", "Node.js Backend", "MongoDB Database", "Express Framework"]
+            description: "Custom web apps using MongoDB, Express, React, and Node.js for dashboards, workflows, and business automation.",
+            features: ["Custom Dashboard", "API Architecture", "Role Access", "Scalable Code"]
+        },
+        {
+            icon: "fas fa-search",
+            title: "SEO and Performance",
+            description: "Technical SEO improvements including metadata quality, internal linking, schema setup, and page speed optimization.",
+            features: ["Technical SEO", "Schema Setup", "Core Web Vitals", "Local SEO"]
         }
     ];
 
     const benefits = [
         {
-            icon: "fas fa-users",
-            title: "Corporate Experience",
-            description: "Extensive experience working with corporate clients and enterprise requirements"
+            icon: "fas fa-handshake",
+            title: "Professional Communication",
+            description: "Clear scope, milestone-based updates, and transparent collaboration from planning to launch"
         },
         {
-            icon: "fas fa-rocket",
-            title: "Scalable Solutions",
-            description: "Building applications that scale with your business growth and expansion"
+            icon: "fas fa-clock",
+            title: "Structured Delivery",
+            description: "Well-defined project stages with realistic timelines and quality checks before release"
         },
         {
-            icon: "fas fa-shield-alt",
-            title: "Enterprise Security",
-            description: "Implementation of robust security measures for business-critical applications"
+            icon: "fas fa-map-marker-alt",
+            title: "Local SEO Focus",
+            description: "Content and metadata optimized for Ernakulam and Kerala location-based search intent"
         },
         {
-            icon: "fas fa-headset",
-            title: "Professional Support",
-            description: "Dedicated technical support and maintenance for enterprise applications"
+            icon: "fas fa-rupee-sign",
+            title: "Practical Pricing",
+            description: "Scope-based quotes aligned with business requirements, features, and launch priorities"
         }
     ];
 
     const portfolio = [
         {
-            icon: "fas fa-building",
-            title: "Corporate Website",
-            description: "Professional corporate website for leading Ernakulam business group",
-            tech: ["React", "Node.js", "Corporate Design", "CMS Integration"]
-        },
-        {
-            icon: "fas fa-mobile-alt",
-            title: "Business App",
-            description: "Enterprise mobile app for workforce management and communication",
-            tech: ["Flutter", "Firebase", "Real-time Chat", "Employee Portal"]
+            icon: "fas fa-store",
+            title: "Business Website Concept",
+            description: "Demo concept for a service-focused business website with lead capture forms, WhatsApp CTA, and local SEO landing sections for Ernakulam.",
+            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
         },
         {
             icon: "fas fa-shopping-bag",
-            title: "E-commerce Platform",
-            description: "Multi-vendor e-commerce platform for retail business network",
-            tech: ["React", "Payment Gateway", "Multi-vendor", "Admin Dashboard"]
+            title: "E-commerce Concept",
+            description: "Demo concept for an online store with product collections, payment integration flow, and conversion-friendly mobile checkout.",
+            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
+        },
+        {
+            icon: "fas fa-mobile-alt",
+            title: "Mobile App Concept",
+            description: "Demo concept for a Flutter mobile app with user onboarding, profile flow, push notifications, and API-based dashboard integration.",
+            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
         }
     ];
 
@@ -208,7 +160,7 @@ export default function ErnkulamServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Expert web development and mobile app development services in Ernakulam district. Comprehensive digital solutions for urban businesses, corporate clients, and enterprise applications."
+                description="Professional web development and mobile app development services in Ernakulam, Ernakulam, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for business groups, local brands, technology teams, clinics, and service providers."
             />
         </>
     );

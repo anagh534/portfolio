@@ -1,21 +1,21 @@
 export const metadata = {
-    title: "Web Developer Trivandrum | Flutter App Development - ANAGH K R",
-    description: "Web & Flutter app development in Thiruvananthapuram/Trivandrum. enterprise solutions, enterprise development & mobile apps in Kerala's capital.",
-    keywords: "web developer Thiruvananthapuram, Flutter developer Trivandrum, app development Thiruvananthapuram, enterprise web solutions Kerala, MERN stack developer Trivandrum, React developer Thiruvananthapuram, educational platform development, enterprise web development, Technopark developer, mobile app development capital city",
+    title: "Web Development Services in Thiruvananthapuram, Kerala | ANAGH K R",
+    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram, Kerala. SEO-focused and conversion-ready solutions.",
+    keywords: "web developer Thiruvananthapuram, web development Trivandrum, mobile app development Trivandrum, ecommerce website Trivandrum, WordPress developer Trivandrum",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/thiruvananthapuram",
     },
     openGraph: {
-        title: "Web Developer Thiruvananthapuram | Flutter App Development Trivandrum",
-        description: "Professional web development and Flutter app development services in Thiruvananthapuram. Specialized in enterprise and institutional projects and enterprise solutions.",
+        title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+        description: "Website development, ecommerce, and mobile app services in Thiruvananthapuram, Kerala with professional delivery and clear communication.",
         url: "https://www.anaghkr.in/locations/thiruvananthapuram",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Developer Thiruvananthapuram | Flutter App Development Trivandrum",
-        description: "Professional web development and Flutter app development services in Thiruvananthapuram. Specialized in enterprise and institutional projects and enterprise solutions.",
+        title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+        description: "Professional website and app development services in Thiruvananthapuram, Kerala.",
     },
 };
 
@@ -23,9 +23,9 @@ import LocationTemplate from '../../../components/locations/LocationTemplate';
 
 const schemaData = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "ANAGH K R - Web Developer & App Developer Thiruvananthapuram",
-    "description": "Professional web development and Flutter app development services in Thiruvananthapuram (Trivandrum). Specialized in enterprise and institutional projects, educational platforms, and enterprise solutions with focus on security and compliance.",
+    "@type": "ProfessionalService",
+    "name": "ANAGH K R - Web & App Development in Thiruvananthapuram",
+    "description": "Professional website development, ecommerce development, and mobile app development services in Thiruvananthapuram, Kerala.",
     "url": "https://www.anaghkr.in/locations/thiruvananthapuram",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
@@ -33,166 +33,118 @@ const schemaData = {
         "@type": "PostalAddress",
         "addressLocality": "Thiruvananthapuram",
         "addressRegion": "Kerala",
-        "postalCode": "695001",
         "addressCountry": "IN"
     },
-    "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "8.5241",
-        "longitude": "76.9366"
-    },
     "areaServed": [
-        {
-            "@type": "City",
-            "name": "Thiruvananthapuram"
-        }
-    ],
-    "priceRange": "₹₹",
-    "openingHours": "Mo-Sa 09:00-18:00",
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Web Development & App Development Services",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Enterprise Web Solutions",
-                    "description": "Specialized web portals and applications for large organizations"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Educational Platforms",
-                    "description": "E-learning systems and educational portals"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Enterprise Development",
-                    "description": "Large-scale web applications and enterprise solutions"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Mobile App Development",
-                    "description": "Cross-platform mobile applications using Flutter"
-                }
-            }
-        ]
-    }
+        { "@type": "City", "name": "Thiruvananthapuram" },
+        { "@type": "State", "name": "Kerala" }
+    ]
 };
 
 export default function ThiruvananthapuramServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-university",
-            title: "Capital City",
-            description: "Kerala's administrative capital with Secretariat, large organizations, and major institutions requiring digital solutions"
+            icon: "fas fa-building",
+            title: "Local Market Fit",
+            description: "IT and institutional ecosystem"
         },
         {
-            icon: "fas fa-satellite-dish",
-            title: "Technopark IT Hub",
-            description: "India's first IT park with 450+ companies including TCS, Infosys, and startups requiring development services"
+            icon: "fas fa-chart-line",
+            title: "Digital Growth Opportunity",
+            description: "Strong demand for secure web platforms"
         },
         {
-            icon: "fas fa-graduation-cap",
-            title: "Education Center",
-            description: "University of Kerala, IIT, medical colleges, and research institutions needing educational platforms"
+            icon: "fas fa-mobile-alt",
+            title: "Mobile-First Demand",
+            description: "Growth in service and health businesses"
         },
         {
             icon: "fas fa-globe",
-            title: "International Gateway",
-            description: "International airport connecting global businesses, expat entrepreneurs, and tourism sector digital needs"
+            title: "SEO Visibility",
+            description: "High digital adoption in city markets"
         }
     ];
 
     const services = [
         {
-            icon: "fas fa-landmark",
-            title: "Enterprise Web Solutions",
-            description: "Specialized web portals and applications for large organizations in the Secretariat and state administration. I develop enterprise service portals with secure authentication, compliance with enterprise security standards, and accessibility features for public services. Services include integration with State Data Center, Aadhaar authentication, payment gateways for service fees, and multi-language support for Malayalam and English interfaces serving Kerala's administrative capital.",
-            features: ["Secure Development", "Compliance Standards", "Accessibility Features", "Multi-language Support"]
+            icon: "fas fa-laptop-code",
+            title: "Custom Website Development",
+            description: "Modern, responsive websites for Thiruvananthapuram businesses with clear messaging, conversion-focused layouts, and technical SEO foundations.",
+            features: ["Responsive Design", "SEO Structure", "Fast Loading", "Clear CTAs"]
         },
         {
-            icon: "fas fa-school",
-            title: "Educational Platforms",
-            description: "E-learning systems and educational portals for universities, colleges, and institutions throughout Trivandrum. I build comprehensive learning management systems for University of Kerala affiliated colleges, student portals with online examination systems, virtual classroom platforms with video conferencing, and digital library solutions. Includes attendance tracking, grade management, course material delivery, and parent-teacher communication portals for schools and coaching centers in Trivandrum.",
-            features: ["LMS Development", "Student Portals", "Online Assessment", "Virtual Classrooms"]
-        },
-        {
-            icon: "fas fa-building",
-            title: "Enterprise Development",
-            description: "Large-scale web applications and enterprise solutions for corporations at Technopark and business districts. I develop ERP systems, CRM platforms, HR management software, inventory systems, and custom business applications with scalable architecture. Services include integration with existing enterprise systems, API development for third-party services, cloud deployment on AWS/Azure, and performance optimization for high-traffic applications serving Technopark IT companies and large organizations.",
-            features: ["Scalable Architecture", "Enterprise Integration", "Security Features", "Performance Optimization"]
+            icon: "fas fa-shopping-cart",
+            title: "E-commerce Development",
+            description: "Online store setups with product catalog, secure checkout, payment integration, and order workflow suitable for local businesses.",
+            features: ["Product Catalog", "Secure Payments", "Order Flow", "Mobile Checkout"]
         },
         {
             icon: "fab fa-flutter",
             title: "Mobile App Development",
-            description: "Cross-platform mobile applications using Flutter for large organizations, educational institutions, and enterprises in Trivandrum. I develop mobile service apps for digital initiatives, mobile learning apps for schools and universities, employee productivity apps for Technopark companies, and tourism apps showcasing Kerala's capital. All apps include offline functionality, push notifications, secure authentication, and integration with web portals and backend systems.",
-            features: ["Enterprise Apps", "Enterprise Mobility", "Citizen Services", "Employee Apps"]
+            description: "Flutter-based mobile apps for Android and iOS with practical business features, dashboard integration, and scalable structure.",
+            features: ["Flutter Apps", "API Integration", "Push Notifications", "App Store Support"]
         },
         {
-            icon: "fas fa-cogs",
-            title: "Custom Software Solutions",
-            description: "Tailored software development for specific business requirements in healthcare, tourism, and administrative sectors. I build hospital management systems for medical colleges and healthcare facilities, tourism booking platforms for travel agencies at Kovalam and city hotels, document management systems for enterprise offices, and workflow automation tools. Services include system integration with legacy software, RESTful API development, cloud hosting solutions, and custom reporting dashboards for data-driven decision making.",
-            features: ["Custom Development", "System Integration", "API Development", "Cloud Solutions"]
+            icon: "fab fa-wordpress",
+            title: "WordPress Development",
+            description: "Professional WordPress websites with editable content sections, optimized page speed, and clean on-page SEO setup.",
+            features: ["Custom Theme Setup", "Easy Editing", "Performance", "SEO Basics"]
         },
         {
-            icon: "fas fa-chart-line",
-            title: "Digital Transformation",
-            description: "Complete digital transformation services for large organizations, educational institutions, and businesses transitioning to digital operations. I help organizations implement paperless offices, automate manual processes, adopt cloud technologies, and digitize services for citizens and customers. Services include digital strategy consulting, technology assessment, process mapping and automation, staff training, and ongoing support to ensure successful adoption of digital solutions across Kerala's administrative capital.",
-            features: ["Process Automation", "Digital Strategy", "Technology Consulting", "Change Management"]
+            icon: "fas fa-database",
+            title: "MERN Stack Development",
+            description: "Custom web apps using MongoDB, Express, React, and Node.js for dashboards, workflows, and business automation.",
+            features: ["Custom Dashboard", "API Architecture", "Role Access", "Scalable Code"]
+        },
+        {
+            icon: "fas fa-search",
+            title: "SEO and Performance",
+            description: "Technical SEO improvements including metadata quality, internal linking, schema setup, and page speed optimization.",
+            features: ["Technical SEO", "Schema Setup", "Core Web Vitals", "Local SEO"]
         }
     ];
 
     const benefits = [
         {
-            icon: "fas fa-shield-alt",
-            title: "Security Focus",
-            description: "Specialized in secure development practices for enterprise and institutional projects with encryption, secure authentication, and compliance with India's data protection standards for handling sensitive citizen and business data"
+            icon: "fas fa-handshake",
+            title: "Professional Communication",
+            description: "Clear scope, milestone-based updates, and transparent collaboration from planning to launch"
         },
         {
-            icon: "fas fa-users",
-            title: "Enterprise Experience",
-            description: "3+ years of experience working with large organizations, large organizations, and Technopark IT companies handling complex requirements, scalable architectures, and mission-critical applications"
+            icon: "fas fa-clock",
+            title: "Structured Delivery",
+            description: "Well-defined project stages with realistic timelines and quality checks before release"
         },
         {
-            icon: "fas fa-certificate",
-            title: "Affordable Pricing",
-            description: "Transparent pricing starting from ₹3,000 for basic websites, ₹4,000+ for WordPress solutions, and ₹10,000+ for mobile apps. Custom quotes for enterprise and institutional projects and enterprise applications based on requirements"
+            icon: "fas fa-map-marker-alt",
+            title: "Local SEO Focus",
+            description: "Content and metadata optimized for Thiruvananthapuram and Kerala location-based search intent"
         },
         {
-            icon: "fas fa-headset",
-            title: "Professional Support",
-            description: "Dedicated support for mission-critical applications in healthcare and education sectors with 48-hour response time, regular updates, and maintenance services for ongoing digital operations"
+            icon: "fas fa-rupee-sign",
+            title: "Practical Pricing",
+            description: "Scope-based quotes aligned with business requirements, features, and launch priorities"
         }
     ];
 
     const portfolio = [
         {
-            icon: "fas fa-vote-yea",
-            title: "Enterprise Service Portal",
-            description: "service portal for state department at Secretariat with secure authentication, online application submissions, document verification, and payment integration for service fees and services",
-            tech: ["React", "Node.js", "PostgreSQL", "JWT Security", "Aadhaar API"]
+            icon: "fas fa-store",
+            title: "Business Website Concept",
+            description: "Demo concept for a service-focused business website with lead capture forms, WhatsApp CTA, and local SEO landing sections for Thiruvananthapuram.",
+            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
         },
         {
-            icon: "fas fa-chalkboard-teacher",
-            title: "Educational Platform",
-            description: "Comprehensive LMS for University of Kerala affiliated college with 2000+ students, featuring online classes, assignment submissions, grade management, and parent portal system",
-            tech: ["React", "Express", "MongoDB", "Video Streaming", "WebRTC"]
+            icon: "fas fa-shopping-bag",
+            title: "E-commerce Concept",
+            description: "Demo concept for an online store with product collections, payment integration flow, and conversion-friendly mobile checkout.",
+            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
         },
         {
-            icon: "fas fa-hospital",
-            title: "Healthcare System",
-            description: "Hospital management system for medical college in Trivandrum with patient portal, appointment booking, electronic health records, pharmacy management, and lab integration for 500+ daily patients",
-            tech: ["Flutter", "Node.js", "MySQL", "Real-time Updates", "FHIR Standards"]
+            icon: "fas fa-mobile-alt",
+            title: "Mobile App Concept",
+            description: "Demo concept for a Flutter mobile app with user onboarding, profile flow, push notifications, and API-based dashboard integration.",
+            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
         }
     ];
 
@@ -208,7 +160,7 @@ export default function ThiruvananthapuramServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Expert web development and mobile app development services in Thiruvananthapuram (Trivandrum), Kerala's administrative capital and IT hub. With 3+ years of professional experience, I specialize in secure enterprise web solutions for large organizations, educational platforms for University of Kerala institutions, and scalable applications for 450+ companies at Technopark. Services include secure service portals with Aadhaar integration, comprehensive learning management systems for colleges and schools, hospital management systems for medical institutions, and cross-platform mobile apps using Flutter. I work with MERN stack (MongoDB, Express.js, React, Node.js), WordPress for content-heavy sites, and modern technologies to deliver scalable, secure solutions. Whether you need an enterprise service portal, educational platform, healthcare system, or custom business application, I provide transparent pricing starting from ₹3,000 for basic websites, ₹4,000+ for WordPress solutions, and ₹10,000+ for mobile apps. Serving large organizations, Technopark companies, educational institutions, healthcare facilities, and businesses across Trivandrum with dedicated support and compliance-ready development practices."
+                description="Professional web development and mobile app development services in Thiruvananthapuram, Thiruvananthapuram, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for technology teams, healthcare providers, education brands, service companies, and local commerce."
             />
         </>
     );

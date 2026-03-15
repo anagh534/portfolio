@@ -1,21 +1,21 @@
 export const metadata = {
-    title: "Web Developer Kollam | Flutter App Development - ANAGH K R",
-    description: "Expert web & Flutter app development in Kollam. Responsive websites, mobile apps & e-commerce platforms for industrial and port city businesses.",
-    keywords: "web developer Kollam, Flutter developer Kollam, app development Kollam, MERN stack developer Kollam, industrial web solutions, cashew export platforms, port city digital solutions, React developer Kollam, tourism websites Kollam, e-commerce solutions",
+    title: "Web Development Services in Kollam, Kerala | ANAGH K R",
+    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kollam, Kerala. SEO-focused and conversion-ready solutions.",
+    keywords: "web developer Kollam, website development Kollam, ecommerce development Kollam, mobile app development Kollam, WordPress developer Kollam",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/kollam",
     },
     openGraph: {
-        title: "Web Developer Kollam | Flutter App Development Kollam",
-        description: "Expert web development and Flutter app development services in Kollam. Comprehensive digital solutions for industrial and port city businesses.",
+        title: "Web Development Services in Kollam | ANAGH K R",
+        description: "Website development, ecommerce, and mobile app services in Kollam, Kerala with professional delivery and clear communication.",
         url: "https://www.anaghkr.in/locations/kollam",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Developer Kollam | Flutter App Development Kollam",
-        description: "Expert web development and Flutter app development services in Kollam. Comprehensive digital solutions for industrial and port city businesses.",
+        title: "Web Development Services in Kollam | ANAGH K R",
+        description: "Professional website and app development services in Kollam, Kerala.",
     },
 };
 
@@ -23,176 +23,128 @@ import LocationTemplate from '../../../components/locations/LocationTemplate';
 
 const schemaData = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "ANAGH K R - Web Developer & App Developer Kollam",
-    "description": "Expert web development and Flutter app development services in Kollam. Comprehensive digital solutions including responsive websites, mobile apps, and e-commerce platforms for industrial and port city businesses.",
+    "@type": "ProfessionalService",
+    "name": "ANAGH K R - Web & App Development in Kollam",
+    "description": "Professional website development, ecommerce development, and mobile app development services in Kollam, Kerala.",
     "url": "https://www.anaghkr.in/locations/kollam",
-    "telephone": "+91-8281992989",
+    "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
     "address": {
         "@type": "PostalAddress",
         "addressLocality": "Kollam",
         "addressRegion": "Kerala",
-        "postalCode": "691001",
         "addressCountry": "IN"
     },
-    "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "8.8932",
-        "longitude": "76.6141"
-    },
     "areaServed": [
-        {
-            "@type": "City",
-            "name": "Kollam"
-        }
-    ],
-    "priceRange": "₹₹",
-    "openingHours": "Mo-Sa 09:00-18:00",
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Web Development & App Development Services",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Industrial Solutions",
-                    "description": "Web solutions for manufacturing and industrial businesses"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "E-commerce Solutions",
-                    "description": "Online stores for cashew and export businesses"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Tourism Solutions",
-                    "description": "Digital platforms for hospitality and tourism"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Mobile App Development",
-                    "description": "Flutter apps for port city businesses"
-                }
-            }
-        ]
-    }
+        { "@type": "City", "name": "Kollam" },
+        { "@type": "State", "name": "Kerala" }
+    ]
 };
 
 export default function KollamServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-industry",
-            title: "Industrial Hub",
-            description: "Major industrial center with diverse manufacturing and processing units"
+            icon: "fas fa-building",
+            title: "Local Market Fit",
+            description: "Mixed industrial and service economy"
         },
         {
-            icon: "fas fa-anchor",
-            title: "Ancient Port",
-            description: "Historic port city with modern maritime infrastructure and trade facilities"
+            icon: "fas fa-chart-line",
+            title: "Digital Growth Opportunity",
+            description: "Local retailers expanding online"
         },
         {
-            icon: "fas fa-leaf",
-            title: "Cashew Capital",
-            description: "World's cashew capital with global export business opportunities"
+            icon: "fas fa-mobile-alt",
+            title: "Mobile-First Demand",
+            description: "Demand for business automation"
         },
         {
-            icon: "fas fa-water",
-            title: "Backwater Tourism",
-            description: "Beautiful backwaters with tourism and hospitality business potential"
+            icon: "fas fa-globe",
+            title: "SEO Visibility",
+            description: "Growth in digital lead generation"
         }
     ];
 
     const services = [
         {
-            icon: "fas fa-mobile-alt",
-            title: "Responsive Web Design",
-            description: "Mobile-first responsive websites optimized for all devices and screen sizes",
-            features: ["Mobile-First Design", "Cross-Browser Compatible", "Fast Loading", "SEO Optimized"]
+            icon: "fas fa-laptop-code",
+            title: "Custom Website Development",
+            description: "Modern, responsive websites for Kollam businesses with clear messaging, conversion-focused layouts, and technical SEO foundations.",
+            features: ["Responsive Design", "SEO Structure", "Fast Loading", "Clear CTAs"]
+        },
+        {
+            icon: "fas fa-shopping-cart",
+            title: "E-commerce Development",
+            description: "Online store setups with product catalog, secure checkout, payment integration, and order workflow suitable for local businesses.",
+            features: ["Product Catalog", "Secure Payments", "Order Flow", "Mobile Checkout"]
         },
         {
             icon: "fab fa-flutter",
             title: "Mobile App Development",
-            description: "Native and cross-platform mobile applications for business growth",
-            features: ["iOS & Android", "Cross-Platform", "Native Performance", "App Store Deployment"]
+            description: "Flutter-based mobile apps for Android and iOS with practical business features, dashboard integration, and scalable structure.",
+            features: ["Flutter Apps", "API Integration", "Push Notifications", "App Store Support"]
         },
         {
-            icon: "fas fa-shopping-cart",
-            title: "E-commerce Solutions",
-            description: "Complete online stores with payment integration and inventory management",
-            features: ["Payment Gateway", "Inventory System", "Order Management", "Customer Portal"]
-        },
-        {
-            icon: "fas fa-chart-line",
-            title: "Digital Marketing",
-            description: "Comprehensive digital marketing strategies to grow your online presence",
-            features: ["SEO Services", "Social Media Marketing", "PPC Campaigns", "Analytics Setup"]
-        },
-        {
-            icon: "fas fa-cogs",
-            title: "Business Automation",
-            description: "Automated workflows and systems to improve business efficiency",
-            features: ["Process Automation", "CRM Integration", "Workflow Management", "API Development"]
+            icon: "fab fa-wordpress",
+            title: "WordPress Development",
+            description: "Professional WordPress websites with editable content sections, optimized page speed, and clean on-page SEO setup.",
+            features: ["Custom Theme Setup", "Easy Editing", "Performance", "SEO Basics"]
         },
         {
             icon: "fas fa-database",
             title: "MERN Stack Development",
-            description: "Full-stack web applications using modern JavaScript technologies",
-            features: ["React Frontend", "Node.js Backend", "MongoDB Database", "Express Framework"]
+            description: "Custom web apps using MongoDB, Express, React, and Node.js for dashboards, workflows, and business automation.",
+            features: ["Custom Dashboard", "API Architecture", "Role Access", "Scalable Code"]
+        },
+        {
+            icon: "fas fa-search",
+            title: "SEO and Performance",
+            description: "Technical SEO improvements including metadata quality, internal linking, schema setup, and page speed optimization.",
+            features: ["Technical SEO", "Schema Setup", "Core Web Vitals", "Local SEO"]
         }
     ];
 
     const benefits = [
         {
-            icon: "fas fa-cogs",
-            title: "Industrial Solutions",
-            description: "Specialized solutions for manufacturing and industrial business requirements"
+            icon: "fas fa-handshake",
+            title: "Professional Communication",
+            description: "Clear scope, milestone-based updates, and transparent collaboration from planning to launch"
         },
         {
-            icon: "fas fa-ship",
-            title: "Export Platforms",
-            description: "Custom platforms for export businesses and international trade management"
+            icon: "fas fa-clock",
+            title: "Structured Delivery",
+            description: "Well-defined project stages with realistic timelines and quality checks before release"
         },
         {
-            icon: "fas fa-hotel",
-            title: "Tourism Solutions",
-            description: "Digital solutions for tourism and hospitality businesses in backwater region"
+            icon: "fas fa-map-marker-alt",
+            title: "Local SEO Focus",
+            description: "Content and metadata optimized for Kollam and Kerala location-based search intent"
         },
         {
-            icon: "fas fa-chart-line",
-            title: "Processing Solutions",
-            description: "Business solutions for cashew processing and agricultural industries"
+            icon: "fas fa-rupee-sign",
+            title: "Practical Pricing",
+            description: "Scope-based quotes aligned with business requirements, features, and launch priorities"
         }
     ];
 
     const portfolio = [
         {
-            icon: "fas fa-industry",
-            title: "Manufacturing Portal",
-            description: "Industrial management system for manufacturing units in Kollam",
-            tech: ["React", "Node.js", "Inventory Management", "Production Tracking"]
+            icon: "fas fa-store",
+            title: "Business Website Concept",
+            description: "Demo concept for a service-focused business website with lead capture forms, WhatsApp CTA, and local SEO landing sections for Kollam.",
+            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
         },
         {
-            icon: "fas fa-ship",
-            title: "Export Management",
-            description: "Cashew export business management platform with international compliance",
-            tech: ["Flutter", "Firebase", "Export Documentation", "Quality Control"]
+            icon: "fas fa-shopping-bag",
+            title: "E-commerce Concept",
+            description: "Demo concept for an online store with product collections, payment integration flow, and conversion-friendly mobile checkout.",
+            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
         },
         {
-            icon: "fas fa-bed",
-            title: "Resort Booking",
-            description: "Backwater resort booking and management system for tourism industry",
-            tech: ["React", "Booking System", "Payment Gateway", "Guest Management"]
+            icon: "fas fa-mobile-alt",
+            title: "Mobile App Concept",
+            description: "Demo concept for a Flutter mobile app with user onboarding, profile flow, push notifications, and API-based dashboard integration.",
+            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
         }
     ];
 
@@ -208,7 +160,7 @@ export default function KollamServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Expert web development and mobile app development services in Kollam. Comprehensive digital solutions for industrial businesses, cashew industry, tourism sector, and export-oriented enterprises."
+                description="Professional web development and mobile app development services in Kollam, Kollam, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for manufacturing businesses, retail brands, service companies, and local commerce teams."
             />
         </>
     );
