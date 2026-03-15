@@ -104,7 +104,7 @@ export default function ThrissurServices() {
         {
             icon: "fas fa-graduation-cap",
             title: "Educational Center",
-            description: "Home to Government Engineering College, medical colleges, Kerala Kalamandalam arts university, and schools requiring educational platforms"
+            description: "Home to Engineering College, medical colleges, Kerala Kalamandalam arts university, and schools requiring educational platforms"
         },
         {
             icon: "fas fa-building",
@@ -185,7 +185,7 @@ export default function ThrissurServices() {
         {
             icon: "fas fa-graduation-cap",
             title: "College Portal",
-            description: "Educational management system for Government Engineering College Thrissur with 3,000+ students, featuring attendance tracking, grade management, online assignments, parent portal, and digital library access",
+            description: "Educational management system for Engineering College Thrissur with 3,000+ students, featuring attendance tracking, grade management, online assignments, parent portal, and digital library access",
             tech: ["Flutter", "Firebase", "Student Portal", "Academic Management", "Cloud Storage"]
         },
         {

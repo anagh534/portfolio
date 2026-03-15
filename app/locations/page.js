@@ -34,9 +34,9 @@ export default function Locations() {
         {
             name: "Thiruvananthapuram",
             district: "Thiruvananthapuram",
-            description: "Expert web development and mobile app development services in Thiruvananthapuram. Specialized in government projects, educational platforms, and enterprise solutions for the capital city.",
-            services: ["Government Web Solutions", "Educational Platforms", "Enterprise Development"],
-            highlights: ["Capital City", "Government Projects", "IT Hub"]
+            description: "Expert web development and mobile app development services in Thiruvananthapuram. Specialized in enterprise and institutional projects, educational platforms, and enterprise solutions for the capital city.",
+            services: ["Enterprise Web Solutions", "Educational Platforms", "Enterprise Development"],
+            highlights: ["Capital City", "enterprise and institutional projects", "IT Hub"]
         },
         {
             name: "Kozhikode",
