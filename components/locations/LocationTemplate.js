@@ -247,15 +247,15 @@ export default function LocationTemplate({
                 </div>
             </section>
 
-            {/* Portfolio Preview */}
+            {/* Solution Concepts */}
             <section className="py-24 bg-white/[0.02] border-y border-white/5" aria-labelledby="portfolio-heading">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center mb-16 space-y-4">
                         <h2 id="portfolio-heading" className="text-4xl md:text-5xl font-black uppercase tracking-tight">
-                            Local <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Case Studies</span>
+                            Sample <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Solution Concepts</span>
                         </h2>
                         <p className="text-gray-500 uppercase tracking-widest text-xs font-bold">
-                            Successful projects delivered for clients in {cityName}
+                            Example implementation ideas for {cityName}
                         </p>
                     </div>
 
@@ -274,8 +274,8 @@ export default function LocationTemplate({
                                     </div>
 
                                     <div className="space-y-3">
-                                        <div className="text-2xl font-black uppercase tracking-tight group-hover:text-blue-400 transition-colors">{project.title}</div>
-                                        <p className="text-gray-500 text-sm leading-relaxed">{project.description}</p>
+                                        <div className="text-2xl font-black uppercase tracking-tight group-hover:text-blue-400 transition-colors">Demo: {project.title}</div>
+                                        <p className="text-gray-500 text-sm leading-relaxed">Demo concept: {project.description}</p>
                                     </div>
 
                                     <div className="flex flex-wrap gap-2 pt-4">
