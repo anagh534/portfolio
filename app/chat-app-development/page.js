@@ -91,6 +91,7 @@ export default function Page() {
             faqs={[
                 { question: "What is the starting budget for this service?", answer: "MVP starts around INR 50000 for core messaging features" },
                 { question: "How long does a full build take?", answer: "6 to 12 weeks based on feature scope and platforms" },
+                { question: "Can you build apps beyond chat and dating?", answer: "Yes. I build booking apps, delivery apps, coaching and education apps, clinic apps, fintech apps, and service marketplace apps with realtime features where needed." },
                 { question: "Can this include both website and app strategy?", answer: "Yes. We can phase delivery into website first and app later, or parallel execution based on timeline and budget." },
                 { question: "Do you provide post-launch support?", answer: "Yes. Post-launch support includes bug fixes, updates, and conversion-focused improvements." },
                 { question: "Is this available across Kerala?", answer: "Yes. Projects are delivered for Kochi, Kozhikode, Thiruvananthapuram, Kannur, Kasaragod, Thrissur, and nearby regions." },
@@ -99,6 +100,8 @@ export default function Page() {
                 { title: "Dating App Development", desc: "Safety-focused social product design", href: "/dating-app-development" },
                 { title: "Mobile App Development", desc: "Full app delivery support", href: "/mobile-app-development" },
                 { title: "MERN Stack Development", desc: "Scalable realtime backend architecture", href: "/mern-stack-development" },
+                { title: "Flutter App Development", desc: "Cross-platform mobile app builds", href: "/flutter-app-development" },
+                { title: "Node.js Development", desc: "Realtime backend APIs", href: "/nodejs-development" },
             ]}
             schemaData={schemaData}
         />

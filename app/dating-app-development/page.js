@@ -91,6 +91,7 @@ export default function Page() {
             faqs={[
                 { question: "What is the starting budget for this service?", answer: "MVP starts around INR 60000 with core matching and chat" },
                 { question: "How long does a full build take?", answer: "8 to 14 weeks depending on moderation and premium features" },
+                { question: "Do you only build dating apps?", answer: "No. I also build chat apps, food delivery apps, booking apps, learning apps, healthcare apps, fintech wallets, and marketplace apps using the same scalable stack." },
                 { question: "Can this include both website and app strategy?", answer: "Yes. We can phase delivery into website first and app later, or parallel execution based on timeline and budget." },
                 { question: "Do you provide post-launch support?", answer: "Yes. Post-launch support includes bug fixes, updates, and conversion-focused improvements." },
                 { question: "Is this available across Kerala?", answer: "Yes. Projects are delivered for Kochi, Kozhikode, Thiruvananthapuram, Kannur, Kasaragod, Thrissur, and nearby regions." },
@@ -99,6 +100,8 @@ export default function Page() {
                 { title: "Chat App Development", desc: "Real-time messaging backbone", href: "/chat-app-development" },
                 { title: "Mobile App Development", desc: "Cross-platform product build", href: "/mobile-app-development" },
                 { title: "Flutter App Development", desc: "Fast iOS and Android development", href: "/flutter-app-development" },
+                { title: "E-commerce Development", desc: "Marketplace and commerce apps", href: "/ecommerce-development" },
+                { title: "Web Development", desc: "Admin dashboards and web panels", href: "/web-development" },
             ]}
             schemaData={schemaData}
         />

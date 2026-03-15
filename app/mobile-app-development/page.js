@@ -1,5 +1,5 @@
 import ServicePageTemplate from '@/components/services/ServicePageTemplate';
-import { Smartphone, Bell, MapPin, MessageSquare, CreditCard, Upload } from 'lucide-react';
+import { Smartphone, Bell, MapPin, MessageSquare, CreditCard, Upload, Layers } from 'lucide-react';
 
 export const metadata = {
     title: "Mobile App Developer Kerala | iOS Android App Development | ANAGH K R",
@@ -60,6 +60,7 @@ export default function MobileAppDevelopmentPage() {
                 { icon: <MessageSquare size={22} />, title: "In-App Chat", desc: "Real-time messaging with Firebase or custom WebSocket-based chat modules." },
                 { icon: <CreditCard size={22} />, title: "In-App Payments", desc: "Razorpay, Stripe, PayPal, and in-app purchase integration for both Android and iOS." },
                 { icon: <Upload size={22} />, title: "Store Submission", desc: "App store listing, screenshots, descriptions, and submission guidance to get your app live on both stores." },
+                { icon: <Layers size={22} />, title: "Popular App Examples", desc: "Food delivery apps, booking apps, ecommerce apps, education apps, healthcare apps, dating apps, chat apps, and service marketplace apps." },
             ]}
             technologies={[
                 { category: "Development Framework", items: ["Flutter", "Dart", "Native Modules", "Platform Channels"] },
@@ -76,6 +77,7 @@ export default function MobileAppDevelopmentPage() {
             faqs={[
                 { question: "How much does mobile app development cost in Kerala?", answer: "A simple mobile app (5–8 screens, basic API integration) starts from ₹20,000–₹40,000. Feature-rich apps with real-time, payments, maps, and custom UI typically range ₹60,000–₹2,50,000. Contact me for a detailed estimate." },
                 { question: "How long does it take to build a mobile app?", answer: "An MVP typically takes 4–8 weeks. Full-featured apps with complex workflows, integrations, and custom backends take 3–6 months. I provide regular builds so you can track progress throughout." },
+                { question: "What type of apps can you build?", answer: "I build many categories including ecommerce, delivery, booking, education, healthcare, social, dating, chat, fintech wallet, and marketplace apps." },
                 { question: "Do I need separate apps for iOS and Android?", answer: "Not with Flutter. A single Flutter codebase produces fully native apps for both iOS and Android, meaning you get both platforms at roughly the cost of building one — without compromising on quality." },
                 { question: "Can you build a delivery or booking app?", answer: "Yes. I've built logistics, service booking, and on-demand apps with real-time GPS tracking, push notifications, payment integration, and driver/provider dashboards." },
                 { question: "Do you support the app after launch?", answer: "Yes. I offer maintenance packages for bug fixes, OS update compatibility, feature additions, and performance improvements post-launch." },

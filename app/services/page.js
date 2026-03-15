@@ -258,7 +258,7 @@ export default function Services() {
                             title="Dating & Chat App Development"
                             category="Mobile + Realtime"
                             icon={<Rocket size={24} />}
-                            description="Create modern dating and chat apps with realtime messaging, moderation tools, profile systems, and scalable backend architecture for social product startups."
+                            description="Build dating, chat, food delivery, booking, education, healthcare, fintech, and marketplace apps with realtime features, moderation tools, and scalable backend architecture."
                         />
                     </div>
                 </div>
