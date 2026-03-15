@@ -2,13 +2,21 @@ export const metadata = {
     title: "Web Developer Kanhangad | Flutter App Development - ANAGH K R",
     description: "Local web & mobile app development in Kanhangad. Custom digital solutions, responsive websites & mobile apps for local businesses.",
     keywords: "web developer Kanhangad, Flutter developer Kanhangad, app development Kanhangad, MERN stack developer Kanhangad, local digital solutions, responsive websites Kanhangad, mobile applications, startup solutions, business websites, custom development",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/locations/kanhangad",
-    ogTitle: "Web Developer Kanhangad | Flutter App Development Kanhangad",
-    ogDescription: "Local web development and mobile app development services in Kanhangad. Custom digital solutions for local businesses and startups.",
-    ogUrl: "https://www.anaghkr.in/locations/kanhangad",
-    ogType: "website"
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/locations/kanhangad",
+    },
+    openGraph: {
+        title: "Web Developer Kanhangad | Flutter App Development Kanhangad",
+        description: "Local web development and mobile app development services in Kanhangad. Custom digital solutions for local businesses and startups.",
+        url: "https://www.anaghkr.in/locations/kanhangad",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Web Developer Kanhangad | Flutter App Development Kanhangad",
+        description: "Local web development and mobile app development services in Kanhangad. Custom digital solutions for local businesses and startups.",
+    },
 };
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';

@@ -2,13 +2,21 @@ export const metadata = {
     title: "Web Developer Palakkad | Flutter App Development - ANAGH K R",
     description: "Expert web & Flutter app development in Palakkad. Agricultural websites, educational platforms & business solutions for Kerala's gateway.",
     keywords: "web developer Palakkad, Flutter developer Palakkad, app development Palakkad, MERN stack developer Palakkad, agricultural platforms, educational websites Palakkad, rural tech solutions, gateway of Kerala web development, React developer Palakkad, business solutions",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/locations/palakkad",
-    ogTitle: "Web Developer Palakkad | Flutter App Development Palakkad",
-    ogDescription: "Expert web development and Flutter app development services in Palakkad. Specialized in agricultural and educational platform solutions.",
-    ogUrl: "https://www.anaghkr.in/locations/palakkad",
-    ogType: "website"
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/locations/palakkad",
+    },
+    openGraph: {
+        title: "Web Developer Palakkad | Flutter App Development Palakkad",
+        description: "Expert web development and Flutter app development services in Palakkad. Specialized in agricultural and educational platform solutions.",
+        url: "https://www.anaghkr.in/locations/palakkad",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Web Developer Palakkad | Flutter App Development Palakkad",
+        description: "Expert web development and Flutter app development services in Palakkad. Specialized in agricultural and educational platform solutions.",
+    },
 };
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';

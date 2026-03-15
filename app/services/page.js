@@ -12,18 +12,38 @@ const detailPages = [
     { title: "Mobile Apps", href: "/mobile-app-development", desc: "Full mobile app development" },
     { title: "WordPress Development", href: "/wordpress-development", desc: "CMS websites & WooCommerce" },
     { title: "E-commerce Development", href: "/ecommerce-development", desc: "Online stores & payment integration" },
+    { title: "Instagram Store Development", href: "/instagram-store-development", desc: "Social commerce websites & catalogs" },
+    { title: "Dropshipping Website Development", href: "/dropshipping-website-development", desc: "Trend product store builds" },
+    { title: "Shopify Store Development", href: "/shopify-store-development", desc: "Shopify setup and optimization" },
+    { title: "Clothing Ecommerce Website", href: "/clothing-ecommerce-website-development", desc: "Fashion-focused online stores" },
+    { title: "Shoe Store Website", href: "/shoe-store-website-development", desc: "Footwear ecommerce platforms" },
+    { title: "Electronics Ecommerce Website", href: "/electronics-ecommerce-website-development", desc: "Gadget and electronics stores" },
+    { title: "Dating App Development", href: "/dating-app-development", desc: "Safety-first social app builds" },
+    { title: "Chat App Development", href: "/chat-app-development", desc: "Realtime messaging products" },
 ];
 
 export const metadata = {
     title: "Web Development Services Kerala | WordPress, E-commerce, Flutter & MERN",
     description: "Professional web development services in Kerala including website design, WordPress development, e-commerce stores, MERN stack web apps, and Flutter mobile apps.",
-    keywords: "web development services Kerala, website design services Kerala, freelance web developer Kerala, web designer Kerala, WordPress development Kerala, WooCommerce developer Kerala, e-commerce development Kerala, Shopify developer Kerala, MERN stack developer Kerala, Flutter app development Kerala, mobile app development Kerala, React developer Kerala, Node.js developer Kerala, web developer Kochi, web developer Calicut",
+    keywords: "web development services Kerala, website design services Kerala, freelance web developer Kerala, web designer Kerala, WordPress development Kerala, WooCommerce developer Kerala, e-commerce development Kerala, Shopify developer Kerala, Instagram store development Kerala, dropshipping website development Kerala, clothing ecommerce website Kerala, shoe store website Kerala, electronics ecommerce website Kerala, dating app development Kerala, chat app development Kerala, MERN stack developer Kerala, Flutter app development Kerala, mobile app development Kerala, React developer Kerala, Node.js developer Kerala, web developer Kochi, web developer Calicut",
+    alternates: { canonical: "https://www.anaghkr.in/services" },
+    openGraph: {
+        title: "Web Development Services Kerala | ANAGH K R",
+        description: "Professional web development, ecommerce, Shopify, Instagram store, and app development services in Kerala.",
+        url: "https://www.anaghkr.in/services",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Web Development Services Kerala | ANAGH K R",
+        description: "Kerala-focused services including websites, ecommerce stores, and mobile app development.",
+    },
 };
 
 export default function Services() {
     const stats = [
         { number: '24', label: 'Projects Completed', icon: <Target size={20} /> },
-        { number: '8+', label: 'Services Offered', icon: <Zap size={20} /> },
+        { number: '16+', label: 'Services Offered', icon: <Zap size={20} /> },
         { number: '100%', label: 'Client Satisfaction', icon: <Users size={20} /> }
     ];
 
@@ -211,6 +231,34 @@ export default function Services() {
                             category="Backend"
                             icon={<Rocket size={24} />}
                             description="Building secure, scalable RESTful APIs and backend systems with Node.js and Express. Database design, authentication, real-time features, and third-party integrations to power your web and mobile applications efficiently."
+                        />
+
+                        <ServiceComponent
+                            title="Instagram Store Development"
+                            category="Social Commerce"
+                            icon={<Rocket size={24} />}
+                            description="Instagram-focused store development with product catalog setup, link-in-bio sales funnels, WhatsApp conversion flow, and checkout-ready landing pages for Kerala brands."
+                        />
+
+                        <ServiceComponent
+                            title="Dropshipping Website Development"
+                            category="E-commerce"
+                            icon={<Rocket size={24} />}
+                            description="Launch profitable dropshipping websites with fast product pages, automation-friendly order workflows, and conversion-driven design for trending products."
+                        />
+
+                        <ServiceComponent
+                            title="Shopify Store Development"
+                            category="Shopify"
+                            icon={<Rocket size={24} />}
+                            description="Build and optimize Shopify storefronts for D2C growth with collection strategy, payment and shipping setup, speed optimization, and SEO-ready architecture."
+                        />
+
+                        <ServiceComponent
+                            title="Dating & Chat App Development"
+                            category="Mobile + Realtime"
+                            icon={<Rocket size={24} />}
+                            description="Create modern dating and chat apps with realtime messaging, moderation tools, profile systems, and scalable backend architecture for social product startups."
                         />
                     </div>
                 </div>

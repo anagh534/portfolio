@@ -2,13 +2,21 @@ export const metadata = {
     title: "Web Developer Calicut | Flutter App Development - ANAGH K R",
     description: "Expert web & Flutter app developer in Calicut/Kozhikode. Custom websites, mobile apps & MERN stack solutions from ₹3,000. 3+ years experience.",
     keywords: "web developer Calicut, Flutter developer Calicut, app development Kozhikode, website development Calicut, MERN stack developer Calicut, mobile app Calicut, e-commerce Calicut, web design Kozhikode, WordPress developer Calicut, React developer Calicut",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/locations/calicut",
-    ogTitle: "Professional Web Developer & App Developer in Calicut, Kozhikode",
-    ogDescription: "Expert web development and Flutter mobile app services for Calicut businesses. Custom solutions with 3+ years experience in Malabar region.",
-    ogUrl: "https://www.anaghkr.in/locations/calicut",
-    ogType: "website"
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/locations/calicut",
+    },
+    openGraph: {
+        title: "Professional Web Developer & App Developer in Calicut, Kozhikode",
+        description: "Expert web development and Flutter mobile app services for Calicut businesses. Custom solutions with 3+ years experience in Malabar region.",
+        url: "https://www.anaghkr.in/locations/calicut",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Professional Web Developer & App Developer in Calicut, Kozhikode",
+        description: "Expert web development and Flutter mobile app services for Calicut businesses. Custom solutions with 3+ years experience in Malabar region.",
+    },
 };
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';

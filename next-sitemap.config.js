@@ -31,6 +31,22 @@ module.exports = {
 
 ${robotsTxt}
 
+# AI and search bot access
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
 # Allow important SEO pages
 Allow: /about
 Allow: /services  
@@ -61,6 +77,14 @@ Allow: /wordpress-development
 Allow: /ecommerce-development
 Allow: /mobile-app-development
 Allow: /nextjs-development
+Allow: /instagram-store-development
+Allow: /dropshipping-website-development
+Allow: /shopify-store-development
+Allow: /clothing-ecommerce-website-development
+Allow: /shoe-store-website-development
+Allow: /electronics-ecommerce-website-development
+Allow: /dating-app-development
+Allow: /chat-app-development
 
 # Be polite to crawlers`;
     },
@@ -231,6 +255,54 @@ Allow: /nextjs-development
         loc: '/nextjs-development',
         changefreq: 'weekly',
         priority: 0.8,
+        lastmod: currentDate
+      },
+      {
+        loc: '/instagram-store-development',
+        changefreq: 'weekly',
+        priority: 0.9,
+        lastmod: currentDate
+      },
+      {
+        loc: '/dropshipping-website-development',
+        changefreq: 'weekly',
+        priority: 0.9,
+        lastmod: currentDate
+      },
+      {
+        loc: '/shopify-store-development',
+        changefreq: 'weekly',
+        priority: 0.9,
+        lastmod: currentDate
+      },
+      {
+        loc: '/clothing-ecommerce-website-development',
+        changefreq: 'weekly',
+        priority: 0.85,
+        lastmod: currentDate
+      },
+      {
+        loc: '/shoe-store-website-development',
+        changefreq: 'weekly',
+        priority: 0.85,
+        lastmod: currentDate
+      },
+      {
+        loc: '/electronics-ecommerce-website-development',
+        changefreq: 'weekly',
+        priority: 0.85,
+        lastmod: currentDate
+      },
+      {
+        loc: '/dating-app-development',
+        changefreq: 'weekly',
+        priority: 0.85,
+        lastmod: currentDate
+      },
+      {
+        loc: '/chat-app-development',
+        changefreq: 'weekly',
+        priority: 0.85,
         lastmod: currentDate
       },
     ];

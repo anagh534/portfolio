@@ -2,16 +2,21 @@ export const metadata = {
     title: "About ANAGH K R - Flutter & MERN Stack Developer Kerala",
     description: "Anagh K R - Experienced Flutter & MERN stack developer in Kerala with 3+ years expertise. Building custom websites, mobile apps & e-commerce solutions.",
     keywords: "Flutter developer Kerala, MERN stack developer Kerala, freelance web developer Kerala, mobile app development Kerala, custom website development Kerala, React developer Kerala, Node.js developer Kerala, WordPress developer Kerala, e-commerce development Kerala, web development Kasaragod, app developer Kochi, freelance developer Calicut, Next.js development, responsive web design Kerala",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/about",
-    ogTitle: "About Anagh K R - Experienced Flutter & Web Developer Kerala",
-    ogDescription: "Anagh K R - Experienced Flutter & MERN stack developer with 3+ years expertise. Custom websites, mobile apps & e-commerce solutions for Kerala businesses.",
-    ogUrl: "https://www.anaghkr.in/about",
-    ogType: "profile",
-    twitterCard: "summary_large_image",
-    twitterTitle: "About Anagh K R - Professional Flutter & Web Developer Kerala",
-    twitterDescription: "Anagh K R - Experienced Flutter & MERN stack developer in Kerala. Custom websites, mobile apps & e-commerce solutions with 3+ years expertise."
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/about",
+    },
+    openGraph: {
+        title: "About Anagh K R - Experienced Flutter & Web Developer Kerala",
+        description: "Anagh K R - Experienced Flutter & MERN stack developer with 3+ years expertise. Custom websites, mobile apps & e-commerce solutions for Kerala businesses.",
+        url: "https://www.anaghkr.in/about",
+        type: "profile",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "About Anagh K R - Professional Flutter & Web Developer Kerala",
+        description: "Anagh K R - Experienced Flutter & MERN stack developer in Kerala. Custom websites, mobile apps & e-commerce solutions with 3+ years expertise.",
+    },
 };
 
 import { Code, Download, User as UserIcon, Check, Laptop, Server, Smartphone, Cloud, Palette, Monitor, Rocket, Send, ArrowRight } from 'lucide-react';

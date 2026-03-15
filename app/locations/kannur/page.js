@@ -2,13 +2,21 @@ export const metadata = {
     title: "Web Developer Kannur | Flutter App Development - ANAGH K R",
     description: "Expert web & Flutter app development in Kannur. Responsive websites, mobile apps & e-commerce platforms for coastal and handloom businesses.",
     keywords: "web developer Kannur, Flutter developer Kannur, app development Kannur, MERN stack developer Kannur, handloom e-commerce, export business solutions, coastal web developer, React developer Kannur, mobile app development, business automation",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/locations/kannur",
-    ogTitle: "Web Developer Kannur | Flutter App Development Kannur",
-    ogDescription: "Expert web development and Flutter app development services in Kannur. Comprehensive digital solutions for coastal and handloom businesses.",
-    ogUrl: "https://www.anaghkr.in/locations/kannur",
-    ogType: "website"
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/locations/kannur",
+    },
+    openGraph: {
+        title: "Web Developer Kannur | Flutter App Development Kannur",
+        description: "Expert web development and Flutter app development services in Kannur. Comprehensive digital solutions for coastal and handloom businesses.",
+        url: "https://www.anaghkr.in/locations/kannur",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Web Developer Kannur | Flutter App Development Kannur",
+        description: "Expert web development and Flutter app development services in Kannur. Comprehensive digital solutions for coastal and handloom businesses.",
+    },
 };
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';

@@ -53,11 +53,17 @@ const Footer = () => {
                     <div>
                         <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Quick Links</h4>
                         <ul className="space-y-4">
-                            {['Home', 'About', 'Services', 'Works', 'Contact'].map((link) => (
-                                <li key={link}>
-                                    <Link href={link === 'Home' ? '/' : `/#${link.toLowerCase()}`} className="text-sm text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-2 group">
+                            {[
+                                { label: 'Home', href: '/' },
+                                { label: 'About', href: '/about' },
+                                { label: 'Services', href: '/services' },
+                                { label: 'Works', href: '/#works' },
+                                { label: 'Contact', href: '/contact' },
+                            ].map((link) => (
+                                <li key={link.href}>
+                                    <Link href={link.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-2 group">
                                         <span className="w-1.5 h-1.5 rounded-full bg-blue-500/50 group-hover:bg-blue-500 transition-all"></span>
-                                        {link}
+                                        {link.label}
                                     </Link>
                                 </li>
                             ))}
@@ -74,6 +80,14 @@ const Footer = () => {
                                 { label: 'Flutter Apps', href: '/flutter-app-development' },
                                 { label: 'WordPress', href: '/wordpress-development' },
                                 { label: 'E-commerce', href: '/ecommerce-development' },
+                                { label: 'Instagram Store', href: '/instagram-store-development' },
+                                { label: 'Dropshipping', href: '/dropshipping-website-development' },
+                                { label: 'Shopify Store', href: '/shopify-store-development' },
+                                { label: 'Clothing Ecommerce', href: '/clothing-ecommerce-website-development' },
+                                { label: 'Shoe Store Website', href: '/shoe-store-website-development' },
+                                { label: 'Electronics Ecommerce', href: '/electronics-ecommerce-website-development' },
+                                { label: 'Dating App', href: '/dating-app-development' },
+                                { label: 'Chat App', href: '/chat-app-development' },
                                 { label: 'Next.js Dev', href: '/nextjs-development' },
                                 { label: 'React Dev', href: '/react-development' },
                                 { label: 'Node.js Dev', href: '/nodejs-development' },

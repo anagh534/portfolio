@@ -2,16 +2,21 @@ export const metadata = {
     title: "Web Development Services Across Kerala | Flutter Developer",
     description: "Web development & Flutter app services across Kerala. Serving Kochi, Trivandrum, Calicut, Thrissur & all major cities with custom digital solutions.",
     keywords: "web development services Kerala, Flutter developer Kerala, mobile app development Kerala, MERN stack developer Kerala, WordPress development Kerala, React developer Kerala, Kochi web developer, Thiruvananthapuram app development, Kozhikode web design, Thrissur web development, Calicut Flutter developer, e-commerce development Kerala",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/locations",
-    ogTitle: "Web Development Services Across Kerala | Flutter Developer in Major Cities",
-    ogDescription: "Professional web development, WordPress development, and Flutter app development services across Kerala. Serving all major cities with custom website development, mobile app development, and digital solutions.",
-    ogUrl: "https://www.anaghkr.in/locations",
-    ogType: "website",
-    twitterCard: "summary_large_image",
-    twitterTitle: "Web Development Services Across Kerala | Flutter Developer",
-    twitterDescription: "Professional web development, WordPress development, and mobile app development services across all major cities in Kerala."
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/locations",
+    },
+    openGraph: {
+        title: "Web Development Services Across Kerala | Flutter Developer in Major Cities",
+        description: "Professional web development, WordPress development, and Flutter app development services across Kerala. Serving all major cities with custom website development, mobile app development, and digital solutions.",
+        url: "https://www.anaghkr.in/locations",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Web Development Services Across Kerala | Flutter Developer",
+        description: "Professional web development, WordPress development, and mobile app development services across all major cities in Kerala.",
+    },
 };
 
 import { MapPin, CheckCircle, Rocket, ArrowRight, Laptop, Smartphone, ShoppingCart, Code, Globe, Search, Users, Layout, Clock, Award, Send } from 'lucide-react';

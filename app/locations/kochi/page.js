@@ -2,13 +2,21 @@ export const metadata = {
     title: "Web Developer Kochi | Flutter App Development - ANAGH K R",
     description: "Professional web & Flutter app developer serving Kochi/Ernakulam. Custom websites, mobile apps & e-commerce solutions from ₹3,000. 3+ years experience.",
     keywords: "web developer Kochi, Flutter developer Kochi, app development Kochi, website development Ernakulam, MERN stack developer Kochi, mobile app development Kochi, e-commerce development Kochi, WordPress developer Kochi, React developer Kochi, web design Kochi",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/locations/kochi",
-    ogTitle: "Professional Web Developer & App Developer in Kochi, Ernakulam",
-    ogDescription: "Expert web development and Flutter mobile app services for Kochi businesses. Custom websites, e-commerce, and mobile apps with 3+ years experience.",
-    ogUrl: "https://www.anaghkr.in/locations/kochi",
-    ogType: "website"
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/locations/kochi",
+    },
+    openGraph: {
+        title: "Professional Web Developer & App Developer in Kochi, Ernakulam",
+        description: "Expert web development and Flutter mobile app services for Kochi businesses. Custom websites, e-commerce, and mobile apps with 3+ years experience.",
+        url: "https://www.anaghkr.in/locations/kochi",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Professional Web Developer & App Developer in Kochi, Ernakulam",
+        description: "Expert web development and Flutter mobile app services for Kochi businesses. Custom websites, e-commerce, and mobile apps with 3+ years experience.",
+    },
 };
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';

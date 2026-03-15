@@ -50,12 +50,12 @@ export default function ServicePageTemplate({
                             {description}
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-                            <a href="/contact" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
+                            <a href="https://wa.me/918075541805" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
                                 <Send size={18} />
-                                <span className="uppercase tracking-widest text-sm">Start Your Project</span>
+                                <span className="uppercase tracking-widest text-sm">WhatsApp Now</span>
                             </a>
-                            <a href="/services" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
-                                <span className="uppercase tracking-widest text-sm">All Services</span>
+                            <a href="/contact" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
+                                <span className="uppercase tracking-widest text-sm">Get Free Quote</span>
                                 <ArrowRight size={18} />
                             </a>
                         </div>

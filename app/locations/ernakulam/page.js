@@ -2,13 +2,21 @@ export const metadata = {
     title: "Web Developer Ernakulam | Flutter App Development - ANAGH K R",
     description: "Expert web & Flutter app development in Ernakulam district. Responsive websites, mobile apps & e-commerce platforms for urban businesses.",
     keywords: "web developer Ernakulam, Flutter developer Ernakulam, app development Ernakulam, MERN stack developer Ernakulam, Kochi web services, responsive web design, mobile app development, e-commerce solutions, React developer Ernakulam, business automation",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/locations/ernakulam",
-    ogTitle: "Web Developer Ernakulam | Flutter App Development Ernakulam",
-    ogDescription: "Expert web development and Flutter app development services in Ernakulam district. Comprehensive digital solutions for urban businesses.",
-    ogUrl: "https://www.anaghkr.in/locations/ernakulam",
-    ogType: "website"
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/locations/ernakulam",
+    },
+    openGraph: {
+        title: "Web Developer Ernakulam | Flutter App Development Ernakulam",
+        description: "Expert web development and Flutter app development services in Ernakulam district. Comprehensive digital solutions for urban businesses.",
+        url: "https://www.anaghkr.in/locations/ernakulam",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Web Developer Ernakulam | Flutter App Development Ernakulam",
+        description: "Expert web development and Flutter app development services in Ernakulam district. Comprehensive digital solutions for urban businesses.",
+    },
 };
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';

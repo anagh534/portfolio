@@ -2,13 +2,21 @@ export const metadata = {
     title: "Web Developer Kasaragod | Flutter App Development - ANAGH K R",
     description: "Local web & Flutter app developer in Kasaragod. Custom websites, mobile apps & e-commerce platforms for businesses in Kerala's northernmost district.",
     keywords: "web developer Kasaragod, Flutter developer Kasaragod, app development Kasaragod, MERN stack developer Kasaragod, local digital solutions, custom mobile apps, multilingual platforms, e-commerce development Kasaragod, React developer Kasaragod, Bekal tourism websites",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/locations/kasaragod",
-    ogTitle: "Web Developer Kasaragod | Flutter App Development Kasaragod",
-    ogDescription: "Local web development and Flutter app development services in Kasaragod. Personalized digital solutions for businesses in Kerala's northernmost district.",
-    ogUrl: "https://www.anaghkr.in/locations/kasaragod",
-    ogType: "website"
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/locations/kasaragod",
+    },
+    openGraph: {
+        title: "Web Developer Kasaragod | Flutter App Development Kasaragod",
+        description: "Local web development and Flutter app development services in Kasaragod. Personalized digital solutions for businesses in Kerala's northernmost district.",
+        url: "https://www.anaghkr.in/locations/kasaragod",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Web Developer Kasaragod | Flutter App Development Kasaragod",
+        description: "Local web development and Flutter app development services in Kasaragod. Personalized digital solutions for businesses in Kerala's northernmost district.",
+    },
 };
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';

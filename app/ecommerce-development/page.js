@@ -24,17 +24,6 @@ export const metadata = {
         description: "Expert e-commerce development services — build your online store in Kerala.",
         images: ["https://www.anaghkr.in/assets/services/ecom.webp"]
     },
-    openGraph: {
-        title: "E-commerce Developer Kerala | Online Store Development | ANAGH K R",
-        description: "Professional e-commerce development — WooCommerce stores, custom shopping carts, and online selling platforms for Kerala businesses.",
-        url: "https://www.anaghkr.in/ecommerce-development",
-        type: "website",
-    },
-    twitter: {
-        card: "summary_large_image",
-        title: "E-commerce Developer Kerala | ANAGH K R",
-        description: "Online store and e-commerce development services in Kerala.",
-    },
 };
 
 const schemaData = {

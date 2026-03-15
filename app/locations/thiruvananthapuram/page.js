@@ -2,13 +2,21 @@ export const metadata = {
     title: "Web Developer Trivandrum | Flutter App Development - ANAGH K R",
     description: "Web & Flutter app development in Thiruvananthapuram/Trivandrum. Government solutions, enterprise development & mobile apps in Kerala's capital.",
     keywords: "web developer Thiruvananthapuram, Flutter developer Trivandrum, app development Thiruvananthapuram, government web solutions Kerala, MERN stack developer Trivandrum, React developer Thiruvananthapuram, educational platform development, enterprise web development, Technopark developer, mobile app development capital city",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/locations/thiruvananthapuram",
-    ogTitle: "Web Developer Thiruvananthapuram | Flutter App Development Trivandrum",
-    ogDescription: "Professional web development and Flutter app development services in Thiruvananthapuram. Specialized in government projects and enterprise solutions.",
-    ogUrl: "https://www.anaghkr.in/locations/thiruvananthapuram",
-    ogType: "website"
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/locations/thiruvananthapuram",
+    },
+    openGraph: {
+        title: "Web Developer Thiruvananthapuram | Flutter App Development Trivandrum",
+        description: "Professional web development and Flutter app development services in Thiruvananthapuram. Specialized in government projects and enterprise solutions.",
+        url: "https://www.anaghkr.in/locations/thiruvananthapuram",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Web Developer Thiruvananthapuram | Flutter App Development Trivandrum",
+        description: "Professional web development and Flutter app development services in Thiruvananthapuram. Specialized in government projects and enterprise solutions.",
+    },
 };
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';

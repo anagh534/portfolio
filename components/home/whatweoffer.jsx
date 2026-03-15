@@ -10,6 +10,7 @@ import {
     RefreshCw,
     CodeXml,
     GraduationCap,
+    MessageCircleMore,
     Rocket,
     CheckCircle2,
     ArrowRight
@@ -70,6 +71,34 @@ const services = [
         icon: <Rocket size={24} />,
         shortDesc: "Website optimization for better search rankings and faster load times. Technical SEO, performance audits, and Google Analytics integration.",
         technologies: ["SEO", "Performance", "Analytics"],
+    },
+    {
+        id: 9,
+        title: "Instagram & Shopify Stores",
+        icon: <MessageCircleMore size={24} />,
+        shortDesc: "Launch social-commerce ready stores with Instagram catalog setup, Shopify storefronts, and WhatsApp-first lead conversion.",
+        technologies: ["Instagram Shop", "Shopify", "Social Commerce"],
+    },
+    {
+        id: 10,
+        title: "Dropshipping & Trend Stores",
+        icon: <ShoppingCart size={24} />,
+        shortDesc: "Build dropshipping websites and trend-product stores with high-converting pages, offer flows, and scalable order operations.",
+        technologies: ["Dropshipping", "Checkout", "Automation"],
+    },
+    {
+        id: 11,
+        title: "Niche Ecommerce Websites",
+        icon: <Globe size={24} />,
+        shortDesc: "Specialized ecommerce websites for clothing, shoe stores, and electronics with product-focused UX and faster mobile shopping.",
+        technologies: ["Clothing", "Shoes", "Electronics"],
+    },
+    {
+        id: 12,
+        title: "Dating & Chat App Development",
+        icon: <Smartphone size={24} />,
+        shortDesc: "Develop secure dating and realtime chat apps with moderation features, scalable messaging architecture, and growth-ready roadmaps.",
+        technologies: ["Flutter", "Node.js", "Realtime Chat"],
     }
 ];
 

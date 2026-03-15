@@ -2,13 +2,21 @@ export const metadata = {
     title: "Web Developer Kollam | Flutter App Development - ANAGH K R",
     description: "Expert web & Flutter app development in Kollam. Responsive websites, mobile apps & e-commerce platforms for industrial and port city businesses.",
     keywords: "web developer Kollam, Flutter developer Kollam, app development Kollam, MERN stack developer Kollam, industrial web solutions, cashew export platforms, port city digital solutions, React developer Kollam, tourism websites Kollam, e-commerce solutions",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/locations/kollam",
-    ogTitle: "Web Developer Kollam | Flutter App Development Kollam",
-    ogDescription: "Expert web development and Flutter app development services in Kollam. Comprehensive digital solutions for industrial and port city businesses.",
-    ogUrl: "https://www.anaghkr.in/locations/kollam",
-    ogType: "website"
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/locations/kollam",
+    },
+    openGraph: {
+        title: "Web Developer Kollam | Flutter App Development Kollam",
+        description: "Expert web development and Flutter app development services in Kollam. Comprehensive digital solutions for industrial and port city businesses.",
+        url: "https://www.anaghkr.in/locations/kollam",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Web Developer Kollam | Flutter App Development Kollam",
+        description: "Expert web development and Flutter app development services in Kollam. Comprehensive digital solutions for industrial and port city businesses.",
+    },
 };
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';

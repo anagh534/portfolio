@@ -2,13 +2,21 @@ export const metadata = {
     title: "Web Developer Thrissur | Flutter App Development - ANAGH K R",
     description: "Expert web & Flutter app development in Thrissur. Responsive websites, mobile apps & e-commerce platforms for cultural and festival city businesses.",
     keywords: "web developer Thrissur, Flutter developer Thrissur, app development Thrissur, MERN stack developer Thrissur, cultural web solutions, e-commerce Thrissur, React developer Thrissur, festival management systems, educational platforms, mobile app development",
-    author: "ANAGH K R",
-    robots: "index, follow",
-    canonical: "https://www.anaghkr.in/locations/thrissur",
-    ogTitle: "Web Developer Thrissur | Flutter App Development Thrissur",
-    ogDescription: "Expert web development and Flutter app development services in Thrissur. Comprehensive digital solutions for cultural and festival city businesses.",
-    ogUrl: "https://www.anaghkr.in/locations/thrissur",
-    ogType: "website"
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: "https://www.anaghkr.in/locations/thrissur",
+    },
+    openGraph: {
+        title: "Web Developer Thrissur | Flutter App Development Thrissur",
+        description: "Expert web development and Flutter app development services in Thrissur. Comprehensive digital solutions for cultural and festival city businesses.",
+        url: "https://www.anaghkr.in/locations/thrissur",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Web Developer Thrissur | Flutter App Development Thrissur",
+        description: "Expert web development and Flutter app development services in Thrissur. Comprehensive digital solutions for cultural and festival city businesses.",
+    },
 };
 
 import LocationTemplate from '../../../components/locations/LocationTemplate';
