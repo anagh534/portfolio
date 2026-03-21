@@ -5,6 +5,7 @@ import { Mail, MapPin, Clock, Code, Send } from 'lucide-react';
 export const metadata = {
   title: 'Contact Freelance Web Developer Kerala | ANAGH K R',
   description: 'Contact ANAGH K R for website design, web development, WordPress, e-commerce, and Flutter app development services across Kerala.',
+  keywords: 'contact web developer Kerala, hire web developer near me, freelance web developer near me, website designer near me, mobile app developer near me, wordpress developer near me Kerala',
 };
 
 export default function ContactPage() {
