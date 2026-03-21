@@ -33,28 +33,28 @@ export async function getBlogPosts() {
         // Use no-cache during build to ensure fresh data.
         const timestamp = Date.now();
         const urlWithTimestamp = `${GOOGLE_SHEET_URL}&t=${timestamp}`;
-        
-        const res = await fetch(urlWithTimestamp, { 
+
+        const res = await fetch(urlWithTimestamp, {
             cache: 'no-store',
             headers: {
                 'Cache-Control': 'no-cache, no-store, must-revalidate',
                 'Pragma': 'no-cache'
             }
         });
-        
+
         if (!res.ok) throw new Error(`Failed to fetch data: ${res.status} ${res.statusText}`);
         const csvData = await res.text();
 
-        const { data, errors } = Papa.parse(csvData, { 
+        const { data, errors } = Papa.parse(csvData, {
             header: true,
             skipEmptyLines: true,
             transformHeader: (header) => header.trim().toLowerCase()
         });
-        
+
         if (errors && errors.length > 0) {
             console.warn("CSV parsing errors:", errors);
         }
-        
+
         // Some sheet exports contain continuation rows with empty title.
         // Merge those rows into the previous valid post content.
         const mergedRows = [];
@@ -115,7 +115,7 @@ export async function getBlogPosts() {
                 image: post.image || '/assets/blog/default.jpg'
             };
         });
-        
+
         return processedPosts;
     } catch (error) {
         console.error("❌ Error fetching blog posts:", error);
