@@ -2,6 +2,10 @@ import Papa from 'papaparse';
 
 // TODO: Replace with the actual Google Sheet CSV URL provided by the user
 const GOOGLE_SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQzBQU_Zm4oHdU4D4SxRM9TiNtKBdPBDLe1_NDEoqOF1kQtU0K1do41TB73oYcrzDmZrDfYRALwKJpk/pub?output=csv';
+const BLOG_CACHE_TTL_MS = 5 * 60 * 1000;
+
+let cachedPosts = null;
+let cachedAt = 0;
 
 function pickFirstValue(row, keys) {
     for (const key of keys) {
@@ -23,6 +27,10 @@ function toSlug(value) {
 }
 
 export async function getBlogPosts() {
+    if (cachedPosts && Date.now() - cachedAt < BLOG_CACHE_TTL_MS) {
+        return cachedPosts;
+    }
+
     // Return empty array if no URL is provided
     if (!GOOGLE_SHEET_URL) {
         console.warn("Google Sheet URL is not defined.");
@@ -116,10 +124,12 @@ export async function getBlogPosts() {
             };
         });
 
+        cachedPosts = processedPosts;
+        cachedAt = Date.now();
         return processedPosts;
     } catch (error) {
         console.error("❌ Error fetching blog posts:", error);
-        return [];
+        return cachedPosts || [];
     }
 }
 
