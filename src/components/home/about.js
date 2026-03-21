@@ -39,12 +39,12 @@ export default function About() {
                         <div className="relative group">
                             <div className="relative overflow-hidden rounded-[30px] border border-white/10 group-hover:border-blue-500/30 transition-all duration-500">
                                 <Image
-                                    src="/assets/about-640.webp"
+                                    src="/assets/about-500.webp"
                                     alt="Anagh K R"
-                                    srcSet="/assets/about-640.webp 640w, /assets/about.webp 924w"
+                                    srcSet="/assets/about-320.webp 320w, /assets/about-500.webp 500w, /assets/about-640.webp 640w, /assets/about.webp 924w"
                                     width={500}
                                     height={500}
-                                    sizes="(max-width: 1024px) 100vw, 50vw"
+                                    sizes="(max-width: 640px) calc(100vw - 3rem), 500px"
                                     loading="lazy"
                                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                                 />
