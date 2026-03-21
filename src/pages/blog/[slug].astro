@@ -1,9 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getBlogPostBySlug, getBlogPosts } from "@/lib/blog";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import remarkBreaks from "remark-breaks";
+import { marked } from "marked";
 
 export async function getStaticPaths() {
   const posts = await getBlogPosts();
@@ -18,6 +16,13 @@ const post = await getBlogPostBySlug(slug);
 if (!post) {
   throw Astro.redirect("/blog");
 }
+
+marked.setOptions({
+  gfm: true,
+  breaks: true
+});
+
+const postHtml = marked.parse(post.content || "");
 
 const pageMetadata = {
   title: `${post.title} | Anagh K R Blog`,
@@ -112,9 +117,7 @@ const structuredData = {
         </div>
       </div>
 
-      <div class="prose prose-invert prose-xl max-w-none text-gray-300 prose-headings:text-white prose-headings:font-bold prose-headings:mb-6 prose-headings:mt-10 prose-p:leading-loose prose-p:mb-8 prose-p:text-gray-300 prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline prose-strong:text-white prose-strong:font-bold prose-li:marker:text-blue-500 prose-li:mb-2 prose-img:rounded-2xl prose-img:shadow-2xl prose-img:my-10 prose-img:w-full prose-img:object-cover prose-hr:border-gray-800 prose-hr:my-12">
-        <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>{post.content}</ReactMarkdown>
-      </div>
+      <div class="prose prose-invert prose-xl max-w-none text-gray-300 prose-headings:text-white prose-headings:font-bold prose-headings:mb-6 prose-headings:mt-10 prose-p:leading-loose prose-p:mb-8 prose-p:text-gray-300 prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline prose-strong:text-white prose-strong:font-bold prose-li:marker:text-blue-500 prose-li:mb-2 prose-img:rounded-2xl prose-img:shadow-2xl prose-img:my-10 prose-img:w-full prose-img:object-cover prose-hr:border-gray-800 prose-hr:my-12" set:html={postHtml}></div>
     </div>
   </article>
 </BaseLayout>

@@ -3,6 +3,25 @@ import Papa from 'papaparse';
 // TODO: Replace with the actual Google Sheet CSV URL provided by the user
 const GOOGLE_SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQzBQU_Zm4oHdU4D4SxRM9TiNtKBdPBDLe1_NDEoqOF1kQtU0K1do41TB73oYcrzDmZrDfYRALwKJpk/pub?output=csv';
 
+function pickFirstValue(row, keys) {
+    for (const key of keys) {
+        const value = row?.[key];
+        if (typeof value === 'string' && value.trim() !== '') {
+            return value.trim();
+        }
+    }
+    return '';
+}
+
+function toSlug(value) {
+    return (value || '')
+        .toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-')
+        .replace(/(^-|-$)/g, '');
+}
+
 export async function getBlogPosts() {
     // Return empty array if no URL is provided
     if (!GOOGLE_SHEET_URL) {
@@ -11,9 +30,7 @@ export async function getBlogPosts() {
     }
 
     try {
-        console.log("Fetching blog posts from Google Sheet...");
-        // Use no-cache during build to ensure fresh data
-        // Add timestamp to prevent caching
+        // Use no-cache during build to ensure fresh data.
         const timestamp = Date.now();
         const urlWithTimestamp = `${GOOGLE_SHEET_URL}&t=${timestamp}`;
         
@@ -38,48 +55,66 @@ export async function getBlogPosts() {
             console.warn("CSV parsing errors:", errors);
         }
         
-        console.log(`Raw CSV data rows: ${data.length}`);
+        // Some sheet exports contain continuation rows with empty title.
+        // Merge those rows into the previous valid post content.
+        const mergedRows = [];
+        let currentPost = null;
 
-        // Filter out empty rows and format
-        const processedPosts = data
-            .filter(post => {
-                const hasTitle = post.title && post.title.trim() !== '';
-                const notHash = post.slug !== '#';
-                if (!hasTitle) {
-                    console.log("Skipping row without title:", post);
+        for (const row of data) {
+            const title = pickFirstValue(row, ['title', 'post title', 'blog title']);
+            const slugValue = pickFirstValue(row, ['slug', 'url slug']);
+            const descriptionValue = pickFirstValue(row, ['description', 'meta description', 'excerpt', 'summary']);
+            const contentValue = pickFirstValue(row, ['content', 'article', 'body', 'post content']);
+
+            if (title !== '' && slugValue !== '#') {
+                if (currentPost) {
+                    mergedRows.push(currentPost);
                 }
-                return hasTitle && notHash;
-            })
-            .map((post, index) => {
-                // Auto-generate slug from title if missing or invalid
-                let cleanSlug = post.slug && post.slug.trim() !== '' && post.slug !== '#'
-                    ? post.slug.trim()
-                    : post.title.toLowerCase()
-                        .replace(/[^a-z0-9\s-]/g, '') // Remove special chars
-                        .replace(/\s+/g, '-')          // Replace spaces with hyphens
-                        .replace(/-+/g, '-')           // Replace multiple hyphens with single
-                        .replace(/(^-|-$)/g, '');      // Remove leading/trailing hyphens
-                
-                // Parse tags and use as keywords
-                const tagArray = post.tags 
-                    ? post.tags.split(',').map(tag => tag.trim()).filter(tag => tag.length > 0)
-                    : [];
-                
-                console.log(`Post ${index + 1}: "${post.title}" -> slug: "${cleanSlug}", tags: [${tagArray.join(', ')}]`);
-                
-                return {
-                    ...post,
-                    slug: cleanSlug,
-                    tags: tagArray,
-                    // Ensure required fields exist
-                    date: post.date || new Date().toISOString().split('T')[0],
-                    description: post.description || post.title,
-                    content: post.content || '',
-                    image: post.image || '/assets/blog/default.jpg'
+
+                currentPost = {
+                    ...row,
+                    title,
+                    slug: slugValue,
+                    description: descriptionValue,
+                    content: contentValue
                 };
-            });
-        
-        console.log(`✅ Successfully fetched ${processedPosts.length} valid blog posts`);
+                continue;
+            }
+
+            if (currentPost && contentValue) {
+                currentPost.content = currentPost.content
+                    ? `${currentPost.content}\n\n${contentValue}`
+                    : contentValue;
+            }
+
+            if (currentPost && !currentPost.description && descriptionValue) {
+                currentPost.description = descriptionValue;
+            }
+        }
+
+        if (currentPost) {
+            mergedRows.push(currentPost);
+        }
+
+        const processedPosts = mergedRows.map((post) => {
+            const cleanSlug = post.slug && post.slug !== '#'
+                ? post.slug.trim()
+                : toSlug(post.title);
+
+            const tagArray = post.tags
+                ? post.tags.split(',').map((tag) => tag.trim()).filter((tag) => tag.length > 0)
+                : [];
+
+            return {
+                ...post,
+                slug: cleanSlug,
+                tags: tagArray,
+                date: post.date || new Date().toISOString().split('T')[0],
+                description: post.description || post.title,
+                content: post.content || post.description || '',
+                image: post.image || '/assets/blog/default.jpg'
+            };
+        });
         
         return processedPosts;
     } catch (error) {
