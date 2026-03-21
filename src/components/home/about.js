@@ -39,8 +39,9 @@ export default function About() {
                         <div className="relative group">
                             <div className="relative overflow-hidden rounded-[30px] border border-white/10 group-hover:border-blue-500/30 transition-all duration-500">
                                 <Image
-                                    src="/assets/about.webp"
+                                    src="/assets/about-640.webp"
                                     alt="Anagh K R"
+                                    srcSet="/assets/about-640.webp 640w, /assets/about.webp 924w"
                                     width={500}
                                     height={500}
                                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -90,7 +91,7 @@ export default function About() {
                                     <Terminal size={22} />
                                 </div>
                                 <h4 className="text-white font-bold mb-2">Full-Stack Web Development</h4>
-                                <p className="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Expert in React, Next.js, Node.js, and MongoDB for scalable web applications.</p>
+                                <p className="text-xs text-gray-300 leading-relaxed uppercase tracking-wider">Expert in React, Next.js, Node.js, and MongoDB for scalable web applications.</p>
                             </div>
 
                             <div className="p-6 rounded-3xl bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all group">
@@ -98,7 +99,7 @@ export default function About() {
                                     <Globe size={22} />
                                 </div>
                                 <h4 className="text-white font-bold mb-2">Cross-Platform Mobile Apps</h4>
-                                <p className="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Building high-performance Flutter apps for iOS and Android platforms.</p>
+                                <p className="text-xs text-gray-300 leading-relaxed uppercase tracking-wider">Building high-performance Flutter apps for iOS and Android platforms.</p>
                             </div>
                         </div>
 

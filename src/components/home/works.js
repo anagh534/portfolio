@@ -61,9 +61,11 @@ export default function Works() {
                                 <Image
                                     src={project.img}
                                     alt={project.title}
+                                    srcSet={project.srcSet}
                                     fill={true}
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                     loading="lazy"
+                                    decoding="async"
                                     className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">

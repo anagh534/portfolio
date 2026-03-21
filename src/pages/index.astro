@@ -67,10 +67,10 @@ const faqSchema = {
   <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)}></script>
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
 
-  <Hero client:only="react" />
-  <About client:load />
-  <Skills client:load />
-  <Works client:load />
-  <WhatWeOffer client:load />
-  <WhyChooseMe client:load />
+  <Hero client:load />
+  <About client:visible />
+  <Skills client:visible />
+  <Works client:visible />
+  <WhatWeOffer client:visible />
+  <WhyChooseMe client:visible />
 </BaseLayout>

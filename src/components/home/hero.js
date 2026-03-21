@@ -5,7 +5,6 @@ import Image from '@/compat/image';
 import Link from '@/compat/link';
 import { motion } from 'framer-motion';
 import { Mail, MapPin, Briefcase, Download, MessageSquare, Code, Cpu, Layers } from 'lucide-react';
-import CountUp from 'react-countup';
 
 export default function Hero() {
   const containerVariants = {
@@ -38,12 +37,15 @@ export default function Hero() {
               <div className="relative mb-8 flex justify-center">
                 <div className="relative">
                   <Image
-                    src="/assets/profile.png"
+                    src="/assets/profile-160.webp"
+                    srcSet="/assets/profile-160.webp 160w, /assets/profile-320.webp 320w"
                     alt="Anagh K R"
                     width={160}
                     height={160}
+                    sizes="160px"
                     priority={true}
                     fetchPriority="high"
+                    decoding="async"
                     className="rounded-3xl group-hover:border-blue-500/50 transition-all duration-500"
                   />
                   <div className="absolute -bottom-3 -right-3 bg-green-500 text-black text-[10px] font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg">
@@ -120,15 +122,11 @@ export default function Hero() {
 
             <div className="grid grid-cols-3 gap-8 pt-10 border-t border-white/5">
               <div className="space-y-1">
-                <div className="text-3xl font-black text-white flex items-center">
-                  <CountUp end={24} duration={3} /><span>+</span>
-                </div>
+                <div className="text-3xl font-black text-white">24+</div>
                 <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Projects Done</p>
               </div>
               <div className="space-y-1">
-                <div className="text-3xl font-black text-white flex items-center">
-                  <CountUp end={12} duration={3} /><span>+</span>
-                </div>
+                <div className="text-3xl font-black text-white">12+</div>
                 <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Technologies</p>
               </div>
               <div className="space-y-1">
