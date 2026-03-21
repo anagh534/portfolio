@@ -1,0 +1,10 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import PageComponent, * as pageModule from "@/components/pages/locations/calicut/Page.js";
+
+const pageMetadata = pageModule.metadata || {};
+---
+
+<BaseLayout metadata={pageMetadata}>
+  <PageComponent />
+</BaseLayout>

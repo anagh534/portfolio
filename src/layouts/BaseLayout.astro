@@ -1,0 +1,109 @@
+---
+import "@/styles/global.css";
+import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
+import { metadata as globalMetadata } from "@/config/siteMetadata";
+import { personStructuredData, organizationStructuredData } from "@/lib/structuredData";
+
+const { metadata = {} } = Astro.props;
+
+const titleTemplate = globalMetadata?.title?.template || "%s";
+const fallbackTitle = globalMetadata?.title?.default || "ANAGH K R";
+const rawTitle = typeof metadata.title === "string"
+  ? metadata.title
+  : metadata.title?.default || metadata.title?.absolute || fallbackTitle;
+const title = rawTitle === fallbackTitle ? fallbackTitle : titleTemplate.replace("%s", rawTitle);
+
+const description = metadata.description || globalMetadata.description;
+const keywords = Array.isArray(metadata.keywords)
+  ? metadata.keywords.join(", ")
+  : metadata.keywords || globalMetadata.keywords?.join(", ");
+
+const metadataBase = globalMetadata?.metadataBase || new URL("https://www.anaghkr.in");
+const defaultCanonical = new URL(Astro.url.pathname, metadataBase).toString();
+const canonical = metadata.alternates?.canonical || defaultCanonical;
+const toAbsoluteUrl = (value) => {
+  if (!value) return null;
+  try {
+    return new URL(value, metadataBase).toString();
+  } catch {
+    return value;
+  }
+};
+const alternateLanguages = metadata.alternates?.languages || globalMetadata.alternates?.languages || {};
+
+const og = metadata.openGraph || globalMetadata.openGraph || {};
+const twitter = metadata.twitter || globalMetadata.twitter || {};
+
+const ogImage = Array.isArray(og.images)
+  ? og.images[0]?.url || og.images[0]
+  : og.images;
+const twitterImage = Array.isArray(twitter.images)
+  ? twitter.images[0]
+  : twitter.images;
+const resolvedOgImage = toAbsoluteUrl(typeof ogImage === "string" ? ogImage : ogImage?.url);
+const resolvedTwitterImage = toAbsoluteUrl(twitterImage) || resolvedOgImage;
+
+const robotsSource = metadata.robots || globalMetadata.robots || { index: true, follow: true };
+const robotsMeta = typeof robotsSource === "string"
+  ? robotsSource
+  : `${robotsSource.index === false ? "noindex" : "index"}, ${robotsSource.follow === false ? "nofollow" : "follow"}`;
+const googleBotMeta = typeof robotsSource === "object" && robotsSource.googleBot
+  ? `${robotsSource.googleBot.index === false ? "noindex" : "index"}, ${robotsSource.googleBot.follow === false ? "nofollow" : "follow"}`
+  : null;
+
+const googleVerification = metadata.verification?.google || globalMetadata.verification?.google;
+const themeColor = globalMetadata?.viewport?.themeColor || "#050505";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
+    <meta name="robots" content={robotsMeta} />
+    {googleBotMeta && <meta name="googlebot" content={googleBotMeta} />}
+    {googleVerification && <meta name="google-site-verification" content={googleVerification} />}
+    <meta name="theme-color" content={themeColor} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+
+    {Object.entries(alternateLanguages).map(([locale, href]) => (
+      <link rel="alternate" hreflang={locale} href={href} />
+    ))}
+
+    <meta property="og:type" content={og.type || "website"} />
+    <meta property="og:title" content={og.title || title} />
+    <meta property="og:description" content={og.description || description} />
+    <meta property="og:url" content={og.url || canonical} />
+    {og.siteName && <meta property="og:site_name" content={og.siteName} />}
+    {og.locale && <meta property="og:locale" content={og.locale} />}
+    {resolvedOgImage && <meta property="og:image" content={resolvedOgImage} />}
+
+    <meta name="twitter:card" content={twitter.card || "summary_large_image"} />
+    <meta name="twitter:title" content={twitter.title || title} />
+    <meta name="twitter:description" content={twitter.description || description} />
+    {resolvedTwitterImage && (
+      <meta name="twitter:image" content={resolvedTwitterImage} />
+    )}
+
+    <script type="application/ld+json" set:html={JSON.stringify(personStructuredData)}></script>
+    <script type="application/ld+json" set:html={JSON.stringify(organizationStructuredData)}></script>
+  </head>
+  <body>
+    <div class="fixed inset-0 -z-1 bg-[#050505]">
+      <div class="absolute inset-0 bg-gradient-to-br from-blue-900/10 via-transparent to-transparent opacity-50 pointer-events-none"></div>
+    </div>
+
+    <Navbar client:idle />
+
+    <main id="main-content" class="relative z-10">
+      <slot />
+    </main>
+
+    <Footer client:idle />
+  </body>
+</html>

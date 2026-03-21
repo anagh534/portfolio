@@ -1,9 +1,15 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
       "@/*": [
-        "./*"
+        "./src/*"
       ]
     }
-  }
+  },
+  "exclude": [
+    "dist",
+    ".astro",
+    "node_modules"
+  ]
 }

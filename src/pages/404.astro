@@ -1,0 +1,8 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import NotFoundPage from "@/components/pages/NotFound.js";
+---
+
+<BaseLayout metadata={{ title: "Page Not Found" }}>
+  <NotFoundPage client:load />
+</BaseLayout>

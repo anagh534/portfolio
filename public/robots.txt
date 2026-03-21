@@ -39,9 +39,8 @@ Allow: /
 User-agent: *
 Allow: /
 Disallow: /admin/
-Disallow: /_next/
 Disallow: /api/
 Disallow: /.git/
 
 # Sitemap location
-Sitemap: https://www.anaghkr.in/sitemap.xml
+Sitemap: https://www.anaghkr.in/sitemap-index.xml

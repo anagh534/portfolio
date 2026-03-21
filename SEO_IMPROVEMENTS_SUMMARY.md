@@ -288,7 +288,7 @@ Study their:
 
 ### Core Files:
 - `/app/ClientLayout.js` ✅ (Added Organization schema)
-- `/next-sitemap.config.js` ✅ (Fixed blog, removed resume)
+- `Astro sitemap integration` ✅ (Automatic sitemap generation during build)
 
 ---
 
