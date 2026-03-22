@@ -43,4 +43,4 @@ Disallow: /api/
 Disallow: /.git/
 
 # Sitemap location
-Sitemap: https://www.anaghkr.in/sitemap-index.xml
+Sitemap: https://www.anaghkr.in/sitemap.xml

@@ -69,7 +69,7 @@ const themeColor = globalMetadata?.viewport?.themeColor || "#050505";
     {googleVerification && <meta name="google-site-verification" content={googleVerification} />}
     <meta name="theme-color" content={themeColor} />
     {canonical && <link rel="canonical" href={canonical} />}
-    <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
     {Object.entries(alternateLanguages).map(([locale, href]) => (
       <link rel="alternate" hreflang={locale} href={href} />

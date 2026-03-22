@@ -97,16 +97,16 @@ export default function Hero() {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-black tracking-tighter text-white leading-[0.9] mb-8">
-              FREELANCE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">WEB DEVELOPER</span><br />
-              & APP DEVELOPER <br />
+              FREELANCE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">FLUTTER DEVELOPER</span><br />
+              & WEB DEVELOPER <br />
               IN KERALA
             </h1>
 
             <p className="text-xl text-gray-400 leading-relaxed mb-10 max-w-xl">
-              Experienced <strong className="text-white">freelance web developer in Kerala</strong> and <strong className="text-white">web designer</strong> specializing in <strong className="text-white">Flutter, MERN stack, and WordPress development</strong>.
+              Experienced <strong className="text-white">Flutter developer in Kerala</strong> and <strong className="text-white">freelance web developer</strong> specializing in <strong className="text-white">Flutter, MERN stack, and WordPress development</strong>.
               Building custom websites, e-commerce solutions, and high-performance mobile apps
               for businesses across Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
-              Transforming ideas into scalable digital products with clean code and exceptional user experiences.
+              Transforming ideas into scalable digital products with clean code and exceptional user experiences. <Link href="/flutter-app-development" className="text-blue-300 underline underline-offset-4 hover:text-blue-200">Explore Flutter app development services in Kerala</Link>.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-16">

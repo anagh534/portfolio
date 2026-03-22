@@ -7,23 +7,23 @@ import WhatWeOffer from '@/components/home/whatweoffer';
 import WhyChooseMe from '@/components/home/WhyChooseMe';
 
 export const metadata = {
-  title: "Freelance Web Developer Kerala | Web Design, WordPress, Flutter & MERN",
-  description: "Hire a freelance web developer in Kerala for website design, WordPress development, e-commerce solutions, and Flutter app development. Serving Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
-  keywords: "freelance web developer Kerala, web designer Kerala, freelance web designer Kerala, website development Kerala, WordPress developer Kerala, e-commerce development Kerala, Shopify developer Kerala, Flutter developer Kerala, MERN stack developer Kerala, mobile app developer Kerala, React developer Kerala, Node.js developer Kerala, Next.js developer Kerala, web developer Kochi, web developer Calicut, web developer Trivandrum, web developer Kannur, web developer Kasaragod, web developer near me, freelance web developer near me, website designer near me, app developer near me, wordpress developer near me",
+  title: "Flutter Developer Kerala | Freelance Web Developer, WordPress & MERN",
+  description: "Hire a Flutter developer in Kerala for iOS and Android app development, plus custom websites, WordPress, and MERN solutions. Serving Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
+  keywords: "Flutter developer Kerala, hire Flutter developer Kerala, Flutter app developer Kerala, mobile app developer Kerala, freelance web developer Kerala, web designer Kerala, freelance web designer Kerala, website development Kerala, WordPress developer Kerala, e-commerce development Kerala, Shopify developer Kerala, MERN stack developer Kerala, React developer Kerala, Node.js developer Kerala, Next.js developer Kerala, Flutter developer Kochi, Flutter developer Calicut, Flutter developer Trivandrum, Flutter developer Kannur, Flutter developer Kasaragod, web developer near me, freelance web developer near me, website designer near me, app developer near me, wordpress developer near me",
   robots: { index: true, follow: true },
   alternates: {
     canonical: "https://www.anaghkr.in",
   },
   openGraph: {
-    title: "Freelance Web Developer Kerala | Website Design, WordPress & Flutter",
-    description: "Freelance web developer and web designer in Kerala for custom websites, WordPress development, e-commerce, and Flutter apps.",
+    title: "Flutter Developer Kerala | iOS Android Apps, Web & WordPress",
+    description: "Expert Flutter developer in Kerala for iOS and Android apps, custom websites, WordPress development, and MERN solutions.",
     url: "https://www.anaghkr.in",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Freelance Web Developer Kerala | WordPress, MERN & Flutter",
-    description: "Freelance web developer in Kerala offering website design, WordPress development, e-commerce solutions, and Flutter mobile apps.",
+    title: "Flutter Developer Kerala | WordPress, MERN & Web Development",
+    description: "Hire a Flutter developer in Kerala for mobile apps, websites, e-commerce, and WordPress projects.",
   },
 };
 

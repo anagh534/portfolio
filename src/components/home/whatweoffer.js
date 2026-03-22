@@ -22,6 +22,8 @@ const services = [
         icon: <Globe size={24} />,
         shortDesc: "Professional MERN stack development services for businesses across Kerala. Building scalable, secure web applications with React, Next.js, Node.js, and MongoDB.",
         technologies: ["React", "Next.js", "Node.js", "MongoDB"],
+        href: "/mern-stack-development",
+        cta: "View MERN service",
     },
     {
         id: 2,
@@ -29,6 +31,8 @@ const services = [
         icon: <ShoppingCart size={24} />,
         shortDesc: "Complete online store development with secure payment integration, inventory management, and SEO optimization. Shopify, WooCommerce, and custom solutions available.",
         technologies: ["Shopify", "WooCommerce", "Stripe", "Next.js"],
+        href: "/ecommerce-development",
+        cta: "View ecommerce service",
     },
     {
         id: 3,
@@ -36,6 +40,8 @@ const services = [
         icon: <Smartphone size={24} />,
         shortDesc: "Expert Flutter mobile app development for iOS and Android. Native performance with beautiful UI, from concept to App Store deployment.",
         technologies: ["Flutter", "Dart", "Firebase", "App Store"],
+        href: "/flutter-app-development",
+        cta: "Hire Flutter developer Kerala",
     },
     {
         id: 4,
@@ -43,6 +49,8 @@ const services = [
         icon: <Palette size={24} />,
         shortDesc: "Modern, mobile-first website design that looks stunning on all devices. Converting Figma designs to pixel-perfect, fast-loading responsive websites.",
         technologies: ["Figma", "Tailwind", "Framer Motion"],
+        href: "/web-development",
+        cta: "View web design service",
     },
     {
         id: 5,
@@ -50,6 +58,8 @@ const services = [
         icon: <RefreshCw size={24} />,
         shortDesc: "Custom WordPress website development and theme customization. Easy content management with plugin integration and WooCommerce e-commerce setup.",
         technologies: ["WordPress", "WooCommerce", "Custom Themes"],
+        href: "/wordpress-development",
+        cta: "View WordPress service",
     },
     {
         id: 6,
@@ -57,6 +67,8 @@ const services = [
         icon: <CodeXml size={24} />,
         shortDesc: "Converting your Figma, PSD, or XD designs into clean, production-ready HTML, CSS, and React code with perfect attention to detail.",
         technologies: ["HTML5", "CSS3", "JavaScript", "React"],
+        href: "/react-development",
+        cta: "View frontend service",
     },
     {
         id: 7,
@@ -64,6 +76,8 @@ const services = [
         icon: <GraduationCap size={24} />,
         shortDesc: "Helping students with academic projects and startups with MVP development. Fast turnaround, mentoring included, and affordable pricing.",
         technologies: ["Fast MVP", "Documentation", "Mentoring"],
+        href: "/mobile-app-development",
+        cta: "View MVP service",
     },
     {
         id: 8,
@@ -71,6 +85,8 @@ const services = [
         icon: <Rocket size={24} />,
         shortDesc: "Website optimization for better search rankings and faster load times. Technical SEO, performance audits, and Google Analytics integration.",
         technologies: ["SEO", "Performance", "Analytics"],
+        href: "/services",
+        cta: "View SEO service",
     },
     {
         id: 9,
@@ -78,6 +94,8 @@ const services = [
         icon: <MessageCircleMore size={24} />,
         shortDesc: "Launch social-commerce ready stores with Instagram catalog setup, Shopify storefronts, and WhatsApp-first lead conversion.",
         technologies: ["Instagram Shop", "Shopify", "Social Commerce"],
+        href: "/instagram-store-development",
+        cta: "View Instagram store service",
     },
     {
         id: 10,
@@ -85,6 +103,8 @@ const services = [
         icon: <ShoppingCart size={24} />,
         shortDesc: "Build dropshipping websites and trend-product stores with high-converting pages, offer flows, and scalable order operations.",
         technologies: ["Dropshipping", "Checkout", "Automation"],
+        href: "/dropshipping-website-development",
+        cta: "View dropshipping service",
     },
     {
         id: 11,
@@ -92,6 +112,8 @@ const services = [
         icon: <Globe size={24} />,
         shortDesc: "Specialized ecommerce websites for clothing, shoe stores, and electronics with product-focused UX and faster mobile shopping.",
         technologies: ["Clothing", "Shoes", "Electronics"],
+        href: "/electronics-ecommerce-website-development",
+        cta: "View ecommerce niches",
     },
     {
         id: 12,
@@ -99,6 +121,8 @@ const services = [
         icon: <Smartphone size={24} />,
         shortDesc: "Develop secure dating and realtime chat apps with moderation features, scalable messaging architecture, and growth-ready roadmaps.",
         technologies: ["Flutter", "Node.js", "Realtime Chat"],
+        href: "/chat-app-development",
+        cta: "View chat app service",
     }
 ];
 
@@ -176,10 +200,10 @@ export default function WhatWeOffer() {
                             </div>
 
                             <a
-                                href="/contact"
+                                href={service.href || "/contact"}
                                 className="inline-flex items-center gap-2 text-xs font-black text-white uppercase tracking-widest group/link hover:text-blue-400 transition-colors"
                             >
-                                <span>Discuss Project</span>
+                                <span>{service.cta || "Discuss Project"}</span>
                                 <ArrowRight size={14} className="group-hover/link:translate-x-1 transition-transform" />
                             </a>
                         </motion.div>
