@@ -75,7 +75,7 @@ export default function Testimonials() {
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
                         What Clients <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Say</span>
                     </h2>
-                    <p className="max-w-2xl mx-auto text-gray-400">
+                    <p className="max-w-3xl mx-auto text-gray-400 leading-relaxed">
                         Feedback from clients across Kerala and beyond on web and Flutter app development projects.
                     </p>
                 </motion.div>
@@ -89,34 +89,40 @@ export default function Testimonials() {
                 )}
 
                 {!loading && !error && (
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
                         {items.map((item, index) => {
                             const quote = item.quote || '';
 
                             return (
                                 <motion.article
                                     key={`${item.name}-${index}`}
-                                    className="p-8 rounded-[32px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-500"
+                                    className="h-full p-7 rounded-[30px] bg-gradient-to-b from-white/10 via-white/[0.05] to-white/[0.03] border border-white/10 hover:border-blue-400/40 transition-all duration-500 shadow-[0_16px_50px_-24px_rgba(37,99,235,0.55)] flex flex-col"
                                     initial={{ opacity: 0, y: 20 }}
                                     whileInView={{ opacity: 1, y: 0 }}
+                                    whileHover={{ y: -6 }}
                                     viewport={{ once: true }}
                                     transition={{ delay: index * 0.08 }}
                                 >
-                                    <Stars rating={item.rating || 5} />
+                                    <div className="flex items-center justify-between gap-3">
+                                        <Stars rating={item.rating || 5} />
+                                        <span className="inline-flex items-center rounded-full bg-blue-500/15 border border-blue-400/25 px-2.5 py-1 text-[10px] font-bold text-blue-200 tracking-wider">
+                                            {Number(item.rating || 5).toFixed(1)} / 5
+                                        </span>
+                                    </div>
 
-                                    <div className="relative mt-5 rounded-2xl border border-white/10 bg-gradient-to-b from-white/10 via-white/[0.06] to-transparent px-5 py-5">
-                                        <span className="absolute -top-2 left-4 text-blue-300/70 text-lg">"</span>
+                                    <div className="relative mt-5 rounded-2xl border border-white/10 bg-slate-950/40 px-5 py-5 flex-1">
+                                        <MessageSquareQuote size={20} className="absolute right-4 top-4 text-blue-300/20" />
                                         <p
-                                            className="max-h-48 overflow-y-auto pr-3 text-gray-100 leading-7 text-[15px] [scrollbar-width:thin] [scrollbar-color:rgba(96,165,250,0.55)_rgba(255,255,255,0.08)]"
+                                            className="max-h-52 overflow-y-auto pr-2 text-gray-100 leading-7 text-[15px] [scrollbar-width:thin] [scrollbar-color:rgba(96,165,250,0.55)_rgba(255,255,255,0.08)]"
                                             style={{ WebkitOverflowScrolling: 'touch' }}
                                         >
-                                            {quote}
+                                            {`"${quote}"`}
                                         </p>
                                     </div>
 
-                                    <div className="mt-6 pt-6 border-t border-white/10">
-                                        <p className="text-white font-bold uppercase tracking-wide text-sm">{item.name}</p>
-                                        <p className="text-gray-400 text-xs uppercase tracking-wider mt-1">
+                                    <div className="mt-5 pt-5 border-t border-white/10">
+                                        <p className="text-white font-bold uppercase tracking-[0.08em] text-sm">{item.name}</p>
+                                        <p className="text-gray-400 text-xs uppercase tracking-[0.16em] mt-1">
                                             {item.role} {item.location ? `, ${item.location}` : ''}
                                         </p>
                                     </div>
