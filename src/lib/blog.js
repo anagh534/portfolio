@@ -26,6 +26,11 @@ function toSlug(value) {
         .replace(/(^-|-$)/g, '');
 }
 
+function toTimestamp(value) {
+    const parsed = Date.parse(value || '');
+    return Number.isNaN(parsed) ? 0 : parsed;
+}
+
 export async function getBlogPosts() {
     if (cachedPosts && Date.now() - cachedAt < BLOG_CACHE_TTL_MS) {
         return cachedPosts;
@@ -122,7 +127,7 @@ export async function getBlogPosts() {
                 content: post.content || post.description || '',
                 image: post.image || '/assets/blog/default.jpg'
             };
-        });
+        }).sort((a, b) => toTimestamp(b.date) - toTimestamp(a.date));
 
         cachedPosts = processedPosts;
         cachedAt = Date.now();
