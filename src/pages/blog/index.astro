@@ -20,7 +20,7 @@ const pageMetadata = {
   description: "Read the latest thoughts, tutorials, and updates on Web Development, Flutter, and Tech Trends.",
   keywords: allTags.length > 0 ? allTags : ["Web Development", "Flutter", "Tech Trends", "Tutorials"],
   alternates: {
-    canonical: "https://www.anaghkr.in/blog"
+    canonical: "https://www.anaghkr.in/blog/"
   }
 };
 
@@ -29,7 +29,7 @@ const structuredData = {
   "@type": "Blog",
   name: "Anagh K R - Tech Blog",
   description: "Insights and tutorials on Web Development, Flutter, and Modern Tech Stacks.",
-  url: "https://www.anaghkr.in/blog",
+  url: "https://www.anaghkr.in/blog/",
   author: {
     "@type": "Person",
     name: "Anagh K R",
@@ -40,7 +40,7 @@ const structuredData = {
     headline: post.title,
     description: post.description,
     datePublished: post.date,
-    url: `https://www.anaghkr.in/blog/${post.slug}`,
+    url: `https://www.anaghkr.in/blog/${String(post.slug || "").replace(/^\/+|\/+$/g, "")}/`,
     author: {
       "@type": "Person",
       name: "Anagh K R"

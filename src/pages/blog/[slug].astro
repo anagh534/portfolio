@@ -18,6 +18,9 @@ marked.setOptions({
 });
 
 const postHtml = marked.parse(post.content || "");
+const normalizedSlug = String(post.slug || "").replace(/^\/+|\/+$/g, "");
+const postPath = `/blog/${normalizedSlug}/`;
+const postUrl = `https://www.anaghkr.in${postPath}`;
 
 const pageMetadata = {
   title: `${post.title} | Anagh K R Blog`,
@@ -32,14 +35,14 @@ const pageMetadata = {
     "Kerala Developer"
   ],
   alternates: {
-    canonical: `https://www.anaghkr.in/blog/${post.slug}`
+    canonical: postUrl
   },
   openGraph: {
     title: post.title,
     description: post.description,
     type: "article",
     publishedTime: post.date,
-    url: `https://www.anaghkr.in/blog/${post.slug}`
+    url: postUrl
   },
   twitter: {
     card: "summary_large_image",
@@ -68,10 +71,10 @@ const structuredData = {
       url: "https://www.anaghkr.in/favicon.png"
     }
   },
-  url: `https://www.anaghkr.in/blog/${post.slug}`,
+  url: postUrl,
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": `https://www.anaghkr.in/blog/${post.slug}`
+    "@id": postUrl
   },
   keywords: post.tags ? post.tags.join(", ") : ""
 };

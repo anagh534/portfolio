@@ -4,6 +4,10 @@ import Link from '@/compat/link';
 import { Calendar, ArrowRight } from "lucide-react";
 
 export default function BlogCard({ post, index }) {
+    const normalizedSlug = String(post?.slug || "").replace(/^\/+|\/+$/g, "");
+    const isExternalSlug = normalizedSlug.startsWith('http');
+    const postHref = normalizedSlug ? (isExternalSlug ? normalizedSlug : `/blog/${normalizedSlug}/`) : '#';
+
     return (
         <div
             className="glass-card overflow-hidden group h-full flex flex-col animate-fade-in"
@@ -44,9 +48,9 @@ export default function BlogCard({ post, index }) {
 
                 <div className="mt-auto">
                     <Link
-                        href={post.slug ? (post.slug.startsWith('http') ? post.slug : `/blog/${post.slug}`) : '#'}
+                        href={postHref}
                         className="inline-flex items-center text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors"
-                        target={post.slug?.startsWith('http') ? '_blank' : '_self'}
+                        target={isExternalSlug ? '_blank' : '_self'}
                     >
                         Read Article <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                     </Link>
