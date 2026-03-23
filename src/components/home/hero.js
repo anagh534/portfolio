@@ -1,10 +1,9 @@
 'use client';
 
 import React from 'react';
-import Image from '@/compat/image';
 import Link from '@/compat/link';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Briefcase, Download, MessageSquare, Code, Cpu, Layers } from 'lucide-react';
+import { MessageSquare, Cpu, Layers } from 'lucide-react';
 
 export default function Hero() {
   const containerVariants = {
@@ -23,104 +22,47 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
+    <section id="hero" className="relative min-h-screen flex items-center pt-24 pb-14 overflow-hidden">
+      <div className="max-w-6xl mx-auto px-6 w-full relative z-10">
         <motion.div
-          className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
+          className="grid grid-cols-1"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
         >
-          {/* Left: Profile Card */}
-          <motion.div className="lg:col-span-5 flex justify-center lg:justify-start" variants={itemVariants}>
-            <div className="w-full max-w-md p-8 rounded-[40px] bg-white/5 backdrop-blur-xl  shadow-2xl relative group hover:border-blue-500/30 transition-all duration-500">
-              <div className="relative mb-8 flex justify-center">
-                <div className="relative">
-                  <Image
-                    src="/assets/profile-160.webp"
-                    srcSet="/assets/profile-160.webp 160w, /assets/profile-320.webp 320w"
-                    alt="Anagh K R"
-                    width={160}
-                    height={160}
-                    sizes="160px"
-                    priority={true}
-                    fetchPriority="high"
-                    decoding="async"
-                    className="rounded-3xl group-hover:border-blue-500/50 transition-all duration-500"
-                  />
-                  <div className="absolute -bottom-3 -right-3 bg-green-500 text-black text-[10px] font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg">
-                    <span className="w-2 h-2 bg-black rounded-full animate-pulse"></span>
-                    AVAILABLE
-                  </div>
-                </div>
-              </div>
-
-              <div className="text-center">
-                <h2 className="text-3xl font-black tracking-tight text-white mb-1">ANAGH K R</h2>
-                <p className="text-blue-400 font-bold mb-6">Full Stack Developer</p>
-
-                <div className="space-y-3 mb-8">
-                  <div className="flex items-center gap-3 text-sm text-gray-400 justify-center group/item hover:text-white transition-colors">
-                    <Mail size={16} className="text-blue-400" />
-                    <span>anaghkrkkl@gmail.com</span>
-                  </div>
-                  <div className="flex items-center gap-3 text-sm text-gray-400 justify-center group/item hover:text-white transition-colors">
-                    <MapPin size={16} className="text-blue-400" />
-                    <span>Kerala, India</span>
-                  </div>
-                </div>
-
-                <div className="flex flex-wrap gap-2 justify-center mb-8">
-                  <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] font-bold text-gray-300">#MERN</span>
-                  <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] font-bold text-gray-300">#FLUTTER</span>
-                  <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] font-bold text-gray-300">#NEXTJS</span>
-                </div>
-
-                <a
-                  href="https://drive.google.com/file/d/1EaHneU1Zsyadr8Xoppa2We7laj-nrnQJ/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-3 w-full py-4 rounded-2xl bg-white text-black font-black hover:bg-blue-500 hover:text-white transition-all duration-300 active:scale-95 group/btn"
-                >
-                  <span>DOWNLOAD CV</span>
-                  <Download size={18} className="group-hover:translate-y-0.5 transition-transform" />
-                </a>
-              </div>
-            </div>
-          </motion.div>
 
           {/* Right: Content Section */}
-          <motion.div className="lg:col-span-7" variants={itemVariants}>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-8 uppercase tracking-widest">
+          <motion.div className="w-full max-w-4xl mx-auto text-center lg:text-left" variants={itemVariants}>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-6 uppercase tracking-widest">
               <Cpu size={14} />
               <span>Innovating with Code</span>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-black tracking-tighter text-white leading-[0.9] mb-8">
-              FREELANCE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">FLUTTER DEVELOPER</span><br />
-              & WEB DEVELOPER <br />
+            <h1 className="text-[2.35rem] sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white leading-[0.95] mb-7">
+              FREELANCE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">FLUTTER DEVELOPER</span><br className="hidden sm:block" />
+              & WEB DEVELOPER <br className="hidden sm:block" />
               IN KERALA
             </h1>
 
-            <p className="text-xl text-gray-400 leading-relaxed mb-10 max-w-xl">
+            <p className="text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed mb-10 max-w-3xl mx-auto lg:mx-0">
               Experienced <strong className="text-white">Flutter developer in Kerala</strong> and <strong className="text-white">freelance web developer</strong> specializing in <strong className="text-white">Flutter, MERN stack, and WordPress development</strong>.
               Building custom websites, e-commerce solutions, and high-performance mobile apps
               for businesses across Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
               Transforming ideas into scalable digital products with clean code and exceptional user experiences. <Link href="/flutter-app-development" className="text-blue-300 underline underline-offset-4 hover:text-blue-200">Explore Flutter app development services in Kerala</Link>.
             </p>
 
-            <div className="flex flex-wrap gap-4 mb-16">
-              <a href="https://wa.me/918075541805" className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-blue-600 text-white font-black hover:bg-blue-500 transition-all hover:-translate-y-1 shadow-xl shadow-blue-500/25 active:scale-95 group">
+            <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-12">
+              <a href="https://wa.me/918075541805" className="w-full sm:w-auto justify-center flex items-center gap-3 px-8 py-4 rounded-2xl bg-blue-600 text-white font-black hover:bg-blue-500 transition-all hover:-translate-y-1 shadow-xl shadow-blue-500/25 active:scale-95 group">
                 <span>LET'S TALK</span>
                 <MessageSquare size={20} className="group-hover:translate-x-1 transition-transform" />
               </a>
-              <Link href="#works" className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 text-white font-black hover:bg-white/10 transition-all hover:-translate-y-1 active:scale-95 group">
+              <Link href="#works" className="w-full sm:w-auto justify-center flex items-center gap-3 px-8 py-4 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 text-white font-black hover:bg-white/10 transition-all hover:-translate-y-1 active:scale-95 group">
                 <span>VIEW WORK</span>
                 <Layers size={20} className="group-hover:rotate-12 transition-transform" />
               </Link>
             </div>
 
-            <div className="grid grid-cols-3 gap-8 pt-10 border-t border-white/5">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 pt-8 border-t border-white/10 text-center sm:text-left">
               <div className="space-y-1">
                 <div className="text-3xl font-black text-white">24+</div>
                 <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Projects Done</p>
