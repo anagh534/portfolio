@@ -26,6 +26,10 @@ function toSlug(value) {
         .replace(/(^-|-$)/g, '');
 }
 
+function normalizeSlug(value) {
+    return String(value || '').trim().replace(/^\/+|\/+$/g, '');
+}
+
 function toTimestamp(value) {
     const parsed = Date.parse(value || '');
     return Number.isNaN(parsed) ? 0 : parsed;
@@ -68,10 +72,7 @@ export async function getBlogPosts() {
             console.warn("CSV parsing errors:", errors);
         }
 
-        // Some sheet exports contain continuation rows with empty title.
-        // Merge those rows into the previous valid post content.
-        const mergedRows = [];
-        let currentPost = null;
+        const validRows = [];
 
         for (const row of data) {
             const title = pickFirstValue(row, ['title', 'post title', 'blog title']);
@@ -80,39 +81,22 @@ export async function getBlogPosts() {
             const contentValue = pickFirstValue(row, ['content', 'article', 'body', 'post content']);
 
             if (title !== '' && slugValue !== '#') {
-                if (currentPost) {
-                    mergedRows.push(currentPost);
-                }
-
-                currentPost = {
+                validRows.push({
                     ...row,
                     title,
                     slug: slugValue,
                     description: descriptionValue,
                     content: contentValue
-                };
-                continue;
-            }
-
-            if (currentPost && contentValue) {
-                currentPost.content = currentPost.content
-                    ? `${currentPost.content}\n\n${contentValue}`
-                    : contentValue;
-            }
-
-            if (currentPost && !currentPost.description && descriptionValue) {
-                currentPost.description = descriptionValue;
+                });
             }
         }
 
-        if (currentPost) {
-            mergedRows.push(currentPost);
-        }
-
-        const processedPosts = mergedRows.map((post) => {
-            const cleanSlug = post.slug && post.slug !== '#'
-                ? post.slug.trim()
-                : toSlug(post.title);
+        const processedPosts = validRows.map((post) => {
+            const cleanSlug = normalizeSlug(
+                post.slug && post.slug !== '#'
+                    ? post.slug
+                    : toSlug(post.title)
+            );
 
             const tagArray = post.tags
                 ? post.tags.split(',').map((tag) => tag.trim()).filter((tag) => tag.length > 0)
@@ -129,9 +113,21 @@ export async function getBlogPosts() {
             };
         }).sort((a, b) => toTimestamp(b.date) - toTimestamp(a.date));
 
-        cachedPosts = processedPosts;
+        const uniquePosts = [];
+        const seenSlugs = new Set();
+
+        for (const post of processedPosts) {
+            if (!post.slug || seenSlugs.has(post.slug)) {
+                continue;
+            }
+
+            seenSlugs.add(post.slug);
+            uniquePosts.push(post);
+        }
+
+        cachedPosts = uniquePosts;
         cachedAt = Date.now();
-        return processedPosts;
+        return uniquePosts;
     } catch (error) {
         console.error("❌ Error fetching blog posts:", error);
         return cachedPosts || [];
