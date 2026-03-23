@@ -4,12 +4,12 @@ export const metadata = {
     keywords: "web developer Kasaragod, website development Kasaragod, ecommerce development Kasaragod, mobile app development Kasaragod, WordPress Kasaragod",
     robots: { index: true, follow: true },
     alternates: {
-        canonical: "https://www.anaghkr.in/locations/kasaragod",
+        canonical: "https://www.anaghkr.in/locations/kasaragod/",
     },
     openGraph: {
         title: "Web Development Services in Kasaragod | ANAGH K R",
         description: "Website development, ecommerce, and mobile app services in Kasaragod, Kerala with professional delivery and clear communication.",
-        url: "https://www.anaghkr.in/locations/kasaragod",
+        url: "https://www.anaghkr.in/locations/kasaragod/",
         type: "website",
     },
     twitter: {
@@ -26,7 +26,7 @@ const schemaData = {
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Kasaragod",
     "description": "Professional website development, ecommerce development, and mobile app development services in Kasaragod, Kerala.",
-    "url": "https://www.anaghkr.in/locations/kasaragod",
+    "url": "https://www.anaghkr.in/locations/kasaragod/",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
     "address": {

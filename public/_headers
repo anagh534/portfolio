@@ -16,3 +16,13 @@
 # Cache profile/asset images for 30 days
 /assets/*
   Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+
+# Utility endpoints should be crawled but not indexed as search results.
+/robots.txt
+  X-Robots-Tag: noindex
+
+/sitemap.xml
+  X-Robots-Tag: noindex
+
+/sitemap-index.xml
+  X-Robots-Tag: noindex

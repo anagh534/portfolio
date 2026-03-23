@@ -4,12 +4,12 @@ export const metadata = {
     keywords: "web developer Kozhikode, website development Kozhikode, mobile app development Kozhikode, ecommerce development Kozhikode, SEO web design Kozhikode",
     robots: { index: true, follow: true },
     alternates: {
-        canonical: "https://www.anaghkr.in/locations/kozhikode",
+        canonical: "https://www.anaghkr.in/locations/kozhikode/",
     },
     openGraph: {
         title: "Web Development Services in Kozhikode | ANAGH K R",
         description: "Website development, ecommerce, and mobile app services in Kozhikode, Kerala with professional delivery and clear communication.",
-        url: "https://www.anaghkr.in/locations/kozhikode",
+        url: "https://www.anaghkr.in/locations/kozhikode/",
         type: "website",
     },
     twitter: {
@@ -26,7 +26,7 @@ const schemaData = {
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Kozhikode",
     "description": "Professional website development, ecommerce development, and mobile app development services in Kozhikode, Kerala.",
-    "url": "https://www.anaghkr.in/locations/kozhikode",
+    "url": "https://www.anaghkr.in/locations/kozhikode/",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
     "address": {

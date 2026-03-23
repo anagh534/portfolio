@@ -4,12 +4,12 @@ export const metadata = {
     keywords: "web development Kerala, website developer Kerala, mobile app development Kerala, ecommerce development Kerala, WordPress developer Kerala, web developer Kochi, web developer Kozhikode, web developer Trivandrum, web developer Thrissur",
     robots: { index: true, follow: true },
     alternates: {
-        canonical: "https://www.anaghkr.in/locations",
+        canonical: "https://www.anaghkr.in/locations/",
     },
     openGraph: {
         title: "Web Development Services Across Kerala | ANAGH K R",
         description: "City-focused web development and app development services across Kerala with SEO-ready, business-focused delivery.",
-        url: "https://www.anaghkr.in/locations",
+        url: "https://www.anaghkr.in/locations/",
         type: "website",
     },
     twitter: {
@@ -122,7 +122,7 @@ export default function Locations() {
                         "@type": "CollectionPage",
                         "name": "Web Development Services Across Kerala",
                         "description": "City-focused website, ecommerce, and app development services across Kerala.",
-                        "url": "https://www.anaghkr.in/locations",
+                        "url": "https://www.anaghkr.in/locations/",
                         "provider": {
                             "@type": "Person",
                             "name": "ANAGH K R",
@@ -247,7 +247,7 @@ export default function Locations() {
                                 </div>
 
                                 <a
-                                    href={`/locations/${city.name.toLowerCase().replace(/\s+/g, '-')}`}
+                                    href={`/locations/${city.name.toLowerCase().replace(/\s+/g, '-')}/`}
                                     className="inline-flex items-center justify-between gap-4 mt-auto text-sm font-bold uppercase tracking-widest text-white hover:text-blue-400 transition-colors"
                                 >
                                     <span>View {city.name} Page</span>

@@ -4,12 +4,12 @@ export const metadata = {
     keywords: "web developer Kochi, website development Kochi, ecommerce developer Kochi, mobile app development Kochi, WordPress developer Kochi, SEO website Kochi",
     robots: { index: true, follow: true },
     alternates: {
-        canonical: "https://www.anaghkr.in/locations/kochi",
+        canonical: "https://www.anaghkr.in/locations/kochi/",
     },
     openGraph: {
         title: "Web Development Services in Kochi | ANAGH K R",
         description: "Website development, ecommerce, and mobile app services in Kochi, Kerala with professional delivery and clear communication.",
-        url: "https://www.anaghkr.in/locations/kochi",
+        url: "https://www.anaghkr.in/locations/kochi/",
         type: "website",
     },
     twitter: {
@@ -26,7 +26,7 @@ const schemaData = {
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Kochi",
     "description": "Professional website development, ecommerce development, and mobile app development services in Kochi, Kerala.",
-    "url": "https://www.anaghkr.in/locations/kochi",
+    "url": "https://www.anaghkr.in/locations/kochi/",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
     "address": {

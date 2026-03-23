@@ -4,12 +4,12 @@ export const metadata = {
     keywords: "web developer Calicut, website development Calicut, ecommerce website Calicut, mobile app developer Calicut, WordPress Calicut",
     robots: { index: true, follow: true },
     alternates: {
-        canonical: "https://www.anaghkr.in/locations/calicut",
+        canonical: "https://www.anaghkr.in/locations/calicut/",
     },
     openGraph: {
         title: "Web Development Services in Calicut | ANAGH K R",
         description: "Website development, ecommerce, and mobile app services in Calicut, Kerala with professional delivery and clear communication.",
-        url: "https://www.anaghkr.in/locations/calicut",
+        url: "https://www.anaghkr.in/locations/calicut/",
         type: "website",
     },
     twitter: {
@@ -26,7 +26,7 @@ const schemaData = {
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Calicut",
     "description": "Professional website development, ecommerce development, and mobile app development services in Calicut, Kerala.",
-    "url": "https://www.anaghkr.in/locations/calicut",
+    "url": "https://www.anaghkr.in/locations/calicut/",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
     "address": {

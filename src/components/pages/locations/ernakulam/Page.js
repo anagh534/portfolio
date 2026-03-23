@@ -4,12 +4,12 @@ export const metadata = {
     keywords: "web developer Ernakulam, website development Ernakulam, ecommerce website Ernakulam, app development Ernakulam, SEO developer Ernakulam",
     robots: { index: true, follow: true },
     alternates: {
-        canonical: "https://www.anaghkr.in/locations/ernakulam",
+        canonical: "https://www.anaghkr.in/locations/ernakulam/",
     },
     openGraph: {
         title: "Web Development Services in Ernakulam | ANAGH K R",
         description: "Website development, ecommerce, and mobile app services in Ernakulam, Kerala with professional delivery and clear communication.",
-        url: "https://www.anaghkr.in/locations/ernakulam",
+        url: "https://www.anaghkr.in/locations/ernakulam/",
         type: "website",
     },
     twitter: {
@@ -26,7 +26,7 @@ const schemaData = {
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Ernakulam",
     "description": "Professional website development, ecommerce development, and mobile app development services in Ernakulam, Kerala.",
-    "url": "https://www.anaghkr.in/locations/ernakulam",
+    "url": "https://www.anaghkr.in/locations/ernakulam/",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
     "address": {

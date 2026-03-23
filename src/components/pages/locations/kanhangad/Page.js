@@ -4,12 +4,12 @@ export const metadata = {
     keywords: "web developer Kanhangad, website development Kanhangad, ecommerce development Kanhangad, mobile app development Kanhangad, WordPress Kanhangad",
     robots: { index: true, follow: true },
     alternates: {
-        canonical: "https://www.anaghkr.in/locations/kanhangad",
+        canonical: "https://www.anaghkr.in/locations/kanhangad/",
     },
     openGraph: {
         title: "Web Development Services in Kanhangad | ANAGH K R",
         description: "Website development, ecommerce, and mobile app services in Kanhangad, Kerala with professional delivery and clear communication.",
-        url: "https://www.anaghkr.in/locations/kanhangad",
+        url: "https://www.anaghkr.in/locations/kanhangad/",
         type: "website",
     },
     twitter: {
@@ -26,7 +26,7 @@ const schemaData = {
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Kanhangad",
     "description": "Professional website development, ecommerce development, and mobile app development services in Kanhangad, Kerala.",
-    "url": "https://www.anaghkr.in/locations/kanhangad",
+    "url": "https://www.anaghkr.in/locations/kanhangad/",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
     "address": {

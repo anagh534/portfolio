@@ -26,11 +26,11 @@ export const metadata = {
     title: "Web Development Services Kerala | WordPress, E-commerce, Flutter & MERN",
     description: "Professional web development services in Kerala including website design, WordPress development, e-commerce stores, MERN stack web apps, and Flutter mobile apps.",
     keywords: "web development services Kerala, website design services Kerala, freelance web developer Kerala, web designer Kerala, WordPress development Kerala, WooCommerce developer Kerala, e-commerce development Kerala, Shopify developer Kerala, Instagram store development Kerala, dropshipping website development Kerala, clothing ecommerce website Kerala, shoe store website Kerala, electronics ecommerce website Kerala, dating app development Kerala, chat app development Kerala, MERN stack developer Kerala, Flutter app development Kerala, mobile app development Kerala, React developer Kerala, Node.js developer Kerala, web developer Kochi, web developer Calicut, web development services near me, website designer near me, ecommerce developer near me, mobile app developer near me",
-    alternates: { canonical: "https://www.anaghkr.in/services" },
+    alternates: { canonical: "https://www.anaghkr.in/services/" },
     openGraph: {
         title: "Web Development Services Kerala | ANAGH K R",
         description: "Professional web development, ecommerce, Shopify, Instagram store, and app development services in Kerala.",
-        url: "https://www.anaghkr.in/services",
+        url: "https://www.anaghkr.in/services/",
         type: "website",
     },
     twitter: {

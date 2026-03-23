@@ -4,12 +4,12 @@ export const metadata = {
     keywords: "web developer Thiruvananthapuram, web development Trivandrum, mobile app development Trivandrum, ecommerce website Trivandrum, WordPress developer Trivandrum",
     robots: { index: true, follow: true },
     alternates: {
-        canonical: "https://www.anaghkr.in/locations/thiruvananthapuram",
+        canonical: "https://www.anaghkr.in/locations/thiruvananthapuram/",
     },
     openGraph: {
         title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
         description: "Website development, ecommerce, and mobile app services in Thiruvananthapuram, Kerala with professional delivery and clear communication.",
-        url: "https://www.anaghkr.in/locations/thiruvananthapuram",
+        url: "https://www.anaghkr.in/locations/thiruvananthapuram/",
         type: "website",
     },
     twitter: {
@@ -26,7 +26,7 @@ const schemaData = {
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Thiruvananthapuram",
     "description": "Professional website development, ecommerce development, and mobile app development services in Thiruvananthapuram, Kerala.",
-    "url": "https://www.anaghkr.in/locations/thiruvananthapuram",
+    "url": "https://www.anaghkr.in/locations/thiruvananthapuram/",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
     "address": {

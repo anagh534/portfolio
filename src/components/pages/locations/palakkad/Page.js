@@ -4,12 +4,12 @@ export const metadata = {
     keywords: "web developer Palakkad, website development Palakkad, ecommerce website Palakkad, mobile app development Palakkad, WordPress developer Palakkad",
     robots: { index: true, follow: true },
     alternates: {
-        canonical: "https://www.anaghkr.in/locations/palakkad",
+        canonical: "https://www.anaghkr.in/locations/palakkad/",
     },
     openGraph: {
         title: "Web Development Services in Palakkad | ANAGH K R",
         description: "Website development, ecommerce, and mobile app services in Palakkad, Kerala with professional delivery and clear communication.",
-        url: "https://www.anaghkr.in/locations/palakkad",
+        url: "https://www.anaghkr.in/locations/palakkad/",
         type: "website",
     },
     twitter: {
@@ -26,7 +26,7 @@ const schemaData = {
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Palakkad",
     "description": "Professional website development, ecommerce development, and mobile app development services in Palakkad, Kerala.",
-    "url": "https://www.anaghkr.in/locations/palakkad",
+    "url": "https://www.anaghkr.in/locations/palakkad/",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
     "address": {

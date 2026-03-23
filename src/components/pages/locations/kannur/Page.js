@@ -4,12 +4,12 @@ export const metadata = {
     keywords: "web developer Kannur, website development Kannur, ecommerce website Kannur, mobile app developer Kannur, WordPress Kannur",
     robots: { index: true, follow: true },
     alternates: {
-        canonical: "https://www.anaghkr.in/locations/kannur",
+        canonical: "https://www.anaghkr.in/locations/kannur/",
     },
     openGraph: {
         title: "Web Development Services in Kannur | ANAGH K R",
         description: "Website development, ecommerce, and mobile app services in Kannur, Kerala with professional delivery and clear communication.",
-        url: "https://www.anaghkr.in/locations/kannur",
+        url: "https://www.anaghkr.in/locations/kannur/",
         type: "website",
     },
     twitter: {
@@ -26,7 +26,7 @@ const schemaData = {
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Kannur",
     "description": "Professional website development, ecommerce development, and mobile app development services in Kannur, Kerala.",
-    "url": "https://www.anaghkr.in/locations/kannur",
+    "url": "https://www.anaghkr.in/locations/kannur/",
     "telephone": "+91-8075541805",
     "email": "anaghkrkkl@gmail.com",
     "address": {
