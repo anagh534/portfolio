@@ -56,9 +56,9 @@ export const metadata = {
         },
     },
     icons: {
-        icon: "/favicon.png",
-        shortcut: "/favicon.png",
-        apple: "/favicon.png",
+        icon: "/assets/profile-160.webp",
+        shortcut: "/assets/profile-160.webp",
+        apple: "/assets/profile-160.webp",
     },
     manifest: "/manifest.json",
     verification: {

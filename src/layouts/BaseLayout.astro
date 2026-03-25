@@ -54,6 +54,10 @@ const googleBotMeta = typeof robotsSource === "object" && robotsSource.googleBot
 
 const googleVerification = metadata.verification?.google || globalMetadata.verification?.google;
 const themeColor = globalMetadata?.viewport?.themeColor || "#050505";
+const icons = metadata.icons || globalMetadata.icons || {};
+const favicon = icons.icon || "/assets/profile-160.webp";
+const shortcutIcon = icons.shortcut || favicon;
+const appleTouchIcon = icons.apple || favicon;
 ---
 
 <!doctype html>
@@ -70,6 +74,9 @@ const themeColor = globalMetadata?.viewport?.themeColor || "#050505";
     <meta name="theme-color" content={themeColor} />
     {canonical && <link rel="canonical" href={canonical} />}
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="icon" type="image/webp" href={favicon} />
+    <link rel="shortcut icon" type="image/webp" href={shortcutIcon} />
+    <link rel="apple-touch-icon" href={appleTouchIcon} />
 
     {Object.entries(alternateLanguages).map(([locale, href]) => (
       <link rel="alternate" hreflang={locale} href={href} />
