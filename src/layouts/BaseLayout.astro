@@ -20,8 +20,23 @@ const keywords = Array.isArray(metadata.keywords)
   : metadata.keywords || globalMetadata.keywords?.join(", ");
 
 const metadataBase = globalMetadata?.metadataBase || new URL("https://www.anaghkr.in");
-const defaultCanonical = new URL(Astro.url.pathname, metadataBase).toString();
-const canonical = metadata.alternates?.canonical || defaultCanonical;
+const ensureNormalizedPageUrl = (value) => {
+  if (!value) return null;
+  try {
+    const url = new URL(value, metadataBase);
+
+    // Normalize only same-origin non-file paths to trailing-slash URLs.
+    if (url.origin === metadataBase.origin && !url.pathname.endsWith("/") && !/\.[^/]+$/.test(url.pathname)) {
+      url.pathname = `${url.pathname}/`;
+    }
+
+    return url.toString();
+  } catch {
+    return value;
+  }
+};
+const defaultCanonical = ensureNormalizedPageUrl(new URL(Astro.url.pathname, metadataBase).toString());
+const canonical = ensureNormalizedPageUrl(metadata.alternates?.canonical || defaultCanonical);
 const toAbsoluteUrl = (value) => {
   if (!value) return null;
   try {
@@ -43,6 +58,7 @@ const twitterImage = Array.isArray(twitter.images)
   : twitter.images;
 const resolvedOgImage = toAbsoluteUrl(typeof ogImage === "string" ? ogImage : ogImage?.url);
 const resolvedTwitterImage = toAbsoluteUrl(twitterImage) || resolvedOgImage;
+const ogUrl = ensureNormalizedPageUrl(og.url || canonical);
 
 const robotsSource = metadata.robots || globalMetadata.robots || { index: true, follow: true };
 const robotsMeta = typeof robotsSource === "string"
@@ -85,7 +101,7 @@ const appleTouchIcon = icons.apple || favicon;
     <meta property="og:type" content={og.type || "website"} />
     <meta property="og:title" content={og.title || title} />
     <meta property="og:description" content={og.description || description} />
-    <meta property="og:url" content={og.url || canonical} />
+    <meta property="og:url" content={ogUrl} />
     {og.siteName && <meta property="og:site_name" content={og.siteName} />}
     {og.locale && <meta property="og:locale" content={og.locale} />}
     {resolvedOgImage && <meta property="og:image" content={resolvedOgImage} />}
