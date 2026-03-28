@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import Link from '@/compat/link';
 import {
@@ -16,10 +14,6 @@ import {
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
-
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
 
     return (
         <footer className="relative pt-24 pb-12 overflow-hidden border-t border-white/5">
@@ -143,13 +137,13 @@ const Footer = () => {
             </div>
 
             {/* Back to Top */}
-            <button
+            <a
                 className="fixed bottom-8 right-8 p-4 rounded-2xl bg-blue-600 text-white shadow-2xl shadow-blue-500/20 hover:bg-blue-500 hover:-translate-y-1 transition-all z-40 active:scale-95"
-                onClick={scrollToTop}
+                href="#main-content"
                 aria-label="Back to top"
             >
                 <ArrowUp size={20} />
-            </button>
+            </a>
 
             {/* Background Decor */}
             <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-600/5 blur-[120px] rounded-full -z-10"></div>

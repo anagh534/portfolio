@@ -1,6 +1,5 @@
 'use client';
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
 import {
     ArrowRight, CheckCircle, ChevronDown, ChevronUp, Send, MapPin, Star, Zap
 } from 'lucide-react';
@@ -32,10 +31,7 @@ export default function ServicePageTemplate({
             {/* ── Hero ── */}
             <section className="relative pt-36 pb-24 px-6 overflow-hidden">
                 <div className="max-w-7xl mx-auto relative z-10">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
-                        className="text-center max-w-4xl mx-auto space-y-8"
-                    >
+                    <div className="text-center max-w-4xl mx-auto space-y-8">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest">
                             <Zap size={14} />
                             <span>{badge}</span>
@@ -59,21 +55,17 @@ export default function ServicePageTemplate({
                                 <ArrowRight size={18} />
                             </a>
                         </div>
-                    </motion.div>
+                    </div>
 
                     {heroStats && (
-                        <motion.div
-                            initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.3 }}
-                            className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mt-16"
-                        >
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mt-16">
                             {heroStats.map((s, i) => (
                                 <div key={i} className="p-6 rounded-[28px] bg-white/5 border border-white/10 text-center group hover:border-blue-500/30 transition-all">
                                     <div className="text-3xl font-black text-white group-hover:text-blue-400 transition-colors">{s.number}</div>
                                     <div className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mt-1">{s.label}</div>
                                 </div>
                             ))}
-                        </motion.div>
+                        </div>
                     )}
                 </div>
                 <div className="absolute top-1/4 -left-20 w-96 h-96 bg-blue-600/10 blur-[120px] rounded-full -z-10 animate-pulse" />
@@ -94,10 +86,8 @@ export default function ServicePageTemplate({
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                             {whatYouGet.map((item, i) => (
-                                <motion.div
+                                <div
                                     key={i}
-                                    initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
-                                    viewport={{ once: true }} transition={{ delay: i * 0.08 }}
                                     className="p-8 rounded-[40px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-500 group space-y-4"
                                 >
                                     <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-all">
@@ -105,7 +95,7 @@ export default function ServicePageTemplate({
                                     </div>
                                     <h3 className="text-lg font-bold uppercase tracking-tight group-hover:text-blue-400 transition-colors">{item.title}</h3>
                                     <p className="text-gray-400 text-sm leading-relaxed">{item.desc}</p>
-                                </motion.div>
+                                </div>
                             ))}
                         </div>
                     </div>
@@ -156,10 +146,8 @@ export default function ServicePageTemplate({
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                             {process.map((step, i) => (
-                                <motion.div
+                                <div
                                     key={i}
-                                    initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
-                                    viewport={{ once: true }} transition={{ delay: i * 0.1 }}
                                     className="p-8 rounded-[40px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-500 group space-y-4 relative"
                                 >
                                     <div className="absolute top-6 right-6 text-5xl font-black text-white/5 group-hover:text-blue-500/10 transition-colors leading-none">
@@ -170,7 +158,7 @@ export default function ServicePageTemplate({
                                     </div>
                                     <h3 className="text-white font-bold uppercase tracking-tight">{step.title}</h3>
                                     <p className="text-gray-400 text-sm leading-relaxed">{step.desc}</p>
-                                </motion.div>
+                                </div>
                             ))}
                         </div>
                     </div>
@@ -238,7 +226,7 @@ export default function ServicePageTemplate({
             )}
 
             {/* ── CTA ── */}
-            <section className="py-24 px-6">
+            <section id="main-content-top" className="py-24 px-6">
                 <div className="max-w-5xl mx-auto p-12 md:p-20 rounded-[60px] bg-gradient-to-br from-blue-600/20 to-indigo-600/10 border border-white/10 backdrop-blur-3xl text-center space-y-8 relative overflow-hidden">
                     <div className="absolute -top-20 -right-20 w-80 h-80 bg-blue-600/20 blur-[120px] rounded-full -z-10" />
                     <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest">

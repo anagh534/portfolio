@@ -26,3 +26,9 @@
 
 /sitemap-index.xml
   X-Robots-Tag: noindex
+
+/sitemap-*.xml
+  X-Robots-Tag: noindex
+
+/ANAGH-K-R-MERN-STACK-DEVELOPER.pdf
+  X-Robots-Tag: noindex, nofollow

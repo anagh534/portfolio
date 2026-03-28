@@ -1,38 +1,15 @@
-'use client';
-
 import React from 'react';
 import Link from '@/compat/link';
-import { motion } from 'framer-motion';
 import { MessageSquare, Cpu, Layers } from 'lucide-react';
 
 export default function Hero() {
-  const containerVariants = {
-    hidden: { opacity: 1 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 1, y: 0 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
-  };
-
   return (
     <section id="hero" className="relative min-h-screen flex items-center pt-24 pb-14 overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 w-full relative z-10">
-        <motion.div
-          className="grid grid-cols-1"
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-        >
+        <div className="grid grid-cols-1">
 
           {/* Right: Content Section */}
-          <motion.div className="w-full max-w-4xl mx-auto text-center lg:text-left" variants={itemVariants}>
+          <div className="w-full max-w-4xl mx-auto text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-6 uppercase tracking-widest">
               <Cpu size={14} />
               <span>Innovating with Code</span>
@@ -76,8 +53,8 @@ export default function Hero() {
                 <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Satisfaction</p>
               </div>
             </div>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
 
       {/* Background Glows */}

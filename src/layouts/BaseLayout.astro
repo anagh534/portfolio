@@ -3,7 +3,12 @@ import "@/styles/global.css";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import { metadata as globalMetadata } from "@/config/siteMetadata";
-import { personStructuredData, organizationStructuredData } from "@/lib/structuredData";
+import {
+  personStructuredData,
+  organizationStructuredData,
+  websiteStructuredData,
+  professionalServiceStructuredData
+} from "@/lib/structuredData";
 
 const { metadata = {} } = Astro.props;
 
@@ -90,6 +95,15 @@ const appleTouchIcon = icons.apple || favicon;
     <meta name="theme-color" content={themeColor} />
     {canonical && <link rel="canonical" href={canonical} />}
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+    <link rel="dns-prefetch" href="//www.google-analytics.com" />
+    <link rel="preconnect" href="https://wa.me" />
+    <link rel="dns-prefetch" href="//wa.me" />
+    <link rel="preconnect" href="https://www.linkedin.com" />
+    <link rel="dns-prefetch" href="//www.linkedin.com" />
+    <link rel="preconnect" href="https://github.com" />
+    <link rel="dns-prefetch" href="//github.com" />
     <link rel="icon" type="image/webp" href={favicon} />
     <link rel="shortcut icon" type="image/webp" href={shortcutIcon} />
     <link rel="apple-touch-icon" href={appleTouchIcon} />
@@ -115,6 +129,8 @@ const appleTouchIcon = icons.apple || favicon;
 
     <script type="application/ld+json" set:html={JSON.stringify(personStructuredData)}></script>
     <script type="application/ld+json" set:html={JSON.stringify(organizationStructuredData)}></script>
+    <script type="application/ld+json" set:html={JSON.stringify(websiteStructuredData)}></script>
+    <script type="application/ld+json" set:html={JSON.stringify(professionalServiceStructuredData)}></script>
   </head>
   <body>
     <div class="fixed inset-0 -z-1 bg-[#050505]">
@@ -127,6 +143,6 @@ const appleTouchIcon = icons.apple || favicon;
       <slot />
     </main>
 
-    <Footer client:idle />
+    <Footer />
   </body>
 </html>

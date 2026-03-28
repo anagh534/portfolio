@@ -56,3 +56,52 @@ export const organizationStructuredData = {
   },
   foundingDate: "2019"
 };
+
+export const websiteStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "ANAGH K R",
+  alternateName: "ANAGH K R Portfolio",
+  url: "https://www.anaghkr.in/",
+  inLanguage: "en-IN",
+  publisher: {
+    "@type": "Organization",
+    name: "ANAGH K R"
+  }
+};
+
+export const professionalServiceStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: "ANAGH K R - Web and Mobile App Development",
+  url: "https://www.anaghkr.in/",
+  image: "https://www.anaghkr.in/favicon.png",
+  telephone: "+91-8075541805",
+  email: "anaghkrkkl@gmail.com",
+  areaServed: [
+    { "@type": "City", name: "Kochi" },
+    { "@type": "City", name: "Kozhikode" },
+    { "@type": "City", name: "Kannur" },
+    { "@type": "City", name: "Kasaragod" },
+    { "@type": "City", name: "Thiruvananthapuram" },
+    { "@type": "AdministrativeArea", name: "Kerala" }
+  ],
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Kasaragod",
+    addressRegion: "Kerala",
+    addressCountry: "IN"
+  },
+  priceRange: "INR",
+  sameAs: [
+    "https://in.linkedin.com/in/anagh-k-r",
+    "https://github.com/anagh534",
+    "https://instagram.com/mr._uni_que___"
+  ],
+  makesOffer: [
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Web Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Flutter App Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "MERN Stack Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "WordPress Development" } }
+  ]
+};
