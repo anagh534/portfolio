@@ -77,8 +77,9 @@ const googleVerification = metadata.verification?.google || globalMetadata.verif
 const themeColor = globalMetadata?.viewport?.themeColor || "#050505";
 const icons = metadata.icons || globalMetadata.icons || {};
 const favicon = icons.icon || "/assets/profile-160.webp";
-const shortcutIcon = icons.shortcut || favicon;
-const appleTouchIcon = icons.apple || favicon;
+const fallbackPngIcon = "/assets/profile.png";
+const shortcutIcon = icons.shortcut || fallbackPngIcon;
+const appleTouchIcon = icons.apple || fallbackPngIcon;
 ---
 
 <!doctype html>
@@ -105,8 +106,10 @@ const appleTouchIcon = icons.apple || favicon;
     <link rel="preconnect" href="https://github.com" />
     <link rel="dns-prefetch" href="//github.com" />
     <link rel="icon" type="image/webp" href={favicon} />
-    <link rel="shortcut icon" type="image/webp" href={shortcutIcon} />
-    <link rel="apple-touch-icon" href={appleTouchIcon} />
+    <link rel="icon" type="image/png" sizes="32x32" href={fallbackPngIcon} />
+    <link rel="icon" type="image/png" sizes="192x192" href={fallbackPngIcon} />
+    <link rel="shortcut icon" type="image/png" href={shortcutIcon} />
+    <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
 
     {Object.entries(alternateLanguages).map(([locale, href]) => (
       <link rel="alternate" hreflang={locale} href={href} />

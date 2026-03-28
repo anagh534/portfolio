@@ -57,8 +57,8 @@ export const metadata = {
     },
     icons: {
         icon: "/assets/profile-160.webp",
-        shortcut: "/assets/profile-160.webp",
-        apple: "/assets/profile-160.webp",
+        shortcut: "/assets/profile.png",
+        apple: "/assets/profile.png",
     },
     manifest: "/manifest.json",
     verification: {
