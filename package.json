@@ -21,17 +21,11 @@
     "marked": "^17.0.5",
     "papaparse": "^5.5.3",
     "react": "^19.0.0",
-    "react-countup": "^6.5.3",
-    "react-dom": "^19.0.0",
-    "react-markdown": "^10.1.0",
-    "remark-breaks": "^4.0.0",
-    "remark-gfm": "^4.0.1"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "eslint": "^9.17.0",
     "eslint-plugin-astro": "^0.34.0",
-    "eslint-plugin-react": "^7.37.5",
-    "globals": "^16.4.0",
     "tailwindcss": "^4.1.18"
   }
 }
