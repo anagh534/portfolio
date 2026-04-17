@@ -2,9 +2,9 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Palette, Smartphone, Zap, Search, ShieldCheck, LayoutDashboard } from 'lucide-react';
 
 export const metadata = {
-    title: "Best Web Developer Kerala | Professional Website Development Services | ANAGH K R",
-    description: "Top-rated web developer in Kerala offering professional custom website development, responsive web design, business websites, landing pages, and full-stack web applications. Expert in React, Next.js, Node.js, and modern web technologies. 3+ years experience with 24+ successful projects serving businesses across Kochi, Kozhikode, Thrissur, Kannur, Thiruvananthapuram, Kasaragod, and all Kerala. Affordable pricing, fast delivery, and SEO-optimized websites.",
-    keywords: "web developer Kerala, best web developer Kerala, professional web developer Kerala, custom website development Kerala, hire web developer Kerala, website design Kerala, website design and development Kerala, web development services Kerala, responsive web design Kerala, business website development Kerala, full stack web developer Kerala, web developer Kochi, top web developer Kochi, web developer Kozhikode, web developer Kasaragod, web developer Kannur, web development Thrissur, web developer Thiruvananthapuram, web developer Kollam, web developer Palakkad, affordable web development Kerala, cheap website development Kerala, best website developer in Kerala, expert web developer Kerala, freelance web developer Kerala, React developer Kerala, Next.js developer Kerala, landing page development Kerala, website redesign Kerala, web app development Kerala, HTML CSS JavaScript developer Kerala, modern web development Kerala, SEO friendly website development, mobile responsive website Kerala, web developer near me, website designer near me, web development company near me, freelance website developer near me",
+    title: "Website Developer Kerala | Free Website Consultation & Custom Sites | ANAGH K R",
+    description: "Top-rated website developer in Kerala offering free website consultations, affordable starter packages, and custom business websites. Serving Kochi, Kozhikode, Trivandrum & all Kerala. Fast delivery, SEO-optimized, and responsive web design.",
+    keywords: "website developer kerala, free website kerala, affordable website developer kerala, best website developer kerala, professional web developer kerala, custom website design kerala, low cost website kerala, ecommerce website kerala, react developer kerala, nextjs developer kerala, web developer kochi, web developer kozhikode, web developer trivandrum",
     alternates: { canonical: "https://www.anaghkr.in/web-development" },
     openGraph: {
         title: "Best Web Developer Kerala | Professional Website Development | ANAGH K R",
@@ -62,8 +62,9 @@ const schemaData = {
         "availability": "https://schema.org/InStock",
         "priceSpecification": {
             "@type": "PriceSpecification",
-            "minPrice": "8000",
-            "priceCurrency": "INR"
+            "minPrice": "0",
+            "priceCurrency": "INR",
+            "description": "Free Consultation and Free First-Year Domain/Hosting on select packages."
         }
     },
     "mainEntityOfPage": "https://www.anaghkr.in/web-development",
@@ -71,9 +72,8 @@ const schemaData = {
         "@type": "OfferCatalog",
         "name": "Web Development Services",
         "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Website Consultation & Planning" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business Website Development" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing Page Development" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Redesign" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Responsive Web Design" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Full-Stack Web Application" } }
         ]
@@ -84,9 +84,9 @@ export default function WebDevelopmentPage() {
     return (
         <ServicePageTemplate
             badge="Web Development Services"
-            title="Custom Web"
-            titleHighlight="Development"
-            description="High-performance, responsive websites and web applications built to grow your business. From landing pages to complex full-stack solutions — delivered with clean code, fast load times, and SEO-ready architecture."
+            title="Top Website Developer in"
+            titleHighlight="Kerala"
+            description="Looking for an affordable, high-performance website? I help Kerala businesses and startups grow online with custom websites, fast load times, and SEO-ready architecture. Book a free consultation to get started."
             heroStats={[
                 { number: "24+", label: "Projects Delivered" },
                 { number: "3+", label: "Years Experience" },
@@ -114,12 +114,12 @@ export default function WebDevelopmentPage() {
                 { title: "Launch", desc: "Thorough testing, SEO setup, deployment, and handover with full documentation and support." },
             ]}
             faqs={[
-                { question: "How much does a website cost in Kerala?", answer: "Website development costs vary depending on complexity. A basic business website starts around ₹8,000–₹20,000, while complex web applications can range from ₹30,000 upwards. Contact me for a free, tailored quote." },
-                { question: "How long does it take to build a website?", answer: "A standard business website typically takes 1–3 weeks. Complex web apps or e-commerce platforms can take 4–8 weeks. Timeline depends on scope, content readiness, and feedback cycles." },
-                { question: "Do you provide website maintenance after launch?", answer: "Yes. I offer ongoing maintenance packages including updates, bug fixes, security patches, and performance monitoring." },
-                { question: "Which cities in Kerala do you serve?", answer: "I serve all major cities in Kerala including Kochi, Kozhikode, Thiruvananthapuram, Thrissur, Kannur, Kasaragod, Kollam, Palakkad, Ernakulam, Calicut, and Kanhangad. Remote projects are also welcome from anywhere in India." },
-                { question: "Will my website rank on Google?", answer: "Every website I build is SEO-optimized with proper structure, meta tags, fast load times, and Core Web Vitals compliance — all strong ranking signals for Google." },
-                { question: "Can you redesign my existing website?", answer: "Absolutely. I specialize in modernizing legacy websites with new design, better performance, and modern technology while preserving your SEO equity." },
+                { question: "Can I get a free website in Kerala?", answer: "While a fully custom professional website requires an investment, I offer a 100% Free Website Consultation to plan your architecture. Additionally, I provide a Free Domain and Free First-Year Hosting setup on select starter business bundles to help you get online affordably." },
+                { question: "How much does a custom website cost in Kerala?", answer: "A basic business website starts around ₹8,000–₹20,000, while complex web applications can range from ₹30,000 upwards. It is much more affordable than hiring a massive agency." },
+                { question: "Do you physically meet clients for web development?", answer: "Yes! While I work with clients all over India remotely, I am available for direct, in-person meetings in Kochi, Kozhikode (Calicut), and Trivandrum to discuss your web projects." },
+                { question: "How long does it take to build a website?", answer: "A standard business website typically takes 1–3 weeks. Complex web apps or e-commerce platforms can take 4–8 weeks depending on your scope." },
+                { question: "Will my website rank on Google?", answer: "Yes, every website I build is deeply SEO-optimized with proper structure, meta tags, fast load times, and Schema markup — which is why you found me!" },
+                { question: "Which cities in Kerala do you serve?", answer: "I build responsive websites for clients in Kochi, Kozhikode, Trivandrum, Thrissur, Kannur, Kasaragod, Kollam, Palakkad, and Ernakulam." },
             ]}
             relatedServices={[
                 { title: "MERN Stack Development", desc: "Full-stack apps with MongoDB, Express, React, Node.js", href: "/mern-stack-development" },
