@@ -1,46 +1,9 @@
 # Robots.txt for anaghkr.in - ANAGH K R Portfolio Website
-# Professional MERN Stack Developer & Mobile App Developer in Kerala
 
-# Allow all major search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Googlebot-Image
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-# Default for all other bots
 User-agent: *
-Allow: /
 Disallow: /admin/
 Disallow: /api/
 Disallow: /.git/
+Disallow: /_next/
 
-# Sitemap location
-Sitemap: https://www.anaghkr.in/sitemap.xml
+Sitemap: https://www.anaghkr.in/sitemap-index.xml

@@ -2,9 +2,9 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { ShoppingCart, CreditCard, Package, LayoutDashboard, Smartphone, Search } from 'lucide-react';
 
 export const metadata = {
-    title: "E-commerce Developer Kerala | Online Store Development | ANAGH K R",
-    description: "Professional e-commerce development services in Kerala. WooCommerce, custom shopping carts, payment gateway integration, and online store solutions by ANAGH K R. Serving Kochi, Kozhikode, Kasaragod, Kannur, and all Kerala.",
-    keywords: "e-commerce developer Kerala, online store development Kerala, WooCommerce developer Kerala, e-commerce website Kerala, payment gateway integration Kerala, online shopping website Kerala, e-commerce development Kochi, e-commerce developer Kozhikode, e-commerce developer Kasaragod, e-commerce website Kannur, Shopify developer Kerala, custom e-commerce Kerala, e-commerce development Thrissur, online shop Kerala, buy online website Kerala, e-commerce development company Kerala",
+    title: "Freelance Ecommerce Developer Kerala | Online Store & App Company | ANAGH K R",
+    description: "Looking for an ecommerce development company in Kerala? I offer freelance Shopify and WooCommerce development for online stores, rent-a-car setups, and booking platforms.",
+    keywords: "ecommerce development company in kerala, freelance ecommerce developer kerala, shopify development company kerala, woocommerce developer in kerala, rent a car website developer kerala, booking website kerala, ecommerce website development kerala",
     alternates: { canonical: "https://www.anaghkr.in/ecommerce-development" },
     openGraph: {
         title: "E-commerce Development Kerala | Online Store Development | ANAGH K R",
@@ -75,6 +75,7 @@ export default function EcommerceDevelopmentPage() {
                 { question: "How much does an e-commerce website cost in Kerala?", answer: "A WooCommerce store with 50–100 products and standard features starts from ₹15,000–₹30,000. Custom-built e-commerce platforms with advanced features (multi-vendor, subscription, custom workflows) range from ₹50,000–₹2,00,000+." },
                 { question: "Which payment gateway is best for Kerala businesses?", answer: "Razorpay is my top recommendation for Indian businesses — it supports UPI, cards, net banking, wallets, and EMI with excellent documentation and low transaction fees. I integrate Razorpay into all e-commerce projects by default." },
                 { question: "Can I manage my own products after launch?", answer: "Yes. Every store includes an easy-to-use admin dashboard where you can add products, update prices, manage inventory, process orders, and run offers — no developer needed for day-to-day operations." },
+                { question: "Can you build a rent-a-car or booking website?", answer: "Yes, I completely customize WooCommerce and Shopify to handle rent-a-car bookings, hotel reservations, and appointment scheduling with real-time calendar syncing." },
                 { question: "Can you build a multi-vendor marketplace?", answer: "Yes. I build multi-vendor marketplace platforms where multiple sellers can register, list products, and manage their own storefront — similar to Amazon or Flipkart but for your niche." },
                 { question: "Do you build e-commerce apps too?", answer: "Yes. I can build a companion Flutter mobile app for your e-commerce store, enabling push notifications, faster browsing, and a dedicated shopping experience on iOS and Android." },
                 { question: "Do you provide e-commerce development in Kochi and Kozhikode?", answer: "Yes, e-commerce services are available across all Kerala cities — Kochi, Kozhikode, Kasaragod, Kannur, Thrissur, Thiruvananthapuram, and Kollam — with remote service for all other locations." },
