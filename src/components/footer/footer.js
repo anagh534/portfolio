@@ -18,7 +18,7 @@ const Footer = () => {
     return (
         <footer className="relative pt-24 pb-12 overflow-hidden border-t border-white/5">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-16">
                     {/* Logo & Brand */}
                     <div className="space-y-6">
                         <Link href="/" className="inline-block">
@@ -72,6 +72,7 @@ const Footer = () => {
                                 { label: 'Web Development', href: '/web-development' },
                                 { label: 'E-commerce', href: '/ecommerce-development' },
                                 { label: 'Mobile Apps', href: '/mobile-app-development' },
+                                { label: 'MERN Stack', href: '/mern-stack-development' },
                                 { label: 'WordPress', href: '/wordpress-development' },
                                 { label: 'Instagram Store', href: '/instagram-store-development' },
                                 { label: 'Shopify Store', href: '/shopify-store-development' },
@@ -85,6 +86,31 @@ const Footer = () => {
                             <li className="pt-2">
                                 <Link href="/services" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
                                     View All Services
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {/* Locations */}
+                    <div>
+                        <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Locations</h4>
+                        <ul className="grid grid-cols-1 gap-y-2">
+                            {[
+                                { label: 'Kochi', href: '/locations/kochi' },
+                                { label: 'Trivandrum', href: '/locations/thiruvananthapuram' },
+                                { label: 'Kozhikode', href: '/locations/kozhikode' },
+                                { label: 'Thrissur', href: '/locations/thrissur' },
+                                { label: 'Ernakulam', href: '/locations/ernakulam' },
+                            ].map((item) => (
+                                <li key={item.href}>
+                                    <Link href={item.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+                                        {item.label}
+                                    </Link>
+                                </li>
+                            ))}
+                            <li className="pt-2">
+                                <Link href="/locations" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
+                                    View All Locations
                                 </Link>
                             </li>
                         </ul>
@@ -119,10 +145,15 @@ const Footer = () => {
                         <p className="text-xs text-gray-400 mb-6 uppercase tracking-wider leading-relaxed">
                             Available for new projects and collaborations worldwide.
                         </p>
-                        <Link href="/contact" className="w-full py-4 rounded-2xl bg-white text-black font-black text-sm flex items-center justify-center gap-2 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
-                            <span>GET IN TOUCH</span>
-                            <ExternalLink size={16} />
-                        </Link>
+                        <div className="flex flex-col gap-3">
+                            <Link href="/contact" className="w-full py-4 rounded-2xl bg-white text-black font-black text-sm flex items-center justify-center gap-2 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
+                                <span>GET IN TOUCH</span>
+                                <ExternalLink size={16} />
+                            </Link>
+                            <Link href="/locations" className="w-full py-3 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-xs flex items-center justify-center hover:bg-white/10 transition-all active:scale-95">
+                                <span>FIND LOCATIONS</span>
+                            </Link>
+                        </div>
                     </div>
                 </div>
 
