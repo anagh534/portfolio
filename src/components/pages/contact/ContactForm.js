@@ -74,6 +74,17 @@ export default function ContactForm() {
 
     const getSelectedProject = () => projectTypes.find(type => type.value === formData.projectType);
 
+    const sanitizeInput = (str) => {
+        if (!str) return str;
+        // Escape basic HTML to prevent XSS
+        let sanitized = String(str).replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        // Prevent Google Sheets formula injection
+        if (/^[=+\-@\t\r\n]/.test(sanitized)) {
+            sanitized = "'" + sanitized;
+        }
+        return sanitized;
+    };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
 
@@ -99,8 +110,11 @@ export default function ContactForm() {
                 mode: 'no-cors',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    ...formData,
-                    projectType: getSelectedProject()?.label || formData.projectType,
+                    name: sanitizeInput(formData.name),
+                    email: sanitizeInput(formData.email),
+                    subject: sanitizeInput(formData.subject),
+                    message: sanitizeInput(formData.message),
+                    projectType: sanitizeInput(getSelectedProject()?.label || formData.projectType),
                     timestamp: new Date().toISOString(),
                     source: 'anaghkr.in'
                 })
