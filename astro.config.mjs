@@ -8,6 +8,7 @@ const fromRoot = (value) => fileURLToPath(new URL(value, import.meta.url));
 
 export default defineConfig({
     site: "https://www.anaghkr.in",
+    trailingSlash: 'always',
     integrations: [react(), sitemap()],
     vite: {
         plugins: [tailwindcss()],

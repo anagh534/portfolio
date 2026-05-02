@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Store, MessageSquare, ShieldCheck, Zap, MapPin, Layers } from 'lucide-react';
 
 export const metadata = {
-    title: "Electronics Ecommerce Website Kerala | Electronics Ecommerce Website Services | ANAGH K R",
-    description: "Electronics ecommerce website development featuring spec comparison blocks, warranty-focused UX, COD and prepaid checkout options, and support-friendly product pages.",
+    title: "Electronics Ecommerce Kerala | Gadget Store Expert | ANAGH K R",
+    description: "Electronics ecommerce development in Kerala. Spec comparison, secure checkout, and product optimization for tech stores.",
     keywords: "electronics ecommerce website kerala, gadget store website development kochi, electronics online store calicut, mobile accessories ecommerce developer",
-    alternates: { canonical: "https://www.anaghkr.in/electronics-ecommerce-website-development" },
+    alternates: { canonical: "https://www.anaghkr.in/electronics-ecommerce-website-development/" },
     openGraph: {
         title: "Electronics Ecommerce Website Kerala | ANAGH K R",
         description: "Electronics ecommerce website development featuring spec comparison blocks, warranty-focused UX, COD and prepaid checkout options, and support-friendly product pages.",
-        url: "https://www.anaghkr.in/electronics-ecommerce-website-development",
+        url: "https://www.anaghkr.in/electronics-ecommerce-website-development/",
         type: "website",
     },
     twitter: {

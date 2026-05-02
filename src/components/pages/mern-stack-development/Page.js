@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Code2, Server, Network, Database, Wifi, Cloud } from 'lucide-react';
 
 export const metadata = {
-    title: "Best MERN Stack Developer Kerala | MongoDB Express React Node.js Expert | ANAGH K R",
-    description: "Top-rated MERN stack developer in Kerala specializing in MongoDB, Express.js, React, and Node.js full-stack web applications. Build scalable, real-time SaaS platforms, dashboards, and custom web apps for startups and businesses across Kochi, Kozhikode, Thrissur, Kannur, Thiruvananthapuram, and all Kerala. 3+ years experience with 24+ successful projects.",
+    title: "MERN Stack Developer Kerala | MongoDB, React & Node | ANAGH K R",
+    description: "Top MERN stack developer in Kerala. Scalable full-stack SaaS platforms, dashboards, and custom web apps in Kochi & Calicut.",
     keywords: "MERN stack developer Kerala, best MERN developer Kerala, hire MERN stack developer, full stack developer Kerala, MongoDB developer Kerala, Express.js developer Kerala, React Node.js developer Kerala, MERN stack development Kochi, MERN stack development services Kerala, professional full stack web developer Kerala, JavaScript full stack developer Kerala, MERN developer Kozhikode, MERN developer Kasaragod, MERN developer Kannur, MERN developer Thiruvananthapuram, MERN developer Thrissur, MERN developer Kollam, expert MERN stack programmer Kerala, affordable MERN stack development, MERN stack web application development, MongoDB Express React Node Kerala, real-time web application development, SaaS development Kerala, API development Kerala, freelance MERN stack developer Kerala",
-    alternates: { canonical: "https://www.anaghkr.in/mern-stack-development" },
+    alternates: { canonical: "https://www.anaghkr.in/mern-stack-development/" },
     openGraph: {
         title: "Best MERN Stack Developer Kerala | Full-Stack Web Development Expert | ANAGH K R",
         description: "Top-rated MERN stack development services in Kerala — MongoDB, Express.js, React, Node.js full-stack applications built for scale, performance, and real-time capabilities. Serving all Kerala.",
-        url: "https://www.anaghkr.in/mern-stack-development",
+        url: "https://www.anaghkr.in/mern-stack-development/",
         type: "website",
         siteName: "ANAGH K R - MERN Stack Developer",
         locale: "en_IN",

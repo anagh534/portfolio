@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Smartphone, Gauge, Palette, Flame, Upload, Server } from 'lucide-react';
 
 export const metadata = {
-    title: "Flutter Developer Kerala | Mobile App Development iOS Android | ANAGH K R",
-    description: "Expert Flutter developer in Kerala offering cross-platform mobile app development for iOS and Android. Business apps, startup MVPs, and enterprise mobile solutions by ANAGH K R. Serving Kochi, Kozhikode, Kasaragod, Kannur, and all Kerala.",
+    title: "Flutter Developer Kerala | iOS & Android App Expert | ANAGH K R",
+    description: "Expert Flutter developer in Kerala. Cross-platform mobile apps for iOS & Android, startup MVPs, and business solutions.",
     keywords: "Flutter developer Kerala, mobile app development Kerala, Flutter app developer Kerala, iOS developer Kerala, Android developer Kerala, cross platform app development Kerala, Flutter developer Kochi, Flutter developer Kozhikode, Flutter developer Kasaragod, Flutter developer Kannur, Flutter app development Thrissur, Flutter developer Thiruvananthapuram, hire Flutter developer Kerala, Flutter app development company Kerala, Flutter startup app Kerala",
-    alternates: { canonical: "https://www.anaghkr.in/flutter-app-development" },
+    alternates: { canonical: "https://www.anaghkr.in/flutter-app-development/" },
     openGraph: {
         title: "Flutter Developer Kerala | iOS Android App Development | ANAGH K R",
         description: "Expert Flutter mobile app development for iOS and Android — business apps, startup MVPs, and enterprise mobile solutions across Kerala.",
-        url: "https://www.anaghkr.in/flutter-app-development",
+        url: "https://www.anaghkr.in/flutter-app-development/",
         type: "website",
         images: [{
             url: "https://www.anaghkr.in/assets/services/app.webp",

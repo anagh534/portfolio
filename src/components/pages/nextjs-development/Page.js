@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Server, FileCode, RefreshCw, Plug, ImageIcon, Layout } from 'lucide-react';
 
 export const metadata = {
-    title: "Next.js Developer Kerala | Next.js Development Services | ANAGH K R",
-    description: "Expert Next.js developer in Kerala offering server-side rendering, static site generation, and full-stack Next.js applications. SEO-first React apps with the App Router by ANAGH K R. Serving Kochi, Kozhikode, Kasaragod, and all Kerala.",
+    title: "Next.js Developer Kerala | SSR & React Expert | ANAGH K R",
+    description: "Expert Next.js developer in Kerala. Server-side rendering, SEO-first React apps, and full-stack solutions for businesses.",
     keywords: "Next.js developer Kerala, Next.js development services Kerala, Next.js developer Kochi, Next.js developer Kozhikode, Next.js developer Kasaragod, Next.js developer Kannur, server side rendering Kerala, static site generation Kerala, React Next.js developer Kerala, Next.js App Router Kerala, hire Next.js developer Kerala, Next.js SEO development Kerala, Next.js full stack Kerala, SSR web development Kerala, Next.js website Kerala",
-    alternates: { canonical: "https://www.anaghkr.in/nextjs-development" },
+    alternates: { canonical: "https://www.anaghkr.in/nextjs-development/" },
     openGraph: {
         title: "Next.js Developer Kerala | SSR React Development | ANAGH K R",
         description: "Expert Next.js development — server-side rendering, App Router, ISR, and full-stack React applications built for performance and SEO.",
-        url: "https://www.anaghkr.in/nextjs-development",
+        url: "https://www.anaghkr.in/nextjs-development/",
         type: "website",
         images: [
             {

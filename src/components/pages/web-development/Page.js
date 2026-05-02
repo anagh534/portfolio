@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Palette, Smartphone, Zap, Search, ShieldCheck, LayoutDashboard } from 'lucide-react';
 
 export const metadata = {
-    title: "Website Developer Kerala | Free Website Consultation & Custom Sites | ANAGH K R",
-    description: "Top-rated website developer in Kerala offering free website consultations, affordable starter packages, and custom business websites. Serving Kochi, Kozhikode, Trivandrum & all Kerala. Fast delivery, SEO-optimized, and responsive web design.",
+    title: "Website Developer Kerala | Custom Sites & Consultation | ANAGH K R",
+    description: "Professional web developer in Kerala. Custom business websites, SEO-optimized design, and fast delivery in Kochi, Kozhikode & Trivandrum.",
     keywords: "website developer kerala, free website kerala, affordable website developer kerala, best website developer kerala, professional web developer kerala, custom website design kerala, low cost website kerala, ecommerce website kerala, react developer kerala, nextjs developer kerala, web developer kochi, web developer kozhikode, web developer trivandrum",
-    alternates: { canonical: "https://www.anaghkr.in/web-development" },
+    alternates: { canonical: "https://www.anaghkr.in/web-development/" },
     openGraph: {
         title: "Best Web Developer Kerala | Professional Website Development | ANAGH K R",
         description: "Top-rated professional web development services in Kerala — custom websites, business web applications, responsive design, and full-stack solutions for businesses of all sizes across Kerala.",
-        url: "https://www.anaghkr.in/web-development",
+        url: "https://www.anaghkr.in/web-development/",
         type: "website",
         siteName: "ANAGH K R - Web Developer Kerala",
         locale: "en_IN",

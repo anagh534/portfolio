@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Smartphone, Bell, MapPin, MessageSquare, CreditCard, Upload, Layers } from 'lucide-react';
 
 export const metadata = {
-    title: "Mobile App Developer Kerala | Best App Developer in Kerala | ANAGH K R",
-    description: "Looking for a top mobile app developer in Kerala? Quality iOS & Android apps built with Flutter. Serving Kochi, Calicut, and Trivandrum with affordable rates.",
+    title: "Mobile App Developer Kerala | iOS & Android Apps | ANAGH K R",
+    description: "Top mobile app developer in Kerala. Quality iOS & Android apps built with Flutter in Kochi, Calicut, and Trivandrum.",
     keywords: "mobile app developer kerala, app developer kerala, best app developer kerala, iOS app developer kerala, Android app developer kerala, flutter developer kerala, mobile app development kochi, app developer calicut, mobile app developer trivandrum, startup app developer kerala",
-    alternates: { canonical: "https://www.anaghkr.in/mobile-app-development" },
+    alternates: { canonical: "https://www.anaghkr.in/mobile-app-development/" },
     openGraph: {
         title: "Mobile App Developer Kerala | iOS & Android Apps | ANAGH K R",
         description: "Professional mobile app development — cross-platform iOS and Android apps using Flutter for businesses across Kerala.",
-        url: "https://www.anaghkr.in/mobile-app-development",
+        url: "https://www.anaghkr.in/mobile-app-development/",
         type: "website",
         images: [
             {

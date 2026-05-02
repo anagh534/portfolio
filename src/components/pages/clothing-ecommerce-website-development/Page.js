@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Store, MessageSquare, ShieldCheck, Zap, MapPin, Layers } from 'lucide-react';
 
 export const metadata = {
-    title: "Clothing Ecommerce Website Kerala | Clothing Ecommerce Website Services | ANAGH K R",
-    description: "Clothing ecommerce website development with size/variant management, lookbook layouts, offer engines, and mobile-first shopping experiences for Kerala fashion businesses.",
+    title: "Clothing Ecommerce Kerala | Fashion Store Expert | ANAGH K R",
+    description: "Clothing ecommerce development in Kerala. Variant management, lookbooks, and mobile-first shopping for fashion brands.",
     keywords: "clothing ecommerce website kerala, fashion website developer kochi, apparel online store development calicut, boutique ecommerce website kerala",
-    alternates: { canonical: "https://www.anaghkr.in/clothing-ecommerce-website-development" },
+    alternates: { canonical: "https://www.anaghkr.in/clothing-ecommerce-website-development/" },
     openGraph: {
         title: "Clothing Ecommerce Website Kerala | ANAGH K R",
         description: "Clothing ecommerce website development with size/variant management, lookbook layouts, offer engines, and mobile-first shopping experiences for Kerala fashion businesses.",
-        url: "https://www.anaghkr.in/clothing-ecommerce-website-development",
+        url: "https://www.anaghkr.in/clothing-ecommerce-website-development/",
         type: "website",
     },
     twitter: {

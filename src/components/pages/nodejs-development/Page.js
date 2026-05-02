@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Plug, Gauge, KeyRound, Radio, Layers, Database } from 'lucide-react';
 
 export const metadata = {
-    title: "Node.js Developer Kerala | Backend Development Services | ANAGH K R",
-    description: "Expert Node.js backend development services in Kerala. RESTful APIs, microservices, real-time apps, and server-side solutions by ANAGH K R. Serving Kochi, Kozhikode, Kasaragod, Kannur, and all Kerala.",
+    title: "Node.js Developer Kerala | Backend Services | ANAGH K R",
+    description: "Expert Node.js backend development in Kerala. RESTful APIs, real-time apps, and server-side solutions in Kochi & Calicut.",
     keywords: "Node.js developer Kerala, backend developer Kerala, Express.js developer Kerala, REST API developer Kerala, Node.js development Kochi, Node.js developer Kozhikode, Node.js developer Kasaragod, server side development Kerala, API development Kerala, microservices Kerala, Node.js backend Kerala, hire Node.js developer Kerala, Node.js developer Kannur, Node.js developer Thrissur, backend web development Kerala, JavaScript backend Kerala",
-    alternates: { canonical: "https://www.anaghkr.in/nodejs-development" },
+    alternates: { canonical: "https://www.anaghkr.in/nodejs-development/" },
     openGraph: {
         title: "Node.js Developer Kerala | Backend API Development | ANAGH K R",
         description: "Expert Node.js backend development services — RESTful APIs, microservices, real-time features, and scalable server architecture.",
-        url: "https://www.anaghkr.in/nodejs-development",
+        url: "https://www.anaghkr.in/nodejs-development/",
         type: "website",
         images: [
             {

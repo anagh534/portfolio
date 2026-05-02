@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { ShoppingCart, CreditCard, Package, LayoutDashboard, Smartphone, Search } from 'lucide-react';
 
 export const metadata = {
-    title: "Freelance Ecommerce Developer Kerala | Online Store & App Company | ANAGH K R",
-    description: "Looking for an ecommerce development company in Kerala? I offer freelance Shopify and WooCommerce development for online stores, rent-a-car setups, and booking platforms.",
+    title: "Ecommerce Developer Kerala | Online Store & Shopify | ANAGH K R",
+    description: "Top ecommerce developer in Kerala. Custom Shopify & WooCommerce stores, rent-a-car sites, and booking platforms.",
     keywords: "ecommerce development company in kerala, freelance ecommerce developer kerala, shopify development company kerala, woocommerce developer in kerala, rent a car website developer kerala, booking website kerala, ecommerce website development kerala",
-    alternates: { canonical: "https://www.anaghkr.in/ecommerce-development" },
+    alternates: { canonical: "https://www.anaghkr.in/ecommerce-development/" },
     openGraph: {
         title: "E-commerce Development Kerala | Online Store Development | ANAGH K R",
         description: "Professional e-commerce development services in Kerala — online stores, payment integration, inventory management, and custom shopping solutions.",
-        url: "https://www.anaghkr.in/ecommerce-development",
+        url: "https://www.anaghkr.in/ecommerce-development/",
         type: "website",
         images: [{
             url: "https://www.anaghkr.in/assets/services/ecom.webp",

@@ -1,14 +1,14 @@
 export const metadata = {
-    title: "Web Development Services Across Kerala | ANAGH K R",
-    description: "Professional web development, ecommerce, WordPress, and mobile app development services across major Kerala cities including Kochi, Thiruvananthapuram, Kozhikode, Thrissur, Kannur, and more.",
+    title: "Web Development Kerala | ANAGH K R",
+    description: "Serving Kochi, Trivandrum, Kozhikode & all major Kerala cities with professional web and mobile app development.",
     keywords: "web development Kerala, website developer Kerala, mobile app development Kerala, ecommerce development Kerala, WordPress developer Kerala, web developer Kochi, web developer Kozhikode, web developer Trivandrum, web developer Thrissur",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/",
     },
     openGraph: {
-        title: "Web Development Services Across Kerala | ANAGH K R",
-        description: "City-focused web development and app development services across Kerala with SEO-ready, business-focused delivery.",
+        title: "Web Development Kerala | ANAGH K R",
+        description: "Professional web development, ecommerce, WordPress, and mobile app development services across major Kerala cities.",
         url: "https://www.anaghkr.in/locations/",
         type: "website",
     },

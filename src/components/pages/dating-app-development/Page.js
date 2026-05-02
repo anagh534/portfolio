@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Store, MessageSquare, ShieldCheck, Zap, MapPin, Layers } from 'lucide-react';
 
 export const metadata = {
-    title: "Dating App Development Kerala | Dating App Development Services | ANAGH K R",
-    description: "Dating app development in Flutter and Node.js with profile matching, chat moderation, safety reporting, and scalable architecture for startups targeting Kerala and India-wide audiences.",
+    title: "Dating App Development Kerala | Social & Matchmaking | ANAGH K R",
+    description: "Dating app development in Kerala. Flutter & Node.js apps with profile matching, secure chat, and scalable architecture.",
     keywords: "dating app development kerala, tinder like app developer india, matchmaking app development kochi, social app development kerala",
-    alternates: { canonical: "https://www.anaghkr.in/dating-app-development" },
+    alternates: { canonical: "https://www.anaghkr.in/dating-app-development/" },
     openGraph: {
         title: "Dating App Development Kerala | ANAGH K R",
         description: "Dating app development in Flutter and Node.js with profile matching, chat moderation, safety reporting, and scalable architecture for startups targeting Kerala and India-wide audiences.",
-        url: "https://www.anaghkr.in/dating-app-development",
+        url: "https://www.anaghkr.in/dating-app-development/",
         type: "website",
     },
     twitter: {

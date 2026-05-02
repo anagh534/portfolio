@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Store, MessageSquare, ShieldCheck, Zap, MapPin, Layers } from 'lucide-react';
 
 export const metadata = {
-    title: "Instagram Store Development Kerala | Instagram Store Development Services | ANAGH K R",
-    description: "Instagram store development for Kerala businesses with catalog setup, DM-to-order flow, payment integration, and fast checkout landing pages. Ideal for Kochi, Kozhikode, Trivandrum, Kannur, Kasaragod, and Thrissur brands.",
+    title: "Instagram Store Development Kerala | Social Shop | ANAGH K R",
+    description: "Instagram store development in Kerala. Catalog setup, payment integration, and fast checkout for Kochi & Calicut brands.",
     keywords: "instagram store development kerala, instagram shop setup kochi, social commerce website kerala, instagram product catalog setup, whatsapp checkout instagram store",
-    alternates: { canonical: "https://www.anaghkr.in/instagram-store-development" },
+    alternates: { canonical: "https://www.anaghkr.in/instagram-store-development/" },
     openGraph: {
         title: "Instagram Store Development Kerala | ANAGH K R",
         description: "Instagram store development for Kerala businesses with catalog setup, DM-to-order flow, payment integration, and fast checkout landing pages. Ideal for Kochi, Kozhikode, Trivandrum, Kannur, Kasaragod, and Thrissur brands.",
-        url: "https://www.anaghkr.in/instagram-store-development",
+        url: "https://www.anaghkr.in/instagram-store-development/",
         type: "website",
     },
     twitter: {

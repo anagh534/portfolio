@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Store, MessageSquare, ShieldCheck, Zap, MapPin, Layers } from 'lucide-react';
 
 export const metadata = {
-    title: "Shopify Store Development Kerala | Shopify Store Development Services | ANAGH K R",
-    description: "Shopify store development with clean storefront UX, payment and shipping setup, and SEO-ready collection pages for businesses in Kochi, Calicut, Trivandrum, Thrissur, and across Kerala.",
+    title: "Shopify Store Development Kerala | Expert Setup | ANAGH K R",
+    description: "Shopify store development in Kerala. Clean UX, payment setup, and SEO-ready stores for businesses in Kochi & Calicut.",
     keywords: "shopify developer kerala, shopify store development kochi, shopify ecommerce website calicut, kerala shopify expert",
-    alternates: { canonical: "https://www.anaghkr.in/shopify-store-development" },
+    alternates: { canonical: "https://www.anaghkr.in/shopify-store-development/" },
     openGraph: {
         title: "Shopify Store Development Kerala | ANAGH K R",
         description: "Shopify store development with clean storefront UX, payment and shipping setup, and SEO-ready collection pages for businesses in Kochi, Calicut, Trivandrum, Thrissur, and across Kerala.",
-        url: "https://www.anaghkr.in/shopify-store-development",
+        url: "https://www.anaghkr.in/shopify-store-development/",
         type: "website",
     },
     twitter: {

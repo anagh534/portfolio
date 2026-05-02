@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Monitor, LayoutDashboard, Component, GitBranch, Plug, Sparkles } from 'lucide-react';
 
 export const metadata = {
-    title: "React Developer Kerala | React.js Development Services | ANAGH K R",
-    description: "Professional React.js development services in Kerala. Single-page applications, dashboards, interactive UIs, and React component libraries by ANAGH K R. Serving Kochi, Kozhikode, Kasaragod, and all Kerala.",
+    title: "React Developer Kerala | Frontend & SPA Expert | ANAGH K R",
+    description: "Professional React.js development in Kerala. Dynamic SPAs, dashboards, and interactive UIs for startups and businesses.",
     keywords: "React developer Kerala, React.js developer Kerala, React development services Kerala, frontend developer Kerala, React developer Kochi, React developer Kozhikode, React developer Kasaragod, React developer Kannur, hire React developer Kerala, React SPA development Kerala, React component development, React dashboard Kerala, React frontend Kerala, ReactJS developer Kerala, React web app Kerala",
-    alternates: { canonical: "https://www.anaghkr.in/react-development" },
+    alternates: { canonical: "https://www.anaghkr.in/react-development/" },
     openGraph: {
         title: "React Developer Kerala | React.js Development Services | ANAGH K R",
         description: "Professional React.js development — SPAs, admin dashboards, interactive UIs, and component libraries built for performance.",
-        url: "https://www.anaghkr.in/react-development",
+        url: "https://www.anaghkr.in/react-development/",
         type: "website",
         images: [
             {

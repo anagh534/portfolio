@@ -2,14 +2,14 @@ import ServicePageTemplate from '@/components/services/ServicePageTemplate';
 import { Palette, ShoppingCart, Package, Gauge, PenLine, ShieldCheck } from 'lucide-react';
 
 export const metadata = {
-    title: "Freelance WordPress Developer Kerala | WordPress Development Kozhikode & Calicut | ANAGH K R",
-    description: "Top-rated freelance WordPress developer in Kerala. Custom WordPress development company serving Kozhikode (Calicut), Trivandrum, and all over Kerala. Specializing in LMS and custom sites.",
+    title: "WordPress Developer Kerala | Kozhikode & Calicut | ANAGH K R",
+    description: "Expert WordPress developer in Kerala. Custom themes, LMS sites, and business solutions in Kozhikode, Calicut & Trivandrum.",
     keywords: "wordpress development kozhikode, wordpress development calicut, wordpress development company calicut, freelance wordpress developer kerala, lms development companies in trivandrum, wordpress customization kerala, learn dash developer kerala",
-    alternates: { canonical: "https://www.anaghkr.in/wordpress-development" },
+    alternates: { canonical: "https://www.anaghkr.in/wordpress-development/" },
     openGraph: {
         title: "WordPress Developer Kerala | Custom WordPress Websites | ANAGH K R",
         description: "Professional WordPress development — custom themes, WooCommerce stores, and business websites for clients across Kerala.",
-        url: "https://www.anaghkr.in/wordpress-development",
+        url: "https://www.anaghkr.in/wordpress-development/",
         type: "website",
         images: [
             {
