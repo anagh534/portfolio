@@ -95,7 +95,7 @@ const appleTouchIcon = icons.apple || fallbackPngIcon;
     {googleVerification && <meta name="google-site-verification" content={googleVerification} />}
     <meta name="theme-color" content={themeColor} />
     {canonical && <link rel="canonical" href={canonical} />}
-    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="preconnect" href="https://www.google-analytics.com" />
     <link rel="dns-prefetch" href="//www.google-analytics.com" />
@@ -105,11 +105,12 @@ const appleTouchIcon = icons.apple || fallbackPngIcon;
     <link rel="dns-prefetch" href="//www.linkedin.com" />
     <link rel="preconnect" href="https://github.com" />
     <link rel="dns-prefetch" href="//github.com" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="icon" type="image/webp" href={favicon} />
-    <link rel="icon" type="image/png" sizes="32x32" href={fallbackPngIcon} />
-    <link rel="icon" type="image/png" sizes="192x192" href={fallbackPngIcon} />
-    <link rel="shortcut icon" type="image/png" href={shortcutIcon} />
-    <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
 
     {Object.entries(alternateLanguages).map(([locale, href]) => (
       <link rel="alternate" hreflang={locale} href={href} />

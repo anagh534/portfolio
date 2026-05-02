@@ -132,7 +132,14 @@ export default function Navbar() {
 
                     <div className="flex justify-center gap-6 mt-auto pb-8">
                         {socialLinks.map((social, index) => (
-                            <a key={index} href={social.href} className="p-4 rounded-2xl bg-white/5 text-gray-400 hover:text-blue-400 border border-white/5 transition-colors">
+                            <a
+                                key={index}
+                                href={social.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="p-4 rounded-2xl bg-white/5 text-gray-400 hover:text-blue-400 border border-white/5 transition-colors"
+                                aria-label={social.label}
+                            >
                                 {social.icon}
                             </a>
                         ))}
