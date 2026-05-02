@@ -122,12 +122,12 @@ export default function WebDevelopmentPage() {
                 { question: "Which cities in Kerala do you serve?", answer: "I build responsive websites for clients in Kochi, Kozhikode, Trivandrum, Thrissur, Kannur, Kasaragod, Kollam, Palakkad, and Ernakulam." },
             ]}
             relatedServices={[
-                { title: "MERN Stack Development", desc: "Full-stack apps with MongoDB, Express, React, Node.js", href: "/mern-stack-development" },
-                { title: "Next.js Development", desc: "SEO-first React apps with server-side rendering", href: "/nextjs-development" },
-                { title: "E-commerce Development", desc: "Online stores with payment integration", href: "/ecommerce-development" },
-                { title: "WordPress Development", desc: "CMS-based business websites", href: "/wordpress-development" },
-                { title: "React Development", desc: "Dynamic SPAs and interactive UIs", href: "/react-development" },
-                { title: "Node.js Development", desc: "Scalable backend APIs and services", href: "/nodejs-development" },
+                { title: "MERN Stack Development", desc: "Full-stack apps with MongoDB, Express, React, Node.js", href: "/mern-stack-development/" },
+                { title: "Next.js Development", desc: "SEO-first React apps with server-side rendering", href: "/nextjs-development/" },
+                { title: "E-commerce Development", desc: "Online stores with payment integration", href: "/ecommerce-development/" },
+                { title: "WordPress Development", desc: "CMS-based business websites", href: "/wordpress-development/" },
+                { title: "React Development", desc: "Dynamic SPAs and interactive UIs", href: "/react-development/" },
+                { title: "Node.js Development", desc: "Scalable backend APIs and services", href: "/nodejs-development/" },
             ]}
             schemaData={schemaData}
         />

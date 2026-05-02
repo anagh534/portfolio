@@ -273,7 +273,7 @@ export default function Locations() {
                             <Send size={18} />
                             <span className="uppercase tracking-widest text-sm">WhatsApp Now</span>
                         </a>
-                        <a href="/contact" className="w-full sm:w-auto px-12 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
+                        <a href="/contact/" className="w-full sm:w-auto px-12 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
                             <span className="uppercase tracking-widest text-sm">Get Free Quote</span>
                         </a>
                     </div>

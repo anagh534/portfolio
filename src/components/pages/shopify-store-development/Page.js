@@ -96,9 +96,9 @@ export default function Page() {
                 { question: "Is this available across Kerala?", answer: "Yes. Projects are delivered for Kochi, Kozhikode, Thiruvananthapuram, Kannur, Kasaragod, Thrissur, and nearby regions." },
             ]}
             relatedServices={[
-                { title: "Instagram Store Development", desc: "Follower-to-buyer conversion", href: "/instagram-store-development" },
-                { title: "Clothing Ecommerce Website", desc: "Fashion-first online stores", href: "/clothing-ecommerce-website-development" },
-                { title: "Dropshipping Website", desc: "Low-inventory commerce models", href: "/dropshipping-website-development" },
+                { title: "Instagram Store Development", desc: "Follower-to-buyer conversion", href: "/instagram-store-development/" },
+                { title: "Clothing Ecommerce Website", desc: "Fashion-first online stores", href: "/clothing-ecommerce-website-development/" },
+                { title: "Dropshipping Website", desc: "Low-inventory commerce models", href: "/dropshipping-website-development/" },
             ]}
             schemaData={schemaData}
         />

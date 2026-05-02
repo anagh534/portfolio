@@ -29,11 +29,11 @@ export default function Navbar() {
     }, []);
 
     const navItems = [
-        { href: '/', label: 'Home', icon: <Home size={18} /> },
-        { href: '/about/', label: 'About', icon: <User size={18} /> },
-        { href: '/services/', label: 'Services', icon: <Briefcase size={18} /> },
-        { href: '/blog/', label: 'Blog', icon: <BookOpen size={18} /> },
-        { href: '/contact/', label: 'Contact', icon: <Mail size={18} /> }
+        { href: '/', label: 'Home/', icon: <Home size={18} /> },
+        { href: '/about/', label: 'About/', icon: <User size={18} /> },
+        { href: '/services/', label: 'Services/', icon: <Briefcase size={18} /> },
+        { href: '/blog/', label: 'Blog/', icon: <BookOpen size={18} /> },
+        { href: '/contact/', label: 'Contact/', icon: <Mail size={18} /> }
     ];
 
     const socialLinks = [
@@ -85,7 +85,7 @@ export default function Navbar() {
                         ))}
                     </div>
 
-                    <Link href="/contact" className="flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-5 py-2 rounded-xl text-sm font-bold transition-all hover:-translate-y-0.5 shadow-lg shadow-blue-500/20 active:scale-95">
+                    <Link href="/contact/" className="flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-5 py-2 rounded-xl text-sm font-bold transition-all hover:-translate-y-0.5 shadow-lg shadow-blue-500/20 active:scale-95">
                         <Send size={16} />
                         <span>Connect</span>
                     </Link>
@@ -139,7 +139,7 @@ export default function Navbar() {
                     </div>
 
                     <Link
-                        href="/contact"
+                        href="/contact/"
                         className="w-full text-center py-5 rounded-2xl bg-blue-600 text-white font-bold text-lg shadow-xl shadow-blue-500/20 active:scale-95 transition-all"
                         onClick={() => setIsMobileMenuOpen(false)}
                     >

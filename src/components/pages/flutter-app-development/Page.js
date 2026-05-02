@@ -80,12 +80,12 @@ export default function FlutterAppDevelopmentPage() {
                 { question: "Can you add new features to an existing Flutter app?", answer: "Absolutely. I can take over an existing Flutter project, add new features, fix bugs, upgrade dependencies, or completely redesign the UI." },
             ]}
             relatedServices={[
-                { title: "Mobile App Development", desc: "Full mobile development overview", href: "/mobile-app-development" },
-                { title: "MERN Stack Development", desc: "Backend APIs to power your mobile app", href: "/mern-stack-development" },
-                { title: "Node.js Development", desc: "Scalable APIs for Flutter apps", href: "/nodejs-development" },
-                { title: "Web Development", desc: "Web companion to your mobile app", href: "/web-development" },
-                { title: "React Development", desc: "Web admin panels for your app", href: "/react-development" },
-                { title: "E-commerce Development", desc: "Mobile shopping experiences", href: "/ecommerce-development" },
+                { title: "Mobile App Development", desc: "Full mobile development overview", href: "/mobile-app-development/" },
+                { title: "MERN Stack Development", desc: "Backend APIs to power your mobile app", href: "/mern-stack-development/" },
+                { title: "Node.js Development", desc: "Scalable APIs for Flutter apps", href: "/nodejs-development/" },
+                { title: "Web Development", desc: "Web companion to your mobile app", href: "/web-development/" },
+                { title: "React Development", desc: "Web admin panels for your app", href: "/react-development/" },
+                { title: "E-commerce Development", desc: "Mobile shopping experiences", href: "/ecommerce-development/" },
             ]}
             schemaData={schemaData}
         />

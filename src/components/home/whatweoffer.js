@@ -22,7 +22,7 @@ const services = [
         icon: <Globe size={24} />,
         shortDesc: "Professional MERN stack development services for businesses across Kerala. Building scalable, secure web applications with React, Next.js, Node.js, and MongoDB.",
         technologies: ["React", "Next.js", "Node.js", "MongoDB"],
-        href: "/mern-stack-development",
+        href: "/mern-stack-development/",
         cta: "View MERN service",
     },
     {
@@ -31,7 +31,7 @@ const services = [
         icon: <ShoppingCart size={24} />,
         shortDesc: "Complete online store development with secure payment integration, inventory management, and SEO optimization. Shopify, WooCommerce, and custom solutions available.",
         technologies: ["Shopify", "WooCommerce", "Stripe", "Next.js"],
-        href: "/ecommerce-development",
+        href: "/ecommerce-development/",
         cta: "View ecommerce service",
     },
     {
@@ -40,7 +40,7 @@ const services = [
         icon: <Smartphone size={24} />,
         shortDesc: "Looking for an app developer in Kerala? Cross-platform iOS and Android app development using Flutter. Available for direct meetings in Kochi and Calicut.",
         technologies: ["Flutter", "Dart", "Firebase", "App Store"],
-        href: "/flutter-app-development",
+        href: "/flutter-app-development/",
         cta: "Hire Flutter developer Kerala",
     },
     {
@@ -49,7 +49,7 @@ const services = [
         icon: <Palette size={24} />,
         shortDesc: "Get a free website consultation. I build affordable, responsive, and SEO-optimized business websites for clients across Kerala.",
         technologies: ["React", "Next.js", "SEO", "Responsive"],
-        href: "/web-development",
+        href: "/web-development/",
         cta: "View web design service",
     },
     {
@@ -58,7 +58,7 @@ const services = [
         icon: <RefreshCw size={24} />,
         shortDesc: "Custom WordPress website development and theme customization. Easy content management with plugin integration and WooCommerce e-commerce setup.",
         technologies: ["WordPress", "WooCommerce", "Custom Themes"],
-        href: "/wordpress-development",
+        href: "/wordpress-development/",
         cta: "View WordPress service",
     },
     {
@@ -67,7 +67,7 @@ const services = [
         icon: <CodeXml size={24} />,
         shortDesc: "Converting your Figma, PSD, or XD designs into clean, production-ready HTML, CSS, and React code with perfect attention to detail.",
         technologies: ["HTML5", "CSS3", "JavaScript", "React"],
-        href: "/react-development",
+        href: "/react-development/",
         cta: "View frontend service",
     },
     {
@@ -76,7 +76,7 @@ const services = [
         icon: <GraduationCap size={24} />,
         shortDesc: "Helping students with academic projects and startups with MVP development. Fast turnaround, mentoring included, and affordable pricing.",
         technologies: ["Fast MVP", "Documentation", "Mentoring"],
-        href: "/mobile-app-development",
+        href: "/mobile-app-development/",
         cta: "View MVP service",
     },
     {
@@ -85,7 +85,7 @@ const services = [
         icon: <Rocket size={24} />,
         shortDesc: "Website optimization for better search rankings and faster load times. Technical SEO, performance audits, and Google Analytics integration.",
         technologies: ["SEO", "Performance", "Analytics"],
-        href: "/services",
+        href: "/services/",
         cta: "View SEO service",
     },
     {
@@ -94,7 +94,7 @@ const services = [
         icon: <MessageCircleMore size={24} />,
         shortDesc: "Launch social-commerce ready stores with Instagram catalog setup, Shopify storefronts, and WhatsApp-first lead conversion.",
         technologies: ["Instagram Shop", "Shopify", "Social Commerce"],
-        href: "/instagram-store-development",
+        href: "/instagram-store-development/",
         cta: "View Instagram store service",
     },
     {
@@ -103,7 +103,7 @@ const services = [
         icon: <ShoppingCart size={24} />,
         shortDesc: "Build dropshipping websites and trend-product stores with high-converting pages, offer flows, and scalable order operations.",
         technologies: ["Dropshipping", "Checkout", "Automation"],
-        href: "/dropshipping-website-development",
+        href: "/dropshipping-website-development/",
         cta: "View dropshipping service",
     },
     {
@@ -112,7 +112,7 @@ const services = [
         icon: <Globe size={24} />,
         shortDesc: "Specialized ecommerce websites for clothing, shoe stores, and electronics with product-focused UX and faster mobile shopping.",
         technologies: ["Clothing", "Shoes", "Electronics"],
-        href: "/electronics-ecommerce-website-development",
+        href: "/electronics-ecommerce-website-development/",
         cta: "View ecommerce niches",
     },
     {
@@ -121,7 +121,7 @@ const services = [
         icon: <Smartphone size={24} />,
         shortDesc: "Develop secure dating and realtime chat apps with moderation features, scalable messaging architecture, and growth-ready roadmaps.",
         technologies: ["Flutter", "Node.js", "Realtime Chat"],
-        href: "/chat-app-development",
+        href: "/chat-app-development/",
         cta: "View chat app service",
     }
 ];
@@ -200,7 +200,7 @@ export default function WhatWeOffer() {
                             </div>
 
                             <a
-                                href={service.href || "/contact"}
+                                href={service.href || "/contact/"}
                                 className="inline-flex items-center gap-2 text-xs font-black text-white uppercase tracking-widest group/link hover:text-blue-400 transition-colors"
                             >
                                 <span>{service.cta || "Discuss Project"}</span>

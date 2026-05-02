@@ -97,11 +97,11 @@ export default function Page() {
                 { question: "Is this available across Kerala?", answer: "Yes. Projects are delivered for Kochi, Kozhikode, Thiruvananthapuram, Kannur, Kasaragod, Thrissur, and nearby regions." },
             ]}
             relatedServices={[
-                { title: "Dating App Development", desc: "Safety-focused social product design", href: "/dating-app-development" },
-                { title: "Mobile App Development", desc: "Full app delivery support", href: "/mobile-app-development" },
-                { title: "MERN Stack Development", desc: "Scalable realtime backend architecture", href: "/mern-stack-development" },
-                { title: "Flutter App Development", desc: "Cross-platform mobile app builds", href: "/flutter-app-development" },
-                { title: "Node.js Development", desc: "Realtime backend APIs", href: "/nodejs-development" },
+                { title: "Dating App Development", desc: "Safety-focused social product design", href: "/dating-app-development/" },
+                { title: "Mobile App Development", desc: "Full app delivery support", href: "/mobile-app-development/" },
+                { title: "MERN Stack Development", desc: "Scalable realtime backend architecture", href: "/mern-stack-development/" },
+                { title: "Flutter App Development", desc: "Cross-platform mobile app builds", href: "/flutter-app-development/" },
+                { title: "Node.js Development", desc: "Realtime backend APIs", href: "/nodejs-development/" },
             ]}
             schemaData={schemaData}
         />

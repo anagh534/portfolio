@@ -104,7 +104,7 @@ export default function About() {
                         </div>
 
                         <Link
-                            href="/about"
+                            href="/about/"
                             className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-bold hover:bg-white/10 transition-all active:scale-95 group"
                         >
                             <span>More about my journey</span>

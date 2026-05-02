@@ -24,7 +24,7 @@ export default function ServiceComponent({ description, title, icon, category = 
             </div>
 
             <div className="mt-8 pt-6 border-t border-white/5 relative z-10">
-                <a href="/contact" className="inline-flex items-center gap-2 text-xs font-black text-white hover:text-blue-400 transition-all uppercase tracking-widest group/link">
+                <a href="/contact/" className="inline-flex items-center gap-2 text-xs font-black text-white hover:text-blue-400 transition-all uppercase tracking-widest group/link">
                     <span>Discuss Project</span>
                     <ArrowRight size={14} className="group-hover/link:translate-x-1 transition-transform" />
                 </a>

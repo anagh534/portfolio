@@ -25,7 +25,7 @@ export default function Hero() {
               Experienced <strong className="text-white">Flutter developer in Kerala</strong> and <strong className="text-white">freelance web developer</strong> specializing in <strong className="text-white">Flutter, MERN stack, and WordPress development</strong>.
               Building custom websites, e-commerce solutions, and high-performance mobile apps
               for businesses across Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
-              Transforming ideas into scalable digital products with clean code and exceptional user experiences. <Link href="/flutter-app-development" className="text-blue-300 underline underline-offset-4 hover:text-blue-200">Explore Flutter app development services in Kerala</Link>.
+              Transforming ideas into scalable digital products with clean code and exceptional user experiences. <Link href="/flutter-app-development/" className="text-blue-300 underline underline-offset-4 hover:text-blue-200">Explore Flutter app development services in Kerala</Link>.
             </p>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-12">

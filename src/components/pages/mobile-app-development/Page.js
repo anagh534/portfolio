@@ -83,12 +83,12 @@ export default function MobileAppDevelopmentPage() {
                 { question: "Can you build a delivery or booking app?", answer: "Yes. I've built logistics and service booking apps with real-time GPS tracking, push notifications, payment integration, and driver dashboards." },
             ]}
             relatedServices={[
-                { title: "Flutter App Development", desc: "Detailed Flutter mobile development", href: "/flutter-app-development" },
-                { title: "Node.js Development", desc: "Backend APIs to power your app", href: "/nodejs-development" },
-                { title: "MERN Stack Development", desc: "Full-stack solution with mobile app", href: "/mern-stack-development" },
-                { title: "E-commerce Development", desc: "Mobile shopping experiences", href: "/ecommerce-development" },
-                { title: "Web Development", desc: "Web counterpart to your mobile app", href: "/web-development" },
-                { title: "React Development", desc: "Web admin panels for your mobile app", href: "/react-development" },
+                { title: "Flutter App Development", desc: "Detailed Flutter mobile development", href: "/flutter-app-development/" },
+                { title: "Node.js Development", desc: "Backend APIs to power your app", href: "/nodejs-development/" },
+                { title: "MERN Stack Development", desc: "Full-stack solution with mobile app", href: "/mern-stack-development/" },
+                { title: "E-commerce Development", desc: "Mobile shopping experiences", href: "/ecommerce-development/" },
+                { title: "Web Development", desc: "Web counterpart to your mobile app", href: "/web-development/" },
+                { title: "React Development", desc: "Web admin panels for your mobile app", href: "/react-development/" },
             ]}
             schemaData={schemaData}
         />

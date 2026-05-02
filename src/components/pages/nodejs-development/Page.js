@@ -82,12 +82,12 @@ export default function NodejsDevelopmentPage() {
                 { question: "How is Node.js different from PHP for backends?", answer: "Node.js uses JavaScript (same language as your frontend), is non-blocking and typically faster for I/O operations, handles WebSockets natively, and has a massive npm ecosystem. It's generally preferred for modern, real-time web applications." },
             ]}
             relatedServices={[
-                { title: "MERN Stack Development", desc: "Full-stack with MongoDB, Express, React, Node", href: "/mern-stack-development" },
-                { title: "React Development", desc: "Dynamic React frontends", href: "/react-development" },
-                { title: "Next.js Development", desc: "React with SSR and API routes", href: "/nextjs-development" },
-                { title: "Web Development", desc: "End-to-end custom website development", href: "/web-development" },
-                { title: "Mobile App Development", desc: "Flutter apps powered by Node.js APIs", href: "/mobile-app-development" },
-                { title: "E-commerce Development", desc: "Online stores with backend APIs", href: "/ecommerce-development" },
+                { title: "MERN Stack Development", desc: "Full-stack with MongoDB, Express, React, Node", href: "/mern-stack-development/" },
+                { title: "React Development", desc: "Dynamic React frontends", href: "/react-development/" },
+                { title: "Next.js Development", desc: "React with SSR and API routes", href: "/nextjs-development/" },
+                { title: "Web Development", desc: "End-to-end custom website development", href: "/web-development/" },
+                { title: "Mobile App Development", desc: "Flutter apps powered by Node.js APIs", href: "/mobile-app-development/" },
+                { title: "E-commerce Development", desc: "Online stores with backend APIs", href: "/ecommerce-development/" },
             ]}
             schemaData={schemaData}
         />

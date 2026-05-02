@@ -4,6 +4,12 @@
 
 This file tracks the SEO status and tasks for every page in the portfolio.
 
+## Audit Completion (Final)
+- [x] **Trailing Slashes**: Added to all internal links and canonical URLs site-wide.
+- [x] **Internal Linking**: Verified consistency and fixed issues (especially in /about and location pages).
+- [x] **FAQ Hydration**: Verified `client:visible` added to all page modules.
+- [x] **Astro Config**: Enforced `trailingSlash: 'always'`.
+
 ## Global SEO Tasks
 - [x] Ensure `sitemap.xml` exists and is up to date. (Handled by Astro sitemap integration)
 - [x] Ensure `robots.txt` is configured properly.

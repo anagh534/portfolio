@@ -3,23 +3,23 @@ import { Rocket, Target, Users, Zap, ArrowRight, User as UserIcon, Send, Check, 
 import Script from '@/compat/script';
 
 const detailPages = [
-    { title: "Web Development", href: "/web-development", desc: "Custom websites & web apps" },
-    { title: "MERN Stack", href: "/mern-stack-development", desc: "MongoDB · Express · React · Node.js" },
-    { title: "Next.js Development", href: "/nextjs-development", desc: "SSR & SSG React apps" },
-    { title: "React Development", href: "/react-development", desc: "SPAs & interactive UIs" },
-    { title: "Node.js Development", href: "/nodejs-development", desc: "Scalable backends & APIs" },
-    { title: "Flutter Apps", href: "/flutter-app-development", desc: "iOS & Android cross-platform" },
-    { title: "Mobile Apps", href: "/mobile-app-development", desc: "Full mobile app development" },
-    { title: "WordPress Development", href: "/wordpress-development", desc: "CMS websites & WooCommerce" },
-    { title: "E-commerce Development", href: "/ecommerce-development", desc: "Online stores & payment integration" },
-    { title: "Instagram Store Development", href: "/instagram-store-development", desc: "Social commerce websites & catalogs" },
-    { title: "Dropshipping Website Development", href: "/dropshipping-website-development", desc: "Trend product store builds" },
-    { title: "Shopify Store Development", href: "/shopify-store-development", desc: "Shopify setup and optimization" },
-    { title: "Clothing Ecommerce Website", href: "/clothing-ecommerce-website-development", desc: "Fashion-focused online stores" },
-    { title: "Shoe Store Website", href: "/shoe-store-website-development", desc: "Footwear ecommerce platforms" },
-    { title: "Electronics Ecommerce Website", href: "/electronics-ecommerce-website-development", desc: "Gadget and electronics stores" },
-    { title: "Dating App Development", href: "/dating-app-development", desc: "Safety-first social app builds" },
-    { title: "Chat App Development", href: "/chat-app-development", desc: "Realtime messaging products" },
+    { title: "Web Development", href: "/web-development/", desc: "Custom websites & web apps" },
+    { title: "MERN Stack", href: "/mern-stack-development/", desc: "MongoDB · Express · React · Node.js" },
+    { title: "Next.js Development", href: "/nextjs-development/", desc: "SSR & SSG React apps" },
+    { title: "React Development", href: "/react-development/", desc: "SPAs & interactive UIs" },
+    { title: "Node.js Development", href: "/nodejs-development/", desc: "Scalable backends & APIs" },
+    { title: "Flutter Apps", href: "/flutter-app-development/", desc: "iOS & Android cross-platform" },
+    { title: "Mobile Apps", href: "/mobile-app-development/", desc: "Full mobile app development" },
+    { title: "WordPress Development", href: "/wordpress-development/", desc: "CMS websites & WooCommerce" },
+    { title: "E-commerce Development", href: "/ecommerce-development/", desc: "Online stores & payment integration" },
+    { title: "Instagram Store Development", href: "/instagram-store-development/", desc: "Social commerce websites & catalogs" },
+    { title: "Dropshipping Website Development", href: "/dropshipping-website-development/", desc: "Trend product store builds" },
+    { title: "Shopify Store Development", href: "/shopify-store-development/", desc: "Shopify setup and optimization" },
+    { title: "Clothing Ecommerce Website", href: "/clothing-ecommerce-website-development/", desc: "Fashion-focused online stores" },
+    { title: "Shoe Store Website", href: "/shoe-store-website-development/", desc: "Footwear ecommerce platforms" },
+    { title: "Electronics Ecommerce Website", href: "/electronics-ecommerce-website-development/", desc: "Gadget and electronics stores" },
+    { title: "Dating App Development", href: "/dating-app-development/", desc: "Safety-first social app builds" },
+    { title: "Chat App Development", href: "/chat-app-development/", desc: "Realtime messaging products" },
 ];
 
 export const metadata = {
@@ -458,7 +458,7 @@ export default function Services() {
                                         </li>
                                     ))}
                                 </ul>
-                                <a href="/contact" className="block w-full py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-center hover:bg-blue-600 hover:border-blue-600 transition-all uppercase tracking-wider text-sm">
+                                <a href="/contact/" className="block w-full py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-center hover:bg-blue-600 hover:border-blue-600 transition-all uppercase tracking-wider text-sm">
                                     Get Quote
                                 </a>
                             </div>
@@ -530,11 +530,11 @@ export default function Services() {
                             <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight">Let's Build Your Digital Solution</h2>
                             <p className="text-gray-400 text-lg max-w-2xl mx-auto">Get professional web or mobile development services in Kerala. Free consultation, transparent pricing, and quality results. Contact now to discuss your project!</p>
                             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-6">
-                                <a href="/contact" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
+                                <a href="/contact/" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
                                     <Send size={18} />
                                     <span className="uppercase tracking-widest text-sm">Get Started</span>
                                 </a>
-                                <a href="/about" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
+                                <a href="/about/" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
                                     <UserIcon size={18} />
                                     <span className="uppercase tracking-widest text-sm">Learn More</span>
                                 </a>

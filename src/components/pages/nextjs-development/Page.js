@@ -82,12 +82,12 @@ export default function NextjsDevelopmentPage() {
                 { question: "Do you build Next.js apps in Kochi and Kozhikode?", answer: "Yes — Next.js development services are available across all Kerala cities including Kochi, Kozhikode, Kasaragod, Kannur, Thrissur, Thiruvananthapuram, and more. Remote development available for all of India." },
             ]}
             relatedServices={[
-                { title: "React Development", desc: "Client-side React applications", href: "/react-development" },
-                { title: "MERN Stack Development", desc: "Full-stack with Node.js backend", href: "/mern-stack-development" },
-                { title: "Web Development", desc: "End-to-end custom web development", href: "/web-development" },
-                { title: "E-commerce Development", desc: "Next.js powered online stores", href: "/ecommerce-development" },
-                { title: "Node.js Development", desc: "Backend APIs for Next.js apps", href: "/nodejs-development" },
-                { title: "WordPress Development", desc: "Headless WordPress with Next.js", href: "/wordpress-development" },
+                { title: "React Development", desc: "Client-side React applications", href: "/react-development/" },
+                { title: "MERN Stack Development", desc: "Full-stack with Node.js backend", href: "/mern-stack-development/" },
+                { title: "Web Development", desc: "End-to-end custom web development", href: "/web-development/" },
+                { title: "E-commerce Development", desc: "Next.js powered online stores", href: "/ecommerce-development/" },
+                { title: "Node.js Development", desc: "Backend APIs for Next.js apps", href: "/nodejs-development/" },
+                { title: "WordPress Development", desc: "Headless WordPress with Next.js", href: "/wordpress-development/" },
             ]}
             schemaData={schemaData}
         />

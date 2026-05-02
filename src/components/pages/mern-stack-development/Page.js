@@ -116,12 +116,12 @@ export default function MernStackDevelopmentPage() {
                 { question: "Do you provide MERN stack development in Kochi and Kozhikode?", answer: "Yes, I serve all cities in Kerala including Kochi, Kozhikode, Thiruvananthapuram, Kasaragod, Kannur, Thrissur, and more — both in-person consultations and remote development." },
             ]}
             relatedServices={[
-                { title: "React Development", desc: "Dynamic, interactive React frontends", href: "/react-development" },
-                { title: "Node.js Development", desc: "Scalable backend APIs with Node.js", href: "/nodejs-development" },
-                { title: "Next.js Development", desc: "SSR React with Next.js for SEO", href: "/nextjs-development" },
-                { title: "Web Development", desc: "Full custom website development", href: "/web-development" },
-                { title: "E-commerce Development", desc: "Online stores with payment gatways", href: "/ecommerce-development" },
-                { title: "Mobile App Development", desc: "Cross-platform apps with Flutter", href: "/mobile-app-development" },
+                { title: "React Development", desc: "Dynamic, interactive React frontends", href: "/react-development/" },
+                { title: "Node.js Development", desc: "Scalable backend APIs with Node.js", href: "/nodejs-development/" },
+                { title: "Next.js Development", desc: "SSR React with Next.js for SEO", href: "/nextjs-development/" },
+                { title: "Web Development", desc: "Full custom website development", href: "/web-development/" },
+                { title: "E-commerce Development", desc: "Online stores with payment gatways", href: "/ecommerce-development/" },
+                { title: "Mobile App Development", desc: "Cross-platform apps with Flutter", href: "/mobile-app-development/" },
             ]}
             schemaData={schemaData}
         />

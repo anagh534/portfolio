@@ -50,7 +50,7 @@ export default function ServicePageTemplate({
                                 <Send size={18} />
                                 <span className="uppercase tracking-widest text-sm">WhatsApp Now</span>
                             </a>
-                            <a href="/contact" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
+                            <a href="/contact/" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
                                 <span className="uppercase tracking-widest text-sm">Get Free Quote</span>
                                 <ArrowRight size={18} />
                             </a>
@@ -239,11 +239,11 @@ export default function ServicePageTemplate({
                         Get a free consultation and custom quote for your project. Serving businesses across Kerala and remotely worldwide.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-                        <a href="/contact" className="w-full sm:w-auto px-12 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-2xl">
+                        <a href="/contact/" className="w-full sm:w-auto px-12 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-2xl">
                             <Send size={18} />
                             <span className="uppercase tracking-widest text-sm">Get Free Quote</span>
                         </a>
-                        <a href="/locations" className="w-full sm:w-auto px-12 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
+                        <a href="/locations/" className="w-full sm:w-auto px-12 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
                             <span className="uppercase tracking-widest text-sm">View Locations</span>
                         </a>
                     </div>

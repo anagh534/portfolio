@@ -40,13 +40,13 @@ export default function NotFound() {
                         Go Home
                     </Link>
                     <Link
-                        href="/services"
+                        href="/services/"
                         className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95 uppercase tracking-widest text-sm"
                     >
                         View Services
                     </Link>
                     <Link
-                        href="/contact"
+                        href="/contact/"
                         className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95 uppercase tracking-widest text-sm"
                     >
                         Contact Me

@@ -121,7 +121,7 @@ export default function Works() {
                 >
                     <p className="text-gray-400 mb-6 font-medium">Want to see more?</p>
                     <Link
-                        href="/contact"
+                        href="/contact/"
                         className="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-white text-black font-black hover:bg-blue-600 hover:text-white transition-all duration-300 active:scale-95 shadow-xl shadow-white/5"
                     >
                         <span>DISCUSS YOUR PROJECT</span>

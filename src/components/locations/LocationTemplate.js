@@ -93,7 +93,7 @@ export default function LocationTemplate({
                 <div className="max-w-7xl mx-auto relative z-10">
                     <Breadcrumb items={[
                         { label: 'Home', url: '/' },
-                        { label: 'Locations', url: '/locations' },
+                        { label: 'Locations', url: '/locations/' },
                         { label: cityName }
                     ]} />
 
@@ -408,11 +408,11 @@ export default function LocationTemplate({
                         and delivers cutting-edge digital growth.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-6">
-                        <a href="/contact" className="w-full sm:w-auto px-12 py-6 rounded-3xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-2xl shadow-white/5 group/btn">
+                        <a href="/contact/" className="w-full sm:w-auto px-12 py-6 rounded-3xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-2xl shadow-white/5 group/btn">
                             <span className="uppercase tracking-widest text-sm">Get Started in {cityName}</span>
                             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                         </a>
-                        <a href="/services" className="w-full sm:w-auto px-12 py-6 rounded-3xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95 group/btn-sec">
+                        <a href="/services/" className="w-full sm:w-auto px-12 py-6 rounded-3xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95 group/btn-sec">
                             <span className="uppercase tracking-widest text-sm">Our Expertise</span>
                             <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform text-white/40" />
                         </a>

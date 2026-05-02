@@ -49,10 +49,10 @@ const Footer = () => {
                         <ul className="space-y-4">
                             {[
                                 { label: 'Home', href: '/' },
-                                { label: 'About', href: '/about' },
-                                { label: 'Services', href: '/services' },
-                                { label: 'Works', href: '/#works' },
-                                { label: 'Contact', href: '/contact' },
+                                { label: 'About', href: '/about/' },
+                                { label: 'Services', href: '/services/' },
+                                { label: 'Works', href: '/#works/' },
+                                { label: 'Contact', href: '/contact/' },
                             ].map((link) => (
                                 <li key={link.href}>
                                     <Link href={link.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-2 group">
@@ -69,13 +69,13 @@ const Footer = () => {
                         <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Services</h4>
                         <ul className="grid grid-cols-1 gap-y-2">
                             {[
-                                { label: 'Web Development', href: '/web-development' },
-                                { label: 'E-commerce', href: '/ecommerce-development' },
-                                { label: 'Mobile Apps', href: '/mobile-app-development' },
-                                { label: 'MERN Stack', href: '/mern-stack-development' },
-                                { label: 'WordPress', href: '/wordpress-development' },
-                                { label: 'Instagram Store', href: '/instagram-store-development' },
-                                { label: 'Shopify Store', href: '/shopify-store-development' },
+                                { label: 'Web Development', href: '/web-development/' },
+                                { label: 'E-commerce', href: '/ecommerce-development/' },
+                                { label: 'Mobile Apps', href: '/mobile-app-development/' },
+                                { label: 'MERN Stack', href: '/mern-stack-development/' },
+                                { label: 'WordPress', href: '/wordpress-development/' },
+                                { label: 'Instagram Store', href: '/instagram-store-development/' },
+                                { label: 'Shopify Store', href: '/shopify-store-development/' },
                             ].map((item) => (
                                 <li key={item.href}>
                                     <Link href={item.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
@@ -84,7 +84,7 @@ const Footer = () => {
                                 </li>
                             ))}
                             <li className="pt-2">
-                                <Link href="/services" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
+                                <Link href="/services/" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
                                     View All Services
                                 </Link>
                             </li>
@@ -96,11 +96,11 @@ const Footer = () => {
                         <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Locations</h4>
                         <ul className="grid grid-cols-1 gap-y-2">
                             {[
-                                { label: 'Kochi', href: '/locations/kochi' },
-                                { label: 'Trivandrum', href: '/locations/thiruvananthapuram' },
-                                { label: 'Kozhikode', href: '/locations/kozhikode' },
-                                { label: 'Thrissur', href: '/locations/thrissur' },
-                                { label: 'Ernakulam', href: '/locations/ernakulam' },
+                                { label: 'Kochi', href: '/locations/kochi/' },
+                                { label: 'Trivandrum', href: '/locations/thiruvananthapuram/' },
+                                { label: 'Kozhikode', href: '/locations/kozhikode/' },
+                                { label: 'Thrissur', href: '/locations/thrissur/' },
+                                { label: 'Ernakulam', href: '/locations/ernakulam/' },
                             ].map((item) => (
                                 <li key={item.href}>
                                     <Link href={item.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
@@ -109,7 +109,7 @@ const Footer = () => {
                                 </li>
                             ))}
                             <li className="pt-2">
-                                <Link href="/locations" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
+                                <Link href="/locations/" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
                                     View All Locations
                                 </Link>
                             </li>
@@ -146,11 +146,11 @@ const Footer = () => {
                             Available for new projects and collaborations worldwide.
                         </p>
                         <div className="flex flex-col gap-3">
-                            <Link href="/contact" className="w-full py-4 rounded-2xl bg-white text-black font-black text-sm flex items-center justify-center gap-2 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
+                            <Link href="/contact/" className="w-full py-4 rounded-2xl bg-white text-black font-black text-sm flex items-center justify-center gap-2 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
                                 <span>GET IN TOUCH</span>
                                 <ExternalLink size={16} />
                             </Link>
-                            <Link href="/locations" className="w-full py-3 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-xs flex items-center justify-center hover:bg-white/10 transition-all active:scale-95">
+                            <Link href="/locations/" className="w-full py-3 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-xs flex items-center justify-center hover:bg-white/10 transition-all active:scale-95">
                                 <span>FIND LOCATIONS</span>
                             </Link>
                         </div>

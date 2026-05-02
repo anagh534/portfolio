@@ -83,12 +83,12 @@ export default function WordPressDevelopmentPage() {
                 { question: "Is WordPress good for e-commerce?", answer: "Yes, with WooCommerce — the world's most popular e-commerce plugin. It supports unlimited products, multiple payment gateways, shipping rules, inventory management, and connects to every major payment processor in India." },
             ]}
             relatedServices={[
-                { title: "E-commerce Development", desc: "Advanced online stores and marketplaces", href: "/ecommerce-development" },
-                { title: "Web Development", desc: "Custom full-stack web development", href: "/web-development" },
-                { title: "React Development", desc: "Headless WordPress with React frontends", href: "/react-development" },
-                { title: "Next.js Development", desc: "Headless CMS with Next.js", href: "/nextjs-development" },
-                { title: "MERN Stack Development", desc: "Custom CMS alternatives", href: "/mern-stack-development" },
-                { title: "Mobile App Development", desc: "Mobile app companion to your website", href: "/mobile-app-development" },
+                { title: "E-commerce Development", desc: "Advanced online stores and marketplaces", href: "/ecommerce-development/" },
+                { title: "Web Development", desc: "Custom full-stack web development", href: "/web-development/" },
+                { title: "React Development", desc: "Headless WordPress with React frontends", href: "/react-development/" },
+                { title: "Next.js Development", desc: "Headless CMS with Next.js", href: "/nextjs-development/" },
+                { title: "MERN Stack Development", desc: "Custom CMS alternatives", href: "/mern-stack-development/" },
+                { title: "Mobile App Development", desc: "Mobile app companion to your website", href: "/mobile-app-development/" },
             ]}
             schemaData={schemaData}
         />

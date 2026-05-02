@@ -97,11 +97,11 @@ export default function Page() {
                 { question: "Is this available across Kerala?", answer: "Yes. Projects are delivered for Kochi, Kozhikode, Thiruvananthapuram, Kannur, Kasaragod, Thrissur, and nearby regions." },
             ]}
             relatedServices={[
-                { title: "Chat App Development", desc: "Real-time messaging backbone", href: "/chat-app-development" },
-                { title: "Mobile App Development", desc: "Cross-platform product build", href: "/mobile-app-development" },
-                { title: "Flutter App Development", desc: "Fast iOS and Android development", href: "/flutter-app-development" },
-                { title: "E-commerce Development", desc: "Marketplace and commerce apps", href: "/ecommerce-development" },
-                { title: "Web Development", desc: "Admin dashboards and web panels", href: "/web-development" },
+                { title: "Chat App Development", desc: "Real-time messaging backbone", href: "/chat-app-development/" },
+                { title: "Mobile App Development", desc: "Cross-platform product build", href: "/mobile-app-development/" },
+                { title: "Flutter App Development", desc: "Fast iOS and Android development", href: "/flutter-app-development/" },
+                { title: "E-commerce Development", desc: "Marketplace and commerce apps", href: "/ecommerce-development/" },
+                { title: "Web Development", desc: "Admin dashboards and web panels", href: "/web-development/" },
             ]}
             schemaData={schemaData}
         />

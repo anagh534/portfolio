@@ -9,7 +9,7 @@ export const metadata = {
     openGraph: {
         title: "About Anagh K R - Experienced Flutter & Web Developer Kerala",
         description: "Anagh K R - Experienced Flutter & MERN stack developer with 3+ years expertise. Custom websites, mobile apps & e-commerce solutions for Kerala businesses.",
-        url: "https://www.anaghkr.in/about",
+        url: "https://www.anaghkr.in/about/",
         type: "profile",
     },
     twitter: {
@@ -159,7 +159,7 @@ export default function About() {
 
                         {/* Hero CTA */}
                         <div className="flex flex-col sm:flex-row items-center gap-6 pt-6 animate-in fade-in slide-in-from-bottom-12 duration-700 delay-800">
-                            <a href="/contact" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
+                            <a href="/contact/" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
                                 <Send size={18} />
                                 <span className="uppercase tracking-widest text-sm">Let's Work Together</span>
                             </a>
@@ -599,11 +599,11 @@ export default function About() {
                         Fast turnaround, transparent pricing, and dedicated support for businesses across Kerala.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-6">
-                        <a href="/contact" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
+                        <a href="/contact/" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
                             <Send size={18} />
                             <span className="uppercase tracking-widest text-sm">Start Project</span>
                         </a>
-                        <a href="/services" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
+                        <a href="/services/" className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95">
                             <Rocket size={18} />
                             <span className="uppercase tracking-widest text-sm">View Services</span>
                         </a>

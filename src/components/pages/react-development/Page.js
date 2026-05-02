@@ -82,12 +82,12 @@ export default function ReactDevelopmentPage() {
                 { question: "Do you provide React development in Kochi and Kasaragod?", answer: "Yes, I offer React development services across all Kerala cities — Kochi, Kozhikode, Kasaragod, Kannur, Thrissur, Thiruvananthapuram, and more — both in-person and remotely." },
             ]}
             relatedServices={[
-                { title: "Next.js Development", desc: "React with SSR, ISR, and App Router", href: "/nextjs-development" },
-                { title: "MERN Stack Development", desc: "Full-stack with React, Node, MongoDB", href: "/mern-stack-development" },
-                { title: "Node.js Development", desc: "Backend APIs to power React apps", href: "/nodejs-development" },
-                { title: "Web Development", desc: "Full custom website development", href: "/web-development" },
-                { title: "E-commerce Development", desc: "Online Stores with React frontends", href: "/ecommerce-development" },
-                { title: "WordPress Development", desc: "Headless WordPress with React", href: "/wordpress-development" },
+                { title: "Next.js Development", desc: "React with SSR, ISR, and App Router", href: "/nextjs-development/" },
+                { title: "MERN Stack Development", desc: "Full-stack with React, Node, MongoDB", href: "/mern-stack-development/" },
+                { title: "Node.js Development", desc: "Backend APIs to power React apps", href: "/nodejs-development/" },
+                { title: "Web Development", desc: "Full custom website development", href: "/web-development/" },
+                { title: "E-commerce Development", desc: "Online Stores with React frontends", href: "/ecommerce-development/" },
+                { title: "WordPress Development", desc: "Headless WordPress with React", href: "/wordpress-development/" },
             ]}
             schemaData={schemaData}
         />
