@@ -26,11 +26,11 @@ const schemaData = {
             "@type": "Service",
             "name": "Chat App Development",
             "serviceType": "Chat App Development",
-            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
             "areaServed": ["Kerala", "Kochi", "Kozhikode", "Thiruvananthapuram", "Kannur", "Kasaragod", "Thrissur"],
             "description": "Chat app development for startups and businesses in Kerala with real-time messaging, groups, media sharing, and secure backend systems for web and mobile products.",
             "offers": { "@type": "Offer", "priceCurrency": "INR", "description": "MVP starts around INR 50000 for core messaging features" },
-            "mainEntityOfPage": "https://www.anaghkr.in/chat-app-development"
+            "mainEntityOfPage": "https://www.anaghkr.in/chat-app-development/"
         },
         {
             "@type": "FAQPage",

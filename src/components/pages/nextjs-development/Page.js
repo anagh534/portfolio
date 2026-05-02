@@ -32,12 +32,12 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Next.js Development Services",
-    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
     "serviceType": "Next.js Development",
     "areaServed": "Kerala, India",
     "description": "Server-side rendered and statically generated React applications using Next.js App Router for superior SEO and performance.",
     "offers": { "@type": "Offer", "priceCurrency": "INR" },
-    "mainEntityOfPage": "https://www.anaghkr.in/nextjs-development"
+    "mainEntityOfPage": "https://www.anaghkr.in/nextjs-development/"
 };
 
 export default function NextjsDevelopmentPage() {

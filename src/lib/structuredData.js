@@ -31,7 +31,7 @@ export const organizationStructuredData = {
   "@type": "Organization",
   name: "ANAGH K R",
   alternateName: "Anagh K R - Web Developer Kerala",
-  url: "https://www.anaghkr.in",
+  url: "https://www.anaghkr.in/",
   logo: "https://www.anaghkr.in/logo.png",
   description:
     "Professional web development and mobile app development services in Kerala. Specialized in MERN stack, Flutter, WordPress, and custom software development.",

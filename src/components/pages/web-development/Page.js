@@ -35,7 +35,7 @@ const schemaData = {
     "provider": {
         "@type": "Person",
         "name": "Anagh K R",
-        "url": "https://www.anaghkr.in",
+        "url": "https://www.anaghkr.in/",
         "jobTitle": "Web Developer",
         "address": {
             "@type": "PostalAddress",
@@ -67,7 +67,7 @@ const schemaData = {
             "description": "Free Consultation and Free First-Year Domain/Hosting on select packages."
         }
     },
-    "mainEntityOfPage": "https://www.anaghkr.in/web-development",
+    "mainEntityOfPage": "https://www.anaghkr.in/web-development/",
     "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Web Development Services",

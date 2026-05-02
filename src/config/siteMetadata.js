@@ -6,14 +6,14 @@ export const viewport = {
 };
 
 export const metadata = {
-    metadataBase: new URL('https://www.anaghkr.in'),
+    metadataBase: new URL('https://www.anaghkr.in/'),
     title: {
         default: "Freelance Web Developer Kerala | Flutter, MERN & WordPress - ANAGH K R",
         template: "%s | ANAGH K R"
     },
     description: "Freelance web developer and web designer in Kerala. I build custom websites, WordPress sites, e-commerce stores, and Flutter mobile apps for businesses in Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
     applicationName: "Anagh K R Portfolio",
-    authors: [{ name: "ANAGH K R", url: "https://www.anaghkr.in" }],
+    authors: [{ name: "ANAGH K R", url: "https://www.anaghkr.in/" }],
     generator: "Astro",
     keywords: [
         "Freelance web developer Kerala",
@@ -67,7 +67,7 @@ export const metadata = {
     openGraph: {
         type: "website",
         locale: "en_IN",
-        url: "https://www.anaghkr.in",
+        url: "https://www.anaghkr.in/",
         siteName: "ANAGH K R - Freelance Web Developer Kerala",
         title: "Freelance Web Developer Kerala | Web, WordPress, Flutter - ANAGH K R",
         description: "Freelance web developer and web designer in Kerala for custom websites, WordPress, e-commerce, and Flutter apps. Serving Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
@@ -89,10 +89,10 @@ export const metadata = {
         images: ["/favicon.png"]
     },
     alternates: {
-        canonical: "https://www.anaghkr.in",
+        canonical: "https://www.anaghkr.in/",
         languages: {
-            'en-IN': 'https://www.anaghkr.in',
-            'en': 'https://www.anaghkr.in'
+            'en-IN': 'https://www.anaghkr.in/',
+            'en': 'https://www.anaghkr.in/'
         }
     },
     category: "Technology",

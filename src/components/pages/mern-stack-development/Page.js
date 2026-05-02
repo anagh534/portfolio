@@ -35,7 +35,7 @@ const schemaData = {
     "provider": {
         "@type": "Person",
         "name": "Anagh K R",
-        "url": "https://www.anaghkr.in",
+        "url": "https://www.anaghkr.in/",
         "jobTitle": "MERN Stack Developer",
         "address": {
             "@type": "PostalAddress",
@@ -61,7 +61,7 @@ const schemaData = {
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock"
     },
-    "mainEntityOfPage": "https://www.anaghkr.in/mern-stack-development",
+    "mainEntityOfPage": "https://www.anaghkr.in/mern-stack-development/",
     "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "MERN Stack Development Services",

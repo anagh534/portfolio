@@ -32,12 +32,12 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "React.js Development Services",
-    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
     "serviceType": "React.js Frontend Development",
     "areaServed": "Kerala, India",
     "description": "Modern single-page applications, interactive dashboards, and React component libraries for businesses across Kerala.",
     "offers": { "@type": "Offer", "priceCurrency": "INR" },
-    "mainEntityOfPage": "https://www.anaghkr.in/react-development"
+    "mainEntityOfPage": "https://www.anaghkr.in/react-development/"
 };
 
 export default function ReactDevelopmentPage() {

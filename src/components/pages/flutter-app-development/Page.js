@@ -30,12 +30,12 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Flutter Mobile App Development Services",
-    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
     "serviceType": "Flutter Mobile App Development",
     "areaServed": "Kerala, India",
     "description": "Cross-platform iOS and Android mobile app development using Flutter and Dart for businesses across Kerala.",
     "offers": { "@type": "Offer", "priceCurrency": "INR" },
-    "mainEntityOfPage": "https://www.anaghkr.in/flutter-app-development"
+    "mainEntityOfPage": "https://www.anaghkr.in/flutter-app-development/"
 };
 
 export default function FlutterAppDevelopmentPage() {

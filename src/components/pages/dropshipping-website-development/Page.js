@@ -26,11 +26,11 @@ const schemaData = {
             "@type": "Service",
             "name": "Dropshipping Website Development",
             "serviceType": "Dropshipping Website Development",
-            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
             "areaServed": ["Kerala", "Kochi", "Kozhikode", "Thiruvananthapuram", "Kannur", "Kasaragod", "Thrissur"],
             "description": "Launch-ready dropshipping website development in Kerala with supplier-friendly catalog structure, automation-ready order flow, and conversion-focused pages for trend products.",
             "offers": { "@type": "Offer", "priceCurrency": "INR", "description": "Starting from INR 18000 for a niche-ready dropshipping store" },
-            "mainEntityOfPage": "https://www.anaghkr.in/dropshipping-website-development"
+            "mainEntityOfPage": "https://www.anaghkr.in/dropshipping-website-development/"
         },
         {
             "@type": "FAQPage",

@@ -26,11 +26,11 @@ const schemaData = {
             "@type": "Service",
             "name": "Shopify Store Development",
             "serviceType": "Shopify Store Development",
-            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
             "areaServed": ["Kerala", "Kochi", "Kozhikode", "Thiruvananthapuram", "Kannur", "Kasaragod", "Thrissur"],
             "description": "Shopify store development with clean storefront UX, payment and shipping setup, and SEO-ready collection pages for businesses in Kochi, Calicut, Trivandrum, Thrissur, and across Kerala.",
             "offers": { "@type": "Offer", "priceCurrency": "INR", "description": "Starting from INR 20000 for a conversion-focused Shopify launch" },
-            "mainEntityOfPage": "https://www.anaghkr.in/shopify-store-development"
+            "mainEntityOfPage": "https://www.anaghkr.in/shopify-store-development/"
         },
         {
             "@type": "FAQPage",

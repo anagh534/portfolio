@@ -26,11 +26,11 @@ const schemaData = {
             "@type": "Service",
             "name": "Clothing Ecommerce Website",
             "serviceType": "Clothing Ecommerce Website Development",
-            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
             "areaServed": ["Kerala", "Kochi", "Kozhikode", "Thiruvananthapuram", "Kannur", "Kasaragod", "Thrissur"],
             "description": "Clothing ecommerce website development with size/variant management, lookbook layouts, offer engines, and mobile-first shopping experiences for Kerala fashion businesses.",
             "offers": { "@type": "Offer", "priceCurrency": "INR", "description": "Starting from INR 22000 for clothing store setup with variants" },
-            "mainEntityOfPage": "https://www.anaghkr.in/clothing-ecommerce-website-development"
+            "mainEntityOfPage": "https://www.anaghkr.in/clothing-ecommerce-website-development/"
         },
         {
             "@type": "FAQPage",

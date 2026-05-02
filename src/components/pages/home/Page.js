@@ -17,7 +17,7 @@ export const metadata = {
   openGraph: {
     title: "Flutter Developer Kerala | iOS Android Apps, Web & WordPress",
     description: "Expert Flutter developer in Kerala for iOS and Android apps, custom websites, WordPress development, and MERN solutions.",
-    url: "https://www.anaghkr.in",
+    url: "https://www.anaghkr.in/",
     type: "website",
   },
   twitter: {

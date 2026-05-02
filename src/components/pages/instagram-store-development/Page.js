@@ -26,11 +26,11 @@ const schemaData = {
             "@type": "Service",
             "name": "Instagram Store Development",
             "serviceType": "Instagram Store Development",
-            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
             "areaServed": ["Kerala", "Kochi", "Kozhikode", "Thiruvananthapuram", "Kannur", "Kasaragod", "Thrissur"],
             "description": "Instagram store development for Kerala businesses with catalog setup, DM-to-order flow, payment integration, and fast checkout landing pages. Ideal for Kochi, Kozhikode, Trivandrum, Kannur, Kasaragod, and Thrissur brands.",
             "offers": { "@type": "Offer", "priceCurrency": "INR", "description": "Starting from INR 12000 for website plus Instagram commerce setup" },
-            "mainEntityOfPage": "https://www.anaghkr.in/instagram-store-development"
+            "mainEntityOfPage": "https://www.anaghkr.in/instagram-store-development/"
         },
         {
             "@type": "FAQPage",

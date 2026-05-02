@@ -32,12 +32,12 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Node.js Development Services",
-    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
     "serviceType": "Node.js Backend Development",
     "areaServed": "Kerala, India",
     "description": "Scalable server-side development, REST API creation, and microservices architecture using Node.js and Express.js.",
     "offers": { "@type": "Offer", "priceCurrency": "INR" },
-    "mainEntityOfPage": "https://www.anaghkr.in/nodejs-development"
+    "mainEntityOfPage": "https://www.anaghkr.in/nodejs-development/"
 };
 
 export default function NodejsDevelopmentPage() {

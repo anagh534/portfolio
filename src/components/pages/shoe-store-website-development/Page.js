@@ -26,11 +26,11 @@ const schemaData = {
             "@type": "Service",
             "name": "Shoe Store Website Development",
             "serviceType": "Shoe Store Website Development",
-            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
             "areaServed": ["Kerala", "Kochi", "Kozhikode", "Thiruvananthapuram", "Kannur", "Kasaragod", "Thrissur"],
             "description": "Shoe store website development with variant-heavy product architecture, fit guidance, and high-speed product pages to improve checkout completion for Kerala retailers.",
             "offers": { "@type": "Offer", "priceCurrency": "INR", "description": "Starting from INR 20000 for footwear ecommerce websites" },
-            "mainEntityOfPage": "https://www.anaghkr.in/shoe-store-website-development"
+            "mainEntityOfPage": "https://www.anaghkr.in/shoe-store-website-development/"
         },
         {
             "@type": "FAQPage",

@@ -26,11 +26,11 @@ const schemaData = {
             "@type": "Service",
             "name": "Electronics Ecommerce Website",
             "serviceType": "Electronics Ecommerce Website Development",
-            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
             "areaServed": ["Kerala", "Kochi", "Kozhikode", "Thiruvananthapuram", "Kannur", "Kasaragod", "Thrissur"],
             "description": "Electronics ecommerce website development featuring spec comparison blocks, warranty-focused UX, COD and prepaid checkout options, and support-friendly product pages.",
             "offers": { "@type": "Offer", "priceCurrency": "INR", "description": "Starting from INR 25000 for electronics ecommerce builds" },
-            "mainEntityOfPage": "https://www.anaghkr.in/electronics-ecommerce-website-development"
+            "mainEntityOfPage": "https://www.anaghkr.in/electronics-ecommerce-website-development/"
         },
         {
             "@type": "FAQPage",

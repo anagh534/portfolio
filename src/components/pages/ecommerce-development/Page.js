@@ -30,12 +30,12 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "E-commerce Development Services",
-    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
     "serviceType": "E-commerce Development",
     "areaServed": "Kerala, India",
     "description": "Full-featured online store development with payment gateway integration, inventory management, and order processing for businesses across Kerala.",
     "offers": { "@type": "Offer", "priceCurrency": "INR" },
-    "mainEntityOfPage": "https://www.anaghkr.in/ecommerce-development"
+    "mainEntityOfPage": "https://www.anaghkr.in/ecommerce-development/"
 };
 
 export default function EcommerceDevelopmentPage() {

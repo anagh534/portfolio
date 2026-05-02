@@ -89,7 +89,7 @@ export default function About() {
                     "@context": "https://schema.org",
                     "@type": "Person",
                     "name": "Anagh K R",
-                    "url": "https://www.anaghkr.in",
+                    "url": "https://www.anaghkr.in/",
                     "image": "https://www.anaghkr.in/assets/profile.png",
                     "jobTitle": "Full Stack Developer",
                     "description": "Experienced freelance web developer and Flutter app developer based in Kerala with 3+ years of professional experience",
@@ -112,7 +112,7 @@ export default function About() {
                         "Mobile App Development"
                     ],
                     "sameAs": [
-                        "https://www.anaghkr.in",
+                        "https://www.anaghkr.in/",
                         "https://github.com/anaghkr",
                         "https://www.linkedin.com/in/anaghkr"
                     ]

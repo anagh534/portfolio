@@ -26,11 +26,11 @@ const schemaData = {
             "@type": "Service",
             "name": "Dating App Development",
             "serviceType": "Dating App Development",
-            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+            "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
             "areaServed": ["Kerala", "Kochi", "Kozhikode", "Thiruvananthapuram", "Kannur", "Kasaragod", "Thrissur"],
             "description": "Dating app development in Flutter and Node.js with profile matching, chat moderation, safety reporting, and scalable architecture for startups targeting Kerala and India-wide audiences.",
             "offers": { "@type": "Offer", "priceCurrency": "INR", "description": "MVP starts around INR 60000 with core matching and chat" },
-            "mainEntityOfPage": "https://www.anaghkr.in/dating-app-development"
+            "mainEntityOfPage": "https://www.anaghkr.in/dating-app-development/"
         },
         {
             "@type": "FAQPage",

@@ -32,12 +32,12 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "WordPress Development Services",
-    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in" },
+    "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
     "serviceType": "WordPress Development",
     "areaServed": "Kerala, India",
     "description": "Custom WordPress website development, theme customization, plugin integration, and WooCommerce store setup for businesses across Kerala.",
     "offers": { "@type": "Offer", "priceCurrency": "INR" },
-    "mainEntityOfPage": "https://www.anaghkr.in/wordpress-development"
+    "mainEntityOfPage": "https://www.anaghkr.in/wordpress-development/"
 };
 
 export default function WordPressDevelopmentPage() {

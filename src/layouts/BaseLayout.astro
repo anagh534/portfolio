@@ -24,7 +24,7 @@ const keywords = Array.isArray(metadata.keywords)
   ? metadata.keywords.join(", ")
   : metadata.keywords || globalMetadata.keywords?.join(", ");
 
-const metadataBase = globalMetadata?.metadataBase || new URL("https://www.anaghkr.in");
+const metadataBase = globalMetadata?.metadataBase || new URL("https://www.anaghkr.in/");
 const ensureNormalizedPageUrl = (value) => {
   if (!value) return null;
   try {
