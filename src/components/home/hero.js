@@ -34,7 +34,7 @@ export default function Hero() {
 
             {/* CTAs — delay 210ms */}
             <div className="hero-cta flex flex-wrap justify-center lg:justify-start gap-4 mb-12">
-              <a href="https://wa.me/918075541805" className="w-full sm:w-auto justify-center flex items-center gap-3 px-8 py-4 rounded-2xl bg-blue-600 text-white font-black hover:bg-blue-500 transition-all hover:-translate-y-1 shadow-xl shadow-blue-500/25 active:scale-95 group">
+              <a href="https://wa.me/918281571805" className="w-full sm:w-auto justify-center flex items-center gap-3 px-8 py-4 rounded-2xl bg-blue-600 text-white font-black hover:bg-blue-500 transition-all hover:-translate-y-1 shadow-xl shadow-blue-500/25 active:scale-95 group">
                 <span>LET'S TALK</span>
                 <MessageSquare size={20} className="group-hover:translate-x-1 transition-transform" />
               </a>

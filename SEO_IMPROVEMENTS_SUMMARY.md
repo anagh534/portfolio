@@ -86,7 +86,7 @@ Each includes:
 - Business name with city
 - Accurate geo coordinates (latitude/longitude)
 - Complete postal address
-- Phone: +91-8075541805
+- Phone: +91-8281571805
 - Email: anaghkrkkl@gmail.com
 - Opening hours: Mo-Sa 09:00-18:00
 - Price range: ₹₹
@@ -127,7 +127,7 @@ All images: 1200x630px with descriptive alt text
 
 ### 7. **Contact Details Standardized**
 Updated across ALL pages:
-- Phone: **+91-8075541805**
+- Phone: **+91-8281571805**
 - Email: **anaghkrkkl@gmail.com**
 
 Previously had inconsistent numbers (8281992989, XXXXXXXXXX, hello@anaghkr.in)
@@ -337,7 +337,7 @@ Study their:
 
 For questions about these changes:
 - Email: anaghkrkkl@gmail.com
-- Phone: +91-8075541805
+- Phone: +91-8281571805
 - Website: https://www.anaghkr.in
 
 ---

@@ -27,7 +27,7 @@ const schemaData = {
     "name": "ANAGH K R - Web & App Development in Kasaragod",
     "description": "Professional website development, ecommerce development, and mobile app development services in Kasaragod, Kerala.",
     "url": "https://www.anaghkr.in/locations/kasaragod/",
-    "telephone": "+91-8075541805",
+    "telephone": "+91-8281571805",
     "email": "anaghkrkkl@gmail.com",
     "address": {
         "@type": "PostalAddress",

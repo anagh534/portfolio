@@ -99,7 +99,7 @@ export default function About() {
                         "addressCountry": "IN"
                     },
                     "email": "anaghkrkkl@gmail.com",
-                    "telephone": "+91-8075541805",
+                    "telephone": "+91-8281571805",
                     "knowsAbout": [
                         "Web Development",
                         "Flutter App Development",

@@ -36,7 +36,7 @@ export const organizationStructuredData = {
   description:
     "Professional web development and mobile app development services in Kerala. Specialized in MERN stack, Flutter, WordPress, and custom software development.",
   email: "anaghkrkkl@gmail.com",
-  telephone: "+91-8075541805",
+  telephone: "+91-8281571805",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Kasaragod",
@@ -76,7 +76,7 @@ export const professionalServiceStructuredData = {
   name: "ANAGH K R - Web and Mobile App Development",
   url: "https://www.anaghkr.in/",
   image: "https://www.anaghkr.in/favicon.png",
-  telephone: "+91-8075541805",
+  telephone: "+91-8281571805",
   email: "anaghkrkkl@gmail.com",
   areaServed: [
     { "@type": "City", name: "Kochi" },
