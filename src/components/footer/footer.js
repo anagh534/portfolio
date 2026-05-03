@@ -328,7 +328,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Chat on WhatsApp"
-                    className="wa-icon fixed bottom-24 right-5 md:bottom-28 md:right-8 z-50"
+                    className="wa-icon fixed bottom-6 right-5 md:bottom-8 md:right-8 z-50"
                     style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'fixed' }}
                 >
                     {/* Dual pulse rings */}
@@ -346,7 +346,7 @@ const Footer = () => {
 
                 {/* ─── Back to Top ─── */}
                 <a id="back-to-top" href="#main-content" aria-label="Back to top"
-                    className="fixed bottom-6 right-5 md:bottom-8 md:right-8 p-3.5 rounded-2xl bg-blue-600 text-white shadow-2xl shadow-blue-500/20 z-40">
+                    className="fixed bottom-24 right-5 md:bottom-28 md:right-8 p-3.5 rounded-2xl bg-blue-600 text-white shadow-2xl shadow-blue-500/20 z-40">
                     <ArrowUp size={20} />
                 </a>
 
