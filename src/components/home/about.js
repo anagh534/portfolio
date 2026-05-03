@@ -7,16 +7,16 @@ import { motion } from 'framer-motion';
 import { ArrowRight, User, Terminal, Globe } from 'lucide-react';
 
 export default function About() {
-    const transition = { duration: 0.8, ease: [0.43, 0.13, 0.23, 0.96] };
+    const transition = { duration: 0.45, ease: [0.22, 1, 0.36, 1] };
 
     return (
         <section className="relative py-24 overflow-hidden" id="about">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <motion.div
                     className="text-center mb-16"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={{ opacity: 0, y: 16 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: true, amount: 0.2 }}
                     transition={transition}
                 >
                     <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-4 uppercase tracking-widest">
@@ -31,9 +31,9 @@ export default function About() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <motion.div
                         className="relative flex justify-center"
-                        initial={{ opacity: 0, scale: 0.9 }}
+                        initial={{ opacity: 0, scale: 0.95 }}
                         whileInView={{ opacity: 1, scale: 1 }}
-                        viewport={{ once: true }}
+                        viewport={{ once: true, amount: 0.15 }}
                         transition={transition}
                     >
                         <div className="relative group">
@@ -64,9 +64,9 @@ export default function About() {
 
                     <motion.div
                         className="space-y-8"
-                        initial={{ opacity: 0, x: 20 }}
+                        initial={{ opacity: 0, x: 16 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
+                        viewport={{ once: true, amount: 0.15 }}
                         transition={transition}
                     >
                         <h3 className="text-2xl md:text-3xl font-bold text-white leading-tight">

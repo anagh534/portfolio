@@ -103,7 +103,7 @@
 
   /* Page Transitions */
   .page-transition-wrapper {
-    animation: fadeIn 0.8s ease-out;
+    animation: fadeIn 0.4s ease-out;
   }
 
   /* Extra Utilities */
@@ -167,15 +167,64 @@
 
 /* Performance-optimized animations using only transform and opacity */
 .animate-fade-in {
-  animation: fadeIn 0.6s ease-out backwards;
+  animation: fadeIn 0.4s ease-out backwards;
 }
 
 .animate-fade-in-up {
-  animation: fadeInUp 0.5s ease-out backwards;
+  animation: fadeInUp 0.35s ease-out backwards;
 }
 
 .animate-slide-in {
-  animation: slideIn 0.3s ease-out;
+  animation: slideIn 0.25s ease-out;
+}
+
+/* Hero entrance animations — CSS-only for SEO + performance */
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Each hero element uses the same keyframe with increasing delays */
+.hero-badge {
+  animation: heroFadeUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 0ms;
+}
+.hero-title {
+  animation: heroFadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 70ms;
+}
+.hero-desc {
+  animation: heroFadeUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 140ms;
+}
+.hero-cta {
+  animation: heroFadeUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 210ms;
+}
+.hero-stats {
+  animation: heroFadeUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 280ms;
+}
+
+/* Respect system preference — disable animations for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .hero-badge,
+  .hero-title,
+  .hero-desc,
+  .hero-cta,
+  .hero-stats,
+  .animate-fade-in,
+  .animate-fade-in-up,
+  .animate-slide-in,
+  .page-transition-wrapper {
+    animation: none !important;
+  }
 }
 
 /* Content visibility for better rendering performance */
