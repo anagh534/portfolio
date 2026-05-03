@@ -1,8 +1,3 @@
-'use client';
-
-import React from 'react';
-import Link from '@/compat/link';
-import Image from '@/compat/image';
 import { motion } from 'framer-motion';
 import { ArrowRight, User, Terminal, Globe } from 'lucide-react';
 
@@ -38,7 +33,7 @@ export default function About() {
                     >
                         <div className="relative group">
                             <div className="relative overflow-hidden rounded-[30px] border border-white/10 group-hover:border-blue-500/30 transition-all duration-500">
-                                <Image
+                                <img
                                     src="/assets/about-500.webp"
                                     alt="Anagh K R"
                                     srcSet="/assets/about-320.webp 320w, /assets/about-500.webp 500w, /assets/about-640.webp 640w, /assets/about.webp 924w"
@@ -70,11 +65,11 @@ export default function About() {
                         transition={transition}
                     >
                         <h3 className="text-2xl md:text-3xl font-bold text-white leading-tight">
-                            Your trusted <span className="text-blue-400">Flutter & MERN Stack Developer Kerala</span> partner.
+                            Your trusted <span className="text-blue-400">Flutter &amp; MERN Stack Developer Kerala</span> partner.
                         </h3>
 
                         <p className="text-lg text-gray-400 leading-relaxed">
-                            I'm Anagh K R, a professional <strong className="text-white">Flutter & MERN Stack Developer</strong> with <strong className="text-white">3+ years experience</strong> as a <strong className="text-white">freelance web developer</strong> and <strong className="text-white">mobile app developer</strong> serving businesses throughout Kerala.
+                            I'm Anagh K R, a professional <strong className="text-white">Flutter &amp; MERN Stack Developer</strong> with <strong className="text-white">3+ years experience</strong> as a <strong className="text-white">freelance web developer</strong> and <strong className="text-white">mobile app developer</strong> serving businesses throughout Kerala.
                             I've successfully delivered 24+ projects ranging from
                             responsive websites and e-commerce platforms to custom Flutter mobile applications and complex MERN stack solutions.
                         </p>
@@ -103,13 +98,13 @@ export default function About() {
                             </div>
                         </div>
 
-                        <Link
+                        <a
                             href="/about/"
                             className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-bold hover:bg-white/10 transition-all active:scale-95 group"
                         >
                             <span>More about my journey</span>
                             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                        </Link>
+                        </a>
                     </motion.div>
                 </div>
             </div>

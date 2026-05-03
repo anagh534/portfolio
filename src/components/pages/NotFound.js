@@ -1,5 +1,3 @@
-import Link from '@/compat/link';
-
 export const metadata = {
     title: '404 — Page Not Found | ANAGH K R',
     description: 'The page you are looking for does not exist. Return to the homepage or explore services.',
@@ -33,24 +31,24 @@ export default function NotFound() {
                 </div>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-                    <Link
+                    <a
                         href="/"
                         className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-black font-black flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5 uppercase tracking-widest text-sm"
                     >
                         Go Home
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                         href="/services/"
                         className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95 uppercase tracking-widest text-sm"
                     >
                         View Services
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                         href="/contact/"
                         className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black flex items-center justify-center gap-3 hover:bg-white/10 transition-all active:scale-95 uppercase tracking-widest text-sm"
                     >
                         Contact Me
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>

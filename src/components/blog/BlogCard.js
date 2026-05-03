@@ -1,6 +1,3 @@
-'use client';
-import Image from "@/compat/image";
-import Link from '@/compat/link';
 import { Calendar, ArrowRight } from "lucide-react";
 
 export default function BlogCard({ post, index }) {
@@ -8,20 +5,21 @@ export default function BlogCard({ post, index }) {
     const isExternalSlug = normalizedSlug.startsWith('http');
     const postHref = normalizedSlug ? (isExternalSlug ? normalizedSlug : `/blog/${normalizedSlug}/`) : '#';
 
+    const imgSrc = post.image || 'https://images.unsplash.com/photo-1499750310159-5b5f87054240?q=80&w=2000&auto=format&fit=crop';
+
     return (
         <div
             className="glass-card overflow-hidden group h-full flex flex-col animate-fade-in"
             style={{ animationDelay: `${index * 100}ms` }}
         >
             <div className="relative h-48 w-full overflow-hidden">
-                <Image
-                    src={post.image || 'https://images.unsplash.com/photo-1499750310159-5b5f87054240?q=80&w=2000&auto=format&fit=crop'}
+                <img
+                    src={imgSrc}
                     alt={post.title}
-                    fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
                     loading={index < 3 ? "eager" : "lazy"}
-                    priority={index < 3}
+                    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300" />
             </div>
@@ -47,13 +45,14 @@ export default function BlogCard({ post, index }) {
                 </p>
 
                 <div className="mt-auto">
-                    <Link
+                    <a
                         href={postHref}
                         className="inline-flex items-center text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors"
                         target={isExternalSlug ? '_blank' : '_self'}
+                        rel={isExternalSlug ? 'noopener noreferrer' : undefined}
                     >
                         Read Article <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>

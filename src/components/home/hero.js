@@ -1,5 +1,3 @@
-import React from 'react';
-import Link from '@/compat/link';
 import { MessageSquare, Cpu, Layers } from 'lucide-react';
 
 // Hero renders as static Astro HTML (no client: directive) so all
@@ -31,7 +29,7 @@ export default function Hero() {
               Experienced <strong className="text-white">Flutter developer in Kerala</strong> and <strong className="text-white">freelance web developer</strong> specializing in <strong className="text-white">Flutter, MERN stack, and WordPress development</strong>.
               Building custom websites, e-commerce solutions, and high-performance mobile apps
               for businesses across Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
-              Transforming ideas into scalable digital products with clean code and exceptional user experiences. <Link href="/flutter-app-development/" className="text-blue-300 underline underline-offset-4 hover:text-blue-200">Explore Flutter app development services in Kerala</Link>.
+              Transforming ideas into scalable digital products with clean code and exceptional user experiences. <a href="/flutter-app-development/" className="text-blue-300 underline underline-offset-4 hover:text-blue-200">Explore Flutter app development services in Kerala</a>.
             </p>
 
             {/* CTAs — delay 210ms */}
@@ -40,10 +38,10 @@ export default function Hero() {
                 <span>LET'S TALK</span>
                 <MessageSquare size={20} className="group-hover:translate-x-1 transition-transform" />
               </a>
-              <Link href="#works" className="w-full sm:w-auto justify-center flex items-center gap-3 px-8 py-4 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 text-white font-black hover:bg-white/10 transition-all hover:-translate-y-1 active:scale-95 group">
+              <a href="#works" className="w-full sm:w-auto justify-center flex items-center gap-3 px-8 py-4 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 text-white font-black hover:bg-white/10 transition-all hover:-translate-y-1 active:scale-95 group">
                 <span>VIEW WORK</span>
                 <Layers size={20} className="group-hover:rotate-12 transition-transform" />
-              </Link>
+              </a>
             </div>
 
             {/* Stats — delay 280ms */}

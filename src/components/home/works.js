@@ -1,10 +1,5 @@
-'use client';
-
-import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Monitor, Briefcase } from 'lucide-react';
-import Image from '@/compat/image';
-import Link from '@/compat/link';
+import { ExternalLink, Monitor, Briefcase } from 'lucide-react';
 import projects from "./loadImage";
 
 export default function Works() {
@@ -58,15 +53,15 @@ export default function Works() {
                             variants={itemVariants}
                         >
                             <div className="relative aspect-[4/3] overflow-hidden">
-                                <Image
+                                <img
                                     src={project.img}
                                     alt={project.title}
                                     srcSet={project.srcSet}
-                                    fill={true}
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                     loading="lazy"
                                     decoding="async"
                                     className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"
+                                    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                                     <a
@@ -120,13 +115,13 @@ export default function Works() {
                     viewport={{ once: true }}
                 >
                     <p className="text-gray-400 mb-6 font-medium">Want to see more?</p>
-                    <Link
+                    <a
                         href="/contact/"
                         className="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-white text-black font-black hover:bg-blue-600 hover:text-white transition-all duration-300 active:scale-95 shadow-xl shadow-white/5"
                     >
                         <span>DISCUSS YOUR PROJECT</span>
                         <Monitor size={20} />
-                    </Link>
+                    </a>
                 </motion.div>
             </div>
         </section>

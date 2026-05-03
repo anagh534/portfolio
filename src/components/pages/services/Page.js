@@ -1,6 +1,5 @@
 import ServiceComponent from "./ServiceComponent";
 import { Rocket, Target, Users, Zap, ArrowRight, User as UserIcon, Send, Check, Monitor, Code, Smartphone, Globe } from 'lucide-react';
-import Script from '@/compat/script';
 
 const detailPages = [
     { title: "Web Development", href: "/web-development/", desc: "Custom websites & web apps" },
@@ -50,7 +49,7 @@ export default function Services() {
     return (
         <div className="min-h-screen bg-black pt-32 pb-24 relative overflow-hidden">
             {/* Structured Data - Service Schema */}
-            <Script id="services-schema" type="application/ld+json" dangerouslySetInnerHTML={{
+            <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Service",
@@ -106,7 +105,7 @@ export default function Services() {
             }} />
 
             {/* Structured Data - FAQ Schema */}
-            <Script id="services-faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{
+            <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "FAQPage",

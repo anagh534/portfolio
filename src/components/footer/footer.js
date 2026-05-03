@@ -1,5 +1,3 @@
-import React from 'react';
-import Link from '@/compat/link';
 import {
     Github,
     Linkedin,
@@ -21,11 +19,11 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-16">
                     {/* Logo & Brand */}
                     <div className="space-y-6">
-                        <Link href="/" className="inline-block">
+                        <a href="/" className="inline-block">
                             <span className="text-2xl font-black tracking-tighter text-white">
                                 ANAGH<span className="text-blue-500">.KR</span>
                             </span>
-                        </Link>
+                        </a>
                         <p className="text-sm text-gray-400 leading-relaxed max-w-xs">
                             Crafting high-performance digital experiences with a focus on innovation,
                             quality, and user-centric design.
@@ -55,10 +53,10 @@ const Footer = () => {
                                 { label: 'Contact', href: '/contact/' },
                             ].map((link) => (
                                 <li key={link.href}>
-                                    <Link href={link.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-2 group">
+                                    <a href={link.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-2 group">
                                         <span className="w-1.5 h-1.5 rounded-full bg-blue-500/50 group-hover:bg-blue-500 transition-all"></span>
                                         {link.label}
-                                    </Link>
+                                    </a>
                                 </li>
                             ))}
                         </ul>
@@ -78,15 +76,15 @@ const Footer = () => {
                                 { label: 'Shopify Store', href: '/shopify-store-development/' },
                             ].map((item) => (
                                 <li key={item.href}>
-                                    <Link href={item.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+                                    <a href={item.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
                                         {item.label}
-                                    </Link>
+                                    </a>
                                 </li>
                             ))}
                             <li className="pt-2">
-                                <Link href="/services/" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
+                                <a href="/services/" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
                                     View All Services
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -103,15 +101,15 @@ const Footer = () => {
                                 { label: 'Ernakulam', href: '/locations/ernakulam/' },
                             ].map((item) => (
                                 <li key={item.href}>
-                                    <Link href={item.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+                                    <a href={item.href} className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
                                         {item.label}
-                                    </Link>
+                                    </a>
                                 </li>
                             ))}
                             <li className="pt-2">
-                                <Link href="/locations/" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
+                                <a href="/locations/" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
                                     View All Locations
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -139,27 +137,27 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Business Hours */}
+                    {/* CTA */}
                     <div>
                         <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Newsletter</h4>
                         <p className="text-xs text-gray-400 mb-6 uppercase tracking-wider leading-relaxed">
                             Available for new projects and collaborations worldwide.
                         </p>
                         <div className="flex flex-col gap-3">
-                            <Link href="/contact/" className="w-full py-4 rounded-2xl bg-white text-black font-black text-sm flex items-center justify-center gap-2 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
+                            <a href="/contact/" className="w-full py-4 rounded-2xl bg-white text-black font-black text-sm flex items-center justify-center gap-2 hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-white/5">
                                 <span>GET IN TOUCH</span>
                                 <ExternalLink size={16} />
-                            </Link>
-                            <Link href="/locations/" className="w-full py-3 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-xs flex items-center justify-center hover:bg-white/10 transition-all active:scale-95">
+                            </a>
+                            <a href="/locations/" className="w-full py-3 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-xs flex items-center justify-center hover:bg-white/10 transition-all active:scale-95">
                                 <span>FIND LOCATIONS</span>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
                     <p className="text-xs text-gray-400 font-medium">
-                        © {new Date().getFullYear()} ANAGH K R. ALL RIGHTS RESERVED.
+                        © {currentYear} ANAGH K R. ALL RIGHTS RESERVED.
                     </p>
                     <p className="text-xs text-gray-400 flex items-center gap-2">
                         MADE WITH <Heart size={12} className="text-red-500 fill-current" /> BY ANAGH

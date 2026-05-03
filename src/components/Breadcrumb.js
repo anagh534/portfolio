@@ -1,6 +1,4 @@
-'use client';
 import { ChevronRight, Home } from 'lucide-react';
-import Link from '@/compat/link';
 
 export default function Breadcrumb({ items }) {
     const breadcrumbSchema = {
@@ -28,13 +26,13 @@ export default function Breadcrumb({ items }) {
                                 <ChevronRight size={14} className="text-gray-600" />
                             )}
                             {item.url ? (
-                                <Link
+                                <a
                                     href={item.url}
                                     className="text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-1.5"
                                 >
                                     {index === 0 && <Home size={14} />}
                                     {item.label}
-                                </Link>
+                                </a>
                             ) : (
                                 <span className="text-white font-semibold flex items-center gap-1.5">
                                     {index === 0 && <Home size={14} />}

@@ -1,6 +1,3 @@
-'use client';
-
-import React from 'react';
 import { motion } from 'framer-motion';
 import {
     Code2,
@@ -11,6 +8,7 @@ import {
     Monitor,
     CheckCircle2
 } from 'lucide-react';
+
 const skillCategories = [
     {
         title: 'Frontend Development',

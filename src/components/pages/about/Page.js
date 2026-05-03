@@ -20,13 +20,12 @@ export const metadata = {
 };
 
 import { Code, Download, User as UserIcon, Check, Laptop, Server, Smartphone, Cloud, Palette, Monitor, Rocket, Send, ArrowRight } from 'lucide-react';
-import Script from '@/compat/script';
 
 export default function About() {
     return (
         <div className="min-h-screen bg-black overflow-hidden relative">
             {/* Structured Data - FAQ Schema */}
-            <Script id="about-faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{
+            <script id="about-faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "FAQPage",
@@ -84,7 +83,7 @@ export default function About() {
             }} />
 
             {/* Structured Data - Person Schema */}
-            <Script id="about-person-schema" type="application/ld+json" dangerouslySetInnerHTML={{
+            <script id="about-person-schema" type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Person",

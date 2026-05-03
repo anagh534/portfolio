@@ -13,17 +13,16 @@ import {
 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import { usePathname } from '@/compat/navigation';
-import Link from '@/compat/link';
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [mounted, setMounted] = useState(false);
-    const pathname = usePathname();
+    const [pathname, setPathname] = useState('');
 
     useEffect(() => {
         setMounted(true);
+        setPathname(window.location.pathname);
         const handleScroll = () => {
             setIsScrolled(window.scrollY > 50);
         };
@@ -77,14 +76,14 @@ export default function Navbar() {
                         className="animate-fade-in-up"
                         style={{ animationDelay: `${index * 100}ms` }}
                     >
-                        <Link
+                        <a
                             href={item.href}
                             className={`flex items-center gap-4 text-2xl font-bold p-4 rounded-2xl transition-all ${pathname === item.href ? 'bg-blue-600/10 text-blue-500' : 'text-gray-300 hover:bg-white/5'}`}
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
                             <span className="p-3 rounded-xl bg-white/5">{item.icon}</span>
                             <span>{item.label}</span>
-                        </Link>
+                        </a>
                     </div>
                 ))}
             </div>
@@ -104,13 +103,13 @@ export default function Navbar() {
                 ))}
             </div>
 
-            <Link
+            <a
                 href="/contact/"
                 className="w-full text-center py-5 rounded-2xl bg-blue-600 text-white font-bold text-lg shadow-xl shadow-blue-500/20 active:scale-95 transition-all"
                 onClick={() => setIsMobileMenuOpen(false)}
             >
                 Start a Conversation
-            </Link>
+            </a>
         </div>,
         document.body
     );
@@ -119,17 +118,17 @@ export default function Navbar() {
         <>
             <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-black/80 backdrop-blur-md py-4' : 'bg-transparent py-6'}`}>
                 <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-                    <Link href="/" className="flex items-center gap-2 group">
+                    <a href="/" className="flex items-center gap-2 group">
                         <span className="text-2xl font-bold tracking-tighter text-white">
                             ANAGH<span className="text-blue-500 group-hover:text-blue-400 transition-colors">.KR</span>
                         </span>
-                    </Link>
+                    </a>
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center gap-8">
                         <div className="flex items-center gap-6">
                             {navItems.map((item) => (
-                                <Link
+                                <a
                                     key={item.href}
                                     href={item.href}
                                     className={`text-sm font-medium transition-colors hover:text-blue-400 relative py-1 ${pathname === item.href ? 'text-blue-500' : 'text-gray-300'}`}
@@ -138,7 +137,7 @@ export default function Navbar() {
                                     {pathname === item.href && (
                                         <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500"></span>
                                     )}
-                                </Link>
+                                </a>
                             ))}
                         </div>
 
@@ -159,10 +158,10 @@ export default function Navbar() {
                             ))}
                         </div>
 
-                        <Link href="/contact/" className="flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-5 py-2 rounded-xl text-sm font-bold transition-all hover:-translate-y-0.5 shadow-lg shadow-blue-500/20 active:scale-95">
+                        <a href="/contact/" className="flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-5 py-2 rounded-xl text-sm font-bold transition-all hover:-translate-y-0.5 shadow-lg shadow-blue-500/20 active:scale-95">
                             <Send size={16} />
                             <span>Connect</span>
-                        </Link>
+                        </a>
                     </div>
 
                     {/* Mobile Toggle */}
