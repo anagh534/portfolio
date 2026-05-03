@@ -63,11 +63,6 @@ Primary service locations in Kerala include:
 - Instagram Store Development: /instagram-store-development/
 - Dropshipping Website Development: /dropshipping-website-development/
 
-## Local Landing Page Pattern
-City-service pages follow this structure:
-- English: /kerala/{city}/{service}/
-- Malayalam: /ml/kerala/{city}/{service}/
-
 ## Contact
 - Email: anaghkrkkl@gmail.com
 - LinkedIn: https://in.linkedin.com/in/anagh-k-r
@@ -80,4 +75,4 @@ City-service pages follow this structure:
 - Use canonical trailing-slash URLs when linking site pages.
 
 ## Last Updated
-2026-03-28
+2026-05-03

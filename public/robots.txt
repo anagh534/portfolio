@@ -1,9 +1,35 @@
-# Robots.txt for anaghkr.in - ANAGH K R Portfolio Website
+# robots.txt for anaghkr.in — Anagh K R Portfolio
+# GitHub Pages + Cloudflare CDN
 
 User-agent: *
+Allow: /
 Disallow: /admin/
 Disallow: /api/
-Disallow: /.git/
-Disallow: /_next/
+# Disallow stale URLs that return 404 in Google Search Console
+Disallow: /resume
+Disallow: /resume/
+Disallow: /ANAGH-K-R-MERN-STACK-DEVELOPER.pdf
+
+# AI bots — allow for GEO (Generative Engine Optimization) citation visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
 
 Sitemap: https://www.anaghkr.in/sitemap-index.xml

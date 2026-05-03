@@ -3,8 +3,8 @@ import { Smartphone, Gauge, Palette, Flame, Upload, Server } from 'lucide-react'
 
 export const metadata = {
     title: "Flutter Developer Kerala | iOS & Android App Expert | ANAGH K R",
-    description: "Expert Flutter developer in Kerala. Cross-platform mobile apps for iOS & Android, startup MVPs, and business solutions.",
-    keywords: "Flutter developer Kerala, mobile app development Kerala, Flutter app developer Kerala, iOS developer Kerala, Android developer Kerala, cross platform app development Kerala, Flutter developer Kochi, Flutter developer Kozhikode, Flutter developer Kasaragod, Flutter developer Kannur, Flutter app development Thrissur, Flutter developer Thiruvananthapuram, hire Flutter developer Kerala, Flutter app development company Kerala, Flutter startup app Kerala",
+    description: "Hire an expert Flutter developer in Kerala for iOS & Android apps, startup MVPs, and business solutions. Serving Kochi, Calicut & Kannur. Free consultation.",
+    keywords: "Flutter developer Kerala, Flutter app developer Kerala, hire Flutter developer Kerala, Flutter app development company Kerala, flutter application development company kerala, flutter app developers in kochi, Flutter developer Kochi, Flutter developer Kozhikode, Flutter developer Kasaragod, Flutter developer Kannur, Flutter app development Thrissur, Flutter developer Thiruvananthapuram, mobile app development Kerala, cross platform app development Kerala, Flutter startup app Kerala",
     alternates: { canonical: "https://www.anaghkr.in/flutter-app-development/" },
     openGraph: {
         title: "Flutter Developer Kerala | iOS Android App Development | ANAGH K R",

@@ -1,0 +1,23 @@
+---
+// Redirect stale /resume URL that shows as 404 in Google Search Console.
+// This page is noindex so it won't appear in search results.
+// Visitors are sent to /contact/ where they can reach out directly.
+const canonicalRedirect = "https://www.anaghkr.in/contact/";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Resume — ANAGH K R</title>
+    <meta http-equiv="refresh" content={`0; url=${canonicalRedirect}`} />
+    <link rel="canonical" href={canonicalRedirect} />
+  </head>
+  <body>
+    <p>
+      Redirecting to <a href={canonicalRedirect}>Contact page</a>…
+    </p>
+  </body>
+</html>

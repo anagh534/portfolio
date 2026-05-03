@@ -7,9 +7,9 @@ import WhatWeOffer from '@/components/home/whatweoffer';
 import WhyChooseMe from '@/components/home/WhyChooseMe';
 
 export const metadata = {
-  title: "Flutter & Web Developer Kerala | Custom Apps & Sites | ANAGH K R",
+  title: "Flutter Developer Kerala | Web & App Development | ANAGH K R",
   description: "Best Flutter & web developer in Kerala. Expert custom mobile apps, MERN stack websites, and WordPress development in Kochi, Calicut & Trivandrum.",
-  keywords: "Flutter developer Kerala, hire Flutter developer Kerala, Flutter app developer Kerala, mobile app developer Kerala, freelance web developer Kerala, web designer Kerala, freelance web designer Kerala, website development Kerala, WordPress developer Kerala, e-commerce development Kerala, Shopify developer Kerala, MERN stack developer Kerala, React developer Kerala, Node.js developer Kerala, Next.js developer Kerala, Flutter developer Kochi, Flutter developer Calicut, Flutter developer Trivandrum, Flutter developer Kannur, Flutter developer Kasaragod, web developer near me, freelance web developer near me, website designer near me, app developer near me, wordpress developer near me",
+  keywords: "Flutter developer Kerala, hire Flutter developer Kerala, Flutter app developer Kerala, mobile app developer Kerala, freelance web developer Kerala, freelance web developer in kerala, website development Kerala, WordPress developer Kerala, wordpress developer in kerala, ecommerce development company in kerala, woocommerce developer in kerala, Shopify developer Kerala, shopify development company kerala, MERN stack developer Kerala, React developer Kerala, Node.js developer Kerala, Next.js developer Kerala, flutter app developers in kochi, Flutter developer Calicut, Flutter developer Trivandrum, Flutter developer Kannur, Flutter developer Kasaragod, custom web development in kerala, app development company in kerala",
   robots: { index: true, follow: true },
   alternates: {
     canonical: "https://www.anaghkr.in/",
