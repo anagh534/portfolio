@@ -106,12 +106,12 @@ const services = [
     },
     {
         id: 11,
-        title: "Niche Ecommerce Websites",
+        title: " Ecommerce Websites",
         icon: <Globe size={24} />,
         shortDesc: "Specialized ecommerce websites for clothing, shoe stores, and electronics with product-focused UX and faster mobile shopping.",
         technologies: ["Clothing", "Shoes", "Electronics"],
         href: "/electronics-ecommerce-website-development/",
-        cta: "View ecommerce niches",
+        cta: "View ecommerce s",
     },
     {
         id: 12,

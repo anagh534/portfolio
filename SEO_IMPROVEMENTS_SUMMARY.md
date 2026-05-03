@@ -177,7 +177,7 @@ Previously had inconsistent numbers (8281992989, XXXXXXXXXX, hello@anaghkr.in)
 6. **Inconsistent NAP** - Hurt local SEO signals
 
 ### **Flutter Was Ranking Because:**
-1. Less competitive niche in Kerala
+1. Less competitive  in Kerala
 2. Already had strong keywords
 3. Unique value proposition (cross-platform)
 4. Strong on-page content

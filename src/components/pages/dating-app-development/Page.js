@@ -73,7 +73,7 @@ export default function Page() {
                 { icon: <MessageSquare size={22} />, title: "WhatsApp + Contact Funnel", desc: "Primary WhatsApp CTA with secondary contact pathway for high-intent buyers from Kerala cities." },
                 { icon: <ShieldCheck size={22} />, title: "Technical SEO Foundation", desc: "Clean metadata, semantic sections, and schema setup for stronger visibility in search and AI summaries." },
                 { icon: <Zap size={22} />, title: "Timeline and Budget Clarity", desc: "8 to 14 weeks depending on moderation and premium features. MVP starts around INR 60000 with core matching and chat." },
-                { icon: <MapPin size={22} />, title: "Industry Fit", desc: "Startup founders, niche community apps, and subscription-led social products." },
+                { icon: <MapPin size={22} />, title: "Industry Fit", desc: "Startup founders,  community apps, and subscription-led social products." },
                 { icon: <Layers size={22} />, title: "Demo Example", desc: "Demo concept: interest-based matching app with profile verification, safe-report flow, and paid boost features." },
             ]}
             technologies={[

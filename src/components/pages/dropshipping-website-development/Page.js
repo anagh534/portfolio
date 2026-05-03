@@ -29,7 +29,7 @@ const schemaData = {
             "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
             "areaServed": ["Kerala", "Kochi", "Kozhikode", "Thiruvananthapuram", "Kannur", "Kasaragod", "Thrissur"],
             "description": "Launch-ready dropshipping website development in Kerala with supplier-friendly catalog structure, automation-ready order flow, and conversion-focused pages for trend products.",
-            "offers": { "@type": "Offer", "priceCurrency": "INR", "description": "Starting from INR 18000 for a niche-ready dropshipping store" },
+            "offers": { "@type": "Offer", "priceCurrency": "INR", "description": "Starting from INR 18000 for a -ready dropshipping store" },
             "mainEntityOfPage": "https://www.anaghkr.in/dropshipping-website-development/"
         },
         {
@@ -38,7 +38,7 @@ const schemaData = {
                 {
                     "@type": "Question",
                     "name": "How much does dropshipping website development cost in Kerala?",
-                    "acceptedAnswer": { "@type": "Answer", "text": "Starting from INR 18000 for a niche-ready dropshipping store" }
+                    "acceptedAnswer": { "@type": "Answer", "text": "Starting from INR 18000 for a -ready dropshipping store" }
                 },
                 {
                     "@type": "Question",
@@ -72,7 +72,7 @@ export default function Page() {
                 { icon: <Store size={22} />, title: "Conversion-First Build", desc: "Landing flows, product structure, and checkout UX designed to turn visitors into paying customers." },
                 { icon: <MessageSquare size={22} />, title: "WhatsApp + Contact Funnel", desc: "Primary WhatsApp CTA with secondary contact pathway for high-intent buyers from Kerala cities." },
                 { icon: <ShieldCheck size={22} />, title: "Technical SEO Foundation", desc: "Clean metadata, semantic sections, and schema setup for stronger visibility in search and AI summaries." },
-                { icon: <Zap size={22} />, title: "Timeline and Budget Clarity", desc: "2 to 5 weeks depending on catalog and automation tools. Starting from INR 18000 for a niche-ready dropshipping store." },
+                { icon: <Zap size={22} />, title: "Timeline and Budget Clarity", desc: "2 to 5 weeks depending on catalog and automation tools. Starting from INR 18000 for a -ready dropshipping store." },
                 { icon: <MapPin size={22} />, title: "Industry Fit", desc: "Trend product sellers, gadget resellers, fashion startups, and first-time founders in Kerala." },
                 { icon: <Layers size={22} />, title: "Demo Example", desc: "Demo concept: one-product trend store with upsell funnel, COD form, and supplier-ready order export workflow." },
             ]}
@@ -89,7 +89,7 @@ export default function Page() {
                 { title: "Launch and Improve", desc: "Go live with indexing setup, monitor leads, and iterate based on user behavior." },
             ]}
             faqs={[
-                { question: "What is the starting budget for this service?", answer: "Starting from INR 18000 for a niche-ready dropshipping store" },
+                { question: "What is the starting budget for this service?", answer: "Starting from INR 18000 for a -ready dropshipping store" },
                 { question: "How long does a full build take?", answer: "2 to 5 weeks depending on catalog and automation tools" },
                 { question: "Can this include both website and app strategy?", answer: "Yes. We can phase delivery into website first and app later, or parallel execution based on timeline and budget." },
                 { question: "Do you provide post-launch support?", answer: "Yes. Post-launch support includes bug fixes, updates, and conversion-focused improvements." },
