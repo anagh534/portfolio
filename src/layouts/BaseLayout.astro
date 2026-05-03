@@ -135,6 +135,15 @@ const appleTouchIcon = icons.apple || fallbackPngIcon;
     <script type="application/ld+json" set:html={JSON.stringify(organizationStructuredData)}></script>
     <script type="application/ld+json" set:html={JSON.stringify(websiteStructuredData)}></script>
     <script type="application/ld+json" set:html={JSON.stringify(professionalServiceStructuredData)}></script>
+
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZWQWPM0LQ"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1ZWQWPM0LQ');
+    </script>
   </head>
   <body>
     <div class="fixed inset-0 -z-1 bg-[#050505]">
