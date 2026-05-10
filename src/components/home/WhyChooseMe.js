@@ -63,7 +63,7 @@ export default function WhyChooseMe() {
                         </div>
 
                         <p className="text-lg text-gray-400 leading-relaxed">
-                            As an experienced freelance developer in Kerala, I combine technical expertise
+                            As an experienced freelance website developer in Kerala, I combine technical expertise
                             with business understanding to deliver solutions that not only look great but drive
                             real results. Transparent communication, reliable timelines, and dedicated support
                             throughout your project lifecycle.

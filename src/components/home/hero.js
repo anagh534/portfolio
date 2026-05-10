@@ -20,16 +20,16 @@ export default function Hero() {
             {/* H1 — delay 70ms. Static content always in DOM for SEO. */}
             <h1 className="hero-title text-[2.35rem] sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white leading-[0.95] mb-7">
               FREELANCE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">FLUTTER DEVELOPER</span><br className="hidden sm:block" />
-              &amp; WEB DEVELOPER <br className="hidden sm:block" />
+              &amp; WEBSITE DEVELOPER <br className="hidden sm:block" />
               IN KERALA
             </h1>
 
             {/* Description — delay 140ms */}
             <p className="hero-desc text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed mb-10 max-w-3xl mx-auto lg:mx-0">
-              Experienced <strong className="text-white">Flutter developer in Kerala</strong> and <strong className="text-white">freelance web developer</strong> specializing in <strong className="text-white">Flutter, MERN stack, and WordPress development</strong>.
-              Building custom websites, e-commerce solutions, and high-performance mobile apps
+              Experienced <strong className="text-white">freelance website developer</strong> and <strong className="text-white">Flutter developer in Kerala</strong> specializing in <strong className="text-white">custom websites, e-commerce, WordPress, and high-performance mobile apps</strong>.
+              Building secure digital solutions
               for businesses across Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
-              Transforming ideas into scalable digital products with clean code and exceptional user experiences. <a href="/flutter-app-development/" className="text-blue-300 underline underline-offset-4 hover:text-blue-200">Explore Flutter app development services in Kerala</a>.
+              Transforming startup MVPs and trading catalogs into conversion-ready products with clean code. <a href="/web-development/" className="text-blue-300 underline underline-offset-4 hover:text-blue-200">Explore website development services in Kerala</a>.
             </p>
 
             {/* CTAs — delay 210ms */}
