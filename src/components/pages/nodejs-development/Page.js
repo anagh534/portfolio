@@ -46,20 +46,20 @@ export default function NodejsDevelopmentPage() {
             badge="Node.js Development"
             title="Scalable Node.js"
             titleHighlight="Backend Solutions"
-            description="High-performance, event-driven backend systems and APIs built with Node.js and Express.js. From simple REST APIs to complex microservices architectures — reliable, secure, and built to scale."
+            description="High-performance, event-driven backend systems, enterprise-grade REST/GraphQL APIs, and robust server-side architecture built with Node.js. Engineered for non-blocking asynchronous processes, Redis caching, microservices, and secure API integration for Kerala and global businesses."
             heroStats={[
-                { number: "Fast", label: "Non-Blocking I/O" },
-                { number: "REST", label: "API Architecture" },
-                { number: "24/7", label: "Uptime Reliability" },
-                { number: "3+", label: "Years Experience" },
+                { number: "Event", label: "Loop Async" },
+                { number: "Redis", label: "Cache Tuning" },
+                { number: "JWT/SSL", label: "Secured APIs" },
+                { number: "3+", label: "Years Backend Exp" },
             ]}
             whatYouGet={[
-                { icon: <Plug size={22} />, title: "RESTful APIs", desc: "Well-documented, versioned REST APIs following industry standards, ready for web, mobile, and third-party integrations." },
-                { icon: <Gauge size={22} />, title: "High Performance", desc: "Asynchronous, non-blocking architecture that handles thousands of concurrent connections without performance degradation." },
-                { icon: <KeyRound size={22} />, title: "Secure Authentication", desc: "JWT, OAuth2, and session-based authentication systems with role-based access control and token refresh flows." },
-                { icon: <Radio size={22} />, title: "Real-time Capabilities", desc: "WebSocket and Socket.IO integration for real-time messaging, live notifications, and collaborative features." },
-                { icon: <Layers size={22} />, title: "Microservices", desc: "Loosely coupled, independently deployable service architectures that scale horizontally for enterprise needs." },
-                { icon: <Database size={22} />, title: "Database Integration", desc: "Seamless integration with MongoDB, PostgreSQL, MySQL, Redis, and Firebase with proper ORM setup and query optimization." },
+                { icon: <Plug size={22} />, title: "REST & GraphQL APIs", desc: "Designing comprehensive, modular APIs with complete OpenAPI / Swagger documentation, strict versioning, and secure CORS / rate-limiting policies." },
+                { icon: <Gauge size={22} />, title: "Asynchronous Scaling", desc: "Building asynchronous, non-blocking I/O backends using the Node.js cluster module and PM2 process management to comfortably handle high concurrent traffic spikes." },
+                { icon: <KeyRound size={22} />, title: "Hardened Security", desc: "Implementing encrypted JWT, secure HTTP-only cookies, OAuth2, role-based access control (RBAC), bcrypt hashing, and Helmet middleware to mitigate OWASP risks." },
+                { icon: <Radio size={22} />, title: "Real-time SSE & Sockets", desc: "Integrating ultra-fast WebSockets (Socket.IO) and Server-Sent Events (SSE) for high-frequency messaging, collaborative tools, and live location streams." },
+                { icon: <Layers size={22} />, title: "BullMQ & Workers", desc: "Offloading heavy computational tasks, image processing, and PDF generation to robust background workers using BullMQ, Redis, or Node worker threads." },
+                { icon: <Database size={22} />, title: "Database Tuning", desc: "Seamless database schema design and querying (PostgreSQL, MongoDB, MySQL) using ORMs like Prisma and Mongoose with Redis caching for sub-millisecond lookups." },
             ]}
             technologies={[
                 { category: "Runtime & Framework", items: ["Node.js", "Express.js", "Fastify", "NestJS", "Koa"] },
@@ -68,10 +68,10 @@ export default function NodejsDevelopmentPage() {
                 { category: "Auth & Security", items: ["JWT", "OAuth2", "bcrypt", "Helmet.js", "Rate Limiting", "CORS"] },
             ]}
             process={[
-                { title: "API Design", desc: "Endpoints, data models, and authentication flows documented in OpenAPI / Swagger before development begins." },
-                { title: "Development", desc: "Clean, modular Node.js code with proper error handling, logging, and middleware architecture." },
-                { title: "Testing", desc: "Unit tests, integration tests, and API testing with Jest and Postman for production-grade reliability." },
-                { title: "Deployment", desc: "Containerized with Docker, deployed to AWS/VPS, with environment configuration and monitoring setup." },
+                { title: "Architecture & DB Design", desc: "Drafting robust database entity schemas, designing API endpoints, and defining role-based middleware guards in Swagger before coding." },
+                { title: "Secure Implementation", desc: "Writing modular, clean JavaScript / TypeScript code with structured logging (Winston/Pino) and comprehensive validation schemas (Zod/Joi)." },
+                { title: "Stress & API Testing", desc: "Conducting stress and load testing with Autocannon or k6, along with strict integration testing via Jest and Supertest to ensure high uptime." },
+                { title: "Deployment & Monitoring", desc: "Deploying to Docker containers or Ubuntu VPS with PM2 monitoring, automatic SSL renew, and reverse-proxy setups using Nginx." },
             ]}
             faqs={[
                 { question: "Why use Node.js for backend development?", answer: "Node.js is ideal for real-time applications, data-intensive APIs, and microservices due to its non-blocking I/O model. It's used by companies like Netflix, LinkedIn, and Uber for its performance and scalability." },

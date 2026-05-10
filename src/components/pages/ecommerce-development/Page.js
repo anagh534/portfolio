@@ -81,12 +81,12 @@ export default function EcommerceDevelopmentPage() {
                 { question: "Do you provide e-commerce development in Kochi and Kozhikode?", answer: "Yes, e-commerce services are available across all Kerala cities — Kochi, Kozhikode, Kasaragod, Kannur, Thrissur, Thiruvananthapuram, and Kollam — with remote service for all other locations." },
             ]}
             relatedServices={[
-                { title: "WordPress Development", desc: "WooCommerce-based online stores", href: "/wordpress-development/" },
-                { title: "Next.js Development", desc: "High-performance headless stores", href: "/nextjs-development/" },
-                { title: "Mobile App Development", desc: "Shopping apps for iOS and Android", href: "/mobile-app-development/" },
-                { title: "Web Development", desc: "Custom web application development", href: "/web-development/" },
-                { title: "MERN Stack Development", desc: "Custom e-commerce backends", href: "/mern-stack-development/" },
-                { title: "React Development", desc: "React-powered store frontends", href: "/react-development/" },
+                { title: "Shopify Store Development", desc: "Build & optimize Shopify stores", href: "/shopify-store-development/" },
+                { title: "Clothing Ecommerce Website", desc: "Fashion-focused online stores", href: "/clothing-ecommerce-website-development/" },
+                { title: "Shoe Store Website", desc: "Footwear ecommerce platforms", href: "/shoe-store-website-development/" },
+                { title: "Electronics Ecommerce Website", desc: "Gadget and electronics stores", href: "/electronics-ecommerce-website-development/" },
+                { title: "Instagram Store Development", desc: "Social commerce & catalog sync", href: "/instagram-store-development/" },
+                { title: "Dropshipping Website Development", desc: "Automated dropship store builds", href: "/dropshipping-website-development/" },
             ]}
             schemaData={schemaData}
         />

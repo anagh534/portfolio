@@ -130,21 +130,21 @@ export default function KollamServices() {
     const portfolio = [
         {
             icon: "fas fa-store",
-            title: "Business Website Concept",
-            description: "Demo concept for a service-focused business website with lead capture forms, WhatsApp CTA, and local SEO landing sections for Kollam.",
-            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
+            title: "Logistics & Export Web Concept",
+            description: "High-performance React website with custom catalogs, inquiry forms, and localization schema built for cashew and export units in Kollam.",
+            tech: ["React.js", "Inquiry Forms", "Local SEO", "WhatsApp CTA"]
         },
         {
             icon: "fas fa-shopping-bag",
-            title: "E-commerce Concept",
-            description: "Demo concept for an online store with product collections, payment integration flow, and conversion-friendly mobile checkout.",
-            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
+            title: "Cashew & Agro Export Store",
+            description: "A conversion-friendly online wholesale platform demo supporting bulk orders, shipping estimates, and secure payment integrations.",
+            tech: ["E-commerce", "Bulk Orders", "UPI Payments", "SEO"]
         },
         {
             icon: "fas fa-mobile-alt",
-            title: "Mobile App Concept",
-            description: "Demo concept for a Flutter mobile app with user onboarding, profile flow, push notifications, and API-based dashboard integration.",
-            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
+            title: "Chinnakada Retail Delivery App",
+            description: "A custom Flutter mobile app demo featuring local merchant onboarding, GPS maps, and push notifications for retail hubs in Kollam.",
+            tech: ["Flutter", "Node.js API", "Maps & GPS", "Notifications"]
         }
     ];
 
@@ -160,7 +160,7 @@ export default function KollamServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and mobile app development services in Kollam, Kollam, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for manufacturing businesses, retail brands, service companies, and local commerce teams."
+                description="Professional web development, ecommerce platforms, and Flutter mobile apps in Kollam (Quilon), Kerala. Serving export houses, wholesale traders, and retail groups around Chinnakada, Kollam Beach, and Ashtamudi with clean, optimized code."
             />
         </>
     );

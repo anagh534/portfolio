@@ -130,20 +130,20 @@ export default function CalicutServices() {
     const portfolio = [
         {
             icon: "fas fa-store",
-            title: "Business Website Concept",
-            description: "Demo concept for a service-focused business website with lead capture forms, WhatsApp CTA, and local SEO landing sections for Calicut.",
+            title: "Malabar Trading Web Concept",
+            description: "High-performance Next.js business website with lead capture, WhatsApp CTA, and optimized local schema for trading hubs in Calicut.",
             tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
         },
         {
             icon: "fas fa-shopping-bag",
-            title: "E-commerce Concept",
-            description: "Demo concept for an online store with product collections, payment integration flow, and conversion-friendly mobile checkout.",
+            title: "SM Street Fashion E-commerce",
+            description: "A conversion-focused online retail store demo featuring custom cart dynamics, UPI payments, and mobile-first listing pages suitable for SM Street shops.",
             tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
         },
         {
             icon: "fas fa-mobile-alt",
-            title: "Mobile App Concept",
-            description: "Demo concept for a Flutter mobile app with user onboarding, profile flow, push notifications, and API-based dashboard integration.",
+            title: "Calicut Food Delivery App Demo",
+            description: "A Flutter mobile app demo featuring multi-restaurant cataloging, real-time tracking, and push alerts optimized for Kozhikode's famous culinary scene.",
             tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
         }
     ];
@@ -160,7 +160,7 @@ export default function CalicutServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and mobile app development services in Calicut, Kozhikode, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for shops, wholesalers, local brands, service providers, and online-first sellers."
+                description="Professional web development and mobile app development in Calicut (Kozhikode), Kerala. Custom designed for SM Street wholesale shops, Malabar business families, cafes, and logistics centers. Looking for our main Kozhikode listing? Visit our dedicated [Kozhikode Web Development](/locations/kozhikode/) page for regional solutions."
             />
         </>
     );

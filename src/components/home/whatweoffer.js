@@ -111,7 +111,7 @@ const services = [
         shortDesc: "Specialized ecommerce websites for clothing, shoe stores, and electronics with product-focused UX and faster mobile shopping.",
         technologies: ["Clothing", "Shoes", "Electronics"],
         href: "/electronics-ecommerce-website-development/",
-        cta: "View ecommerce s",
+        cta: "View Specialized Stores",
     },
     {
         id: 12,

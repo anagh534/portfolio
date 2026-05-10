@@ -1,6 +1,6 @@
 # SEO Audit Context
 
-**Last Updated:** 2026-05-03 16:30:00
+**Last Updated:** 2026-05-10 12:21:40
 
 This file tracks the SEO status and tasks for every page in the portfolio.
 
@@ -26,32 +26,50 @@ This file tracks the SEO status and tasks for every page in the portfolio.
 - [/] Cloudflare optimization: Enable Auto Minify, Brotli, and Rocket Loader. (To be verified by user in Cloudflare dashboard)
 - [x] Implement/Verify JSON-LD Organization schema on home page.
 
-## "Crawled – Not Indexed" Status (GSC) — RESOLVED / EXPLAINED
+## Google Search Console (GSC) Issue Resolutions (Updated May 10, 2026)
 
-These 3 URLs appeared in GSC Coverage → "Crawled - currently not indexed":
+The following 6 issue categories from Google Search Console have been diagnosed, solved, and are ready for validation:
 
-| URL | Status | Action |
-|-----|--------|--------|
-| `https://www.anaghkr.in/sitemap.xml` | ✅ **Normal** — utility file, Google won't index it | No action needed |
-| `https://www.anaghkr.in/robots.txt` | ✅ **Normal** — utility file, Google won't index it | No action needed |
-| `https://investment-backend.anaghkr.in/` | ⚠️ **Different subdomain** — out of scope for this repo | Fix on that server separately |
+### 1. Page with Redirect — EXPLAINED & RESOLVED
+- **Status:** ✅ **Correct Behavior**
+- **Symptom:** GSC reports non-trailing-slash URLs (e.g. `http://anaghkr.in/`, `https://anaghkr.in/`, `/about`, `/contact`, `/blog/*`) as redirected.
+- **Resolution:** This is standard and correct. Cloudflare and GitHub Pages enforce a single canonical version by redirecting to the www domain and appending trailing slashes (`/page/`) as configured by `trailingSlash: 'always'` in Astro. All internal links and sitemaps are verified to point exclusively to the canonical versions.
 
-> robots.txt and sitemap.xml being "crawled not indexed" is **expected behavior**. Google crawls them to understand the site but never indexes them as search results. No fix needed.
+### 2. Duplicate, Google Chose Different Canonical than User — RESOLVED
+- **Status:** ✅ **Fixed**
+- **URL:** `https://www.anaghkr.in/nodejs-development/`
+- **Symptom:** Google clustered the Node.js page with other generic full-stack service pages.
+- **Resolution:** Modified `src/components/pages/nodejs-development/Page.js` to enrich and technicalize the copy. Highlighted specialized backend engineering concepts (event loops, autoclustering, BullMQ workers, OWASP security, and k6 stress testing) to make it highly distinct.
 
-## "Not Found (404)" — FIXED
+### 3. Not Found (404) — RESOLVED
+- **Status:** ✅ **Fixed**
+- **URLs:** `/resume`, `/ANAGH-K-R-MERN-STACK-DEVELOPER.pdf`
+- **Symptom:** The `/resume/` page had a `noindex` tag, but was disallowed in `robots.txt`, preventing Google from crawling it to see the `noindex` instruction and clear the 404.
+- **Resolution:**
+  1. Removed `Disallow: /resume` and `Disallow: /resume/` from `public/robots.txt` to let Googlebot crawl and process the `noindex` directive, resolving the index bloat.
+  2. Maintained `Disallow: /ANAGH-K-R-MERN-STACK-DEVELOPER.pdf` in `robots.txt` because static PDF assets cannot serve HTML headers or meta tags on GitHub Pages, so crawler block is the correct resolution.
 
-| URL | Fix Applied |
-|-----|------------|
-| `https://www.anaghkr.in/resume` | Created `/src/pages/resume/index.astro` → noindex meta-refresh → `/contact/` |
-| `https://www.anaghkr.in/ANAGH-K-R-MERN-STACK-DEVELOPER.pdf` | Added `Disallow` in `robots.txt` to stop crawling |
+### 4. Redirect Error — EXPLAINED
+- **Status:** ✅ **Fixed**
+- **URL:** `https://anaghkr.in/locations`
+- **Symptom:** Historical double-redirects during early server configurations (apex to www, non-slash to slash).
+- **Resolution:** Completely solved by May 3rd routing unification. Redirect chain is clean now. Just run "Validate Fix" in GSC to update.
 
-> **Note (Cloudflare setup):** Since the site is on GitHub Pages + Cloudflare CDN proxy (not Cloudflare Pages), the `_redirects` file is **not processed**. The resume redirect uses Astro's static page with `<meta http-equiv="refresh">` instead.
+### 5. Discovered – Currently Not Indexed — RESOLVED (Internal Link Boost)
+- **Status:** ✅ **Fixed**
+- **URLs:** `/chat-app-development/`, `/clothing-ecommerce-website-development/`, `/electronics-ecommerce-website-development/`, `/instagram-store-development/`, `/shoe-store-website-development/`, `/shopify-store-development/`, `/locations/calicut/`
+- **Symptom:** Low internal link authority postponed Google crawling these pages.
+- **Resolution:** Added high-authority direct link pathways.
+  - Linked specialized commerce pages directly from the main `/ecommerce-development/` related-services grid.
+  - Linked chat and dating pages directly from `/mobile-app-development/` related-services.
+  - Cross-linked `/locations/calicut/` and `/locations/kozhikode/` to share authority and clarify synonymy.
+  - Fixed typo in the homepage e-commerce CTA grid.
 
-## "Pages with Redirect" — CONTEXT
-
-28 redirect pages in GSC are caused by Cloudflare/GitHub Pages automatically redirecting non-trailing-slash URLs to trailing-slash URLs (e.g., `/flutter-app-development` → `/flutter-app-development/`). These are legitimate canonical redirects enforced by `trailingSlash: 'always'` in `astro.config.mjs`.
-
-Google follows these redirects correctly and does not penalize them since they are consistent and point to canonical URLs. **No action needed**, but they will naturally resolve as Google re-crawls and consolidates.
+### 6. Crawled – Currently Not Indexed — RESOLVED (Unique Copy Injection)
+- **Status:** ✅ **Fixed**
+- **URL:** `/locations/kollam/`
+- **Symptom:** Google flagged Kollam as thin templated doorway content.
+- **Resolution:** Customized the Kollam landing page to include highly specific regional hooks (Chinnakada, Ashtamudi Lake, cashew export networks, and local logistics) to break boilerplate structures.
 
 ## Keyword Strategy (Updated 2026-05-03)
 

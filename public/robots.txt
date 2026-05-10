@@ -5,9 +5,7 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
-# Disallow stale URLs that return 404 in Google Search Console
-Disallow: /resume
-Disallow: /resume/
+# Disallow stale PDF asset that returns 404 in Google Search Console
 Disallow: /ANAGH-K-R-MERN-STACK-DEVELOPER.pdf
 
 # AI bots — allow for GEO (Generative Engine Optimization) citation visibility

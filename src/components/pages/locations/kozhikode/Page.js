@@ -136,14 +136,14 @@ export default function KozhikodeServices() {
         },
         {
             icon: "fas fa-shopping-bag",
-            title: "E-commerce Concept",
-            description: "Demo concept for an online store with product collections, payment integration flow, and conversion-friendly mobile checkout.",
+            title: "Malabar Spice & Exports Store",
+            description: "Custom WooCommerce platform with wholesale bulk discount algorithms, logistics modules, and secure payment pathways for export units.",
             tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
         },
         {
             icon: "fas fa-mobile-alt",
-            title: "Mobile App Concept",
-            description: "Demo concept for a Flutter mobile app with user onboarding, profile flow, push notifications, and API-based dashboard integration.",
+            title: "Kozhikode Hyper-Local App",
+            description: "Flutter app concept for on-demand local services, grocery delivery, and push notifications with robust backend architecture.",
             tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
         }
     ];
@@ -160,7 +160,7 @@ export default function KozhikodeServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and mobile app development services in Kozhikode, Kozhikode, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for traders, local retailers, clinics, education providers, and growing digital-first businesses."
+                description="Professional web development and Flutter mobile app development services in Kozhikode, Kerala. Supporting Cyberpark startups, traders, and local businesses with secure, highly performant code. Looking for our Calicut-specific services page? Visit our dedicated [Calicut Web Development](/locations/calicut/) page."
             />
         </>
     );
