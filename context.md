@@ -158,7 +158,7 @@ Each page must be checked against the following criteria:
 - [x] src/components/pages/blog/[slug]
 
 ### Utility / Redirect Pages
-- [x] src/pages/resume — noindex meta-refresh → /contact/ (fixes GSC 404)
+- [x] src/pages/resume — Live professional resume page (indexed, SEO-optimized)
 
 ### Locations
 - [x] src/components/pages/locations

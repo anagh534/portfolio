@@ -18,8 +18,7 @@ export default defineConfig({
             // Exclude empty dynamic routes and unwanted pages
             filter: (page) =>
                 !page.includes("/ml/") &&
-                !page.includes("/kerala/") &&
-                !page.includes("/resume"),
+                !page.includes("/kerala/"),
 
             serialize(item) {
                 const url = item.url;

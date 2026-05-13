@@ -5,8 +5,7 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
-# Disallow stale PDF asset that returns 404 in Google Search Console
-Disallow: /ANAGH-K-R-MERN-STACK-DEVELOPER.pdf
+# Disallow stale PDF asset if needed, currently allowed per user request
 
 # AI bots — allow for GEO (Generative Engine Optimization) citation visibility
 User-agent: GPTBot
