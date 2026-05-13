@@ -11,7 +11,7 @@ This file tracks the SEO status and tasks for every page in the portfolio.
 - [x] **Astro Config**: Enforced `trailingSlash: 'always'` and `output: 'static'`.
 - [x] **Sitemap Enhanced**: Added `lastmod`, `priority`, and `changefreq` via sitemap `serialize()`.
 - [x] **robots.txt Fixed**: Added explicit `Allow: /`, removed irrelevant `/_next/` and `/.git/` rules, added AI bot allowances (GPTBot, PerplexityBot, ClaudeBot, ChatGPT-User), added `Disallow` for 404 URLs.
-- [x] **404 URLs Fixed**: `/resume` → redirect page (noindex, meta-refresh → /contact/). `/ANAGH-K-R-MERN-STACK-DEVELOPER.pdf` → disallowed in robots.txt.
+- [x] **404 URLs Fixed**: `/resume` → Live professional resume page. `/ANAGH-K-R-MERN-STACK-DEVELOPER.pdf` → 301 permanent redirect to live Google Drive PDF.
 - [x] **Empty Routes Deleted**: Removed `/src/pages/kerala/` and `/src/pages/ml/` (empty dynamic route directories that served no pages).
 - [x] **Flutter Page Meta Desc Fixed**: 119 chars → 158 chars with CTA.
 - [x] **Home Page Title Fixed**: 64 chars → 60 chars (within Google's display limit).
@@ -46,8 +46,8 @@ The following 6 issue categories from Google Search Console have been diagnosed,
 - **URLs:** `/resume`, `/ANAGH-K-R-MERN-STACK-DEVELOPER.pdf`
 - **Symptom:** The `/resume/` page had a `noindex` tag, but was disallowed in `robots.txt`, preventing Google from crawling it to see the `noindex` instruction and clear the 404.
 - **Resolution:**
-  1. Removed `Disallow: /resume` and `Disallow: /resume/` from `public/robots.txt` to let Googlebot crawl and process the `noindex` directive, resolving the index bloat.
-  2. Maintained `Disallow: /ANAGH-K-R-MERN-STACK-DEVELOPER.pdf` in `robots.txt` because static PDF assets cannot serve HTML headers or meta tags on GitHub Pages, so crawler block is the correct resolution.
+  1. Made `/resume/` a live content page included in `sitemap.xml`.
+  2. Configured `/ANAGH-K-R-MERN-STACK-DEVELOPER.pdf` to 301 redirect permanently to the live Google Drive PDF in `public/_redirects` and removed `noindex` headers.
 
 ### 4. Redirect Error — EXPLAINED
 - **Status:** ✅ **Fixed**
