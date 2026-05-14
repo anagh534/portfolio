@@ -101,10 +101,6 @@ const appleTouchIcon = icons.apple || fallbackPngIcon;
     <link rel="dns-prefetch" href="//www.google-analytics.com" />
     <link rel="preconnect" href="https://wa.me" />
     <link rel="dns-prefetch" href="//wa.me" />
-    <link rel="preconnect" href="https://www.linkedin.com" />
-    <link rel="dns-prefetch" href="//www.linkedin.com" />
-    <link rel="preconnect" href="https://github.com" />
-    <link rel="dns-prefetch" href="//github.com" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="icon" type="image/webp" href={favicon} />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
@@ -130,7 +126,6 @@ const appleTouchIcon = icons.apple || fallbackPngIcon;
     {resolvedTwitterImage && (
       <meta name="twitter:image" content={resolvedTwitterImage} />
     )}
-
     <script type="application/ld+json" set:html={JSON.stringify(personStructuredData)}></script>
     <script type="application/ld+json" set:html={JSON.stringify(organizationStructuredData)}></script>
     <script type="application/ld+json" set:html={JSON.stringify(websiteStructuredData)}></script>

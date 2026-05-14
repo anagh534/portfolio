@@ -12,6 +12,9 @@ export default defineConfig({
     output: "static",
     site: "https://www.anaghkr.in",
     trailingSlash: "always",
+    build: {
+        inlineStylesheets: "always",
+    },
     integrations: [
         react(),
         sitemap({
