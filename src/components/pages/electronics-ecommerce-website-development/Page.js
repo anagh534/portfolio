@@ -3,19 +3,19 @@ import { Store, MessageSquare, ShieldCheck, Zap, MapPin, Layers } from 'lucide-r
 
 export const metadata = {
     title: "Electronics Ecommerce Kerala | Gadget Store Expert | ANAGH K R",
-    description: "Electronics ecommerce development in Kerala. Spec comparison, secure checkout, and product optimization for tech stores.",
+    description: "Expert electronics ecommerce development in Kerala. Detailed spec comparisons, highly secure checkouts, and performance-optimized product pages for tech stores.",
     keywords: "electronics ecommerce website kerala, gadget store website development kochi, electronics online store calicut, mobile accessories ecommerce developer",
     alternates: { canonical: "https://www.anaghkr.in/electronics-ecommerce-website-development/" },
     openGraph: {
         title: "Electronics Ecommerce Website Kerala | ANAGH K R",
-        description: "Electronics ecommerce website development featuring spec comparison blocks, warranty-focused UX, COD and prepaid checkout options, and support-friendly product pages.",
+        description: "Expert electronics ecommerce development in Kerala. Detailed spec comparisons, highly secure checkouts, and performance-optimized product pages for tech stores.",
         url: "https://www.anaghkr.in/electronics-ecommerce-website-development/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Electronics Ecommerce Website Kerala | ANAGH K R",
-        description: "Electronics ecommerce website development featuring spec comparison blocks, warranty-focused UX, COD and prepaid checkout options, and support-friendly product pages.",
+        description: "Expert electronics ecommerce development in Kerala. Detailed spec comparisons, highly secure checkouts, and performance-optimized product pages for tech stores.",
     },
 };
 

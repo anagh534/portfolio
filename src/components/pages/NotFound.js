@@ -1,7 +1,10 @@
 export const metadata = {
-    title: '404 — Page Not Found | ANAGH K R',
-    description: 'The page you are looking for does not exist. Return to the homepage or explore services.',
+    title: "404 — Page Not Found | Custom Web Solutions by ANAGH K R",
+    description: "The page you are looking for does not exist. Return to the homepage or explore our professional web development services in Kerala to get started.",
     robots: 'noindex, follow',
+    alternates: {
+        canonical: "https://www.anaghkr.in/404/",
+    },
 };
 
 export default function NotFound() {

@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Resume — ANAGH K R | Flutter & MERN Stack Developer",
-    description: "View the professional resume of Anagh K R, an experienced Flutter and MERN stack developer with 3+ years of expertise building high-performance web and mobile apps.",
+    description: "View the professional resume of Anagh K R, an experienced Flutter and MERN stack developer with 3+ years expertise building high-performance web and mobile apps.",
     keywords: "Anagh K R resume, Flutter developer resume, MERN stack developer resume, software engineer Kerala, freelance developer profile",
     robots: { index: true, follow: true },
     alternates: {
@@ -16,7 +16,7 @@ export default function Resume() {
             title: "Senior Full Stack Developer (Freelance)",
             company: "Self-Employed",
             period: "2021 — Present",
-            description: "Led the development of 24+ high-impact digital products including e-commerce platforms, real estate portals, and AI-powered automation tools. Specialized in Flutter for cross-platform mobile apps and MERN stack for scalable web solutions.",
+            description: "View the professional resume of Anagh K R, an experienced Flutter and MERN stack developer with 3+ years expertise building high-performance web and mobile apps.",
             highlights: [
                 "Architected and deployed custom MERN stack e-commerce solutions with Razorpay integration.",
                 "Developed cross-platform mobile applications using Flutter & Firebase for global clients.",
@@ -28,7 +28,7 @@ export default function Resume() {
             title: "Software Developer",
             company: "Freelance Projects",
             period: "2020 — 2021",
-            description: "Developed and maintained various web applications using React and Node.js. Focused on creating responsive user interfaces and robust backend services.",
+            description: "View the professional resume of Anagh K R, an experienced Flutter and MERN stack developer with 3+ years expertise building high-performance web and mobile apps.",
             highlights: [
                 "Built and launched multiple portfolio websites and landing pages for local businesses.",
                 "Implemented RESTful APIs and integrated third-party services for dynamic content.",

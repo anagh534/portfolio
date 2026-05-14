@@ -1,6 +1,6 @@
 export const metadata = {
-    title: "Web Development Services in Thiruvananthapuram, Kerala | ANAGH K R",
-    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram, Kerala. SEO-focused and conversion-ready solutions.",
+    title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
     keywords: "web developer Thiruvananthapuram, web development Trivandrum, mobile app development Trivandrum, ecommerce website Trivandrum, WordPress developer Trivandrum",
     robots: { index: true, follow: true },
     alternates: {
@@ -8,14 +8,14 @@ export const metadata = {
     },
     openGraph: {
         title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
-        description: "Website development, ecommerce, and mobile app services in Thiruvananthapuram, Kerala with professional delivery and clear communication.",
+        description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
         url: "https://www.anaghkr.in/locations/thiruvananthapuram/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
-        description: "Professional website and app development services in Thiruvananthapuram, Kerala.",
+        description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
     },
 };
 
@@ -45,61 +45,61 @@ export default function ThiruvananthapuramServices() {
     const cityHighlights = [
         {
             icon: "fas fa-building",
-            title: "Local Market Fit",
-            description: "IT and institutional ecosystem"
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions."
         },
         {
             icon: "fas fa-chart-line",
-            title: "Digital Growth Opportunity",
-            description: "Strong demand for secure web platforms"
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions."
         },
         {
             icon: "fas fa-mobile-alt",
-            title: "Mobile-First Demand",
-            description: "Growth in service and health businesses"
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions."
         },
         {
             icon: "fas fa-globe",
-            title: "SEO Visibility",
-            description: "High digital adoption in city markets"
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions."
         }
     ];
 
     const services = [
         {
             icon: "fas fa-laptop-code",
-            title: "Custom Website Development",
-            description: "Modern, responsive websites for Thiruvananthapuram businesses with clear messaging, conversion-focused layouts, and technical SEO foundations.",
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
             features: ["Responsive Design", "SEO Structure", "Fast Loading", "Clear CTAs"]
         },
         {
             icon: "fas fa-shopping-cart",
-            title: "E-commerce Development",
-            description: "Online store setups with product catalog, secure checkout, payment integration, and order workflow suitable for local businesses.",
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
             features: ["Product Catalog", "Secure Payments", "Order Flow", "Mobile Checkout"]
         },
         {
             icon: "fab fa-flutter",
-            title: "Mobile App Development",
-            description: "Flutter-based mobile apps for Android and iOS with practical business features, dashboard integration, and scalable structure.",
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
             features: ["Flutter Apps", "API Integration", "Push Notifications", "App Store Support"]
         },
         {
             icon: "fab fa-wordpress",
-            title: "WordPress Development",
-            description: "Professional WordPress websites with editable content sections, optimized page speed, and clean on-page SEO setup.",
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
             features: ["Custom Theme Setup", "Easy Editing", "Performance", "SEO Basics"]
         },
         {
             icon: "fas fa-database",
-            title: "MERN Stack Development",
-            description: "Custom web apps using MongoDB, Express, React, and Node.js for dashboards, workflows, and business automation.",
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
             features: ["Custom Dashboard", "API Architecture", "Role Access", "Scalable Code"]
         },
         {
             icon: "fas fa-search",
-            title: "SEO and Performance",
-            description: "Technical SEO improvements including metadata quality, internal linking, schema setup, and page speed optimization.",
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
             features: ["Technical SEO", "Schema Setup", "Core Web Vitals", "Local SEO"]
         }
     ];
@@ -107,43 +107,43 @@ export default function ThiruvananthapuramServices() {
     const benefits = [
         {
             icon: "fas fa-handshake",
-            title: "Professional Communication",
-            description: "Clear scope, milestone-based updates, and transparent collaboration from planning to launch"
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions."
         },
         {
             icon: "fas fa-clock",
-            title: "Structured Delivery",
-            description: "Well-defined project stages with realistic timelines and quality checks before release"
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions."
         },
         {
             icon: "fas fa-map-marker-alt",
-            title: "Local SEO Focus",
-            description: "Content and metadata optimized for Thiruvananthapuram and Kerala location-based search intent"
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions."
         },
         {
             icon: "fas fa-rupee-sign",
-            title: "Practical Pricing",
-            description: "Scope-based quotes aligned with business requirements, features, and launch priorities"
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions."
         }
     ];
 
     const portfolio = [
         {
             icon: "fas fa-store",
-            title: "Business Website Concept",
-            description: "Demo concept for a service-focused business website with lead capture forms, WhatsApp CTA, and local SEO landing sections for Thiruvananthapuram.",
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
             tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
         },
         {
             icon: "fas fa-shopping-bag",
-            title: "E-commerce Concept",
-            description: "Demo concept for an online store with product collections, payment integration flow, and conversion-friendly mobile checkout.",
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
             tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
         },
         {
             icon: "fas fa-mobile-alt",
-            title: "Mobile App Concept",
-            description: "Demo concept for a Flutter mobile app with user onboarding, profile flow, push notifications, and API-based dashboard integration.",
+            title: "Web Development Services in Thiruvananthapuram | ANAGH K R",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.",
             tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
         }
     ];

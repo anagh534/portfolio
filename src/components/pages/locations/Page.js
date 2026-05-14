@@ -1,21 +1,21 @@
 export const metadata = {
-    title: "Web Development Kerala | ANAGH K R",
-    description: "Serving Kochi, Trivandrum, Kozhikode & all major Kerala cities with professional web and mobile app development.",
+    title: "Web & Mobile App Development Services in Kerala | ANAGH K R",
+    description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
     keywords: "web development Kerala, website developer Kerala, mobile app development Kerala, ecommerce development Kerala, WordPress developer Kerala, web developer Kochi, web developer Kozhikode, web developer Trivandrum, web developer Thrissur",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/",
     },
     openGraph: {
-        title: "Web Development Kerala | ANAGH K R",
-        description: "Professional web development, ecommerce, WordPress, and mobile app development services across major Kerala cities.",
+        title: "Web & Mobile App Development Services in Kerala | ANAGH K R",
+        description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
         url: "https://www.anaghkr.in/locations/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Development Services Across Kerala | ANAGH K R",
-        description: "Professional website and app development services across major Kerala cities.",
+        title: "Web & Mobile App Development Services in Kerala | ANAGH K R",
+        description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
     },
 };
 
@@ -27,89 +27,89 @@ export default function Locations() {
         {
             name: "Kochi",
             district: "Ernakulam",
-            description: "Website, ecommerce, and app development support for growing businesses and startups in Kochi.",
+            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
             services: ["Business Websites", "E-commerce Development", "Mobile App Development"],
             highlights: ["Commercial Hub", "Startup Activity", "Digital Growth"]
         },
         {
             name: "Thiruvananthapuram",
             district: "Thiruvananthapuram",
-            description: "Professional development services for technology teams, institutions, and service businesses in Trivandrum.",
+            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
             services: ["Web Applications", "WordPress Solutions", "Mobile Apps"],
             highlights: ["IT Ecosystem", "Service Sector", "Local SEO Demand"]
         },
         {
             name: "Kozhikode",
             district: "Kozhikode",
-            description: "Modern websites and ecommerce systems for local brands and service providers in Kozhikode.",
+            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
             services: ["Website Development", "E-commerce Setup", "SEO Optimization"],
             highlights: ["Malabar Market", "Retail Growth", "Mobile-First Audience"]
         },
         {
             name: "Thrissur",
             district: "Thrissur",
-            description: "Conversion-focused website and app development for service and retail businesses in Thrissur.",
+            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
             services: ["Custom Websites", "Mobile App Development", "Business Automation"],
             highlights: ["Retail Economy", "Service Sector", "Digital Expansion"]
         },
         {
             name: "Ernakulam",
             district: "Ernakulam",
-            description: "Scalable websites and web applications for business teams across the Ernakulam district.",
+            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
             services: ["Web Development", "MERN Stack Apps", "Technical SEO"],
             highlights: ["Urban Business Base", "High Competition", "SEO Opportunity"]
         },
         {
             name: "Calicut",
             district: "Kozhikode",
-            description: "Practical digital solutions for local commerce, services, and online selling in Calicut.",
+            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
             services: ["Business Websites", "E-commerce Stores", "Performance Optimization"],
             highlights: ["Local Commerce", "Online Selling", "Search Visibility"]
         },
         {
             name: "Kannur",
             district: "Kannur",
-            description: "Professional web and app development services for local brands and service providers in Kannur.",
+            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
             services: ["Website Development", "App MVPs", "WordPress Services"],
             highlights: ["Regional Businesses", "Growing Digital Demand", "Lead Generation"]
         },
         {
             name: "Kasaragod",
             district: "Kasaragod",
-            description: "Website and app development support for small businesses and growing brands in Kasaragod.",
+            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
             services: ["Responsive Websites", "E-commerce Setup", "SEO Foundations"],
             highlights: ["Local Brand Growth", "Affordable Digital Entry", "Regional SEO"]
         },
         {
             name: "Kollam",
             district: "Kollam",
-            description: "Web and mobile solutions for service and industrial businesses in Kollam.",
+            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
             services: ["Business Websites", "Mobile Apps", "Workflow Tools"],
             highlights: ["Industry + Services", "Operational Efficiency", "Digital Presence"]
         },
         {
             name: "Palakkad",
             district: "Palakkad",
-            description: "Reliable web development services for SMEs, service businesses, and local organizations in Palakkad.",
+            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
             services: ["Website Development", "WordPress", "E-commerce"],
             highlights: ["SME Growth", "Service Demand", "SEO Opportunity"]
         },
         {
             name: "Kanhangad",
             district: "Kasaragod",
-            description: "Professional website and app support for local businesses in Kanhangad and nearby areas.",
+            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
             services: ["Business Websites", "App MVPs", "SEO Setup"],
             highlights: ["Local Market", "Digital Adoption", "Lead-Focused Websites"]
         }
     ];
 
     const services = [
-        { icon: <Laptop size={24} />, title: "Custom Website Development", desc: "Business-focused websites with clean UI, responsive design, and conversion-oriented layout." },
-        { icon: <Layout size={24} />, title: "WordPress Development", desc: "Editable, SEO-friendly WordPress websites for businesses that need easy content management." },
-        { icon: <Smartphone size={24} />, title: "Mobile App Development", desc: "Flutter app development for iOS and Android with practical business-ready features." },
-        { icon: <ShoppingCart size={24} />, title: "E-commerce Solutions", desc: "Online stores with product management, checkout, and payment integration." },
-        { icon: <Code size={24} />, title: "MERN Stack Development", desc: "Custom web applications and dashboards built with modern full-stack technologies." },
-        { icon: <Search size={24} />, title: "SEO Optimization", desc: "Technical SEO setup including metadata, schema, internal links, and performance improvements." }
+        { icon: <Laptop size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Business-focused websites with clean UI, responsive design, and conversion-oriented layout." },
+        { icon: <Layout size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Editable, SEO-friendly WordPress websites for businesses that need easy content management." },
+        { icon: <Smartphone size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Flutter app development for iOS and Android with practical business-ready features." },
+        { icon: <ShoppingCart size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Online stores with product management, checkout, and payment integration." },
+        { icon: <Code size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Custom web applications and dashboards built with modern full-stack technologies." },
+        { icon: <Search size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Technical SEO setup including metadata, schema, internal links, and performance improvements." }
     ];
 
     return (

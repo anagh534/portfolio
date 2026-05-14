@@ -3,19 +3,19 @@ import { Store, MessageSquare, ShieldCheck, Zap, MapPin, Layers } from 'lucide-r
 
 export const metadata = {
     title: "Chat App Development Kerala | Real-time Apps | ANAGH K R",
-    description: "Real-time chat app development in Kerala. Secure messaging, media sharing, and scalable backends for startups and businesses.",
+    description: "Expert real-time chat app development services in Kerala. Secure messaging, media sharing, and scalable backend architecture for startups and businesses.",
     keywords: "chat app development kerala, real time messaging app developer kochi, whatsapp like app development india, group chat app development",
     alternates: { canonical: "https://www.anaghkr.in/chat-app-development/" },
     openGraph: {
         title: "Chat App Development Kerala | ANAGH K R",
-        description: "Chat app development for startups and businesses in Kerala with real-time messaging, groups, media sharing, and secure backend systems for web and mobile products.",
+        description: "Expert real-time chat app development services in Kerala. Secure messaging, media sharing, and scalable backend architecture for startups and businesses.",
         url: "https://www.anaghkr.in/chat-app-development/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Chat App Development Kerala | ANAGH K R",
-        description: "Chat app development for startups and businesses in Kerala with real-time messaging, groups, media sharing, and secure backend systems for web and mobile products.",
+        description: "Expert real-time chat app development services in Kerala. Secure messaging, media sharing, and scalable backend architecture for startups and businesses.",
     },
 };
 

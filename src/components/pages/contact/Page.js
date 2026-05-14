@@ -4,7 +4,7 @@ import { Mail, MapPin, Clock, Code, Send } from 'lucide-react';
 
 export const metadata = {
   title: 'Contact Freelance Web Developer Kerala | ANAGH K R',
-  description: 'Get a free quote for your web or mobile project. Expert development in Kochi, Calicut & Trivandrum. Contact Anagh K R today.',
+  description: "Get a free quote for your custom web or mobile app project today. Expert full-stack development in Kochi, Calicut & Trivandrum. Contact Anagh K R now.",
   keywords: 'contact web developer Kerala, hire web developer near me, freelance web developer near me, website designer near me, mobile app developer near me, wordpress developer near me Kerala',
   alternates: {
     canonical: "https://www.anaghkr.in/contact/",

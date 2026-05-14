@@ -3,12 +3,12 @@ import { Palette, ShoppingCart, Package, Gauge, PenLine, ShieldCheck } from 'luc
 
 export const metadata = {
     title: "WordPress Developer Kerala | Kozhikode & Calicut | ANAGH K R",
-    description: "Expert WordPress developer in Kerala. Custom themes, LMS sites, and business solutions in Kozhikode, Calicut & Trivandrum.",
+    description: "Hire an expert WordPress developer in Kerala. We build highly custom themes, powerful LMS sites, and scalable business solutions in Kozhikode, Calicut & Trivandrum.",
     keywords: "wordpress development kozhikode, wordpress development calicut, wordpress development company calicut, freelance wordpress developer kerala, lms development companies in trivandrum, wordpress customization kerala, learn dash developer kerala",
     alternates: { canonical: "https://www.anaghkr.in/wordpress-development/" },
     openGraph: {
         title: "WordPress Developer Kerala | Custom WordPress Websites | ANAGH K R",
-        description: "Professional WordPress development — custom themes, WooCommerce stores, and business websites for clients across Kerala.",
+        description: "Hire an expert WordPress developer in Kerala. We build highly custom themes, powerful LMS sites, and scalable business solutions in Kozhikode, Calicut & Trivandrum.",
         url: "https://www.anaghkr.in/wordpress-development/",
         type: "website",
         images: [
@@ -23,7 +23,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "WordPress Developer Kerala | ANAGH K R",
-        description: "Custom WordPress development services in Kerala — themes, plugins, and WooCommerce stores.",
+        description: "Hire an expert WordPress developer in Kerala. We build highly custom themes, powerful LMS sites, and scalable business solutions in Kozhikode, Calicut & Trivandrum.",
         images: ["https://www.anaghkr.in/assets/services/webdesign.webp"],
     },
 };

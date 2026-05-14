@@ -1,10 +1,12 @@
 # SEO Audit Context
 
-**Last Updated:** 2026-05-10 12:52:26
+**Last Updated:** 2026-05-14 22:36:57
 
 This file tracks the SEO status and tasks for every page in the portfolio.
 
 ## Audit Completion (Final)
+- [x] **Programmatic SEO Optimization**: Re-wrote 30+ titles and meta descriptions using a script (`fix-seo-meta.mjs`) to perfectly align with Google character limits (50-65 for titles, 140-160 for descriptions).
+- [x] **404 Canonical**: Fixed missing canonical link on the `NotFound.js` page.
 - [x] **Trailing Slashes**: Added to all internal links and canonical URLs site-wide.
 - [x] **Internal Linking**: Verified consistency and fixed issues (especially in /about and location pages).
 - [x] **FAQ Hydration**: Verified `client:visible` added to all page modules.

@@ -3,19 +3,19 @@ import { Store, MessageSquare, ShieldCheck, Zap, MapPin, Layers } from 'lucide-r
 
 export const metadata = {
     title: "Dropshipping Website Kerala | Automated Stores | ANAGH K R",
-    description: "Dropshipping website development in Kerala. Supplier automation, catalog structure, and conversion-focused design.",
+    description: "Specialized dropshipping website development in Kerala. Automated supplier integration, optimized catalog structure, and conversion-focused store design.",
     keywords: "dropshipping website development kerala, dropshipping store developer kochi, shopify dropshipping setup india, ecommerce automation website kerala",
     alternates: { canonical: "https://www.anaghkr.in/dropshipping-website-development/" },
     openGraph: {
         title: "Dropshipping Website Development Kerala | ANAGH K R",
-        description: "Launch-ready dropshipping website development in Kerala with supplier-friendly catalog structure, automation-ready order flow, and conversion-focused pages for trend products.",
+        description: "Specialized dropshipping website development in Kerala. Automated supplier integration, optimized catalog structure, and conversion-focused store design.",
         url: "https://www.anaghkr.in/dropshipping-website-development/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Dropshipping Website Development Kerala | ANAGH K R",
-        description: "Launch-ready dropshipping website development in Kerala with supplier-friendly catalog structure, automation-ready order flow, and conversion-focused pages for trend products.",
+        description: "Specialized dropshipping website development in Kerala. Automated supplier integration, optimized catalog structure, and conversion-focused store design.",
     },
 };
 

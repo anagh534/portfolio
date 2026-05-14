@@ -3,19 +3,19 @@ import { Store, MessageSquare, ShieldCheck, Zap, MapPin, Layers } from 'lucide-r
 
 export const metadata = {
     title: "Shopify Store Development Kerala | Expert Setup | ANAGH K R",
-    description: "Shopify store development in Kerala. Clean UX, payment setup, and SEO-ready stores for businesses in Kochi & Calicut.",
+    description: "Professional Shopify store development in Kerala. Clean user experience, seamless payment gateway setup, and SEO-ready ecommerce stores for your growing business.",
     keywords: "shopify developer kerala, shopify store development kochi, shopify ecommerce website calicut, kerala shopify expert",
     alternates: { canonical: "https://www.anaghkr.in/shopify-store-development/" },
     openGraph: {
         title: "Shopify Store Development Kerala | ANAGH K R",
-        description: "Shopify store development with clean storefront UX, payment and shipping setup, and SEO-ready collection pages for businesses in Kochi, Calicut, Trivandrum, Thrissur, and across Kerala.",
+        description: "Professional Shopify store development in Kerala. Clean user experience, seamless payment gateway setup, and SEO-ready ecommerce stores for your growing business.",
         url: "https://www.anaghkr.in/shopify-store-development/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Shopify Store Development Kerala | ANAGH K R",
-        description: "Shopify store development with clean storefront UX, payment and shipping setup, and SEO-ready collection pages for businesses in Kochi, Calicut, Trivandrum, Thrissur, and across Kerala.",
+        description: "Professional Shopify store development in Kerala. Clean user experience, seamless payment gateway setup, and SEO-ready ecommerce stores for your growing business.",
     },
 };
 

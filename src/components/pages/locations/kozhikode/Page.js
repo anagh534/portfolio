@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Web Development Services in Kozhikode, Kerala | ANAGH K R",
-    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode, Kerala. SEO-focused and conversion-ready solutions.",
+    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
     keywords: "web developer Kozhikode, website development Kozhikode, mobile app development Kozhikode, ecommerce development Kozhikode, SEO web design Kozhikode",
     robots: { index: true, follow: true },
     alternates: {
@@ -8,14 +8,14 @@ export const metadata = {
     },
     openGraph: {
         title: "Web Development Services in Kozhikode | ANAGH K R",
-        description: "Website development, ecommerce, and mobile app services in Kozhikode, Kerala with professional delivery and clear communication.",
+        description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
         url: "https://www.anaghkr.in/locations/kozhikode/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Web Development Services in Kozhikode | ANAGH K R",
-        description: "Professional website and app development services in Kozhikode, Kerala.",
+        description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
     },
 };
 
@@ -46,22 +46,22 @@ export default function KozhikodeServices() {
         {
             icon: "fas fa-building",
             title: "Local Market Fit",
-            description: "Strong business culture in Malabar"
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions."
         },
         {
             icon: "fas fa-chart-line",
             title: "Digital Growth Opportunity",
-            description: "Demand for multilingual digital presence"
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions."
         },
         {
             icon: "fas fa-mobile-alt",
             title: "Mobile-First Demand",
-            description: "Growth in ecommerce and services"
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions."
         },
         {
             icon: "fas fa-globe",
             title: "SEO Visibility",
-            description: "Mobile traffic-first local audience"
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions."
         }
     ];
 
@@ -69,37 +69,37 @@ export default function KozhikodeServices() {
         {
             icon: "fas fa-laptop-code",
             title: "Custom Website Development",
-            description: "Modern, responsive websites for Kozhikode businesses with clear messaging, conversion-focused layouts, and technical SEO foundations.",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
             features: ["Responsive Design", "SEO Structure", "Fast Loading", "Clear CTAs"]
         },
         {
             icon: "fas fa-shopping-cart",
             title: "E-commerce Development",
-            description: "Online store setups with product catalog, secure checkout, payment integration, and order workflow suitable for local businesses.",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
             features: ["Product Catalog", "Secure Payments", "Order Flow", "Mobile Checkout"]
         },
         {
             icon: "fab fa-flutter",
             title: "Mobile App Development",
-            description: "Flutter-based mobile apps for Android and iOS with practical business features, dashboard integration, and scalable structure.",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
             features: ["Flutter Apps", "API Integration", "Push Notifications", "App Store Support"]
         },
         {
             icon: "fab fa-wordpress",
             title: "WordPress Development",
-            description: "Professional WordPress websites with editable content sections, optimized page speed, and clean on-page SEO setup.",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
             features: ["Custom Theme Setup", "Easy Editing", "Performance", "SEO Basics"]
         },
         {
             icon: "fas fa-database",
             title: "MERN Stack Development",
-            description: "Custom web apps using MongoDB, Express, React, and Node.js for dashboards, workflows, and business automation.",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
             features: ["Custom Dashboard", "API Architecture", "Role Access", "Scalable Code"]
         },
         {
             icon: "fas fa-search",
             title: "SEO and Performance",
-            description: "Technical SEO improvements including metadata quality, internal linking, schema setup, and page speed optimization.",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
             features: ["Technical SEO", "Schema Setup", "Core Web Vitals", "Local SEO"]
         }
     ];
@@ -108,22 +108,22 @@ export default function KozhikodeServices() {
         {
             icon: "fas fa-handshake",
             title: "Professional Communication",
-            description: "Clear scope, milestone-based updates, and transparent collaboration from planning to launch"
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions."
         },
         {
             icon: "fas fa-clock",
             title: "Structured Delivery",
-            description: "Well-defined project stages with realistic timelines and quality checks before release"
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions."
         },
         {
             icon: "fas fa-map-marker-alt",
             title: "Local SEO Focus",
-            description: "Content and metadata optimized for Kozhikode and Kerala location-based search intent"
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions."
         },
         {
             icon: "fas fa-rupee-sign",
             title: "Practical Pricing",
-            description: "Scope-based quotes aligned with business requirements, features, and launch priorities"
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions."
         }
     ];
 
@@ -131,19 +131,19 @@ export default function KozhikodeServices() {
         {
             icon: "fas fa-store",
             title: "Business Website Concept",
-            description: "Demo concept for a service-focused business website with lead capture forms, WhatsApp CTA, and local SEO landing sections for Kozhikode.",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
             tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
         },
         {
             icon: "fas fa-shopping-bag",
             title: "Malabar Spice & Exports Store",
-            description: "Custom WooCommerce platform with wholesale bulk discount algorithms, logistics modules, and secure payment pathways for export units.",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
             tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
         },
         {
             icon: "fas fa-mobile-alt",
             title: "Kozhikode Hyper-Local App",
-            description: "Flutter app concept for on-demand local services, grocery delivery, and push notifications with robust backend architecture.",
+            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.",
             tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
         }
     ];

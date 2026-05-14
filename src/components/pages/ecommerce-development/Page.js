@@ -3,12 +3,12 @@ import { ShoppingCart, CreditCard, Package, LayoutDashboard, Smartphone, Search 
 
 export const metadata = {
     title: "Ecommerce Developer Kerala | Online Store & Shopify | ANAGH K R",
-    description: "Top ecommerce developer in Kerala. Custom Shopify & WooCommerce stores, rent-a-car sites, and booking platforms.",
+    description: "Top-rated ecommerce developer in Kerala. Custom Shopify & WooCommerce stores, scalable rent-a-car sites, and secure booking platforms for your business.",
     keywords: "ecommerce development company in kerala, freelance ecommerce developer kerala, shopify development company kerala, woocommerce developer in kerala, rent a car website developer kerala, booking website kerala, ecommerce website development kerala",
     alternates: { canonical: "https://www.anaghkr.in/ecommerce-development/" },
     openGraph: {
         title: "E-commerce Development Kerala | Online Store Development | ANAGH K R",
-        description: "Professional e-commerce development services in Kerala — online stores, payment integration, inventory management, and custom shopping solutions.",
+        description: "Top-rated ecommerce developer in Kerala. Custom Shopify & WooCommerce stores, scalable rent-a-car sites, and secure booking platforms for your business.",
         url: "https://www.anaghkr.in/ecommerce-development/",
         type: "website",
         images: [{
@@ -21,7 +21,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "E-commerce Development Kerala | ANAGH K R",
-        description: "Expert e-commerce development services — build your online store in Kerala.",
+        description: "Top-rated ecommerce developer in Kerala. Custom Shopify & WooCommerce stores, scalable rent-a-car sites, and secure booking platforms for your business.",
         images: ["https://www.anaghkr.in/assets/services/ecom.webp"]
     },
 };

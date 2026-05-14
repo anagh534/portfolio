@@ -3,12 +3,12 @@ import { Monitor, LayoutDashboard, Component, GitBranch, Plug, Sparkles } from '
 
 export const metadata = {
     title: "React Developer Kerala | Frontend & SPA Expert | ANAGH K R",
-    description: "Professional React.js development in Kerala. Dynamic SPAs, dashboards, and interactive UIs for startups and businesses.",
+    description: "Professional React.js development services in Kerala. We build dynamic Single Page Applications (SPAs), interactive dashboards, and fast UIs for your startups.",
     keywords: "React developer Kerala, React.js developer Kerala, React development services Kerala, frontend developer Kerala, React developer Kochi, React developer Kozhikode, React developer Kasaragod, React developer Kannur, hire React developer Kerala, React SPA development Kerala, React component development, React dashboard Kerala, React frontend Kerala, ReactJS developer Kerala, React web app Kerala",
     alternates: { canonical: "https://www.anaghkr.in/react-development/" },
     openGraph: {
         title: "React Developer Kerala | React.js Development Services | ANAGH K R",
-        description: "Professional React.js development — SPAs, admin dashboards, interactive UIs, and component libraries built for performance.",
+        description: "Professional React.js development services in Kerala. We build dynamic Single Page Applications (SPAs), interactive dashboards, and fast UIs for your startups.",
         url: "https://www.anaghkr.in/react-development/",
         type: "website",
         images: [
@@ -23,7 +23,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "React Developer Kerala | ANAGH K R",
-        description: "React.js development services in Kerala — SPAs, dashboards, and modern frontends.",
+        description: "Professional React.js development services in Kerala. We build dynamic Single Page Applications (SPAs), interactive dashboards, and fast UIs for your startups.",
         images: ["https://www.anaghkr.in/assets/services/webdev.webp"],
     },
 };

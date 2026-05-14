@@ -2,40 +2,40 @@ import ServiceComponent from "./ServiceComponent";
 import { Rocket, Target, Users, Zap, ArrowRight, User as UserIcon, Send, Check, Monitor, Code, Smartphone, Globe } from 'lucide-react';
 
 const detailPages = [
-    { title: "Web Development", href: "/web-development/", desc: "Custom websites & web apps" },
-    { title: "MERN Stack", href: "/mern-stack-development/", desc: "MongoDB · Express · React · Node.js" },
-    { title: "Next.js Development", href: "/nextjs-development/", desc: "SSR & SSG React apps" },
-    { title: "React Development", href: "/react-development/", desc: "SPAs & interactive UIs" },
-    { title: "Node.js Development", href: "/nodejs-development/", desc: "Scalable backends & APIs" },
-    { title: "Flutter Apps", href: "/flutter-app-development/", desc: "iOS & Android cross-platform" },
-    { title: "Mobile Apps", href: "/mobile-app-development/", desc: "Full mobile app development" },
-    { title: "WordPress Development", href: "/wordpress-development/", desc: "CMS websites & WooCommerce" },
-    { title: "E-commerce Development", href: "/ecommerce-development/", desc: "Online stores & payment integration" },
-    { title: "Instagram Store Development", href: "/instagram-store-development/", desc: "Social commerce websites & catalogs" },
-    { title: "Dropshipping Website Development", href: "/dropshipping-website-development/", desc: "Trend product store builds" },
-    { title: "Shopify Store Development", href: "/shopify-store-development/", desc: "Shopify setup and optimization" },
-    { title: "Clothing Ecommerce Website", href: "/clothing-ecommerce-website-development/", desc: "Fashion-focused online stores" },
-    { title: "Shoe Store Website", href: "/shoe-store-website-development/", desc: "Footwear ecommerce platforms" },
-    { title: "Electronics Ecommerce Website", href: "/electronics-ecommerce-website-development/", desc: "Gadget and electronics stores" },
-    { title: "Dating App Development", href: "/dating-app-development/", desc: "Safety-first social app builds" },
-    { title: "Chat App Development", href: "/chat-app-development/", desc: "Realtime messaging products" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/web-development/", desc: "Custom websites & web apps" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/mern-stack-development/", desc: "MongoDB · Express · React · Node.js" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/nextjs-development/", desc: "SSR & SSG React apps" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/react-development/", desc: "SPAs & interactive UIs" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/nodejs-development/", desc: "Scalable backends & APIs" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/flutter-app-development/", desc: "iOS & Android cross-platform" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/mobile-app-development/", desc: "Full mobile app development" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/wordpress-development/", desc: "CMS websites & WooCommerce" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/ecommerce-development/", desc: "Online stores & payment integration" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/instagram-store-development/", desc: "Social commerce websites & catalogs" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/dropshipping-website-development/", desc: "Trend product store builds" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/shopify-store-development/", desc: "Shopify setup and optimization" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/clothing-ecommerce-website-development/", desc: "Fashion-focused online stores" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/shoe-store-website-development/", desc: "Footwear ecommerce platforms" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/electronics-ecommerce-website-development/", desc: "Gadget and electronics stores" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/dating-app-development/", desc: "Safety-first social app builds" },
+    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/chat-app-development/", desc: "Realtime messaging products" },
 ];
 
 export const metadata = {
-    title: "Web & Mobile App Services Kerala | ANAGH K R",
-    description: "Professional web development services in Kerala. WordPress, E-commerce, Flutter apps, and MERN stack solutions.",
+    title: "Professional Web & Mobile Development Services | ANAGH K R",
+    description: "Explore professional web development services in Kerala. Custom WordPress sites, E-commerce platforms, MERN stack solutions, and native Flutter applications.",
     keywords: "web development services Kerala, website design services Kerala, freelance web developer Kerala, web designer Kerala, WordPress development Kerala, WooCommerce developer Kerala, e-commerce development Kerala, Shopify developer Kerala, Instagram store development Kerala, dropshipping website development Kerala, clothing ecommerce website Kerala, shoe store website Kerala, electronics ecommerce website Kerala, dating app development Kerala, chat app development Kerala, MERN stack developer Kerala, Flutter app development Kerala, mobile app development Kerala, React developer Kerala, Node.js developer Kerala, web developer Kochi, web developer Calicut, web development services near me, website designer near me, ecommerce developer near me, mobile app developer near me",
     alternates: { canonical: "https://www.anaghkr.in/services/" },
     openGraph: {
-        title: "Web & Mobile App Services Kerala | ANAGH K R",
-        description: "Professional web development, ecommerce, Shopify, Instagram store, and app development services in Kerala.",
+        title: "Professional Web & Mobile Development Services | ANAGH K R",
+        description: "Explore professional web development services in Kerala. Custom WordPress sites, E-commerce platforms, MERN stack solutions, and native Flutter applications.",
         url: "https://www.anaghkr.in/services/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Development Services Kerala | ANAGH K R",
-        description: "Kerala-focused services including websites, ecommerce stores, and mobile app development.",
+        title: "Professional Web & Mobile Development Services | ANAGH K R",
+        description: "Explore professional web development services in Kerala. Custom WordPress sites, E-commerce platforms, MERN stack solutions, and native Flutter applications.",
     },
 };
 
@@ -310,22 +310,22 @@ export default function Services() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {[
                             {
-                                title: 'Affordable Pricing',
+                                title: "Professional Web & Mobile Development Services | ANAGH K R",
                                 desc: 'Competitive rates starting from ₹3,000 for basic websites. Transparent pricing with no hidden costs for Kerala businesses.',
                                 icon: <Target size={24} />
                             },
                             {
-                                title: 'Modern Technology',
+                                title: "Professional Web & Mobile Development Services | ANAGH K R",
                                 desc: 'Latest frameworks like React, Next.js, Flutter ensuring your project is future-proof, fast, and scalable.',
                                 icon: <Code size={24} />
                             },
                             {
-                                title: 'Quick Turnaround',
+                                title: "Professional Web & Mobile Development Services | ANAGH K R",
                                 desc: 'Fast project delivery - basic websites in 1-2 weeks, apps in 6-10 weeks with milestone-based progress updates.',
                                 icon: <Zap size={24} />
                             },
                             {
-                                title: 'Ongoing Support',
+                                title: "Professional Web & Mobile Development Services | ANAGH K R",
                                 desc: 'Post-launch support, bug fixes, updates, and technical assistance to keep your digital presence running smoothly.',
                                 icon: <Users size={24} />
                             }
@@ -407,7 +407,7 @@ export default function Services() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {[
                             {
-                                title: 'Basic Website',
+                                title: "Professional Web & Mobile Development Services | ANAGH K R",
                                 price: '₹3,000',
                                 features: [
                                     'Responsive design',
@@ -419,7 +419,7 @@ export default function Services() {
                                 ]
                             },
                             {
-                                title: 'WordPress Site',
+                                title: "Professional Web & Mobile Development Services | ANAGH K R",
                                 price: '₹4,000',
                                 features: [
                                     'Custom theme setup',
@@ -431,7 +431,7 @@ export default function Services() {
                                 ]
                             },
                             {
-                                title: 'Mobile App',
+                                title: "Professional Web & Mobile Development Services | ANAGH K R",
                                 price: '₹10,000',
                                 features: [
                                     'Flutter (iOS & Android)',

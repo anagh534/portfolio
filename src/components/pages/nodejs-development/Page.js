@@ -3,12 +3,12 @@ import { Plug, Gauge, KeyRound, Radio, Layers, Database } from 'lucide-react';
 
 export const metadata = {
     title: "Node.js Developer Kerala | Backend Services | ANAGH K R",
-    description: "Expert Node.js backend development in Kerala. RESTful APIs, real-time apps, and server-side solutions in Kochi & Calicut.",
+    description: "Expert Node.js backend development in Kerala. Building robust RESTful APIs, high-performance real-time applications, and scalable server-side business solutions.",
     keywords: "Node.js developer Kerala, backend developer Kerala, Express.js developer Kerala, REST API developer Kerala, Node.js development Kochi, Node.js developer Kozhikode, Node.js developer Kasaragod, server side development Kerala, API development Kerala, microservices Kerala, Node.js backend Kerala, hire Node.js developer Kerala, Node.js developer Kannur, Node.js developer Thrissur, backend web development Kerala, JavaScript backend Kerala",
     alternates: { canonical: "https://www.anaghkr.in/nodejs-development/" },
     openGraph: {
         title: "Node.js Developer Kerala | Backend API Development | ANAGH K R",
-        description: "Expert Node.js backend development services — RESTful APIs, microservices, real-time features, and scalable server architecture.",
+        description: "Expert Node.js backend development in Kerala. Building robust RESTful APIs, high-performance real-time applications, and scalable server-side business solutions.",
         url: "https://www.anaghkr.in/nodejs-development/",
         type: "website",
         images: [
@@ -23,7 +23,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Node.js Developer Kerala | ANAGH K R",
-        description: "Backend API and server-side development with Node.js in Kerala.",
+        description: "Expert Node.js backend development in Kerala. Building robust RESTful APIs, high-performance real-time applications, and scalable server-side business solutions.",
         images: ["https://www.anaghkr.in/assets/services/webdev.webp"],
     },
 };

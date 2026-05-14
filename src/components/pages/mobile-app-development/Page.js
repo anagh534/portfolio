@@ -3,12 +3,12 @@ import { Smartphone, Bell, MapPin, MessageSquare, CreditCard, Upload, Layers } f
 
 export const metadata = {
     title: "Mobile App Developer Kerala | iOS & Android Apps | ANAGH K R",
-    description: "Top mobile app developer in Kerala. Quality iOS & Android apps built with Flutter in Kochi, Calicut, and Trivandrum.",
+    description: "Top mobile app developer in Kerala. We build high-quality, native-like iOS & Android applications using Flutter for businesses in Kochi, Calicut, and Trivandrum.",
     keywords: "mobile app developer kerala, app developer kerala, best app developer kerala, iOS app developer kerala, Android app developer kerala, flutter developer kerala, mobile app development kochi, app developer calicut, mobile app developer trivandrum, startup app developer kerala",
     alternates: { canonical: "https://www.anaghkr.in/mobile-app-development/" },
     openGraph: {
         title: "Mobile App Developer Kerala | iOS & Android Apps | ANAGH K R",
-        description: "Professional mobile app development — cross-platform iOS and Android apps using Flutter for businesses across Kerala.",
+        description: "Top mobile app developer in Kerala. We build high-quality, native-like iOS & Android applications using Flutter for businesses in Kochi, Calicut, and Trivandrum.",
         url: "https://www.anaghkr.in/mobile-app-development/",
         type: "website",
         images: [
@@ -23,7 +23,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Mobile App Developer Kerala | ANAGH K R",
-        description: "iOS and Android mobile app development services in Kerala by ANAGH K R.",
+        description: "Top mobile app developer in Kerala. We build high-quality, native-like iOS & Android applications using Flutter for businesses in Kochi, Calicut, and Trivandrum.",
         images: ["https://www.anaghkr.in/assets/services/app.webp"],
     },
 };

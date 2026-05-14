@@ -3,19 +3,19 @@ import { Store, MessageSquare, ShieldCheck, Zap, MapPin, Layers } from 'lucide-r
 
 export const metadata = {
     title: "Clothing Ecommerce Kerala | Fashion Store Expert | ANAGH K R",
-    description: "Clothing ecommerce development in Kerala. Variant management, lookbooks, and mobile-first shopping for fashion brands.",
+    description: "Professional clothing ecommerce development in Kerala. Advanced variant management, lookbooks, and mobile-first shopping experiences for fashion brands.",
     keywords: "clothing ecommerce website kerala, fashion website developer kochi, apparel online store development calicut, boutique ecommerce website kerala",
     alternates: { canonical: "https://www.anaghkr.in/clothing-ecommerce-website-development/" },
     openGraph: {
         title: "Clothing Ecommerce Website Kerala | ANAGH K R",
-        description: "Clothing ecommerce website development with size/variant management, lookbook layouts, offer engines, and mobile-first shopping experiences for Kerala fashion businesses.",
+        description: "Professional clothing ecommerce development in Kerala. Advanced variant management, lookbooks, and mobile-first shopping experiences for fashion brands.",
         url: "https://www.anaghkr.in/clothing-ecommerce-website-development/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Clothing Ecommerce Website Kerala | ANAGH K R",
-        description: "Clothing ecommerce website development with size/variant management, lookbook layouts, offer engines, and mobile-first shopping experiences for Kerala fashion businesses.",
+        description: "Professional clothing ecommerce development in Kerala. Advanced variant management, lookbooks, and mobile-first shopping experiences for fashion brands.",
     },
 };
 

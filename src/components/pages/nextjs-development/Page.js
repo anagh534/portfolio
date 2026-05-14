@@ -3,12 +3,12 @@ import { Server, FileCode, RefreshCw, Plug, ImageIcon, Layout } from 'lucide-rea
 
 export const metadata = {
     title: "Next.js Developer Kerala | SSR & React Expert | ANAGH K R",
-    description: "Expert Next.js developer in Kerala. Server-side rendering, SEO-first React apps, and full-stack solutions for businesses.",
+    description: "Hire an expert Next.js developer in Kerala. We deliver blazing-fast server-side rendering, SEO-first React applications, and full-stack solutions for businesses.",
     keywords: "Next.js developer Kerala, Next.js development services Kerala, Next.js developer Kochi, Next.js developer Kozhikode, Next.js developer Kasaragod, Next.js developer Kannur, server side rendering Kerala, static site generation Kerala, React Next.js developer Kerala, Next.js App Router Kerala, hire Next.js developer Kerala, Next.js SEO development Kerala, Next.js full stack Kerala, SSR web development Kerala, Next.js website Kerala",
     alternates: { canonical: "https://www.anaghkr.in/nextjs-development/" },
     openGraph: {
         title: "Next.js Developer Kerala | SSR React Development | ANAGH K R",
-        description: "Expert Next.js development — server-side rendering, App Router, ISR, and full-stack React applications built for performance and SEO.",
+        description: "Hire an expert Next.js developer in Kerala. We deliver blazing-fast server-side rendering, SEO-first React applications, and full-stack solutions for businesses.",
         url: "https://www.anaghkr.in/nextjs-development/",
         type: "website",
         images: [
@@ -23,7 +23,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Next.js Developer Kerala | ANAGH K R",
-        description: "Next.js development services in Kerala — SSR, ISR, App Router, and full-stack applications.",
+        description: "Hire an expert Next.js developer in Kerala. We deliver blazing-fast server-side rendering, SEO-first React applications, and full-stack solutions for businesses.",
         images: ["https://www.anaghkr.in/assets/services/webdev.webp"],
     },
 };

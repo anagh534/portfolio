@@ -3,19 +3,19 @@ import { Store, MessageSquare, ShieldCheck, Zap, MapPin, Layers } from 'lucide-r
 
 export const metadata = {
     title: "Shoe Store Website Kerala | Footwear Ecommerce | ANAGH K R",
-    description: "Shoe store website development in Kerala. Variant architecture, fit guidance, and high-speed product pages.",
+    description: "Custom shoe store website development in Kerala. Advanced product variant architecture, accurate fit guidance tools, and lightning-fast product rendering.",
     keywords: "shoe store website development kerala, footwear ecommerce developer kochi, sneaker store website calicut, online shoe shop development india",
     alternates: { canonical: "https://www.anaghkr.in/shoe-store-website-development/" },
     openGraph: {
         title: "Shoe Store Website Development Kerala | ANAGH K R",
-        description: "Shoe store website development with variant-heavy product architecture, fit guidance, and high-speed product pages to improve checkout completion for Kerala retailers.",
+        description: "Custom shoe store website development in Kerala. Advanced product variant architecture, accurate fit guidance tools, and lightning-fast product rendering.",
         url: "https://www.anaghkr.in/shoe-store-website-development/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Shoe Store Website Development Kerala | ANAGH K R",
-        description: "Shoe store website development with variant-heavy product architecture, fit guidance, and high-speed product pages to improve checkout completion for Kerala retailers.",
+        description: "Custom shoe store website development in Kerala. Advanced product variant architecture, accurate fit guidance tools, and lightning-fast product rendering.",
     },
 };
 
