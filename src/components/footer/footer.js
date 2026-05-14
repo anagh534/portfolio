@@ -313,10 +313,10 @@ const Footer = () => {
 
                     {/* ─── Bottom bar ─── */}
                     <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-                        <p className="text-xs text-gray-500 font-medium tracking-wider">
+                        <p className="text-xs text-gray-400 font-medium tracking-wider">
                             © {currentYear} ANAGH K R. ALL RIGHTS RESERVED.
                         </p>
-                        <p className="text-xs text-gray-500 flex items-center gap-1.5 tracking-wider">
+                        <p className="text-xs text-gray-400 flex items-center gap-1.5 tracking-wider">
                             MADE WITH <Heart size={11} className="text-red-500 fill-current" /> BY ANAGH
                         </p>
                     </div>
