@@ -42,8 +42,8 @@ This report contains the On-Page SEO audit for all pages in the portfolio.
 
 ### Page: `/dropshipping-website-development/`
 - **Canonical URL:** https://www.anaghkr.in/dropshipping-website-development/
-- **Title Tag (58 chars):** ✅ Dropshipping Website Kerala | Automated Stores | ANAGH K R
-- **Meta Description (153 chars):** ✅ Specialized dropshipping website development in Kerala. Automated supplier integration, optimized catalog structure, and conversion-focused store design.
+- **Title Tag (53 chars):** ✅ Dropshipping in Kerala | Automated Stores | ANAGH K R
+- **Meta Description (156 chars):** ✅ Launch a highly profitable dropshipping business in Kerala. Get automated supplier integration, custom Shopify setup, and conversion-optimized store design.
 - **H1 Tag:** ❌ None
 
 ### Page: `/ecommerce-development/`

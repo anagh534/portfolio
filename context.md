@@ -1,6 +1,6 @@
 # SEO Audit Context
 
-**Last Updated:** 2026-05-14 22:36:57
+**Last Updated:** 2026-05-28 13:42:00
 
 This file tracks the SEO status and tasks for every page in the portfolio.
 
@@ -73,7 +73,7 @@ The following 6 issue categories from Google Search Console have been diagnosed,
 - **Symptom:** Google flagged Kollam as thin templated doorway content.
 - **Resolution:** Customized the Kollam landing page to include highly specific regional hooks (Chinnakada, Ashtamudi Lake, cashew export networks, and local logistics) to break boilerplate structures.
 
-## Keyword Strategy (Updated 2026-05-03)
+## Keyword Strategy (Updated 2026-05-28)
 
 ### Removed Keywords
 - `flutter training calicut` / `flutter training in calicut` (user does not offer training)
@@ -83,7 +83,7 @@ The following 6 issue categories from Google Search Console have been diagnosed,
 - `react kr latest` (unclear intent)
 - `cloudflare` / `sanity cms` (tool names, not buyer intent)
 - `storedada e commerce solution ernakulam` (competitor brand)
-- `dropshipping in kerala` / `kerala dropshipping` (buyer/seller intent, not client)
+- `kerala dropshipping` (buyer/seller intent, not service)
 - `ar app development services ernakulam` (not offered)
 - `web designer near me` / `app developer near me` (too generic)
 - `ios developer kerala` / `android developer kerala` (covered under flutter/mobile)
@@ -100,6 +100,7 @@ The following 6 issue categories from Google Search Console have been diagnosed,
 9. `app development company in kerala`
 10. `web development in thrissur`
 11. `custom web development in kerala`
+12. `dropshipping in kerala` (Optimized May 28, 2026 - Exact Match Title, H2, FAQ Schema, and Premium Localized Guide Content)
 
 ## Page-Specific Checklist
 Each page must be checked against the following criteria:

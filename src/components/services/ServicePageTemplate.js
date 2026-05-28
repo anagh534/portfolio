@@ -14,7 +14,8 @@ export default function ServicePageTemplate({
     process,
     faqs,
     relatedServices,
-    schemaData
+    schemaData,
+    extraContent
 }) {
     const [openFaq, setOpenFaq] = useState(null);
 
@@ -160,6 +161,15 @@ export default function ServicePageTemplate({
                                 </div>
                             ))}
                         </div>
+                    </div>
+                </section>
+            )}
+
+            {/* ── Extra Content ── */}
+            {extraContent && (
+                <section className="py-24 bg-black border-b border-white/5">
+                    <div className="max-w-4xl mx-auto px-6 animate-fade-in">
+                        {extraContent}
                     </div>
                 </section>
             )}
