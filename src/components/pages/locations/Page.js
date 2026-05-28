@@ -27,89 +27,110 @@ export default function Locations() {
         {
             name: "Kochi",
             district: "Ernakulam",
-            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
+            description: "Premium website development, e-commerce stores, and high-performance Flutter mobile apps in Kochi. Powering IT startups and trade brands with sub-second speeds.",
             services: ["Business Websites", "E-commerce Development", "Mobile App Development"],
             highlights: ["Commercial Hub", "Startup Activity", "Digital Growth"]
         },
         {
             name: "Thiruvananthapuram",
             district: "Thiruvananthapuram",
-            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
+            description: "Professional Next.js web systems and Flutter mobile apps optimized for Technopark startups, corporate entities, and Trivandrum's premium service brands.",
             services: ["Web Applications", "WordPress Solutions", "Mobile Apps"],
             highlights: ["IT Ecosystem", "Service Sector", "Local SEO Demand"]
         },
         {
             name: "Kozhikode",
             district: "Kozhikode",
-            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
+            description: "Custom web portals and Flutter mobile apps tailored for Kozhikode's trading houses, retail networks, Cyberpark startups, and food brands.",
             services: ["Website Development", "E-commerce Setup", "SEO Optimization"],
             highlights: ["Malabar Market", "Retail Growth", "Mobile-First Audience"]
         },
         {
             name: "Thrissur",
             district: "Thrissur",
-            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
+            description: "Stunning custom website designs, fast e-commerce setups, and Flutter mobile apps for Thrissur's gold showrooms, textile leaders, and academies.",
             services: ["Custom Websites", "Mobile App Development", "Business Automation"],
             highlights: ["Retail Economy", "Service Sector", "Digital Expansion"]
         },
         {
             name: "Ernakulam",
             district: "Ernakulam",
-            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
+            description: "Custom web development and local SEO campaigns for Ernakulam companies. Get top rankings, MERN stack dashboards, and clean, modular code.",
             services: ["Web Development", "MERN Stack Apps", "Technical SEO"],
             highlights: ["Urban Business Base", "High Competition", "SEO Opportunity"]
         },
         {
             name: "Calicut",
             district: "Kozhikode",
-            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
+            description: "High-performance React/Next.js corporate sites and secure local e-commerce stores in Calicut. Engineered to rank first and convert visits into sales.",
             services: ["Business Websites", "E-commerce Stores", "Performance Optimization"],
             highlights: ["Local Commerce", "Online Selling", "Search Visibility"]
         },
         {
             name: "Kannur",
             district: "Kannur",
-            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
+            description: "Custom website development, fast WordPress setups, and regional lead generation campaigns for local handlooms, exports, and academies in Kannur.",
             services: ["Website Development", "App MVPs", "WordPress Services"],
             highlights: ["Regional Businesses", "Growing Digital Demand", "Lead Generation"]
         },
         {
             name: "Kasaragod",
             district: "Kasaragod",
-            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
+            description: "SEO-optimized websites and Flutter apps for Kasaragod brands. Leverage local search tactics to drive inquiries from Kasaragod to Kanhangad.",
             services: ["Responsive Websites", "E-commerce Setup", "SEO Foundations"],
             highlights: ["Local Brand Growth", "Affordable Digital Entry", "Regional SEO"]
         },
         {
             name: "Kollam",
             district: "Kollam",
-            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
+            description: "Custom business websites and responsive Flutter applications for Kollam cashew exporters, clay product developers, and Ashtamudi lakeside resorts.",
             services: ["Business Websites", "Mobile Apps", "Workflow Tools"],
             highlights: ["Industry + Services", "Operational Efficiency", "Digital Presence"]
         },
         {
             name: "Palakkad",
             district: "Palakkad",
-            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
+            description: "Fast-loading corporate portals and e-commerce checkouts for Palakkad agricultural processors, factories, and town retail hubs.",
             services: ["Website Development", "WordPress", "E-commerce"],
             highlights: ["SME Growth", "Service Demand", "SEO Opportunity"]
         },
         {
             name: "Kanhangad",
             district: "Kasaragod",
-            description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
+            description: "Targeted digital websites and local SEO setups designed specifically for retail stores and commercial centers in Kanhangad.",
             services: ["Business Websites", "App MVPs", "SEO Setup"],
             highlights: ["Local Market", "Digital Adoption", "Lead-Focused Websites"]
+        },
+        {
+            name: "Mangalore",
+            district: "Dakshina Kannada",
+            description: "Professional website development, mobile app development, and technical local SEO services in Mangalore. High-performance custom digital growth solutions.",
+            services: ["Custom Websites", "Flutter Mobile Apps", "Local SEO Campaign"],
+            highlights: ["Port City Hub", "Banking & Education", "Coastal Commerce"]
+        },
+        {
+            name: "Coimbatore",
+            district: "Coimbatore",
+            description: "Professional website development, mobile app development, and technical local SEO services in Coimbatore. Scaling industrial and digital enterprises.",
+            services: ["Industrial Portals", "Flutter Mobile Apps", "WordPress Setup"],
+            highlights: ["Manchester of South", "Industrial Base", "IT SEZ Presence"]
+        },
+        {
+            name: "Chennai",
+            district: "Chennai",
+            description: "Professional web application development, Flutter mobile app engineering, and technical local SEO in Chennai. Enterprise-grade custom digital solutions.",
+            services: ["Full Stack SaaS", "Flutter App Engineering", "WordPress Enterprise"],
+            highlights: ["Detroit of Asia", "Major IT Ecosystem", "SaaS Innovation"]
         }
     ];
 
     const services = [
-        { icon: <Laptop size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Business-focused websites with clean UI, responsive design, and conversion-oriented layout." },
-        { icon: <Layout size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Editable, SEO-friendly WordPress websites for businesses that need easy content management." },
-        { icon: <Smartphone size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Flutter app development for iOS and Android with practical business-ready features." },
-        { icon: <ShoppingCart size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Online stores with product management, checkout, and payment integration." },
-        { icon: <Code size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Custom web applications and dashboards built with modern full-stack technologies." },
-        { icon: <Search size={24} />, title: "Web & Mobile App Development Services in Kerala | ANAGH K R", desc: "Technical SEO setup including metadata, schema, internal links, and performance improvements." }
+        { icon: <Laptop size={24} />, title: "Custom Web Development", desc: "Business-focused websites with clean UI, responsive design, and conversion-oriented layout." },
+        { icon: <Layout size={24} />, title: "WordPress Development", desc: "Editable, SEO-friendly WordPress websites for businesses that need easy content management." },
+        { icon: <Smartphone size={24} />, title: "Flutter App Development", desc: "Flutter app development for iOS and Android with practical business-ready features." },
+        { icon: <ShoppingCart size={24} />, title: "E-commerce Development", desc: "Online stores with product management, checkout, and payment integration." },
+        { icon: <Code size={24} />, title: "MERN Stack Applications", desc: "Custom web applications and dashboards built with modern full-stack technologies." },
+        { icon: <Search size={24} />, title: "Technical SEO & Speed", desc: "Technical SEO setup including metadata, schema, internal links, and performance improvements." }
     ];
 
     return (

@@ -1,21 +1,21 @@
 export const metadata = {
-    title: "Web Development Services in Kollam, Kerala | ANAGH K R",
-    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kollam, Kerala. SEO-focused and conversion-ready solutions.",
-    keywords: "web developer Kollam, website development Kollam, ecommerce development Kollam, mobile app development Kollam, WordPress developer Kollam",
+    title: "Flutter & Website Developer in Kollam | ANAGH K R",
+    description: "Professional website developer and mobile app (Flutter) expert in Kollam, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+    keywords: "website developer kollam, flutter developer kollam, web developer kollam, mobile app development kollam, WordPress kollam, local SEO kollam",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/kollam/",
     },
     openGraph: {
-        title: "Web Development Services in Kollam | ANAGH K R",
-        description: "Website development, ecommerce, and mobile app services in Kollam, Kerala with professional delivery and clear communication.",
+        title: "Flutter & Website Developer in Kollam | ANAGH K R",
+        description: "Professional website developer and mobile app (Flutter) expert in Kollam, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
         url: "https://www.anaghkr.in/locations/kollam/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Development Services in Kollam | ANAGH K R",
-        description: "Professional website and app development services in Kollam, Kerala.",
+        title: "Flutter & Website Developer in Kollam | ANAGH K R",
+        description: "Professional website developer and mobile app (Flutter) expert in Kollam, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
     },
 };
 
@@ -25,7 +25,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Kollam",
-    "description": "Professional website development, ecommerce development, and mobile app development services in Kollam, Kerala.",
+    "description": "Professional website development, e-commerce solutions, and Flutter mobile app development in Kollam, Kerala.",
     "url": "https://www.anaghkr.in/locations/kollam/",
     "telephone": "+91-8281571805",
     "email": "anaghkrkkl@gmail.com",
@@ -46,22 +46,22 @@ export default function KollamServices() {
         {
             icon: "fas fa-building",
             title: "Local Market Fit",
-            description: "Mixed industrial and service economy"
+            description: "Custom digital solutions built specifically for Kollam's cashew export houses, clay product plants, and Ashtamudi resorts."
         },
         {
             icon: "fas fa-chart-line",
             title: "Digital Growth Opportunity",
-            description: "Local retailers expanding online"
+            description: "Unlocking profitable online sales channels and modern digital lead generation setups for Kollam businesses."
         },
         {
             icon: "fas fa-mobile-alt",
             title: "Mobile-First Demand",
-            description: "Demand for business automation"
+            description: "Engineering top-performing cross-platform Flutter applications to connect with Kollam's highly active mobile consumer demographic."
         },
         {
             icon: "fas fa-globe",
             title: "SEO Visibility",
-            description: "Growth in digital lead generation"
+            description: "On-page and technical search engine optimization to guarantee your company places at the top of local Google searches in Kollam."
         }
     ];
 
@@ -69,38 +69,38 @@ export default function KollamServices() {
         {
             icon: "fas fa-laptop-code",
             title: "Custom Website Development",
-            description: "Modern, responsive websites for Kollam businesses with clear messaging, conversion-focused layouts, and technical SEO foundations.",
-            features: ["Responsive Design", "SEO Structure", "Fast Loading", "Clear CTAs"]
+            description: "Premium custom web development in Kollam using React and Next.js. I design high-performance, fast-loading, and responsive business portals tailored to your brand.",
+            features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
         },
         {
             icon: "fas fa-shopping-cart",
             title: "E-commerce Development",
-            description: "Online store setups with product catalog, secure checkout, payment integration, and order workflow suitable for local businesses.",
-            features: ["Product Catalog", "Secure Payments", "Order Flow", "Mobile Checkout"]
+            description: "Build secure, robust e-commerce stores in Kollam with fully integrated payment options, automated inventory sync, and conversion-optimized mobile checkouts.",
+            features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
         },
         {
             icon: "fab fa-flutter",
             title: "Mobile App Development",
-            description: "Flutter-based mobile apps for Android and iOS with practical business features, dashboard integration, and scalable structure.",
-            features: ["Flutter Apps", "API Integration", "Push Notifications", "App Store Support"]
+            description: "Hire a professional Flutter developer in Kollam to engineer native-performing iOS & Android mobile apps. Serving enterprises from Chinnakada to Beach.",
+            features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
         },
         {
             icon: "fab fa-wordpress",
             title: "WordPress Development",
-            description: "Professional WordPress websites with editable content sections, optimized page speed, and clean on-page SEO setup.",
-            features: ["Custom Theme Setup", "Easy Editing", "Performance", "SEO Basics"]
+            description: "Get custom WordPress websites and landing pages for Kollam's academies, local service centers, showrooms, and health clinics.",
+            features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
         },
         {
             icon: "fas fa-database",
             title: "MERN Stack Development",
-            description: "Custom web apps using MongoDB, Express, React, and Node.js for dashboards, workflows, and business automation.",
-            features: ["Custom Dashboard", "API Architecture", "Role Access", "Scalable Code"]
+            description: "Custom web dashboards, secure MERN stack web applications, and database integrations tailored for Kollam startups and service platforms.",
+            features: ["Custom Dashboards", "API Architectures", "Secure Roles", "Scalable Mongo/Node databases"]
         },
         {
             icon: "fas fa-search",
             title: "SEO and Performance",
-            description: "Technical SEO improvements including metadata quality, internal linking, schema setup, and page speed optimization.",
-            features: ["Technical SEO", "Schema Setup", "Core Web Vitals", "Local SEO"]
+            description: "Rank higher locally with custom local search optimization campaigns, structural JSON-LD schemas, and extreme site speed optimization targeting Kollam search terms.",
+            features: ["Local GEO Audits", "Structured Schemas", "Core Web Vitals", "Keyword Research"]
         }
     ];
 

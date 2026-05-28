@@ -164,24 +164,27 @@ Each page must be checked against the following criteria:
 - [x] src/pages/resume — Live professional resume page (indexed, SEO-optimized)
 
 ### Locations
-- [x] src/components/pages/locations
-- [x] src/components/pages/locations/kochi
-- [x] src/components/pages/locations/calicut
-- [x] src/components/pages/locations/kozhikode
-- [x] src/components/pages/locations/ernakulam
-- [x] src/components/pages/locations/thiruvananthapuram
-- [x] src/components/pages/locations/kollam
-- [x] src/components/pages/locations/palakkad
-- [x] src/components/pages/locations/thrissur
-- [x] src/components/pages/locations/kannur
-- [x] src/components/pages/locations/kasaragod
-- [x] src/components/pages/locations/kanhangad
+- [x] src/components/pages/locations — Redesigned with custom localized listings and core service labels
+- [x] src/components/pages/locations/kochi — Fully optimized for flutter developer kochi and website developer kochi
+- [x] src/components/pages/locations/calicut — Fully optimized for website developer calicut and flutter developer calicut
+- [x] src/components/pages/locations/kozhikode — Fully optimized for website developer kozhikode and flutter developer kozhikode
+- [x] src/components/pages/locations/ernakulam — Fully optimized for website developer ernakulam and flutter developer ernakulam
+- [x] src/components/pages/locations/thiruvananthapuram — Fully optimized for website developer trivandrum and flutter developer trivandrum
+- [x] src/components/pages/locations/kollam — Fully optimized for website developer kollam and flutter developer kollam
+- [x] src/components/pages/locations/palakkad — Fully optimized for website developer palakkad and flutter developer palakkad
+- [x] src/components/pages/locations/thrissur — Fully optimized for website developer thrissur and flutter developer thrissur
+- [x] src/components/pages/locations/kannur — Fully optimized for website developer kannur and flutter developer kannur
+- [x] src/components/pages/locations/kasaragod — Fully optimized for website developer kasaragod and flutter developer kasaragod
+- [x] src/components/pages/locations/kanhangad — Fully optimized for website developer kanhangad and flutter developer kanhangad
+- [x] src/components/pages/locations/mangalore [NEW] — Fully optimized for website developer mangalore and flutter developer mangalore
+- [x] src/components/pages/locations/coimbatore [NEW] — Fully optimized for website developer coimbatore and flutter developer coimbatore
+- [x] src/components/pages/locations/chennai [NEW] — Fully optimized for website developer chennai and flutter developer chennai
 
 ## Recommended Next Steps (Not Yet Implemented)
 - [ ] Add `preload` for LCP hero image in `BaseLayout.astro`
 - [ ] Add breadcrumb JSON-LD schema to service pages
-- [ ] Create flutter city landing pages: /locations/kochi/flutter-developer/, /locations/calicut/flutter-developer/
 - [ ] Write blog post: "Flutter Developer Kerala 2026 — How to Choose"
 - [ ] Add sitemap ping step to GitHub Actions deploy.yml
 - [ ] Ping Google Search Console to resubmit sitemap after this deploy
 - [ ] Mark resolved 404 URLs in GSC: use "Validate Fix" after deploy
+

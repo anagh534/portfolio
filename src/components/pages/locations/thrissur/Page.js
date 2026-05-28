@@ -1,21 +1,21 @@
 export const metadata = {
-    title: "Web Development Services in Thrissur, Kerala | ANAGH K R",
-    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Thrissur, Kerala. SEO-focused and conversion-ready solutions.",
-    keywords: "web developer Thrissur, website development Thrissur, ecommerce development Thrissur, mobile app development Thrissur, WordPress developer Thrissur",
+    title: "Flutter & Website Developer in Thrissur | ANAGH K R",
+    description: "Professional website developer and mobile app (Flutter) expert in Thrissur, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+    keywords: "website developer thrissur, flutter developer thrissur, web developer thrissur, mobile app development thrissur, WordPress thrissur, local SEO thrissur",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/thrissur/",
     },
     openGraph: {
-        title: "Web Development Services in Thrissur | ANAGH K R",
-        description: "Website development, ecommerce, and mobile app services in Thrissur, Kerala with professional delivery and clear communication.",
+        title: "Flutter & Website Developer in Thrissur | ANAGH K R",
+        description: "Professional website developer and mobile app (Flutter) expert in Thrissur, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
         url: "https://www.anaghkr.in/locations/thrissur/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Development Services in Thrissur | ANAGH K R",
-        description: "Professional website and app development services in Thrissur, Kerala.",
+        title: "Flutter & Website Developer in Thrissur | ANAGH K R",
+        description: "Professional website developer and mobile app (Flutter) expert in Thrissur, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
     },
 };
 
@@ -25,7 +25,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Thrissur",
-    "description": "Professional website development, ecommerce development, and mobile app development services in Thrissur, Kerala.",
+    "description": "Professional website development, e-commerce solutions, and Flutter mobile app development in Thrissur, Kerala.",
     "url": "https://www.anaghkr.in/locations/thrissur/",
     "telephone": "+91-8281571805",
     "email": "anaghkrkkl@gmail.com",
@@ -46,22 +46,22 @@ export default function ThrissurServices() {
         {
             icon: "fas fa-building",
             title: "Local Market Fit",
-            description: "Strong retail and service economy"
+            description: "Custom digital solutions built specifically for Thrissur's major gold showrooms, textile empires, and local corporate head offices."
         },
         {
             icon: "fas fa-chart-line",
             title: "Digital Growth Opportunity",
-            description: "Demand for event and booking platforms"
+            description: "Unlocking profitable online sales channels and modern digital lead generation setups for Thrissur businesses."
         },
         {
             icon: "fas fa-mobile-alt",
             title: "Mobile-First Demand",
-            description: "Growing ecommerce adoption"
+            description: "Engineering top-performing cross-platform Flutter applications to connect with Thrissur's active mobile consumer demographic."
         },
         {
             icon: "fas fa-globe",
             title: "SEO Visibility",
-            description: "Local brands scaling digitally"
+            description: "On-page and technical search engine optimization to guarantee your company places at the top of local Google searches in Thrissur."
         }
     ];
 
@@ -69,38 +69,38 @@ export default function ThrissurServices() {
         {
             icon: "fas fa-laptop-code",
             title: "Custom Website Development",
-            description: "Modern, responsive websites for Thrissur businesses with clear messaging, conversion-focused layouts, and technical SEO foundations.",
-            features: ["Responsive Design", "SEO Structure", "Fast Loading", "Clear CTAs"]
+            description: "Premium custom web development in Thrissur using React and Next.js. I design high-performance, fast-loading, and responsive business portals tailored to your brand.",
+            features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
         },
         {
             icon: "fas fa-shopping-cart",
             title: "E-commerce Development",
-            description: "Online store setups with product catalog, secure checkout, payment integration, and order workflow suitable for local businesses.",
-            features: ["Product Catalog", "Secure Payments", "Order Flow", "Mobile Checkout"]
+            description: "Build secure, robust e-commerce stores in Thrissur with fully integrated payment options, automated inventory sync, and conversion-optimized mobile checkouts.",
+            features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
         },
         {
             icon: "fab fa-flutter",
             title: "Mobile App Development",
-            description: "Flutter-based mobile apps for Android and iOS with practical business features, dashboard integration, and scalable structure.",
-            features: ["Flutter Apps", "API Integration", "Push Notifications", "App Store Support"]
+            description: "Hire a professional Flutter developer in Thrissur to engineer native-performing iOS & Android mobile apps. Serving enterprises from Round West to Guruvayur.",
+            features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
         },
         {
             icon: "fab fa-wordpress",
             title: "WordPress Development",
-            description: "Professional WordPress websites with editable content sections, optimized page speed, and clean on-page SEO setup.",
-            features: ["Custom Theme Setup", "Easy Editing", "Performance", "SEO Basics"]
+            description: "Get custom WordPress websites and landing pages for Thrissur's academies, local service centers, showrooms, and health clinics.",
+            features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
         },
         {
             icon: "fas fa-database",
             title: "MERN Stack Development",
-            description: "Custom web apps using MongoDB, Express, React, and Node.js for dashboards, workflows, and business automation.",
-            features: ["Custom Dashboard", "API Architecture", "Role Access", "Scalable Code"]
+            description: "Custom web dashboards, secure MERN stack web applications, and database integrations tailored for Thrissur startups and service platforms.",
+            features: ["Custom Dashboards", "API Architectures", "Secure Roles", "Scalable Mongo/Node databases"]
         },
         {
             icon: "fas fa-search",
             title: "SEO and Performance",
-            description: "Technical SEO improvements including metadata quality, internal linking, schema setup, and page speed optimization.",
-            features: ["Technical SEO", "Schema Setup", "Core Web Vitals", "Local SEO"]
+            description: "Rank higher locally with custom local search optimization campaigns, structural JSON-LD schemas, and extreme site speed optimization targeting Thrissur search terms.",
+            features: ["Local GEO Audits", "Structured Schemas", "Core Web Vitals", "Keyword Research"]
         }
     ];
 

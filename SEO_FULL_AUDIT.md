@@ -84,68 +84,86 @@ This report contains the On-Page SEO audit for all pages in the portfolio.
 
 ### Page: `/locations/calicut/`
 - **Canonical URL:** https://www.anaghkr.in/locations/calicut/
-- **Title Tag (55 chars):** ✅ Web Development Services in Calicut, Kerala | ANAGH K R
-- **Meta Description (159 chars):** ✅ Professional web development, ecommerce website, WordPress, and mobile app development services in Calicut, Kerala. SEO-focused and conversion-ready solutions.
+- **Title Tag (50 chars):** ✅ Flutter & Website Developer in Calicut | ANAGH K R
+- **Meta Description (146 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Calicut, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.
+- **H1 Tag:** ❌ None
+
+### Page: `/locations/chennai/`
+- **Canonical URL:** https://www.anaghkr.in/locations/chennai/
+- **Title Tag (50 chars):** ✅ Flutter & Website Developer in Chennai | ANAGH K R
+- **Meta Description (147 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Chennai. Get high-converting e-commerce, custom web apps, and targeted local SEO.
+- **H1 Tag:** ❌ None
+
+### Page: `/locations/coimbatore/`
+- **Canonical URL:** https://www.anaghkr.in/locations/coimbatore/
+- **Title Tag (53 chars):** ✅ Flutter & Website Developer in Coimbatore | ANAGH K R
+- **Meta Description (150 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Coimbatore. Get high-converting e-commerce, custom web apps, and targeted local SEO.
 - **H1 Tag:** ❌ None
 
 ### Page: `/locations/ernakulam/`
 - **Canonical URL:** https://www.anaghkr.in/locations/ernakulam/
-- **Title Tag (57 chars):** ✅ Web Development Services in Ernakulam, Kerala | ANAGH K R
-- **Meta Description (153 chars):** ✅ Professional web development, ecommerce website, WordPress, and mobile app development services in Ernakulam. SEO-focused and conversion-ready solutions.
+- **Title Tag (52 chars):** ✅ Flutter & Website Developer in Ernakulam | ANAGH K R
+- **Meta Description (148 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Ernakulam, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.
 - **H1 Tag:** ❌ None
 
 ### Page: `/locations/kanhangad/`
 - **Canonical URL:** https://www.anaghkr.in/locations/kanhangad/
-- **Title Tag (57 chars):** ✅ Web Development Services in Kanhangad, Kerala | ANAGH K R
-- **Meta Description (153 chars):** ✅ Professional web development, ecommerce website, WordPress, and mobile app development services in Kanhangad. SEO-focused and conversion-ready solutions.
+- **Title Tag (52 chars):** ✅ Flutter & Website Developer in Kanhangad | ANAGH K R
+- **Meta Description (148 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Kanhangad, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.
 - **H1 Tag:** ❌ None
 
 ### Page: `/locations/kannur/`
 - **Canonical URL:** https://www.anaghkr.in/locations/kannur/
-- **Title Tag (54 chars):** ✅ Web Development Services in Kannur, Kerala | ANAGH K R
-- **Meta Description (158 chars):** ✅ Professional web development, ecommerce website, WordPress, and mobile app development services in Kannur, Kerala. SEO-focused and conversion-ready solutions.
+- **Title Tag (49 chars):** ⚠️ Flutter & Website Developer in Kannur | ANAGH K R
+- **Meta Description (145 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Kannur, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.
 - **H1 Tag:** ❌ None
 
 ### Page: `/locations/kasaragod/`
 - **Canonical URL:** https://www.anaghkr.in/locations/kasaragod/
-- **Title Tag (57 chars):** ✅ Web Development Services in Kasaragod, Kerala | ANAGH K R
-- **Meta Description (153 chars):** ✅ Professional web development, ecommerce website, WordPress, and mobile app development services in Kasaragod. SEO-focused and conversion-ready solutions.
+- **Title Tag (52 chars):** ✅ Flutter & Website Developer in Kasaragod | ANAGH K R
+- **Meta Description (148 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Kasaragod, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.
 - **H1 Tag:** ❌ None
 
 ### Page: `/locations/kochi/`
 - **Canonical URL:** https://www.anaghkr.in/locations/kochi/
-- **Title Tag (53 chars):** ✅ Web Development Services in Kochi, Kerala | ANAGH K R
-- **Meta Description (157 chars):** ✅ Professional web development, ecommerce website, WordPress, and mobile app development services in Kochi, Kerala. SEO-focused and conversion-ready solutions.
+- **Title Tag (48 chars):** ⚠️ Flutter & Website Developer in Kochi | ANAGH K R
+- **Meta Description (144 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Kochi, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.
 - **H1 Tag:** ❌ None
 
 ### Page: `/locations/kollam/`
 - **Canonical URL:** https://www.anaghkr.in/locations/kollam/
-- **Title Tag (54 chars):** ✅ Web Development Services in Kollam, Kerala | ANAGH K R
-- **Meta Description (158 chars):** ✅ Professional web development, ecommerce website, WordPress, and mobile app development services in Kollam, Kerala. SEO-focused and conversion-ready solutions.
+- **Title Tag (49 chars):** ⚠️ Flutter & Website Developer in Kollam | ANAGH K R
+- **Meta Description (145 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Kollam, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.
 - **H1 Tag:** ❌ None
 
 ### Page: `/locations/kozhikode/`
 - **Canonical URL:** https://www.anaghkr.in/locations/kozhikode/
-- **Title Tag (57 chars):** ✅ Web Development Services in Kozhikode, Kerala | ANAGH K R
-- **Meta Description (153 chars):** ✅ Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.
+- **Title Tag (52 chars):** ✅ Flutter & Website Developer in Kozhikode | ANAGH K R
+- **Meta Description (148 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Kozhikode, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.
+- **H1 Tag:** ❌ None
+
+### Page: `/locations/mangalore/`
+- **Canonical URL:** https://www.anaghkr.in/locations/mangalore/
+- **Title Tag (52 chars):** ✅ Flutter & Website Developer in Mangalore | ANAGH K R
+- **Meta Description (149 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Mangalore. Get high-converting e-commerce, custom web apps, and targeted local SEO.
 - **H1 Tag:** ❌ None
 
 ### Page: `/locations/palakkad/`
 - **Canonical URL:** https://www.anaghkr.in/locations/palakkad/
-- **Title Tag (56 chars):** ✅ Web Development Services in Palakkad, Kerala | ANAGH K R
-- **Meta Description (160 chars):** ✅ Professional web development, ecommerce website, WordPress, and mobile app development services in Palakkad, Kerala. SEO-focused and conversion-ready solutions.
+- **Title Tag (51 chars):** ✅ Flutter & Website Developer in Palakkad | ANAGH K R
+- **Meta Description (147 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Palakkad, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.
 - **H1 Tag:** ❌ None
 
 ### Page: `/locations/thiruvananthapuram/`
 - **Canonical URL:** https://www.anaghkr.in/locations/thiruvananthapuram/
-- **Title Tag (58 chars):** ✅ Web Development Services in Thiruvananthapuram | ANAGH K R
-- **Meta Description (150 chars):** ✅ Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.
+- **Title Tag (53 chars):** ✅ Flutter & Website Developer in Trivandrum | ANAGH K R
+- **Meta Description (157 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Thiruvananthapuram, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.
 - **H1 Tag:** ❌ None
 
 ### Page: `/locations/thrissur/`
 - **Canonical URL:** https://www.anaghkr.in/locations/thrissur/
-- **Title Tag (56 chars):** ✅ Web Development Services in Thrissur, Kerala | ANAGH K R
-- **Meta Description (160 chars):** ✅ Professional web development, ecommerce website, WordPress, and mobile app development services in Thrissur, Kerala. SEO-focused and conversion-ready solutions.
+- **Title Tag (51 chars):** ✅ Flutter & Website Developer in Thrissur | ANAGH K R
+- **Meta Description (147 chars):** ✅ Professional website developer and mobile app (Flutter) expert in Thrissur, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.
 - **H1 Tag:** ❌ None
 
 ### Page: `/mern-stack-development/`

@@ -1,21 +1,21 @@
 export const metadata = {
-    title: "Web Development Services in Calicut, Kerala | ANAGH K R",
-    description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Calicut, Kerala. SEO-focused and conversion-ready solutions.",
-    keywords: "web developer Calicut, website development Calicut, ecommerce website Calicut, mobile app developer Calicut, WordPress Calicut",
+    title: "Flutter & Website Developer in Calicut | ANAGH K R",
+    description: "Professional website developer and mobile app (Flutter) expert in Calicut, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+    keywords: "website developer calicut, flutter developer calicut, web developer calicut, mobile app development calicut, WordPress calicut, local SEO calicut",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/calicut/",
     },
     openGraph: {
-        title: "Web Development Services in Calicut | ANAGH K R",
-        description: "Website development, ecommerce, and mobile app services in Calicut, Kerala with professional delivery and clear communication.",
+        title: "Flutter & Website Developer in Calicut | ANAGH K R",
+        description: "Professional website developer and mobile app (Flutter) expert in Calicut, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
         url: "https://www.anaghkr.in/locations/calicut/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web Development Services in Calicut | ANAGH K R",
-        description: "Professional website and app development services in Calicut, Kerala.",
+        title: "Flutter & Website Developer in Calicut | ANAGH K R",
+        description: "Professional website developer and mobile app (Flutter) expert in Calicut, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
     },
 };
 
@@ -25,7 +25,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Calicut",
-    "description": "Professional website development, ecommerce development, and mobile app development services in Calicut, Kerala.",
+    "description": "Professional website development, e-commerce solutions, and Flutter mobile app development in Calicut, Kerala.",
     "url": "https://www.anaghkr.in/locations/calicut/",
     "telephone": "+91-8281571805",
     "email": "anaghkrkkl@gmail.com",
@@ -46,22 +46,22 @@ export default function CalicutServices() {
         {
             icon: "fas fa-building",
             title: "Local Market Fit",
-            description: "Established trading and retail base"
+            description: "Custom digital solutions built specifically for Calicut's trading houses, retail networks on SM Street, and growing food brands."
         },
         {
             icon: "fas fa-chart-line",
             title: "Digital Growth Opportunity",
-            description: "Growing online sales opportunities"
+            description: "Unlocking highly-profitable online sales channels and modern digital lead generation setups for Kozhikode businesses."
         },
         {
             icon: "fas fa-mobile-alt",
             title: "Mobile-First Demand",
-            description: "High need for local SEO visibility"
+            description: "Engineering top-performing cross-platform Flutter applications to connect with Calicut's highly active mobile user demographic."
         },
         {
             icon: "fas fa-globe",
             title: "SEO Visibility",
-            description: "Demand for faster, modern websites"
+            description: "On-page and technical search engine optimization to guarantee your company places at the top of local Google searches in Calicut."
         }
     ];
 
@@ -69,38 +69,38 @@ export default function CalicutServices() {
         {
             icon: "fas fa-laptop-code",
             title: "Custom Website Development",
-            description: "Modern, responsive websites for Calicut businesses with clear messaging, conversion-focused layouts, and technical SEO foundations.",
-            features: ["Responsive Design", "SEO Structure", "Fast Loading", "Clear CTAs"]
+            description: "Premium custom web development in Calicut using React and Next.js. I design high-performance, fast-loading, and responsive business portals tailored to your brand.",
+            features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
         },
         {
             icon: "fas fa-shopping-cart",
             title: "E-commerce Development",
-            description: "Online store setups with product catalog, secure checkout, payment integration, and order workflow suitable for local businesses.",
-            features: ["Product Catalog", "Secure Payments", "Order Flow", "Mobile Checkout"]
+            description: "Build secure, robust e-commerce stores in Calicut with fully integrated payment options, automated inventory sync, and conversion-optimized mobile checkouts.",
+            features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
         },
         {
             icon: "fab fa-flutter",
             title: "Mobile App Development",
-            description: "Flutter-based mobile apps for Android and iOS with practical business features, dashboard integration, and scalable structure.",
-            features: ["Flutter Apps", "API Integration", "Push Notifications", "App Store Support"]
+            description: "Hire a professional Flutter developer in Calicut to engineer native-performing iOS & Android mobile apps. Serving startups and retailers near SM Street and Hilite Business Park.",
+            features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
         },
         {
             icon: "fab fa-wordpress",
             title: "WordPress Development",
-            description: "Professional WordPress websites with editable content sections, optimized page speed, and clean on-page SEO setup.",
-            features: ["Custom Theme Setup", "Easy Editing", "Performance", "SEO Basics"]
+            description: "Get custom WordPress websites and landing pages for Calicut's academies, local service centers, showrooms, and health clinics.",
+            features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
         },
         {
             icon: "fas fa-database",
             title: "MERN Stack Development",
-            description: "Custom web apps using MongoDB, Express, React, and Node.js for dashboards, workflows, and business automation.",
-            features: ["Custom Dashboard", "API Architecture", "Role Access", "Scalable Code"]
+            description: "Custom web dashboards, secure MERN stack web applications, and database integrations tailored for Calicut startups and service platforms.",
+            features: ["Custom Dashboards", "API Architectures", "Secure Roles", "Scalable Mongo/Node databases"]
         },
         {
             icon: "fas fa-search",
             title: "SEO and Performance",
-            description: "Technical SEO improvements including metadata quality, internal linking, schema setup, and page speed optimization.",
-            features: ["Technical SEO", "Schema Setup", "Core Web Vitals", "Local SEO"]
+            description: "Rank higher locally with custom local search optimization campaigns, structural JSON-LD schemas, and extreme site speed optimization targeting Calicut search terms.",
+            features: ["Local GEO Audits", "Structured Schemas", "Core Web Vitals", "Keyword Research"]
         }
     ];
 
