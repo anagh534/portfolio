@@ -1,6 +1,6 @@
-# SEO Audit Context
+# Custom Web Solutions by ANAGH K R - SEO Audit Context
 
-**Last Updated:** 2026-05-28 13:42:00
+**Last Updated:** 2026-06-10 20:09:00
 
 This file tracks the SEO status and tasks for every page in the portfolio.
 
@@ -11,7 +11,7 @@ This file tracks the SEO status and tasks for every page in the portfolio.
 - [x] **Internal Linking**: Verified consistency and fixed issues (especially in /about and location pages).
 - [x] **FAQ Hydration**: Verified `client:visible` added to all page modules.
 - [x] **Astro Config**: Enforced `trailingSlash: 'always'` and `output: 'static'`.
-- [x] **Sitemap Enhanced**: Added `lastmod`, `priority`, and `changefreq` via sitemap `serialize()`.
+- [x] **Sitemap Enhanced**: Re-configured the official `@astrojs/sitemap` integration coupled with a post-processing script to serve a single `sitemap.xml` compliant with Google/Bing guidelines.
 - [x] **robots.txt Fixed**: Added explicit `Allow: /`, removed irrelevant `/_next/` and `/.git/` rules, added AI bot allowances (GPTBot, PerplexityBot, ClaudeBot, ChatGPT-User), added `Disallow` for 404 URLs.
 - [x] **404 URLs Fixed**: `/resume` → Live professional resume page. `/ANAGH-K-R-MERN-STACK-DEVELOPER.pdf` → 301 permanent redirect to live Google Drive PDF.
 - [x] **Empty Routes Deleted**: Removed `/src/pages/kerala/` and `/src/pages/ml/` (empty dynamic route directories that served no pages).
@@ -184,7 +184,7 @@ Each page must be checked against the following criteria:
 - [ ] Add `preload` for LCP hero image in `BaseLayout.astro`
 - [ ] Add breadcrumb JSON-LD schema to service pages
 - [ ] Write blog post: "Flutter Developer Kerala 2026 — How to Choose"
-- [ ] Add sitemap ping step to GitHub Actions deploy.yml
+- [x] Add sitemap ping step to GitHub Actions deploy.yml
 - [ ] Ping Google Search Console to resubmit sitemap after this deploy
 - [ ] Mark resolved 404 URLs in GSC: use "Validate Fix" after deploy
 

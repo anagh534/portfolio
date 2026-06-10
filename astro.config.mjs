@@ -6,7 +6,7 @@ import { fileURLToPath } from "node:url";
 
 const fromRoot = (value) => fileURLToPath(new URL(value, import.meta.url));
 
-const LAST_MODIFIED = new Date().toISOString();
+const LAST_MODIFIED = new Date().toISOString().split("T")[0];
 
 export default defineConfig({
     output: "static",
@@ -18,10 +18,11 @@ export default defineConfig({
     integrations: [
         react(),
         sitemap({
-            // Exclude empty dynamic routes and unwanted pages
+            // Exclude empty dynamic routes, 404 page, and unwanted pages
             filter: (page) =>
                 !page.includes("/ml/") &&
-                !page.includes("/kerala/"),
+                !page.includes("/kerala/") &&
+                !page.includes("/404"),
 
             serialize(item) {
                 const url = item.url;
@@ -66,8 +67,12 @@ export default defineConfig({
                     return { ...item, changefreq: "monthly", priority: 0.7, lastmod: LAST_MODIFIED };
                 }
 
-                // Core pages (about, contact)
-                if (url.includes("/about/") || url.includes("/contact/")) {
+                // Core pages (about, contact, resume)
+                if (
+                    url.includes("/about/") ||
+                    url.includes("/contact/") ||
+                    url.includes("/resume/")
+                ) {
                     return { ...item, changefreq: "yearly", priority: 0.6, lastmod: LAST_MODIFIED };
                 }
 

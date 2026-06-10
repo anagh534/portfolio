@@ -106,7 +106,7 @@ const appleTouchIcon = icons.apple || fallbackPngIcon;
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
 
     {Object.entries(alternateLanguages).map(([locale, href]) => (
-      <link rel="alternate" hreflang={locale} href={href} />
+      <link rel="alternate" hreflang={locale} href={href as string} />
     ))}
 
     <meta property="og:type" content={og.type || "website"} />

@@ -49,4 +49,3 @@ try {
 }
 
 console.log("Sitemap post-processing complete. Only sitemap.xml remains.");
-
