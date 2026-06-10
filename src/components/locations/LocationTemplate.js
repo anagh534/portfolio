@@ -150,7 +150,7 @@ export default function LocationTemplate({
                                     <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-6 group-hover:scale-110 transition-transform">
                                         {iconMap[highlight.icon] || <Star size={20} />}
                                     </div>
-                                    <div className="text-lg font-bold mb-2 uppercase tracking-tight">{highlight.title}</div>
+                                    <h3 className="text-lg font-bold mb-2 uppercase tracking-tight">{highlight.title}</h3>
                                     <p className="text-gray-500 text-sm leading-relaxed">{highlight.description}</p>
                                 </motion.div>
                             ))}
@@ -187,7 +187,7 @@ export default function LocationTemplate({
                                 <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-8 group-hover:bg-blue-600 group-hover:text-white transition-all shadow-lg shadow-blue-500/20">
                                     {iconMap[service.icon] || <Laptop size={24} />}
                                 </div>
-                                <div className="text-2xl font-bold mb-4 uppercase tracking-tight group-hover:text-blue-400 transition-colors">{service.title}</div>
+                                <h3 className="text-2xl font-bold mb-4 uppercase tracking-tight group-hover:text-blue-400 transition-colors">{service.title}</h3>
                                 <p className="text-gray-400 text-sm leading-relaxed mb-8">{service.description}</p>
                                 <ul className="space-y-3">
                                     {service.features.map((feature, idx) => (
@@ -221,7 +221,7 @@ export default function LocationTemplate({
                                     <div key={index} className="p-6 rounded-[32px] bg-white/5 border border-white/10 flex items-start gap-4 group hover:border-blue-500/20 transition-all">
                                         <div className="text-blue-400 group-hover:scale-110 transition-transform">{iconMap[benefit.icon] || <CheckCircle size={20} />}</div>
                                         <div>
-                                            <div className="font-bold text-white text-sm mb-1 uppercase tracking-tight">{benefit.title}</div>
+                                            <h3 className="font-bold text-white text-sm mb-1 uppercase tracking-tight">{benefit.title}</h3>
                                             <p className="text-gray-500 text-[10px] leading-relaxed uppercase tracking-widest">{benefit.description}</p>
                                         </div>
                                     </div>
@@ -272,7 +272,7 @@ export default function LocationTemplate({
                                     </div>
 
                                     <div className="space-y-3">
-                                        <div className="text-2xl font-black uppercase tracking-tight group-hover:text-blue-400 transition-colors">Demo: {project.title}</div>
+                                        <h3 className="text-2xl font-black uppercase tracking-tight group-hover:text-blue-400 transition-colors">Demo: {project.title}</h3>
                                         <p className="text-gray-500 text-sm leading-relaxed">Demo concept: {project.description}</p>
                                     </div>
 

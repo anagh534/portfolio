@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Flutter & Website Developer in Kasaragod | ANAGH K R",
-    description: "Professional website developer and mobile app (Flutter) expert in Kasaragod, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+    description: "Professional website developer and mobile app (Flutter) expert in Kasaragod, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
     keywords: "website developer kasaragod, flutter developer kasaragod, web developer kasaragod, mobile app development kasaragod, WordPress kasaragod, local SEO kasaragod",
     robots: { index: true, follow: true },
     alternates: {
@@ -8,14 +8,14 @@ export const metadata = {
     },
     openGraph: {
         title: "Flutter & Website Developer in Kasaragod | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Kasaragod, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Kasaragod, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
         url: "https://www.anaghkr.in/locations/kasaragod/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Flutter & Website Developer in Kasaragod | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Kasaragod, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Kasaragod, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
     },
 };
 
@@ -25,7 +25,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Kasaragod",
-    "description": "Professional website development, e-commerce solutions, and Flutter mobile app development in Kasaragod, Kerala.",
+    "description": "Professional website design, mobile apps, and local search optimization in Kasaragod, Kerala.",
     "url": "https://www.anaghkr.in/locations/kasaragod/",
     "telephone": "+91-8281571805",
     "email": "anaghkrkkl@gmail.com",
@@ -44,109 +44,154 @@ const schemaData = {
 export default function KasaragodServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-building",
-            title: "Local Market Fit",
-            description: "Providing customized digital solutions specifically adapted to match Kasaragod's local retailers, spice trade networks, and medical centers."
+                "icon": "fas fa-building",
+                "title": "Local Market Fit",
+                "description": "Lightweight, highly optimized web layouts designed for Kasaragod's local shops and personal portfolios."
         },
         {
-            icon: "fas fa-chart-line",
-            title: "Digital Growth Opportunity",
-            description: "Unlocking new business channels for brands and shops throughout the Kasaragod district with high-converting online setups."
+                "icon": "fas fa-chart-line",
+                "title": "Digital Growth Opportunity",
+                "description": "Driving business inquiries and local discoverability through clean, modern lead collection architectures."
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Mobile-First Demand",
-            description: "Engineering top-tier cross-platform Flutter applications to capture Kasaragod's active smartphone audience."
+                "icon": "fas fa-mobile-alt",
+                "title": "Mobile-First Demand",
+                "description": "Structuring clean mobile applications and responsive websites that perform perfectly on slow networks."
         },
         {
-            icon: "fas fa-globe",
-            title: "SEO Visibility",
-            description: "High-level local search engine optimization to guarantee your company places at the top of Kasaragod Google searches."
+                "icon": "fas fa-globe",
+                "title": "SEO Visibility",
+                "description": "Enforcing modern SEO rules, fast load speeds, and search-friendly layouts for Kasaragod pages."
         }
-    ];
+];
 
     const services = [
         {
-            icon: "fas fa-laptop-code",
-            title: "Custom Website Development",
-            description: "Premium custom web development in Kasaragod using React and Next.js. I design high-performance, fast-loading, and responsive business portals tailored to your brand.",
-            features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
+                "icon": "fas fa-laptop-code",
+                "title": "Custom Website Development",
+                "description": "Clean website development in Kasaragod. Lightweight static pages and custom React applications with clean mobile designs.",
+                "features": [
+                        "Responsive Next.js",
+                        "SEO Architectures",
+                        "Sub-Second Speeds",
+                        "Conversion Focus"
+                ]
         },
         {
-            icon: "fas fa-shopping-cart",
-            title: "E-commerce Development",
-            description: "Build secure, robust e-commerce stores in Kasaragod with fully integrated payment options, automated inventory sync, and conversion-optimized mobile checkouts.",
-            features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
+                "icon": "fas fa-shopping-cart",
+                "title": "E-commerce Development",
+                "description": "Lightweight e-commerce pages in Kasaragod. Clean layouts, simplified search filters, and direct customer contact integrations.",
+                "features": [
+                        "Custom Catalogs",
+                        "Razorpay / Cashfree",
+                        "Secure Order Flow",
+                        "Admin Dashboard"
+                ]
         },
         {
-            icon: "fab fa-flutter",
-            title: "Mobile App Development",
-            description: "Hire a professional Flutter developer in Kasaragod to engineer native-performing iOS & Android mobile apps. Serving local enterprises from Kasaragod town to Kanhangad.",
-            features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
+                "icon": "fab fa-flutter",
+                "title": "Mobile App Development",
+                "description": "Lightweight mobile apps in Kasaragod. Built using Flutter for quick load times and offline support.",
+                "features": [
+                        "Flutter Framework",
+                        "API Integration",
+                        "Push Alerts",
+                        "Play Store & App Store Support"
+                ]
         },
         {
-            icon: "fab fa-wordpress",
-            title: "WordPress Development",
-            description: "Get custom WordPress websites and landing pages for Kasaragod's schools, colleges, financial services, and clinics with easy-to-use Gutenberg or Elementor setups.",
-            features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
+                "icon": "fab fa-wordpress",
+                "title": "WordPress Development",
+                "description": "Lightweight WordPress setup in Kasaragod. Clean business pages, secure plugins, and fast loading configurations.",
+                "features": [
+                        "Custom Themes",
+                        "Fast Loading Pages",
+                        "Security Audits",
+                        "Easy Admin Panels"
+                ]
         },
         {
-            icon: "fas fa-database",
-            title: "MERN Stack Development",
-            description: "Custom web dashboards, secure MERN stack web applications, and database integrations tailored for Kasaragod startups and service platforms.",
-            features: ["Custom Dashboards", "API Architectures", "Secure Roles", "Scalable Mongo/Node databases"]
+                "icon": "fas fa-database",
+                "title": "MERN Stack Development",
+                "description": "Lightweight MERN web tools in Kasaragod. Simple database forms, clean Express backends, and responsive React grids.",
+                "features": [
+                        "Custom Dashboards",
+                        "API Architectures",
+                        "Secure Roles",
+                        "Scalable Mongo/Node databases"
+                ]
         },
         {
-            icon: "fas fa-search",
-            title: "SEO and Performance",
-            description: "Rank higher locally with custom local search optimization campaigns, structural JSON-LD schemas, and extreme site speed optimization targeting Kasaragod search terms.",
-            features: ["Local GEO Audits", "Structured Schemas", "Core Web Vitals", "Keyword Research"]
+                "icon": "fas fa-search",
+                "title": "SEO and Performance",
+                "description": "SEO and performance optimization in Kasaragod. Semantic HTML setups, speed improvements, and search visibility.",
+                "features": [
+                        "Local GEO Audits",
+                        "Structured Schemas",
+                        "Core Web Vitals",
+                        "Keyword Research"
+                ]
         }
-    ];
+];
 
     const benefits = [
         {
-            icon: "fas fa-handshake",
-            title: "Professional Communication",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kasaragod. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-handshake",
+                "title": "Professional Communication",
+                "description": "Direct developer access, easy scope definitions, and prompt milestone updates."
         },
         {
-            icon: "fas fa-clock",
-            title: "Structured Delivery",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kasaragod. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-clock",
+                "title": "Structured Delivery",
+                "description": "Reliable delivery schedules with security checks and responsiveness audits."
         },
         {
-            icon: "fas fa-map-marker-alt",
-            title: "Local SEO Focus",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kasaragod. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-map-marker-alt",
+                "title": "Local SEO Focus",
+                "description": "Local search optimization targeting Kasaragod business directories."
         },
         {
-            icon: "fas fa-rupee-sign",
-            title: "Practical Pricing",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kasaragod. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-rupee-sign",
+                "title": "Practical Pricing",
+                "description": "Affordable project estimations based on exact user requests and pages."
         }
-    ];
+];
 
     const portfolio = [
         {
-            icon: "fas fa-store",
-            title: "Business Website Concept",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kasaragod. SEO-focused and conversion-ready solutions.",
-            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
+                "icon": "fas fa-store",
+                "title": "Retail Landing Concept",
+                "description": "A fast static website featuring contact forms, WhatsApp links, and search-optimized tags.",
+                "tech": [
+                        "HTML5",
+                        "CSS3",
+                        "JavaScript",
+                        "WhatsApp CTA"
+                ]
         },
         {
-            icon: "fas fa-shopping-bag",
-            title: "E-commerce Concept",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kasaragod. SEO-focused and conversion-ready solutions.",
-            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
+                "icon": "fas fa-shopping-bag",
+                "title": "Small Shop Concept",
+                "description": "A lightweight shopping cart setup with direct UPI payments, item filters, and mobile-friendly grids.",
+                "tech": [
+                        "E-commerce",
+                        "UPI Payments",
+                        "Fast checkout",
+                        "Alt tags"
+                ]
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Mobile App Concept",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kasaragod. SEO-focused and conversion-ready solutions.",
-            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
+                "icon": "fas fa-mobile-alt",
+                "title": "Flutter Mockup Concept",
+                "description": "A mobile application concept featuring offline local registers, simple layouts, and fast loading APIs.",
+                "tech": [
+                        "Flutter",
+                        "Hive Local DB",
+                        "Clean UI",
+                        "API Mock"
+                ]
         }
-    ];
+];
 
     return (
         <>
@@ -160,7 +205,7 @@ export default function KasaragodServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and mobile app development services in Kasaragod, Kasaragod, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for local businesses, shops, service teams, institutions, and small brands."
+                description="Professional web development and mobile app development services in Kasaragod, Kerala. Custom website designs, lightweight e-commerce storefronts, and cross-platform Flutter applications optimized for local shops and personal portfolios."
             />
         </>
     );

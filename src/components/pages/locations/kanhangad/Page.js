@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Flutter & Website Developer in Kanhangad | ANAGH K R",
-    description: "Professional website developer and mobile app (Flutter) expert in Kanhangad, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+    description: "Professional website developer and mobile app (Flutter) expert in Kanhangad, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
     keywords: "website developer kanhangad, flutter developer kanhangad, web developer kanhangad, mobile app development kanhangad, WordPress kanhangad, local SEO kanhangad",
     robots: { index: true, follow: true },
     alternates: {
@@ -8,14 +8,14 @@ export const metadata = {
     },
     openGraph: {
         title: "Flutter & Website Developer in Kanhangad | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Kanhangad, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Kanhangad, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
         url: "https://www.anaghkr.in/locations/kanhangad/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Flutter & Website Developer in Kanhangad | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Kanhangad, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Kanhangad, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
     },
 };
 
@@ -25,7 +25,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Kanhangad",
-    "description": "Professional website development, e-commerce solutions, and Flutter mobile app development in Kanhangad, Kerala.",
+    "description": "Professional website design, mobile apps, and local search optimization in Kanhangad, Kerala.",
     "url": "https://www.anaghkr.in/locations/kanhangad/",
     "telephone": "+91-8281571805",
     "email": "anaghkrkkl@gmail.com",
@@ -44,109 +44,154 @@ const schemaData = {
 export default function KanhangadServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-building",
-            title: "Local Market Fit",
-            description: "Developing robust digital solutions designed explicitly to align with Kanhangad's retail trade, growing commercial centers, and local institutions."
+                "icon": "fas fa-building",
+                "title": "Local Market Fit",
+                "description": "Custom landing pages and business portals tailored for Kanhangad's local studios and retail stores."
         },
         {
-            icon: "fas fa-chart-line",
-            title: "Digital Growth Opportunity",
-            description: "Unlock high-performing digital channels for local businesses and small brands throughout the Kanhangad regional market."
+                "icon": "fas fa-chart-line",
+                "title": "Digital Growth Opportunity",
+                "description": "Creating simple online schedules and WhatsApp-driven booking flows for local Kanhangad service providers."
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Mobile-First Demand",
-            description: "Engineering top-performing cross-platform Flutter applications to connect with Kanhangad's highly active mobile user demographic."
+                "icon": "fas fa-mobile-alt",
+                "title": "Mobile-First Demand",
+                "description": "Developing fast, responsive mobile layouts and easy-to-use Flutter apps for Kanhangad services."
         },
         {
-            icon: "fas fa-globe",
-            title: "SEO Visibility",
-            description: "On-page and technical search engine optimization to guarantee your company places at the top of local Google searches in Kanhangad."
+                "icon": "fas fa-globe",
+                "title": "SEO Visibility",
+                "description": "Optimizing titles, meta tags, and local maps listings to boost Kanhangad business visibility."
         }
-    ];
+];
 
     const services = [
         {
-            icon: "fas fa-laptop-code",
-            title: "Custom Website Development",
-            description: "Premium custom web development in Kanhangad using React and Next.js. I design high-performance, fast-loading, and responsive business portals tailored to your brand.",
-            features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
+                "icon": "fas fa-laptop-code",
+                "title": "Custom Website Development",
+                "description": "Responsive web portal creation in Kanhangad. Premium designs focusing on speed, clear navigation, and local optimization.",
+                "features": [
+                        "Responsive Next.js",
+                        "SEO Architectures",
+                        "Sub-Second Speeds",
+                        "Conversion Focus"
+                ]
         },
         {
-            icon: "fas fa-shopping-cart",
-            title: "E-commerce Development",
-            description: "Build secure, robust e-commerce stores in Kanhangad with fully integrated payment options, automated inventory sync, and conversion-optimized mobile checkouts.",
-            features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
+                "icon": "fas fa-shopping-cart",
+                "title": "E-commerce Development",
+                "description": "Retail e-commerce setups in Kanhangad. Easy catalog management, Razorpay payment integrations, and responsive checkout views.",
+                "features": [
+                        "Custom Catalogs",
+                        "Razorpay / Cashfree",
+                        "Secure Order Flow",
+                        "Admin Dashboard"
+                ]
         },
         {
-            icon: "fab fa-flutter",
-            title: "Mobile App Development",
-            description: "Hire a professional Flutter developer in Kanhangad to engineer native-performing iOS & Android mobile apps with premium animations and robust cloud sync.",
-            features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
+                "icon": "fab fa-flutter",
+                "title": "Mobile App Development",
+                "description": "Custom mobile apps in Kanhangad. I deliver responsive Flutter applications with clean, interactive user elements.",
+                "features": [
+                        "Flutter Framework",
+                        "API Integration",
+                        "Push Alerts",
+                        "Play Store & App Store Support"
+                ]
         },
         {
-            icon: "fab fa-wordpress",
-            title: "WordPress Development",
-            description: "Get custom WordPress websites and landing pages for Kanhangad's academies, local service centers, showrooms, and health clinics.",
-            features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
+                "icon": "fab fa-wordpress",
+                "title": "WordPress Development",
+                "description": "WordPress site setup in Kanhangad. Custom local service themes, responsive galleries, and security-minded setups.",
+                "features": [
+                        "Custom Themes",
+                        "Fast Loading Pages",
+                        "Security Audits",
+                        "Easy Admin Panels"
+                ]
         },
         {
-            icon: "fas fa-database",
-            title: "MERN Stack Development",
-            description: "Custom web dashboards, secure MERN stack web applications, and database integrations tailored for Kanhangad enterprises and service platforms.",
-            features: ["Custom Dashboards", "API Architectures", "Secure Roles", "Scalable Mongo/Node databases"]
+                "icon": "fas fa-database",
+                "title": "MERN Stack Development",
+                "description": "MERN stack web development in Kanhangad. Clean Node.js APIs, MongoDB integration, and responsive React controls.",
+                "features": [
+                        "Custom Dashboards",
+                        "API Architectures",
+                        "Secure Roles",
+                        "Scalable Mongo/Node databases"
+                ]
         },
         {
-            icon: "fas fa-search",
-            title: "SEO and Performance",
-            description: "Rank higher locally with custom local search optimization campaigns, structural JSON-LD schemas, and extreme site speed optimization targeting Kanhangad search terms.",
-            features: ["Local GEO Audits", "Structured Schemas", "Core Web Vitals", "Keyword Research"]
+                "icon": "fas fa-search",
+                "title": "SEO and Performance",
+                "description": "Local SEO and site speed in Kanhangad. Optimization of search listings, keyword structures, and page assets.",
+                "features": [
+                        "Local GEO Audits",
+                        "Structured Schemas",
+                        "Core Web Vitals",
+                        "Keyword Research"
+                ]
         }
-    ];
+];
 
     const benefits = [
         {
-            icon: "fas fa-handshake",
-            title: "Professional Communication",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kanhangad. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-handshake",
+                "title": "Professional Communication",
+                "description": "Simple project summaries, milestone tracking, and active developer support."
         },
         {
-            icon: "fas fa-clock",
-            title: "Structured Delivery",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kanhangad. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-clock",
+                "title": "Structured Delivery",
+                "description": "Logical development stages, with mobile-readiness tests before launch."
         },
         {
-            icon: "fas fa-map-marker-alt",
-            title: "Local SEO Focus",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kanhangad. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-map-marker-alt",
+                "title": "Local SEO Focus",
+                "description": "Search visibility optimization targeting Kanhangad service searches."
         },
         {
-            icon: "fas fa-rupee-sign",
-            title: "Practical Pricing",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kanhangad. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-rupee-sign",
+                "title": "Practical Pricing",
+                "description": "Practical pricing options aligned with feature lists and launch schedules."
         }
-    ];
+];
 
     const portfolio = [
         {
-            icon: "fas fa-store",
-            title: "Business Website Concept",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kanhangad. SEO-focused and conversion-ready solutions.",
-            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
+                "icon": "fas fa-store",
+                "title": "Business Listing Concept",
+                "description": "A lightweight Next.js portal featuring responsive services grids, WhatsApp CTA, and local search schema.",
+                "tech": [
+                        "Next.js",
+                        "CSS Grid",
+                        "WhatsApp CTA",
+                        "SEO tags"
+                ]
         },
         {
-            icon: "fas fa-shopping-bag",
-            title: "E-commerce Concept",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kanhangad. SEO-focused and conversion-ready solutions.",
-            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
+                "icon": "fas fa-shopping-bag",
+                "title": "E-commerce Layout Concept",
+                "description": "A mobile-first shopping layout with integrated UPI checkouts, item listings, and clean code paths.",
+                "tech": [
+                        "E-commerce",
+                        "Mobile Grid",
+                        "Razorpay",
+                        "Analytics"
+                ]
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Mobile App Concept",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Kanhangad. SEO-focused and conversion-ready solutions.",
-            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
+                "icon": "fas fa-mobile-alt",
+                "title": "Flutter Client Concept",
+                "description": "A cross-platform mobile utility featuring simple user profiles, push alerts, and API integration.",
+                "tech": [
+                        "Flutter",
+                        "JSON API",
+                        "Alerts",
+                        "Profile UI"
+                ]
         }
-    ];
+];
 
     return (
         <>
@@ -160,7 +205,7 @@ export default function KanhangadServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and mobile app development services in Kanhangad, Kasaragod, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for local shops, service providers, institutions, and startup-minded teams."
+                description="Professional web development and mobile app development services in Kanhangad, Kerala. Build customized Next.js personal pages, WordPress templates, mobile app utilities, and local SEO optimizations tailored for local shops and services."
             />
         </>
     );

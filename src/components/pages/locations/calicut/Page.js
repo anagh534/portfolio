@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Flutter & Website Developer in Calicut | ANAGH K R",
-    description: "Professional website developer and mobile app (Flutter) expert in Calicut, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+    description: "Professional website developer and mobile app (Flutter) expert in Calicut, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
     keywords: "website developer calicut, flutter developer calicut, web developer calicut, mobile app development calicut, WordPress calicut, local SEO calicut",
     robots: { index: true, follow: true },
     alternates: {
@@ -8,14 +8,14 @@ export const metadata = {
     },
     openGraph: {
         title: "Flutter & Website Developer in Calicut | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Calicut, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Calicut, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
         url: "https://www.anaghkr.in/locations/calicut/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Flutter & Website Developer in Calicut | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Calicut, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Calicut, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
     },
 };
 
@@ -25,7 +25,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Calicut",
-    "description": "Professional website development, e-commerce solutions, and Flutter mobile app development in Calicut, Kerala.",
+    "description": "Professional website design, mobile apps, and local search optimization in Calicut, Kerala.",
     "url": "https://www.anaghkr.in/locations/calicut/",
     "telephone": "+91-8281571805",
     "email": "anaghkrkkl@gmail.com",
@@ -44,109 +44,154 @@ const schemaData = {
 export default function CalicutServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-building",
-            title: "Local Market Fit",
-            description: "Custom digital solutions built specifically for Calicut's trading houses, retail networks on SM Street, and growing food brands."
+                "icon": "fas fa-building",
+                "title": "Local Market Fit",
+                "description": "Modern web portals and custom setups designed to elevate Calicut's local event planners and creative portfolios."
         },
         {
-            icon: "fas fa-chart-line",
-            title: "Digital Growth Opportunity",
-            description: "Unlocking highly-profitable online sales channels and modern digital lead generation setups for Kozhikode businesses."
+                "icon": "fas fa-chart-line",
+                "title": "Digital Growth Opportunity",
+                "description": "Streamlining the digital onboarding process and optimizing client lead pathways for Calicut businesses."
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Mobile-First Demand",
-            description: "Engineering top-performing cross-platform Flutter applications to connect with Calicut's highly active mobile user demographic."
+                "icon": "fas fa-mobile-alt",
+                "title": "Mobile-First Demand",
+                "description": "Developing intuitive mobile app interfaces using Flutter for Calicut's customer-focused businesses."
         },
         {
-            icon: "fas fa-globe",
-            title: "SEO Visibility",
-            description: "On-page and technical search engine optimization to guarantee your company places at the top of local Google searches in Calicut."
+                "icon": "fas fa-globe",
+                "title": "SEO Visibility",
+                "description": "Improving search index rates with clean canonical links and targeted local Calicut keywords."
         }
-    ];
+];
 
     const services = [
         {
-            icon: "fas fa-laptop-code",
-            title: "Custom Website Development",
-            description: "Premium custom web development in Calicut using React and Next.js. I design high-performance, fast-loading, and responsive business portals tailored to your brand.",
-            features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
+                "icon": "fas fa-laptop-code",
+                "title": "Custom Website Development",
+                "description": "High-performance React sites in Calicut. Custom designs engineered for optimal speeds, security, and responsive layouts.",
+                "features": [
+                        "Responsive Next.js",
+                        "SEO Architectures",
+                        "Sub-Second Speeds",
+                        "Conversion Focus"
+                ]
         },
         {
-            icon: "fas fa-shopping-cart",
-            title: "E-commerce Development",
-            description: "Build secure, robust e-commerce stores in Calicut with fully integrated payment options, automated inventory sync, and conversion-optimized mobile checkouts.",
-            features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
+                "icon": "fas fa-shopping-cart",
+                "title": "E-commerce Development",
+                "description": "Modern e-commerce store design in Calicut. User-friendly checkouts, secure online banking options, and clean mobile performance.",
+                "features": [
+                        "Custom Catalogs",
+                        "Razorpay / Cashfree",
+                        "Secure Order Flow",
+                        "Admin Dashboard"
+                ]
         },
         {
-            icon: "fab fa-flutter",
-            title: "Mobile App Development",
-            description: "Hire a professional Flutter developer in Calicut to engineer native-performing iOS & Android mobile apps. Serving startups and retailers near SM Street and Hilite Business Park.",
-            features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
+                "icon": "fab fa-flutter",
+                "title": "Mobile App Development",
+                "description": "Modern mobile app development in Calicut. Responsive iOS & Android apps built using the powerful Flutter framework.",
+                "features": [
+                        "Flutter Framework",
+                        "API Integration",
+                        "Push Alerts",
+                        "Play Store & App Store Support"
+                ]
         },
         {
-            icon: "fab fa-wordpress",
-            title: "WordPress Development",
-            description: "Get custom WordPress websites and landing pages for Calicut's academies, local service centers, showrooms, and health clinics.",
-            features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
+                "icon": "fab fa-wordpress",
+                "title": "WordPress Development",
+                "description": "WordPress theme customization in Calicut. Get secure, SEO-optimized business blogs and corporate websites.",
+                "features": [
+                        "Custom Themes",
+                        "Fast Loading Pages",
+                        "Security Audits",
+                        "Easy Admin Panels"
+                ]
         },
         {
-            icon: "fas fa-database",
-            title: "MERN Stack Development",
-            description: "Custom web dashboards, secure MERN stack web applications, and database integrations tailored for Calicut startups and service platforms.",
-            features: ["Custom Dashboards", "API Architectures", "Secure Roles", "Scalable Mongo/Node databases"]
+                "icon": "fas fa-database",
+                "title": "MERN Stack Development",
+                "description": "Scalable MERN web systems in Calicut. Robust Express backend routers, secure Mongo models, and dynamic React templates.",
+                "features": [
+                        "Custom Dashboards",
+                        "API Architectures",
+                        "Secure Roles",
+                        "Scalable Mongo/Node databases"
+                ]
         },
         {
-            icon: "fas fa-search",
-            title: "SEO and Performance",
-            description: "Rank higher locally with custom local search optimization campaigns, structural JSON-LD schemas, and extreme site speed optimization targeting Calicut search terms.",
-            features: ["Local GEO Audits", "Structured Schemas", "Core Web Vitals", "Keyword Research"]
+                "icon": "fas fa-search",
+                "title": "SEO and Performance",
+                "description": "Technical SEO tuning in Calicut. Schema data insertion, sub-second performance audits, and local ranking audits.",
+                "features": [
+                        "Local GEO Audits",
+                        "Structured Schemas",
+                        "Core Web Vitals",
+                        "Keyword Research"
+                ]
         }
-    ];
+];
 
     const benefits = [
         {
-            icon: "fas fa-handshake",
-            title: "Professional Communication",
-            description: "Clear scope, milestone-based updates, and transparent collaboration from planning to launch"
+                "icon": "fas fa-handshake",
+                "title": "Professional Communication",
+                "description": "Clear project scope documents, regular updates, and responsive support channels."
         },
         {
-            icon: "fas fa-clock",
-            title: "Structured Delivery",
-            description: "Well-defined project stages with realistic timelines and quality checks before release"
+                "icon": "fas fa-clock",
+                "title": "Structured Delivery",
+                "description": "Systematic milestones, including code reviews, speed tests, and client previews."
         },
         {
-            icon: "fas fa-map-marker-alt",
-            title: "Local SEO Focus",
-            description: "Content and metadata optimized for Calicut and Kerala location-based search intent"
+                "icon": "fas fa-map-marker-alt",
+                "title": "Local SEO Focus",
+                "description": "On-page search optimization targeting local Calicut audience queries."
         },
         {
-            icon: "fas fa-rupee-sign",
-            title: "Practical Pricing",
-            description: "Scope-based quotes aligned with business requirements, features, and launch priorities"
+                "icon": "fas fa-rupee-sign",
+                "title": "Practical Pricing",
+                "description": "Value-focused pricing quotes based on exact specifications and timelines."
         }
-    ];
+];
 
     const portfolio = [
         {
-            icon: "fas fa-store",
-            title: "Malabar Trading Web Concept",
-            description: "High-performance Next.js business website with lead capture, WhatsApp CTA, and optimized local schema for trading hubs in Calicut.",
-            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
+                "icon": "fas fa-store",
+                "title": "Service Profile Concept",
+                "description": "A clean React business profile with automated booking links, WhatsApp CTA buttons, and local SEO schema.",
+                "tech": [
+                        "Next.js",
+                        "SEO Metadata",
+                        "Lead Forms",
+                        "WhatsApp CTA"
+                ]
         },
         {
-            icon: "fas fa-shopping-bag",
-            title: "SM Street Fashion E-commerce",
-            description: "A conversion-focused online retail store demo featuring custom cart dynamics, UPI payments, and mobile-first listing pages suitable for SM Street shops.",
-            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
+                "icon": "fas fa-shopping-bag",
+                "title": "Boutique E-commerce Concept",
+                "description": "A conversion-oriented online shopping platform with cart systems, Razorpay payment modules, and fast checkouts.",
+                "tech": [
+                        "E-commerce",
+                        "Checkout UX",
+                        "Payments",
+                        "Analytics"
+                ]
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Calicut Food Delivery App Demo",
-            description: "A Flutter mobile app demo featuring multi-restaurant cataloging, real-time tracking, and push alerts optimized for Kozhikode's famous culinary scene.",
-            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
+                "icon": "fas fa-mobile-alt",
+                "title": "Mobile App Concept",
+                "description": "A custom Flutter app mock with interactive catalogs, real-time notifications, and API-based database flows.",
+                "tech": [
+                        "Flutter",
+                        "Node.js API",
+                        "Notifications",
+                        "Dashboard"
+                ]
         }
-    ];
+];
 
     return (
         <>
@@ -160,7 +205,7 @@ export default function CalicutServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and mobile app development in Calicut (Kozhikode), Kerala. Custom designed for SM Street wholesale shops, Malabar business families, cafes, and logistics centers. Looking for our main Kozhikode listing? Visit our dedicated [Kozhikode Web Development](/locations/kozhikode/) page for regional solutions."
+                description="Professional web development and mobile app development in Calicut, Kerala. Custom designed for local creators, shops, clinics, and service portfolios looking for optimized SEO."
             />
         </>
     );

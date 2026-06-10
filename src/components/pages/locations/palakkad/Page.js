@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Flutter & Website Developer in Palakkad | ANAGH K R",
-    description: "Professional website developer and mobile app (Flutter) expert in Palakkad, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+    description: "Professional website developer and mobile app (Flutter) expert in Palakkad, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
     keywords: "website developer palakkad, flutter developer palakkad, web developer palakkad, mobile app development palakkad, WordPress palakkad, local SEO palakkad",
     robots: { index: true, follow: true },
     alternates: {
@@ -8,14 +8,14 @@ export const metadata = {
     },
     openGraph: {
         title: "Flutter & Website Developer in Palakkad | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Palakkad, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Palakkad, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
         url: "https://www.anaghkr.in/locations/palakkad/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Flutter & Website Developer in Palakkad | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Palakkad, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Palakkad, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
     },
 };
 
@@ -25,7 +25,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Palakkad",
-    "description": "Professional website development, e-commerce solutions, and Flutter mobile app development in Palakkad, Kerala.",
+    "description": "Professional website design, mobile apps, and local search optimization in Palakkad, Kerala.",
     "url": "https://www.anaghkr.in/locations/palakkad/",
     "telephone": "+91-8281571805",
     "email": "anaghkrkkl@gmail.com",
@@ -44,109 +44,154 @@ const schemaData = {
 export default function PalakkadServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-building",
-            title: "Local Market Fit",
-            description: "Custom digital solutions built specifically for Palakkad's agricultural processing units, manufacturing yards, and local retailers."
+                "icon": "fas fa-building",
+                "title": "Local Market Fit",
+                "description": "Lightweight, SEO-friendly websites developed for Palakkad's local trainers, tuition hubs, and retail stores."
         },
         {
-            icon: "fas fa-chart-line",
-            title: "Digital Growth Opportunity",
-            description: "Unlocking profitable online sales channels and modern digital lead generation setups for Palakkad businesses."
+                "icon": "fas fa-chart-line",
+                "title": "Digital Growth Opportunity",
+                "description": "Helping Palakkad service businesses display services online and capture client inquiries efficiently."
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Mobile-First Demand",
-            description: "Engineering top-performing cross-platform Flutter applications to connect with Palakkad's highly active mobile consumer demographic."
+                "icon": "fas fa-mobile-alt",
+                "title": "Mobile-First Demand",
+                "description": "Structuring lightweight mobile experiences and simple Flutter apps built for reliability and speed."
         },
         {
-            icon: "fas fa-globe",
-            title: "SEO Visibility",
-            description: "On-page and technical search engine optimization to guarantee your company places at the top of local Google searches in Palakkad."
+                "icon": "fas fa-globe",
+                "title": "SEO Visibility",
+                "description": "Configuring SEO metadata and image alt tags to boost Palakkad local directories on search."
         }
-    ];
+];
 
     const services = [
         {
-            icon: "fas fa-laptop-code",
-            title: "Custom Website Development",
-            description: "Premium custom web development in Palakkad using React and Next.js. I design high-performance, fast-loading, and responsive business portals tailored to your brand.",
-            features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
+                "icon": "fas fa-laptop-code",
+                "title": "Custom Website Development",
+                "description": "Lightweight website design in Palakkad. Get fast, responsive, and SEO-optimized HTML/React business portals.",
+                "features": [
+                        "Responsive Next.js",
+                        "SEO Architectures",
+                        "Sub-Second Speeds",
+                        "Conversion Focus"
+                ]
         },
         {
-            icon: "fas fa-shopping-cart",
-            title: "E-commerce Development",
-            description: "Build secure, robust e-commerce stores in Palakkad with fully integrated payment options, automated inventory sync, and conversion-optimized mobile checkouts.",
-            features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
+                "icon": "fas fa-shopping-cart",
+                "title": "E-commerce Development",
+                "description": "Product catalog and e-commerce setups in Palakkad. Clean digital listings with Razorpay gateway integrations and secure flow.",
+                "features": [
+                        "Custom Catalogs",
+                        "Razorpay / Cashfree",
+                        "Secure Order Flow",
+                        "Admin Dashboard"
+                ]
         },
         {
-            icon: "fab fa-flutter",
-            title: "Mobile App Development",
-            description: "Hire a professional Flutter developer in Palakkad to engineer native-performing iOS & Android mobile apps. Serving enterprises from Kanjikode to Town.",
-            features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
+                "icon": "fab fa-flutter",
+                "title": "Mobile App Development",
+                "description": "Lightweight mobile app design in Palakkad. Custom Flutter apps featuring stable performance and simple layouts.",
+                "features": [
+                        "Flutter Framework",
+                        "API Integration",
+                        "Push Alerts",
+                        "Play Store & App Store Support"
+                ]
         },
         {
-            icon: "fab fa-wordpress",
-            title: "WordPress Development",
-            description: "Get custom WordPress websites and landing pages for Palakkad's academies, local service centers, showrooms, and health clinics.",
-            features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
+                "icon": "fab fa-wordpress",
+                "title": "WordPress Development",
+                "description": "WordPress site design in Palakkad. Simple, fast-loading corporate themes with secure page management systems.",
+                "features": [
+                        "Custom Themes",
+                        "Fast Loading Pages",
+                        "Security Audits",
+                        "Easy Admin Panels"
+                ]
         },
         {
-            icon: "fas fa-database",
-            title: "MERN Stack Development",
-            description: "Custom web dashboards, secure MERN stack web applications, and database integrations tailored for Palakkad startups and service platforms.",
-            features: ["Custom Dashboards", "API Architectures", "Secure Roles", "Scalable Mongo/Node databases"]
+                "icon": "fas fa-database",
+                "title": "MERN Stack Development",
+                "description": "Custom admin portals in Palakkad. Full-stack MERN portals engineered for simple data entry and secure connections.",
+                "features": [
+                        "Custom Dashboards",
+                        "API Architectures",
+                        "Secure Roles",
+                        "Scalable Mongo/Node databases"
+                ]
         },
         {
-            icon: "fas fa-search",
-            title: "SEO and Performance",
-            description: "Rank higher locally with custom local search optimization campaigns, structural JSON-LD schemas, and extreme site speed optimization targeting Palakkad search terms.",
-            features: ["Local GEO Audits", "Structured Schemas", "Core Web Vitals", "Keyword Research"]
+                "icon": "fas fa-search",
+                "title": "SEO and Performance",
+                "description": "Local search ranking improvements in Palakkad. Fast-loading pages, search-friendly titles, and metadata audits.",
+                "features": [
+                        "Local GEO Audits",
+                        "Structured Schemas",
+                        "Core Web Vitals",
+                        "Keyword Research"
+                ]
         }
-    ];
+];
 
     const benefits = [
         {
-            icon: "fas fa-handshake",
-            title: "Professional Communication",
-            description: "Clear scope, milestone-based updates, and transparent collaboration from planning to launch"
+                "icon": "fas fa-handshake",
+                "title": "Professional Communication",
+                "description": "Direct developer communication, detailed project logs, and quick feedback loops."
         },
         {
-            icon: "fas fa-clock",
-            title: "Structured Delivery",
-            description: "Well-defined project stages with realistic timelines and quality checks before release"
+                "icon": "fas fa-clock",
+                "title": "Structured Delivery",
+                "description": "Carefully planned delivery steps, guaranteeing functional mockups at every phase."
         },
         {
-            icon: "fas fa-map-marker-alt",
-            title: "Local SEO Focus",
-            description: "Content and metadata optimized for Palakkad and Kerala location-based search intent"
+                "icon": "fas fa-map-marker-alt",
+                "title": "Local SEO Focus",
+                "description": "Structured JSON-LD schema layouts matching Palakkad local search terms."
         },
         {
-            icon: "fas fa-rupee-sign",
-            title: "Practical Pricing",
-            description: "Scope-based quotes aligned with business requirements, features, and launch priorities"
+                "icon": "fas fa-rupee-sign",
+                "title": "Practical Pricing",
+                "description": "Cost-effective estimates matching project scope and functional requirements."
         }
-    ];
+];
 
     const portfolio = [
         {
-            icon: "fas fa-store",
-            title: "Business Website Concept",
-            description: "Demo concept for a service-focused business website with lead capture forms, WhatsApp CTA, and local SEO landing sections for Palakkad.",
-            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
+                "icon": "fas fa-store",
+                "title": "Local Showcase Concept",
+                "description": "A lightweight static business page featuring product galleries, contact forms, and custom local search meta.",
+                "tech": [
+                        "React.js",
+                        "TailwindCSS",
+                        "SEO Meta",
+                        "Contact Form"
+                ]
         },
         {
-            icon: "fas fa-shopping-bag",
-            title: "E-commerce Concept",
-            description: "Demo concept for an online store with product collections, payment integration flow, and conversion-friendly mobile checkout.",
-            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
+                "icon": "fas fa-shopping-bag",
+                "title": "Simple Commerce Concept",
+                "description": "A secure shopping portal demo with direct payment buttons, customizable listings, and quick mobile checkout.",
+                "tech": [
+                        "E-commerce",
+                        "Razorpay",
+                        "UPI",
+                        "Fast checkouts"
+                ]
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Mobile App Concept",
-            description: "Demo concept for a Flutter mobile app with user onboarding, profile flow, push notifications, and API-based dashboard integration.",
-            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
+                "icon": "fas fa-mobile-alt",
+                "title": "Mobile Dashboard Concept",
+                "description": "A cross-platform Flutter utility showing data tracking graphs, user settings, and secure login screens.",
+                "tech": [
+                        "Flutter",
+                        "Line charts",
+                        "Secure Local Storage",
+                        "Charts API"
+                ]
         }
-    ];
+];
 
     return (
         <>
@@ -160,7 +205,7 @@ export default function PalakkadServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and mobile app development services in Palakkad, Palakkad, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for SMEs, educational brands, service businesses, and local commerce operations."
+                description="Professional web development and mobile app development services in Palakkad, Kerala. Build customized Next.js portfolios, WordPress templates, mobile app utilities, and local SEO optimizations tailored for local shops and service providers."
             />
         </>
     );

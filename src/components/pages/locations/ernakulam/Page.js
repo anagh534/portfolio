@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Flutter & Website Developer in Ernakulam | ANAGH K R",
-    description: "Professional website developer and mobile app (Flutter) expert in Ernakulam, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+    description: "Professional website developer and mobile app (Flutter) expert in Ernakulam, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
     keywords: "website developer ernakulam, flutter developer ernakulam, web developer ernakulam, mobile app development ernakulam, WordPress ernakulam, local SEO ernakulam",
     robots: { index: true, follow: true },
     alternates: {
@@ -8,14 +8,14 @@ export const metadata = {
     },
     openGraph: {
         title: "Flutter & Website Developer in Ernakulam | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Ernakulam, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Ernakulam, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
         url: "https://www.anaghkr.in/locations/ernakulam/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Flutter & Website Developer in Ernakulam | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Ernakulam, Kerala. Get high-converting e-commerce, custom web apps, and local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Ernakulam, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
     },
 };
 
@@ -25,7 +25,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Ernakulam",
-    "description": "Professional website development, e-commerce solutions, and Flutter mobile app development in Ernakulam, Kerala.",
+    "description": "Professional website design, mobile apps, and local search optimization in Ernakulam, Kerala.",
     "url": "https://www.anaghkr.in/locations/ernakulam/",
     "telephone": "+91-8281571805",
     "email": "anaghkrkkl@gmail.com",
@@ -44,109 +44,154 @@ const schemaData = {
 export default function ErnakulamServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-building",
-            title: "Local Market Fit",
-            description: "Custom digital solutions built specifically for Ernakulam's InfoPark IT companies, commercial operations, logistics networks, and startups."
+                "icon": "fas fa-building",
+                "title": "Local Market Fit",
+                "description": "Sleek, scalable React web designs tailored for Ernakulam's independent consultants, academies, and small shops."
         },
         {
-            icon: "fas fa-chart-line",
-            title: "Digital Growth Opportunity",
-            description: "Unlocking profitable online sales channels and modern digital lead generation setups for Ernakulam businesses."
+                "icon": "fas fa-chart-line",
+                "title": "Digital Growth Opportunity",
+                "description": "Boosting online inquiries, simple sales paths, and user feedback channels for local services."
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Mobile-First Demand",
-            description: "Engineering top-performing cross-platform Flutter applications to connect with Ernakulam's highly active mobile consumer demographic."
+                "icon": "fas fa-mobile-alt",
+                "title": "Mobile-First Demand",
+                "description": "Engineering next-generation Flutter apps and responsive web interfaces for Ernakulam mobile users."
         },
         {
-            icon: "fas fa-globe",
-            title: "SEO Visibility",
-            description: "On-page and technical search engine optimization to guarantee your company places at the top of local Google searches in Ernakulam."
+                "icon": "fas fa-globe",
+                "title": "SEO Visibility",
+                "description": "Developing search-engine-ready React and Next.js sites that rank top for Ernakulam search terms."
         }
-    ];
+];
 
     const services = [
         {
-            icon: "fas fa-laptop-code",
-            title: "Custom Website Development",
-            description: "Premium custom web development in Ernakulam using React and Next.js. I design high-performance, fast-loading, and responsive business portals tailored to your brand.",
-            features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
+                "icon": "fas fa-laptop-code",
+                "title": "Custom Website Development",
+                "description": "Next.js web development in Ernakulam. I build clean, scalable, and responsive web platforms for modern businesses.",
+                "features": [
+                        "Responsive Next.js",
+                        "SEO Architectures",
+                        "Sub-Second Speeds",
+                        "Conversion Focus"
+                ]
         },
         {
-            icon: "fas fa-shopping-cart",
-            title: "E-commerce Development",
-            description: "Build secure, robust e-commerce stores in Ernakulam with fully integrated payment options, automated inventory sync, and conversion-optimized mobile checkouts.",
-            features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
+                "icon": "fas fa-shopping-cart",
+                "title": "E-commerce Development",
+                "description": "Custom e-commerce layouts in Ernakulam. Responsive product grids, secure payments, and simplified catalog managers.",
+                "features": [
+                        "Custom Catalogs",
+                        "Razorpay / Cashfree",
+                        "Secure Order Flow",
+                        "Admin Dashboard"
+                ]
         },
         {
-            icon: "fab fa-flutter",
-            title: "Mobile App Development",
-            description: "Hire a professional Flutter developer in Ernakulam to engineer native-performing iOS & Android mobile apps. Serving startups and retailers in Kakkanad and Kochi.",
-            features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
+                "icon": "fab fa-flutter",
+                "title": "Mobile App Development",
+                "description": "Scalable Flutter mobile app engineering in Ernakulam. I build native-grade apps with secure API integrations.",
+                "features": [
+                        "Flutter Framework",
+                        "API Integration",
+                        "Push Alerts",
+                        "Play Store & App Store Support"
+                ]
         },
         {
-            icon: "fab fa-wordpress",
-            title: "WordPress Development",
-            description: "Get custom WordPress websites and landing pages for Ernakulam's academies, local service centers, showrooms, and health clinics.",
-            features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
+                "icon": "fab fa-wordpress",
+                "title": "WordPress Development",
+                "description": "WordPress development in Ernakulam. I build custom themes, secure page builders, and responsive web layouts.",
+                "features": [
+                        "Custom Themes",
+                        "Fast Loading Pages",
+                        "Security Audits",
+                        "Easy Admin Panels"
+                ]
         },
         {
-            icon: "fas fa-database",
-            title: "MERN Stack Development",
-            description: "Custom web dashboards, secure MERN stack web applications, and database integrations tailored for Ernakulam startups and service platforms.",
-            features: ["Custom Dashboards", "API Architectures", "Secure Roles", "Scalable Mongo/Node databases"]
+                "icon": "fas fa-database",
+                "title": "MERN Stack Development",
+                "description": "Full-stack MERN stack development in Ernakulam. High-performance databases, custom APIs, and secure roles.",
+                "features": [
+                        "Custom Dashboards",
+                        "API Architectures",
+                        "Secure Roles",
+                        "Scalable Mongo/Node databases"
+                ]
         },
         {
-            icon: "fas fa-search",
-            title: "SEO and Performance",
-            description: "Rank higher locally with custom local search optimization campaigns, structural JSON-LD schemas, and extreme site speed optimization targeting Ernakulam search terms.",
-            features: ["Local GEO Audits", "Structured Schemas", "Core Web Vitals", "Keyword Research"]
+                "icon": "fas fa-search",
+                "title": "SEO and Performance",
+                "description": "SEO optimization and performance in Ernakulam. I tune Core Web Vitals, write schema data, and target search keywords.",
+                "features": [
+                        "Local GEO Audits",
+                        "Structured Schemas",
+                        "Core Web Vitals",
+                        "Keyword Research"
+                ]
         }
-    ];
+];
 
     const benefits = [
         {
-            icon: "fas fa-handshake",
-            title: "Professional Communication",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Ernakulam. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-handshake",
+                "title": "Professional Communication",
+                "description": "Professional progress updates, detailed specifications, and responsive developer access."
         },
         {
-            icon: "fas fa-clock",
-            title: "Structured Delivery",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Ernakulam. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-clock",
+                "title": "Structured Delivery",
+                "description": "Agile delivery sprints, ensuring functional builds are ready for review."
         },
         {
-            icon: "fas fa-map-marker-alt",
-            title: "Local SEO Focus",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Ernakulam. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-map-marker-alt",
+                "title": "Local SEO Focus",
+                "description": "Targeted SEO and performance tuning for Ernakulam location searches."
         },
         {
-            icon: "fas fa-rupee-sign",
-            title: "Practical Pricing",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Ernakulam. SEO-focused and conversion-ready solutions."
+                "icon": "fas fa-rupee-sign",
+                "title": "Practical Pricing",
+                "description": "Transparent quotes tailored to freelance requirements and small portfolios."
         }
-    ];
+];
 
     const portfolio = [
         {
-            icon: "fas fa-store",
-            title: "Business Website Concept",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Ernakulam. SEO-focused and conversion-ready solutions.",
-            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
+                "icon": "fas fa-store",
+                "title": "Freelance Portfolio Concept",
+                "description": "A fast Next.js landing page featuring interactive elements, signup forms, and search engine optimizations.",
+                "tech": [
+                        "Next.js",
+                        "SEO Metadata",
+                        "Lead Forms",
+                        "WhatsApp CTA"
+                ]
         },
         {
-            icon: "fas fa-shopping-bag",
-            title: "E-commerce Concept",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Ernakulam. SEO-focused and conversion-ready solutions.",
-            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
+                "icon": "fas fa-shopping-bag",
+                "title": "Retail Store Concept",
+                "description": "A conversion-friendly storefront featuring user order flows, payment options, and automated invoices.",
+                "tech": [
+                        "E-commerce",
+                        "Checkout UX",
+                        "Payments",
+                        "Analytics"
+                ]
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Mobile App Concept",
-            description: "Professional web development, ecommerce website, WordPress, and mobile app development services in Ernakulam. SEO-focused and conversion-ready solutions.",
-            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
+                "icon": "fas fa-mobile-alt",
+                "title": "Mobile App Concept",
+                "description": "An iOS & Android mobile application showcasing offline database support, API dashboards, and push notifications.",
+                "tech": [
+                        "Flutter",
+                        "Node.js API",
+                        "Notifications",
+                        "Dashboard"
+                ]
         }
-    ];
+];
 
     return (
         <>
@@ -160,7 +205,7 @@ export default function ErnakulamServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and mobile app development services in Ernakulam, Ernakulam, Kerala. Services include website development, ecommerce setup, WordPress development, MERN stack applications, and technical SEO improvements for business groups, local brands, technology teams, clinics, and service providers."
+                description="Professional web development and mobile app development services in Ernakulam, Kerala. Custom designed for local boutique shops, tutors, clinics, and personal brands looking for clean, indexable code."
             />
         </>
     );

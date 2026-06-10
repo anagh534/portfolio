@@ -223,7 +223,7 @@ export default function ServicePageTemplate({
                             {relatedServices.map((s, i) => (
                                 <a key={i} href={s.href} className="p-6 rounded-[28px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-300 group flex items-center justify-between gap-4">
                                     <div>
-                                        <div className="text-white font-bold uppercase tracking-tight text-sm group-hover:text-blue-400 transition-colors">{s.title}</div>
+                                        <h3 className="text-white font-bold uppercase tracking-tight text-sm group-hover:text-blue-400 transition-colors">{s.title}</h3>
                                         <div className="text-gray-500 text-xs mt-1">{s.desc}</div>
                                     </div>
                                     <ArrowRight size={18} className="text-gray-600 group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0" />

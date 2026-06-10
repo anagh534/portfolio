@@ -150,17 +150,19 @@ const Footer = () => {
                     {/* ─── 5-column grid ─── */}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 mb-14">
 
-                        {/* Col 1 — Brand */}
-                        <div className="lg:col-span-1 space-y-5">
-                            <a href="/" aria-label="ANAGH K R — Home">
-                                <span className="text-2xl font-black tracking-tighter text-white">
-                                    ANAGH<span className="text-blue-500">.KR</span>
-                                </span>
-                            </a>
-                            <p className="text-sm text-gray-400 leading-relaxed">
-                                Crafting high-performance digital experiences with a focus on
-                                innovation, quality, and user-centric design.
-                            </p>
+                        {/* Col 1 — Brand & Contact */}
+                        <div className="lg:col-span-1 space-y-6">
+                            <div className="space-y-4">
+                                <a href="/" aria-label="ANAGH K R — Home">
+                                    <span className="text-2xl font-black tracking-tighter text-white">
+                                        ANAGH<span className="text-blue-500">.KR</span>
+                                    </span>
+                                </a>
+                                <p className="text-sm text-gray-400 leading-relaxed">
+                                    Crafting high-performance digital experiences with a focus on
+                                    innovation, quality, and user-centric design.
+                                </p>
+                            </div>
                             <div className="flex gap-3 pt-1">
                                 <a href="https://github.com/anagh534" target="_blank" rel="noopener noreferrer"
                                     aria-label="GitHub"
@@ -178,6 +180,22 @@ const Footer = () => {
                                     <Instagram size={17} />
                                 </a>
                             </div>
+                            <address className="not-italic space-y-3 pt-2">
+                                <a href="mailto:anaghkrkkl@gmail.com"
+                                    className="flex items-center gap-3 text-sm text-gray-400 hover:text-white transition-colors">
+                                    <Mail size={16} className="text-blue-400 shrink-0" />
+                                    <span>anaghkrkkl@gmail.com</span>
+                                </a>
+                                <a href="tel:+918281571805"
+                                    className="flex items-center gap-3 text-sm text-gray-400 hover:text-white transition-colors">
+                                    <Phone size={16} className="text-blue-400 shrink-0" />
+                                    <span>+91 8281571805</span>
+                                </a>
+                                <div className="flex items-center gap-3 text-sm text-gray-400">
+                                    <MapPin size={16} className="text-blue-400 shrink-0" />
+                                    <span>Kerala, India</span>
+                                </div>
+                            </address>
                         </div>
 
                         {/* Col 2 — Quick Links */}
@@ -213,45 +231,78 @@ const Footer = () => {
                             </div>
                         </details>
 
-                        {/* Col 3 — Services */}
+                        {/* Col 3 — Core Services */}
                         <details className="fd lg:col-span-1" open>
                             <summary className="flex items-center justify-between mb-5 cursor-pointer lg:cursor-default">
-                                <h3 className="text-xs font-bold uppercase tracking-widest text-white">Services</h3>
+                                <h3 className="text-xs font-bold uppercase tracking-widest text-white">Core Services</h3>
                                 <svg className="fd-chev w-4 h-4 text-gray-500 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             </summary>
                             <div className="fd-body">
                                 <div className="fd-inner">
-                                    <nav aria-label="Services">
+                                    <nav aria-label="Core Services">
                                         <ul className="space-y-3 pb-4 lg:pb-0">
                                             {[
                                                 { label: 'Web Development', href: '/web-development/' },
-                                                { label: 'E-commerce', href: '/ecommerce-development/' },
                                                 { label: 'Mobile Apps', href: '/mobile-app-development/' },
-                                                { label: 'MERN Stack', href: '/mern-stack-development/' },
-                                                { label: 'WordPress', href: '/wordpress-development/' },
-                                                { label: 'Instagram Store', href: '/instagram-store-development/' },
-                                                { label: 'Shopify Store', href: '/shopify-store-development/' },
+                                                { label: 'Flutter Apps', href: '/flutter-app-development/' },
+                                                { label: 'React JS Dev', href: '/react-development/' },
+                                                { label: 'Next.js Development', href: '/nextjs-development/' },
+                                                { label: 'Node.js Development', href: '/nodejs-development/' },
+                                                { label: 'MERN Stack Dev', href: '/mern-stack-development/' },
                                             ].map(item => (
-                                                <li key={item.href}>
+                                                <li key={item.href} className="flex items-center gap-2">
+                                                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500/40 shrink-0"></span>
                                                     <a href={item.href} className="text-sm text-gray-400 hover:text-white transition-colors">
                                                         {item.label}
                                                     </a>
                                                 </li>
                                             ))}
-                                            <li className="pt-1">
-                                                <a href="/services/" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
-                                                    View All Services
-                                                </a>
-                                            </li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                         </details>
 
-                        {/* Col 4 — Locations */}
+                        {/* Col 4 — Specialized Solutions */}
+                        <details className="fd lg:col-span-1" open>
+                            <summary className="flex items-center justify-between mb-5 cursor-pointer lg:cursor-default">
+                                <h3 className="text-xs font-bold uppercase tracking-widest text-white">Specialized Solutions</h3>
+                                <svg className="fd-chev w-4 h-4 text-gray-500 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </summary>
+                            <div className="fd-body">
+                                <div className="fd-inner">
+                                    <nav aria-label="Specialized Solutions">
+                                        <ul className="space-y-3 pb-4 lg:pb-0">
+                                            {[
+                                                { label: 'E-commerce Dev', href: '/ecommerce-development/' },
+                                                { label: 'Shopify Store', href: '/shopify-store-development/' },
+                                                { label: 'WordPress Dev', href: '/wordpress-development/' },
+                                                { label: 'Chat Apps', href: '/chat-app-development/' },
+                                                { label: 'Dating Apps', href: '/dating-app-development/' },
+                                                { label: 'Clothing E-commerce', href: '/clothing-ecommerce-website-development/' },
+                                                { label: 'Dropshipping Web', href: '/dropshipping-website-development/' },
+                                                { label: 'Electronics E-commerce', href: '/electronics-ecommerce-website-development/' },
+                                                { label: 'Instagram Store', href: '/instagram-store-development/' },
+                                                { label: 'Shoe Store Dev', href: '/shoe-store-website-development/' },
+                                            ].map(item => (
+                                                <li key={item.href} className="flex items-center gap-2">
+                                                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500/40 shrink-0"></span>
+                                                    <a href={item.href} className="text-sm text-gray-400 hover:text-white transition-colors">
+                                                        {item.label}
+                                                    </a>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </details>
+
+                        {/* Col 5 — Locations */}
                         <details className="fd lg:col-span-1" open>
                             <summary className="flex items-center justify-between mb-5 cursor-pointer lg:cursor-default">
                                 <h3 className="text-xs font-bold uppercase tracking-widest text-white">Locations</h3>
@@ -261,54 +312,36 @@ const Footer = () => {
                             </summary>
                             <div className="fd-body">
                                 <div className="fd-inner">
-                                    <nav aria-label="Service locations in Kerala">
-                                        <ul className="space-y-3 pb-4 lg:pb-0">
+                                    <nav aria-label="Service locations in Kerala, Karnataka, and Tamil Nadu">
+                                        <div className="grid grid-cols-2 gap-x-2 gap-y-3 pb-4 lg:pb-0">
                                             {[
                                                 { label: 'Kochi', href: '/locations/kochi/' },
                                                 { label: 'Trivandrum', href: '/locations/thiruvananthapuram/' },
                                                 { label: 'Kozhikode', href: '/locations/kozhikode/' },
                                                 { label: 'Thrissur', href: '/locations/thrissur/' },
                                                 { label: 'Ernakulam', href: '/locations/ernakulam/' },
+                                                { label: 'Calicut', href: '/locations/calicut/' },
                                                 { label: 'Kannur', href: '/locations/kannur/' },
                                                 { label: 'Kasaragod', href: '/locations/kasaragod/' },
+                                                { label: 'Kanhangad', href: '/locations/kanhangad/' },
+                                                { label: 'Palakkad', href: '/locations/palakkad/' },
+                                                { label: 'Kollam', href: '/locations/kollam/' },
+                                                { label: 'Mangalore', href: '/locations/mangalore/' },
+                                                { label: 'Coimbatore', href: '/locations/coimbatore/' },
+                                                { label: 'Chennai', href: '/locations/chennai/' },
                                             ].map(item => (
-                                                <li key={item.href}>
-                                                    <a href={item.href} className="text-sm text-gray-400 hover:text-white transition-colors">
+                                                <div key={item.href} className="flex items-center gap-1.5">
+                                                    <span className="w-1 h-1 rounded-full bg-blue-500/40 shrink-0"></span>
+                                                    <a href={item.href} className="text-xs text-gray-400 hover:text-white transition-colors">
                                                         {item.label}
                                                     </a>
-                                                </li>
+                                                </div>
                                             ))}
-                                            <li className="pt-1">
-                                                <a href="/locations/" className="text-xs font-bold uppercase tracking-widest text-blue-400 hover:text-blue-300 transition-colors">
-                                                    View All Locations
-                                                </a>
-                                            </li>
-                                        </ul>
+                                        </div>
                                     </nav>
                                 </div>
                             </div>
                         </details>
-
-                        {/* Col 5 — Contact */}
-                        <div className="lg:col-span-1 space-y-3">
-                            <h3 className="text-xs font-bold uppercase tracking-widest text-white mb-5">Contact</h3>
-                            <address className="not-italic space-y-3">
-                                <a href="mailto:anaghkrkkl@gmail.com"
-                                    className="flex items-start gap-3 text-sm text-gray-400 hover:text-white transition-colors">
-                                    <Mail size={16} className="text-blue-400 shrink-0 mt-0.5" />
-                                    <span>anaghkrkkl@gmail.com</span>
-                                </a>
-                                <a href="tel:+918281571805"
-                                    className="flex items-start gap-3 text-sm text-gray-400 hover:text-white transition-colors">
-                                    <Phone size={16} className="text-blue-400 shrink-0 mt-0.5" />
-                                    <span>+91 8281571805</span>
-                                </a>
-                                <p className="flex items-start gap-3 text-sm text-gray-400">
-                                    <MapPin size={16} className="text-blue-400 shrink-0 mt-0.5" />
-                                    <span>Kerala, India</span>
-                                </p>
-                            </address>
-                        </div>
                     </div>
 
                     {/* ─── Bottom bar ─── */}

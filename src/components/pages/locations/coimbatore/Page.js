@@ -1,21 +1,21 @@
 export const metadata = {
     title: "Flutter & Website Developer in Coimbatore | ANAGH K R",
-    description: "Professional website developer and mobile app (Flutter) expert in Coimbatore. Get high-converting e-commerce, custom web apps, and targeted local SEO.",
-    keywords: "website developer coimbatore, flutter developer coimbatore, web developer coimbatore, mobile app development coimbatore, local SEO coimbatore, ecommerce coimbatore",
+    description: "Professional website developer and mobile app (Flutter) expert in Coimbatore, Tamil Nadu. I design responsive portfolios, local shop sites, and custom apps.",
+    keywords: "website developer coimbatore, flutter developer coimbatore, web developer coimbatore, mobile app development coimbatore, WordPress coimbatore, local SEO coimbatore",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/coimbatore/",
     },
     openGraph: {
         title: "Flutter & Website Developer in Coimbatore | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Coimbatore. Get high-converting e-commerce, custom web apps, and targeted local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Coimbatore, Tamil Nadu. I design responsive portfolios, local shop sites, and custom apps.",
         url: "https://www.anaghkr.in/locations/coimbatore/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Flutter & Website Developer in Coimbatore | ANAGH K R",
-        description: "Professional website developer and mobile app (Flutter) expert in Coimbatore. Get high-converting e-commerce, custom web apps, and targeted local SEO.",
+        description: "Professional website developer and mobile app (Flutter) expert in Coimbatore, Tamil Nadu. I design responsive portfolios, local shop sites, and custom apps.",
     },
 };
 
@@ -25,7 +25,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "ANAGH K R - Web & App Development in Coimbatore",
-    "description": "Professional website development, e-commerce solutions, and Flutter mobile app development in Coimbatore, Tamil Nadu.",
+    "description": "Professional website design, mobile apps, and local search optimization in Coimbatore, Tamil Nadu.",
     "url": "https://www.anaghkr.in/locations/coimbatore/",
     "telephone": "+91-8281571805",
     "email": "anaghkrkkl@gmail.com",
@@ -44,109 +44,154 @@ const schemaData = {
 export default function CoimbatoreServices() {
     const cityHighlights = [
         {
-            icon: "fas fa-building",
-            title: "Local Market Fit",
-            description: "Tailored digital solutions built to scale Coimbatore's industrial hubs, textile empires, local shops, and modern engineering services."
+                "icon": "fas fa-building",
+                "title": "Local Market Fit",
+                "description": "Fast-loading websites engineered for Coimbatore's local retailers, design studios, and freelance professionals."
         },
         {
-            icon: "fas fa-chart-line",
-            title: "Digital Growth Opportunity",
-            description: "Elevate your business's presence in the 'Manchester of South India' across rapidly expanding retail, export, manufacturing, and tech sectors."
+                "icon": "fas fa-chart-line",
+                "title": "Digital Growth Opportunity",
+                "description": "Building efficient local inquiry grids and product directories to capture regional and online leads."
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Mobile-First Demand",
-            description: "Engineering top-tier cross-platform Flutter applications to capture Coimbatore's active consumer base and internal enterprise users."
+                "icon": "fas fa-mobile-alt",
+                "title": "Mobile-First Demand",
+                "description": "Developing clean Flutter mobile utilities and responsive web catalogs for Coimbatore local users."
         },
         {
-            icon: "fas fa-globe",
-            title: "SEO Visibility",
-            description: "Targeted on-page and technical SEO setup to rank your brand at the absolute top of Coimbatore local search results."
+                "icon": "fas fa-globe",
+                "title": "SEO Visibility",
+                "description": "Structuring semantic code bases to target search ranking for Coimbatore local terms."
         }
-    ];
+];
 
     const services = [
         {
-            icon: "fas fa-laptop-code",
-            title: "Custom Website Development",
-            description: "Premium custom web development in Coimbatore using React and Next.js. I design high-performance, fast-loading, and responsive business portals tailored to your brand.",
-            features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
+                "icon": "fas fa-laptop-code",
+                "title": "Custom Website Development",
+                "description": "Custom corporate website design in Coimbatore. Get high-speed, secure, and mobile-friendly Next.js web applications.",
+                "features": [
+                        "Responsive Next.js",
+                        "SEO Architectures",
+                        "Sub-Second Speeds",
+                        "Conversion Focus"
+                ]
         },
         {
-            icon: "fas fa-shopping-cart",
-            title: "E-commerce Development",
-            description: "Build secure, robust e-commerce stores in Coimbatore with fully integrated payment options, automated inventory sync, and conversion-optimized mobile checkouts.",
-            features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
+                "icon": "fas fa-shopping-cart",
+                "title": "E-commerce Development",
+                "description": "Custom e-commerce in Coimbatore. Scalable shopping carts, simple order forms, and secure payment integrations.",
+                "features": [
+                        "Custom Catalogs",
+                        "Razorpay / Cashfree",
+                        "Secure Order Flow",
+                        "Admin Dashboard"
+                ]
         },
         {
-            icon: "fab fa-flutter",
-            title: "Mobile App Development",
-            description: "Hire a professional Flutter developer in Coimbatore to engineer native-performing iOS & Android mobile apps. Serving tech brands and startups from Gandhipuram to Peelamedu.",
-            features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
+                "icon": "fab fa-flutter",
+                "title": "Mobile App Development",
+                "description": "Engineering custom mobile utilities in Coimbatore. Cross-platform Flutter apps with robust database connections.",
+                "features": [
+                        "Flutter Framework",
+                        "API Integration",
+                        "Push Alerts",
+                        "Play Store & App Store Support"
+                ]
         },
         {
-            icon: "fab fa-wordpress",
-            title: "WordPress Development",
-            description: "Get custom WordPress websites and landing pages for Coimbatore's textile retail brands, hospitals, engineering firms, and educational consultants.",
-            features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
+                "icon": "fab fa-wordpress",
+                "title": "WordPress Development",
+                "description": "WordPress development in Coimbatore. Custom theme structures, fast-loading assets, and secure backend integration.",
+                "features": [
+                        "Custom Themes",
+                        "Fast Loading Pages",
+                        "Security Audits",
+                        "Easy Admin Panels"
+                ]
         },
         {
-            icon: "fas fa-database",
-            title: "MERN Stack Development",
-            description: "Custom web dashboards, secure MERN stack web applications, and database integrations tailored for Coimbatore startups, logistics networks, and industrial teams.",
-            features: ["Custom Dashboards", "API Architectures", "Secure Roles", "Scalable Mongo/Node databases"]
+                "icon": "fas fa-database",
+                "title": "MERN Stack Development",
+                "description": "MERN stack developer in Coimbatore. Custom CRM dashboards, secure databases, and high-performance Express APIs.",
+                "features": [
+                        "Custom Dashboards",
+                        "API Architectures",
+                        "Secure Roles",
+                        "Scalable Mongo/Node databases"
+                ]
         },
         {
-            icon: "fas fa-search",
-            title: "SEO and Performance",
-            description: "Rank higher locally with custom local search optimization campaigns, structural JSON-LD schemas, and extreme site speed optimization targeting Coimbatore search terms.",
-            features: ["Local GEO Audits", "Structured Schemas", "Core Web Vitals", "Keyword Research"]
+                "icon": "fas fa-search",
+                "title": "SEO and Performance",
+                "description": "Search visibility optimization in Coimbatore. Semantic tags, structured schemas, and speed improvements.",
+                "features": [
+                        "Local GEO Audits",
+                        "Structured Schemas",
+                        "Core Web Vitals",
+                        "Keyword Research"
+                ]
         }
-    ];
+];
 
     const benefits = [
         {
-            icon: "fas fa-handshake",
-            title: "Professional Communication",
-            description: "Fluent, reliable, and prompt project updates ensuring your web concepts match exactly your business expectations."
+                "icon": "fas fa-handshake",
+                "title": "Professional Communication",
+                "description": "Direct project tracking, detailed technical summaries, and quick reviews."
         },
         {
-            icon: "fas fa-clock",
-            title: "Structured Delivery",
-            description: "Clear milestones, clean git repositories, transparent pricing, and structured delivery schedules from start to finish."
+                "icon": "fas fa-clock",
+                "title": "Structured Delivery",
+                "description": "Structured project milestones, ensuring optimal performance from day one."
         },
         {
-            icon: "fas fa-map-marker-alt",
-            title: "Local SEO Focus",
-            description: "High local keyword densities tailored specifically to Coimbatore, Peelamedu, and surrounding industrial growth markets."
+                "icon": "fas fa-map-marker-alt",
+                "title": "Local SEO Focus",
+                "description": "On-page keyword structures targeting Coimbatore local service searches."
         },
         {
-            icon: "fas fa-rupee-sign",
-            title: "Practical Pricing",
-            description: "Cost-effective development rates that deliver enterprise-grade performance and unmatched visual aesthetics."
+                "icon": "fas fa-rupee-sign",
+                "title": "Practical Pricing",
+                "description": "Pricing packages designed around exact modules and launch roadmaps."
         }
-    ];
+];
 
     const portfolio = [
         {
-            icon: "fas fa-store",
-            title: "Business Website Concept",
-            description: "High-converting website concept featuring Next.js, headless CMS content integrations, and instant WhatsApp chat funnels.",
-            tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
+                "icon": "fas fa-store",
+                "title": "Store Catalog Concept",
+                "description": "A high-speed React database-driven catalog with inquiry checklists and local SEO tags.",
+                "tech": [
+                        "Next.js",
+                        "B2C catalog",
+                        "SEO Tags",
+                        "Contact Form"
+                ]
         },
         {
-            icon: "fas fa-shopping-bag",
-            title: "E-commerce Concept",
-            description: "Modern storefront demo with responsive product catalogs, instant checkout, and localized payment integrations.",
-            tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
+                "icon": "fas fa-shopping-bag",
+                "title": "Retail Store Concept",
+                "description": "A secure shopping site featuring custom order forms, Razorpay payments, and responsive cart structures.",
+                "tech": [
+                        "E-commerce",
+                        "Razorpay integration",
+                        "Retail UX",
+                        "Analytics"
+                ]
         },
         {
-            icon: "fas fa-mobile-alt",
-            title: "Mobile App Concept",
-            description: "Premium cross-platform Flutter app design with custom state management and push notification setup.",
-            tech: ["Flutter", "Node.js API", "Notifications", "Dashboard"]
+                "icon": "fas fa-mobile-alt",
+                "title": "Utility App Concept",
+                "description": "A Flutter application displaying offline database inputs, chart visualizers, and notification alerts.",
+                "tech": [
+                        "Flutter",
+                        "Local SQLite",
+                        "Offline Support",
+                        "Charts"
+                ]
         }
-    ];
+];
 
     return (
         <>
@@ -160,7 +205,7 @@ export default function CoimbatoreServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional website development, mobile app development, and technical local SEO services in Coimbatore. Get high-converting e-commerce, custom web apps, and expert Flutter development targeting local industrial and tech sectors."
+                description="Professional website developer and cross-platform Flutter mobile app coder in Coimbatore, Tamil Nadu. Creating scalable Next.js company portals, robust local shop catalogs, MERN database layouts, and search-optimized architectures."
             />
         </>
     );
