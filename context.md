@@ -11,7 +11,7 @@ This file tracks the SEO status and tasks for every page in the portfolio.
 - [x] **Internal Linking**: Verified consistency and fixed issues (especially in /about and location pages).
 - [x] **FAQ Hydration**: Verified `client:visible` added to all page modules.
 - [x] **Astro Config**: Enforced `trailingSlash: 'always'` and `output: 'static'`.
-- [x] **Sitemap Enhanced**: Re-configured the official `@astrojs/sitemap` integration coupled with a post-processing script to serve a single `sitemap.xml` compliant with Google/Bing guidelines.
+- [x] **Sitemap Enhanced**: Transformed the sitemap to a static, manually maintained `public/sitemap.xml` that includes all 43 pages of the site with correct priorities, change frequencies, and canonical trailing-slash URLs.
 - [x] **robots.txt Fixed**: Added explicit `Allow: /`, removed irrelevant `/_next/` and `/.git/` rules, added AI bot allowances (GPTBot, PerplexityBot, ClaudeBot, ChatGPT-User), added `Disallow` for 404 URLs.
 - [x] **404 URLs Fixed**: `/resume` → Live professional resume page. `/ANAGH-K-R-MERN-STACK-DEVELOPER.pdf` → 301 permanent redirect to live Google Drive PDF.
 - [x] **Empty Routes Deleted**: Removed `/src/pages/kerala/` and `/src/pages/ml/` (empty dynamic route directories that served no pages).
@@ -21,7 +21,7 @@ This file tracks the SEO status and tasks for every page in the portfolio.
 - [x] **llms.txt Updated**: Removed stale /kerala/ and /ml/ route references.
 
 ## Global SEO Tasks
-- [x] Ensure `sitemap.xml` exists and is up to date. (Handled by Astro sitemap integration with lastmod/priority)
+- [x] Ensure `sitemap.xml` exists and is up to date. (Manually maintained at `public/sitemap.xml` and copied to build folder as-is)
 - [x] Ensure `robots.txt` is configured properly.
 - [x] Check for mixed content errors (HTTPS). (Verified in BaseLayout)
 - [x] Verify favicon presence and proper sizing. (Linked in BaseLayout)

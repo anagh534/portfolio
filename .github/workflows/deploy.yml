@@ -51,7 +51,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Ping Search Engines with Sitemap
-        run: |
-          curl -I "https://www.bing.com/ping?sitemap=https://www.anaghkr.in/sitemap.xml"
