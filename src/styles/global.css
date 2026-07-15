@@ -34,6 +34,19 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  /* Prevent fixed backgrounds and absolute decorative glows from intercepting scroll/touch gestures */
+  .fixed.inset-0.-z-1,
+  [class*="blur-"]:not([class*="backdrop-blur"]) {
+    pointer-events: none !important;
+  }
+
+  /* GPU-accelerate full-screen fixed backgrounds to prevent repaint lag on scroll */
+  .fixed.inset-0.-z-1 {
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+  }
+
   h1,
   h2,
   h3,
