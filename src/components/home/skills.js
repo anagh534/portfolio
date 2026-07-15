@@ -14,7 +14,7 @@ const skillCategories = [
         title: 'Frontend Development',
         icon: <Code2 size={24} />,
         description: 'Building immersive, high-performance web interfaces.',
-        skills: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Three.js']
+        skills: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Astro']
     },
     {
         title: 'Backend Development',
