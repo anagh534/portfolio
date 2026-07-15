@@ -124,33 +124,29 @@ export default function WhyChooseMe() {
 
                         {/* Floating cards for desktop */}
                         <div className="hidden xl:block">
-                            <motion.div
-                                className="absolute -top-10 -right-10 p-6 rounded-3xl bg-black/80 backdrop-blur-xl border border-white/10 shadow-2xl flex items-center gap-4 group"
-                                animate={{ y: [0, -15, 0] }}
-                                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                            >
-                                <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center font-black text-black">JS</div>
-                                <div>
-                                    <div className="text-white font-bold text-sm">React Expert</div>
-                                    <div className="w-24 h-1.5 bg-white/5 rounded-full mt-2 overflow-hidden">
-                                        <div className="h-full bg-blue-500" style={{ width: '95%' }}></div>
+                            <div className="absolute -top-10 -right-10 z-10">
+                                <div className="p-6 rounded-3xl bg-black/80 backdrop-blur-xl border border-white/10 shadow-2xl flex items-center gap-4 group animate-float">
+                                    <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center font-black text-black">JS</div>
+                                    <div>
+                                        <div className="text-white font-bold text-sm">React Expert</div>
+                                        <div className="w-24 h-1.5 bg-white/5 rounded-full mt-2 overflow-hidden">
+                                            <div className="h-full bg-blue-500" style={{ width: '95%' }}></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </motion.div>
+                            </div>
 
-                            <motion.div
-                                className="absolute -bottom-10 -left-10 p-6 rounded-3xl bg-black/80 backdrop-blur-xl border border-white/10 shadow-2xl flex items-center gap-4 group"
-                                animate={{ y: [0, 15, 0] }}
-                                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                            >
-                                <div className="w-12 h-12 rounded-full bg-cyan-500 flex items-center justify-center font-black text-black">FL</div>
-                                <div>
-                                    <div className="text-white font-bold text-sm">Flutter Pro</div>
-                                    <div className="w-24 h-1.5 bg-white/5 rounded-full mt-2 overflow-hidden">
-                                        <div className="h-full bg-cyan-500" style={{ width: '90%' }}></div>
+                            <div className="absolute -bottom-10 -left-10 z-10">
+                                <div className="p-6 rounded-3xl bg-black/80 backdrop-blur-xl border border-white/10 shadow-2xl flex items-center gap-4 group animate-float-reverse">
+                                    <div className="w-12 h-12 rounded-full bg-cyan-500 flex items-center justify-center font-black text-black">FL</div>
+                                    <div>
+                                        <div className="text-white font-bold text-sm">Flutter Pro</div>
+                                        <div className="w-24 h-1.5 bg-white/5 rounded-full mt-2 overflow-hidden">
+                                            <div className="h-full bg-cyan-500" style={{ width: '90%' }}></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </motion.div>
+                            </div>
                         </div>
                     </motion.div>
                 </div>

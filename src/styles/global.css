@@ -212,6 +212,25 @@
   animation-delay: 280ms;
 }
 
+/* Reusable Float Animations (CSS Compositor Accelerated) */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes float-reverse {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(15px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: float-reverse 5s ease-in-out infinite;
+}
+
 /* Respect system preference — disable animations for accessibility */
 @media (prefers-reduced-motion: reduce) {
   .hero-badge,
@@ -222,12 +241,9 @@
   .animate-fade-in,
   .animate-fade-in-up,
   .animate-slide-in,
-  .page-transition-wrapper {
+  .page-transition-wrapper,
+  .animate-float,
+  .animate-float-reverse {
     animation: none !important;
   }
-}
-
-/* Content visibility for better rendering performance */
-.glass-card {
-  content-visibility: auto;
 }

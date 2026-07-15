@@ -383,24 +383,24 @@ const Footer = () => {
                     <ArrowUp size={20} />
                 </a>
 
-                {/* Scroll listener: show back-to-top only at page bottom */}
+                {/* Intersection observer: show back-to-top only at page bottom */}
                 <script dangerouslySetInnerHTML={{
                     __html: `
-                    (function() {
+                    document.addEventListener('DOMContentLoaded', function() {
                         var btn = document.getElementById('back-to-top');
-                        if (!btn) return;
-                        function onScroll() {
-                            var scrolled = window.scrollY + window.innerHeight;
-                            var total   = document.documentElement.scrollHeight;
-                            if (scrolled >= total - 150) {
-                                btn.classList.add('visible');
-                            } else {
-                                btn.classList.remove('visible');
-                            }
-                        }
-                        window.addEventListener('scroll', onScroll, { passive: true });
-                        onScroll();
-                    })();
+                        var footer = document.querySelector('footer');
+                        if (!btn || !footer) return;
+                        var observer = new IntersectionObserver(function(entries) {
+                            entries.forEach(function(entry) {
+                                if (entry.isIntersecting) {
+                                    btn.classList.add('visible');
+                                } else {
+                                    btn.classList.remove('visible');
+                                }
+                            });
+                        }, { rootMargin: '100px 0px 0px 0px' });
+                        observer.observe(footer);
+                    });
                 ` }} />
 
                 {/* Background glow */}
