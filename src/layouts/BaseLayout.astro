@@ -87,6 +87,15 @@ const appleTouchIcon = icons.apple || fallbackPngIcon;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1C1CYZXQ9R" is:inline></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1C1CYZXQ9R');
+    </script>
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="keywords" content={keywords} />
