@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Kozhikode | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Kozhikode, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer kozhikode, flutter developer kozhikode, web developer kozhikode, mobile app development kozhikode, WordPress kozhikode, local SEO kozhikode",
+    keywords: "website developer kozhikode, flutter developer kozhikode, web developer kozhikode, mobile app development kozhikode, local SEO kozhikode",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/kozhikode/",
@@ -78,17 +78,6 @@ export default function KozhikodeServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Responsive online stores in Kozhikode. I build shopping portals with secure inventory controls, payment setups, and smooth UI.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Cross-platform mobile app development in Kozhikode. I construct interactive Flutter apps with responsive user screens.",
@@ -97,17 +86,6 @@ export default function KozhikodeServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "WordPress website development in Kozhikode. Clean theme code, custom service layouts, and search-friendly structures.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -170,17 +148,6 @@ export default function KozhikodeServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-bag",
-                "title": "Retail E-commerce Concept",
-                "description": "A mobile-first shopping site featuring automated tax estimations, instant payment forms, and custom product views.",
-                "tech": [
-                        "E-commerce",
-                        "Checkout UX",
-                        "Payments",
-                        "Analytics"
-                ]
-        },
-        {
                 "icon": "fas fa-mobile-alt",
                 "title": "Mobile App Concept",
                 "description": "A Flutter mobile utility showcasing location-based searches, customer push alerts, and database integration.",
@@ -205,7 +172,7 @@ export default function KozhikodeServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and Flutter mobile app development services in Kozhikode, Kerala. Designing custom React portals, WooCommerce stores, MERN dashboards, and SEO assets for retail boutiques, clinics, and personal portfolios."
+                description="Professional web development and Flutter mobile app development services in Kozhikode, Kerala. Designing custom React portals, custom websites, MERN dashboards, and SEO assets for retail boutiques, clinics, and personal portfolios."
             />
         </>
     );

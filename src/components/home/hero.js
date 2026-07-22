@@ -26,7 +26,7 @@ export default function Hero() {
 
             {/* Description — delay 140ms */}
             <p className="hero-desc text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-10 max-w-3xl mx-auto lg:mx-0">
-              Experienced <strong className="text-white">freelance website developer</strong> and <strong className="text-white">Flutter developer in Kerala</strong> specializing in <strong className="text-white">custom websites, e-commerce, WordPress, and high-performance mobile apps</strong>.
+              Experienced <strong className="text-white">freelance website developer</strong> and <strong className="text-white">Flutter developer in Kerala</strong> specializing in <strong className="text-white">custom websites, MERN stack, and high-performance mobile apps</strong>.
               Building secure digital solutions
               for businesses across Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
               Transforming startup MVPs and trading catalogs into conversion-ready products with clean code. <a href="/web-development/" className="text-white font-bold underline decoration-blue-500 underline-offset-4 hover:text-blue-300">Explore website development services in Kerala</a>.

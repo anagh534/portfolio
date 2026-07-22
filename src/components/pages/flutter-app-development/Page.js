@@ -85,7 +85,6 @@ export default function FlutterAppDevelopmentPage() {
                 { title: "Node.js Development", desc: "Scalable APIs for Flutter apps", href: "/nodejs-development/" },
                 { title: "Web Development", desc: "Web companion to your mobile app", href: "/web-development/" },
                 { title: "React Development", desc: "Web admin panels for your app", href: "/react-development/" },
-                { title: "E-commerce Development", desc: "Mobile shopping experiences", href: "/ecommerce-development/" },
             ]}
             schemaData={schemaData}
         />

@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Ernakulam | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Ernakulam, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer ernakulam, flutter developer ernakulam, web developer ernakulam, mobile app development ernakulam, WordPress ernakulam, local SEO ernakulam",
+    keywords: "website developer ernakulam, flutter developer ernakulam, web developer ernakulam, mobile app development ernakulam, local SEO ernakulam",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/ernakulam/",
@@ -78,17 +78,6 @@ export default function ErnakulamServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Custom e-commerce layouts in Ernakulam. Responsive product grids, secure payments, and simplified catalog managers.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Scalable Flutter mobile app engineering in Ernakulam. I build native-grade apps with secure API integrations.",
@@ -97,17 +86,6 @@ export default function ErnakulamServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "WordPress development in Ernakulam. I build custom themes, secure page builders, and responsive web layouts.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -167,17 +145,6 @@ export default function ErnakulamServices() {
                         "SEO Metadata",
                         "Lead Forms",
                         "WhatsApp CTA"
-                ]
-        },
-        {
-                "icon": "fas fa-shopping-bag",
-                "title": "Retail Store Concept",
-                "description": "A conversion-friendly storefront featuring user order flows, payment options, and automated invoices.",
-                "tech": [
-                        "E-commerce",
-                        "Checkout UX",
-                        "Payments",
-                        "Analytics"
                 ]
         },
         {

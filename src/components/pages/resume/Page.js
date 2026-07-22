@@ -18,7 +18,7 @@ export default function Resume() {
             period: "2021 — Present",
             description: "View the professional resume of Anagh K R, an experienced Flutter and MERN stack developer with 3+ years expertise building high-performance web and mobile apps.",
             highlights: [
-                "Architected and deployed custom MERN stack e-commerce solutions with Razorpay integration.",
+                "Architected and deployed custom MERN stack custom web apps solutions with Razorpay integration.",
                 "Developed cross-platform mobile applications using Flutter & Firebase for global clients.",
                 "Optimized web performance and SEO, achieving significant improvements in search visibility.",
                 "Managed end-to-end development lifecycles for startups and established businesses in Kerala."

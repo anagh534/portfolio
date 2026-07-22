@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Kasaragod | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Kasaragod, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer kasaragod, flutter developer kasaragod, web developer kasaragod, mobile app development kasaragod, WordPress kasaragod, local SEO kasaragod",
+    keywords: "website developer kasaragod, flutter developer kasaragod, web developer kasaragod, mobile app development kasaragod, local SEO kasaragod",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/kasaragod/",
@@ -78,17 +78,6 @@ export default function KasaragodServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Lightweight e-commerce pages in Kasaragod. Clean layouts, simplified search filters, and direct customer contact integrations.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Lightweight mobile apps in Kasaragod. Built using Flutter for quick load times and offline support.",
@@ -97,17 +86,6 @@ export default function KasaragodServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "Lightweight WordPress setup in Kasaragod. Clean business pages, secure plugins, and fast loading configurations.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -167,17 +145,6 @@ export default function KasaragodServices() {
                         "CSS3",
                         "JavaScript",
                         "WhatsApp CTA"
-                ]
-        },
-        {
-                "icon": "fas fa-shopping-bag",
-                "title": "Small Shop Concept",
-                "description": "A lightweight shopping cart setup with direct UPI payments, item filters, and mobile-friendly grids.",
-                "tech": [
-                        "E-commerce",
-                        "UPI Payments",
-                        "Fast checkout",
-                        "Alt tags"
                 ]
         },
         {

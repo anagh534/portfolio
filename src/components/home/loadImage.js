@@ -40,7 +40,7 @@ const projects = [
         srcSet: '/assets/projects/myindianstore-480.webp 480w, /assets/projects/myindianstore-900.webp 900w',
         url: 'https://myindianstore.app',
         technologies: ["Html", "Css", "Javascript", "Bootstrap"],
-        category: "E-commerce",
+        category: "custom web apps",
         year: "2025"
     },
     {

@@ -120,7 +120,6 @@ export default function MernStackDevelopmentPage() {
                 { title: "Node.js Development", desc: "Scalable backend APIs with Node.js", href: "/nodejs-development/" },
                 { title: "Next.js Development", desc: "SSR React with Next.js for SEO", href: "/nextjs-development/" },
                 { title: "Web Development", desc: "Full custom website development", href: "/web-development/" },
-                { title: "E-commerce Development", desc: "Online stores with payment gatways", href: "/ecommerce-development/" },
                 { title: "Mobile App Development", desc: "Cross-platform apps with Flutter", href: "/mobile-app-development/" },
             ]}
             schemaData={schemaData}

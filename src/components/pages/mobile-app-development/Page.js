@@ -60,7 +60,7 @@ export default function MobileAppDevelopmentPage() {
                 { icon: <MessageSquare size={22} />, title: "In-App Chat", desc: "Real-time messaging with Firebase or custom WebSocket-based chat modules." },
                 { icon: <CreditCard size={22} />, title: "In-App Payments", desc: "Razorpay, Stripe, PayPal, and in-app purchase integration for both Android and iOS." },
                 { icon: <Upload size={22} />, title: "Store Submission", desc: "App store listing, screenshots, descriptions, and submission guidance to get your app live on both stores." },
-                { icon: <Layers size={22} />, title: "Popular App Examples", desc: "Food delivery apps, booking apps, ecommerce apps, education apps, healthcare apps, dating apps, chat apps, and service marketplace apps." },
+                { icon: <Layers size={22} />, title: "Popular App Examples", desc: "Food delivery apps, booking apps, custom web apps apps, education apps, healthcare apps, dating apps, chat apps, and service marketplace apps." },
             ]}
             technologies={[
                 { category: "Development Framework", items: ["Flutter", "Dart", "Native Modules", "Platform Channels"] },
@@ -78,7 +78,7 @@ export default function MobileAppDevelopmentPage() {
                 { question: "Where are you located in Kerala?", answer: "I build apps for businesses worldwide, but I am locally available for face-to-face meetings across Kerala, primarily in Kochi, Calicut (Kozhikode), and Trivandrum. I offer full support in both Malayalam and English." },
                 { question: "How much does a mobile app cost in Kerala?", answer: "A simple mobile app starts from ₹20,000–₹40,000. Feature-rich apps with real-time tracking, payments, maps, and custom UI typically range ₹60,000–₹2,50,000. Contact me for a detailed estimate." },
                 { question: "How long does it take to build an app?", answer: "An MVP typically takes 4–8 weeks. Full-featured apps take 3–6 months. I provide regular builds so you can track progress." },
-                { question: "What type of apps do you build?", answer: "I build ecommerce, delivery, booking, education, healthcare, social, dating, chat, fintech wallets, and marketplace apps." },
+                { question: "What type of apps do you build?", answer: "I build custom web apps, delivery, booking, education, healthcare, social, dating, chat, fintech wallets, and marketplace apps." },
                 { question: "Do I need separate apps for iOS and Android?", answer: "Not with Flutter. A single Flutter codebase produces native apps for both iOS and Android, meaning you get both platforms at roughly the cost of building one." },
                 { question: "Can you build a delivery or booking app?", answer: "Yes. I've built logistics and service booking apps with real-time GPS tracking, push notifications, payment integration, and driver dashboards." },
             ]}
@@ -87,7 +87,6 @@ export default function MobileAppDevelopmentPage() {
                 { title: "Chat App Development", desc: "Real-time messaging applications", href: "/chat-app-development/" },
                 { title: "Dating App Development", desc: "Interactive safety-first matching apps", href: "/dating-app-development/" },
                 { title: "Node.js Development", desc: "Backend APIs to power your app", href: "/nodejs-development/" },
-                { title: "E-commerce Development", desc: "Mobile shopping experiences", href: "/ecommerce-development/" },
                 { title: "Web Development", desc: "Web counterpart to your mobile app", href: "/web-development/" },
             ]}
             schemaData={schemaData}

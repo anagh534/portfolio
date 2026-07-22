@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Palakkad | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Palakkad, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer palakkad, flutter developer palakkad, web developer palakkad, mobile app development palakkad, WordPress palakkad, local SEO palakkad",
+    keywords: "website developer palakkad, flutter developer palakkad, web developer palakkad, mobile app development palakkad, local SEO palakkad",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/palakkad/",
@@ -78,17 +78,6 @@ export default function PalakkadServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Product catalog and e-commerce setups in Palakkad. Clean digital listings with Razorpay gateway integrations and secure flow.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Lightweight mobile app design in Palakkad. Custom Flutter apps featuring stable performance and simple layouts.",
@@ -97,17 +86,6 @@ export default function PalakkadServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "WordPress site design in Palakkad. Simple, fast-loading corporate themes with secure page management systems.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -170,17 +148,6 @@ export default function PalakkadServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-bag",
-                "title": "Simple Commerce Concept",
-                "description": "A secure shopping portal demo with direct payment buttons, customizable listings, and quick mobile checkout.",
-                "tech": [
-                        "E-commerce",
-                        "Razorpay",
-                        "UPI",
-                        "Fast checkouts"
-                ]
-        },
-        {
                 "icon": "fas fa-mobile-alt",
                 "title": "Mobile Dashboard Concept",
                 "description": "A cross-platform Flutter utility showing data tracking graphs, user settings, and secure login screens.",
@@ -205,7 +172,7 @@ export default function PalakkadServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and mobile app development services in Palakkad, Kerala. Build customized Next.js portfolios, WordPress templates, mobile app utilities, and local SEO optimizations tailored for local shops and service providers."
+                description="Professional web development and mobile app development services in Palakkad, Kerala. Build customized Next.js portfolios, custom websites, mobile app utilities, and local SEO optimizations tailored for local shops and service providers."
             />
         </>
     );

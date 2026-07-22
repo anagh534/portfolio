@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Calicut | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Calicut, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer calicut, flutter developer calicut, web developer calicut, mobile app development calicut, WordPress calicut, local SEO calicut",
+    keywords: "website developer calicut, flutter developer calicut, web developer calicut, mobile app development calicut, local SEO calicut",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/calicut/",
@@ -78,17 +78,6 @@ export default function CalicutServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Modern e-commerce store design in Calicut. User-friendly checkouts, secure online banking options, and clean mobile performance.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Modern mobile app development in Calicut. Responsive iOS & Android apps built using the powerful Flutter framework.",
@@ -97,17 +86,6 @@ export default function CalicutServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "WordPress theme customization in Calicut. Get secure, SEO-optimized business blogs and corporate websites.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -167,17 +145,6 @@ export default function CalicutServices() {
                         "SEO Metadata",
                         "Lead Forms",
                         "WhatsApp CTA"
-                ]
-        },
-        {
-                "icon": "fas fa-shopping-bag",
-                "title": "Boutique E-commerce Concept",
-                "description": "A conversion-oriented online shopping platform with cart systems, Razorpay payment modules, and fast checkouts.",
-                "tech": [
-                        "E-commerce",
-                        "Checkout UX",
-                        "Payments",
-                        "Analytics"
                 ]
         },
         {

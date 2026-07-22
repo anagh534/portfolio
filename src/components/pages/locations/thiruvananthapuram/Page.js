@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Trivandrum | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Trivandrum, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer thiruvananthapuram, flutter developer thiruvananthapuram, web developer thiruvananthapuram, mobile app development thiruvananthapuram, WordPress thiruvananthapuram, local SEO thiruvananthapuram",
+    keywords: "website developer thiruvananthapuram, flutter developer thiruvananthapuram, web developer thiruvananthapuram, mobile app development thiruvananthapuram, local SEO thiruvananthapuram",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/thiruvananthapuram/",
@@ -78,17 +78,6 @@ export default function TrivandrumServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Conversion-optimized e-commerce in Trivandrum. Integrated secure checkouts, simple cart listings, and UPI payment options.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Get native-performing iOS & Android mobile apps in Trivandrum using Flutter for clean performance.",
@@ -97,17 +86,6 @@ export default function TrivandrumServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "WordPress website building in Trivandrum. Custom themes, security audits, and easy-to-use admin backends for local blogs and portfolios.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -170,17 +148,6 @@ export default function TrivandrumServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-bag",
-                "title": "Online Store Concept",
-                "description": "A secure online storefront with integrated shopping carts, simple checkout forms, and secure local payment options.",
-                "tech": [
-                        "E-commerce",
-                        "Checkout UX",
-                        "Payments",
-                        "Analytics"
-                ]
-        },
-        {
                 "icon": "fas fa-mobile-alt",
                 "title": "Mobile App Concept",
                 "description": "An iOS & Android application mockup featuring user authentication, push alerts, and local data storage options.",
@@ -205,7 +172,7 @@ export default function TrivandrumServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and mobile app development services in Thiruvananthapuram (Trivandrum), Kerala. Offering customized web pages, WordPress development, MERN dashboards, and robust cross-platform mobile apps for local clinics, academies, and creators."
+                description="Professional web development and mobile app development services in Thiruvananthapuram (Trivandrum), Kerala. Offering customized web pages, custom websites, MERN dashboards, and robust cross-platform mobile apps for local clinics, academies, and creators."
             />
         </>
     );

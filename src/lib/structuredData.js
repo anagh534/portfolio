@@ -4,7 +4,7 @@ export const personStructuredData = {
   name: "ANAGH K R",
   alternateName: "Anagh K R",
   description:
-    "Freelance software developer and Flutter developer based in Kerala specializing in MERN stack development, Flutter apps, WordPress development, and custom website development.",
+    "Freelance software developer and Flutter developer based in Kerala specializing in MERN stack development, Flutter apps, and custom website development.",
   url: "https://www.anaghkr.in/",
   email: "mailto:anaghkrkkl@gmail.com",
   sameAs: [
@@ -34,7 +34,7 @@ export const organizationStructuredData = {
   url: "https://www.anaghkr.in/",
   logo: "https://www.anaghkr.in/logo.png",
   description:
-    "Professional web development and mobile app development services in Kerala. Specialized in MERN stack, Flutter, WordPress, and custom software development.",
+    "Professional web development and mobile app development services in Kerala. Specialized in MERN stack, Flutter, and custom software development.",
   email: "anaghkrkkl@gmail.com",
   telephone: "+91-8281571805",
   address: {
@@ -102,6 +102,5 @@ export const professionalServiceStructuredData = {
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Web Development" } },
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Flutter App Development" } },
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "MERN Stack Development" } },
-    { "@type": "Offer", itemOffered: { "@type": "Service", name: "WordPress Development" } }
   ]
 };

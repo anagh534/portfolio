@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Coimbatore | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Coimbatore, Tamil Nadu. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer coimbatore, flutter developer coimbatore, web developer coimbatore, mobile app development coimbatore, WordPress coimbatore, local SEO coimbatore",
+    keywords: "website developer coimbatore, flutter developer coimbatore, web developer coimbatore, mobile app development coimbatore, local SEO coimbatore",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/coimbatore/",
@@ -78,17 +78,6 @@ export default function CoimbatoreServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Custom e-commerce in Coimbatore. Scalable shopping carts, simple order forms, and secure payment integrations.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Engineering custom mobile utilities in Coimbatore. Cross-platform Flutter apps with robust database connections.",
@@ -97,17 +86,6 @@ export default function CoimbatoreServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "WordPress development in Coimbatore. Custom theme structures, fast-loading assets, and secure backend integration.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -167,17 +145,6 @@ export default function CoimbatoreServices() {
                         "B2C catalog",
                         "SEO Tags",
                         "Contact Form"
-                ]
-        },
-        {
-                "icon": "fas fa-shopping-bag",
-                "title": "Retail Store Concept",
-                "description": "A secure shopping site featuring custom order forms, Razorpay payments, and responsive cart structures.",
-                "tech": [
-                        "E-commerce",
-                        "Razorpay integration",
-                        "Retail UX",
-                        "Analytics"
                 ]
         },
         {

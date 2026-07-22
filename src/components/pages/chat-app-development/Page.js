@@ -79,7 +79,7 @@ export default function Page() {
             technologies={[
                 { category: "Frontend", items: ["Next.js", "React", "Tailwind CSS"] },
                 { category: "Backend", items: ["Node.js", "Express", "MongoDB", "Firebase"] },
-                { category: "Commerce and Growth", items: ["Shopify", "WooCommerce", "Razorpay", "Analytics"] },
+                { category: "Commerce and Growth", items: ["Custom Store", "Custom Stores", "Razorpay", "Analytics"] },
                 { category: "Mobile and Realtime", items: ["Flutter", "Socket.IO", "Push Notifications"] },
             ]}
             process={[

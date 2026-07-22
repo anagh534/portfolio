@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Kollam | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Kollam, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer kollam, flutter developer kollam, web developer kollam, mobile app development kollam, WordPress kollam, local SEO kollam",
+    keywords: "website developer kollam, flutter developer kollam, web developer kollam, mobile app development kollam, local SEO kollam",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/kollam/",
@@ -78,17 +78,6 @@ export default function KollamServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Wholesale and retail e-commerce in Kollam. Simple shopping cart structures, direct UPI integrations, and optimized checkout pages.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Custom mobile app creation in Kollam. I develop fast, responsive Flutter applications with clean database connections.",
@@ -97,17 +86,6 @@ export default function KollamServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "Clean WordPress portals in Kollam. Lightweight business themes, optimized speeds, and responsive local listings.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -170,17 +148,6 @@ export default function KollamServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-bag",
-                "title": "Agro Store Concept",
-                "description": "An online bulk booking platform supporting direct UPI checkouts, tax calculators, and admin invoice views.",
-                "tech": [
-                        "E-commerce",
-                        "Bulk Orders",
-                        "UPI Gateways",
-                        "Calculators"
-                ]
-        },
-        {
                 "icon": "fas fa-mobile-alt",
                 "title": "Local Delivery App Concept",
                 "description": "A Flutter app mockup displaying interactive shop lists, custom notifications, and backend REST APIs.",
@@ -205,7 +172,7 @@ export default function KollamServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development, ecommerce platforms, and Flutter mobile apps in Kollam (Quilon), Kerala. Serving boutiques, local service clinics, academies, and retail shops with clean, optimized code and native performance."
+                description="Professional web development, web applications, and Flutter mobile apps in Kollam (Quilon), Kerala. Serving boutiques, local service clinics, academies, and retail shops with clean, optimized code and native performance."
             />
         </>
     );

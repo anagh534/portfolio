@@ -79,7 +79,7 @@ export default function Page() {
             technologies={[
                 { category: "Frontend", items: ["Next.js", "React", "Tailwind CSS"] },
                 { category: "Backend", items: ["Node.js", "Express", "MongoDB", "Firebase"] },
-                { category: "Commerce and Growth", items: ["Shopify", "WooCommerce", "Razorpay", "Analytics"] },
+                { category: "Commerce and Growth", items: ["Custom Store", "Custom Stores", "Razorpay", "Analytics"] },
                 { category: "Mobile and Realtime", items: ["Flutter", "Socket.IO", "Push Notifications"] },
             ]}
             process={[
@@ -100,7 +100,6 @@ export default function Page() {
                 { title: "Chat App Development", desc: "Real-time messaging backbone", href: "/chat-app-development/" },
                 { title: "Mobile App Development", desc: "Cross-platform product build", href: "/mobile-app-development/" },
                 { title: "Flutter App Development", desc: "Fast iOS and Android development", href: "/flutter-app-development/" },
-                { title: "E-commerce Development", desc: "Marketplace and commerce apps", href: "/ecommerce-development/" },
                 { title: "Web Development", desc: "Admin dashboards and web panels", href: "/web-development/" },
             ]}
             schemaData={schemaData}

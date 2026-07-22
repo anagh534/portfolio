@@ -35,16 +35,16 @@ const skillCategories = [
         skills: ['AWS', 'Docker', 'Vercel', 'Netlify', 'CI/CD']
     },
     {
-        title: 'WordPress Development',
+        title: 'Web Apps Development',
         icon: <Palette size={24} />,
-        description: 'Custom WordPress websites, themes, and plugin integrations.',
-        skills: ['WordPress', 'WooCommerce', 'Custom Themes', 'Plugins', 'Elementor']
+        description: 'Custom custom websites, themes, and plugin integrations.',
+        skills: ['Web Apps', 'Custom Stores', 'Custom Themes', 'Plugins', 'Elementor']
     },
     {
         title: 'Custom Solutions',
         icon: <Monitor size={24} />,
         description: 'Tailored software for unique business needs.',
-        skills: ['LMS', 'E-commerce', 'CRM', 'CMS', 'Dashboards']
+        skills: ['LMS', 'custom web apps', 'CRM', 'CMS', 'Dashboards']
     }
 ];
 

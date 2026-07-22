@@ -44,7 +44,6 @@ const iconMap = {
     'fas fa-graduation-cap': <GraduationCap />,
     'fas fa-utensils': <Utensils />,
     'fas fa-map-marker-alt': <MapPin />,
-    'fab fa-wordpress': <Globe />,
 };
 
 export default function LocationTemplate({
@@ -55,21 +54,7 @@ export default function LocationTemplate({
     portfolio,
     description
 }) {
-    const hasWordPressService = services.some((service) =>
-        service.title?.toLowerCase().includes('wordpress')
-    );
-
-    const displayServices = hasWordPressService
-        ? services
-        : [
-            ...services,
-            {
-                icon: 'fab fa-wordpress',
-                title: 'WordPress Development',
-                description: `Custom WordPress websites and landing pages for businesses in ${cityName}`,
-                features: ['Custom Themes', 'Plugin Integration', 'Easy Content Updates', 'SEO Friendly Setup']
-            }
-        ];
+    const displayServices = services;
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -132,7 +117,7 @@ export default function LocationTemplate({
                             transition={{ delay: 0.35 }}
                             className="text-blue-400 text-sm md:text-base max-w-3xl mx-auto mb-16"
                         >
-                            WordPress development services are also available in {cityName}.
+                            Custom web app development services are also available in {cityName}.
                         </motion.p>
 
                         <motion.div
@@ -307,7 +292,7 @@ export default function LocationTemplate({
                                         "name": `What web development services are available in ${cityName}?`,
                                         "acceptedAnswer": {
                                             "@type": "Answer",
-                                            "text": `In ${cityName}, I offer comprehensive web development services including custom website development, Flutter mobile app development, MERN stack development, WordPress development, e-commerce solutions, and React-based web applications. All services are optimized for local businesses with SEO and mobile-first design.`
+                                            "text": `In ${cityName}, I offer comprehensive web development services including custom website development, Flutter mobile app development, MERN stack development, and React-based web applications. All services are optimized for local businesses with SEO and mobile-first design.`
                                         }
                                     },
                                     {
@@ -315,7 +300,7 @@ export default function LocationTemplate({
                                         "name": `How much does web development cost in ${cityName}?`,
                                         "acceptedAnswer": {
                                             "@type": "Answer",
-                                            "text": `Web development costs in ${cityName} vary based on project scope. Basic websites start from ₹15,000, custom business websites from ₹30,000, e-commerce solutions from ₹50,000, and mobile apps from ₹60,000. Contact for a detailed quote tailored to your needs.`
+                                            "text": `Web development costs in ${cityName} vary based on project scope. Basic websites start from ₹15,000, custom business websites from ₹30,000, and mobile apps from ₹60,000. Contact for a detailed quote tailored to your needs.`
                                         }
                                     },
                                     {
@@ -331,7 +316,7 @@ export default function LocationTemplate({
                                         "name": `What is the timeline for web development projects in ${cityName}?`,
                                         "acceptedAnswer": {
                                             "@type": "Answer",
-                                            "text": `Project timelines vary by complexity: Landing pages take 5-7 days, business websites 2-3 weeks, e-commerce sites 4-6 weeks, and custom web applications 6-12 weeks. Flutter mobile apps typically take 8-12 weeks. Rush delivery available for urgent projects in ${cityName}.`
+                                            "text": `Project timelines vary by complexity: Landing pages take 5-7 days, business websites 2-3 weeks, and custom web applications 6-12 weeks. Flutter mobile apps typically take 8-12 weeks. Rush delivery available for urgent projects in ${cityName}.`
                                         }
                                     },
                                     {
@@ -359,11 +344,11 @@ export default function LocationTemplate({
                         {[
                             {
                                 q: `What web development services are available in ${cityName}?`,
-                                a: `In ${cityName}, I offer comprehensive web development services including custom website development, Flutter mobile app development, MERN stack development, WordPress development, e-commerce solutions, and React-based web applications. All services are optimized for local businesses with SEO and mobile-first design.`
+                                a: `In ${cityName}, I offer comprehensive web development services including custom website development, Flutter mobile app development, MERN stack development, and React-based web applications. All services are optimized for local businesses with SEO and mobile-first design.`
                             },
                             {
                                 q: `How much does web development cost in ${cityName}?`,
-                                a: `Web development costs in ${cityName} vary based on project scope. Basic websites start from ₹15,000, custom business websites from ₹30,000, e-commerce solutions from ₹50,000, and mobile apps from ₹60,000. Contact for a detailed quote tailored to your needs.`
+                                a: `Web development costs in ${cityName} vary based on project scope. Basic websites start from ₹15,000, custom business websites from ₹30,000, and mobile apps from ₹60,000. Contact for a detailed quote tailored to your needs.`
                             },
                             {
                                 q: `Why choose a local developer in ${cityName}?`,
@@ -371,7 +356,7 @@ export default function LocationTemplate({
                             },
                             {
                                 q: `What is the timeline for web development projects in ${cityName}?`,
-                                a: `Project timelines vary by complexity: Landing pages take 5-7 days, business websites 2-3 weeks, e-commerce sites 4-6 weeks, and custom web applications 6-12 weeks. Flutter mobile apps typically take 8-12 weeks. Rush delivery available for urgent projects in ${cityName}.`
+                                a: `Project timelines vary by complexity: Landing pages take 5-7 days, business websites 2-3 weeks, and custom web applications 6-12 weeks. Flutter mobile apps typically take 8-12 weeks. Rush delivery available for urgent projects in ${cityName}.`
                             },
                             {
                                 q: `Do you provide ongoing support and maintenance for ${cityName} clients?`,

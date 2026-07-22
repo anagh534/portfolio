@@ -9,33 +9,25 @@ const detailPages = [
     { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/nodejs-development/", desc: "Scalable backends & APIs" },
     { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/flutter-app-development/", desc: "iOS & Android cross-platform" },
     { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/mobile-app-development/", desc: "Full mobile app development" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/wordpress-development/", desc: "CMS websites & WooCommerce" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/ecommerce-development/", desc: "Online stores & payment integration" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/instagram-store-development/", desc: "Social commerce websites & catalogs" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/dropshipping-website-development/", desc: "Trend product store builds" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/shopify-store-development/", desc: "Shopify setup and optimization" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/clothing-ecommerce-website-development/", desc: "Fashion-focused online stores" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/shoe-store-website-development/", desc: "Footwear ecommerce platforms" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/electronics-ecommerce-website-development/", desc: "Gadget and electronics stores" },
     { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/dating-app-development/", desc: "Safety-first social app builds" },
     { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/chat-app-development/", desc: "Realtime messaging products" },
 ];
 
 export const metadata = {
     title: "Professional Web & Mobile Development Services | ANAGH K R",
-    description: "Explore professional web development services in Kerala. Custom WordPress sites, E-commerce platforms, MERN stack solutions, and native Flutter applications.",
-    keywords: "web development services Kerala, website design services Kerala, freelance web developer Kerala, web designer Kerala, WordPress development Kerala, WooCommerce developer Kerala, e-commerce development Kerala, Shopify developer Kerala, Instagram store development Kerala, dropshipping website development Kerala, clothing ecommerce website Kerala, shoe store website Kerala, electronics ecommerce website Kerala, dating app development Kerala, chat app development Kerala, MERN stack developer Kerala, Flutter app development Kerala, mobile app development Kerala, React developer Kerala, Node.js developer Kerala, web developer Kochi, web developer Calicut, web development services near me, website designer near me, ecommerce developer near me, mobile app developer near me",
+    description: "Explore professional web development services in Kerala. Custom websites, MERN stack solutions, and native Flutter applications.",
+    keywords: "web development services Kerala, website design services Kerala, freelance web developer Kerala, web designer Kerala, dating app development Kerala, chat app development Kerala, MERN stack developer Kerala, Flutter app development Kerala, mobile app development Kerala, React developer Kerala, Node.js developer Kerala, web developer Kochi, web developer Calicut, web development services near me, website designer near me, custom web apps developer near me, mobile app developer near me",
     alternates: { canonical: "https://www.anaghkr.in/services/" },
     openGraph: {
         title: "Professional Web & Mobile Development Services | ANAGH K R",
-        description: "Explore professional web development services in Kerala. Custom WordPress sites, E-commerce platforms, MERN stack solutions, and native Flutter applications.",
+        description: "Explore professional web development services in Kerala. Custom websites, MERN stack solutions, and native Flutter applications.",
         url: "https://www.anaghkr.in/services/",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
         title: "Professional Web & Mobile Development Services | ANAGH K R",
-        description: "Explore professional web development services in Kerala. Custom WordPress sites, E-commerce platforms, MERN stack solutions, and native Flutter applications.",
+        description: "Explore professional web development services in Kerala. Custom websites, MERN stack solutions, and native Flutter applications.",
     },
 };
 
@@ -70,7 +62,7 @@ export default function Services() {
                         "@type": "State",
                         "name": "Kerala"
                     },
-                    "description": "Professional web development and mobile app development services in Kerala including MERN stack development, Flutter apps, WordPress, e-commerce, and custom web solutions",
+                    "description": "Professional web development and mobile app development services in Kerala including MERN stack development, Flutter apps, and custom web solutions",
                     "hasOfferCatalog": {
                         "@type": "OfferCatalog",
                         "name": "Web and Mobile Development Services",
@@ -87,8 +79,8 @@ export default function Services() {
                                 "@type": "Offer",
                                 "itemOffered": {
                                     "@type": "Service",
-                                    "name": "WordPress Development",
-                                    "description": "Custom WordPress websites starting from ₹4,000"
+                                    "name": "Web Apps Development",
+                                    "description": "Custom custom websites starting from ₹4,000"
                                 }
                             },
                             {
@@ -115,7 +107,7 @@ export default function Services() {
                             "name": "What web development services do you offer?",
                             "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "I offer custom website development, MERN stack applications, WordPress websites, e-commerce platforms, Flutter mobile apps, website redesign, API development, and ongoing maintenance for businesses across Kerala."
+                                "text": "I offer custom website development, MERN stack applications, Flutter mobile apps, website redesign, API development, and ongoing maintenance for businesses across Kerala."
                             }
                         },
                         {
@@ -166,7 +158,7 @@ export default function Services() {
                         </h1>
                         <p className="text-gray-400 text-lg leading-relaxed">
                             <strong className="text-white">Expert developer</strong> offering professional <strong className="text-white">web development & mobile app services in Kerala</strong>.
-                            From custom websites and MERN stack applications to Flutter mobile apps and e-commerce platforms -
+                            From custom websites and MERN stack applications to Flutter mobile apps and custom web apps platforms -
                             delivering quality digital solutions in Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
                         </p>
 
@@ -198,10 +190,10 @@ export default function Services() {
                         />
 
                         <ServiceComponent
-                            title="E-commerce Solutions"
+                            title="custom web apps Solutions"
                             category="Online Store"
                             icon={<Rocket size={24} />}
-                            description="Complete e-commerce website development with product catalogs, shopping carts, payment gateway integration (Razorpay, Stripe), and order management. Helping Kerala businesses sell online with WooCommerce, Shopify, or custom solutions."
+                            description="Complete custom web apps website development with product catalogs, shopping carts, payment gateway integration (Razorpay, Stripe), and order management. Helping Kerala businesses sell online with Custom Stores, Custom Store, or custom solutions."
                         />
 
                         <ServiceComponent
@@ -219,10 +211,10 @@ export default function Services() {
                         />
 
                         <ServiceComponent
-                            title="WordPress Development"
+                            title="Web Apps Development"
                             category="CMS"
                             icon={<Rocket size={24} />}
-                            description="Professional WordPress website development, custom theme design, plugin integration, and WooCommerce setup. Easy-to-manage websites perfect for businesses, blogs, and online stores with ongoing support and maintenance."
+                            description="Professional Web Apps website development, custom theme design, plugin integration, and Custom Stores setup. Easy-to-manage websites perfect for businesses, blogs, and online stores with ongoing support and maintenance."
                         />
 
                         <ServiceComponent
@@ -240,17 +232,17 @@ export default function Services() {
                         />
 
                         <ServiceComponent
-                            title="Dropshipping Website Development"
-                            category="E-commerce"
+                            title="modern Website Development"
+                            category="custom web apps"
                             icon={<Rocket size={24} />}
-                            description="Launch profitable dropshipping websites with fast product pages, automation-friendly order workflows, and conversion-driven design for trending products."
+                            description="Launch profitable modern websites with fast product pages, automation-friendly order workflows, and conversion-driven design for trending products."
                         />
 
                         <ServiceComponent
-                            title="Shopify Store Development"
-                            category="Shopify"
+                            title="Custom Store Store Development"
+                            category="Custom Store"
                             icon={<Rocket size={24} />}
-                            description="Build and optimize Shopify storefronts for D2C growth with collection strategy, payment and shipping setup, speed optimization, and SEO-ready architecture."
+                            description="Build and optimize Custom Store storefronts for D2C growth with collection strategy, payment and shipping setup, speed optimization, and SEO-ready architecture."
                         />
 
                         <ServiceComponent
@@ -406,7 +398,7 @@ export default function Services() {
                         {[
                             {
                                 q: 'What web development services do you offer?',
-                                a: 'I offer custom website development, MERN stack applications, WordPress websites, e-commerce platforms, Flutter mobile apps, website redesign, API development, and ongoing maintenance for businesses across Kerala.'
+                                a: 'I offer custom website development, MERN stack applications, Flutter mobile apps, website redesign, API development, and ongoing maintenance for businesses across Kerala.'
                             },
                             {
                                 q: 'How long does it take to build a website?',

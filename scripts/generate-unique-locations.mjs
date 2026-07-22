@@ -37,24 +37,14 @@ const configMap = {
                 description: "Premium React & Next.js website design. I build clean, fast, and responsive portfolio sites that establish your brand online.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Secure online store setup. Built with simple product lists, Razorpay/UPI payment gateways, and easy checkout flows.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Native-performing iOS & Android apps built using Flutter to showcase your services and engage users.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "Custom WordPress setups and landing pages. Responsive designs built with security, speed, and easy-to-use admin panels for local studios and blogs.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -97,12 +87,7 @@ const configMap = {
                 description: "A high-performance Next.js company profile with custom forms, WhatsApp click-to-chat, and optimized local schema.",
                 tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "E-commerce Concept",
-                description: "A conversion-friendly online retail storefront with customizable shopping cards, Razorpay integration, and mobile layouts.",
-                tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Mobile App Concept",
@@ -118,7 +103,7 @@ const configMap = {
         metaTitle: "Flutter & Website Developer in Trivandrum | ANAGH K R",
         metaDesc: "Professional website developer and mobile app (Flutter) expert in Trivandrum, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
         schemaDesc: "Professional website design, mobile apps, and local search optimization in Trivandrum, Kerala.",
-        description: "Professional web development and mobile app development services in Thiruvananthapuram (Trivandrum), Kerala. Offering customized web pages, WordPress development, MERN dashboards, and robust cross-platform mobile apps for local clinics, academies, and creators.",
+        description: "Professional web development and mobile app development services in Thiruvananthapuram (Trivandrum), Kerala. Offering customized web pages, custom websites, MERN dashboards, and robust cross-platform mobile apps for local clinics, academies, and creators.",
         cityHighlights: [
             {
                 icon: "fas fa-building",
@@ -148,24 +133,14 @@ const configMap = {
                 description: "Tailored Next.js website creation in Trivandrum. I specialize in fast-loading portfolios and responsive service websites.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Conversion-optimized e-commerce in Trivandrum. Integrated secure checkouts, simple cart listings, and UPI payment options.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Get native-performing iOS & Android mobile apps in Trivandrum using Flutter for clean performance.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "WordPress website building in Trivandrum. Custom themes, security audits, and easy-to-use admin backends for local blogs and portfolios.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -208,12 +183,7 @@ const configMap = {
                 description: "A fast-loading React website featuring modern service grids, inquiry forms, and semantic tag structures.",
                 tech: ["React.js", "SEO Metadata", "Inquiry Forms", "WhatsApp CTA"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "Online Store Concept",
-                description: "A secure online storefront with integrated shopping carts, simple checkout forms, and secure local payment options.",
-                tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Mobile App Concept",
@@ -227,7 +197,7 @@ const configMap = {
         metaTitle: "Flutter & Website Developer in Kozhikode | ANAGH K R",
         metaDesc: "Professional website developer and mobile app (Flutter) expert in Kozhikode, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
         schemaDesc: "Professional website design, mobile apps, and local search optimization in Kozhikode, Kerala.",
-        description: "Professional web development and Flutter mobile app development services in Kozhikode, Kerala. Designing custom React portals, WooCommerce stores, MERN dashboards, and SEO assets for retail boutiques, clinics, and personal portfolios.",
+        description: "Professional web development and Flutter mobile app development services in Kozhikode, Kerala. Designing custom React portals, custom websites, MERN dashboards, and SEO assets for retail boutiques, clinics, and personal portfolios.",
         cityHighlights: [
             {
                 icon: "fas fa-building",
@@ -257,24 +227,14 @@ const configMap = {
                 description: "Modern React web development in Kozhikode. Get high-performance, responsive sites with custom layouts and clean semantic code.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Responsive online stores in Kozhikode. I build shopping portals with secure inventory controls, payment setups, and smooth UI.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Cross-platform mobile app development in Kozhikode. I construct interactive Flutter apps with responsive user screens.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "WordPress website development in Kozhikode. Clean theme code, custom service layouts, and search-friendly structures.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -317,12 +277,7 @@ const configMap = {
                 description: "A responsive business showcase page featuring localized schema data, direct call buttons, and fast static loading.",
                 tech: ["Next.js", "Static Export", "Lead Forms", "WhatsApp CTA"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "Retail E-commerce Concept",
-                description: "A mobile-first shopping site featuring automated tax estimations, instant payment forms, and custom product views.",
-                tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Mobile App Concept",
@@ -336,7 +291,7 @@ const configMap = {
         metaTitle: "Flutter & Website Developer in Thrissur | ANAGH K R",
         metaDesc: "Professional website developer and mobile app (Flutter) expert in Thrissur, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
         schemaDesc: "Professional website design, mobile apps, and local search optimization in Thrissur, Kerala.",
-        description: "Professional web development and mobile app development services in Thrissur, Kerala. Building high-performance websites, custom booking setups, WordPress templates, and cross-platform apps to help local boutiques, independent studios, and service portfolios.",
+        description: "Professional web development and mobile app development services in Thrissur, Kerala. Building high-performance websites, custom booking setups, custom websites, and cross-platform apps to help local boutiques, independent studios, and service portfolios.",
         cityHighlights: [
             {
                 icon: "fas fa-building",
@@ -366,24 +321,14 @@ const configMap = {
                 description: "Custom business websites in Thrissur using Next.js and Tailwind. I create fast, secure, and mobile-friendly business portfolios.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Secure retail e-commerce in Thrissur. Modern product grids, automated email/WhatsApp alerts, and simple payment integrations.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Hire an expert Flutter developer in Thrissur to deliver clean, modern, and interactive mobile apps.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "Custom WordPress sites in Thrissur. Optimized for local services, clinics, and businesses with simple admin pages.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -426,12 +371,7 @@ const configMap = {
                 description: "A modern React business page featuring interactive pricing cards, simple booking forms, and high-performance loads.",
                 tech: ["React.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "Shopping Cart Concept",
-                description: "A clean online retail store with customized cart controls, Razorpay payment integrations, and inventory filters.",
-                tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Mobile App Concept",
@@ -475,24 +415,14 @@ const configMap = {
                 description: "Next.js web development in Ernakulam. I build clean, scalable, and responsive web platforms for modern businesses.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Custom e-commerce layouts in Ernakulam. Responsive product grids, secure payments, and simplified catalog managers.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Scalable Flutter mobile app engineering in Ernakulam. I build native-grade apps with secure API integrations.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "WordPress development in Ernakulam. I build custom themes, secure page builders, and responsive web layouts.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -535,12 +465,7 @@ const configMap = {
                 description: "A fast Next.js landing page featuring interactive elements, signup forms, and search engine optimizations.",
                 tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "Retail Store Concept",
-                description: "A conversion-friendly storefront featuring user order flows, payment options, and automated invoices.",
-                tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Mobile App Concept",
@@ -584,24 +509,14 @@ const configMap = {
                 description: "High-performance React sites in Calicut. Custom designs engineered for optimal speeds, security, and responsive layouts.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Modern e-commerce store design in Calicut. User-friendly checkouts, secure online banking options, and clean mobile performance.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Modern mobile app development in Calicut. Responsive iOS & Android apps built using the powerful Flutter framework.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "WordPress theme customization in Calicut. Get secure, SEO-optimized business blogs and corporate websites.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -644,12 +559,7 @@ const configMap = {
                 description: "A clean React business profile with automated booking links, WhatsApp CTA buttons, and local SEO schema.",
                 tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "Boutique E-commerce Concept",
-                description: "A conversion-oriented online shopping platform with cart systems, Razorpay payment modules, and fast checkouts.",
-                tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Mobile App Concept",
@@ -693,24 +603,14 @@ const configMap = {
                 description: "Custom business site design in Kannur. Fast-loading, responsive web portals built with React and optimized for local traffic.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Local store e-commerce setup in Kannur. Fast mobile cart experiences, secure payment gateways, and straightforward admin controls.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Professional Flutter developer in Kannur. Get native-performing iOS & Android mobile apps with clean codebase structure.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "WordPress website creation in Kannur. Easy-to-manage local business portfolios, custom layouts, and search optimization.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -753,12 +653,7 @@ const configMap = {
                 description: "A clean business website layout with maps integrations, custom contact forms, and local SEO setup.",
                 tech: ["Next.js", "SEO Metadata", "Maps", "WhatsApp CTA"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "Boutique E-commerce Concept",
-                description: "A simple e-commerce setup with Razorpay integrations, mobile-ready shopping views, and inventory grids.",
-                tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Mobile Utility Concept",
@@ -802,24 +697,14 @@ const configMap = {
                 description: "Clean website development in Kasaragod. Lightweight static pages and custom React applications with clean mobile designs.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Lightweight e-commerce pages in Kasaragod. Clean layouts, simplified search filters, and direct customer contact integrations.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Lightweight mobile apps in Kasaragod. Built using Flutter for quick load times and offline support.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "Lightweight WordPress setup in Kasaragod. Clean business pages, secure plugins, and fast loading configurations.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -862,12 +747,7 @@ const configMap = {
                 description: "A fast static website featuring contact forms, WhatsApp links, and search-optimized tags.",
                 tech: ["HTML5", "CSS3", "JavaScript", "WhatsApp CTA"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "Small Shop Concept",
-                description: "A lightweight shopping cart setup with direct UPI payments, item filters, and mobile-friendly grids.",
-                tech: ["E-commerce", "UPI Payments", "Fast checkout", "Alt tags"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Flutter Mockup Concept",
@@ -881,7 +761,7 @@ const configMap = {
         metaTitle: "Flutter & Website Developer in Kanhangad | ANAGH K R",
         metaDesc: "Professional website developer and mobile app (Flutter) expert in Kanhangad, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
         schemaDesc: "Professional website design, mobile apps, and local search optimization in Kanhangad, Kerala.",
-        description: "Professional web development and mobile app development services in Kanhangad, Kerala. Build customized Next.js personal pages, WordPress templates, mobile app utilities, and local SEO optimizations tailored for local shops and services.",
+        description: "Professional web development and mobile app development services in Kanhangad, Kerala. Build customized Next.js personal pages, custom websites, mobile app utilities, and local SEO optimizations tailored for local shops and services.",
         cityHighlights: [
             {
                 icon: "fas fa-building",
@@ -911,24 +791,14 @@ const configMap = {
                 description: "Responsive web portal creation in Kanhangad. Premium designs focusing on speed, clear navigation, and local optimization.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Retail e-commerce setups in Kanhangad. Easy catalog management, Razorpay payment integrations, and responsive checkout views.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Custom mobile apps in Kanhangad. I deliver responsive Flutter applications with clean, interactive user elements.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "WordPress site setup in Kanhangad. Custom local service themes, responsive galleries, and security-minded setups.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -971,12 +841,7 @@ const configMap = {
                 description: "A lightweight Next.js portal featuring responsive services grids, WhatsApp CTA, and local search schema.",
                 tech: ["Next.js", "CSS Grid", "WhatsApp CTA", "SEO tags"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "E-commerce Layout Concept",
-                description: "A mobile-first shopping layout with integrated UPI checkouts, item listings, and clean code paths.",
-                tech: ["E-commerce", "Mobile Grid", "Razorpay", "Analytics"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Flutter Client Concept",
@@ -990,7 +855,7 @@ const configMap = {
         metaTitle: "Flutter & Website Developer in Palakkad | ANAGH K R",
         metaDesc: "Professional website developer and mobile app (Flutter) expert in Palakkad, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
         schemaDesc: "Professional website design, mobile apps, and local search optimization in Palakkad, Kerala.",
-        description: "Professional web development and mobile app development services in Palakkad, Kerala. Build customized Next.js portfolios, WordPress templates, mobile app utilities, and local SEO optimizations tailored for local shops and service providers.",
+        description: "Professional web development and mobile app development services in Palakkad, Kerala. Build customized Next.js portfolios, custom websites, mobile app utilities, and local SEO optimizations tailored for local shops and service providers.",
         cityHighlights: [
             {
                 icon: "fas fa-building",
@@ -1020,24 +885,14 @@ const configMap = {
                 description: "Lightweight website design in Palakkad. Get fast, responsive, and SEO-optimized HTML/React business portals.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Product catalog and e-commerce setups in Palakkad. Clean digital listings with Razorpay gateway integrations and secure flow.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Lightweight mobile app design in Palakkad. Custom Flutter apps featuring stable performance and simple layouts.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "WordPress site design in Palakkad. Simple, fast-loading corporate themes with secure page management systems.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -1080,12 +935,7 @@ const configMap = {
                 description: "A lightweight static business page featuring product galleries, contact forms, and custom local search meta.",
                 tech: ["React.js", "TailwindCSS", "SEO Meta", "Contact Form"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "Simple Commerce Concept",
-                description: "A secure shopping portal demo with direct payment buttons, customizable listings, and quick mobile checkout.",
-                tech: ["E-commerce", "Razorpay", "UPI", "Fast checkouts"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Mobile Dashboard Concept",
@@ -1099,7 +949,7 @@ const configMap = {
         metaTitle: "Flutter & Website Developer in Kollam | ANAGH K R",
         metaDesc: "Professional website developer and mobile app (Flutter) expert in Kollam, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
         schemaDesc: "Professional website design, mobile apps, and local search optimization in Kollam, Kerala.",
-        description: "Professional web development, ecommerce platforms, and Flutter mobile apps in Kollam (Quilon), Kerala. Serving boutiques, local service clinics, academies, and retail shops with clean, optimized code and native performance.",
+        description: "Professional web development, web applications, and Flutter mobile apps in Kollam (Quilon), Kerala. Serving boutiques, local service clinics, academies, and retail shops with clean, optimized code and native performance.",
         cityHighlights: [
             {
                 icon: "fas fa-building",
@@ -1129,24 +979,14 @@ const configMap = {
                 description: "Professional web development in Kollam. I build lightweight, responsive websites with quick load times and clean code bases.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Wholesale and retail e-commerce in Kollam. Simple shopping cart structures, direct UPI integrations, and optimized checkout pages.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Custom mobile app creation in Kollam. I develop fast, responsive Flutter applications with clean database connections.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "Clean WordPress portals in Kollam. Lightweight business themes, optimized speeds, and responsive local listings.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -1189,12 +1029,7 @@ const configMap = {
                 description: "A high-speed React website with inquiries checklists, product directories, and local SEO schema setups.",
                 tech: ["React.js", "SEO Metadata", "Directory schema", "WhatsApp CTA"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "Agro Store Concept",
-                description: "An online bulk booking platform supporting direct UPI checkouts, tax calculators, and admin invoice views.",
-                tech: ["E-commerce", "Bulk Orders", "UPI Gateways", "Calculators"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Local Delivery App Concept",
@@ -1239,24 +1074,14 @@ const configMap = {
                 description: "Professional web development in Mangalore. Custom-tailored React sites featuring sub-second load speeds and responsive layouts.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Secure digital storefronts in Mangalore. I build clean shopping carts with payment gateway integrations and admin setups.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Mobile app development in Mangalore. Hire a Flutter expert to design custom iOS & Android app prototypes.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "Custom WordPress designs in Mangalore. Get responsive layouts, lightweight plugins, and search engine friendly code.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -1299,12 +1124,7 @@ const configMap = {
                 description: "A secure React layout with contact forms, responsive calendar slots, and optimized local metadata.",
                 tech: ["React.js", "SEO Metadata", "Forms", "Calendar API"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "Shopping Portal Concept",
-                description: "An online store setup featuring customizable shopping carts, secure checkout, and basic order trackers.",
-                tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Mobile App Concept",
@@ -1349,24 +1169,14 @@ const configMap = {
                 description: "Custom corporate website design in Coimbatore. Get high-speed, secure, and mobile-friendly Next.js web applications.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Custom e-commerce in Coimbatore. Scalable shopping carts, simple order forms, and secure payment integrations.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Engineering custom mobile utilities in Coimbatore. Cross-platform Flutter apps with robust database connections.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "WordPress development in Coimbatore. Custom theme structures, fast-loading assets, and secure backend integration.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -1409,12 +1219,7 @@ const configMap = {
                 description: "A high-speed React database-driven catalog with inquiry checklists and local SEO tags.",
                 tech: ["Next.js", "B2C catalog", "SEO Tags", "Contact Form"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "Retail Store Concept",
-                description: "A secure shopping site featuring custom order forms, Razorpay payments, and responsive cart structures.",
-                tech: ["E-commerce", "Razorpay integration", "Retail UX", "Analytics"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Utility App Concept",
@@ -1459,24 +1264,14 @@ const configMap = {
                 description: "Scalable Next.js web development in Chennai. High-performance, clean-coded business portals built to convert visitors.",
                 features: ["Responsive Next.js", "SEO Architectures", "Sub-Second Speeds", "Conversion Focus"]
             },
-            {
-                icon: "fas fa-shopping-cart",
-                title: "E-commerce Development",
-                description: "Sleek e-commerce portals in Chennai. Custom shopping workflows, automated invoice generation, and secure payments.",
-                features: ["Custom Catalogs", "Razorpay / Cashfree", "Secure Order Flow", "Admin Dashboard"]
-            },
+            
             {
                 icon: "fab fa-flutter",
                 title: "Mobile App Development",
                 description: "Sleek mobile app development in Chennai. I build native-grade Flutter apps with real-time push alerts.",
                 features: ["Flutter Framework", "API Integration", "Push Alerts", "Play Store & App Store Support"]
             },
-            {
-                icon: "fab fa-wordpress",
-                title: "WordPress Development",
-                description: "Premium WordPress design in Chennai. Scalable themes, drag-and-drop page editor optimization, and security audits.",
-                features: ["Custom Themes", "Fast Loading Pages", "Security Audits", "Easy Admin Panels"]
-            },
+            
             {
                 icon: "fas fa-database",
                 title: "MERN Stack Development",
@@ -1519,12 +1314,7 @@ const configMap = {
                 description: "A high-performance Next.js creator layout with custom lead forms, secure login views, and SEO schemas.",
                 tech: ["Next.js", "SEO Metadata", "Lead Forms", "WhatsApp CTA"]
             },
-            {
-                icon: "fas fa-shopping-bag",
-                title: "E-commerce Platform Concept",
-                description: "A fully custom e-commerce checkout flow supporting Razorpay payments, item filters, and order confirmation emails.",
-                tech: ["E-commerce", "Checkout UX", "Payments", "Analytics"]
-            },
+            
             {
                 icon: "fas fa-mobile-alt",
                 title: "Native App Concept",
@@ -1543,7 +1333,7 @@ function generatePageCode(city, config) {
     return `export const metadata = {
     title: "${config.metaTitle}",
     description: "${config.metaDesc}",
-    keywords: "website developer ${city}, flutter developer ${city}, web developer ${city}, mobile app development ${city}, WordPress ${city}, local SEO ${city}",
+    keywords: "website developer ${city}, flutter developer ${city}, web developer ${city}, mobile app development ${city}, local SEO ${city}",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/${folderName}/",

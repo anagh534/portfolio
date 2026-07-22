@@ -77,7 +77,7 @@ export default function NodejsDevelopmentPage() {
                 { question: "Why use Node.js for backend development?", answer: "Node.js is ideal for real-time applications, data-intensive APIs, and microservices due to its non-blocking I/O model. It's used by companies like Netflix, LinkedIn, and Uber for its performance and scalability." },
                 { question: "Can Node.js handle high traffic?", answer: "Yes. Node.js excels at handling concurrent connections. With proper clustering, load balancing, and Redis caching, Node.js applications can serve millions of requests efficiently." },
                 { question: "Do you build REST APIs with Node.js?", answer: "Yes. REST API development is a core service — including CRUD operations, authentication, file uploads, third-party integrations, webhooks, and full API documentation." },
-                { question: "Can you integrate Node.js with my existing frontend?", answer: "Absolutely. I can build Node.js backends to power any frontend — React, Next.js, Vue, Angular, Flutter mobile apps, or even a WordPress site." },
+                { question: "Can you integrate Node.js with my existing frontend?", answer: "Absolutely. I can build Node.js backends to power any frontend — React, Next.js, Vue, Angular, Flutter mobile apps, or even a Web Apps site." },
                 { question: "Do you offer Node.js development in Kochi?", answer: "Yes, I provide Node.js development services across all Kerala cities including Kochi, Kozhikode, Kasaragod, Kannur, Thrissur, and Thiruvananthapuram, as well as remotely." },
                 { question: "How is Node.js different from PHP for backends?", answer: "Node.js uses JavaScript (same language as your frontend), is non-blocking and typically faster for I/O operations, handles WebSockets natively, and has a massive npm ecosystem. It's generally preferred for modern, real-time web applications." },
             ]}
@@ -87,7 +87,6 @@ export default function NodejsDevelopmentPage() {
                 { title: "Next.js Development", desc: "React with SSR and API routes", href: "/nextjs-development/" },
                 { title: "Web Development", desc: "End-to-end custom website development", href: "/web-development/" },
                 { title: "Mobile App Development", desc: "Flutter apps powered by Node.js APIs", href: "/mobile-app-development/" },
-                { title: "E-commerce Development", desc: "Online stores with backend APIs", href: "/ecommerce-development/" },
             ]}
             schemaData={schemaData}
         />

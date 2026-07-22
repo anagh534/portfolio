@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Kannur | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Kannur, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer kannur, flutter developer kannur, web developer kannur, mobile app development kannur, WordPress kannur, local SEO kannur",
+    keywords: "website developer kannur, flutter developer kannur, web developer kannur, mobile app development kannur, local SEO kannur",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/kannur/",
@@ -78,17 +78,6 @@ export default function KannurServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Local store e-commerce setup in Kannur. Fast mobile cart experiences, secure payment gateways, and straightforward admin controls.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Professional Flutter developer in Kannur. Get native-performing iOS & Android mobile apps with clean codebase structure.",
@@ -97,17 +86,6 @@ export default function KannurServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "WordPress website creation in Kannur. Easy-to-manage local business portfolios, custom layouts, and search optimization.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -167,17 +145,6 @@ export default function KannurServices() {
                         "SEO Metadata",
                         "Maps",
                         "WhatsApp CTA"
-                ]
-        },
-        {
-                "icon": "fas fa-shopping-bag",
-                "title": "Boutique E-commerce Concept",
-                "description": "A simple e-commerce setup with Razorpay integrations, mobile-ready shopping views, and inventory grids.",
-                "tech": [
-                        "E-commerce",
-                        "Checkout UX",
-                        "Payments",
-                        "Analytics"
                 ]
         },
         {

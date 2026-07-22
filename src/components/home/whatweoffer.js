@@ -24,15 +24,6 @@ const services = [
         cta: "View MERN service",
     },
     {
-        id: 2,
-        title: "E-commerce Solutions",
-        icon: <ShoppingCart size={24} />,
-        shortDesc: "Complete online store development with secure payment integration, inventory management, and SEO optimization. Shopify, WooCommerce, and custom solutions available.",
-        technologies: ["Shopify", "WooCommerce", "Stripe", "Next.js"],
-        href: "/ecommerce-development/",
-        cta: "View ecommerce service",
-    },
-    {
         id: 3,
         title: "Mobile App Developer Kerala",
         icon: <Smartphone size={24} />,
@@ -49,15 +40,6 @@ const services = [
         technologies: ["React", "Next.js", "SEO", "Responsive"],
         href: "/web-development/",
         cta: "View web design service",
-    },
-    {
-        id: 5,
-        title: "WordPress Development",
-        icon: <RefreshCw size={24} />,
-        shortDesc: "Custom WordPress website development and theme customization. Easy content management with plugin integration and WooCommerce e-commerce setup.",
-        technologies: ["WordPress", "WooCommerce", "Custom Themes"],
-        href: "/wordpress-development/",
-        cta: "View WordPress service",
     },
     {
         id: 6,
@@ -85,33 +67,6 @@ const services = [
         technologies: ["SEO", "Performance", "Analytics"],
         href: "/services/",
         cta: "View SEO service",
-    },
-    {
-        id: 9,
-        title: "Instagram & Shopify Stores",
-        icon: <MessageCircleMore size={24} />,
-        shortDesc: "Launch social-commerce ready stores with Instagram catalog setup, Shopify storefronts, and WhatsApp-first lead conversion.",
-        technologies: ["Instagram Shop", "Shopify", "Social Commerce"],
-        href: "/instagram-store-development/",
-        cta: "View Instagram store service",
-    },
-    {
-        id: 10,
-        title: "Dropshipping & Trend Stores",
-        icon: <ShoppingCart size={24} />,
-        shortDesc: "Build dropshipping websites and trend-product stores with high-converting pages, offer flows, and scalable order operations.",
-        technologies: ["Dropshipping", "Checkout", "Automation"],
-        href: "/dropshipping-website-development/",
-        cta: "View dropshipping service",
-    },
-    {
-        id: 11,
-        title: " Ecommerce Websites",
-        icon: <Globe size={24} />,
-        shortDesc: "Specialized ecommerce websites for clothing, shoe stores, and electronics with product-focused UX and faster mobile shopping.",
-        technologies: ["Clothing", "Shoes", "Electronics"],
-        href: "/electronics-ecommerce-website-development/",
-        cta: "View Specialized Stores",
     },
     {
         id: 12,
@@ -158,7 +113,7 @@ export default function WhatWeOffer() {
                     </h2>
                     <p className="max-w-2xl mx-auto text-gray-400">
                         Comprehensive digital solutions for businesses across Kerala. From custom web development and Flutter mobile apps
-                        to e-commerce platforms and WordPress websites - delivered with quality, efficiency, and measurable results.
+                        to web applications - delivered with quality, efficiency, and measurable results.
                     </p>
                 </motion.div>
 

@@ -71,7 +71,7 @@ export default function About() {
                         <p className="text-lg text-gray-400 leading-relaxed">
                             I'm Anagh K R, a professional <strong className="text-white">freelance website developer in Kerala</strong> with <strong className="text-white">3+ years experience</strong> building secure, conversion-optimized sites and high-performance Flutter mobile applications.
                             I've successfully delivered 24+ projects ranging from
-                            responsive company websites and custom e-commerce stores to scale-ready backend panels and mobile app MVPs.
+                            responsive company websites and custom custom web apps stores to scale-ready backend panels and mobile app MVPs.
                         </p>
 
                         <p className="text-base text-gray-400 leading-relaxed">

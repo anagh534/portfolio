@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Web & Mobile App Development Services in Kerala | ANAGH K R",
     description: "Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.",
-    keywords: "web development Kerala, website developer Kerala, mobile app development Kerala, ecommerce development Kerala, WordPress developer Kerala, web developer Kochi, web developer Kozhikode, web developer Trivandrum, web developer Thrissur",
+    keywords: "web development Kerala, website developer Kerala, mobile app development Kerala, React developer Kerala, web developer Kochi, web developer Kozhikode, web developer Trivandrum, web developer Thrissur",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/",
@@ -27,28 +27,28 @@ export default function Locations() {
         {
             name: "Kochi",
             district: "Ernakulam",
-            description: "Premium website development, e-commerce stores, and high-performance Flutter mobile apps in Kochi. Powering IT startups and trade brands with sub-second speeds.",
-            services: ["Business Websites", "E-commerce Development", "Mobile App Development"],
+            description: "Premium website development, custom web apps stores, and high-performance Flutter mobile apps in Kochi. Powering IT startups and trade brands with sub-second speeds.",
+            services: ["Business Websites", "custom web apps Development", "Mobile App Development"],
             highlights: ["Commercial Hub", "Startup Activity", "Digital Growth"]
         },
         {
             name: "Thiruvananthapuram",
             district: "Thiruvananthapuram",
             description: "Professional Next.js web systems and Flutter mobile apps optimized for Technopark startups, corporate entities, and Trivandrum's premium service brands.",
-            services: ["Web Applications", "WordPress Solutions", "Mobile Apps"],
+            services: ["Web Applications", "Web Apps", "Mobile Apps"],
             highlights: ["IT Ecosystem", "Service Sector", "Local SEO Demand"]
         },
         {
             name: "Kozhikode",
             district: "Kozhikode",
             description: "Custom web portals and Flutter mobile apps tailored for Kozhikode's trading houses, retail networks, Cyberpark startups, and food brands.",
-            services: ["Website Development", "E-commerce Setup", "SEO Optimization"],
+            services: ["Website Development", "custom web apps Setup", "SEO Optimization"],
             highlights: ["Malabar Market", "Retail Growth", "Mobile-First Audience"]
         },
         {
             name: "Thrissur",
             district: "Thrissur",
-            description: "Stunning custom website designs, fast e-commerce setups, and Flutter mobile apps for Thrissur's gold showrooms, textile leaders, and academies.",
+            description: "Stunning custom website designs, fast custom web apps setups, and Flutter mobile apps for Thrissur's gold showrooms, textile leaders, and academies.",
             services: ["Custom Websites", "Mobile App Development", "Business Automation"],
             highlights: ["Retail Economy", "Service Sector", "Digital Expansion"]
         },
@@ -62,22 +62,22 @@ export default function Locations() {
         {
             name: "Calicut",
             district: "Kozhikode",
-            description: "High-performance React/Next.js corporate sites and secure local e-commerce stores in Calicut. Engineered to rank first and convert visits into sales.",
-            services: ["Business Websites", "E-commerce Stores", "Performance Optimization"],
+            description: "High-performance React/Next.js corporate sites and secure local custom web apps stores in Calicut. Engineered to rank first and convert visits into sales.",
+            services: ["Business Websites", "custom web apps Stores", "Performance Optimization"],
             highlights: ["Local Commerce", "Online Selling", "Search Visibility"]
         },
         {
             name: "Kannur",
             district: "Kannur",
-            description: "Custom website development, fast WordPress setups, and regional lead generation campaigns for local handlooms, exports, and academies in Kannur.",
-            services: ["Website Development", "App MVPs", "WordPress Services"],
+            description: "Custom website development, fast Web Appss, and regional lead generation campaigns for local handlooms, exports, and academies in Kannur.",
+            services: ["Website Development", "App MVPs", "Web Apps"],
             highlights: ["Regional Businesses", "Growing Digital Demand", "Lead Generation"]
         },
         {
             name: "Kasaragod",
             district: "Kasaragod",
             description: "SEO-optimized websites and Flutter apps for Kasaragod brands. Leverage local search tactics to drive inquiries from Kasaragod to Kanhangad.",
-            services: ["Responsive Websites", "E-commerce Setup", "SEO Foundations"],
+            services: ["Responsive Websites", "custom web apps Setup", "SEO Foundations"],
             highlights: ["Local Brand Growth", "Affordable Digital Entry", "Regional SEO"]
         },
         {
@@ -90,8 +90,8 @@ export default function Locations() {
         {
             name: "Palakkad",
             district: "Palakkad",
-            description: "Fast-loading corporate portals and e-commerce checkouts for Palakkad agricultural processors, factories, and town retail hubs.",
-            services: ["Website Development", "WordPress", "E-commerce"],
+            description: "Fast-loading corporate portals and custom web apps checkouts for Palakkad agricultural processors, factories, and town retail hubs.",
+            services: ["Website Development", "Web Apps", "Custom Software"],
             highlights: ["SME Growth", "Service Demand", "SEO Opportunity"]
         },
         {
@@ -112,23 +112,23 @@ export default function Locations() {
             name: "Coimbatore",
             district: "Coimbatore",
             description: "Professional website development, mobile app development, and technical local SEO services in Coimbatore. Scaling industrial and digital enterprises.",
-            services: ["Industrial Portals", "Flutter Mobile Apps", "WordPress Setup"],
+            services: ["Industrial Portals", "Flutter Mobile Apps", "Web Apps"],
             highlights: ["Manchester of South", "Industrial Base", "IT SEZ Presence"]
         },
         {
             name: "Chennai",
             district: "Chennai",
             description: "Professional web application development, Flutter mobile app engineering, and technical local SEO in Chennai. Enterprise-grade custom digital solutions.",
-            services: ["Full Stack SaaS", "Flutter App Engineering", "WordPress Enterprise"],
+            services: ["Full Stack SaaS", "Flutter App Engineering", "Web Apps"],
             highlights: ["Detroit of Asia", "Major IT Ecosystem", "SaaS Innovation"]
         }
     ];
 
     const services = [
         { icon: <Laptop size={24} />, title: "Custom Web Development", desc: "Business-focused websites with clean UI, responsive design, and conversion-oriented layout." },
-        { icon: <Layout size={24} />, title: "WordPress Development", desc: "Editable, SEO-friendly WordPress websites for businesses that need easy content management." },
+        
         { icon: <Smartphone size={24} />, title: "Flutter App Development", desc: "Flutter app development for iOS and Android with practical business-ready features." },
-        { icon: <ShoppingCart size={24} />, title: "E-commerce Development", desc: "Online stores with product management, checkout, and payment integration." },
+        { icon: <ShoppingCart size={24} />, title: "custom web apps Development", desc: "Online stores with product management, checkout, and payment integration." },
         { icon: <Code size={24} />, title: "MERN Stack Applications", desc: "Custom web applications and dashboards built with modern full-stack technologies." },
         { icon: <Search size={24} />, title: "Technical SEO & Speed", desc: "Technical SEO setup including metadata, schema, internal links, and performance improvements." }
     ];
@@ -142,7 +142,7 @@ export default function Locations() {
                         "@context": "https://schema.org",
                         "@type": "CollectionPage",
                         "name": "Web Development Services Across Kerala",
-                        "description": "City-focused website, ecommerce, and app development services across Kerala.",
+                        "description": "City-focused website, and app development services across Kerala.",
                         "url": "https://www.anaghkr.in/locations/",
                         "provider": {
                             "@type": "Person",
@@ -174,7 +174,7 @@ export default function Locations() {
                             Web Development Services <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Across Kerala</span>
                         </h1>
                         <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-12">
-                            Professional website development, ecommerce solutions, and mobile app development for businesses across major Kerala cities.
+                            Professional website development, custom web apps, and mobile app development for businesses across major Kerala cities.
                         </p>
 
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-5xl mx-auto">

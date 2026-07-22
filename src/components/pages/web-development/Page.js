@@ -4,7 +4,7 @@ import { Palette, Smartphone, Zap, Search, ShieldCheck, LayoutDashboard } from '
 export const metadata = {
     title: "Website Developer Kerala | Custom Business Sites | ANAGH K R",
     description: "Hire a professional web developer in Kerala. We build custom business websites with SEO-optimized design and fast delivery in Kochi, Kozhikode & Trivandrum.",
-    keywords: "website developer kerala, free website kerala, affordable website developer kerala, best website developer kerala, professional web developer kerala, custom website design kerala, low cost website kerala, ecommerce website kerala, react developer kerala, nextjs developer kerala, web developer kochi, web developer kozhikode, web developer trivandrum",
+    keywords: "website developer kerala, free website kerala, affordable website developer kerala, best website developer kerala, professional web developer kerala, custom website design kerala, low cost website kerala, custom web apps website kerala, react developer kerala, nextjs developer kerala, web developer kochi, web developer kozhikode, web developer trivandrum",
     alternates: { canonical: "https://www.anaghkr.in/web-development/" },
     openGraph: {
         title: "Website Developer Kerala | Custom Business Sites | ANAGH K R",
@@ -117,15 +117,13 @@ export default function WebDevelopmentPage() {
                 { question: "Can I get a free website in Kerala?", answer: "While a fully custom professional website requires an investment, I offer a 100% Free Website Consultation to plan your architecture. Additionally, I provide a Free Domain and Free First-Year Hosting setup on select starter business bundles to help you get online affordably." },
                 { question: "How much does a custom website cost in Kerala?", answer: "A basic business website starts around ₹8,000–₹20,000, while complex web applications can range from ₹30,000 upwards. It is much more affordable than hiring a massive agency." },
                 { question: "Do you physically meet clients for web development?", answer: "Yes! While I work with clients all over India remotely, I am available for direct, in-person meetings in Kochi, Kozhikode (Calicut), and Trivandrum to discuss your web projects." },
-                { question: "How long does it take to build a website?", answer: "A standard business website typically takes 1–3 weeks. Complex web apps or e-commerce platforms can take 4–8 weeks depending on your scope." },
+                { question: "How long does it take to build a website?", answer: "A standard business website typically takes 1–3 weeks. Complex web apps or custom web apps platforms can take 4–8 weeks depending on your scope." },
                 { question: "Will my website rank on Google?", answer: "Yes, every website I build is deeply SEO-optimized with proper structure, meta tags, fast load times, and Schema markup — which is why you found me!" },
                 { question: "Which cities in Kerala do you serve?", answer: "I build responsive websites for clients in Kochi, Kozhikode, Trivandrum, Thrissur, Kannur, Kasaragod, Kollam, Palakkad, and Ernakulam." },
             ]}
             relatedServices={[
                 { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Full-stack apps with MongoDB, Express, React, Node.js", href: "/mern-stack-development/" },
                 { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "SEO-first React apps with server-side rendering", href: "/nextjs-development/" },
-                { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Online stores with payment integration", href: "/ecommerce-development/" },
-                { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "CMS-based business websites", href: "/wordpress-development/" },
                 { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Dynamic SPAs and interactive UIs", href: "/react-development/" },
                 { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Scalable backend APIs and services", href: "/nodejs-development/" },
             ]}

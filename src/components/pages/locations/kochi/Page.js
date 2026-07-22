@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Kochi | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Kochi, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer kochi, flutter developer kochi, web developer kochi, mobile app development kochi, WordPress kochi, local SEO kochi",
+    keywords: "website developer kochi, flutter developer kochi, web developer kochi, mobile app development kochi, local SEO kochi",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/kochi/",
@@ -78,17 +78,6 @@ export default function KochiServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Secure online store setup. Built with simple product lists, Razorpay/UPI payment gateways, and easy checkout flows.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Native-performing iOS & Android apps built using Flutter to showcase your services and engage users.",
@@ -97,17 +86,6 @@ export default function KochiServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "Custom WordPress setups and landing pages. Responsive designs built with security, speed, and easy-to-use admin panels for local studios and blogs.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -167,17 +145,6 @@ export default function KochiServices() {
                         "SEO Metadata",
                         "Lead Forms",
                         "WhatsApp CTA"
-                ]
-        },
-        {
-                "icon": "fas fa-shopping-bag",
-                "title": "E-commerce Concept",
-                "description": "A conversion-friendly online retail storefront with customizable shopping cards, Razorpay integration, and mobile layouts.",
-                "tech": [
-                        "E-commerce",
-                        "Checkout UX",
-                        "Payments",
-                        "Analytics"
                 ]
         },
         {

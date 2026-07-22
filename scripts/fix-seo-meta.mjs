@@ -15,47 +15,30 @@ const updates = {
   },
   'chat-app-development/Page.js': {
     description: 'Expert real-time chat app development services in Kerala. Secure messaging, media sharing, and scalable backend architecture for startups and businesses.'
-  },
-  'clothing-ecommerce-website-development/Page.js': {
-    description: 'Professional clothing ecommerce development in Kerala. Advanced variant management, lookbooks, and mobile-first shopping experiences for fashion brands.'
-  },
-  'contact/Page.js': {
+  },  'contact/Page.js': {
     description: 'Get a free quote for your custom web or mobile app project today. Expert full-stack development in Kochi, Calicut & Trivandrum. Contact Anagh K R now.'
   },
   'dating-app-development/Page.js': {
     description: 'Custom dating app development in Kerala. Scalable Flutter & Node.js apps featuring secure profile matching, real-time chat, and robust cloud architecture.'
-  },
-  'dropshipping-website-development/Page.js': {
-    description: 'Specialized dropshipping website development in Kerala. Automated supplier integration, optimized catalog structure, and conversion-focused store design.'
-  },
-  'ecommerce-development/Page.js': {
-    description: 'Top-rated ecommerce developer in Kerala. Custom Shopify & WooCommerce stores, scalable rent-a-car sites, and secure booking platforms for your business.'
-  },
-  'electronics-ecommerce-website-development/Page.js': {
-    description: 'Expert electronics ecommerce development in Kerala. Detailed spec comparisons, highly secure checkouts, and performance-optimized product pages for tech stores.'
-  },
-  'instagram-store-development/Page.js': {
-    description: 'Premium Instagram store development in Kerala. Seamless product catalog setup, fast payment integration, and high-converting checkouts for modern brands.'
-  },
-  'locations/Page.js': {
+  },  'locations/Page.js': {
     title: 'Web & Mobile App Development Services in Kerala | ANAGH K R',
     description: 'Professional web and mobile app development services across Kerala. Serving Kochi, Trivandrum, Kozhikode, and all major cities with custom digital solutions.'
   },
   'locations/thiruvananthapuram/Page.js': {
     title: 'Web Development Services in Thiruvananthapuram | ANAGH K R',
-    description: 'Professional web development, ecommerce website, WordPress, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.'
+    description: 'Professional web development, Flutter, custom websites, and mobile app development services in Thiruvananthapuram. SEO-focused business solutions.'
   },
   'locations/ernakulam/Page.js': {
-    description: 'Professional web development, ecommerce website, WordPress, and mobile app development services in Ernakulam. SEO-focused and conversion-ready solutions.'
+    description: 'Professional web development, Flutter, custom websites, and mobile app development services in Ernakulam. SEO-focused and conversion-ready solutions.'
   },
   'locations/kanhangad/Page.js': {
-    description: 'Professional web development, ecommerce website, WordPress, and mobile app development services in Kanhangad. SEO-focused and conversion-ready solutions.'
+    description: 'Professional web development, Flutter, custom websites, and mobile app development services in Kanhangad. SEO-focused and conversion-ready solutions.'
   },
   'locations/kasaragod/Page.js': {
-    description: 'Professional web development, ecommerce website, WordPress, and mobile app development services in Kasaragod. SEO-focused and conversion-ready solutions.'
+    description: 'Professional web development, Flutter, custom websites, and mobile app development services in Kasaragod. SEO-focused and conversion-ready solutions.'
   },
   'locations/kozhikode/Page.js': {
-    description: 'Professional web development, ecommerce website, WordPress, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.'
+    description: 'Professional web development, Flutter, custom websites, and mobile app development services in Kozhikode. SEO-focused and conversion-ready solutions.'
   },
   'mern-stack-development/Page.js': {
     description: 'Hire the top MERN stack developer in Kerala. We build scalable full-stack SaaS platforms, interactive dashboards, and custom web applications for businesses.'
@@ -77,21 +60,11 @@ const updates = {
   },
   'services/Page.js': {
     title: 'Professional Web & Mobile Development Services | ANAGH K R',
-    description: 'Explore professional web development services in Kerala. Custom WordPress sites, E-commerce platforms, MERN stack solutions, and native Flutter applications.'
-  },
-  'shoe-store-website-development/Page.js': {
-    description: 'Custom shoe store website development in Kerala. Advanced product variant architecture, accurate fit guidance tools, and lightning-fast product rendering.'
-  },
-  'shopify-store-development/Page.js': {
-    description: 'Professional Shopify store development in Kerala. Clean user experience, seamless payment gateway setup, and SEO-ready ecommerce stores for your growing business.'
-  },
-  'web-development/Page.js': {
+    description: 'Explore professional web development services in Kerala. Custom websites, Flutter apps, MERN stack solutions, and native Flutter applications.'
+  },  'web-development/Page.js': {
     title: 'Website Developer Kerala | Custom Business Sites | ANAGH K R',
     description: 'Hire a professional web developer in Kerala. We build custom business websites with SEO-optimized design and fast delivery in Kochi, Kozhikode & Trivandrum.'
   },
-  'wordpress-development/Page.js': {
-    description: 'Hire an expert WordPress developer in Kerala. We build highly custom themes, powerful LMS sites, and scalable business solutions in Kozhikode, Calicut & Trivandrum.'
-  }
 };
 
 for (const [relativePath, updateData] of Object.entries(updates)) {

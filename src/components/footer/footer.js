@@ -278,16 +278,8 @@ const Footer = () => {
                                     <nav aria-label="Specialized Solutions">
                                         <ul className="space-y-3 pb-4 lg:pb-0">
                                             {[
-                                                { label: 'E-commerce Dev', href: '/ecommerce-development/' },
-                                                { label: 'Shopify Store', href: '/shopify-store-development/' },
-                                                { label: 'WordPress Dev', href: '/wordpress-development/' },
                                                 { label: 'Chat Apps', href: '/chat-app-development/' },
                                                 { label: 'Dating Apps', href: '/dating-app-development/' },
-                                                { label: 'Clothing E-commerce', href: '/clothing-ecommerce-website-development/' },
-                                                { label: 'Dropshipping Web', href: '/dropshipping-website-development/' },
-                                                { label: 'Electronics E-commerce', href: '/electronics-ecommerce-website-development/' },
-                                                { label: 'Instagram Store', href: '/instagram-store-development/' },
-                                                { label: 'Shoe Store Dev', href: '/shoe-store-website-development/' },
                                             ].map(item => (
                                                 <li key={item.href} className="flex items-center gap-2">
                                                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500/40 shrink-0"></span>

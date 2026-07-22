@@ -1,7 +1,7 @@
 export const metadata = {
     title: "About ANAGH K R | Flutter & MERN Stack Developer | Kerala",
     description: "Anagh K R is an expert freelance Flutter & MERN stack developer in Kerala. With 3+ years of experience, I build custom apps and websites for global clients.",
-    keywords: "Flutter developer Kerala, MERN stack developer Kerala, freelance web developer Kerala, mobile app development Kerala, custom website development Kerala, React developer Kerala, Node.js developer Kerala, WordPress developer Kerala, e-commerce development Kerala, web development Kasaragod, app developer Kochi, freelance developer Calicut, Next.js development, responsive web design Kerala",
+    keywords: "Flutter developer Kerala, MERN stack developer Kerala, freelance web developer Kerala, mobile app development Kerala, custom website development Kerala, React developer Kerala, Node.js developer Kerala, web development Kasaragod, app developer Kochi, freelance developer Calicut, Next.js development, responsive web design Kerala",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/about/",
@@ -35,7 +35,7 @@ export default function About() {
                             "name": "What services do you offer in Kerala?",
                             "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "I offer comprehensive web development services including custom website development, MERN stack applications, Flutter mobile app development, WordPress websites, e-commerce platforms, and SEO optimization for businesses across Kerala."
+                                "text": "I offer comprehensive web development services including custom website development, MERN stack applications, Flutter mobile app development, and SEO optimization for businesses across Kerala."
                             }
                         },
                         {
@@ -43,7 +43,7 @@ export default function About() {
                             "name": "How much do your services cost?",
                             "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "Project costs vary based on requirements and complexity. Basic websites start from ₹3,000, WordPress sites from ₹4,000, and mobile apps from ₹10,000. Contact me for a detailed quote based on your specific needs."
+                                "text": "Project costs vary based on requirements and complexity. Basic websites start from ₹3,000, custom apps from ₹10,000, and mobile apps from ₹10,000. Contact me for a detailed quote based on your specific needs."
                             }
                         },
                         {
@@ -106,8 +106,7 @@ export default function About() {
                         "MERN Stack Development",
                         "React Development",
                         "Node.js Development",
-                        "WordPress Development",
-                        "E-commerce Development",
+                        
                         "Mobile App Development"
                     ],
                     "sameAs": [
@@ -136,7 +135,7 @@ export default function About() {
                         {/* Hero Description */}
                         <p className="text-gray-400 text-lg md:text-xl leading-relaxed max-w-2xl animate-in fade-in slide-in-from-bottom-8 duration-700 delay-400">
                             Freelance web developer and Flutter app specialist based in Kasaragod, Kerala,
-                            helping businesses across Kerala build custom websites, mobile applications, and e-commerce solutions.
+                            helping businesses across Kerala build custom websites, mobile applications, and web apps.
                             With expertise in MERN stack, React, Node.js, and Flutter, I transform business ideas into
                             functional, scalable digital products that drive real results.
                         </p>
@@ -217,14 +216,14 @@ export default function About() {
                             <p className="text-gray-400 text-lg leading-relaxed">
                                 As a professional freelance developer from Kasaragod, I specialize in MERN stack web development
                                 and Flutter mobile app development, serving clients across Kerala. Whether you're a startup in Kochi
-                                needing a responsive website, a business in Calicut requiring an e-commerce platform, or an entrepreneur
+                                needing a responsive website, a business in Calicut requiring a custom web app, or an entrepreneur
                                 in Trivandrum looking for a mobile app, I deliver tailored solutions with clean code, modern design,
                                 and a focus on your business goals.
                             </p>
                             <div className="space-y-4">
                                 {[
                                     '3+ years of professional web and mobile app development',
-                                    'Expert in React, Node.js, MongoDB, Flutter, and WordPress',
+                                    'Expert in React, Node.js, MongoDB, Flutter, and custom software',
                                     '24+ successful projects delivered for Kerala businesses'
                                 ].map((item, i) => (
                                     <div key={i} className="flex items-center gap-4 text-white group">
@@ -298,9 +297,9 @@ export default function About() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {[
                             { title: 'Custom Web Development', desc: 'Building responsive, SEO-friendly websites and MERN stack applications tailored to your business needs. From landing pages to complex web platforms for startups and businesses across Kerala.' },
-                            { title: 'WordPress Solutions', desc: 'Professional WordPress website development with custom themes, WooCommerce setup, and easy content management. Perfect for businesses needing quick launches with ongoing flexibility.' },
+                            
                             { title: 'Flutter Mobile Apps', desc: 'Cross-platform mobile applications for iOS and Android with native performance. From MVPs for startups to full-featured apps with backend integration and deployment to app stores.' },
-                            { title: 'E-commerce Development', desc: 'Complete online store solutions with secure payment integration, inventory management, and mobile-responsive design. Helping Kerala businesses sell online successfully.' },
+                            
                             { title: 'Web Optimization & SEO', desc: 'Technical SEO, performance optimization, and Google Analytics setup to improve your website visibility and loading speed, driving more traffic and conversions.' }
                         ].map((service, i) => (
                             <div key={i} className="p-10 rounded-[40px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-500 group space-y-4">
@@ -426,11 +425,7 @@ export default function About() {
                                 desc: 'Professional company websites with responsive design, contact forms, service pages, and SEO optimization for local Kerala businesses.',
                                 tech: 'Next.js, React, Tailwind CSS'
                             },
-                            {
-                                title: 'E-commerce Stores',
-                                desc: 'Online stores with product catalogs, shopping carts, payment gateway integration (Razorpay, Stripe), and order management.',
-                                tech: 'WooCommerce, Shopify, Custom'
-                            },
+                            
                             {
                                 title: 'Portfolio Websites',
                                 desc: 'Personal portfolios for professionals, photographers, artists, and freelancers to showcase their work online.',
@@ -451,11 +446,7 @@ export default function About() {
                                 desc: 'High-converting landing pages for marketing campaigns, product launches, and lead generation with fast loading speeds.',
                                 tech: 'Next.js, Tailwind, SEO'
                             },
-                            {
-                                title: 'Blog Platforms',
-                                desc: 'Content management systems and blogging platforms with markdown support, categories, tags, and SEO features.',
-                                tech: 'WordPress, Headless CMS'
-                            },
+                            
                             {
                                 title: 'Booking Systems',
                                 desc: 'Appointment and booking platforms for salons, clinics, restaurants, and service businesses with calendar integration.',
@@ -550,11 +541,11 @@ export default function About() {
                         {[
                             {
                                 q: 'What services do you offer in Kerala?',
-                                a: 'I offer comprehensive web development services including custom website development, MERN stack applications, Flutter mobile app development, WordPress websites, e-commerce platforms, and SEO optimization for businesses across Kerala.'
+                                a: 'I offer comprehensive web development services including custom website development, MERN stack applications, Flutter mobile app development, and SEO optimization for businesses across Kerala.'
                             },
                             {
                                 q: 'How much do your services cost?',
-                                a: 'Project costs vary based on requirements and complexity. Basic websites start from ₹3,000, WordPress sites from ₹4,000, and mobile apps from ₹10,000. Contact me for a detailed quote based on your specific needs.'
+                                a: 'Project costs vary based on requirements and complexity. Basic websites start from ₹3,000, custom apps from ₹10,000, and mobile apps from ₹10,000. Contact me for a detailed quote based on your specific needs.'
                             },
                             {
                                 q: 'How long does it take to build a website?',
@@ -594,7 +585,7 @@ export default function About() {
                         Let's Build Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Digital Solution</span>
                     </h2>
                     <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-                        Whether you need a new website, mobile app, or e-commerce platform, I'm here to help.
+                        Whether you need a new website, mobile app, or web app, I'm here to help.
                         Fast turnaround, transparent pricing, and dedicated support for businesses across Kerala.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-6">

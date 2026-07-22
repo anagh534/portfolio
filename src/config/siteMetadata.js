@@ -8,10 +8,10 @@ export const viewport = {
 export const metadata = {
     metadataBase: new URL('https://www.anaghkr.in/'),
     title: {
-        default: "Freelance Web Developer Kerala | Flutter, MERN & WordPress - ANAGH K R",
+        default: "Freelance Web Developer Kerala | Flutter, MERN & Web Apps - ANAGH K R",
         template: "%s | ANAGH K R"
     },
-    description: "Freelance web developer and web designer in Kerala. I build custom websites, WordPress sites, e-commerce stores, and Flutter mobile apps for businesses in Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
+    description: "Freelance web developer and web designer in Kerala. I build custom websites, Web Apps sites, custom web apps stores, and Flutter mobile apps for businesses in Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
     applicationName: "Anagh K R Portfolio",
     authors: [{ name: "ANAGH K R", url: "https://www.anaghkr.in/" }],
     generator: "Astro",
@@ -23,11 +23,10 @@ export const metadata = {
         "Web designer Kerala",
         "Freelance web designer Kerala",
         "Web development services Kerala",
-        "WordPress developer Kerala",
-        "WordPress developer near me",
-        "E-commerce developer Kerala",
-        "E-commerce developer near me",
-        "Shopify developer Kerala",
+        "Web Apps developer Kerala",
+        "Web Apps developer near me",
+        "custom web apps developer Kerala",
+        "custom web apps developer near me",
         "Flutter developer Kerala",
         "Flutter developer near me",
         "Mobile app developer Kerala",
@@ -69,8 +68,8 @@ export const metadata = {
         locale: "en_IN",
         url: "https://www.anaghkr.in/",
         siteName: "ANAGH K R - Freelance Web Developer Kerala",
-        title: "Freelance Web Developer Kerala | Web, WordPress, Flutter - ANAGH K R",
-        description: "Freelance web developer and web designer in Kerala for custom websites, WordPress, e-commerce, and Flutter apps. Serving Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
+        title: "Freelance Web Developer Kerala | Web, Web Apps, Flutter - ANAGH K R",
+        description: "Freelance web developer and web designer in Kerala for custom websites, Web Apps, custom web apps, and Flutter apps. Serving Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
         images: [
             {
                 url: "/favicon.png",
@@ -84,8 +83,8 @@ export const metadata = {
         card: "summary_large_image",
         site: "@anaghkr",
         creator: "@anaghkr",
-        title: "Freelance Web Developer Kerala | Web, WordPress, Flutter - ANAGH K R",
-        description: "Freelance web developer and web designer in Kerala for custom websites, WordPress, e-commerce, and Flutter apps.",
+        title: "Freelance Web Developer Kerala | Web, Web Apps, Flutter - ANAGH K R",
+        description: "Freelance web developer and web designer in Kerala for custom websites, Web Apps, custom web apps, and Flutter apps.",
         images: ["/favicon.png"]
     },
     alternates: {

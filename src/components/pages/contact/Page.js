@@ -5,7 +5,7 @@ import { Mail, MapPin, Clock, Code, Send } from 'lucide-react';
 export const metadata = {
   title: 'Contact Freelance Web Developer Kerala | ANAGH K R',
   description: "Get a free quote for your custom web or mobile app project today. Expert full-stack development in Kochi, Calicut & Trivandrum. Contact Anagh K R now.",
-  keywords: 'contact web developer Kerala, hire web developer near me, freelance web developer near me, website designer near me, mobile app developer near me, wordpress developer near me Kerala',
+  keywords: 'contact web developer Kerala, hire web developer near me, freelance web developer near me, website designer near me, mobile app developer near me, flutter developer near me Kerala',
   alternates: {
     canonical: "https://www.anaghkr.in/contact/",
   },
@@ -75,7 +75,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-white font-bold text-sm uppercase tracking-tight">Specialization</h3>
                   <p className="text-gray-400 text-xs mt-1">Full-Stack Solutions</p>
-                  <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest block mt-1 underline decoration-blue-500/50">MERN · FLUTTER · WORDPRESS</span>
+                  <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest block mt-1 underline decoration-blue-500/50">MERN · FLUTTER · WEB APPS</span>
                 </div>
               </div>
             </div>

@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Chennai | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Chennai. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer chennai, flutter developer chennai, web developer chennai, mobile app development chennai, WordPress chennai, local SEO chennai",
+    keywords: "website developer chennai, flutter developer chennai, web developer chennai, mobile app development chennai, local SEO chennai",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/chennai/",
@@ -78,17 +78,6 @@ export default function ChennaiServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Sleek e-commerce portals in Chennai. Custom shopping workflows, automated invoice generation, and secure payments.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Sleek mobile app development in Chennai. I build native-grade Flutter apps with real-time push alerts.",
@@ -97,17 +86,6 @@ export default function ChennaiServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "Premium WordPress design in Chennai. Scalable themes, drag-and-drop page editor optimization, and security audits.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -167,17 +145,6 @@ export default function ChennaiServices() {
                         "SEO Metadata",
                         "Lead Forms",
                         "WhatsApp CTA"
-                ]
-        },
-        {
-                "icon": "fas fa-shopping-bag",
-                "title": "E-commerce Platform Concept",
-                "description": "A fully custom e-commerce checkout flow supporting Razorpay payments, item filters, and order confirmation emails.",
-                "tech": [
-                        "E-commerce",
-                        "Checkout UX",
-                        "Payments",
-                        "Analytics"
                 ]
         },
         {

@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Kanhangad | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Kanhangad, Kerala. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer kanhangad, flutter developer kanhangad, web developer kanhangad, mobile app development kanhangad, WordPress kanhangad, local SEO kanhangad",
+    keywords: "website developer kanhangad, flutter developer kanhangad, web developer kanhangad, mobile app development kanhangad, local SEO kanhangad",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/kanhangad/",
@@ -78,17 +78,6 @@ export default function KanhangadServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Retail e-commerce setups in Kanhangad. Easy catalog management, Razorpay payment integrations, and responsive checkout views.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Custom mobile apps in Kanhangad. I deliver responsive Flutter applications with clean, interactive user elements.",
@@ -97,17 +86,6 @@ export default function KanhangadServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "WordPress site setup in Kanhangad. Custom local service themes, responsive galleries, and security-minded setups.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -170,17 +148,6 @@ export default function KanhangadServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-bag",
-                "title": "E-commerce Layout Concept",
-                "description": "A mobile-first shopping layout with integrated UPI checkouts, item listings, and clean code paths.",
-                "tech": [
-                        "E-commerce",
-                        "Mobile Grid",
-                        "Razorpay",
-                        "Analytics"
-                ]
-        },
-        {
                 "icon": "fas fa-mobile-alt",
                 "title": "Flutter Client Concept",
                 "description": "A cross-platform mobile utility featuring simple user profiles, push alerts, and API integration.",
@@ -205,7 +172,7 @@ export default function KanhangadServices() {
                 services={services}
                 benefits={benefits}
                 portfolio={portfolio}
-                description="Professional web development and mobile app development services in Kanhangad, Kerala. Build customized Next.js personal pages, WordPress templates, mobile app utilities, and local SEO optimizations tailored for local shops and services."
+                description="Professional web development and mobile app development services in Kanhangad, Kerala. Build customized Next.js personal pages, custom websites, mobile app utilities, and local SEO optimizations tailored for local shops and services."
             />
         </>
     );

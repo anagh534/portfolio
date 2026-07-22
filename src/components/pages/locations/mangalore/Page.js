@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Flutter & Website Developer in Mangalore | ANAGH K R",
     description: "Professional website developer and mobile app (Flutter) expert in Mangalore. I design responsive portfolios, local shop sites, and custom apps.",
-    keywords: "website developer mangalore, flutter developer mangalore, web developer mangalore, mobile app development mangalore, WordPress mangalore, local SEO mangalore",
+    keywords: "website developer mangalore, flutter developer mangalore, web developer mangalore, mobile app development mangalore, local SEO mangalore",
     robots: { index: true, follow: true },
     alternates: {
         canonical: "https://www.anaghkr.in/locations/mangalore/",
@@ -78,17 +78,6 @@ export default function MangaloreServices() {
                 ]
         },
         {
-                "icon": "fas fa-shopping-cart",
-                "title": "E-commerce Development",
-                "description": "Secure digital storefronts in Mangalore. I build clean shopping carts with payment gateway integrations and admin setups.",
-                "features": [
-                        "Custom Catalogs",
-                        "Razorpay / Cashfree",
-                        "Secure Order Flow",
-                        "Admin Dashboard"
-                ]
-        },
-        {
                 "icon": "fab fa-flutter",
                 "title": "Mobile App Development",
                 "description": "Mobile app development in Mangalore. Hire a Flutter expert to design custom iOS & Android app prototypes.",
@@ -97,17 +86,6 @@ export default function MangaloreServices() {
                         "API Integration",
                         "Push Alerts",
                         "Play Store & App Store Support"
-                ]
-        },
-        {
-                "icon": "fab fa-wordpress",
-                "title": "WordPress Development",
-                "description": "Custom WordPress designs in Mangalore. Get responsive layouts, lightweight plugins, and search engine friendly code.",
-                "features": [
-                        "Custom Themes",
-                        "Fast Loading Pages",
-                        "Security Audits",
-                        "Easy Admin Panels"
                 ]
         },
         {
@@ -167,17 +145,6 @@ export default function MangaloreServices() {
                         "SEO Metadata",
                         "Forms",
                         "Calendar API"
-                ]
-        },
-        {
-                "icon": "fas fa-shopping-bag",
-                "title": "Shopping Portal Concept",
-                "description": "An online store setup featuring customizable shopping carts, secure checkout, and basic order trackers.",
-                "tech": [
-                        "E-commerce",
-                        "Checkout UX",
-                        "Payments",
-                        "Analytics"
                 ]
         },
         {

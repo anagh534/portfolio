@@ -74,7 +74,7 @@ export default function ReactDevelopmentPage() {
                 { title: "Optimization", desc: "Code splitting, memoization, bundle analysis, and Lighthouse audits before delivery." },
             ]}
             faqs={[
-                { question: "What is React.js used for?", answer: "React.js is a JavaScript library for building dynamic user interfaces. It's used for SPAs, e-commerce frontends, admin dashboards, social platforms, and any web app that requires interactive, real-time UI updates." },
+                { question: "What is React.js used for?", answer: "React.js is a JavaScript library for building dynamic user interfaces. It's used for SPAs, custom web apps frontends, admin dashboards, social platforms, and any web app that requires interactive, real-time UI updates." },
                 { question: "React vs Next.js — which should I choose?", answer: "If your app is primarily client-side (dashboards, tools, apps behind a login), React alone works great. If you need SEO, fast initial page loads, or server-side rendering for public pages, Next.js (which uses React) is the better choice." },
                 { question: "Can you convert my existing website to React?", answer: "Yes. I can migrate static HTML/CSS sites or aging jQuery-based websites to modern React applications, improving maintainability, performance, and user experience." },
                 { question: "Do you build mobile apps with React?", answer: "I primarily use Flutter for mobile apps (which is superior for mobile performance). For web-only solutions with mobile-responsive design, React is a great choice." },
@@ -86,8 +86,6 @@ export default function ReactDevelopmentPage() {
                 { title: "MERN Stack Development", desc: "Full-stack with React, Node, MongoDB", href: "/mern-stack-development/" },
                 { title: "Node.js Development", desc: "Backend APIs to power React apps", href: "/nodejs-development/" },
                 { title: "Web Development", desc: "Full custom website development", href: "/web-development/" },
-                { title: "E-commerce Development", desc: "Online Stores with React frontends", href: "/ecommerce-development/" },
-                { title: "WordPress Development", desc: "Headless WordPress with React", href: "/wordpress-development/" },
             ]}
             schemaData={schemaData}
         />

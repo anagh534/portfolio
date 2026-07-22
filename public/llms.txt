@@ -12,9 +12,7 @@ Anagh K R is a freelance Full-Stack and Flutter developer who builds fast, SEO-f
 
 ## Core Service Categories
 - Web Development: Custom websites and web apps using modern JavaScript frameworks
-- E-commerce Development: Shopify, WooCommerce, and custom online stores
 - Flutter App Development: Cross-platform iOS/Android app development
-- WordPress Development: Custom WordPress websites and business sites
 - MERN Stack Development: Full-stack React + Node.js + MongoDB solutions
 - Technical SEO and Performance: On-page SEO, speed optimization, and technical improvements
 
@@ -23,7 +21,6 @@ Anagh K R is a freelance Full-Stack and Flutter developer who builds fast, SEO-f
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Mobile: Flutter, Dart
-- CMS: WordPress, WooCommerce
 - Full Stack: MERN (MongoDB, Express.js, React, Node.js)
 
 ## Service Locations
@@ -55,13 +52,8 @@ Primary service locations in Kerala include:
 - Next.js Development: /nextjs-development/
 - Flutter App Development: /flutter-app-development/
 - Mobile App Development: /mobile-app-development/
-- WordPress Development: /wordpress-development/
-- E-commerce Development: /ecommerce-development/
-- Shopify Store Development: /shopify-store-development/
 - Chat App Development: /chat-app-development/
 - Dating App Development: /dating-app-development/
-- Instagram Store Development: /instagram-store-development/
-- Dropshipping Website Development: /dropshipping-website-development/
 
 ## Contact
 - Email: anaghkrkkl@gmail.com
