@@ -128,6 +128,30 @@ export default function WebDevelopmentPage() {
                 { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Scalable backend APIs and services", href: "/nodejs-development/" },
             ]}
             schemaData={schemaData}
+            extraContent={
+                <div className="space-y-8 text-gray-300">
+                    <h2 className="text-3xl font-black text-white uppercase tracking-tight">Your Trusted Website Developer in Kerala</h2>
+                    <p className="leading-relaxed">
+                        In today's digital-first economy, a fast, responsive, and SEO-optimized website is your most powerful marketing tool. As a leading <strong>website developer in Kerala</strong>, I help businesses across Kochi, Calicut, and Trivandrum establish a dominant online presence. From sleek corporate portfolios to complex e-commerce platforms, I deliver custom web solutions that drive real business growth.
+                    </p>
+                    <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Why Settle for Templates When You Can Have Custom?</h3>
+                    <p className="leading-relaxed">
+                        Many agencies use bloated WordPress templates that slow down your site and hurt your Google rankings. I build fully custom, hand-coded websites using modern frameworks like Next.js and React. This guarantees lightning-fast load times, exceptional Core Web Vitals, and a user experience that keeps visitors engaged.
+                    </p>
+                    <p className="leading-relaxed">
+                        When you hire me as your <strong>professional web developer in Kerala</strong>, you get:
+                    </p>
+                    <ul className="list-disc pl-6 space-y-2 mt-4">
+                        <li><strong>SEO-First Architecture:</strong> Clean semantic HTML and server-side rendering to ensure your site ranks high on Google for relevant keywords.</li>
+                        <li><strong>Mobile-First Design:</strong> With over 70% of web traffic coming from mobile devices, your site will look perfect on every screen size.</li>
+                        <li><strong>Scalable Backend Systems:</strong> Using Node.js and MongoDB to power custom web applications that can handle high traffic volumes.</li>
+                    </ul>
+                    <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Driving Success for Kerala Businesses</h3>
+                    <p className="leading-relaxed">
+                        I understand the local market nuances. Whether you need a multilingual site to cater to a diverse demographic or integrations with popular Indian payment gateways like Razorpay, I have the expertise to execute it flawlessly. Partner with a <strong>website developer in Kerala</strong> who is committed to your long-term success, offering reliable support long after the initial launch.
+                    </p>
+                </div>
+            }
         />
     );
 }
