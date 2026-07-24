@@ -4,7 +4,7 @@ import { PenTool, Figma, MonitorPlay, Sparkles, Layout, Code2 } from 'lucide-rea
 export const metadata = {
     title: "Web Design & Figma to Code Services Kerala | ANAGH K R",
     description: "Expert web design service in Kerala. We convert Figma, PSD, and AI designs into pixel-perfect, responsive, and blazing-fast React & Next.js websites.",
-    keywords: "web design service kerala, figma to website, psd to html react, ai design to website, ui ux developer kerala, pixel perfect web development, frontend developer kerala, custom web design kochi",
+    keywords: "web design service kerala, figma to react conversion service, psd to html coding expert, ai website design conversion, ui ux design agency kochi, ui ux developer in kochi, custom website design kerala, seo-friendly web design kochi, best web design company in kerala, figma to website developer, frontend developer kerala",
     alternates: { canonical: "https://www.anaghkr.in/web-design/" },
     openGraph: {
         title: "Web Design & Figma to Code Services Kerala",
@@ -84,11 +84,15 @@ export default function WebDesignPage() {
                     </p>
                     <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Pixel-Perfect Figma & PSD Conversions</h3>
                     <p className="leading-relaxed">
-                        Nothing is more frustrating than receiving a coded website that looks nothing like the design you approved. My development process guarantees <strong>pixel-perfect accuracy</strong>. Every margin, padding, typography scale, and color gradient from your Figma, Adobe XD, or PSD file is meticulously translated into modern CSS and component architectures.
+                        Nothing is more frustrating than receiving a coded website that looks nothing like the design you approved. As a leading <strong>UI/UX developer in Kochi</strong>, my development process guarantees <strong>pixel-perfect accuracy</strong>. Every margin, padding, typography scale, and color gradient from your Figma, Adobe XD, or PSD file is meticulously translated into modern CSS and component architectures.
                     </p>
                     <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Pioneering AI Design to Website Development</h3>
                     <p className="leading-relaxed">
-                        The future of web design is here. Many clients now use generative AI to conceptualize their websites. However, AI only gives you a static image. I possess the structural expertise to take those flat, visionary AI concepts and engineer them into interactive, responsive, and SEO-friendly web platforms using React and Tailwind CSS. I breathe life into static pixels with advanced micro-interactions and fluid animations.
+                        The future of web design is here. Many clients now use generative AI to conceptualize their websites. However, AI only gives you a static image. I possess the structural expertise to take those flat, visionary AI concepts and engineer them into interactive, responsive, and <strong>SEO-friendly web design</strong> platforms using React and Tailwind CSS. I breathe life into static pixels with advanced micro-interactions and fluid animations.
+                    </p>
+                    <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Top Custom Website Design in Kerala</h3>
+                    <p className="leading-relaxed">
+                        Whether you are an agency looking for a reliable <strong>Figma to React conversion service</strong> or a business seeking the <strong>best web design company in Kerala</strong> to handle your digital presence end-to-end, I provide tailored solutions. My focus is always on delivering high-performance, custom-coded web experiences that outshine generic templates.
                     </p>
                     <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Why Choose My Frontend Services?</h3>
                     <ul className="list-disc pl-6 space-y-2 mt-4">
