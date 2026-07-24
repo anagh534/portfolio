@@ -8,6 +8,7 @@ This document tracks SEO maintenance and updates for the portfolio website.
   - `src/components/pages/web-development/Page.js`: Optimized for "website developer in kerala" & "professional web developer in kerala". Added content emphasizing custom coding vs templates, Core Web Vitals, and responsive design.
   - `src/components/pages/flutter-app-development/Page.js`: Maintained targeting for "flutter developer kerala". Added rich content about performance (60fps), single codebase cost benefits, and advanced Firebase/hardware integrations without keyword stuffing to preserve current ranking.
   - **New Page Added**: Created `src/pages/ecommerce-development/index.astro` and its component `src/components/pages/ecommerce-development/Page.js` to target "ecommerce website developer kerala".
+  - **New Page Added**: Created `src/pages/web-design/index.astro` and its component `src/components/pages/web-design/Page.js` to target "web design service kerala", focusing on "Figma/PSD to Website" and "AI Design to Code".
 
 ## Keyword Targets
 - Primary: 
