@@ -37,7 +37,7 @@ const skillCategories = [
     {
         title: 'Web Apps Development',
         icon: <Palette size={24} />,
-        description: 'Custom custom websites, themes, and plugin integrations.',
+        description: 'Custom websites, web applications, themes, and plugin integrations.',
         skills: ['Web Apps', 'Custom Stores', 'Custom Themes', 'Plugins', 'Elementor']
     },
     {

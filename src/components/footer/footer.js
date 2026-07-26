@@ -214,6 +214,7 @@ const Footer = () => {
                                                 { label: 'Home', href: '/' },
                                                 { label: 'About', href: '/about/' },
                                                 { label: 'Services', href: '/services/' },
+                                                { label: 'NRI & Remote Dev', href: '/hire-kerala-developer-remotely/' },
                                                 { label: 'Works', href: '/#works/' },
                                                 { label: 'Blog', href: '/blog/' },
                                                 { label: 'Contact', href: '/contact/' },
@@ -251,6 +252,7 @@ const Footer = () => {
                                                 { label: 'Next.js Development', href: '/nextjs-development/' },
                                                 { label: 'Node.js Development', href: '/nodejs-development/' },
                                                 { label: 'MERN Stack Dev', href: '/mern-stack-development/' },
+                                                { label: 'Hire Remote Dev', href: '/hire-kerala-developer-remotely/' },
                                             ].map(item => (
                                                 <li key={item.href} className="flex items-center gap-2">
                                                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500/40 shrink-0"></span>

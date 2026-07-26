@@ -173,6 +173,41 @@ export default function CoimbatoreServices() {
                 benefits={benefits}
                 portfolio={portfolio}
                 description="Professional website developer and cross-platform Flutter mobile app coder in Coimbatore, Tamil Nadu. Creating scalable Next.js company portals, robust local shop catalogs, MERN database layouts, and search-optimized architectures."
+                extraContent={
+                    <div className="space-y-8 text-gray-300">
+                        <h2 className="text-3xl font-black text-white uppercase tracking-tight">Your Custom Website & Flutter App Developer in Coimbatore</h2>
+                        <p className="leading-relaxed">
+                            As South India's premier industrial, textile, and engineering powerhouse, <strong>Coimbatore</strong> is undergoing a massive digital evolution. From traditional manufacturing giants in <strong>Peelamedu</strong> and commercial hubs in <strong>RS Puram</strong> to tech startups in the <strong>Saravanampatti IT corridor</strong>, businesses across the Kongu region require digital platforms that match their reputation for precision and quality.
+                        </p>
+                        <p className="leading-relaxed">
+                            Whether you need to modernize a legacy textile mill with a custom B2B ordering portal or launch a cutting-edge mobile utility for a healthcare startup, I provide specialized <strong>web and mobile app development in Coimbatore</strong>. By avoiding generic, off-the-shelf agency templates, I engineer bespoke software solutions that streamline operations, drive lead generation, and establish brand dominance.
+                        </p>
+                        
+                        <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Transforming Manufacturing & Retail with MERN Stack Portals</h3>
+                        <p className="leading-relaxed">
+                            Traditional manufacturing and distribution networks often suffer from fragmented communication and manual order tracking. As an experienced <strong>MERN stack developer in Coimbatore</strong>, I design and build custom web applications, ERP frontends, and dealer management dashboards using <strong>MongoDB, Express.js, React, and Node.js</strong>. My custom web architectures provide:
+                        </p>
+                        <ul className="list-disc pl-6 space-y-2 mt-4">
+                            <li><strong>Real-Time B2B Inventories:</strong> Live product catalogs and automated dealer order processing that sync seamlessly with your backend databases.</li>
+                            <li><strong>High-Speed Next.js Portals:</strong> Server-side rendered websites that load instantly, ensuring your corporate brand exudes credibility and technical superiority.</li>
+                            <li><strong>Dominant Local SEO in Tamil Nadu:</strong> Advanced on-page optimization, clean semantic code, and localized Schema markup targeting keywords like <em>"web developer Coimbatore"</em> and <em>"ecommerce website development Coimbatore"</em>.</li>
+                            <li><strong>Enterprise-Grade Security:</strong> Role-based access control (RBAC), secure JWT authentication, and encrypted API pipelines to safeguard sensitive business data.</li>
+                        </ul>
+
+                        <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">High-Performance Flutter App Development in Coimbatore</h3>
+                        <p className="leading-relaxed">
+                            In an era where business happens on smartphones, having a dedicated mobile app is a game-changer for customer retention and workforce management. I specialize in cross-platform <strong>Flutter app development</strong>, creating intuitive, native-feeling iOS and Android applications from a single, unified codebase.
+                        </p>
+                        <p className="leading-relaxed">
+                            Whether you are building a field-force tracking app for distributors, an e-commerce shopping app for a retail brand in Gandhipuram, or an IoT-enabled monitoring tool for industrial machinery, Flutter delivers exceptional performance at 60 frames per second while lowering development costs and time-to-market significantly.
+                        </p>
+
+                        <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Proximity, Cultural Fit, & Dedicated Support</h3>
+                        <p className="leading-relaxed">
+                            Working with an independent developer who understands the regional business dynamics of Tamil Nadu and Kerala gives you a distinct advantage over dealing with faceless corporate IT firms. I offer transparent, milestone-based delivery, fluent communication in English and Tamil, and direct accessibility for critical project discussions. Partner with a dedicated <strong>website developer in Coimbatore</strong> who is invested in scaling your digital enterprise.
+                        </p>
+                    </div>
+                }
             />
         </>
     );

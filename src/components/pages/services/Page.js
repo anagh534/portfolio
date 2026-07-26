@@ -2,15 +2,16 @@ import ServiceComponent from "./ServiceComponent";
 import { Rocket, Target, Users, Zap, ArrowRight, User as UserIcon, Send, Check, Monitor, Code, Smartphone, Globe } from 'lucide-react';
 
 const detailPages = [
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/web-development/", desc: "Custom websites & web apps" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/mern-stack-development/", desc: "MongoDB · Express · React · Node.js" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/nextjs-development/", desc: "SSR & SSG React apps" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/react-development/", desc: "SPAs & interactive UIs" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/nodejs-development/", desc: "Scalable backends & APIs" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/flutter-app-development/", desc: "iOS & Android cross-platform" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/mobile-app-development/", desc: "Full mobile app development" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/dating-app-development/", desc: "Safety-first social app builds" },
-    { title: "Professional Web & Mobile Development Services | ANAGH K R", href: "/chat-app-development/", desc: "Realtime messaging products" },
+    { title: "Hire Kerala Developer Remotely (NRI & Gulf)", href: "/hire-kerala-developer-remotely/", desc: "Remote Flutter & MERN app developer for UAE, UK, US & Canada" },
+    { title: "Web Development Services", href: "/web-development/", desc: "Custom websites & web apps" },
+    { title: "MERN Stack Development", href: "/mern-stack-development/", desc: "MongoDB · Express · React · Node.js" },
+    { title: "Next.js Development", href: "/nextjs-development/", desc: "SSR & SSG React apps" },
+    { title: "React Development", href: "/react-development/", desc: "SPAs & interactive UIs" },
+    { title: "Node.js Development", href: "/nodejs-development/", desc: "Scalable backends & APIs" },
+    { title: "Flutter App Development", href: "/flutter-app-development/", desc: "iOS & Android cross-platform" },
+    { title: "Mobile App Development", href: "/mobile-app-development/", desc: "Full mobile app development" },
+    { title: "Dating App Development", href: "/dating-app-development/", desc: "Safety-first social app builds" },
+    { title: "Chat App Development", href: "/chat-app-development/", desc: "Realtime messaging products" },
 ];
 
 export const metadata = {
@@ -80,7 +81,7 @@ export default function Services() {
                                 "itemOffered": {
                                     "@type": "Service",
                                     "name": "Web Apps Development",
-                                    "description": "Custom custom websites starting from ₹4,000"
+                                    "description": "Custom web applications starting from ₹4,000"
                                 }
                             },
                             {
@@ -373,7 +374,7 @@ export default function Services() {
 
                     <div className="text-center">
                         <p className="text-gray-400 text-base max-w-3xl mx-auto leading-relaxed">
-                            Based in Kasaragod, I provide remote web development services across Kerala with flexible online meetings,
+                            Based in Kerala, I provide remote web development services across Kerala with flexible online meetings,
                             regular updates, and seamless communication. Quality development services delivered to your business regardless of location.
                         </p>
                     </div>

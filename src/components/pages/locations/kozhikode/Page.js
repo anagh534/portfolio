@@ -173,6 +173,41 @@ export default function KozhikodeServices() {
                 benefits={benefits}
                 portfolio={portfolio}
                 description="Professional web development and Flutter mobile app development services in Kozhikode, Kerala. Designing custom React portals, custom websites, MERN dashboards, and SEO assets for retail boutiques, clinics, and personal portfolios."
+                extraContent={
+                    <div className="space-y-8 text-gray-300">
+                        <h2 className="text-3xl font-black text-white uppercase tracking-tight">Your Dedicated Website & Flutter App Developer in Kozhikode (Calicut)</h2>
+                        <p className="leading-relaxed">
+                            As a developer based in <strong>Kerala</strong> serving businesses in <strong>Kozhikode (Calicut)</strong>, I combine deep local market familiarity with world-class engineering standards. Whether your business is headquartered in <strong>Cyberpark Kozhikode, HiLite Business Park</strong>, or a thriving retail boutique near <strong>SM Street</strong>, winning in today's digital landscape requires more than just a template website—it demands a high-speed, conversion-tuned digital engine.
+                        </p>
+                        <p className="leading-relaxed">
+                            Unlike distant agencies or generic overseas contractors, partnering with a local <strong>web developer in Kozhikode</strong> gives you the strategic advantage of direct communication. I understand the unique consumer behaviors of North Kerala and Malabar's fast-growing business ecosystem. From seamless Malayalam and English technical discussions to face-to-face strategy sessions in Calicut, I ensure your project moves from concept to launch without friction.
+                        </p>
+                        
+                        <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Why Malabar Businesses Are Moving Away from WordPress to MERN & Next.js</h3>
+                        <p className="leading-relaxed">
+                            For years, traditional businesses in Kozhikode relied on slow, plugin-heavy WordPress themes that crack under high traffic and fail Google's Core Web Vitals. I specialize in custom-coded web architectures using <strong>React, Next.js, and the MERN Stack (MongoDB, Express, React, Node.js)</strong>. This modern approach delivers:
+                        </p>
+                        <ul className="list-disc pl-6 space-y-2 mt-4">
+                            <li><strong>Sub-Second Page Loads:</strong> Instantaneous page rendering that keeps potential buyers engaged on mobile devices, drastically reducing bounce rates.</li>
+                            <li><strong>Dominant Local SEO (GEO):</strong> Clean semantic HTML5, localized Schema markup, and optimized metadata tailored for keywords like <em>"web designer near me Kozhikode"</em> and <em>"best IT services Calicut"</em>.</li>
+                            <li><strong>Bank-Grade Security:</strong> Custom authentication, encrypted data transmission, and immunity against common WordPress database vulnerabilities and automated hacks.</li>
+                            <li><strong>Scalable Custom Workflows:</strong> Bespoke admin dashboards and inventory tools where you can manage orders, client bookings, and content effortlessly.</li>
+                        </ul>
+
+                        <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Cross-Platform Flutter Mobile Apps for Kozhikode Startups</h3>
+                        <p className="leading-relaxed">
+                            With Kozhikode emerging as a major startup and entrepreneurship hub in Kerala, mobile application demand is at an all-time high. Whether you are launching a hyper-local delivery platform, a healthcare appointment utility for a clinic, or an e-commerce catalog for a retail brand, I engineer high-performance mobile apps using <strong>Flutter</strong>. 
+                        </p>
+                        <p className="leading-relaxed">
+                            By leveraging Google's Flutter framework, I build responsive, native-feeling iOS and Android applications from a single codebase. This reduces development costs by up to 40%, cuts time-to-market in half, and ensures your app runs at a silky-smooth 60 frames per second on all smartphones.
+                        </p>
+
+                        <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">End-to-End Digital Transformation in Calicut</h3>
+                        <p className="leading-relaxed">
+                            From initial UI/UX wireframes in Figma to cloud deployment on Vercel and AWS, I handle every technical phase of your project. I also integrate localized payment gateways (Razorpay, PhonePe, UPI) and instant WhatsApp inquiry triggers to turn website visitors into paying customers. Partner with a trusted <strong>Flutter and website developer in Kozhikode</strong> committed to elevating your brand's digital presence across Kerala and beyond.
+                        </p>
+                    </div>
+                }
             />
         </>
     );

@@ -18,17 +18,19 @@ export default function Hero() {
             </div>
 
             {/* H1 — delay 70ms. Static content always in DOM for SEO. */}
-            <h1 className="hero-title text-[2.35rem] sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white leading-[0.95] mb-7">
-              FREELANCE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">FLUTTER DEVELOPER</span><br className="hidden sm:block" />
-              &amp; WEBSITE DEVELOPER <br className="hidden sm:block" />
-              IN KERALA
+            <h1 className="hero-title text-[2.2rem] sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white leading-[0.95] mb-7">
+              FREELANCE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">FLUTTER &amp; MERN</span><br className="hidden sm:block" />
+              WEB DEVELOPER IN KERALA
+              <span className="block text-lg sm:text-xl md:text-2xl font-bold text-gray-300 mt-4 tracking-normal">
+                Based in Kerala • Serving Kochi, Calicut &amp; Global Clients
+              </span>
             </h1>
 
             {/* Description — delay 140ms */}
             <p className="hero-desc text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-10 max-w-3xl mx-auto lg:mx-0">
-              Experienced <strong className="text-white">freelance website developer</strong> and <strong className="text-white">Flutter developer in Kerala</strong> specializing in <strong className="text-white">custom websites, MERN stack, and high-performance mobile apps</strong>.
+              Experienced <strong className="text-white">freelance website developer</strong> and <strong className="text-white">Flutter developer based in Kerala</strong>, specializing in <strong className="text-white">custom web apps, MERN stack, and high-performance mobile apps</strong>.
               Building secure digital solutions
-              for businesses across Kochi, Calicut, Trivandrum, Kannur, and throughout Kerala.
+              for businesses across Kochi, Calicut, Trivandrum, Kannur, Coimbatore, and for NRI / Gulf clients globally.
               Transforming startup MVPs and trading catalogs into conversion-ready products with clean code. <a href="/web-development/" className="text-white font-bold underline decoration-blue-500 underline-offset-4 hover:text-blue-300">Explore website development services in Kerala</a>.
             </p>
 

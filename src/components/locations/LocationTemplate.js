@@ -52,7 +52,8 @@ export default function LocationTemplate({
     services,
     benefits,
     portfolio,
-    description
+    description,
+    extraContent
 }) {
     const displayServices = services;
 
@@ -277,8 +278,17 @@ export default function LocationTemplate({
                 </div>
             </section>
 
+            {/* ── Extra Content ── */}
+            {extraContent && (
+                <section className="py-24 bg-black border-y border-white/5">
+                    <div className="max-w-4xl mx-auto px-6 animate-fade-in">
+                        {extraContent}
+                    </div>
+                </section>
+            )}
+
             {/* FAQ Section */}
-            <section className="py-24 bg-white/[0.02] border-y border-white/5" aria-labelledby="faq-heading">
+            <section className="py-24 bg-white/[0.02] border-b border-white/5" aria-labelledby="faq-heading">
                 <div className="max-w-4xl mx-auto px-6">
                     <script
                         type="application/ld+json"

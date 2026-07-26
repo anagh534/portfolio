@@ -134,7 +134,7 @@ export default function About() {
 
                         {/* Hero Description */}
                         <p className="text-gray-400 text-lg md:text-xl leading-relaxed max-w-2xl animate-in fade-in slide-in-from-bottom-8 duration-700 delay-400">
-                            Freelance web developer and Flutter app specialist based in Kasaragod, Kerala,
+                            Freelance web developer and Flutter app specialist based in Kerala,
                             helping businesses across Kerala build custom websites, mobile applications, and web apps.
                             With expertise in MERN stack, React, Node.js, and Flutter, I transform business ideas into
                             functional, scalable digital products that drive real results.
@@ -214,7 +214,7 @@ export default function About() {
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500"> Kerala Businesses</span>
                             </h2>
                             <p className="text-gray-400 text-lg leading-relaxed">
-                                As a professional freelance developer from Kasaragod, I specialize in MERN stack web development
+                                As a professional freelance developer based in Kerala, I specialize in MERN stack web development
                                 and Flutter mobile app development, serving clients across Kerala. Whether you're a startup in Kochi
                                 needing a responsive website, a business in Calicut requiring a custom web app, or an entrepreneur
                                 in Trivandrum looking for a mobile app, I deliver tailored solutions with clean code, modern design,
@@ -517,7 +517,7 @@ export default function About() {
 
                     <div className="mt-12 text-center">
                         <p className="text-gray-400 text-lg">
-                            Based in Kasaragod, I serve clients across Kerala with remote collaboration, online meetings,
+                            Based in Kerala, I serve clients across Kerala with remote collaboration, online meetings,
                             and flexible communication. Distance is no barrier to delivering quality web and mobile solutions.
                         </p>
                     </div>

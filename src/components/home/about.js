@@ -69,13 +69,13 @@ export default function About() {
                         </h3>
 
                         <p className="text-lg text-gray-400 leading-relaxed">
-                            I'm Anagh K R, a professional <strong className="text-white">freelance website developer in Kerala</strong> with <strong className="text-white">3+ years experience</strong> building secure, conversion-optimized sites and high-performance Flutter mobile applications.
+                            I'm Anagh K R, a professional <strong className="text-white">freelance website developer based in Kerala</strong> with <strong className="text-white">3+ years experience</strong> building secure, conversion-optimized sites and high-performance Flutter mobile applications.
                             I've successfully delivered 24+ projects ranging from
-                            responsive company websites and custom custom web apps stores to scale-ready backend panels and mobile app MVPs.
+                            responsive company websites and custom web applications to scale-ready backend panels and mobile app MVPs.
                         </p>
 
                         <p className="text-base text-gray-400 leading-relaxed">
-                            Whether you're a startup in Kochi needing an MVP, a business in Calicut requiring a modern website,
+                            Whether you're a startup in Kochi needing an MVP, a local business in Kozhikode / Calicut requiring a modern website,
                             or an entrepreneur in Trivandrum looking for a mobile app, I bring technical expertise,
                             creative problem-solving, and a commitment to delivering digital solutions that drive real business results.
                         </p>
