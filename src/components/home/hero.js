@@ -19,7 +19,7 @@ export default function Hero() {
 
             {/* H1 — delay 70ms. Static content always in DOM for SEO. */}
             <h1 className="hero-title text-[2.2rem] sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white leading-[0.95] mb-7">
-              FREELANCE <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">FLUTTER &amp; MERN</span><br className="hidden sm:block" />
+              FREELANCE <br></br><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">FLUTTER &amp; MERN </span><br className="hidden sm:block" />
               WEB DEVELOPER IN KERALA
               <span className="block text-lg sm:text-xl md:text-2xl font-bold text-gray-300 mt-4 tracking-normal">
                 Based in Kerala • Serving Kochi, Calicut &amp; Global Clients
