@@ -142,7 +142,9 @@ export default function Testimonials() {
                                     <p className="text-gray-400 text-xs uppercase tracking-[0.16em] mt-1">
                                         {item.role} {item.location ? `, ${item.location}` : ''}
                                     </p>
-                                    <meta itemProp="itemReviewed" content={item.role || 'Web and Flutter app development service'} />
+                                    <div itemProp="itemReviewed" itemScope itemType="https://schema.org/Thing">
+                                        <meta itemProp="name" content={item.role || 'Web and Flutter app development service'} />
+                                    </div>
                                 </div>
                             </motion.article>
                         );
