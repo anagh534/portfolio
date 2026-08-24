@@ -9,7 +9,7 @@ export const metadata = {
     metadataBase: new URL('https://www.anaghkr.in/'),
     title: {
         default: "Freelance Web Developer Kerala | Flutter, MERN & Web Apps - ANAGH K R",
-        template: "%s | ANAGH K R"
+        template: "%s"
     },
     description: "Freelance web developer and web designer in Kerala. I build custom websites, Web Apps sites, custom web apps stores, and Flutter mobile apps for businesses in Kochi, Calicut, Trivandrum, Kannur, and Kasaragod.",
     applicationName: "Anagh K R Portfolio",
