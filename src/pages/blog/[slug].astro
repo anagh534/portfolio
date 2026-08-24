@@ -10,7 +10,7 @@ export interface Props {
     content: string;
     slug: string;
     date: string;
-    tags?: string[];
+    keywords?: string[];
     image?: string;
   };
 }
@@ -59,7 +59,7 @@ const pageMetadata = {
   title: `${post.title} | Anagh K R Blog`,
   description: post.description,
   keywords: [
-    ...(post.tags || []),
+    ...(post.keywords || []),
     "Anagh K R",
     "Tech Blog",
     "Web Development",
@@ -109,7 +109,7 @@ const structuredData = {
     "@type": "WebPage",
     "@id": postUrl
   },
-  keywords: post.tags ? post.tags.join(", ") : ""
+  keywords: post.keywords ? post.keywords.join(", ") : ""
 };
 ---
 
@@ -133,11 +133,11 @@ const structuredData = {
         <div class="absolute bottom-0 left-0 p-8">
           <div class="flex items-center gap-3 text-sm text-gray-300 mb-4">
             <span>{post.date}</span>
-            {post.tags && post.tags.length > 0 && (
+            {post.keywords && post.keywords.length > 0 && (
               <>
                 <span class="w-1 h-1 rounded-full bg-gray-500"></span>
                 <span class="px-2 py-1 bg-blue-500/20 text-blue-300 rounded-full text-xs border border-blue-500/30">
-                  {post.tags[0]}
+                  {post.keywords[0]}
                 </span>
               </>
             )}

@@ -4,11 +4,11 @@ import BlogList from "@/components/blog/BlogList";
 import { getBlogPosts } from "@/lib/blog";
 
 const posts = await getBlogPosts();
-const allTags = posts.reduce((acc, post) => {
-  if (post.tags && Array.isArray(post.tags)) {
-    for (const tag of post.tags) {
-      if (tag && !acc.includes(tag)) {
-        acc.push(tag);
+const allKeywords = posts.reduce((acc, post) => {
+  if (post.keywords && Array.isArray(post.keywords)) {
+    for (const keyword of post.keywords) {
+      if (keyword && !acc.includes(keyword)) {
+        acc.push(keyword);
       }
     }
   }
@@ -18,7 +18,7 @@ const allTags = posts.reduce((acc, post) => {
 const pageMetadata = {
   title: "Blog | Insights & Updates - Anagh K R",
   description: "Read the latest thoughts, tutorials, and updates on Web Development, Flutter, and Tech Trends.",
-  keywords: allTags.length > 0 ? allTags : ["Web Development", "Flutter", "Tech Trends", "Tutorials"],
+  keywords: allKeywords.length > 0 ? allKeywords : ["Web Development", "Flutter", "Tech Trends", "Tutorials"],
   alternates: {
     canonical: "https://www.anaghkr.in/blog/"
   }
