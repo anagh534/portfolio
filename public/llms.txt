@@ -17,9 +17,9 @@ Anagh K R is a freelance Full-Stack and Flutter developer who builds fast, SEO-f
 - Technical SEO and Performance: On-page SEO, speed optimization, and technical improvements
 
 ## Core Technology Stack
-- Frontend: React, Next.js
-- Backend: Node.js, Express.js
-- Database: MongoDB
+- Frontend: React, Next.js, Astro.js, Html
+- Backend: Node.js, Express.js, Nest.js, Laravel
+- Database: MongoDB, MySQL, PostgresSQL, Firebase
 - Mobile: Flutter, Dart
 - Full Stack: MERN (MongoDB, Express.js, React, Node.js)
 
@@ -35,6 +35,9 @@ Primary service locations in Kerala include:
 - Palakkad
 - Kollam
 - Kanhangad
+- Chennai
+- Coiambature
+- Wayanad
 
 ## Important Pages
 - Home: /
@@ -56,6 +59,7 @@ Primary service locations in Kerala include:
 - Dating App Development: /dating-app-development/
 
 ## Contact
+- Phone: 8281571805
 - Email: anaghkrkkl@gmail.com
 - LinkedIn: https://in.linkedin.com/in/anagh-k-r
 - GitHub: https://github.com/anagh534
