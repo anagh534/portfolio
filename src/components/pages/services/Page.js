@@ -8,6 +8,8 @@ const detailPages = [
     { title: "Next.js Development", href: "/nextjs-development/", desc: "SSR & SSG React apps" },
     { title: "React Development", href: "/react-development/", desc: "SPAs & interactive UIs" },
     { title: "Node.js Development", href: "/nodejs-development/", desc: "Scalable backends & APIs" },
+    { title: "NestJS Development", href: "/nestjs-development/", desc: "Enterprise TypeScript backends" },
+    { title: "Laravel Development", href: "/laravel-development/", desc: "Robust PHP backend systems" },
     { title: "Flutter App Development", href: "/flutter-app-development/", desc: "iOS & Android cross-platform" },
     { title: "Mobile App Development", href: "/mobile-app-development/", desc: "Full mobile app development" },
     { title: "Dating App Development", href: "/dating-app-development/", desc: "Safety-first social app builds" },
@@ -205,6 +207,13 @@ export default function Services() {
                         />
 
                         <ServiceComponent
+                            title="Backend API Development"
+                            category="Node.js | NestJS | Laravel"
+                            icon={<Rocket size={24} />}
+                            description="Building secure, scalable RESTful & GraphQL APIs and backend systems. Utilizing robust frameworks like NestJS, Laravel, or Node.js with Express. Real-time WebSockets, microservices, and database tuning."
+                        />
+
+                        <ServiceComponent
                             title="Website Redesign"
                             category="Modernization"
                             icon={<Rocket size={24} />}
@@ -216,13 +225,6 @@ export default function Services() {
                             category="CMS"
                             icon={<Rocket size={24} />}
                             description="Professional Web Apps website development, custom theme design, plugin integration, and Custom Stores setup. Easy-to-manage websites perfect for businesses, blogs, and online stores with ongoing support and maintenance."
-                        />
-
-                        <ServiceComponent
-                            title="API Development"
-                            category="Backend"
-                            icon={<Rocket size={24} />}
-                            description="Building secure, scalable RESTful APIs and backend systems with Node.js and Express. Database design, authentication, real-time features, and third-party integrations to power your web and mobile applications efficiently."
                         />
 
                         <ServiceComponent
@@ -255,6 +257,7 @@ export default function Services() {
                     </div>
                 </div>
             </section>
+
 
             <section className="relative z-10 pt-10 pb-20">
                 <div className="max-w-7xl mx-auto px-6">

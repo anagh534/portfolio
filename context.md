@@ -1,9 +1,13 @@
 # Site-wide SEO Audit Context
-Last Updated: 2026-08-28 23:01:00
+Last Updated: 2026-08-28 23:09:00
 
 This document tracks SEO maintenance and updates for the portfolio website.
 
 ## Latest Updates
+- **2026-08-28**: Added new backend service pages.
+  - Created `src/pages/laravel-development/index.astro` and `src/components/pages/laravel-development/Page.js` to target "Laravel developer Kerala" and PHP backend services.
+  - Created `src/pages/nestjs-development/index.astro` and `src/components/pages/nestjs-development/Page.js` to target "NestJS developer Kerala" and enterprise TypeScript APIs.
+  - Updated `src/components/pages/services/Page.js` to link to both new service pages and updated the general "API Development" service card to mention Node.js, NestJS, and Laravel.
 - **2026-08-28**: Expanded SEO targeting for freelance team keywords and international cities.
   - Added "freelance mobile app development team kerala" to `src/components/pages/mobile-app-development/Page.js` and included major international markets (Dubai/UAE, USA, UK, Australia, Bangalore, Mumbai) to `areaServed`, `keywords`, descriptions, and content.
   - Added "freelance website development team kerala" and "freelance website develop team" to `src/components/pages/web-development/Page.js`, with the same international and metro city expansions to capture offshore project search intent.
