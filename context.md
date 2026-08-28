@@ -1,9 +1,12 @@
 # Site-wide SEO Audit Context
-Last Updated: 2026-08-28 23:09:00
+Last Updated: 2026-08-28 23:15:00
 
 This document tracks SEO maintenance and updates for the portfolio website.
 
 ## Latest Updates
+- **2026-08-28**: Added new blog post targeting freelance web developer costs.
+  - Published `"How Much Does It Cost for a Freelancer to Build a Website in 2026?"` in `src/data/blogs.json`.
+  - Targeted keywords: `freelance web developer cost india`, `how much does it cost to build a website`, `website development cost in kerala`, and `freelance website develop team`.
 - **2026-08-28**: Added new backend service pages.
   - Created `src/pages/laravel-development/index.astro` and `src/components/pages/laravel-development/Page.js` to target "Laravel developer Kerala" and PHP backend services.
   - Created `src/pages/nestjs-development/index.astro` and `src/components/pages/nestjs-development/Page.js` to target "NestJS developer Kerala" and enterprise TypeScript APIs.
