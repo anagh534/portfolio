@@ -3,12 +3,12 @@ import { Palette, Smartphone, Zap, Search, ShieldCheck, LayoutDashboard } from '
 
 export const metadata = {
     title: "Website Developer Kerala | Custom Business Sites | ANAGH K R",
-    description: "Hire a professional web developer in Kerala. We build custom business websites with SEO-optimized design and fast delivery in Kochi, Kozhikode & Trivandrum.",
-    keywords: "website developer kerala, free website kerala, affordable website developer kerala, best website developer kerala, professional web developer kerala, custom website design kerala, low cost website kerala, custom web apps website kerala, react developer kerala, nextjs developer kerala, web developer kochi, web developer kozhikode, web developer trivandrum",
+    description: "Hire a professional freelance website development team in Kerala. We build custom business websites with SEO-optimized design and fast delivery for clients in Kochi, Dubai, USA & UK.",
+    keywords: "website developer kerala, free website kerala, affordable website developer kerala, best website developer kerala, professional web developer kerala, custom website design kerala, low cost website kerala, custom web apps website kerala, react developer kerala, nextjs developer kerala, web developer kochi, web developer kozhikode, web developer trivandrum, freelance website development team kerala, freelance website develop team, web developer Dubai UAE, web developer London UK, web developer USA, web developer Australia",
     alternates: { canonical: "https://www.anaghkr.in/web-development/" },
     openGraph: {
         title: "Website Developer Kerala | Custom Business Sites | ANAGH K R",
-        description: "Hire a professional web developer in Kerala. We build custom business websites with SEO-optimized design and fast delivery in Kochi, Kozhikode & Trivandrum.",
+        description: "Hire a professional freelance website development team in Kerala. We build custom business websites with SEO-optimized design and fast delivery for clients in Kochi, Dubai, USA & UK.",
         url: "https://www.anaghkr.in/web-development/",
         type: "website",
         siteName: "ANAGH K R - Web Developer Kerala",
@@ -23,7 +23,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Website Developer Kerala | Custom Business Sites | ANAGH K R",
-        description: "Hire a professional web developer in Kerala. We build custom business websites with SEO-optimized design and fast delivery in Kochi, Kozhikode & Trivandrum.",
+        description: "Hire a professional freelance website development team in Kerala. We build custom business websites with SEO-optimized design and fast delivery for clients in Kochi, Dubai, USA & UK.",
         images: ["https://www.anaghkr.in/assets/services/webdesign.webp"]
     },
 };
@@ -53,9 +53,17 @@ const schemaData = {
         { "@type": "City", "name": "Kollam" },
         { "@type": "City", "name": "Palakkad" },
         { "@type": "City", "name": "Kasaragod" },
-        { "@type": "State", "name": "Kerala, India" }
+        { "@type": "State", "name": "Kerala, India" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "United Kingdom" },
+        { "@type": "Country", "name": "Australia" },
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "New York" },
+        { "@type": "City", "name": "London" },
+        { "@type": "City", "name": "Sydney" }
     ],
-    "description": "Professional custom website development, responsive web design, business websites, landing pages, and full-stack web application development services. Specialized in React, Next.js, Node.js, and modern web technologies for businesses across Kerala.",
+    "description": "Professional custom website development, responsive web design, business websites, landing pages, and full-stack web application development services. Specialized in React, Next.js, Node.js, and modern web technologies for businesses across Kerala, UAE (Dubai), USA, UK, and globally.",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
@@ -86,7 +94,7 @@ export default function WebDevelopmentPage() {
             badge="Web Development Services"
             title="Top Website Developer in"
             titleHighlight="Kerala"
-            description="Looking for an affordable, high-performance website? I help Kerala businesses and startups grow online with custom websites, fast load times, and SEO-ready architecture. Book a free consultation to get started."
+            description="Looking for an affordable, high-performance website? I operate as your dedicated freelance website develop team to help Kerala and global businesses grow online with custom websites, fast load times, and SEO-ready architecture. Book a free consultation to get started."
             heroStats={[
                 { number: "24+", label: "Projects Delivered" },
                 { number: "3+", label: "Years Experience" },
@@ -117,6 +125,7 @@ export default function WebDevelopmentPage() {
                 { question: "Can I get a free website in Kerala?", answer: "While a fully custom professional website requires an investment, I offer a 100% Free Website Consultation to plan your architecture. Additionally, I provide a Free Domain and Free First-Year Hosting setup on select starter business bundles to help you get online affordably." },
                 { question: "How much does a custom website cost in Kerala?", answer: "A basic business website starts around ₹8,000–₹20,000, while complex web applications can range from ₹30,000 upwards. It is much more affordable than hiring a massive agency." },
                 { question: "Do you physically meet clients for web development?", answer: "Yes! While I work with clients all over India remotely, I am available for direct, in-person meetings in Kochi, Kozhikode (Calicut), and Trivandrum to discuss your web projects." },
+                { question: "Do you offer web development services outside India?", answer: "Absolutely. I regularly partner with businesses and agencies in the UAE (Dubai), USA, UK, and Australia, functioning as their offshore freelance website development team in Kerala." },
                 { question: "How long does it take to build a website?", answer: "A standard business website typically takes 1–3 weeks. Complex web apps or custom web apps platforms can take 4–8 weeks depending on your scope." },
                 { question: "Will my website rank on Google?", answer: "Yes, every website I build is deeply SEO-optimized with proper structure, meta tags, fast load times, and Schema markup — which is why you found me!" },
                 { question: "Which cities in Kerala do you serve?", answer: "I build responsive websites for clients in Kochi, Kozhikode, Trivandrum, Thrissur, Kannur, Kasaragod, Kollam, Palakkad, and Ernakulam." },
@@ -134,6 +143,10 @@ export default function WebDevelopmentPage() {
                     <p className="leading-relaxed">
                         In today's digital-first economy, a fast, responsive, and SEO-optimized website is your most powerful marketing tool. As a leading <strong>website developer in Kerala</strong>, I help businesses across Kochi, Calicut, and Trivandrum establish a dominant online presence. From sleek corporate portfolios to complex e-commerce platforms, I deliver custom web solutions that drive real business growth.
                     </p>
+                    <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Global Quality, Local Pricing</h3>
+                    <p className="leading-relaxed">
+                        I don't just serve local businesses. I act as an on-demand <strong>freelance website development team in Kerala</strong> for clients across the globe. Companies in Dubai, New York, London, and Sydney choose to work with me because I deliver agency-level quality at freelance rates. Whether you need a simple landing page or a complex React/Next.js application, I bring global best practices to every project.
+                    </p>
                     <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Why Settle for Templates When You Can Have Custom?</h3>
                     <p className="leading-relaxed">
                         Many agencies use bloated WordPress templates that slow down your site and hurt your Google rankings. I build fully custom, hand-coded websites using modern frameworks like Next.js and React. This guarantees lightning-fast load times, exceptional Core Web Vitals, and a user experience that keeps visitors engaged.
@@ -146,9 +159,9 @@ export default function WebDevelopmentPage() {
                         <li><strong>Mobile-First Design:</strong> With over 70% of web traffic coming from mobile devices, your site will look perfect on every screen size.</li>
                         <li><strong>Scalable Backend Systems:</strong> Using Node.js and MongoDB to power custom web applications that can handle high traffic volumes.</li>
                     </ul>
-                    <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Driving Success for Kerala Businesses</h3>
+                    <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Driving Success for Kerala and Global Businesses</h3>
                     <p className="leading-relaxed">
-                        I understand the local market nuances. Whether you need a multilingual site to cater to a diverse demographic or integrations with popular Indian payment gateways like Razorpay, I have the expertise to execute it flawlessly. Partner with a <strong>website developer in Kerala</strong> who is committed to your long-term success, offering reliable support long after the initial launch.
+                        I understand both local and international market nuances. Whether you need a multilingual site to cater to a diverse demographic in the UAE or integrations with popular Indian payment gateways like Razorpay, I have the expertise to execute it flawlessly. Partner with a dedicated <strong>freelance website develop team</strong> that is committed to your long-term success.
                     </p>
                 </div>
             }

@@ -3,12 +3,12 @@ import { Smartphone, Bell, MapPin, MessageSquare, CreditCard, Upload, Layers } f
 
 export const metadata = {
     title: "Mobile App Developer Kerala | iOS & Android Apps | ANAGH K R",
-    description: "Top mobile app developer in Kerala. We build high-quality, native-like iOS & Android applications using Flutter for businesses in Kochi, Calicut, and Trivandrum.",
-    keywords: "mobile app developer kerala, app developer kerala, best app developer kerala, iOS app developer kerala, Android app developer kerala, flutter developer kerala, mobile app development kochi, app developer calicut, mobile app developer trivandrum, startup app developer kerala",
+    description: "Top freelance mobile app development team in Kerala. We build high-quality, native-like iOS & Android applications using Flutter for businesses in Kochi, Dubai, USA, and UK.",
+    keywords: "mobile app developer kerala, app developer kerala, best app developer kerala, iOS app developer kerala, Android app developer kerala, flutter developer kerala, mobile app development kochi, app developer calicut, mobile app developer trivandrum, startup app developer kerala, freelance mobile app development team kerala, app developer Dubai UAE, app developer London UK, app developer USA, app developer Australia, freelance app developer Bangalore Mumbai",
     alternates: { canonical: "https://www.anaghkr.in/mobile-app-development/" },
     openGraph: {
         title: "Mobile App Developer Kerala | iOS & Android Apps | ANAGH K R",
-        description: "Top mobile app developer in Kerala. We build high-quality, native-like iOS & Android applications using Flutter for businesses in Kochi, Calicut, and Trivandrum.",
+        description: "Top freelance mobile app development team in Kerala. We build high-quality, native-like iOS & Android applications using Flutter for businesses worldwide, including Dubai, USA, and UK.",
         url: "https://www.anaghkr.in/mobile-app-development/",
         type: "website",
         images: [
@@ -23,7 +23,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Mobile App Developer Kerala | ANAGH K R",
-        description: "Top mobile app developer in Kerala. We build high-quality, native-like iOS & Android applications using Flutter for businesses in Kochi, Calicut, and Trivandrum.",
+        description: "Top freelance mobile app development team in Kerala. We build high-quality, native-like iOS & Android applications using Flutter for businesses worldwide, including Dubai, USA, and UK.",
         images: ["https://www.anaghkr.in/assets/services/app.webp"],
     },
 };
@@ -34,8 +34,20 @@ const schemaData = {
     "name": "Mobile App Development Services",
     "provider": { "@type": "Person", "name": "Anagh K R", "url": "https://www.anaghkr.in/" },
     "serviceType": "Mobile App Development",
-    "areaServed": "Kerala, India",
-    "description": "Cross-platform iOS and Android mobile application development using Flutter for businesses, startups, and enterprises across Kerala.",
+    "areaServed": [
+        { "@type": "State", "name": "Kerala, India" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "United Kingdom" },
+        { "@type": "Country", "name": "Australia" },
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "New York" },
+        { "@type": "City", "name": "London" },
+        { "@type": "City", "name": "Sydney" },
+        { "@type": "City", "name": "Bangalore" },
+        { "@type": "City", "name": "Mumbai" }
+    ],
+    "description": "Cross-platform iOS and Android mobile application development using Flutter for businesses, startups, and enterprises across Kerala, the Middle East (UAE/Dubai), USA, UK, and Australia.",
     "offers": { "@type": "Offer", "priceCurrency": "INR" },
     "mainEntityOfPage": "https://www.anaghkr.in/mobile-app-development/"
 };
@@ -46,7 +58,7 @@ export default function MobileAppDevelopmentPage() {
             badge="App Development"
             title="Mobile App Developer in"
             titleHighlight="Kerala"
-            description="Turn your idea into a polished mobile app that users love. From startup MVPs to enterprise-grade apps — I am your local expert for cross-platform iOS and Android development in Kerala."
+            description="Turn your idea into a polished mobile app that users love. Whether you need a local MVP or an enterprise-grade app for international markets like the UAE, USA, or UK, I operate as your dedicated freelance mobile app development team in Kerala."
             heroStats={[
                 { number: "iOS", label: "App Store" },
                 { number: "Android", label: "Play Store" },
@@ -76,6 +88,7 @@ export default function MobileAppDevelopmentPage() {
             ]}
             faqs={[
                 { question: "Where are you located in Kerala?", answer: "I build apps for businesses worldwide, but I am locally available for face-to-face meetings across Kerala, primarily in Kochi, Calicut (Kozhikode), and Trivandrum. I offer full support in both Malayalam and English." },
+                { question: "Do you serve international clients outside India?", answer: "Yes, a significant portion of my clients are based in the UAE (Dubai, Abu Dhabi), USA, UK, Canada, and Australia. Working as a remote freelance mobile app development team in Kerala allows me to deliver high-quality code at competitive international rates." },
                 { question: "How much does a mobile app cost in Kerala?", answer: "A simple mobile app starts from ₹20,000–₹40,000. Feature-rich apps with real-time tracking, payments, maps, and custom UI typically range ₹60,000–₹2,50,000. Contact me for a detailed estimate." },
                 { question: "How long does it take to build an app?", answer: "An MVP typically takes 4–8 weeks. Full-featured apps take 3–6 months. I provide regular builds so you can track progress." },
                 { question: "What type of apps do you build?", answer: "I build custom web apps, delivery, booking, education, healthcare, social, dating, chat, fintech wallets, and marketplace apps." },
@@ -94,23 +107,27 @@ export default function MobileAppDevelopmentPage() {
                 <div className="space-y-8 text-gray-300">
                     <h2 className="text-3xl font-black text-white uppercase tracking-tight">Why Hire a Dedicated Mobile App Developer in Kerala?</h2>
                     <p className="leading-relaxed">
-                        Finding the right <strong>mobile app developer in Kerala</strong> can make or break your business. With the digital landscape evolving rapidly, having a robust mobile presence is no longer optional. Whether you are a startup in Kochi or an established enterprise in Trivandrum, custom mobile app development ensures you reach your target audience directly on their smartphones.
+                        Finding the right <strong>mobile app developer in Kerala</strong> can make or break your business. With the digital landscape evolving rapidly, having a robust mobile presence is no longer optional. Whether you are a startup in Kochi or an established enterprise in Dubai, USA, or the UK, custom mobile app development ensures you reach your target audience directly on their smartphones.
                     </p>
                     <p className="leading-relaxed">
-                        As a top-rated <strong>app developer in Kerala</strong>, I specialize in creating high-performance, native-like iOS and Android applications. Unlike traditional agencies that might charge exorbitant fees with slow turnaround times, working with an independent expert guarantees direct communication, transparent pricing, and rapid delivery.
+                        As a top-rated <strong>app developer in Kerala</strong>, I operate effectively as a complete <strong>freelance mobile app development team in Kerala</strong>, bringing full-stack capabilities to every project. I specialize in creating high-performance, native-like iOS and Android applications. Unlike traditional agencies that might charge exorbitant fees with slow turnaround times, working with an independent expert guarantees direct communication, transparent pricing, and rapid delivery for local Indian and global clients alike.
+                    </p>
+                    <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Global Reach, Local Expertise</h3>
+                    <p className="leading-relaxed">
+                        While my roots are in Kerala, my client base is global. I regularly partner with businesses in major tech hubs including <strong>Dubai (UAE), London (UK), New York (USA), Sydney (Australia), Bangalore, and Mumbai</strong>. Outsourcing your app development to a skilled Kerala freelancer provides you with world-class code quality without the massive overhead of Western agencies.
                     </p>
                     <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Comprehensive App Development Services</h3>
                     <p className="leading-relaxed">
-                        My process covers every phase of the app development lifecycle. From initial UX/UI design to backend API integration using Node.js or Firebase, right down to App Store and Google Play Store deployment. If you're looking for a <strong>mobile app developer in Kerala</strong> who understands both the technical challenges and local market dynamics, you're in the right place.
+                        My process covers every phase of the app development lifecycle. From initial UX/UI design to backend API integration using Node.js or Firebase, right down to App Store and Google Play Store deployment. If you're looking for a <strong>freelance mobile app development team in Kerala</strong> who understands both the technical challenges and local/international market dynamics, you're in the right place.
                     </p>
                     <ul className="list-disc pl-6 space-y-2 mt-4">
                         <li><strong>Cross-Platform Excellence:</strong> Using Flutter to build apps that perform beautifully on both iOS and Android platforms simultaneously.</li>
-                        <li><strong>Startup-Friendly MVPs:</strong> Fast-tracking development for startups in Kerala to help you test your idea in the market swiftly.</li>
-                        <li><strong>Business Digitization:</strong> Creating custom ERPs, delivery apps, and booking systems tailored to Kerala's specific business needs.</li>
+                        <li><strong>Startup-Friendly MVPs:</strong> Fast-tracking development for startups to help you test your idea in the market swiftly, saving time and capital.</li>
+                        <li><strong>Business Digitization:</strong> Creating custom ERPs, delivery apps, and booking systems tailored to specific business needs, whether in Kerala or abroad.</li>
                     </ul>
                     <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">A Partner You Can Trust</h3>
                     <p className="leading-relaxed">
-                        I don't just write code; I partner with you to ensure your app succeeds post-launch. This includes App Store Optimization (ASO), long-term maintenance, and scaling infrastructure as your user base grows.
+                        I don't just write code; I partner with you to ensure your app succeeds post-launch. This includes App Store Optimization (ASO), long-term maintenance, and scaling infrastructure as your user base grows across countries.
                     </p>
                 </div>
             }

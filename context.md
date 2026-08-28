@@ -1,9 +1,12 @@
 # Site-wide SEO Audit Context
-Last Updated: 2026-08-28 22:47:00
+Last Updated: 2026-08-28 23:01:00
 
 This document tracks SEO maintenance and updates for the portfolio website.
 
 ## Latest Updates
+- **2026-08-28**: Expanded SEO targeting for freelance team keywords and international cities.
+  - Added "freelance mobile app development team kerala" to `src/components/pages/mobile-app-development/Page.js` and included major international markets (Dubai/UAE, USA, UK, Australia, Bangalore, Mumbai) to `areaServed`, `keywords`, descriptions, and content.
+  - Added "freelance website development team kerala" and "freelance website develop team" to `src/components/pages/web-development/Page.js`, with the same international and metro city expansions to capture offshore project search intent.
 - **2026-08-28**: Updated Node.js page to target "node.js development company in kochi" and "cochin" based on Search Console drop/poor stats.
   - Added "Node.js development company in Kochi / Cochin" to `keywords`, `description`, `title`, and main page description in `src/components/pages/nodejs-development/Page.js`.
   - Framed the service as a "premium alternative to hiring a full Node.js development company" to match user intent for "company" without misleading.
@@ -30,10 +33,13 @@ This document tracks SEO maintenance and updates for the portfolio website.
   - `mobile app developer in kerala`
   - `website developer in kerala`
   - `node.js development company in kochi`
+  - `freelance mobile app development team kerala`
+  - `freelance website development team kerala`
 - Secondary: 
   - `freelance web developer in kerala`
   - `app developer kochi`
   - `node.js development company in cochin`
+  - `freelance website develop team`
 
 ## Technical Checklist
 - [x] Trailing Slashes active (`trailingSlash: 'always'`)
