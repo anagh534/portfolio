@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ExternalLink, Monitor, Briefcase } from 'lucide-react';
-import projects from "./loadImage";
+import projects from '../../../public/data/works.json';
 
 export default function Works() {
     const containerVariants = {
