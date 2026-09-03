@@ -104,23 +104,6 @@ export default function Works() {
                         </motion.div>
                     ))}
                 </motion.div>
-
-                <motion.div
-                    className="text-center mt-16"
-                    initial={{ opacity: 0, y: 16 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.2 }}
-                    transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-                >
-                    <p className="text-gray-400 mb-6 font-medium">Want to see more?</p>
-                    <a
-                        href="/contact/"
-                        className="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-white text-black font-black hover:bg-blue-600 hover:text-white transition-all duration-300 active:scale-95 shadow-xl shadow-white/5"
-                    >
-                        <span>DISCUSS YOUR PROJECT</span>
-                        <Monitor size={20} />
-                    </a>
-                </motion.div>
             </div>
         </section>
     );
