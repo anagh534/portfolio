@@ -203,26 +203,26 @@
   }
 }
 
-/* Each hero element uses the same keyframe with increasing delays */
+/* Hero keyframe animations - instant & snappy with near-zero delay */
 .hero-badge {
-  animation: heroFadeUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: heroFadeUp 0.32s cubic-bezier(0.16, 1, 0.3, 1) both;
   animation-delay: 0ms;
 }
 .hero-title {
-  animation: heroFadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-delay: 70ms;
+  animation: heroFadeUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 40ms;
 }
 .hero-desc {
-  animation: heroFadeUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-delay: 140ms;
+  animation: heroFadeUp 0.32s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 80ms;
 }
 .hero-cta {
-  animation: heroFadeUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-delay: 210ms;
+  animation: heroFadeUp 0.32s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 120ms;
 }
 .hero-stats {
-  animation: heroFadeUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-delay: 280ms;
+  animation: heroFadeUp 0.32s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 160ms;
 }
 
 /* Reusable Float Animations (CSS Compositor Accelerated) */

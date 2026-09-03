@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import {
     Search,
     ArrowRight,
@@ -212,19 +211,6 @@ const colorMap = {
 };
 
 export default function KeywordServiceMap() {
-    const containerVariants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: { staggerChildren: 0.08 },
-        },
-    };
-
-    const itemVariants = {
-        hidden: { opacity: 0, y: 24 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
-    };
-
     return (
         <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="find-services">
             {/* Background glow effects */}
@@ -233,13 +219,7 @@ export default function KeywordServiceMap() {
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 {/* Section Header */}
-                <motion.div
-                    className="text-center mb-10 md:mb-16"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.6 }}
-                >
+                <div className="text-center mb-10 md:mb-16">
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6 leading-tight">
                         Looking for a{' '}
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
@@ -252,31 +232,24 @@ export default function KeywordServiceMap() {
                         <strong className="text-white">e-commerce development expert</strong> — explore our specialized services
                         matched to exactly what you need.
                     </p>
-                </motion.div>
+                </div>
 
                 {/* Keyword Grid */}
-                <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
-                    variants={containerVariants}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, margin: "-50px" }}
-                >
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                     {keywordServiceGroups.map((group, groupIndex) => {
                         const colors = colorMap[group.color] || colorMap.blue;
                         return (
-                            <motion.div
+                            <div
                                 key={groupIndex}
-                                className={`p-5 sm:p-7 rounded-[32px] bg-white/[0.03] border border-white/[0.06] ${colors.hoverBorder} transition-all duration-500 group relative overflow-hidden`}
-                                variants={itemVariants}
+                                className={`p-5 sm:p-7 rounded-[32px] bg-white/[0.03] border border-white/[0.06] ${colors.hoverBorder} transition-all duration-300 group relative overflow-hidden`}
                             >
                                 {/* Subtle glow on hover */}
-                                <div className={`absolute -top-10 -right-10 w-32 h-32 ${colors.bg} blur-[60px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700`} />
+                                <div className={`absolute -top-10 -right-10 w-32 h-32 ${colors.bg} blur-[60px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
 
                                 <div className="relative z-10">
                                     {/* Category Header */}
                                     <div className="flex items-center gap-3 mb-5">
-                                        <div className={`w-10 h-10 rounded-xl ${colors.bg} border ${colors.border} flex items-center justify-center ${colors.text} group-hover:scale-110 transition-transform duration-300`}>
+                                        <div className={`w-10 h-10 rounded-xl ${colors.bg} border ${colors.border} flex items-center justify-center ${colors.text} group-hover:scale-110 transition-transform duration-200`}>
                                             {group.icon}
                                         </div>
                                         <h3 className="text-sm font-black text-white uppercase tracking-wider">
@@ -290,32 +263,26 @@ export default function KeywordServiceMap() {
                                             <a
                                                 key={keywordIndex}
                                                 href={keyword.href}
-                                                className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl ${colors.tagBg} border ${colors.tagBorder} ${colors.tagHoverBg} transition-all duration-300 group/tag`}
+                                                className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl ${colors.tagBg} border ${colors.tagBorder} ${colors.tagHoverBg} transition-all duration-200 group/tag`}
                                             >
                                                 <span className={`text-xs font-semibold ${colors.text} leading-tight`}>
                                                     {keyword.text}
                                                 </span>
                                                 <ArrowRight
                                                     size={10}
-                                                    className={`${colors.text} opacity-0 group-hover/tag:opacity-100 group-hover/tag:translate-x-0.5 transition-all duration-300 shrink-0`}
+                                                    className={`${colors.text} opacity-0 group-hover/tag:opacity-100 group-hover/tag:translate-x-0.5 transition-all duration-200 shrink-0`}
                                                 />
                                             </a>
                                         ))}
                                     </div>
                                 </div>
-                            </motion.div>
+                            </div>
                         );
                     })}
-                </motion.div>
+                </div>
 
                 {/* Bottom CTA */}
-                <motion.div
-                    className="text-center mt-10 md:mt-16"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: 0.3 }}
-                >
+                <div className="text-center mt-10 md:mt-16">
                     <p className="text-gray-500 text-sm mb-6 max-w-2xl mx-auto">
                         Can't find what you're looking for? I offer custom solutions for businesses across{' '}
                         <strong className="text-gray-300">Kochi, Calicut, Trivandrum, Thrissur, Kannur, Kasaragod</strong>,
@@ -325,20 +292,20 @@ export default function KeywordServiceMap() {
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <a
                             href="/services/"
-                            className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-sm uppercase tracking-widest hover:bg-white/10 hover:border-blue-500/30 transition-all duration-300 active:scale-95"
+                            className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-sm uppercase tracking-widest hover:bg-white/10 hover:border-blue-500/30 transition-all duration-200 active:scale-95"
                         >
                             <Rocket size={16} />
                             <span>View All Services</span>
                         </a>
                         <a
                             href="/contact/"
-                            className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-sm uppercase tracking-widest hover:from-blue-500 hover:to-indigo-500 transition-all duration-300 active:scale-95 shadow-lg shadow-blue-600/20"
+                            className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-sm uppercase tracking-widest hover:from-blue-500 hover:to-indigo-500 transition-all duration-200 active:scale-95 shadow-lg shadow-blue-600/20"
                         >
                             <TrendingUp size={16} />
                             <span>Get Free Consultation</span>
                         </a>
                     </div>
-                </motion.div>
+                </div>
             </div>
         </section>
     );

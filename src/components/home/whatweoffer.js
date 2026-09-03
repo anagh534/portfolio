@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import {
     Globe,
     ShoppingCart,
@@ -98,30 +97,10 @@ const services = [
 ];
 
 export default function WhatWeOffer() {
-    const containerVariants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: {
-                staggerChildren: 0.1
-            }
-        }
-    };
-
-    const itemVariants = {
-        hidden: { opacity: 0, y: 20 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }
-    };
-
     return (
         <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="services">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                <motion.div
-                    className="text-center mb-10 md:mb-16"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                >
+                <div className="text-center mb-10 md:mb-16">
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Services</span>
                     </h2>
@@ -129,22 +108,15 @@ export default function WhatWeOffer() {
                         Comprehensive digital solutions for businesses across Kerala. From custom web development and Flutter mobile apps
                         to web applications - delivered with quality, efficiency, and measurable results.
                     </p>
-                </motion.div>
+                </div>
 
-                <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8"
-                    variants={containerVariants}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true }}
-                >
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
                     {services.map((service) => (
-                        <motion.div
+                        <div
                             key={service.id}
-                            className="p-6 sm:p-8 rounded-[32px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-500 group relative flex flex-col h-full"
-                            variants={itemVariants}
+                            className="p-6 sm:p-8 rounded-[32px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-300 group relative flex flex-col h-full hover:-translate-y-1.5 hover:shadow-xl hover:shadow-blue-500/10"
                         >
-                            <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500 shadow-lg shadow-blue-500/10">
+                            <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 shadow-lg shadow-blue-500/10">
                                 {service.icon}
                             </div>
 
@@ -173,9 +145,9 @@ export default function WhatWeOffer() {
                                 <span>{service.cta || "Discuss Project"}</span>
                                 <ArrowRight size={14} className="group-hover/link:translate-x-1 transition-transform" />
                             </a>
-                        </motion.div>
+                        </div>
                     ))}
-                </motion.div>
+                </div>
             </div>
         </section>
     );

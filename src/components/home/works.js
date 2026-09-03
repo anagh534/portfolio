@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { ArrowUpRight, ArrowRight } from 'lucide-react';
 import projects from '../../../public/data/works.json';
 
@@ -10,13 +9,7 @@ export default function Works() {
         <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="works">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 {/* Section Header with integrated 'View All Works' button */}
-                <motion.div
-                    className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-10 md:mb-16"
-                    initial={{ opacity: 0, y: 16 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.2 }}
-                    transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-                >
+                <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-10 md:mb-16">
                     <div className="text-left">
                         <h2 className="text-4xl md:text-5xl font-black text-white mb-3 sm:mb-4">
                             Selected <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Works</span>
@@ -28,23 +21,19 @@ export default function Works() {
 
                     <a
                         href="/portfolio/"
-                        className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-2xl bg-white/5 hover:bg-blue-600 border border-white/10 hover:border-blue-500 text-white font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-300 active:scale-95 shadow-lg group shrink-0 self-start sm:self-auto"
+                        className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-2xl bg-white/5 hover:bg-blue-600 border border-white/10 hover:border-blue-500 text-white font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-200 active:scale-95 shadow-lg group shrink-0 self-start sm:self-auto"
                     >
                         <span>View All Portfolio</span>
                         <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                     </a>
-                </motion.div>
+                </div>
 
                 {/* Projects Grid: exactly 4 items in 1 single row on laptop/desktop */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
-                    {featuredProjects.map((project, index) => (
-                        <motion.div
+                    {featuredProjects.map((project) => (
+                        <div
                             key={project.id}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.4, delay: index * 0.08, ease: [0.22, 1, 0.36, 1] }}
-                            className="group relative rounded-[28px] sm:rounded-[32px] bg-white/[0.03] border border-white/10 hover:border-blue-500/40 backdrop-blur-xl overflow-hidden transition-all duration-500 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-1.5"
+                            className="group relative rounded-[28px] sm:rounded-[32px] bg-white/[0.03] border border-white/10 hover:border-blue-500/40 backdrop-blur-xl overflow-hidden transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-1.5"
                         >
                             {/* Project Preview Image with Floating Tags */}
                             <div className="relative aspect-[16/11] overflow-hidden bg-slate-900/60">
@@ -55,9 +44,9 @@ export default function Works() {
                                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                                     loading="lazy"
                                     decoding="async"
-                                    className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700"
+                                    className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
                                 />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
 
                                 {/* Top-Right Direct Link Button */}
                                 {project.url && project.url !== '#' && (
@@ -65,7 +54,7 @@ export default function Works() {
                                         href={project.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="absolute top-3.5 right-3.5 w-9 h-9 rounded-full bg-black/60 backdrop-blur-md border border-white/15 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 hover:bg-blue-600 hover:border-blue-500 shadow-xl"
+                                        className="absolute top-3.5 right-3.5 w-9 h-9 rounded-full bg-black/60 backdrop-blur-md border border-white/15 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-200 hover:bg-blue-600 hover:border-blue-500 shadow-xl"
                                         aria-label={`View live site for ${project.title}`}
                                     >
                                         <ArrowUpRight size={16} />
@@ -106,7 +95,7 @@ export default function Works() {
                                     ))}
                                 </div>
                             </div>
-                        </motion.div>
+                        </div>
                     ))}
                 </div>
             </div>
