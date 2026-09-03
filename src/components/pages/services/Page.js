@@ -3,21 +3,20 @@ import { Rocket, Target, Users, Zap, ArrowRight, User as UserIcon, Send, Check, 
 
 const detailPages = [
     { title: "Hire Kerala Developer Remotely (NRI & Gulf)", href: "/hire-kerala-developer-remotely/", desc: "Remote Flutter & MERN app developer for UAE, UK, US & Canada" },
-    { title: "Web Development Services", href: "/web-development/", desc: "Custom websites & web apps" },
-    { title: "MERN Stack Development", href: "/mern-stack-development/", desc: "MongoDB · Express · React · Node.js" },
-    { title: "Next.js Development", href: "/nextjs-development/", desc: "SSR & SSG React apps" },
-    { title: "React Development", href: "/react-development/", desc: "SPAs & interactive UIs" },
-    { title: "Node.js Development", href: "/nodejs-development/", desc: "Scalable backends & APIs" },
-    { title: "NestJS Development", href: "/nestjs-development/", desc: "Enterprise TypeScript backends" },
-    { title: "Laravel Development", href: "/laravel-development/", desc: "Robust PHP backend systems" },
-    { title: "Flutter App Development", href: "/flutter-app-development/", desc: "iOS & Android cross-platform" },
-    { title: "Mobile App Development", href: "/mobile-app-development/", desc: "Full mobile app development" },
-    { title: "Dating App Development", href: "/dating-app-development/", desc: "Safety-first social app builds" },
-    { title: "Chat App Development", href: "/chat-app-development/", desc: "Realtime messaging products" },
-    { title: "Ecommerce Website Development", href: "/ecommerce-development/", desc: "Shopping websites & integrations" },
-    { title: "Custom Software Development", href: "/services/", desc: "Billing, restaurant & college project systems" },
-
-
+    { title: "Best Website Development Company in Kerala", href: "/web-development/", desc: "Custom websites & web apps with SEO optimization" },
+    { title: "Professional Web Design Services Kerala", href: "/web-design/", desc: "UI/UX design, responsive & mobile-first websites" },
+    { title: "MERN Stack Development Services India", href: "/mern-stack-development/", desc: "MongoDB · Express · React · Node.js full-stack" },
+    { title: "Next.js Development Company Kerala", href: "/nextjs-development/", desc: "SSR & SSG React apps for fast performance" },
+    { title: "React.js Development Services Kochi", href: "/react-development/", desc: "SPAs, interactive UIs & design-to-code conversion" },
+    { title: "Node.js Backend Development Kerala", href: "/nodejs-development/", desc: "Scalable REST APIs & real-time backends" },
+    { title: "NestJS Enterprise Development India", href: "/nestjs-development/", desc: "Enterprise TypeScript backend solutions" },
+    { title: "Laravel Development Company Kerala", href: "/laravel-development/", desc: "Robust PHP backend & admin panel systems" },
+    { title: "Best Flutter App Development Company Kerala", href: "/flutter-app-development/", desc: "Cross-platform iOS & Android apps" },
+    { title: "Mobile App Development Agency Kerala", href: "/mobile-app-development/", desc: "Full mobile app development & deployment" },
+    { title: "Dating App Development Services India", href: "/dating-app-development/", desc: "Safety-first social & dating app builds" },
+    { title: "Chat App Development Company Kerala", href: "/chat-app-development/", desc: "Realtime messaging & communication apps" },
+    { title: "E-Commerce Website Development Kochi", href: "/ecommerce-development/", desc: "Online stores with payment gateway integration" },
+    { title: "Custom Software Development Kerala", href: "/services/", desc: "Billing, restaurant & business management systems" },
 ];
 
 export const metadata = {
@@ -329,7 +328,178 @@ export default function Services() {
                 </div>
             </section>
 
-            {/* Why Choose Section */}
+            {/* ── SEO Keyword Service Map ── */}
+            <section className="relative z-10 py-24 bg-white/[0.02] border-y border-white/5">
+                <div className="max-w-7xl mx-auto px-6">
+                    <div className="text-center mb-14 space-y-4">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest">
+                            <Globe size={16} />
+                            <span>Find What You Need</span>
+                        </div>
+                        <h2 className="text-3xl md:text-4xl font-black text-white uppercase tracking-tight">
+                            Searching for a{' '}
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
+                                Developer in Kerala?
+                            </span>
+                        </h2>
+                        <p className="text-gray-400 text-base max-w-2xl mx-auto">
+                            Whether you need the <strong className="text-white">best website development company in Kerala</strong>,
+                            a <strong className="text-white">Flutter app developer</strong>, or an <strong className="text-white">e-commerce expert in Kochi</strong> —
+                            click any keyword below to explore the right service.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                        {/* Website Development */}
+                        <div className="p-6 rounded-[24px] bg-white/[0.03] border border-white/[0.06] hover:border-blue-500/30 transition-all duration-500 group">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="w-9 h-9 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400">
+                                    <Globe size={18} />
+                                </div>
+                                <h3 className="text-xs font-black text-white uppercase tracking-wider">Website Development</h3>
+                            </div>
+                            <div className="flex flex-wrap gap-2">
+                                {[
+                                    { text: "Best Website Development Company Kerala", href: "/web-development/" },
+                                    { text: "Professional Web Developer Kochi", href: "/web-development/" },
+                                    { text: "Custom Website Development Kerala", href: "/web-development/" },
+                                    { text: "Affordable Web Development India", href: "/web-development/" },
+                                    { text: "Hire Web Developer Kerala", href: "/web-development/" },
+                                    { text: "Website Designer Near Me", href: "/web-design/" },
+                                ].map((kw, i) => (
+                                    <a key={i} href={kw.href} className="inline-flex items-center gap-1 px-3 py-2 rounded-xl bg-blue-500/8 border border-blue-500/15 hover:bg-blue-500/20 transition-all duration-300 group/tag">
+                                        <span className="text-xs font-semibold text-blue-400 leading-tight">{kw.text}</span>
+                                        <ArrowRight size={10} className="text-blue-400 opacity-0 group-hover/tag:opacity-100 transition-opacity shrink-0" />
+                                    </a>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* MERN Stack */}
+                        <div className="p-6 rounded-[24px] bg-white/[0.03] border border-white/[0.06] hover:border-indigo-500/30 transition-all duration-500 group">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="w-9 h-9 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400">
+                                    <Code size={18} />
+                                </div>
+                                <h3 className="text-xs font-black text-white uppercase tracking-wider">MERN Stack & React</h3>
+                            </div>
+                            <div className="flex flex-wrap gap-2">
+                                {[
+                                    { text: "MERN Stack Development Services India", href: "/mern-stack-development/" },
+                                    { text: "Full-Stack JavaScript Developer Kerala", href: "/mern-stack-development/" },
+                                    { text: "React.js Development Company Kerala", href: "/react-development/" },
+                                    { text: "Next.js Developer Kerala", href: "/nextjs-development/" },
+                                    { text: "Hire MERN Stack Developer Kochi", href: "/mern-stack-development/" },
+                                    { text: "SEO-Friendly React Web Development", href: "/react-development/" },
+                                ].map((kw, i) => (
+                                    <a key={i} href={kw.href} className="inline-flex items-center gap-1 px-3 py-2 rounded-xl bg-indigo-500/8 border border-indigo-500/15 hover:bg-indigo-500/20 transition-all duration-300 group/tag">
+                                        <span className="text-xs font-semibold text-indigo-400 leading-tight">{kw.text}</span>
+                                        <ArrowRight size={10} className="text-indigo-400 opacity-0 group-hover/tag:opacity-100 transition-opacity shrink-0" />
+                                    </a>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* Mobile App Development */}
+                        <div className="p-6 rounded-[24px] bg-white/[0.03] border border-white/[0.06] hover:border-violet-500/30 transition-all duration-500 group">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="w-9 h-9 rounded-xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center text-violet-400">
+                                    <Smartphone size={18} />
+                                </div>
+                                <h3 className="text-xs font-black text-white uppercase tracking-wider">Mobile App Development</h3>
+                            </div>
+                            <div className="flex flex-wrap gap-2">
+                                {[
+                                    { text: "Best Mobile App Development Company Kerala", href: "/mobile-app-development/" },
+                                    { text: "Flutter App Development Services Kerala", href: "/flutter-app-development/" },
+                                    { text: "iOS & Android App Developer Kochi", href: "/mobile-app-development/" },
+                                    { text: "Cross-Platform App Development India", href: "/flutter-app-development/" },
+                                    { text: "Hire App Developer in Kerala", href: "/mobile-app-development/" },
+                                    { text: "App Developer for Startups Kerala", href: "/flutter-app-development/" },
+                                ].map((kw, i) => (
+                                    <a key={i} href={kw.href} className="inline-flex items-center gap-1 px-3 py-2 rounded-xl bg-violet-500/8 border border-violet-500/15 hover:bg-violet-500/20 transition-all duration-300 group/tag">
+                                        <span className="text-xs font-semibold text-violet-400 leading-tight">{kw.text}</span>
+                                        <ArrowRight size={10} className="text-violet-400 opacity-0 group-hover/tag:opacity-100 transition-opacity shrink-0" />
+                                    </a>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* E-Commerce */}
+                        <div className="p-6 rounded-[24px] bg-white/[0.03] border border-white/[0.06] hover:border-emerald-500/30 transition-all duration-500 group">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="w-9 h-9 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
+                                    <Rocket size={18} />
+                                </div>
+                                <h3 className="text-xs font-black text-white uppercase tracking-wider">E-Commerce Solutions</h3>
+                            </div>
+                            <div className="flex flex-wrap gap-2">
+                                {[
+                                    { text: "E-Commerce Website Development Kochi", href: "/ecommerce-development/" },
+                                    { text: "Custom Online Store Development Kerala", href: "/ecommerce-development/" },
+                                    { text: "Shopping Website Development India", href: "/ecommerce-development/" },
+                                    { text: "Best E-Commerce Developer Kerala", href: "/ecommerce-development/" },
+                                    { text: "Payment Gateway Integration Kerala", href: "/ecommerce-development/" },
+                                ].map((kw, i) => (
+                                    <a key={i} href={kw.href} className="inline-flex items-center gap-1 px-3 py-2 rounded-xl bg-emerald-500/8 border border-emerald-500/15 hover:bg-emerald-500/20 transition-all duration-300 group/tag">
+                                        <span className="text-xs font-semibold text-emerald-400 leading-tight">{kw.text}</span>
+                                        <ArrowRight size={10} className="text-emerald-400 opacity-0 group-hover/tag:opacity-100 transition-opacity shrink-0" />
+                                    </a>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* Backend & API */}
+                        <div className="p-6 rounded-[24px] bg-white/[0.03] border border-white/[0.06] hover:border-orange-500/30 transition-all duration-500 group">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="w-9 h-9 rounded-xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-400">
+                                    <Code size={18} />
+                                </div>
+                                <h3 className="text-xs font-black text-white uppercase tracking-wider">Backend & API</h3>
+                            </div>
+                            <div className="flex flex-wrap gap-2">
+                                {[
+                                    { text: "Node.js Development Company Kochi", href: "/nodejs-development/" },
+                                    { text: "NestJS Enterprise Developer India", href: "/nestjs-development/" },
+                                    { text: "Laravel Development Company Kerala", href: "/laravel-development/" },
+                                    { text: "REST API Development Services Kerala", href: "/nodejs-development/" },
+                                    { text: "Scalable Backend Development Kochi", href: "/nestjs-development/" },
+                                ].map((kw, i) => (
+                                    <a key={i} href={kw.href} className="inline-flex items-center gap-1 px-3 py-2 rounded-xl bg-orange-500/8 border border-orange-500/15 hover:bg-orange-500/20 transition-all duration-300 group/tag">
+                                        <span className="text-xs font-semibold text-orange-400 leading-tight">{kw.text}</span>
+                                        <ArrowRight size={10} className="text-orange-400 opacity-0 group-hover/tag:opacity-100 transition-opacity shrink-0" />
+                                    </a>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* Specialized Apps & Design */}
+                        <div className="p-6 rounded-[24px] bg-white/[0.03] border border-white/[0.06] hover:border-pink-500/30 transition-all duration-500 group">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="w-9 h-9 rounded-xl bg-pink-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400">
+                                    <Smartphone size={18} />
+                                </div>
+                                <h3 className="text-xs font-black text-white uppercase tracking-wider">Specialized & Design</h3>
+                            </div>
+                            <div className="flex flex-wrap gap-2">
+                                {[
+                                    { text: "Chat App Development Company Kerala", href: "/chat-app-development/" },
+                                    { text: "Dating App Development India", href: "/dating-app-development/" },
+                                    { text: "Best Web Design Agency Kerala", href: "/web-design/" },
+                                    { text: "Figma to React Conversion Service", href: "/web-design/" },
+                                    { text: "UI/UX Design & Development Kochi", href: "/web-design/" },
+                                    { text: "Remote Kerala Developer for NRI", href: "/hire-kerala-developer-remotely/" },
+                                ].map((kw, i) => (
+                                    <a key={i} href={kw.href} className="inline-flex items-center gap-1 px-3 py-2 rounded-xl bg-pink-500/8 border border-pink-500/15 hover:bg-pink-500/20 transition-all duration-300 group/tag">
+                                        <span className="text-xs font-semibold text-pink-400 leading-tight">{kw.text}</span>
+                                        <ArrowRight size={10} className="text-pink-400 opacity-0 group-hover/tag:opacity-100 transition-opacity shrink-0" />
+                                    </a>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className="relative z-10 py-24 bg-white/[0.02]">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center max-w-3xl mx-auto space-y-6 mb-20">
@@ -348,22 +518,22 @@ export default function Services() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {[
                             {
-                                title: "Professional Web & Mobile Development Services | ANAGH K R",
+                                title: "Affordable Pricing in Kerala",
                                 desc: 'Competitive rates starting from ₹3,000 for basic websites. Transparent pricing with no hidden costs for Kerala businesses.',
                                 icon: <Target size={24} />
                             },
                             {
-                                title: "Professional Web & Mobile Development Services | ANAGH K R",
+                                title: "Modern Tech Stack",
                                 desc: 'Latest frameworks like React, Next.js, Flutter ensuring your project is future-proof, fast, and scalable.',
                                 icon: <Code size={24} />
                             },
                             {
-                                title: "Professional Web & Mobile Development Services | ANAGH K R",
+                                title: "Fast Delivery Timelines",
                                 desc: 'Fast project delivery - basic websites in 1-2 weeks, apps in 6-10 weeks with milestone-based progress updates.',
                                 icon: <Zap size={24} />
                             },
                             {
-                                title: "Professional Web & Mobile Development Services | ANAGH K R",
+                                title: "Ongoing Support & Maintenance",
                                 desc: 'Post-launch support, bug fixes, updates, and technical assistance to keep your digital presence running smoothly.',
                                 icon: <Users size={24} />
                             }
