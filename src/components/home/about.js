@@ -1,4 +1,4 @@
-import { ArrowRight, Layers, Zap, ShieldCheck, Users, Code2, CheckCircle2, MapPin } from 'lucide-react';
+import { Code2, CheckCircle2, MapPin } from 'lucide-react';
 
 export default function About() {
     return (
@@ -89,66 +89,6 @@ export default function About() {
                             <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
                                 Today, I bring that combined international agency and product-engineering discipline full-time to freelancing—crafting high-performance websites, scalable web applications, and fluid mobile apps for ambitious founders in Kerala and worldwide.
                             </p>
-                        </div>
-
-                        {/* 4 Delivery & Engineering Pillars */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 pt-1">
-                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-blue-500/40 hover:-translate-y-0.5 transition-all duration-200">
-                                <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-all duration-200">
-                                    <Layers size={18} />
-                                </div>
-                                <div>
-                                    <div className="text-white font-bold text-sm">Full-Lifecycle Delivery</div>
-                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Complete execution across frontend, backend, database, and cloud setup.</div>
-                                </div>
-                            </div>
-
-                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-indigo-500/40 hover:-translate-y-0.5 transition-all duration-200">
-                                <div className="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 shrink-0 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-200">
-                                    <Zap size={18} />
-                                </div>
-                                <div>
-                                    <div className="text-white font-bold text-sm">High Performance &amp; SEO</div>
-                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Sub-second load times, 95+ Core Web Vitals, and search visibility.</div>
-                                </div>
-                            </div>
-
-                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-cyan-500/40 hover:-translate-y-0.5 transition-all duration-200">
-                                <div className="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 shrink-0 group-hover:bg-cyan-600 group-hover:text-white transition-all duration-200">
-                                    <ShieldCheck size={18} />
-                                </div>
-                                <div>
-                                    <div className="text-white font-bold text-sm">Clean &amp; Maintainable Code</div>
-                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Modular architecture designed for rapid iteration and long-term scaling.</div>
-                                </div>
-                            </div>
-
-                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-emerald-500/40 hover:-translate-y-0.5 transition-all duration-200">
-                                <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-200">
-                                    <Users size={18} />
-                                </div>
-                                <div>
-                                    <div className="text-white font-bold text-sm">Direct Collaboration</div>
-                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Work directly with the senior engineer building your product. Zero agency fluff.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Action Buttons */}
-                        <div className="flex flex-wrap items-center gap-3.5 pt-2">
-                            <a
-                                href="/services/"
-                                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-200 active:scale-95 shadow-lg shadow-blue-500/25 group"
-                            >
-                                <span>Explore All Services</span>
-                                <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                            </a>
-                            <a
-                                href="/about/"
-                                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-200 active:scale-95 group"
-                            >
-                                <span>Read Full Journey</span>
-                            </a>
                         </div>
                     </div>
                 </div>
