@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import {
     Globe,
     ShoppingCart,
@@ -12,8 +11,6 @@ import {
     CheckCircle2,
     ArrowRight
 } from 'lucide-react';
-
-const springTransition = { duration: 0.38, ease: [0.16, 1, 0.3, 1] };
 
 const services = [
     {
@@ -76,14 +73,8 @@ export default function WhatWeOffer() {
     return (
         <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="services">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                {/* Section Header - glides in from TOP */}
-                <motion.div
-                    className="text-center mb-10 md:mb-16"
-                    initial={{ opacity: 0, y: -24 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.08 }}
-                    transition={springTransition}
-                >
+                {/* Section Header - glides in from TOP via GSAP */}
+                <div className="text-center mb-10 md:mb-16" data-gsap="from-top">
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Services</span>
                     </h2>
@@ -91,17 +82,16 @@ export default function WhatWeOffer() {
                         Comprehensive digital solutions for businesses across Kerala. From custom web development and Flutter mobile apps
                         to web applications - delivered with quality, efficiency, and measurable results.
                     </p>
-                </motion.div>
+                </div>
 
-                {/* Services Grid with snappy wave entrance */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
-                    {services.map((service, index) => (
-                        <motion.div
+                {/* Services Grid with GSAP stagger-cards */}
+                <div
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8"
+                    data-gsap="stagger-cards"
+                >
+                    {services.map((service) => (
+                        <div
                             key={service.id}
-                            initial={{ opacity: 0, y: 35 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true, amount: 0.08 }}
-                            transition={{ ...springTransition, delay: index * 0.04 }}
                             className="p-6 sm:p-8 rounded-[32px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-300 group relative flex flex-col h-full hover:-translate-y-1.5 hover:shadow-xl hover:shadow-blue-500/10"
                         >
                             <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 shadow-lg shadow-blue-500/10">
@@ -133,7 +123,7 @@ export default function WhatWeOffer() {
                                 <span>{service.cta || "Discuss Project"}</span>
                                 <ArrowRight size={14} className="group-hover/link:translate-x-1 transition-transform" />
                             </a>
-                        </motion.div>
+                        </div>
                     ))}
                 </div>
             </div>

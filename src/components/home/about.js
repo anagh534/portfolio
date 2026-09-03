@@ -1,34 +1,19 @@
-import { motion } from 'framer-motion';
 import { ArrowRight, Layers, Zap, ShieldCheck, Users, Code2, CheckCircle2, MapPin } from 'lucide-react';
-
-const springTransition = { duration: 0.4, ease: [0.16, 1, 0.3, 1] };
 
 export default function About() {
     return (
         <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="about">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                {/* Section Header - glides in from TOP */}
-                <motion.div
-                    className="text-center mb-10 md:mb-16"
-                    initial={{ opacity: 0, y: -24 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.08 }}
-                    transition={springTransition}
-                >
+                {/* Section Header - glides in from TOP via GSAP */}
+                <div className="text-center mb-10 md:mb-16" data-gsap="from-top">
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         About <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Me</span>
                     </h2>
-                </motion.div>
+                </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
-                    {/* Left Column: Profile Card Showcase - glides in from LEFT SIDE */}
-                    <motion.div
-                        className="lg:col-span-5 relative flex justify-center"
-                        initial={{ opacity: 0, x: -50 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, amount: 0.08 }}
-                        transition={{ ...springTransition, duration: 0.45 }}
-                    >
+                    {/* Left Column: Profile Card Showcase - glides in from LEFT via GSAP */}
+                    <div className="lg:col-span-5 relative flex justify-center" data-gsap="from-left">
                         <div className="relative group w-full max-w-[400px]">
                             {/* Ambient Glow */}
                             <div className="absolute -top-6 -left-6 w-48 h-48 bg-blue-600/15 blur-3xl rounded-full -z-10" />
@@ -87,16 +72,10 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                    </motion.div>
+                    </div>
 
-                    {/* Right Column: Story & Quality Pillars - glides in from RIGHT SIDE */}
-                    <motion.div
-                        className="lg:col-span-7 space-y-6"
-                        initial={{ opacity: 0, x: 50 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, amount: 0.08 }}
-                        transition={{ ...springTransition, duration: 0.45 }}
-                    >
+                    {/* Right Column: Story & Quality Pillars - glides in from RIGHT via GSAP */}
+                    <div className="lg:col-span-7 space-y-6" data-gsap="from-right">
                         <div>
                             <h3 className="text-2xl sm:text-3xl font-bold text-white leading-snug mb-3">
                                 From a basic HP laptop during lockdown to <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">engineering global products</span>.
@@ -171,7 +150,7 @@ export default function About() {
                                 <span>Read Full Journey</span>
                             </a>
                         </div>
-                    </motion.div>
+                    </div>
                 </div>
             </div>
         </section>

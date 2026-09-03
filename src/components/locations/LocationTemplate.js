@@ -22,7 +22,6 @@ import {
     Utensils,
     ChevronRight
 } from 'lucide-react';
-import { motion } from 'framer-motion';
 import Breadcrumb from '../Breadcrumb';
 
 const iconMap = {
@@ -57,19 +56,6 @@ export default function LocationTemplate({
 }) {
     const displayServices = services;
 
-    const containerVariants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: { staggerChildren: 0.1 }
-        }
-    };
-
-    const itemVariants = {
-        hidden: { opacity: 0, y: 20 },
-        visible: { opacity: 1, y: 0 }
-    };
-
     return (
         <main className="min-h-screen bg-black text-white font-sans selection:bg-blue-500/30">
             {/* Hero Section */}
@@ -82,65 +68,55 @@ export default function LocationTemplate({
                     ]} />
 
                     <div className="text-center">
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
+                        <div
+                            data-gsap="from-top"
                             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest mb-8"
                         >
                             <MapPin size={14} />
                             <span>{cityName}, Kerala</span>
-                        </motion.div>
+                        </div>
 
-                        <motion.h1
+                        <h1
                             id="hero-heading"
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.2 }}
+                            data-gsap="from-top"
                             className="text-5xl md:text-8xl font-black mb-6 leading-tight uppercase tracking-tight"
                         >
                             Web Developer <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">{cityName}</span>
                             <br />
                             <span className="text-4xl md:text-6xl">Flutter App Development Services</span>
-                        </motion.h1>
+                        </h1>
 
-                        <motion.p
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.3 }}
+                        <p
+                            data-gsap="from-top"
                             className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-16 leading-relaxed"
                         >
                             {description}
-                        </motion.p>
+                        </p>
 
-                        <motion.p
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.35 }}
+                        <p
+                            data-gsap="from-top"
                             className="text-blue-400 text-sm md:text-base max-w-3xl mx-auto mb-16"
                         >
                             Custom web app development services are also available in {cityName}.
-                        </motion.p>
+                        </p>
 
-                        <motion.div
-                            variants={containerVariants}
-                            initial="hidden"
-                            animate="visible"
+                        <div
+                            data-gsap="stagger-cards"
                             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto"
                         >
                             {cityHighlights.map((highlight, index) => (
-                                <motion.div
+                                <div
                                     key={index}
-                                    variants={itemVariants}
-                                    className="p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:border-blue-500/30 transition-all group"
+                                    className="p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:border-blue-500/30 transition-all duration-300 group hover:-translate-y-1 hover:shadow-xl"
                                 >
                                     <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-6 group-hover:scale-110 transition-transform">
                                         {iconMap[highlight.icon] || <Star size={20} />}
                                     </div>
                                     <h3 className="text-lg font-bold mb-2 uppercase tracking-tight">{highlight.title}</h3>
                                     <p className="text-gray-500 text-sm leading-relaxed">{highlight.description}</p>
-                                </motion.div>
+                                </div>
                             ))}
-                        </motion.div>
+                        </div>
                     </div>
                 </div>
 
@@ -161,14 +137,11 @@ export default function LocationTemplate({
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-gsap="stagger-cards">
                         {displayServices.map((service, index) => (
-                            <motion.div
+                            <div
                                 key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                className="p-10 rounded-[48px] bg-white/5 border border-white/10 hover:bg-white/[0.08] transition-all duration-500 group relative overflow-hidden"
+                                className="p-10 rounded-[48px] bg-white/5 border border-white/10 hover:bg-white/[0.08] transition-all duration-300 group relative overflow-hidden hover:-translate-y-1 hover:shadow-xl"
                             >
                                 <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-8 group-hover:bg-blue-600 group-hover:text-white transition-all shadow-lg shadow-blue-500/20">
                                     {iconMap[service.icon] || <Laptop size={24} />}
@@ -184,7 +157,7 @@ export default function LocationTemplate({
                                     ))}
                                 </ul>
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-600/5 blur-3xl rounded-full group-hover:bg-blue-600/10 transition-colors"></div>
-                            </motion.div>
+                            </div>
                         ))}
                     </div>
                 </div>
@@ -243,14 +216,11 @@ export default function LocationTemplate({
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-gsap="stagger-cards">
                         {portfolio.map((project, index) => (
-                            <motion.div
+                            <div
                                 key={index}
-                                initial={{ opacity: 0, scale: 0.95 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                viewport={{ once: true }}
-                                className="group relative flex flex-col h-full p-1 rounded-[50px] bg-gradient-to-b from-white/10 to-transparent hover:from-blue-500/20 transition-all duration-700 overflow-hidden"
+                                className="group relative flex flex-col h-full p-1 rounded-[50px] bg-gradient-to-b from-white/10 to-transparent hover:from-blue-500/20 transition-all duration-300 overflow-hidden hover:-translate-y-1 hover:shadow-xl"
                             >
                                 <div className="flex-1 p-10 bg-black rounded-[48px] m-0.5 space-y-8 flex flex-col relative overflow-hidden">
                                     <div className="w-16 h-16 rounded-3xl bg-blue-500/10 flex items-center justify-center text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-all shadow-xl shadow-blue-500/5">
@@ -272,7 +242,7 @@ export default function LocationTemplate({
 
                                     <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-blue-600/5 blur-2xl rounded-full group-hover:bg-blue-600/10 transition-all duration-700"></div>
                                 </div>
-                            </motion.div>
+                            </div>
                         ))}
                     </div>
                 </div>

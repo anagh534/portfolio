@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { Star, ChevronLeft, ChevronRight, CheckCircle2, Quote } from 'lucide-react';
 import testimonialsData from '../../../public/data/testimonials.json';
-
-const springTransition = { duration: 0.38, ease: [0.16, 1, 0.3, 1] };
 
 function Stars({ rating = 5 }) {
     return (
@@ -139,14 +136,8 @@ export default function Testimonials() {
     return (
         <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="testimonials" aria-labelledby="reviews-heading">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                {/* Section Header - glides in from TOP */}
-                <motion.div
-                    className="text-center mb-10 md:mb-16"
-                    initial={{ opacity: 0, y: -24 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.08 }}
-                    transition={springTransition}
-                >
+                {/* Section Header - glides in from TOP via GSAP */}
+                <div className="text-center mb-10 md:mb-16" data-gsap="from-top">
                     <h2 id="reviews-heading" className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         Client <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Reviews</span>
                     </h2>
@@ -169,16 +160,10 @@ export default function Testimonials() {
                             <span>{reviewCount} Client Reviews</span>
                         </div>
                     </div>
-                </motion.div>
+                </div>
 
-                {/* Instant-Responsive Review Cards Grid - glides in from BOTTOM */}
-                <motion.div
-                    className="relative min-h-[300px]"
-                    initial={{ opacity: 0, y: 35 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.08 }}
-                    transition={springTransition}
-                >
+                {/* Instant-Responsive Review Cards Grid - glides in from BOTTOM via GSAP */}
+                <div className="relative min-h-[300px]" data-gsap="from-bottom">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8 items-stretch transition-opacity duration-200">
                         {visibleItems.map((item, index) => {
                             const quote = item.quote || '';
@@ -245,7 +230,7 @@ export default function Testimonials() {
                             );
                         })}
                     </div>
-                </motion.div>
+                </div>
 
                 {/* Pagination Controls with Instant Switching */}
                 {totalPages > 1 && (

@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import {
     Search,
     ArrowRight,
@@ -15,8 +14,6 @@ import {
     TrendingUp,
     MapPin,
 } from 'lucide-react';
-
-const springTransition = { duration: 0.38, ease: [0.16, 1, 0.3, 1] };
 
 const keywordServiceGroups = [
     {
@@ -191,14 +188,8 @@ export default function KeywordServiceMap() {
             <div className="absolute bottom-0 right-0 w-[500px] h-[300px] bg-indigo-600/5 blur-[120px] rounded-full -z-10" />
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                {/* Section Header - glides in from TOP */}
-                <motion.div
-                    className="text-center mb-10 md:mb-16"
-                    initial={{ opacity: 0, y: -24 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.08 }}
-                    transition={springTransition}
-                >
+                {/* Section Header - glides in from TOP via GSAP */}
+                <div className="text-center mb-10 md:mb-16" data-gsap="from-top">
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6 leading-tight">
                         Looking for a{' '}
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
@@ -211,19 +202,18 @@ export default function KeywordServiceMap() {
                         <strong className="text-white">e-commerce development expert</strong> — explore our specialized services
                         matched to exactly what you need.
                     </p>
-                </motion.div>
+                </div>
 
-                {/* Keyword Grid with rapid bottom wave */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                {/* Keyword Grid with GSAP stagger */}
+                <div
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
+                    data-gsap="stagger-cards"
+                >
                     {keywordServiceGroups.map((group, groupIndex) => {
                         const colors = colorMap[group.color] || colorMap.blue;
                         return (
-                            <motion.div
+                            <div
                                 key={groupIndex}
-                                initial={{ opacity: 0, y: 30 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true, amount: 0.08 }}
-                                transition={{ ...springTransition, delay: groupIndex * 0.03 }}
                                 className={`p-5 sm:p-7 rounded-[32px] bg-white/[0.03] border border-white/[0.06] ${colors.hoverBorder} transition-all duration-300 group relative overflow-hidden`}
                             >
                                 {/* Subtle glow on hover */}
@@ -259,19 +249,13 @@ export default function KeywordServiceMap() {
                                         ))}
                                     </div>
                                 </div>
-                            </motion.div>
+                            </div>
                         );
                     })}
                 </div>
 
-                {/* Bottom CTA - glides up from BOTTOM */}
-                <motion.div
-                    className="text-center mt-10 md:mt-16"
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.08 }}
-                    transition={springTransition}
-                >
+                {/* Bottom CTA - glides up from BOTTOM via GSAP */}
+                <div className="text-center mt-10 md:mt-16" data-gsap="from-bottom">
                     <p className="text-gray-500 text-sm mb-6 max-w-2xl mx-auto">
                         Can't find what you're looking for? I offer custom solutions for businesses across{' '}
                         <strong className="text-gray-300">Kochi, Calicut, Trivandrum, Thrissur, Kannur, Kasaragod</strong>,
@@ -294,7 +278,7 @@ export default function KeywordServiceMap() {
                             <span>Get Free Consultation</span>
                         </a>
                     </div>
-                </motion.div>
+                </div>
             </div>
         </section>
     );

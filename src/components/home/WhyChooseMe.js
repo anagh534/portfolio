@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import {
     Award,
     Users,
@@ -9,32 +8,26 @@ import {
     Zap
 } from 'lucide-react';
 
-const springTransition = { duration: 0.4, ease: [0.16, 1, 0.3, 1] };
-
 const features = [
     {
         icon: <Sparkles size={24} />,
         title: "Premium Quality",
-        desc: "Clean, maintainable code following modern industry best practices for long-term scalability and stability.",
-        direction: { x: -35, y: 0 } // Slide in from LEFT
+        desc: "Clean, maintainable code following modern industry best practices for long-term scalability and stability."
     },
     {
         icon: <Zap size={24} />,
         title: "Fast Delivery",
-        desc: "Agile development workflow with regular milestone updates, rapid feedback loops, and on-time project launch.",
-        direction: { x: 0, y: 35 } // Slide in from BOTTOM
+        desc: "Agile development workflow with regular milestone updates, rapid feedback loops, and on-time project launch."
     },
     {
         icon: <ShieldCheck size={24} />,
         title: "Secure & Scalable",
-        desc: "Robust architecture with enterprise-level security, optimized database schemas, and cloud-ready infrastructure.",
-        direction: { x: 0, y: 35 } // Slide in from BOTTOM
+        desc: "Robust architecture with enterprise-level security, optimized database schemas, and cloud-ready infrastructure."
     },
     {
         icon: <Smartphone size={24} />,
         title: "Mobile-First Design",
-        desc: "Fluid, responsive interfaces crafted to deliver a flawless user experience across phones, tablets, and desktops.",
-        direction: { x: 35, y: 0 } // Slide in from RIGHT
+        desc: "Fluid, responsive interfaces crafted to deliver a flawless user experience across phones, tablets, and desktops."
     }
 ];
 
@@ -49,31 +42,24 @@ export default function WhyChooseMe() {
     return (
         <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="why-me">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                {/* Standard Section Header Container - glides in from TOP */}
-                <motion.div
-                    className="text-center mb-10 md:mb-16"
-                    initial={{ opacity: 0, y: -24 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.08 }}
-                    transition={springTransition}
-                >
+                {/* Standard Section Header Container - glides in from TOP via GSAP */}
+                <div className="text-center mb-10 md:mb-16" data-gsap="from-top">
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         Why <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Choose Me?</span>
                     </h2>
                     <p className="max-w-2xl mx-auto text-gray-400 leading-relaxed">
                         As an experienced freelance website and mobile developer in Kerala, I combine technical precision with business insight to build digital products that drive real growth.
                     </p>
-                </motion.div>
+                </div>
 
-                {/* 4 Feature Cards Grid with Side and Bottom entrances */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+                {/* 4 Feature Cards Grid - multi-directional reveal via GSAP split-cards */}
+                <div
+                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6"
+                    data-gsap="split-cards"
+                >
                     {features.map((feature, index) => (
-                        <motion.div
+                        <div
                             key={index}
-                            initial={{ opacity: 0, x: feature.direction.x, y: feature.direction.y }}
-                            whileInView={{ opacity: 1, x: 0, y: 0 }}
-                            viewport={{ once: true, amount: 0.08 }}
-                            transition={{ ...springTransition, delay: index * 0.04 }}
                             className="p-6 sm:p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:border-blue-500/30 transition-all duration-300 group flex flex-col justify-between hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/10"
                         >
                             <div>
@@ -87,17 +73,14 @@ export default function WhyChooseMe() {
                                     {feature.desc}
                                 </p>
                             </div>
-                        </motion.div>
+                        </div>
                     ))}
                 </div>
 
-                {/* Simple & Clean Stats Container Beneath - glides up from BOTTOM */}
-                <motion.div
+                {/* Simple & Clean Stats Container Beneath - glides up from BOTTOM via GSAP */}
+                <div
                     className="mt-8 md:mt-12 p-6 sm:p-8 md:p-10 rounded-[32px] bg-white/[0.03] border border-white/10 backdrop-blur-xl"
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.08 }}
-                    transition={{ ...springTransition, delay: 0.1 }}
+                    data-gsap="from-bottom"
                 >
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
                         {stats.map((stat, index) => (
@@ -114,7 +97,7 @@ export default function WhyChooseMe() {
                             </div>
                         ))}
                     </div>
-                </motion.div>
+                </div>
             </div>
         </section>
     );
