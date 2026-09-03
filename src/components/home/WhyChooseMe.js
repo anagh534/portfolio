@@ -53,10 +53,6 @@ export default function WhyChooseMe() {
                         transition={{ duration: 0.6 }}
                     >
                         <div>
-                            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-4 uppercase tracking-widest">
-                                <Award size={14} />
-                                <span>Why Choose Me</span>
-                            </div>
                             <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
                                 Why <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Choose Me?</span>
                             </h2>

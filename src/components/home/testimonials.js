@@ -102,10 +102,6 @@ export default function Testimonials() {
                     viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                 >
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-4 uppercase tracking-widest">
-                        <Star size={14} />
-                        <span>Testimonials</span>
-                    </div>
                     <h2 id="reviews-heading" className="text-4xl md:text-5xl font-black text-white mb-6">
                         Client <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Reviews</span>
                     </h2>
