@@ -5,20 +5,20 @@ import { MessageSquare, Cpu, Layers } from 'lucide-react';
 // classes — they only affect opacity/transform, never content visibility.
 export default function Hero() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center pt-24 pb-14 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6 w-full relative z-10">
+    <section id="hero" className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
         <div className="grid grid-cols-1">
 
-          <div className="w-full max-w-4xl mx-auto text-center lg:text-left">
+          <div className="w-full max-w-4xl mx-auto text-center">
 
             {/* H1 — delay 70ms. Static content always in DOM for SEO. */}
-            <h1 className="hero-title text-[2.2rem] sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white leading-[0.95] mb-7">
+            <h1 className="hero-title text-[2.2rem] sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white leading-[0.95] mb-8">
               FREELANCE <br></br><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">FLUTTER &amp; MERN </span><br className="hidden sm:block" />
               WEB DEVELOPER IN KERALA
             </h1>
 
             {/* Description — delay 140ms */}
-            <p className="hero-desc text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-10 max-w-3xl mx-auto lg:mx-0">
+            <p className="hero-desc text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-10 max-w-3xl mx-auto">
               Experienced <strong className="text-white">freelance website developer</strong> and <strong className="text-white">Flutter developer based in Kerala</strong>, specializing in <strong className="text-white">custom web apps, MERN stack, and high-performance mobile apps</strong>.
               Building secure digital solutions
               for businesses across Kochi, Calicut, Trivandrum, Kannur, Coimbatore, and for NRI / Gulf clients globally.
@@ -26,7 +26,7 @@ export default function Hero() {
             </p>
 
             {/* CTAs — delay 210ms */}
-            <div className="hero-cta flex flex-wrap justify-center lg:justify-start gap-4 mb-12">
+            <div className="hero-cta flex flex-wrap justify-center gap-4 mb-0">
               <a href="https://wa.me/918281571805" className="w-full sm:w-auto justify-center flex items-center gap-3 px-8 py-4 rounded-2xl bg-blue-600 text-white font-black hover:bg-blue-500 transition-all hover:-translate-y-1 shadow-xl shadow-blue-500/25 active:scale-95 group">
                 <span>LET'S TALK</span>
                 <MessageSquare size={20} className="group-hover:translate-x-1 transition-transform" />

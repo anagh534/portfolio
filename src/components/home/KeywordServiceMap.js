@@ -226,7 +226,7 @@ export default function KeywordServiceMap() {
     };
 
     return (
-        <section className="relative py-28 overflow-hidden" id="find-services">
+        <section className="relative py-24 overflow-hidden" id="find-services">
             {/* Background glow effects */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-blue-600/5 blur-[150px] rounded-full -z-10" />
             <div className="absolute bottom-0 right-0 w-[500px] h-[300px] bg-indigo-600/5 blur-[120px] rounded-full -z-10" />
@@ -234,19 +234,23 @@ export default function KeywordServiceMap() {
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 {/* Section Header */}
                 <motion.div
-                    className="text-center mb-20"
+                    className="text-center mb-16"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-4 uppercase tracking-widest">
+                        <Search size={14} />
+                        <span>Find the Right Service</span>
+                    </div>
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-6 leading-tight">
                         Looking for a{' '}
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
                             Developer in Kerala?
                         </span>
                     </h2>
-                    <p className="max-w-3xl mx-auto text-gray-400 text-lg leading-relaxed">
+                    <p className="max-w-2xl mx-auto text-gray-400">
                         Whether you're searching for the <strong className="text-white">best website development company in Kerala</strong>,
                         a <strong className="text-white">Flutter app developer in Kochi</strong>, or an{' '}
                         <strong className="text-white">e-commerce development expert</strong> — explore our specialized services
@@ -267,7 +271,7 @@ export default function KeywordServiceMap() {
                         return (
                             <motion.div
                                 key={groupIndex}
-                                className={`p-7 rounded-[28px] bg-white/[0.03] border border-white/[0.06] ${colors.hoverBorder} transition-all duration-500 group relative overflow-hidden`}
+                                className={`p-7 rounded-[32px] bg-white/[0.03] border border-white/[0.06] ${colors.hoverBorder} transition-all duration-500 group relative overflow-hidden`}
                                 variants={itemVariants}
                             >
                                 {/* Subtle glow on hover */}

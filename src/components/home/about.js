@@ -14,7 +14,11 @@ export default function About() {
                     viewport={{ once: true, amount: 0.2 }}
                     transition={transition}
                 >
-                    <h2 className="text-4xl md:text-5xl font-black text-white">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-4 uppercase tracking-widest">
+                        <User size={14} />
+                        <span>About Me</span>
+                    </div>
+                    <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
                         About <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Me</span>
                     </h2>
                 </motion.div>
@@ -77,7 +81,7 @@ export default function About() {
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div className="p-6 rounded-3xl bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all group">
+                            <div className="p-6 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:border-blue-500/30 transition-all group">
                                 <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all">
                                     <Terminal size={22} />
                                 </div>
@@ -85,7 +89,7 @@ export default function About() {
                                 <p className="text-xs text-gray-300 leading-relaxed uppercase tracking-wider">Expert in React, Next.js, Node.js, and MongoDB for scalable web applications.</p>
                             </div>
 
-                            <div className="p-6 rounded-3xl bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all group">
+                            <div className="p-6 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:border-blue-500/30 transition-all group">
                                 <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-4 group-hover:bg-indigo-600 group-hover:text-white transition-all">
                                     <Globe size={22} />
                                 </div>

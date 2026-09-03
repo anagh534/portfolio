@@ -53,7 +53,11 @@ export default function WhyChooseMe() {
                         transition={{ duration: 0.6 }}
                     >
                         <div>
-                            <h2 className="text-4xl md:text-5xl font-black text-white">
+                            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-4 uppercase tracking-widest">
+                                <Award size={14} />
+                                <span>Why Choose Me</span>
+                            </div>
+                            <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
                                 Why <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Choose Me?</span>
                             </h2>
                         </div>
@@ -69,7 +73,7 @@ export default function WhyChooseMe() {
                             {features.map((feature, index) => (
                                 <motion.div
                                     key={index}
-                                    className="p-6 rounded-[28px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-300 group"
+                                    className="p-6 rounded-[32px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-300 group"
                                     initial={{ opacity: 0, y: 20 }}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     viewport={{ once: true }}

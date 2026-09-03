@@ -28,6 +28,10 @@ export default function Works() {
                     viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                 >
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-4 uppercase tracking-widest">
+                        <Briefcase size={14} />
+                        <span>Portfolio</span>
+                    </div>
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
                         Selected <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Works</span>
                     </h2>
@@ -37,7 +41,7 @@ export default function Works() {
                 </motion.div>
 
                 <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"

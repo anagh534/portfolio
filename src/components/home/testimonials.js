@@ -102,6 +102,10 @@ export default function Testimonials() {
                     viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                 >
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-4 uppercase tracking-widest">
+                        <Star size={14} />
+                        <span>Testimonials</span>
+                    </div>
                     <h2 id="reviews-heading" className="text-4xl md:text-5xl font-black text-white mb-6">
                         Client <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Reviews</span>
                     </h2>
@@ -116,7 +120,7 @@ export default function Testimonials() {
                 </motion.div>
 
                 <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7"
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
@@ -128,7 +132,7 @@ export default function Testimonials() {
                         return (
                             <motion.article
                                 key={`${item.name}-${index}`}
-                                className="h-full p-7 rounded-[30px] bg-gradient-to-b from-white/10 via-white/[0.05] to-white/[0.03] border border-white/10 hover:border-blue-400/40 transition-all duration-500 shadow-[0_16px_50px_-24px_rgba(37,99,235,0.55)] flex flex-col"
+                                className="h-full p-7 rounded-[32px] bg-gradient-to-b from-white/10 via-white/[0.05] to-white/[0.03] border border-white/10 hover:border-blue-400/40 transition-all duration-500 shadow-[0_16px_50px_-24px_rgba(37,99,235,0.55)] flex flex-col"
                                 itemScope
                                 itemType="https://schema.org/Review"
                                 variants={itemVariants}
