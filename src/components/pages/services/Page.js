@@ -46,31 +46,31 @@ export default function Services() {
 
     return (
         <div className="min-h-screen bg-black pt-32 pb-24 relative overflow-hidden">
-                        {/* Structured Data - Service Schema */}
+            {/* Structured Data - Service Schema */}
             <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify([
-  "Web Development",
-  "Mobile App Development",
-  "Custom Software Development",
-  "Static Website Development",
-  "Landing Page Development",
-  "Ecommerce Website Development",
-  "Shopping Website Development",
-  "College Project Development",
-  "Billing Software Development",
-  "Restaurant Application Development",
-  "MERN Stack Development",
-  "Next.js Development",
-  "React Development",
-  "Node.js Development",
-  "Laravel Development",
-  "Dating App Development",
-  "Chat App Development",
+                    "Web Development",
+                    "Mobile App Development",
+                    "Custom Software Development",
+                    "Static Website Development",
+                    "Landing Page Development",
+                    "Ecommerce Website Development",
+                    "Shopping Website Development",
+                    "College Project Development",
+                    "Billing Software Development",
+                    "Restaurant Application Development",
+                    "MERN Stack Development",
+                    "Next.js Development",
+                    "React Development",
+                    "Node.js Development",
+                    "Laravel Development",
+                    "Dating App Development",
+                    "Chat App Development",
 
-  "API Development",
-  "Website Redesign",
-  "Flutter App Development"
-].map(serviceType => ({
+                    "API Development",
+                    "Website Redesign",
+                    "Flutter App Development"
+                ].map(serviceType => ({
                     "@context": "https://schema.org",
                     "@type": "Service",
                     "serviceType": serviceType,
@@ -267,7 +267,7 @@ export default function Services() {
                             description="Build and optimize Custom Store storefronts for D2C growth with collection strategy, payment and shipping setup, speed optimization, and SEO-ready architecture."
                         />
 
-                                                <ServiceComponent
+                        <ServiceComponent
                             title="Custom Software Development"
                             category="Software"
                             icon={<Code size={24} />}
@@ -288,7 +288,7 @@ export default function Services() {
                             description="Fast, responsive, and conversion-optimized static website and landing page development for ad campaigns, product launches, or business portfolios."
                         />
 
-<ServiceComponent
+                        <ServiceComponent
                             title="Dating & Chat App Development"
 
                             category="Mobile + Realtime"

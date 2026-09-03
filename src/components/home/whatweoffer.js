@@ -123,7 +123,7 @@ export default function WhatWeOffer() {
                     viewport={{ once: true }}
                 >
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
-                        Professional Web &amp; Mobile <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Development Services</span>
+                        Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Services</span>
                     </h2>
                     <p className="max-w-2xl mx-auto text-gray-400">
                         Comprehensive digital solutions for businesses across Kerala. From custom web development and Flutter mobile apps
