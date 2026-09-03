@@ -4,7 +4,6 @@ import {
     Users,
     Code2,
     Sparkles,
-    Cpu,
     ShieldCheck,
     Smartphone,
     Zap
@@ -12,140 +11,120 @@ import {
 
 const features = [
     {
-        icon: <Sparkles className="icon-accent" />,
+        icon: <Sparkles size={24} />,
         title: "Premium Quality",
-        desc: "Clean, maintainable code following industry best practices for long-term reliability."
+        desc: "Clean, maintainable code following modern industry best practices for long-term scalability and stability."
     },
     {
-        icon: <Zap className="icon-accent" />,
+        icon: <Zap size={24} />,
         title: "Fast Delivery",
-        desc: "Efficient development process with regular updates and on-time project delivery."
+        desc: "Agile development workflow with regular milestone updates, rapid feedback loops, and on-time project launch."
     },
     {
-        icon: <ShieldCheck className="icon-accent" />,
+        icon: <ShieldCheck size={24} />,
         title: "Secure & Scalable",
-        desc: "Building robust, secure solutions that scale with your growing business needs."
+        desc: "Robust architecture with enterprise-level security, optimized database schemas, and cloud-ready infrastructure."
     },
     {
-        icon: <Smartphone className="icon-accent" />,
-        title: "Mobile First",
-        desc: "Responsive design ensuring perfect functionality across all devices and platforms."
+        icon: <Smartphone size={24} />,
+        title: "Mobile-First Design",
+        desc: "Fluid, responsive interfaces crafted to deliver a flawless user experience across phones, tablets, and desktops."
     }
 ];
 
 const stats = [
-    { label: "Experience", value: "3+", icon: <Award size={20} /> },
-    { label: "Projects", value: "24", icon: <Code2 size={20} /> },
-    { label: "Clients", value: "18+", icon: <Users size={20} /> }
+    { label: "Years Experience", value: "3+", icon: <Award size={20} /> },
+    { label: "Projects Delivered", value: "24+", icon: <Code2 size={20} /> },
+    { label: "Satisfied Clients", value: "18+", icon: <Users size={20} /> },
+    { label: "On-Time Delivery", value: "100%", icon: <Zap size={20} /> }
 ];
 
 export default function WhyChooseMe() {
+    const containerVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+            opacity: 1,
+            transition: { staggerChildren: 0.1 }
+        }
+    };
+
+    const itemVariants = {
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] } }
+    };
+
     return (
         <section className="relative py-24 overflow-hidden" id="why-me">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                    {/* Left Side: Content */}
-                    <motion.div
-                        className="space-y-8"
-                        initial={{ opacity: 0, x: -30 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6 }}
-                    >
-                        <div>
-                            <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
-                                Why <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Choose Me?</span>
-                            </h2>
-                        </div>
+                {/* Standard Section Header Container */}
+                <motion.div
+                    className="text-center mb-16"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5 }}
+                >
+                    <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
+                        Why <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Choose Me?</span>
+                    </h2>
+                    <p className="max-w-2xl mx-auto text-gray-400 leading-relaxed">
+                        As an experienced freelance website and mobile developer in Kerala, I combine technical precision with business insight to build digital products that drive real growth.
+                    </p>
+                </motion.div>
 
-                        <p className="text-lg text-gray-400 leading-relaxed">
-                            As an experienced freelance website developer in Kerala, I combine technical expertise
-                            with business understanding to deliver solutions that not only look great but drive
-                            real results. Transparent communication, reliable timelines, and dedicated support
-                            throughout your project lifecycle.
-                        </p>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {features.map((feature, index) => (
-                                <motion.div
-                                    key={index}
-                                    className="p-6 rounded-[32px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-300 group"
-                                    initial={{ opacity: 0, y: 20 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: index * 0.1 }}
-                                >
-                                    <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all">
-                                        {feature.icon}
-                                    </div>
-                                    <h3 className="text-white font-bold mb-2 uppercase tracking-tight">{feature.title}</h3>
-                                    <p className="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">{feature.desc}</p>
-                                </motion.div>
-                            ))}
-                        </div>
-                    </motion.div>
-
-                    {/* Right Side: Visuals/Stats */}
-                    <motion.div
-                        className="relative"
-                        initial={{ opacity: 0, x: 30 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6 }}
-                    >
-                        <div className="p-10 rounded-[40px] bg-white/5 border border-white/10 backdrop-blur-xl relative overflow-hidden group">
-                            <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/10 blur-[100px] rounded-full -z-10"></div>
-
-                            <div className="text-center mb-10">
-                                <span className="text-6xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">3+</span>
-                                <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mt-2">Years of Excellence</p>
+                {/* 4 Feature Cards Grid */}
+                <motion.div
+                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+                    variants={containerVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.1 }}
+                >
+                    {features.map((feature, index) => (
+                        <motion.div
+                            key={index}
+                            className="p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:border-blue-500/30 transition-all duration-500 group flex flex-col justify-between"
+                            variants={itemVariants}
+                        >
+                            <div>
+                                <div className="w-14 h-14 rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500 shadow-lg shadow-blue-500/10">
+                                    {feature.icon}
+                                </div>
+                                <h3 className="text-xl font-bold text-white mb-3 tracking-tight group-hover:text-blue-400 transition-colors">
+                                    {feature.title}
+                                </h3>
+                                <p className="text-sm text-gray-400 leading-relaxed">
+                                    {feature.desc}
+                                </p>
                             </div>
+                        </motion.div>
+                    ))}
+                </motion.div>
 
-                            <div className="w-full h-px bg-white/5 mb-10"></div>
-
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                {stats.map((stat, index) => (
-                                    <div key={index} className="text-center space-y-3">
-                                        <div className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center text-blue-400 mx-auto border border-white/5">
-                                            {stat.icon}
-                                        </div>
-                                        <div>
-                                            <div className="text-2xl font-black text-white">{stat.value}</div>
-                                            <div className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">{stat.label}</div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-
-                        {/* Floating cards for desktop */}
-                        <div className="hidden xl:block">
-                            <div className="absolute -top-10 -right-10 z-10">
-                                <div className="p-6 rounded-3xl bg-black/80 backdrop-blur-xl border border-white/10 shadow-2xl flex items-center gap-4 group animate-float">
-                                    <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center font-black text-black">JS</div>
-                                    <div>
-                                        <div className="text-white font-bold text-sm">React Expert</div>
-                                        <div className="w-24 h-1.5 bg-white/5 rounded-full mt-2 overflow-hidden">
-                                            <div className="h-full bg-blue-500" style={{ width: '95%' }}></div>
-                                        </div>
-                                    </div>
+                {/* Simple & Clean Stats Container Beneath */}
+                <motion.div
+                    className="mt-12 p-8 md:p-10 rounded-[32px] bg-white/[0.03] border border-white/10 backdrop-blur-xl"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.2 }}
+                >
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                        {stats.map((stat, index) => (
+                            <div key={index} className="text-center space-y-2">
+                                <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 mx-auto mb-3">
+                                    {stat.icon}
+                                </div>
+                                <div className="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
+                                    {stat.value}
+                                </div>
+                                <div className="text-xs font-bold text-gray-400 uppercase tracking-widest">
+                                    {stat.label}
                                 </div>
                             </div>
-
-                            <div className="absolute -bottom-10 -left-10 z-10">
-                                <div className="p-6 rounded-3xl bg-black/80 backdrop-blur-xl border border-white/10 shadow-2xl flex items-center gap-4 group animate-float-reverse">
-                                    <div className="w-12 h-12 rounded-full bg-cyan-500 flex items-center justify-center font-black text-black">FL</div>
-                                    <div>
-                                        <div className="text-white font-bold text-sm">Flutter Pro</div>
-                                        <div className="w-24 h-1.5 bg-white/5 rounded-full mt-2 overflow-hidden">
-                                            <div className="h-full bg-cyan-500" style={{ width: '90%' }}></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </motion.div>
-                </div>
+                        ))}
+                    </div>
+                </motion.div>
             </div>
         </section>
     );
