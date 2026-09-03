@@ -210,21 +210,23 @@ export default function About() {
                                 <span>About Me</span>
                             </div>
                             <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
-                                Building Digital Solutions for
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500"> Kerala Businesses</span>
+                                From a Basic Laptop to
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500"> Engineering Global Products</span>
                             </h2>
-                            <p className="text-gray-400 text-lg leading-relaxed">
-                                As a professional freelance developer based in Kerala, I specialize in MERN stack web development
-                                and Flutter mobile app development, serving clients across Kerala. Whether you're a startup in Kochi
-                                needing a responsive website, a business in Calicut requiring a custom web app, or an entrepreneur
-                                in Trivandrum looking for a mobile app, I deliver tailored solutions with clean code, modern design,
-                                and a focus on your business goals.
+                            <p className="text-gray-300 text-base md:text-lg leading-relaxed">
+                                My programming journey began during my college days amidst the COVID-19 pandemic. Armed only with an entry-level HP laptop having basic specs, I spent days and nights self-teaching programming from scratch. When I started exploring mobile app development, I set an ambitious personal milestone: work tirelessly to level up my skills and earn a MacBook for my development workspace.
+                            </p>
+                            <p className="text-gray-400 text-base leading-relaxed">
+                                That dedication opened doors: I worked part-time as a <strong className="text-white">MERN Stack Developer at Dotscape</strong>, a Canadian software company, for 1.2 years delivering international client web applications. Following that, I spent <strong className="text-white">1.5 years at a product-based software company</strong>, mastering scalable backend architecture, database design, and production engineering. Through my own earned income, I proudly purchased my dream MacBook to power my work.
+                            </p>
+                            <p className="text-gray-400 text-base leading-relaxed">
+                                Today, I combine my international client experience and product engineering background into full-time freelancing—building high-converting websites, scalable custom web applications, and fluid Flutter mobile apps for ambitious startups, local businesses across Kerala, and global clients.
                             </p>
                             <div className="space-y-4">
                                 {[
-                                    '3+ years of professional web and mobile app development',
-                                    'Expert in React, Node.js, MongoDB, Flutter, and custom software',
-                                    '24+ successful projects delivered for Kerala businesses'
+                                    '1.2 yrs at Canadian firm Dotscape (MERN) + 1.5 yrs at product company',
+                                    '3+ years of professional full-stack web and Flutter mobile app development',
+                                    '24+ successful projects delivered for Kerala, Gulf, and international clients'
                                 ].map((item, i) => (
                                     <div key={i} className="flex items-center gap-4 text-white group">
                                         <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 border border-blue-500/20 group-hover:bg-blue-500 group-hover:text-white transition-all">

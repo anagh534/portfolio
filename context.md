@@ -12,7 +12,7 @@ This document tracks SEO maintenance and updates for the portfolio website.
   - Redesigned `works.js`: 4 items in a single row on laptop/desktop (`lg:grid-cols-4`), modern card design with floating badges, and relocated the "View All Portfolio" button into the section header for a clean, cohesive layout.
   - Created dedicated Portfolio hub page (`/portfolio/` via `src/pages/portfolio/index.astro` and `src/components/pages/portfolio/Page.js`) with category filtering, full project gallery, and conversion CTA. Updated footer navigation.
   - Redesigned `hero.js` with ambient aurora glows, radial dot-grid texture, live project availability status pill with pulsing radar indicator, balanced typography, and trust stats strip (3+ Years, 24+ Projects, 100% Satisfaction, 5.0 Rating).
-  - Redesigned `about.js`: elevated profile presentation with gradient glass frame, floating experience/delivery badges, location pill, capability cards with tech tags, and dual CTAs.
+  - Redesigned `about.js`: elevated profile presentation with gradient glass frame, floating experience/delivery badges, location pill, 4 universal delivery pillars, and updated authentic founder journey (college pandemic self-learning on basic HP laptop, 1.2 yrs at Canadian firm Dotscape, 1.5 yrs at product company, earning MacBook, and full-time freelancing mission). Synchronized with `/about/` page.
 - **2026-08-28**: Added new blog post targeting freelance web developer costs.
   - Published `"How Much Does It Cost for a Freelancer to Build a Website in 2026?"` in `public/data/blogs.json`.
   - Targeted keywords: `freelance web developer cost india`, `how much does it cost to build a website`, `website development cost in kerala`, and `freelance website develop team`.

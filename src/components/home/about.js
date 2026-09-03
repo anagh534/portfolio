@@ -99,58 +99,19 @@ export default function About() {
                     >
                         <div>
                             <h3 className="text-2xl sm:text-3xl font-bold text-white leading-snug mb-3">
-                                Engineering scalable digital products for <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">startups &amp; growing businesses</span>.
+                                From a basic HP laptop during lockdown to <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">engineering global products</span>.
                             </h3>
                             <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-3">
-                                I'm a senior full-stack developer and software consultant based in Kerala. Over the last 3+ years, I have partnered directly with founders, local startups in Kochi and Calicut, and international businesses across the UAE and Canada to build reliable, high-converting digital products.
+                                I started programming and freelancing during my college days amidst the COVID-19 pandemic. Armed only with an entry-level, basic-spec HP laptop and relentless curiosity, I self-taught code from scratch. As I progressed into mobile application development, I set a clear personal ambition: work tirelessly to level up my craft and earn my dream MacBook for my engineering workspace.
+                            </p>
+                            <p className="text-sm sm:text-base text-gray-400 leading-relaxed mb-3">
+                                That drive earned me a part-time role as a <strong className="text-white font-medium">MERN Stack Developer at Dotscape, a Canadian software firm, for 1.2 years</strong>, followed by <strong className="text-white font-medium">1.5 years engineering core architectures at a product-based company</strong>. Through hard work and client delivery, I bought my dream MacBook through my own earned income.
                             </p>
                             <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
-                                From brand web experiences and eCommerce platforms to custom SaaS software, mobile applications, and cloud APIs—I take full ownership from initial concept through production deployment and post-launch maintenance.
+                                Today, I bring that combined international agency and product-engineering discipline full-time to freelancing—crafting high-performance websites, scalable web applications, and fluid mobile apps for ambitious founders in Kerala and worldwide.
                             </p>
                         </div>
 
-                        {/* 4 Delivery & Engineering Pillars */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 pt-1">
-                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-blue-500/30 transition-colors">
-                                <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-all">
-                                    <Layers size={18} />
-                                </div>
-                                <div>
-                                    <div className="text-white font-bold text-sm">Full-Lifecycle Delivery</div>
-                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Complete execution across frontend, backend, database, and cloud setup.</div>
-                                </div>
-                            </div>
-
-                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-indigo-500/30 transition-colors">
-                                <div className="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 shrink-0 group-hover:bg-indigo-600 group-hover:text-white transition-all">
-                                    <Zap size={18} />
-                                </div>
-                                <div>
-                                    <div className="text-white font-bold text-sm">High Performance &amp; SEO</div>
-                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Sub-second load times, 95+ Core Web Vitals, and search visibility.</div>
-                                </div>
-                            </div>
-
-                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-cyan-500/30 transition-colors">
-                                <div className="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 shrink-0 group-hover:bg-cyan-600 group-hover:text-white transition-all">
-                                    <ShieldCheck size={18} />
-                                </div>
-                                <div>
-                                    <div className="text-white font-bold text-sm">Clean &amp; Maintainable Code</div>
-                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Modular architecture designed for rapid iteration and long-term scaling.</div>
-                                </div>
-                            </div>
-
-                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-emerald-500/30 transition-colors">
-                                <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-all">
-                                    <Users size={18} />
-                                </div>
-                                <div>
-                                    <div className="text-white font-bold text-sm">Direct Collaboration</div>
-                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Work directly with the senior engineer building your product. Zero agency fluff.</div>
-                                </div>
-                            </div>
-                        </div>
 
                         {/* Action Buttons */}
                         <div className="flex flex-wrap items-center gap-3.5 pt-2">
