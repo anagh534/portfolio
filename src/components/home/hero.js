@@ -11,19 +11,10 @@ export default function Hero() {
 
           <div className="w-full max-w-4xl mx-auto text-center lg:text-left">
 
-            {/* Badge — animates first, delay 0ms */}
-            <div className="hero-badge inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-6 uppercase tracking-widest">
-              <Cpu size={14} />
-              <span>Innovating with Code</span>
-            </div>
-
             {/* H1 — delay 70ms. Static content always in DOM for SEO. */}
             <h1 className="hero-title text-[2.2rem] sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white leading-[0.95] mb-7">
               FREELANCE <br></br><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">FLUTTER &amp; MERN </span><br className="hidden sm:block" />
               WEB DEVELOPER IN KERALA
-              <span className="block text-lg sm:text-xl md:text-2xl font-bold text-gray-300 mt-4 tracking-normal">
-                Based in Kerala • Serving Kochi, Calicut &amp; Global Clients
-              </span>
             </h1>
 
             {/* Description — delay 140ms */}
