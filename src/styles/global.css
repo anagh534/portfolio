@@ -47,6 +47,12 @@
     backface-visibility: hidden;
   }
 
+  /* GPU composition and render stabilization for GSAP animated elements */
+  [data-gsap] {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
   h1,
   h2,
   h3,
@@ -256,7 +262,10 @@
   .animate-slide-in,
   .page-transition-wrapper,
   .animate-float,
-  .animate-float-reverse {
+  .animate-float-reverse,
+  [data-gsap],
+  [data-gsap] > * {
     animation: none !important;
+    transition: none !important;
   }
 }
