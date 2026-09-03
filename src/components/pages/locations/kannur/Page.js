@@ -36,9 +36,33 @@ const schemaData = {
         "addressCountry": "IN"
     },
     "areaServed": [
-        { "@type": "City", "name": "Kannur" },
-        { "@type": "State", "name": "Kerala" }
-    ]
+    { "@type": "State", "name": "Kerala" },
+    { "@type": "City", "name": "Thiruvananthapuram" },
+    { "@type": "City", "name": "Kollam" },
+    { "@type": "City", "name": "Pathanamthitta" },
+    { "@type": "City", "name": "Alappuzha" },
+    { "@type": "City", "name": "Kottayam" },
+    { "@type": "City", "name": "Idukki" },
+    { "@type": "City", "name": "Ernakulam" },
+    { "@type": "City", "name": "Kochi" },
+    { "@type": "City", "name": "Thrissur" },
+    { "@type": "City", "name": "Palakkad" },
+    { "@type": "City", "name": "Malappuram" },
+    { "@type": "City", "name": "Kozhikode" },
+    { "@type": "City", "name": "Wayanad" },
+    { "@type": "City", "name": "Kannur" },
+    { "@type": "City", "name": "Kasaragod" },
+    { "@type": "Country", "name": "United Arab Emirates" },
+    { "@type": "City", "name": "Dubai" },
+    { "@type": "Country", "name": "Canada" },
+    { "@type": "Country", "name": "United Kingdom" },
+    { "@type": "Country", "name": "Saudi Arabia" },
+    { "@type": "Country", "name": "Oman" },
+    { "@type": "Country", "name": "Qatar" },
+    { "@type": "City", "name": "Chennai" },
+    { "@type": "City", "name": "Coimbatore" },
+    { "@type": "City", "name": "Mangalore" }
+  ]
 };
 
 export default function KannurServices() {
