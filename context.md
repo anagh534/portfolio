@@ -11,6 +11,7 @@ This document tracks SEO maintenance and updates for the portfolio website.
   - Upgraded `testimonials.js` for future scalability: dynamic responsive pagination (1 card on mobile, 2 on tablet, 3 on desktop), directional sliding animations, verified client cards with avatars, trust summary metrics, and 100% SEO JSON-LD schema preservation.
   - Redesigned `works.js`: 4 items in a single row on laptop/desktop (`lg:grid-cols-4`), modern card design with floating badges, and relocated the "View All Portfolio" button into the section header for a clean, cohesive layout.
   - Created dedicated Portfolio hub page (`/portfolio/` via `src/pages/portfolio/index.astro` and `src/components/pages/portfolio/Page.js`) with category filtering, full project gallery, and conversion CTA. Updated footer navigation.
+  - Redesigned `hero.js` with ambient aurora glows, radial dot-grid texture, live project availability status pill with pulsing radar indicator, balanced typography, and trust stats strip (3+ Years, 24+ Projects, 100% Satisfaction, 5.0 Rating).
 - **2026-08-28**: Added new blog post targeting freelance web developer costs.
   - Published `"How Much Does It Cost for a Freelancer to Build a Website in 2026?"` in `public/data/blogs.json`.
   - Targeted keywords: `freelance web developer cost india`, `how much does it cost to build a website`, `website development cost in kerala`, and `freelance website develop team`.
