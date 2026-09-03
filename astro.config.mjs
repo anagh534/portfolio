@@ -10,7 +10,7 @@ const transformJsxInJs = () => ({
     name: "transform-jsx-in-js",
     enforce: "pre",
     async transform(code, id) {
-        if (!id.match(/src\/.*\.js$/)) return null;
+        if (!id.match(/src\/.*\.js(\?.*)?$/)) return null;
         return await transformWithOxc(code, id, { lang: "jsx" });
     },
 });
