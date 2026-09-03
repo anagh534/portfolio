@@ -1,4 +1,4 @@
-import blogs from '../data/blogs.json';
+import blogs from '../../public/data/blogs.json';
 
 export async function getBlogPosts() {
     return blogs.sort((a, b) => {

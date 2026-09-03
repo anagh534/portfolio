@@ -12,7 +12,7 @@ This document tracks SEO maintenance and updates for the portfolio website.
   - Redesigned `works.js`: 4 items in a single row on laptop/desktop (`lg:grid-cols-4`), modern card design with floating badges, and relocated the "View All Portfolio" button into the section header for a clean, cohesive layout.
   - Created dedicated Portfolio hub page (`/portfolio/` via `src/pages/portfolio/index.astro` and `src/components/pages/portfolio/Page.js`) with category filtering, full project gallery, and conversion CTA. Updated footer navigation.
 - **2026-08-28**: Added new blog post targeting freelance web developer costs.
-  - Published `"How Much Does It Cost for a Freelancer to Build a Website in 2026?"` in `src/data/blogs.json`.
+  - Published `"How Much Does It Cost for a Freelancer to Build a Website in 2026?"` in `public/data/blogs.json`.
   - Targeted keywords: `freelance web developer cost india`, `how much does it cost to build a website`, `website development cost in kerala`, and `freelance website develop team`.
 - **2026-08-28**: Added new backend service pages.
   - Created `src/pages/laravel-development/index.astro` and `src/components/pages/laravel-development/Page.js` to target "Laravel developer Kerala" and PHP backend services.
