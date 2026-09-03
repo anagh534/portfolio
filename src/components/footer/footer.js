@@ -214,8 +214,8 @@ const Footer = () => {
                                                 { label: 'Home', href: '/' },
                                                 { label: 'About', href: '/about/' },
                                                 { label: 'Services', href: '/services/' },
+                                                { label: 'Portfolio', href: '/portfolio/' },
                                                 { label: 'NRI & Remote Dev', href: '/hire-kerala-developer-remotely/' },
-                                                { label: 'Works', href: '/#works/' },
                                                 { label: 'Blog', href: '/blog/' },
                                                 { label: 'Contact', href: '/contact/' },
                                             ].map(link => (
