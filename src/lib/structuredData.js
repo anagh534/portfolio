@@ -122,5 +122,22 @@ export const professionalServiceStructuredData = {
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Web Development" } },
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Flutter App Development" } },
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "MERN Stack Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Custom Software Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Static Website Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Landing Page Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Ecommerce Website Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Shopping Website Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Mobile Application Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "College Project Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Billing Software Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Restaurant Application Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Next.js Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "React Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Node.js Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Laravel Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Dating App Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Chat App Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "API Development" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Website Redesign" } }
   ]
 };

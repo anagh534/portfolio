@@ -93,7 +93,7 @@ export default function Services() {
                     "hasOfferCatalog": {
                         "@type": "OfferCatalog",
                         "name": "Web and Mobile Development Services",
-                        "itemListElement": [
+                                                "itemListElement": [
                             {
                                 "@type": "Offer",
                                 "itemOffered": {
@@ -117,7 +117,25 @@ export default function Services() {
                                     "name": "Flutter Mobile App Development",
                                     "description": "Cross-platform mobile apps starting from ₹10,000"
                                 }
-                            }
+                            },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Software Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Static Website Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing Page Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ecommerce Website Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Shopping Website Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile Application Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "College Project Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Billing Software Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Restaurant Application Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "MERN Stack Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Next.js Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "React Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Node.js Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Laravel Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dating App Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chat App Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "API Development" } },
+                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Redesign" } }
                         ]
                     }
                 })
