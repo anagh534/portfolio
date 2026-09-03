@@ -1,5 +1,6 @@
-import { motion } from 'framer-motion';
-import { MessageSquareQuote, Star } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Star, ChevronLeft, ChevronRight, CheckCircle2, Quote } from 'lucide-react';
 import testimonialsData from '../../../public/data/testimonials.json';
 
 function Stars({ rating = 5 }) {
@@ -16,12 +17,60 @@ function Stars({ rating = 5 }) {
     );
 }
 
+function getInitials(name = '') {
+    const parts = name.trim().split(' ');
+    if (parts.length >= 2) {
+        return (parts[0][0] + parts[1][0]).toUpperCase();
+    }
+    return name.slice(0, 2).toUpperCase();
+}
+
 export default function Testimonials() {
     const items = testimonialsData || [];
     const reviewCount = items.length;
     const averageRating = reviewCount
         ? (items.reduce((sum, item) => sum + Number(item.rating || 5), 0) / reviewCount).toFixed(1)
         : '5.0';
+
+    const [itemsPerPage, setItemsPerPage] = useState(3);
+    const [currentPage, setCurrentPage] = useState(0);
+    const [direction, setDirection] = useState(0);
+
+    useEffect(() => {
+        function updateItemsPerPage() {
+            if (window.innerWidth < 768) {
+                setItemsPerPage(1);
+            } else if (window.innerWidth < 1024) {
+                setItemsPerPage(2);
+            } else {
+                setItemsPerPage(3);
+            }
+        }
+        updateItemsPerPage();
+        window.addEventListener('resize', updateItemsPerPage);
+        return () => window.removeEventListener('resize', updateItemsPerPage);
+    }, []);
+
+    const totalPages = Math.ceil(items.length / itemsPerPage);
+
+    useEffect(() => {
+        if (currentPage >= totalPages && totalPages > 0) {
+            setCurrentPage(totalPages - 1);
+        }
+    }, [itemsPerPage, totalPages, currentPage]);
+
+    const handleNext = () => {
+        setDirection(1);
+        setCurrentPage((prev) => (prev < totalPages - 1 ? prev + 1 : 0));
+    };
+
+    const handlePrev = () => {
+        setDirection(-1);
+        setCurrentPage((prev) => (prev > 0 ? prev - 1 : totalPages - 1));
+    };
+
+    const startIndex = currentPage * itemsPerPage;
+    const visibleItems = items.slice(startIndex, startIndex + itemsPerPage);
 
     const reviewSchema = reviewCount
         ? {
@@ -77,24 +126,10 @@ export default function Testimonials() {
         }
         : null;
 
-    const containerVariants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: {
-                staggerChildren: 0.06
-            }
-        }
-    };
-
-    const itemVariants = {
-        hidden: { opacity: 0, y: 16 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] } }
-    };
-
     return (
         <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="testimonials" aria-labelledby="reviews-heading">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
+                {/* Section Header */}
                 <motion.div
                     className="text-center mb-10 md:mb-16"
                     initial={{ opacity: 0, y: 16 }}
@@ -108,72 +143,149 @@ export default function Testimonials() {
                     <p className="max-w-3xl mx-auto text-gray-400 leading-relaxed">
                         Real feedback from web development and Flutter app development clients across Kerala and beyond.
                     </p>
-                    {reviewCount > 0 && (
-                        <p className="mt-4 text-sm text-gray-300">
-                            Rated {averageRating}/5 based on {reviewCount} verified client reviews.
-                        </p>
-                    )}
+
+                    {/* Trust Summary Bar */}
+                    <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 mt-6">
+                        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
+                            <Stars rating={5} />
+                            <span className="text-white font-bold text-xs sm:text-sm">{averageRating} / 5.0</span>
+                        </div>
+                        <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-gray-400">
+                            <CheckCircle2 size={14} className="text-emerald-400" />
+                            <span>100% Verified Reviews</span>
+                        </div>
+                        <div className="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-gray-400">
+                            <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
+                            <span>{reviewCount} Client Reviews</span>
+                        </div>
+                    </div>
                 </motion.div>
 
-                <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8"
-                    variants={containerVariants}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
-                >
-                    {items.map((item, index) => {
-                        const quote = item.quote || '';
+                {/* Animated Review Cards Grid */}
+                <div className="relative min-h-[320px]">
+                    <AnimatePresence mode="wait" initial={false}>
+                        <motion.div
+                            key={currentPage}
+                            initial={{ opacity: 0, x: direction > 0 ? 30 : -30 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            exit={{ opacity: 0, x: direction > 0 ? -30 : 30 }}
+                            transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+                            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8 items-stretch"
+                        >
+                            {visibleItems.map((item, index) => {
+                                const quote = item.quote || '';
 
-                        return (
-                            <motion.article
-                                key={`${item.name}-${index}`}
-                                className="h-full p-6 sm:p-7 rounded-[32px] bg-gradient-to-b from-white/10 via-white/[0.05] to-white/[0.03] border border-white/10 hover:border-blue-400/40 transition-all duration-500 shadow-[0_16px_50px_-24px_rgba(37,99,235,0.55)] flex flex-col"
-                                itemScope
-                                itemType="https://schema.org/Review"
-                                variants={itemVariants}
-                                whileHover={{ y: -6 }}
-                            >
-                                <meta itemProp="datePublished" content="2026-01-01" />
-                                <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                                    <meta itemProp="ratingValue" content={String(Number(item.rating || 5))} />
-                                    <meta itemProp="bestRating" content="5" />
-                                </div>
-
-                                <div className="flex items-center justify-between gap-3">
-                                    <Stars rating={item.rating || 5} />
-                                    <span className="inline-flex items-center rounded-full bg-blue-500/15 border border-blue-400/25 px-2.5 py-1 text-[10px] font-bold text-blue-200 tracking-wider">
-                                        {Number(item.rating || 5).toFixed(1)} / 5
-                                    </span>
-                                </div>
-
-                                <div className="relative mt-5 rounded-2xl border border-white/10 bg-slate-950/40 px-5 py-5 flex-1">
-                                    <MessageSquareQuote size={20} className="absolute right-4 top-4 text-blue-300/20" />
-                                    <p
-                                        itemProp="reviewBody"
-                                        className="max-h-52 overflow-y-auto pr-2 text-gray-100 leading-7 text-[15px] [scrollbar-width:thin] [scrollbar-color:rgba(96,165,250,0.55)_rgba(255,255,255,0.08)]"
-                                        style={{ WebkitOverflowScrolling: 'touch' }}
+                                return (
+                                    <article
+                                        key={`${item.name}-${startIndex + index}`}
+                                        className="h-full p-6 sm:p-8 rounded-[32px] bg-white/[0.04] border border-white/10 hover:border-blue-500/30 backdrop-blur-xl transition-all duration-500 shadow-xl flex flex-col justify-between group"
+                                        itemScope
+                                        itemType="https://schema.org/Review"
                                     >
-                                        {`"${quote}"`}
-                                    </p>
-                                </div>
+                                        <meta itemProp="datePublished" content="2026-01-01" />
+                                        <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
+                                            <meta itemProp="ratingValue" content={String(Number(item.rating || 5))} />
+                                            <meta itemProp="bestRating" content="5" />
+                                        </div>
 
-                                <div className="mt-5 pt-5 border-t border-white/10">
-                                    <p className="text-white font-bold uppercase tracking-[0.08em] text-sm" itemProp="author" itemScope itemType="https://schema.org/Person">
-                                        <span itemProp="name">{item.name}</span>
-                                    </p>
-                                    <p className="text-gray-400 text-xs uppercase tracking-[0.16em] mt-1">
-                                        {item.role} {item.location ? `, ${item.location}` : ''}
-                                    </p>
-                                    <div itemProp="itemReviewed" itemScope itemType="https://schema.org/ProfessionalService">
-                                        <meta itemProp="name" content="Anagh K R - Freelance Flutter and Web Developer" />
-                                    </div>
-                                </div>
-                            </motion.article>
-                        );
-                    })}
-                </motion.div>
+                                        {/* Review Header: Avatar, Name, Role, Verified Badge */}
+                                        <div>
+                                            <div className="flex items-center justify-between gap-3 mb-5">
+                                                <div className="flex items-center gap-3">
+                                                    <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-blue-500/20 to-indigo-500/20 border border-blue-500/30 flex items-center justify-center font-bold text-blue-400 text-sm group-hover:scale-105 transition-transform">
+                                                        {getInitials(item.name)}
+                                                    </div>
+                                                    <div>
+                                                        <h3 className="text-white font-bold text-sm sm:text-base leading-tight" itemProp="author" itemScope itemType="https://schema.org/Person">
+                                                            <span itemProp="name">{item.name}</span>
+                                                        </h3>
+                                                        <p className="text-gray-400 text-xs mt-0.5">
+                                                            {item.role} {item.location ? `, ${item.location}` : ''}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-bold uppercase tracking-wider shrink-0">
+                                                    <CheckCircle2 size={11} />
+                                                    <span>Verified</span>
+                                                </span>
+                                            </div>
 
+                                            {/* Rating & Quote Icon */}
+                                            <div className="flex items-center justify-between mb-4">
+                                                <div className="flex items-center gap-2">
+                                                    <Stars rating={item.rating || 5} />
+                                                    <span className="text-[11px] font-bold text-gray-400">
+                                                        {Number(item.rating || 5).toFixed(1)}
+                                                    </span>
+                                                </div>
+                                                <Quote size={18} className="text-blue-400/30 group-hover:text-blue-400 transition-colors" />
+                                            </div>
+
+                                            {/* Quote Text */}
+                                            <p
+                                                itemProp="reviewBody"
+                                                className="text-gray-300 text-sm sm:text-[15px] leading-relaxed line-clamp-6"
+                                            >
+                                                {`"${quote}"`}
+                                            </p>
+                                        </div>
+
+                                        <div itemProp="itemReviewed" itemScope itemType="https://schema.org/ProfessionalService">
+                                            <meta itemProp="name" content="Anagh K R - Freelance Flutter and Web Developer" />
+                                        </div>
+                                    </article>
+                                );
+                            })}
+                        </motion.div>
+                    </AnimatePresence>
+                </div>
+
+                {/* Pagination Controls - automatically active when there are more reviews */}
+                {totalPages > 1 && (
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
+                        <div className="flex items-center gap-4">
+                            <button
+                                onClick={handlePrev}
+                                className="w-10 h-10 rounded-full bg-white/5 border border-white/10 hover:bg-blue-600 hover:border-blue-500 text-gray-300 hover:text-white flex items-center justify-center transition-all duration-300 active:scale-95"
+                                aria-label="Previous reviews"
+                            >
+                                <ChevronLeft size={18} />
+                            </button>
+
+                            <div className="flex items-center gap-2">
+                                {Array.from({ length: totalPages }).map((_, idx) => (
+                                    <button
+                                        key={idx}
+                                        onClick={() => {
+                                            setDirection(idx > currentPage ? 1 : -1);
+                                            setCurrentPage(idx);
+                                        }}
+                                        className={`h-2 rounded-full transition-all duration-300 ${
+                                            idx === currentPage
+                                                ? 'w-7 bg-blue-500'
+                                                : 'w-2 bg-white/20 hover:bg-white/40'
+                                        }`}
+                                        aria-label={`Go to review page ${idx + 1}`}
+                                    />
+                                ))}
+                            </div>
+
+                            <button
+                                onClick={handleNext}
+                                className="w-10 h-10 rounded-full bg-white/5 border border-white/10 hover:bg-blue-600 hover:border-blue-500 text-gray-300 hover:text-white flex items-center justify-center transition-all duration-300 active:scale-95"
+                                aria-label="Next reviews"
+                            >
+                                <ChevronRight size={18} />
+                            </button>
+                        </div>
+
+                        <span className="text-xs text-gray-500 font-medium">
+                            Showing {startIndex + 1}–{Math.min(startIndex + itemsPerPage, items.length)} of {items.length} reviews
+                        </span>
+                    </div>
+                )}
+
+                {/* Schema Markup for SEO */}
                 {reviewSchema && (
                     <script
                         type="application/ld+json"
