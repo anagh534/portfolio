@@ -64,5 +64,38 @@
         "technologies": ["Flutter", "Dart", "Socket.io"],
         "category": "Utility App",
         "year": "2026"
+    },
+    {
+        "id": 7,
+        "title": "Ameya Smart Technologies",
+        "description": "Smart software solutions and corporate web platform built with clean responsive architecture, interactive animations, and AI-assisted workflows.",
+        "img": "/assets/projects/ameya-900.webp",
+        "srcSet": "/assets/projects/ameya-480.webp 480w, /assets/projects/ameya-900.webp 900w",
+        "url": "https://www.ameyasmarttechnologies.com",
+        "technologies": ["HTML5", "CSS3", "JavaScript", "AI"],
+        "category": "Web Development",
+        "year": "2026"
+    },
+    {
+        "id": 8,
+        "title": "Megra Engineering Solution",
+        "description": "Premier turnkey construction conglomerate website in Dubai, UAE featuring infrastructure portfolios, MEP services, and modern commercial landmarks.",
+        "img": "/assets/projects/megra-900.webp",
+        "srcSet": "/assets/projects/megra-480.webp 480w, /assets/projects/megra-900.webp 900w",
+        "url": "https://megraengg.com",
+        "technologies": ["HTML5", "CSS3", "JavaScript", "Tailwind CSS"],
+        "category": "Web Development",
+        "year": "2026"
+    },
+    {
+        "id": 9,
+        "title": "Weberzio - Digital Agency",
+        "description": "High-performance digital agency & software engineering platform in Kerala building custom SaaS platforms, modern web apps, and cloud infrastructure.",
+        "img": "/assets/projects/weberzio-900.webp",
+        "srcSet": "/assets/projects/weberzio-480.webp 480w, /assets/projects/weberzio-900.webp 900w",
+        "url": "https://www.weberzio.in",
+        "technologies": ["Next.js", "React", "Node.js", "Tailwind CSS"],
+        "category": "Web Development",
+        "year": "2026"
     }
 ]
