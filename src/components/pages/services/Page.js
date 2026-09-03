@@ -43,12 +43,33 @@ export default function Services() {
 
     return (
         <div className="min-h-screen bg-black pt-32 pb-24 relative overflow-hidden">
-            {/* Structured Data - Service Schema */}
+                        {/* Structured Data - Service Schema */}
             <script type="application/ld+json" dangerouslySetInnerHTML={{
-                __html: JSON.stringify({
+                __html: JSON.stringify([
+  "Web Development",
+  "Mobile App Development",
+  "Custom Software Development",
+  "Static Website Development",
+  "Landing Page Development",
+  "Ecommerce Website Development",
+  "Shopping Website Development",
+  "College Project Development",
+  "Billing Software Development",
+  "Restaurant Application Development",
+  "MERN Stack Development",
+  "Next.js Development",
+  "React Development",
+  "Node.js Development",
+  "Laravel Development",
+  "Dating App Development",
+  "Chat App Development",
+  "API Development",
+  "Website Redesign",
+  "Flutter App Development"
+].map(serviceType => ({
                     "@context": "https://schema.org",
                     "@type": "Service",
-                    "serviceType": "Web Development and Mobile App Development Services",
+                    "serviceType": serviceType,
                     "provider": {
                         "@type": "Person",
                         "name": "Anagh K R",
@@ -62,83 +83,35 @@ export default function Services() {
                         "telephone": "+91-8281571805"
                     },
                     "areaServed": [
-    { "@type": "State", "name": "Kerala" },
-    { "@type": "City", "name": "Thiruvananthapuram" },
-    { "@type": "City", "name": "Kollam" },
-    { "@type": "City", "name": "Pathanamthitta" },
-    { "@type": "City", "name": "Alappuzha" },
-    { "@type": "City", "name": "Kottayam" },
-    { "@type": "City", "name": "Idukki" },
-    { "@type": "City", "name": "Ernakulam" },
-    { "@type": "City", "name": "Kochi" },
-    { "@type": "City", "name": "Thrissur" },
-    { "@type": "City", "name": "Palakkad" },
-    { "@type": "City", "name": "Malappuram" },
-    { "@type": "City", "name": "Kozhikode" },
-    { "@type": "City", "name": "Wayanad" },
-    { "@type": "City", "name": "Kannur" },
-    { "@type": "City", "name": "Kasaragod" },
-    { "@type": "Country", "name": "United Arab Emirates" },
-    { "@type": "City", "name": "Dubai" },
-    { "@type": "Country", "name": "Canada" },
-    { "@type": "Country", "name": "United Kingdom" },
-    { "@type": "Country", "name": "Saudi Arabia" },
-    { "@type": "Country", "name": "Oman" },
-    { "@type": "Country", "name": "Qatar" },
-    { "@type": "City", "name": "Chennai" },
-    { "@type": "City", "name": "Coimbatore" },
-    { "@type": "City", "name": "Mangalore" }
-  ],
-                    "description": "Professional web development and mobile app development services in Kerala including MERN stack development, Flutter apps, and custom web solutions",
-                    "hasOfferCatalog": {
-                        "@type": "OfferCatalog",
-                        "name": "Web and Mobile Development Services",
-                                                "itemListElement": [
-                            {
-                                "@type": "Offer",
-                                "itemOffered": {
-                                    "@type": "Service",
-                                    "name": "Custom Website Development",
-                                    "description": "Responsive, SEO-optimized websites starting from ₹3,000"
-                                }
-                            },
-                            {
-                                "@type": "Offer",
-                                "itemOffered": {
-                                    "@type": "Service",
-                                    "name": "Web Apps Development",
-                                    "description": "Custom web applications starting from ₹4,000"
-                                }
-                            },
-                            {
-                                "@type": "Offer",
-                                "itemOffered": {
-                                    "@type": "Service",
-                                    "name": "Flutter Mobile App Development",
-                                    "description": "Cross-platform mobile apps starting from ₹10,000"
-                                }
-                            },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Software Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Static Website Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing Page Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ecommerce Website Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Shopping Website Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile Application Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "College Project Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Billing Software Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Restaurant Application Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "MERN Stack Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Next.js Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "React Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Node.js Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Laravel Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dating App Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chat App Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "API Development" } },
-                            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Redesign" } }
-                        ]
-                    }
-                })
+                        { "@type": "State", "name": "Kerala" },
+                        { "@type": "City", "name": "Thiruvananthapuram" },
+                        { "@type": "City", "name": "Kollam" },
+                        { "@type": "City", "name": "Pathanamthitta" },
+                        { "@type": "City", "name": "Alappuzha" },
+                        { "@type": "City", "name": "Kottayam" },
+                        { "@type": "City", "name": "Idukki" },
+                        { "@type": "City", "name": "Ernakulam" },
+                        { "@type": "City", "name": "Kochi" },
+                        { "@type": "City", "name": "Thrissur" },
+                        { "@type": "City", "name": "Palakkad" },
+                        { "@type": "City", "name": "Malappuram" },
+                        { "@type": "City", "name": "Kozhikode" },
+                        { "@type": "City", "name": "Wayanad" },
+                        { "@type": "City", "name": "Kannur" },
+                        { "@type": "City", "name": "Kasaragod" },
+                        { "@type": "Country", "name": "United Arab Emirates" },
+                        { "@type": "City", "name": "Dubai" },
+                        { "@type": "Country", "name": "Canada" },
+                        { "@type": "Country", "name": "United Kingdom" },
+                        { "@type": "Country", "name": "Saudi Arabia" },
+                        { "@type": "Country", "name": "Oman" },
+                        { "@type": "Country", "name": "Qatar" },
+                        { "@type": "City", "name": "Chennai" },
+                        { "@type": "City", "name": "Coimbatore" },
+                        { "@type": "City", "name": "Mangalore" }
+                    ],
+                    "description": `Professional ${serviceType} services in Kerala including MERN stack development, Flutter apps, and custom web solutions.`
+                })))
             }} />
 
             {/* Structured Data - FAQ Schema */}
