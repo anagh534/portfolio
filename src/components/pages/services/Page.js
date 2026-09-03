@@ -14,6 +14,10 @@ const detailPages = [
     { title: "Mobile App Development", href: "/mobile-app-development/", desc: "Full mobile app development" },
     { title: "Dating App Development", href: "/dating-app-development/", desc: "Safety-first social app builds" },
     { title: "Chat App Development", href: "/chat-app-development/", desc: "Realtime messaging products" },
+    { title: "Ecommerce Website Development", href: "/ecommerce-development/", desc: "Shopping websites & integrations" },
+    { title: "Custom Software Development", href: "/services/", desc: "Billing, restaurant & college project systems" },
+
+
 ];
 
 export const metadata = {
@@ -63,6 +67,7 @@ export default function Services() {
   "Laravel Development",
   "Dating App Development",
   "Chat App Development",
+
   "API Development",
   "Website Redesign",
   "Flutter App Development"
@@ -263,8 +268,30 @@ export default function Services() {
                             description="Build and optimize Custom Store storefronts for D2C growth with collection strategy, payment and shipping setup, speed optimization, and SEO-ready architecture."
                         />
 
+                                                <ServiceComponent
+                            title="Custom Software Development"
+                            category="Software"
+                            icon={<Code size={24} />}
+                            description="Comprehensive custom software development tailored to your business operations. I build billing software, restaurant applications, college project systems, and enterprise management tools from scratch."
+                        />
+
                         <ServiceComponent
+                            title="Ecommerce & Shopping Websites"
+                            category="Online Retail"
+                            icon={<Rocket size={24} />}
+                            description="High-converting ecommerce website development with secure payment gateways, inventory management, and shopping cart logic. Tailored online stores optimized for SEO and sales."
+                        />
+
+                        <ServiceComponent
+                            title="Landing Page Development"
+                            category="Lead Generation"
+                            icon={<Monitor size={24} />}
+                            description="Fast, responsive, and conversion-optimized static website and landing page development for ad campaigns, product launches, or business portfolios."
+                        />
+
+<ServiceComponent
                             title="Dating & Chat App Development"
+
                             category="Mobile + Realtime"
                             icon={<Rocket size={24} />}
                             description="Build dating, chat, food delivery, booking, education, healthcare, fintech, and marketplace apps with realtime features, moderation tools, and scalable backend architecture."

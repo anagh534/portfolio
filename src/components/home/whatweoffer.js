@@ -76,6 +76,24 @@ const services = [
         technologies: ["Flutter", "Node.js", "Realtime Chat"],
         href: "/chat-app-development/",
         cta: "View chat app service",
+    },
+    {
+        id: 13,
+        title: "Ecommerce Website Development",
+        icon: <ShoppingCart size={24} />,
+        shortDesc: "Scalable ecommerce solutions and shopping websites designed to increase conversions. Secure payment gateway integration and seamless inventory management.",
+        technologies: ["React", "Next.js", "Node.js", "Razorpay"],
+        href: "/ecommerce-development/",
+        cta: "View Ecommerce Service",
+    },
+    {
+        id: 14,
+        title: "Custom Software Development",
+        icon: <RefreshCw size={24} />,
+        shortDesc: "Tailor-made software solutions including billing software and restaurant applications to streamline your business operations and automate processes.",
+        technologies: ["MERN", "NestJS", "PostgreSQL"],
+        href: "/services/",
+        cta: "View Custom Software",
     }
 ];
 
