@@ -5,20 +5,20 @@ import { MessageSquare, Cpu, Layers } from 'lucide-react';
 // classes — they only affect opacity/transform, never content visibility.
 export default function Hero() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center pt-24 pb-12 sm:pt-32 sm:pb-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
         <div className="grid grid-cols-1">
 
           <div className="w-full max-w-4xl mx-auto text-center">
 
             {/* H1 — delay 70ms. Static content always in DOM for SEO. */}
-            <h1 className="hero-title text-[2.2rem] sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white leading-[0.95] mb-8">
+            <h1 className="hero-title text-[2.2rem] sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white leading-[0.95] mb-5 sm:mb-8">
               FREELANCE <br></br><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">FLUTTER &amp; MERN </span><br className="hidden sm:block" />
               WEB DEVELOPER IN KERALA
             </h1>
 
             {/* Description — delay 140ms */}
-            <p className="hero-desc text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-10 max-w-3xl mx-auto">
+            <p className="hero-desc text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-6 sm:mb-10 max-w-3xl mx-auto">
               Experienced <strong className="text-white">freelance website developer</strong> and <strong className="text-white">Flutter developer based in Kerala</strong>, specializing in <strong className="text-white">custom web apps, MERN stack, and high-performance mobile apps</strong>.
               Building secure digital solutions
               for businesses across Kochi, Calicut, Trivandrum, Kannur, Coimbatore, and for NRI / Gulf clients globally.

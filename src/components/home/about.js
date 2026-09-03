@@ -5,21 +5,21 @@ export default function About() {
     const transition = { duration: 0.45, ease: [0.22, 1, 0.36, 1] };
 
     return (
-        <section className="relative py-24 overflow-hidden" id="about">
+        <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="about">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <motion.div
-                    className="text-center mb-16"
+                    className="text-center mb-10 md:mb-16"
                     initial={{ opacity: 0, y: 16 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.2 }}
                     transition={transition}
                 >
-                    <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
+                    <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         About <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Me</span>
                     </h2>
                 </motion.div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                     <motion.div
                         className="relative flex justify-center"
                         initial={{ opacity: 0, scale: 0.95 }}
@@ -54,7 +54,7 @@ export default function About() {
                     </motion.div>
 
                     <motion.div
-                        className="space-y-8"
+                        className="space-y-6 md:space-y-8"
                         initial={{ opacity: 0, x: 16 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true, amount: 0.15 }}
@@ -76,7 +76,7 @@ export default function About() {
                             creative problem-solving, and a commitment to delivering digital solutions that drive real business results.
                         </p>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
                             <div className="p-6 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:border-blue-500/30 transition-all group">
                                 <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all">
                                     <Terminal size={22} />

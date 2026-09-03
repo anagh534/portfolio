@@ -54,17 +54,17 @@ export default function WhyChooseMe() {
     };
 
     return (
-        <section className="relative py-24 overflow-hidden" id="why-me">
+        <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="why-me">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 {/* Standard Section Header Container */}
                 <motion.div
-                    className="text-center mb-16"
+                    className="text-center mb-10 md:mb-16"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5 }}
                 >
-                    <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
+                    <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         Why <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Choose Me?</span>
                     </h2>
                     <p className="max-w-2xl mx-auto text-gray-400 leading-relaxed">
@@ -74,7 +74,7 @@ export default function WhyChooseMe() {
 
                 {/* 4 Feature Cards Grid */}
                 <motion.div
-                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6"
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
@@ -83,7 +83,7 @@ export default function WhyChooseMe() {
                     {features.map((feature, index) => (
                         <motion.div
                             key={index}
-                            className="p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:border-blue-500/30 transition-all duration-500 group flex flex-col justify-between"
+                            className="p-6 sm:p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:border-blue-500/30 transition-all duration-500 group flex flex-col justify-between"
                             variants={itemVariants}
                         >
                             <div>
@@ -103,13 +103,13 @@ export default function WhyChooseMe() {
 
                 {/* Simple & Clean Stats Container Beneath */}
                 <motion.div
-                    className="mt-12 p-8 md:p-10 rounded-[32px] bg-white/[0.03] border border-white/10 backdrop-blur-xl"
+                    className="mt-8 md:mt-12 p-6 sm:p-8 md:p-10 rounded-[32px] bg-white/[0.03] border border-white/10 backdrop-blur-xl"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
                         {stats.map((stat, index) => (
                             <div key={index} className="text-center space-y-2">
                                 <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 mx-auto mb-3">

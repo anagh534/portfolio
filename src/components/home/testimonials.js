@@ -93,16 +93,16 @@ export default function Testimonials() {
     };
 
     return (
-        <section className="relative py-24 overflow-hidden" id="testimonials" aria-labelledby="reviews-heading">
+        <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="testimonials" aria-labelledby="reviews-heading">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <motion.div
-                    className="text-center mb-16"
+                    className="text-center mb-10 md:mb-16"
                     initial={{ opacity: 0, y: 16 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                 >
-                    <h2 id="reviews-heading" className="text-4xl md:text-5xl font-black text-white mb-6">
+                    <h2 id="reviews-heading" className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         Client <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Reviews</span>
                     </h2>
                     <p className="max-w-3xl mx-auto text-gray-400 leading-relaxed">
@@ -116,7 +116,7 @@ export default function Testimonials() {
                 </motion.div>
 
                 <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8"
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
@@ -128,7 +128,7 @@ export default function Testimonials() {
                         return (
                             <motion.article
                                 key={`${item.name}-${index}`}
-                                className="h-full p-7 rounded-[32px] bg-gradient-to-b from-white/10 via-white/[0.05] to-white/[0.03] border border-white/10 hover:border-blue-400/40 transition-all duration-500 shadow-[0_16px_50px_-24px_rgba(37,99,235,0.55)] flex flex-col"
+                                className="h-full p-6 sm:p-7 rounded-[32px] bg-gradient-to-b from-white/10 via-white/[0.05] to-white/[0.03] border border-white/10 hover:border-blue-400/40 transition-all duration-500 shadow-[0_16px_50px_-24px_rgba(37,99,235,0.55)] flex flex-col"
                                 itemScope
                                 itemType="https://schema.org/Review"
                                 variants={itemVariants}

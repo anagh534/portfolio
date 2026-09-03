@@ -114,15 +114,15 @@ export default function WhatWeOffer() {
     };
 
     return (
-        <section className="relative py-24 overflow-hidden" id="services">
+        <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="services">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <motion.div
-                    className="text-center mb-16"
+                    className="text-center mb-10 md:mb-16"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                 >
-                    <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
+                    <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Services</span>
                     </h2>
                     <p className="max-w-2xl mx-auto text-gray-400">
@@ -132,7 +132,7 @@ export default function WhatWeOffer() {
                 </motion.div>
 
                 <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8"
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
@@ -141,7 +141,7 @@ export default function WhatWeOffer() {
                     {services.map((service) => (
                         <motion.div
                             key={service.id}
-                            className="p-8 rounded-[32px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-500 group relative flex flex-col h-full"
+                            className="p-6 sm:p-8 rounded-[32px] bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all duration-500 group relative flex flex-col h-full"
                             variants={itemVariants}
                         >
                             <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500 shadow-lg shadow-blue-500/10">

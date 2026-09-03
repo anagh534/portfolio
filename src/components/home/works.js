@@ -19,16 +19,16 @@ export default function Works() {
     };
 
     return (
-        <section className="relative py-24 overflow-hidden" id="works">
+        <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="works">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <motion.div
-                    className="text-center mb-16"
+                    className="text-center mb-10 md:mb-16"
                     initial={{ opacity: 0, y: 16 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                 >
-                    <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
+                    <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         Selected <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Works</span>
                     </h2>
                     <p className="max-w-2xl mx-auto text-gray-400">
@@ -37,7 +37,7 @@ export default function Works() {
                 </motion.div>
 
                 <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
@@ -73,7 +73,7 @@ export default function Works() {
                                 </div>
                             </div>
 
-                            <div className="p-8">
+                            <div className="p-6 sm:p-8">
                                 <div className="flex items-center justify-between mb-4">
                                     <span className="px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-[10px] font-bold text-blue-400 uppercase tracking-widest">
                                         {project.category}

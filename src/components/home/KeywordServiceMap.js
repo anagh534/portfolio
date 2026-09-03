@@ -226,7 +226,7 @@ export default function KeywordServiceMap() {
     };
 
     return (
-        <section className="relative py-24 overflow-hidden" id="find-services">
+        <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="find-services">
             {/* Background glow effects */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-blue-600/5 blur-[150px] rounded-full -z-10" />
             <div className="absolute bottom-0 right-0 w-[500px] h-[300px] bg-indigo-600/5 blur-[120px] rounded-full -z-10" />
@@ -234,13 +234,13 @@ export default function KeywordServiceMap() {
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 {/* Section Header */}
                 <motion.div
-                    className="text-center mb-16"
+                    className="text-center mb-10 md:mb-16"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    <h2 className="text-4xl md:text-5xl font-black text-white mb-6 leading-tight">
+                    <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6 leading-tight">
                         Looking for a{' '}
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
                             Developer in Kerala?
@@ -256,7 +256,7 @@ export default function KeywordServiceMap() {
 
                 {/* Keyword Grid */}
                 <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
@@ -267,7 +267,7 @@ export default function KeywordServiceMap() {
                         return (
                             <motion.div
                                 key={groupIndex}
-                                className={`p-7 rounded-[32px] bg-white/[0.03] border border-white/[0.06] ${colors.hoverBorder} transition-all duration-500 group relative overflow-hidden`}
+                                className={`p-5 sm:p-7 rounded-[32px] bg-white/[0.03] border border-white/[0.06] ${colors.hoverBorder} transition-all duration-500 group relative overflow-hidden`}
                                 variants={itemVariants}
                             >
                                 {/* Subtle glow on hover */}
@@ -310,7 +310,7 @@ export default function KeywordServiceMap() {
 
                 {/* Bottom CTA */}
                 <motion.div
-                    className="text-center mt-16"
+                    className="text-center mt-10 md:mt-16"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}

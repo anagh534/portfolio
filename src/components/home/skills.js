@@ -65,16 +65,16 @@ export default function Skills() {
     };
 
     return (
-        <section className="relative py-24 overflow-hidden" id="skills">
+        <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="skills">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <motion.div
-                    className="text-center mb-16"
+                    className="text-center mb-10 md:mb-16"
                     initial={{ opacity: 0, y: 16 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                 >
-                    <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
+                    <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         Technical <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Expertise</span>
                     </h2>
                     <p className="max-w-2xl mx-auto text-gray-400">
@@ -83,7 +83,7 @@ export default function Skills() {
                 </motion.div>
 
                 <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8"
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
@@ -92,7 +92,7 @@ export default function Skills() {
                     {skillCategories.map((category, index) => (
                         <motion.div
                             key={index}
-                            className="p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-sm hover:border-blue-500/30 transition-all duration-500 group relative overflow-hidden"
+                            className="p-6 sm:p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-sm hover:border-blue-500/30 transition-all duration-500 group relative overflow-hidden"
                             variants={itemVariants}
                         >
                             <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 blur-3xl rounded-full -z-10 group-hover:bg-blue-500/10 transition-colors"></div>
