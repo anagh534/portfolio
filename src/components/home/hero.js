@@ -36,22 +36,6 @@ export default function Hero() {
                 <Layers size={20} className="group-hover:rotate-12 transition-transform" />
               </a>
             </div>
-
-            {/* Stats — delay 280ms */}
-            <div className="hero-stats grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 pt-8 border-t border-white/10 text-center sm:text-left">
-              <div className="space-y-1">
-                <div className="text-3xl font-black text-white">24+</div>
-                <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Projects Done</p>
-              </div>
-              <div className="space-y-1">
-                <div className="text-3xl font-black text-white">12+</div>
-                <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Technologies</p>
-              </div>
-              <div className="space-y-1">
-                <div className="text-3xl font-black text-white">100%</div>
-                <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Satisfaction</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

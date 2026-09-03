@@ -29,33 +29,33 @@ export default function Testimonials() {
             '@type': 'ProfessionalService',
             name: 'Anagh K R - Freelance Flutter and Web Developer',
             areaServed: [
-    { "@type": "State", "name": "Kerala" },
-    { "@type": "City", "name": "Thiruvananthapuram" },
-    { "@type": "City", "name": "Kollam" },
-    { "@type": "City", "name": "Pathanamthitta" },
-    { "@type": "City", "name": "Alappuzha" },
-    { "@type": "City", "name": "Kottayam" },
-    { "@type": "City", "name": "Idukki" },
-    { "@type": "City", "name": "Ernakulam" },
-    { "@type": "City", "name": "Kochi" },
-    { "@type": "City", "name": "Thrissur" },
-    { "@type": "City", "name": "Palakkad" },
-    { "@type": "City", "name": "Malappuram" },
-    { "@type": "City", "name": "Kozhikode" },
-    { "@type": "City", "name": "Wayanad" },
-    { "@type": "City", "name": "Kannur" },
-    { "@type": "City", "name": "Kasaragod" },
-    { "@type": "Country", "name": "United Arab Emirates" },
-    { "@type": "City", "name": "Dubai" },
-    { "@type": "Country", "name": "Canada" },
-    { "@type": "Country", "name": "United Kingdom" },
-    { "@type": "Country", "name": "Saudi Arabia" },
-    { "@type": "Country", "name": "Oman" },
-    { "@type": "Country", "name": "Qatar" },
-    { "@type": "City", "name": "Chennai" },
-    { "@type": "City", "name": "Coimbatore" },
-    { "@type": "City", "name": "Mangalore" }
-  ],
+                { "@type": "State", "name": "Kerala" },
+                { "@type": "City", "name": "Thiruvananthapuram" },
+                { "@type": "City", "name": "Kollam" },
+                { "@type": "City", "name": "Pathanamthitta" },
+                { "@type": "City", "name": "Alappuzha" },
+                { "@type": "City", "name": "Kottayam" },
+                { "@type": "City", "name": "Idukki" },
+                { "@type": "City", "name": "Ernakulam" },
+                { "@type": "City", "name": "Kochi" },
+                { "@type": "City", "name": "Thrissur" },
+                { "@type": "City", "name": "Palakkad" },
+                { "@type": "City", "name": "Malappuram" },
+                { "@type": "City", "name": "Kozhikode" },
+                { "@type": "City", "name": "Wayanad" },
+                { "@type": "City", "name": "Kannur" },
+                { "@type": "City", "name": "Kasaragod" },
+                { "@type": "Country", "name": "United Arab Emirates" },
+                { "@type": "City", "name": "Dubai" },
+                { "@type": "Country", "name": "Canada" },
+                { "@type": "Country", "name": "United Kingdom" },
+                { "@type": "Country", "name": "Saudi Arabia" },
+                { "@type": "Country", "name": "Oman" },
+                { "@type": "Country", "name": "Qatar" },
+                { "@type": "City", "name": "Chennai" },
+                { "@type": "City", "name": "Coimbatore" },
+                { "@type": "City", "name": "Mangalore" }
+            ],
             aggregateRating: {
                 '@type': 'AggregateRating',
                 ratingValue: averageRating,
@@ -102,10 +102,6 @@ export default function Testimonials() {
                     viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                 >
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-4 uppercase tracking-widest">
-                        <MessageSquareQuote size={14} />
-                        <span>Client Reviews</span>
-                    </div>
                     <h2 id="reviews-heading" className="text-4xl md:text-5xl font-black text-white mb-6">
                         Client <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Reviews</span>
                     </h2>
