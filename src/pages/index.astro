@@ -118,11 +118,11 @@ const faqSchema = {
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
 
   <Hero />
-  <About client:visible />
+  <About client:visible={{ rootMargin: "200px" }} />
   <!--<Skills client:visible />-->
-  <Works client:visible={{ rootMargin: "400px" }} />
-  <Testimonials client:visible={{ rootMargin: "400px" }} />
-  <WhatWeOffer client:visible />
-  <WhyChooseMe client:visible />
-  <KeywordServiceMap client:visible />
+  <Works client:visible={{ rootMargin: "200px" }} />
+  <Testimonials client:visible={{ rootMargin: "200px" }} />
+  <WhatWeOffer client:visible={{ rootMargin: "200px" }} />
+  <WhyChooseMe client:visible={{ rootMargin: "200px" }} />
+  <KeywordServiceMap client:visible={{ rootMargin: "200px" }} />
 </BaseLayout>

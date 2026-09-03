@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import {
     Search,
     ArrowRight,
@@ -15,6 +16,8 @@ import {
     MapPin,
 } from 'lucide-react';
 
+const springTransition = { duration: 0.38, ease: [0.16, 1, 0.3, 1] };
+
 const keywordServiceGroups = [
     {
         category: "Website Development",
@@ -30,98 +33,68 @@ const keywordServiceGroups = [
         ],
     },
     {
-        category: "MERN Stack Development",
-        icon: <Layers size={20} />,
-        color: "indigo",
-        keywords: [
-            { text: "MERN Stack Development Services India", href: "/mern-stack-development/" },
-            { text: "Full-Stack JavaScript Developer Kerala", href: "/mern-stack-development/" },
-            { text: "Hire MERN Stack Developers in Kerala", href: "/mern-stack-development/" },
-            { text: "Custom Web Application Development Kerala", href: "/mern-stack-development/" },
-            { text: "MongoDB React Node.js Developer Kochi", href: "/mern-stack-development/" },
-        ],
-    },
-    {
-        category: "React & Next.js Development",
-        icon: <Code size={20} />,
-        color: "cyan",
-        keywords: [
-            { text: "React.js Development Company Kerala", href: "/react-development/" },
-            { text: "SEO-Friendly React Web Development", href: "/react-development/" },
-            { text: "Next.js Development Services India", href: "/nextjs-development/" },
-            { text: "Best React Developer in Kochi", href: "/react-development/" },
-            { text: "Server-Side Rendering Next.js Kerala", href: "/nextjs-development/" },
-        ],
-    },
-    {
         category: "Mobile App Development",
         icon: <Smartphone size={20} />,
-        color: "violet",
+        color: "indigo",
         keywords: [
-            { text: "Best Mobile App Development Company Kerala", href: "/mobile-app-development/" },
-            { text: "Flutter App Development Services Kerala", href: "/flutter-app-development/" },
-            { text: "iOS & Android App Developer Kochi", href: "/mobile-app-development/" },
-            { text: "Cross-Platform App Development India", href: "/flutter-app-development/" },
-            { text: "Hire App Developer in Kerala", href: "/mobile-app-development/" },
-            { text: "Best App Development Company for Startups Kerala", href: "/flutter-app-development/" },
+            { text: "Best Mobile App Development Company in Kerala", href: "/mobile-app-development/" },
+            { text: "Flutter App Developer in Kochi", href: "/flutter-app-development/" },
+            { text: "Mobile App Developers in Calicut", href: "/flutter-app-development/" },
+            { text: "Cross-Platform App Development Kerala", href: "/mobile-app-development/" },
+            { text: "Android & iOS Developer Kerala", href: "/flutter-app-development/" },
+            { text: "Hire Flutter Developer Kerala", href: "/flutter-app-development/" },
         ],
     },
     {
-        category: "E-Commerce Development",
+        category: "MERN Stack Development",
+        icon: <Layers size={20} />,
+        color: "cyan",
+        keywords: [
+            { text: "MERN Stack Developer in Kerala", href: "/mern-stack-development/" },
+            { text: "React JS Developer Kochi", href: "/react-development/" },
+            { text: "Node JS Backend Developer Kerala", href: "/nodejs-development/" },
+            { text: "Next.js Developer in Kerala", href: "/nextjs-development/" },
+            { text: "Full Stack JavaScript Developer Kerala", href: "/mern-stack-development/" },
+            { text: "MERN Stack Development Services", href: "/mern-stack-development/" },
+        ],
+    },
+    {
+        category: "E-Commerce Solutions",
         icon: <ShoppingCart size={20} />,
         color: "emerald",
         keywords: [
-            { text: "E-Commerce Website Development Company Kochi", href: "/ecommerce-development/" },
-            { text: "Custom Online Store Development Kerala", href: "/ecommerce-development/" },
-            { text: "Shopping Website Development India", href: "/ecommerce-development/" },
-            { text: "Best E-Commerce Developer in Kerala", href: "/ecommerce-development/" },
-            { text: "Secure Payment Gateway Integration Kerala", href: "/ecommerce-development/" },
+            { text: "E-Commerce Website Development Kerala", href: "/ecommerce-development/" },
+            { text: "Online Store Builder Kerala", href: "/ecommerce-development/" },
+            { text: "Custom E-Commerce Platform Kochi", href: "/ecommerce-development/" },
+            { text: "Payment Gateway Integration Kerala", href: "/ecommerce-development/" },
+            { text: "Razorpay Integration Specialist", href: "/ecommerce-development/" },
+            { text: "Shopping App Developer Kerala", href: "/ecommerce-development/" },
         ],
     },
     {
         category: "Backend & API Development",
         icon: <Server size={20} />,
-        color: "orange",
+        color: "violet",
         keywords: [
-            { text: "Node.js Development Services Kerala", href: "/nodejs-development/" },
-            { text: "NestJS Developer for Enterprise Projects", href: "/nestjs-development/" },
-            { text: "Laravel Development Company India", href: "/laravel-development/" },
-            { text: "RESTful API Development Services Kerala", href: "/nodejs-development/" },
-            { text: "Scalable Backend Development Kochi", href: "/nestjs-development/" },
+            { text: "NestJS Developer Kerala", href: "/nestjs-development/" },
+            { text: "Laravel Developer in Kerala", href: "/laravel-development/" },
+            { text: "REST API Development Services", href: "/nodejs-development/" },
+            { text: "Cloud Database Architecture", href: "/mern-stack-development/" },
+            { text: "Microservices Developer Kochi", href: "/nodejs-development/" },
+            { text: "Backend Developer Freelance Kerala", href: "/nodejs-development/" },
         ],
     },
     {
-        category: "Dating & Chat Apps",
+        category: "Real-Time & Custom Apps",
         icon: <MessageCircleMore size={20} />,
         color: "pink",
         keywords: [
             { text: "Chat App Development Company Kerala", href: "/chat-app-development/" },
-            { text: "Realtime Messaging App Developer India", href: "/chat-app-development/" },
-            { text: "Dating App Development Services Kerala", href: "/dating-app-development/" },
-            { text: "Social App Development with Moderation", href: "/dating-app-development/" },
-        ],
-    },
-    {
-        category: "Web Design & UI/UX",
-        icon: <Palette size={20} />,
-        color: "rose",
-        keywords: [
-            { text: "Best Web Design Agency Kerala", href: "/web-design/" },
-            { text: "Mobile-First Web Design Services Kochi", href: "/web-design/" },
-            { text: "UI/UX Design & Development Kerala", href: "/web-design/" },
-            { text: "Responsive Website Design India", href: "/web-design/" },
-            { text: "Website Redesign Services Kerala", href: "/web-design/" },
-        ],
-    },
-    {
-        category: "Remote & NRI Services",
-        icon: <MapPin size={20} />,
-        color: "teal",
-        keywords: [
-            { text: "Hire Kerala Developer Remotely for UAE", href: "/hire-kerala-developer-remotely/" },
-            { text: "Remote Flutter & MERN Developer India", href: "/hire-kerala-developer-remotely/" },
-            { text: "Indian Web Developer for UK & Canada", href: "/hire-kerala-developer-remotely/" },
-            { text: "NRI App Development Partner Kerala", href: "/hire-kerala-developer-remotely/" },
+            { text: "Dating App Developer Kerala", href: "/dating-app-development/" },
+            { text: "Real-Time Web Application Developer", href: "/chat-app-development/" },
+            { text: "Socket.io WebRTC Specialist", href: "/chat-app-development/" },
+            { text: "Custom SaaS Product Developer", href: "/services/" },
+            { text: "Hire Dedicated Developer Kerala", href: "/hire-kerala-developer-remotely/" },
         ],
     },
 ];
@@ -218,8 +191,14 @@ export default function KeywordServiceMap() {
             <div className="absolute bottom-0 right-0 w-[500px] h-[300px] bg-indigo-600/5 blur-[120px] rounded-full -z-10" />
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                {/* Section Header */}
-                <div className="text-center mb-10 md:mb-16">
+                {/* Section Header - glides in from TOP */}
+                <motion.div
+                    className="text-center mb-10 md:mb-16"
+                    initial={{ opacity: 0, y: -24 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.08 }}
+                    transition={springTransition}
+                >
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6 leading-tight">
                         Looking for a{' '}
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
@@ -232,15 +211,19 @@ export default function KeywordServiceMap() {
                         <strong className="text-white">e-commerce development expert</strong> — explore our specialized services
                         matched to exactly what you need.
                     </p>
-                </div>
+                </motion.div>
 
-                {/* Keyword Grid */}
+                {/* Keyword Grid with rapid bottom wave */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                     {keywordServiceGroups.map((group, groupIndex) => {
                         const colors = colorMap[group.color] || colorMap.blue;
                         return (
-                            <div
+                            <motion.div
                                 key={groupIndex}
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, amount: 0.08 }}
+                                transition={{ ...springTransition, delay: groupIndex * 0.03 }}
                                 className={`p-5 sm:p-7 rounded-[32px] bg-white/[0.03] border border-white/[0.06] ${colors.hoverBorder} transition-all duration-300 group relative overflow-hidden`}
                             >
                                 {/* Subtle glow on hover */}
@@ -276,13 +259,19 @@ export default function KeywordServiceMap() {
                                         ))}
                                     </div>
                                 </div>
-                            </div>
+                            </motion.div>
                         );
                     })}
                 </div>
 
-                {/* Bottom CTA */}
-                <div className="text-center mt-10 md:mt-16">
+                {/* Bottom CTA - glides up from BOTTOM */}
+                <motion.div
+                    className="text-center mt-10 md:mt-16"
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.08 }}
+                    transition={springTransition}
+                >
                     <p className="text-gray-500 text-sm mb-6 max-w-2xl mx-auto">
                         Can't find what you're looking for? I offer custom solutions for businesses across{' '}
                         <strong className="text-gray-300">Kochi, Calicut, Trivandrum, Thrissur, Kannur, Kasaragod</strong>,
@@ -305,7 +294,7 @@ export default function KeywordServiceMap() {
                             <span>Get Free Consultation</span>
                         </a>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </section>
     );

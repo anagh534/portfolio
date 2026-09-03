@@ -1,19 +1,34 @@
+import { motion } from 'framer-motion';
 import { ArrowRight, Layers, Zap, ShieldCheck, Users, Code2, CheckCircle2, MapPin } from 'lucide-react';
+
+const springTransition = { duration: 0.4, ease: [0.16, 1, 0.3, 1] };
 
 export default function About() {
     return (
         <section className="relative py-14 sm:py-20 md:py-24 overflow-hidden" id="about">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                {/* Section Header */}
-                <div className="text-center mb-10 md:mb-16">
+                {/* Section Header - glides in from TOP */}
+                <motion.div
+                    className="text-center mb-10 md:mb-16"
+                    initial={{ opacity: 0, y: -24 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.08 }}
+                    transition={springTransition}
+                >
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
                         About <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Me</span>
                     </h2>
-                </div>
+                </motion.div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
-                    {/* Left Column: Profile Card Showcase */}
-                    <div className="lg:col-span-5 relative flex justify-center">
+                    {/* Left Column: Profile Card Showcase - glides in from LEFT SIDE */}
+                    <motion.div
+                        className="lg:col-span-5 relative flex justify-center"
+                        initial={{ opacity: 0, x: -50 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true, amount: 0.08 }}
+                        transition={{ ...springTransition, duration: 0.45 }}
+                    >
                         <div className="relative group w-full max-w-[400px]">
                             {/* Ambient Glow */}
                             <div className="absolute -top-6 -left-6 w-48 h-48 bg-blue-600/15 blur-3xl rounded-full -z-10" />
@@ -72,10 +87,16 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
 
-                    {/* Right Column: Story & Quality Pillars */}
-                    <div className="lg:col-span-7 space-y-6">
+                    {/* Right Column: Story & Quality Pillars - glides in from RIGHT SIDE */}
+                    <motion.div
+                        className="lg:col-span-7 space-y-6"
+                        initial={{ opacity: 0, x: 50 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true, amount: 0.08 }}
+                        transition={{ ...springTransition, duration: 0.45 }}
+                    >
                         <div>
                             <h3 className="text-2xl sm:text-3xl font-bold text-white leading-snug mb-3">
                                 From a basic HP laptop during lockdown to <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">engineering global products</span>.
@@ -89,6 +110,49 @@ export default function About() {
                             <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
                                 Today, I bring that combined international agency and product-engineering discipline full-time to freelancing—crafting high-performance websites, scalable web applications, and fluid mobile apps for ambitious founders in Kerala and worldwide.
                             </p>
+                        </div>
+
+                        {/* 4 Delivery & Engineering Pillars */}
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 pt-1">
+                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-blue-500/40 hover:-translate-y-0.5 transition-all duration-200">
+                                <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-all duration-200">
+                                    <Layers size={18} />
+                                </div>
+                                <div>
+                                    <div className="text-white font-bold text-sm">Full-Lifecycle Delivery</div>
+                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Complete execution across frontend, backend, database, and cloud setup.</div>
+                                </div>
+                            </div>
+
+                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-indigo-500/40 hover:-translate-y-0.5 transition-all duration-200">
+                                <div className="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 shrink-0 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-200">
+                                    <Zap size={18} />
+                                </div>
+                                <div>
+                                    <div className="text-white font-bold text-sm">High Performance &amp; SEO</div>
+                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Sub-second load times, 95+ Core Web Vitals, and search visibility.</div>
+                                </div>
+                            </div>
+
+                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-cyan-500/40 hover:-translate-y-0.5 transition-all duration-200">
+                                <div className="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 shrink-0 group-hover:bg-cyan-600 group-hover:text-white transition-all duration-200">
+                                    <ShieldCheck size={18} />
+                                </div>
+                                <div>
+                                    <div className="text-white font-bold text-sm">Clean &amp; Maintainable Code</div>
+                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Modular architecture designed for rapid iteration and long-term scaling.</div>
+                                </div>
+                            </div>
+
+                            <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex items-start gap-3.5 group hover:border-emerald-500/40 hover:-translate-y-0.5 transition-all duration-200">
+                                <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-200">
+                                    <Users size={18} />
+                                </div>
+                                <div>
+                                    <div className="text-white font-bold text-sm">Direct Collaboration</div>
+                                    <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">Work directly with the senior engineer building your product. Zero agency fluff.</div>
+                                </div>
+                            </div>
                         </div>
 
                         {/* Action Buttons */}
@@ -107,7 +171,7 @@ export default function About() {
                                 <span>Read Full Journey</span>
                             </a>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </section>
