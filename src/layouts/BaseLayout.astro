@@ -52,15 +52,17 @@ const toAbsoluteUrl = (value) => {
 };
 const alternateLanguages = metadata.alternates?.languages || globalMetadata.alternates?.languages || {};
 
-const og = metadata.openGraph || globalMetadata.openGraph || {};
-const twitter = metadata.twitter || globalMetadata.twitter || {};
+const og = { ...(globalMetadata.openGraph || {}), ...(metadata.openGraph || {}) };
+const twitter = { ...(globalMetadata.twitter || {}), ...(metadata.twitter || {}) };
 
 const ogImage = Array.isArray(og.images)
   ? og.images[0]?.url || og.images[0]
   : og.images;
-const twitterImage = Array.isArray(twitter.images)
+const twitterImageRaw = Array.isArray(twitter.images)
   ? twitter.images[0]
   : twitter.images;
+const twitterImage = typeof twitterImageRaw === "string" ? twitterImageRaw : twitterImageRaw?.url;
+
 const resolvedOgImage = toAbsoluteUrl(typeof ogImage === "string" ? ogImage : ogImage?.url);
 const resolvedTwitterImage = toAbsoluteUrl(twitterImage) || resolvedOgImage;
 const ogUrl = ensureNormalizedPageUrl(og.url || canonical);
@@ -127,6 +129,8 @@ const appleTouchIcon = icons.apple || fallbackPngIcon;
     {resolvedOgImage && <meta property="og:image" content={resolvedOgImage} />}
 
     <meta name="twitter:card" content={twitter.card || "summary_large_image"} />
+    {twitter.site && <meta name="twitter:site" content={twitter.site} />}
+    {twitter.creator && <meta name="twitter:creator" content={twitter.creator} />}
     <meta name="twitter:title" content={twitter.title || title} />
     <meta name="twitter:description" content={twitter.description || description} />
     {resolvedTwitterImage && (
