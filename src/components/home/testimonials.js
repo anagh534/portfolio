@@ -4,15 +4,17 @@ import testimonialsData from '../../../public/data/testimonials.json';
 
 function Stars({ rating = 5 }) {
     return (
-        <div className="flex items-center gap-1" role="img" aria-label={`Rated ${rating} out of 5`}>
-            {Array.from({ length: 5 }).map((_, idx) => (
-                <Star
-                    key={idx}
-                    size={14}
-                    aria-hidden="true"
-                    className={idx < rating ? 'text-amber-400 fill-amber-400' : 'text-gray-600'}
-                />
-            ))}
+        <div className="inline-flex items-center gap-1">
+            <span className="sr-only">{`Rated ${rating} out of 5`}</span>
+            <div className="flex items-center gap-1" aria-hidden="true">
+                {Array.from({ length: 5 }).map((_, idx) => (
+                    <Star
+                        key={idx}
+                        size={14}
+                        className={idx < rating ? 'text-amber-400 fill-amber-400' : 'text-gray-600'}
+                    />
+                ))}
+            </div>
         </div>
     );
 }

@@ -5,7 +5,7 @@ This document tracks SEO maintenance and updates for the portfolio website.
 
 ## Latest Updates
 - **2026-11-24**: Resolved Agentic Browsing, WebMCP, and Accessibility Tree Audit issues.
-  - Fixed ARIA conformance in `src/components/home/testimonials.js`: added `role="img"` to the star rating container (`<div role="img" aria-label="Rated ${rating} out of 5">`) and added `aria-hidden="true"` to decorative child star icons to comply with W3C permitted ARIA attributes on non-generic elements.
+  - Fixed ARIA conformance in `src/components/home/testimonials.js`: replaced `aria-label` on generic `<div>` with semantic `<span class="sr-only">Rated ${rating} out of 5</span>` text and marked the visual stars container with `aria-hidden="true"`, completely eliminating prohibited ARIA attribute audit errors while ensuring 100% accessible naming for screen readers and AI crawlers. Added `.sr-only` utility in `src/styles/global.css`.
   - Rewrote `public/llms.txt` per the official llmstxt.org specification: formatted with a single `# H1` header, blockquote summary, and structured sections with markdown links (`[Anchor](URL): Description`) covering all core services, portfolio, location hubs, and technical blog guides.
 - **2026-11-24**: Published 4 new strategic 2027-targeted blog posts to capture early search intent.
   - Published `"Best Web Development Stack in 2027: Next.js vs MERN Guide"` (`/blog/best-web-development-stack-kerala-2027/`) targeting `best web development stack 2027`, `website developer in kerala`, `mern stack developer kerala`, and `nextjs developer kerala`.
