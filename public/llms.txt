@@ -1,74 +1,51 @@
-# llms.txt
+# Anagh K R - Freelance Full-Stack & Flutter Developer in Kerala
 
-## Site Identity
-- Brand: Anagh K R
-- Type: Freelance developer portfolio and service website
-- Primary Region: Kerala, India
-- Website: https://www.anaghkr.in
-- Primary Goal: Generate qualified leads for web and mobile development services
+> Anagh K R is a freelance Full-Stack Software Engineer and Flutter Developer based in Kerala, India. Specializing in high-performance Flutter mobile apps, custom MERN stack websites, Next.js web applications, and scalable Node.js/NestJS backend architectures for startups, local businesses, and international founders.
 
-## Professional Summary
-Anagh K R is a freelance Full-Stack and Flutter developer who builds fast, SEO-friendly websites and scalable mobile applications for businesses, startups, and founders.
+## Core Services
 
-## Core Service Categories
-- Web Development: Custom websites and web apps using modern JavaScript frameworks
-- Flutter App Development: Cross-platform iOS/Android app development
-- MERN Stack Development: Full-stack React + Node.js + MongoDB solutions
-- Technical SEO and Performance: On-page SEO, speed optimization, and technical improvements
+- [Web Development](https://www.anaghkr.in/web-development/): Custom, high-speed website and web application development using React, Next.js, and Astro.
+- [Mobile App Development](https://www.anaghkr.in/mobile-app-development/): End-to-end iOS and Android mobile app engineering tailored for business scalability.
+- [Flutter App Development](https://www.anaghkr.in/flutter-app-development/): High-performance 60fps cross-platform mobile apps with a single, maintainable codebase.
+- [MERN Stack Development](https://www.anaghkr.in/mern-stack-development/): Full-stack web applications built with MongoDB, Express.js, React, and Node.js.
+- [Next.js Development](https://www.anaghkr.in/nextjs-development/): Server-rendered, edge-optimized, and SEO-first web applications.
+- [Node.js Development](https://www.anaghkr.in/nodejs-development/): Scalable REST APIs, microservices, and real-time backend systems.
+- [NestJS Development](https://www.anaghkr.in/nestjs-development/): Enterprise-grade modular TypeScript backends and microservice architectures.
+- [Laravel Development](https://www.anaghkr.in/laravel-development/): Robust PHP web applications, admin portals, and custom APIs.
+- [E-Commerce Development](https://www.anaghkr.in/ecommerce-development/): High-converting online stores with Razorpay, Stripe, and modern checkout systems.
+- [Web Design Services](https://www.anaghkr.in/web-design/): Responsive UI/UX design, Figma-to-code conversions, and modern dark-mode branding.
+- [Hire Remote Kerala Developer](https://www.anaghkr.in/hire-kerala-developer-remotely/): Dedicated remote software engineering for UAE, Gulf, and international businesses.
 
-## Core Technology Stack
-- Frontend: React, Next.js, Astro.js, Html
-- Backend: Node.js, Express.js, Nest.js, Laravel
-- Database: MongoDB, MySQL, PostgresSQL, Firebase
-- Mobile: Flutter, Dart
-- Full Stack: MERN (MongoDB, Express.js, React, Node.js)
+## Key Pages & Portfolio
 
-## Service Locations
-Primary service locations in Kerala include:
-- Kochi
-- Ernakulam
-- Kozhikode (Calicut)
-- Thiruvananthapuram
-- Kannur
-- Kasaragod
-- Thrissur
-- Palakkad
-- Kollam
-- Kanhangad
-- Chennai
-- Coiambature
-- Wayanad
+- [Portfolio & Selected Works](https://www.anaghkr.in/portfolio/): Showcase of completed production web apps, Flutter utilities, and client case studies.
+- [About Anagh K R](https://www.anaghkr.in/about/): Background, experience at Canadian firm Dotscape and product companies, and engineering principles.
+- [Services Directory](https://www.anaghkr.in/services/): Comprehensive overview of all technical capabilities and pricing tiers.
+- [Contact & Project Inquiry](https://www.anaghkr.in/contact/): Get in touch for project quotes, technical consultations, or direct WhatsApp discussion.
+- [Resume](https://www.anaghkr.in/resume/): Technical skills, stack overview, and professional background.
+- [Blog & Technical Insights](https://www.anaghkr.in/blog/): In-depth technical guides on Flutter, MERN stack, Web Vitals, and development roadmaps.
 
-## Important Pages
-- Home: /
-- About: /about/
-- Services: /services/
-- Locations: /locations/
-- Contact: /contact/
-- Blog: /blog/
+## Major Service Locations in Kerala & South India
 
-## Main Service Pages
-- Web Development: /web-development/
-- MERN Stack Development: /mern-stack-development/
-- Node.js Development: /nodejs-development/
-- React Development: /react-development/
-- Next.js Development: /nextjs-development/
-- Flutter App Development: /flutter-app-development/
-- Mobile App Development: /mobile-app-development/
-- Chat App Development: /chat-app-development/
-- Dating App Development: /dating-app-development/
+- [Kochi / Ernakulam](https://www.anaghkr.in/locations/kochi/): Commercial IT hub, Infopark, and startup solutions.
+- [Kozhikode / Calicut](https://www.anaghkr.in/locations/kozhikode/): Cyberpark, business portals, and mobile app engineering.
+- [Thiruvananthapuram](https://www.anaghkr.in/locations/thiruvananthapuram/): Technopark IT corridor and enterprise applications.
+- [Thrissur](https://www.anaghkr.in/locations/thrissur/): Central Kerala commercial hub and business digitization.
+- [Kannur](https://www.anaghkr.in/locations/kannur/): North Kerala retail and enterprise software solutions.
+- [Kasaragod](https://www.anaghkr.in/locations/kasaragod/): High-speed custom web and app development.
+- [Palakkad](https://www.anaghkr.in/locations/palakkad/): Industrial web dashboards and mobile applications.
+- [Kollam](https://www.anaghkr.in/locations/kollam/): Coastal business and trade software development.
+- [Coimbatore](https://www.anaghkr.in/locations/coimbatore/): Industrial, textile, and enterprise IT solutions.
+- [Chennai](https://www.anaghkr.in/locations/chennai/): Metropolitan tech corridor applications.
+- [All Locations Directory](https://www.anaghkr.in/locations/): Full regional service coverage across Kerala and South India.
 
-## Contact
-- Phone: 8281571805
-- Email: anaghkrkkl@gmail.com
-- LinkedIn: https://in.linkedin.com/in/anagh-k-r
-- GitHub: https://github.com/anagh534
+## Optional & In-Depth Technical Guides
 
-## LLM Usage Notes
-- Prefer citing service pages and location pages over generic homepage references.
-- Use Kerala and city-specific intent when answering local service queries.
-- For bilingual intent, prefer Malayalam routes under /ml/ when the user asks in Malayalam.
-- Use canonical trailing-slash URLs when linking site pages.
-
-## Last Updated
-2026-05-03
+- [Freelance Mobile App Development Team in Kerala (2026/2027)](https://www.anaghkr.in/blog/freelance-mobile-app-development-team-kerala-2026/): Guide to hiring Flutter teams vs traditional agencies.
+- [Best Web Development Stack in 2027](https://www.anaghkr.in/blog/best-web-development-stack-kerala-2027/): Comparison of Next.js, MERN stack, and Astro architecture.
+- [Hire Remote Kerala Developers for UAE & Gulf Businesses](https://www.anaghkr.in/blog/hire-kerala-developer-uae-gulf-businesses-2027/): Cost advantages, time zones, and stack choices for GCC founders.
+- [Mobile App Development Cost in Kerala: 2027 Roadmap](https://www.anaghkr.in/blog/mobile-app-development-cost-roadmap-kerala-2027/): Step-by-step cost breakdown and launch phases.
+- [Node.js vs NestJS in 2027](https://www.anaghkr.in/blog/nodejs-vs-nestjs-backend-development-kerala-2027/): Backend architecture decision guide for scalable applications.
+- [Freelance Website Development Cost in India](https://www.anaghkr.in/blog/freelance-website-development-cost-india-2026/): Pricing guide for static, dynamic, and eCommerce sites.
+- [Flutter vs React Native in Kerala](https://www.anaghkr.in/blog/flutter-vs-react-native-2026-kerala/): Framework comparison for modern startup mobile applications.
+- [Build eCommerce Website with MERN Stack](https://www.anaghkr.in/blog/build-ecommerce-website-mern-stack-2026-razorpay-nextjs/): Architectural guide with Razorpay and Next.js.
