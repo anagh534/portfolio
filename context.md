@@ -1,9 +1,35 @@
 # Site-wide SEO Audit Context
-Last Updated: 2026-11-24 19:20:00
+Last Updated: 2026-11-24 20:25:00
 
 This document tracks SEO maintenance and updates for the portfolio website.
 
 ## Latest Updates
+- **2026-11-24**: Upgraded `llms.txt` and authored comprehensive `llms-full.txt` for top-tier Generative Engine Optimization (GEO) & AI Search Ranking.
+  - Authored advanced, keyword-dense `public/llms.txt` adhering strictly to the `llmstxt.org` standard: single authoritative H1, rich semantic blockquote, structured sections with markdown links (`[Anchor](URL): Context`) covering all 64 site routes, direct contact vectors, verified track record metrics (Dotscape background, 3+ yrs, 24+ projects), and an extensive FAQ section engineered for AI query citation.
+  - Created exhaustive full-context companion file `public/llms-full.txt` containing full-text service deliverables, architectural breakdowns, pricing benchmarks (₹ and AED), technology matrices, case study technical specifications (DamMonitor, QuickTransfer), and full-text location profiles for Perplexity, ChatGPT Search, Claude, Gemini, and Google SGE crawlers.
+  - Cross-referenced both discovery assets in `public/robots.txt` and synchronized with static production build.
+- **2026-11-24**: Added 8 Specialized Software Solutions and 8 GCC / Gulf Location Hub Pages.
+  - Built dedicated, high-converting SEO landing pages for specialized software solutions with custom schemas, interactive FAQs, tech stacks, and conversion funnels:
+    - CRM Software (`/crm-software/`)
+    - ERP Software (`/erp-software/`)
+    - Restaurant Management Software (`/restaurant-software/`)
+    - Billing & Invoicing Software (`/billing-software/`)
+    - Attendance Tracking System (`/attendance-tracking-system/`)
+    - Custom AI Chatbots (`/ai-chatbots/`)
+    - WhatsApp AI Automation Bot (`/whatsapp-ai-bot/`)
+    - eCommerce Software Solutions (`/ecommerce-software/`)
+  - Built 8 GCC / Gulf location hub pages tailored to attract high-value UAE & Gulf clients:
+    - Dubai, UAE (`/locations/dubai/`)
+    - Abu Dhabi, UAE (`/locations/abu-dhabi/`)
+    - Sharjah, UAE (`/locations/sharjah/`)
+    - Doha, Qatar (`/locations/doha/`)
+    - Riyadh, Saudi Arabia (`/locations/riyadh/`)
+    - Muscat, Oman (`/locations/muscat/`)
+    - Kuwait City, Kuwait (`/locations/kuwait/`)
+    - Manama, Bahrain (`/locations/bahrain/`)
+  - Updated `src/components/footer/footer.js` with direct navigation links under "Specialized Solutions" and "GCC & Gulf Hubs".
+  - Updated `public/llms.txt` with formatted markdown links and descriptions for all 16 new URLs following the llmstxt.org specification.
+  - Added all 16 routes to `public/sitemap.xml` with trailing slashes, priority 0.75–0.85, and weekly change frequencies.
 - **2026-11-24**: Resolved Agentic Browsing, WebMCP, and Accessibility Tree Audit issues.
   - Fixed ARIA conformance in `src/components/home/testimonials.js`: replaced `aria-label` on generic `<div>` with semantic `<span class="sr-only">Rated ${rating} out of 5</span>` text and marked the visual stars container with `aria-hidden="true"`, completely eliminating prohibited ARIA attribute audit errors while ensuring 100% accessible naming for screen readers and AI crawlers. Added `.sr-only` utility in `src/styles/global.css`.
   - Rewrote `public/llms.txt` per the official llmstxt.org specification: formatted with a single `# H1` header, blockquote summary, and structured sections with markdown links (`[Anchor](URL): Description`) covering all core services, portfolio, location hubs, and technical blog guides.

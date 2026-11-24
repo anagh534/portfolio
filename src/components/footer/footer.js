@@ -280,6 +280,14 @@ const Footer = () => {
                                     <nav aria-label="Specialized Solutions">
                                         <ul className="space-y-3 pb-4 lg:pb-0">
                                             {[
+                                                { label: 'CRM Software', href: '/crm-software/' },
+                                                { label: 'ERP Software', href: '/erp-software/' },
+                                                { label: 'Restaurant POS', href: '/restaurant-software/' },
+                                                { label: 'Billing Software', href: '/billing-software/' },
+                                                { label: 'Attendance System', href: '/attendance-tracking-system/' },
+                                                { label: 'AI Chatbots', href: '/ai-chatbots/' },
+                                                { label: 'WhatsApp AI Bot', href: '/whatsapp-ai-bot/' },
+                                                { label: 'eCommerce Software', href: '/ecommerce-software/' },
                                                 { label: 'Chat Apps', href: '/chat-app-development/' },
                                                 { label: 'Dating Apps', href: '/dating-app-development/' },
                                             ].map(item => (
@@ -306,31 +314,58 @@ const Footer = () => {
                             </summary>
                             <div className="fd-body">
                                 <div className="fd-inner">
-                                    <nav aria-label="Service locations in Kerala, Karnataka, and Tamil Nadu">
-                                        <div className="grid grid-cols-2 gap-x-2 gap-y-3 pb-4 lg:pb-0">
-                                            {[
-                                                { label: 'Kochi', href: '/locations/kochi/' },
-                                                { label: 'Trivandrum', href: '/locations/thiruvananthapuram/' },
-                                                { label: 'Kozhikode', href: '/locations/kozhikode/' },
-                                                { label: 'Thrissur', href: '/locations/thrissur/' },
-                                                { label: 'Ernakulam', href: '/locations/ernakulam/' },
-                                                { label: 'Calicut', href: '/locations/calicut/' },
-                                                { label: 'Kannur', href: '/locations/kannur/' },
-                                                { label: 'Kasaragod', href: '/locations/kasaragod/' },
-                                                { label: 'Kanhangad', href: '/locations/kanhangad/' },
-                                                { label: 'Palakkad', href: '/locations/palakkad/' },
-                                                { label: 'Kollam', href: '/locations/kollam/' },
-                                                { label: 'Mangalore', href: '/locations/mangalore/' },
-                                                { label: 'Coimbatore', href: '/locations/coimbatore/' },
-                                                { label: 'Chennai', href: '/locations/chennai/' },
-                                            ].map(item => (
-                                                <div key={item.href} className="flex items-center gap-1.5">
-                                                    <span className="w-1 h-1 rounded-full bg-blue-500/40 shrink-0"></span>
-                                                    <a href={item.href} className="text-xs text-gray-400 hover:text-white transition-colors">
-                                                        {item.label}
-                                                    </a>
+                                    <nav aria-label="Service locations in GCC and India">
+                                        <div className="space-y-4 pb-4 lg:pb-0">
+                                            <div>
+                                                <span className="text-[10px] font-bold uppercase tracking-wider text-blue-400 block mb-2">GCC & Gulf Hubs</span>
+                                                <div className="grid grid-cols-2 gap-x-2 gap-y-2">
+                                                    {[
+                                                        { label: 'Dubai', href: '/locations/dubai/' },
+                                                        { label: 'Abu Dhabi', href: '/locations/abu-dhabi/' },
+                                                        { label: 'Sharjah', href: '/locations/sharjah/' },
+                                                        { label: 'Doha, Qatar', href: '/locations/doha/' },
+                                                        { label: 'Riyadh, KSA', href: '/locations/riyadh/' },
+                                                        { label: 'Muscat, Oman', href: '/locations/muscat/' },
+                                                        { label: 'Kuwait City', href: '/locations/kuwait/' },
+                                                        { label: 'Bahrain', href: '/locations/bahrain/' },
+                                                    ].map(item => (
+                                                        <div key={item.href} className="flex items-center gap-1.5">
+                                                            <span className="w-1 h-1 rounded-full bg-blue-500/40 shrink-0"></span>
+                                                            <a href={item.href} className="text-xs text-gray-400 hover:text-white transition-colors">
+                                                                {item.label}
+                                                            </a>
+                                                        </div>
+                                                    ))}
                                                 </div>
-                                            ))}
+                                            </div>
+                                            <div>
+                                                <span className="text-[10px] font-bold uppercase tracking-wider text-gray-500 block mb-2">Kerala & India</span>
+                                                <div className="grid grid-cols-2 gap-x-2 gap-y-2">
+                                                    {[
+                                                        { label: 'Kochi', href: '/locations/kochi/' },
+                                                        { label: 'Trivandrum', href: '/locations/thiruvananthapuram/' },
+                                                        { label: 'Kozhikode', href: '/locations/kozhikode/' },
+                                                        { label: 'Thrissur', href: '/locations/thrissur/' },
+                                                        { label: 'Ernakulam', href: '/locations/ernakulam/' },
+                                                        { label: 'Calicut', href: '/locations/calicut/' },
+                                                        { label: 'Kannur', href: '/locations/kannur/' },
+                                                        { label: 'Kasaragod', href: '/locations/kasaragod/' },
+                                                        { label: 'Kanhangad', href: '/locations/kanhangad/' },
+                                                        { label: 'Palakkad', href: '/locations/palakkad/' },
+                                                        { label: 'Kollam', href: '/locations/kollam/' },
+                                                        { label: 'Mangalore', href: '/locations/mangalore/' },
+                                                        { label: 'Coimbatore', href: '/locations/coimbatore/' },
+                                                        { label: 'Chennai', href: '/locations/chennai/' },
+                                                    ].map(item => (
+                                                        <div key={item.href} className="flex items-center gap-1.5">
+                                                            <span className="w-1 h-1 rounded-full bg-blue-500/40 shrink-0"></span>
+                                                            <a href={item.href} className="text-xs text-gray-400 hover:text-white transition-colors">
+                                                                {item.label}
+                                                            </a>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
                                         </div>
                                     </nav>
                                 </div>

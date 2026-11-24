@@ -29,4 +29,8 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
+# LLMs.txt for AI agents and Generative Search Engines
+# https://www.anaghkr.in/llms.txt
+# https://www.anaghkr.in/llms-full.txt
+
 Sitemap: https://www.anaghkr.in/sitemap.xml
