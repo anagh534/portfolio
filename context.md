@@ -1,9 +1,22 @@
 # Site-wide SEO Audit Context
-Last Updated: 2026-11-24 19:05:00
+Last Updated: 2026-11-24 19:15:00
 
 This document tracks SEO maintenance and updates for the portfolio website.
 
 ## Latest Updates
+- **2026-11-24**: Published 4 new strategic 2027-targeted blog posts to capture early search intent.
+  - Published `"Best Web Development Stack in 2027: Next.js vs MERN Guide"` (`/blog/best-web-development-stack-kerala-2027/`) targeting `best web development stack 2027`, `website developer in kerala`, `mern stack developer kerala`, and `nextjs developer kerala`.
+  - Published `"Hire Remote Kerala Developers for UAE & Gulf Businesses (2027)"` (`/blog/hire-kerala-developer-uae-gulf-businesses-2027/`) targeting `hire remote kerala developer uae`, `kerala developer for uae business`, and `hire flutter developer dubai`.
+  - Published `"Node.js vs NestJS in 2027: Backend Architecture for Kerala Apps"` (`/blog/nodejs-vs-nestjs-backend-development-kerala-2027/`) targeting `node.js development company in kochi`, `nestjs developer kerala`, and `backend development cost kerala`.
+  - Published `"Mobile App Development Cost in Kerala: 2027 Startup Roadmap"` (`/blog/mobile-app-development-cost-roadmap-kerala-2027/`) targeting `mobile app developer in kerala`, `mobile app development cost kerala 2027`, and `app developer kochi`.
+  - Added full internal linking with trailing slashes across all services, location pages (`/locations/kochi/`, `/locations/thiruvananthapuram/`, `/locations/calicut/`), and portfolio pages.
+  - Updated `public/sitemap.xml` with all 4 new routes.
+- **2026-11-24**: Published new high-intent SEO blog post targeting mobile app development keywords.
+  - Published `"Freelance Mobile App Development Team in Kerala (2026 Guide)"` at `/blog/freelance-mobile-app-development-team-kerala-2026/` in `public/data/blogs.json`.
+  - Targeted core keywords: `freelance mobile app development team kerala`, `mobile app developer in kerala`, `app developer kochi`, `flutter developer kerala`, `hire mobile app developer kerala`, and `mobile app development cost kerala`.
+  - Content details Flutter single-codebase benefits, Kochi/Infopark agency vs freelance team trade-offs, pricing tiers (₹40k–₹3.5L+), and architectural evaluation checklists.
+  - Interlinked to `/flutter-app-development/`, `/mobile-app-development/`, `/locations/kochi/`, `/portfolio/`, and `/contact/` with trailing slashes.
+  - Updated `public/sitemap.xml` with the new route and refreshed the blog index `lastmod` timestamp.
 - **2026-11-24**: Core Web Vitals, Modern Web Guidance & Security Enhancements.
   - Added Speculation Rules API (`<script type="speculationrules">`) to `src/layouts/BaseLayout.astro` for instantaneous same-origin page prerendering on hover (`eagerness: "moderate"`).
   - Added `dns-prefetch` and `preconnect` for Google Tag Manager to minimize network handshake latency.
