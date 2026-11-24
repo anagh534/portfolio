@@ -1,9 +1,16 @@
 # Site-wide SEO Audit Context
-Last Updated: 2026-09-03 20:10:00
+Last Updated: 2026-11-24 19:05:00
 
 This document tracks SEO maintenance and updates for the portfolio website.
 
 ## Latest Updates
+- **2026-11-24**: Core Web Vitals, Modern Web Guidance & Security Enhancements.
+  - Added Speculation Rules API (`<script type="speculationrules">`) to `src/layouts/BaseLayout.astro` for instantaneous same-origin page prerendering on hover (`eagerness: "moderate"`).
+  - Added `dns-prefetch` and `preconnect` for Google Tag Manager to minimize network handshake latency.
+  - Implemented security meta headers (`X-Content-Type-Options: nosniff` and `Referrer-Policy: strict-origin-when-cross-origin`).
+  - Optimized LCP on blog post template (`src/pages/blog/[slug].astro`) with `fetchpriority="high"` and `decoding="async"`.
+  - Added `interpolate-size: allow-keywords;` globally in `src/styles/global.css` to enable smooth CSS transitions between 0 and intrinsic sizes.
+  - Added modern modal scroll containment rules (`overscroll-behavior: contain`) on `dialog:modal` and `dialog::backdrop` to prevent body scroll chaining.
 - **2026-09-03**: Homepage SEO keyword mapping, section alignment, and scalable review system.
   - Added `KeywordServiceMap.js` on homepage and keyword grid on services page mapping 50+ local Kerala keywords (`web-development`, `mern-stack-development`, `mobile-app-development`, `ecommerce-development`, etc.).
   - Standardized homepage layout, padding, and margins across all screen sizes with responsive mobile spacing (`py-14 sm:py-20 md:py-24`).
