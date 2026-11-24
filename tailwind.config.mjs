@@ -10,6 +10,9 @@ export default {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                sans: ['"Inter Variable"', '"Inter"', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', '"Open Sans"', '"Helvetica Neue"', 'sans-serif'],
+            },
             colors: {
                 brand: {
                     blue: "#3b82f6",
