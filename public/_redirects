@@ -1,16 +1,91 @@
+# Permanent 301 Redirects for anaghkr.in
+# GitHub Pages / Cloudflare Pages / Netlify format
+
+# Resume PDF Direct Redirect
 /ANAGH-K-R-MERN-STACK-DEVELOPER.pdf  https://drive.google.com/file/d/1EaHneU1Zsyadr8Xoppa2We7laj-nrnQJ/view?usp=sharing  301
-/instagram-store-development /web-development/ 301
-/instagram-store-development/ /web-development/ 301
-/shopify-store-development /web-development/ 301
-/shopify-store-development/ /web-development/ 301
+
+# Legacy Store & Service Pages -> High-Converting Specialized Solutions
+/shopify-store-development /ecommerce-software/ 301
+/shopify-store-development/ /ecommerce-software/ 301
+/dropshipping-website-development /ecommerce-software/ 301
+/dropshipping-website-development/ /ecommerce-software/ 301
+/clothing-ecommerce-website-development /ecommerce-software/ 301
+/clothing-ecommerce-website-development/ /ecommerce-software/ 301
+/electronics-ecommerce-website-development /ecommerce-software/ 301
+/electronics-ecommerce-website-development/ /ecommerce-software/ 301
+/shoe-store-website-development /ecommerce-software/ 301
+/shoe-store-website-development/ /ecommerce-software/ 301
+/instagram-store-development /ecommerce-software/ 301
+/instagram-store-development/ /ecommerce-software/ 301
 /wordpress-development /web-development/ 301
 /wordpress-development/ /web-development/ 301
-/clothing-ecommerce-website-development /web-development/ 301
-/clothing-ecommerce-website-development/ /web-development/ 301
-/dropshipping-website-development /web-development/ 301
-/dropshipping-website-development/ /web-development/ 301
-/electronics-ecommerce-website-development /web-development/ 301
-/electronics-ecommerce-website-development/ /web-development/ 301
-/shoe-store-website-development /web-development/ 301
-/shoe-store-website-development/ /web-development/ 301
+
+# Trailing Slash Consolidation (Canonicalization to enforce trailing slash)
+/about /about/ 301
+/portfolio /portfolio/ 301
+/contact /contact/ 301
 /resume /resume/ 301
+/services /services/ 301
+/blog /blog/ 301
+/locations /locations/ 301
+/flutter-app-development /flutter-app-development/ 301
+/web-development /web-development/ 301
+/mobile-app-development /mobile-app-development/ 301
+/mern-stack-development /mern-stack-development/ 301
+/react-development /react-development/ 301
+/nodejs-development /nodejs-development/ 301
+/nextjs-development /nextjs-development/ 301
+/chat-app-development /chat-app-development/ 301
+/dating-app-development /dating-app-development/ 301
+/ecommerce-development /ecommerce-development/ 301
+/hire-kerala-developer-remotely /hire-kerala-developer-remotely/ 301
+/laravel-development /laravel-development/ 301
+/nestjs-development /nestjs-development/ 301
+/web-design /web-design/ 301
+
+# Specialized Solutions Trailing Slash
+/crm-software /crm-software/ 301
+/erp-software /erp-software/ 301
+/restaurant-software /restaurant-software/ 301
+/billing-software /billing-software/ 301
+/attendance-tracking-system /attendance-tracking-system/ 301
+/ai-chatbots /ai-chatbots/ 301
+/whatsapp-ai-bot /whatsapp-ai-bot/ 301
+/ecommerce-software /ecommerce-software/ 301
+
+# Location Pages Trailing Slash Consolidation
+/locations/kochi /locations/kochi/ 301
+/locations/calicut /locations/calicut/ 301
+/locations/thiruvananthapuram /locations/thiruvananthapuram/ 301
+/locations/kozhikode /locations/kozhikode/ 301
+/locations/kannur /locations/kannur/ 301
+/locations/kasaragod /locations/kasaragod/ 301
+/locations/kanhangad /locations/kanhangad/ 301
+/locations/ernakulam /locations/ernakulam/ 301
+/locations/thrissur /locations/thrissur/ 301
+/locations/palakkad /locations/palakkad/ 301
+/locations/kollam /locations/kollam/ 301
+/locations/coimbatore /locations/coimbatore/ 301
+/locations/chennai /locations/chennai/ 301
+/locations/mangalore /locations/mangalore/ 301
+/locations/dubai /locations/dubai/ 301
+/locations/abu-dhabi /locations/abu-dhabi/ 301
+/locations/sharjah /locations/sharjah/ 301
+/locations/doha /locations/doha/ 301
+/locations/riyadh /locations/riyadh/ 301
+/locations/muscat /locations/muscat/ 301
+/locations/kuwait /locations/kuwait/ 301
+/locations/bahrain /locations/bahrain/ 301
+
+# Blog Posts Trailing Slash Consolidation
+/blog/build-ecommerce-website-mern-stack-2026-razorpay-nextjs /blog/build-ecommerce-website-mern-stack-2026-razorpay-nextjs/ 301
+/blog/dammonitor-kerala-dam-monitoring-app-real-time-water-levels-2026 /blog/dammonitor-kerala-dam-monitoring-app-real-time-water-levels-2026/ 301
+/blog/flutter-vs-react-native-2026-kerala /blog/flutter-vs-react-native-2026-kerala/ 301
+/blog/how-to-choose-mern-stack-developer-in-kerala-2026 /blog/how-to-choose-mern-stack-developer-in-kerala-2026/ 301
+/blog/quicktransfer-mac-android-offline-file-sharing /blog/quicktransfer-mac-android-offline-file-sharing/ 301
+/blog/freelance-website-development-cost-india-2026 /blog/freelance-website-development-cost-india-2026/ 301
+/blog/freelance-mobile-app-development-team-kerala-2026 /blog/freelance-mobile-app-development-team-kerala-2026/ 301
+/blog/best-web-development-stack-kerala-2027 /blog/best-web-development-stack-kerala-2027/ 301
+/blog/hire-kerala-developer-uae-gulf-businesses-2027 /blog/hire-kerala-developer-uae-gulf-businesses-2027/ 301
+/blog/nodejs-vs-nestjs-backend-development-kerala-2027 /blog/nodejs-vs-nestjs-backend-development-kerala-2027/ 301
+/blog/mobile-app-development-cost-roadmap-kerala-2027 /blog/mobile-app-development-cost-roadmap-kerala-2027/ 301

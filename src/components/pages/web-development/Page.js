@@ -111,12 +111,12 @@ export default function WebDevelopmentPage() {
                 { number: "11+", label: "Cities in Kerala" },
             ]}
             whatYouGet={[
-                { icon: <Palette size={22} />, title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Pixel-perfect, unique designs tailored to your brand identity and target audience, not generic templates." },
-                { icon: <Smartphone size={22} />, title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Your website looks and performs flawlessly on all devices — mobile, tablet, and desktop." },
-                { icon: <Zap size={22} />, title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Optimized performance with sub-3-second load times using modern caching, lazy loading, and CDN integration." },
-                { icon: <Search size={22} />, title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Built with proper semantic HTML, meta tags, structured data, and Core Web Vitals optimization from day one." },
-                { icon: <ShieldCheck size={22} />, title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "HTTPS, input validation, secure authentication, and best-practice security measures for every build." },
-                { icon: <LayoutDashboard size={22} />, title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Admin dashboards and CMS integration so you can update your own content without touching code." },
+                { icon: <Palette size={22} />, title: "Custom Brand Identity", desc: "Pixel-perfect, unique designs tailored to your brand identity and target audience, not generic off-the-shelf templates." },
+                { icon: <Smartphone size={22} />, title: "Mobile-First Responsiveness", desc: "Your website looks and performs flawlessly on all devices — mobile, tablet, and desktop." },
+                { icon: <Zap size={22} />, title: "Sub-Second Performance", desc: "Optimized performance with sub-second load times using modern caching, image optimization, and CDN edge networks." },
+                { icon: <Search size={22} />, title: "Built-In Technical SEO", desc: "Built with proper semantic HTML, meta tags, Schema.org structured data, and Core Web Vitals optimization from day one." },
+                { icon: <ShieldCheck size={22} />, title: "Bank-Grade Security", desc: "HTTPS, strict Content Security Policies, input validation, and secure authentication for every build." },
+                { icon: <LayoutDashboard size={22} />, title: "Intuitive Admin Control", desc: "Custom dashboards and headless CMS integration so you can update products, blogs, and inquiries with ease." },
             ]}
             technologies={[
                 { category: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "TypeScript", "JavaScript", "HTML5", "CSS3"] },
@@ -125,53 +125,73 @@ export default function WebDevelopmentPage() {
                 { category: "Deployment & Tools", items: ["Vercel", "AWS", "Docker", "Git", "CI/CD", "Cloudflare"] },
             ]}
             process={[
-                { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "We discuss your goals, target audience, and project scope to map out the perfect solution." },
-                { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Wireframes and UI mockups are crafted in Figma for your approval before any code is written." },
-                { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Clean, scalable code is written using modern frameworks with regular progress updates." },
-                { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Thorough testing, SEO setup, deployment, and handover with full documentation and support." },
+                { title: "Discovery & Planning", desc: "We map your business workflows, competitors, and target audience to design the optimal technical solution." },
+                { title: "UI/UX Design in Figma", desc: "Interactive clickable prototypes are crafted for your approval before writing a single line of code." },
+                { title: "Full-Stack Development", desc: "Clean, maintainable code is engineered using modern frameworks with regular staging demo links." },
+                { title: "Testing & Deployment", desc: "Rigorous cross-browser testing, SEO audit, DNS configuration, and zero-downtime deployment." },
             ]}
             faqs={[
-                { question: "Can I get a free website in Kerala?", answer: "While a fully custom professional website requires an investment, I offer a 100% Free Website Consultation to plan your architecture. Additionally, I provide a Free Domain and Free First-Year Hosting setup on select starter business bundles to help you get online affordably." },
-                { question: "How much does a custom website cost in Kerala?", answer: "A basic business website starts around ₹8,000–₹20,000, while complex web applications can range from ₹30,000 upwards. It is much more affordable than hiring a massive agency." },
-                { question: "Do you physically meet clients for web development?", answer: "Yes! While I work with clients all over India remotely, I am available for direct, in-person meetings in Kochi, Kozhikode (Calicut), and Trivandrum to discuss your web projects." },
-                { question: "Do you offer web development services outside India?", answer: "Absolutely. I regularly partner with businesses and agencies in the UAE (Dubai), USA, UK, and Australia, functioning as their offshore freelance website development team in Kerala." },
-                { question: "How long does it take to build a website?", answer: "A standard business website typically takes 1–3 weeks. Complex web apps or custom web apps platforms can take 4–8 weeks depending on your scope." },
-                { question: "Will my website rank on Google?", answer: "Yes, every website I build is deeply SEO-optimized with proper structure, meta tags, fast load times, and Schema markup — which is why you found me!" },
-                { question: "Which cities in Kerala do you serve?", answer: "I build responsive websites for clients in Kochi, Kozhikode, Trivandrum, Thrissur, Kannur, Kasaragod, Kollam, Palakkad, and Ernakulam." },
+                { question: "Can I get a free website consultation in Kerala?", answer: "Yes! I offer a 100% Free Technical Consultation to plan your site architecture, scope, and technology roadmap before taking on any project." },
+                { question: "How much does a custom website cost in Kerala?", answer: "A basic business website starts around ₹15,000–₹35,000, while complex custom web applications and eCommerce portals range from ₹45,000 to ₹1,50,000+. This provides senior developer quality at significantly lower costs than large agency retainers." },
+                { question: "Do you physically meet clients for web development?", answer: "Yes! While I work with clients all over India and the GCC remotely, I am available for direct meetings in Kochi, Kozhikode (Calicut), Kannur, and Trivandrum to discuss major projects." },
+                { question: "Do you offer web development services for UAE & international clients?", answer: "Absolutely. I regularly partner with businesses in Dubai, Abu Dhabi, Doha, and Riyadh, serving as their dedicated senior software engineer with complete time-zone overlap and 60%–70% budget savings." },
+                { question: "How long does it take to build a website?", answer: "A standard business website typically takes 1–2 weeks. Complex web apps or custom platforms take 3–6 weeks depending on features and integrations." },
+                { question: "Will my website rank high on Google?", answer: "Yes, every website I build is deeply SEO-optimized with proper semantic hierarchy, meta tags, sub-second load times, and structured Schema markup." },
+                { question: "Which cities in Kerala do you serve?", answer: "I build responsive websites for clients across Kochi, Kozhikode, Trivandrum, Thrissur, Kannur, Kasaragod, Kollam, Palakkad, and Ernakulam." },
             ]}
             relatedServices={[
-                { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Full-stack apps with MongoDB, Express, React, Node.js", href: "/mern-stack-development/" },
-                { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "SEO-first React apps with server-side rendering", href: "/nextjs-development/" },
-                { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Dynamic SPAs and interactive UIs", href: "/react-development/" },
-                { title: "Website Developer Kerala | Custom Business Sites | ANAGH K R", desc: "Scalable backend APIs and services", href: "/nodejs-development/" },
+                { title: "MERN Stack Development", desc: "Full-stack apps with MongoDB, Express, React, Node.js", href: "/mern-stack-development/" },
+                { title: "Next.js Development", desc: "SEO-first React apps with server-side rendering", href: "/nextjs-development/" },
+                { title: "React Development", desc: "Dynamic SPAs and interactive client dashboards", href: "/react-development/" },
+                { title: "Node.js Development", desc: "Scalable backend APIs and real-time microservices", href: "/nodejs-development/" },
             ]}
             schemaData={schemaData}
             extraContent={
-                <div className="space-y-8 text-gray-300">
-                    <h2 className="text-3xl font-black text-white uppercase tracking-tight">Your Trusted Website Developer in Kerala</h2>
-                    <p className="leading-relaxed">
-                        In today's digital-first economy, a fast, responsive, and SEO-optimized website is your most powerful marketing tool. As a leading <strong>website developer in Kerala</strong>, I help businesses across Kochi, Calicut, and Trivandrum establish a dominant online presence. From sleek corporate portfolios to complex e-commerce platforms, I deliver custom web solutions that drive real business growth.
-                    </p>
-                    <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Global Quality, Local Pricing</h3>
-                    <p className="leading-relaxed">
-                        I don't just serve local businesses. I act as an on-demand <strong>freelance website development team in Kerala</strong> for clients across the globe. Companies in Dubai, New York, London, and Sydney choose to work with me because I deliver agency-level quality at freelance rates. Whether you need a simple landing page or a complex React/Next.js application, I bring global best practices to every project.
-                    </p>
-                    <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Why Settle for Templates When You Can Have Custom?</h3>
-                    <p className="leading-relaxed">
-                        Many agencies use bloated WordPress templates that slow down your site and hurt your Google rankings. I build fully custom, hand-coded websites using modern frameworks like Next.js and React. This guarantees lightning-fast load times, exceptional Core Web Vitals, and a user experience that keeps visitors engaged.
-                    </p>
-                    <p className="leading-relaxed">
-                        When you hire me as your <strong>professional web developer in Kerala</strong>, you get:
-                    </p>
-                    <ul className="list-disc pl-6 space-y-2 mt-4">
-                        <li><strong>SEO-First Architecture:</strong> Clean semantic HTML and server-side rendering to ensure your site ranks high on Google for relevant keywords.</li>
-                        <li><strong>Mobile-First Design:</strong> With over 70% of web traffic coming from mobile devices, your site will look perfect on every screen size.</li>
-                        <li><strong>Scalable Backend Systems:</strong> Using Node.js and MongoDB to power custom web applications that can handle high traffic volumes.</li>
-                    </ul>
-                    <h3 className="text-2xl font-bold text-white mt-8 uppercase tracking-tight">Driving Success for Kerala and Global Businesses</h3>
-                    <p className="leading-relaxed">
-                        I understand both local and international market nuances. Whether you need a multilingual site to cater to a diverse demographic in the UAE or integrations with popular Indian payment gateways like Razorpay, I have the expertise to execute it flawlessly. Partner with a dedicated <strong>freelance website develop team</strong> that is committed to your long-term success.
-                    </p>
+                <div className="space-y-10 text-gray-300">
+                    <div>
+                        <h2 className="text-3xl md:text-4xl font-black text-white uppercase tracking-tight mb-4">Your Trusted Website Developer in Kerala</h2>
+                        <p className="leading-relaxed text-lg">
+                            In today's digital economy, a slow, template-driven website costs you customers every single day. As a leading <strong>website developer in Kerala</strong>, I engineer high-speed, custom-coded web platforms for businesses across <a href="/locations/kochi/" className="text-blue-400 hover:underline">Kochi</a>, <a href="/locations/kozhikode/" className="text-blue-400 hover:underline">Calicut</a>, <a href="/locations/thiruvananthapuram/" className="text-blue-400 hover:underline">Trivandrum</a>, and the <a href="/locations/dubai/" className="text-blue-400 hover:underline">UAE</a>.
+                        </p>
+                    </div>
+
+                    {/* WordPress vs Custom Comparison Section */}
+                    <div className="p-8 rounded-[36px] bg-white/[0.03] border border-white/10 space-y-6">
+                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest">
+                            Architecture Comparison
+                        </div>
+                        <h3 className="text-2xl font-black text-white uppercase tracking-tight">
+                            Searching for a WordPress or Shopify Developer in Calicut or Kochi?
+                        </h3>
+                        <p className="text-gray-300 leading-relaxed">
+                            Many local businesses instinctively look for WordPress or Shopify developers because they are familiar terms. However, growing enterprises quickly discover their severe limitations:
+                        </p>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
+                            <div className="p-6 rounded-2xl bg-red-500/5 border border-red-500/20 space-y-3">
+                                <h4 className="text-lg font-bold text-red-300">The Problem with WordPress & Shopify</h4>
+                                <ul className="text-sm text-gray-400 space-y-2 list-disc pl-4">
+                                    <li>20+ plugins create severe security vulnerabilities and frequent site crashes.</li>
+                                    <li>Shopify charges recurring monthly fees plus 2% transaction cuts on every order.</li>
+                                    <li>Slow database queries result in 3–5 second page loads and high mobile bounce rates.</li>
+                                </ul>
+                            </div>
+                            <div className="p-6 rounded-2xl bg-emerald-500/5 border border-emerald-500/20 space-y-3">
+                                <h4 className="text-lg font-bold text-emerald-300">The Modern Next.js & Custom Advantage</h4>
+                                <ul className="text-sm text-gray-400 space-y-2 list-disc pl-4">
+                                    <li>Sub-800ms page load speeds that achieve 100/100 Google Core Web Vitals scores.</li>
+                                    <li>Zero monthly platform fees — you own your software, database, and source code 100%.</li>
+                                    <li>Custom checkout flows with Razorpay, Cashfree, or GCC payment gateways with zero platform tax.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 className="text-2xl font-bold text-white uppercase tracking-tight mb-4">Global Standards, Senior Engineering Quality</h3>
+                        <p className="leading-relaxed">
+                            With past experience at Canadian digital agency Dotscape and product companies, I bring international engineering standards to every project. Whether you need a multilingual company portal in the UAE or a high-converting eCommerce store in Kerala, you receive clean, scalable code built for long-term growth.
+                        </p>
+                    </div>
                 </div>
             }
         />

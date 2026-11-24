@@ -2,6 +2,7 @@
 import "@/styles/global.css";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
+import FloatingWhatsApp from "@/components/ui/FloatingWhatsApp.astro";
 import { metadata as globalMetadata } from "@/config/siteMetadata";
 import {
   personStructuredData,
@@ -180,6 +181,8 @@ const appleTouchIcon = icons.apple || fallbackPngIcon;
     </main>
 
     <Footer />
+
+    <FloatingWhatsApp />
 
     <script src="../scripts/gsapAnimations.js"></script>
   </body>
